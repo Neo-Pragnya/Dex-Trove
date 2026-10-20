@@ -1,6 +1,6 @@
 ---
 name: interactive-web-motion
-description: "Add playful, modern, accessible interactions to a website or GitHub Pages docs site: SVG shapes that morph on hover (circle → star → flower → blob), a cursor-reactive hero field of pastel shapes, text scramble, blur-in scroll reveals, count-up stats, magnetic buttons, tilt + spotlight cards, marching-ants borders, marquees, drifting aurora backgrounds and film grain, from one dependency-free motion-kit.js + motion-kit.css driven by data attributes. Use whenever someone wants a site to feel alive, modern, fun or less static, wants hover animations, morphing SVGs or effects like graphify.com, Stripe or Linear, asks for an animated hero, landing page polish, micro-interactions, scroll animations or a pastel redesign, or wants to upgrade Astro/MkDocs/plain-HTML docs or a GitHub Pages site visually, even if they don't name a library."
+description: "Add playful, modern, accessible interactions to a website or GitHub Pages docs site: SVG shapes that morph on hover (circle → star → flower → blob), a cursor-reactive hero field of pastel shapes, rotating words, letter hover waves (colour, weight, typeface), particle text that diffuses from the cursor, blur-in scroll reveals, count-up stats, magnetic buttons, tilt + spotlight cards, marching-ants borders, marquees, drifting aurora backgrounds and film grain, from one dependency-free motion-kit.js + motion-kit.css driven by data attributes. Use whenever someone wants a site to feel alive, modern, fun or less static, wants hover animations, morphing SVGs or effects like graphify.com, Stripe or Linear, asks for an animated hero, landing page polish, micro-interactions, scroll animations or a pastel redesign, or wants to upgrade Astro/MkDocs/plain-HTML docs or a GitHub Pages site visually, even if they don't name a library."
 ---
 
 # Interactive Web Motion
@@ -18,7 +18,10 @@ Open `assets/gallery.html` in a browser to see and feel every effect before choo
 | Morphing shape | `<svg viewBox="0 0 100 100" data-morph="circle>star"></svg>` | icons on cards, nav, buttons; the shape changes when its link/button is hovered or focused |
 | Cycling shape | `data-morph="circle star hex flower"` (+ `data-morph-auto="2400"`) | logos, empty states, playful accents |
 | Shape field | `<canvas data-field="36"></canvas>` inside a `position:relative` hero | hero backgrounds: pastel shapes drift, flee the pointer and morph when it comes near |
-| Text scramble | `<h1 data-scramble>Title</h1>` | headings, CTA labels (resolves left → right; `aria-label` keeps the real text) |
+| Rotating word | `<span data-words="agents\|teams\|docs">agents</span>` | the word itself changes: letters tip out and the next word rises in, while the slot's width glides (`data-colors` paints a gradient) |
+| Letter wave | `<h2 data-letters>Title</h2>` | headings and CTAs: letters near the pointer lift, gain weight and shift to `--mk-hot`; set `--mk-alt-font` to swap typeface on the hottest letters |
+| Particle text | `<span data-particles="#c1,#c2">Title</span>` | one hero line: text made of particles that assemble, diffuse away from the cursor and spring back (single line; wrapped text falls back to normal) |
+| Letter rise | `<h1 data-rise>Title</h1>` | quiet entrance: letters rise and un-blur, staggered, when revealed. `data-scramble` is now an alias (random-glyph scrambling read as glitchy, so it was retired) |
 | Scroll reveal | `<div data-reveal style="--d:.1s">` | sections and cards: fade + un-blur + rise, staggered by `--d` |
 | Count-up | `<span data-countup>968</span>` | stats |
 | Magnetic | `<a data-magnetic>` | primary buttons |
@@ -27,6 +30,10 @@ Open `assets/gallery.html` in a browser to see and feel every effect before choo
 | Marquee | `<div data-marquee><div>…</div><div aria-hidden="true">…same…</div></div>` | logos, sources, tags |
 | Aurora | `<div class="mk-aurora" style="--mk-aurora-a:…;--mk-aurora-b:…">` | soft drifting colour behind a hero |
 | Grain | `<body class="mk-grain">` | subtle film texture over flat pastel backgrounds |
+
+Gradient-text headings (`background-clip: text`) can't reach split letters, so give split text its colours with
+`data-colors="#a,#b,#c"`. Variable fonts make the letter-wave weight change smooth: load ranges such as
+`Inter:wght@100..900`.
 
 Shapes available: `circle square squircle triangle diamond hex octagon star star4 star6 spark flower flower4
 flower8 blob blob2 blob3 cloud gear`. Add more with `MotionKit.registerShape(name, theta => radius)`.
@@ -58,7 +65,7 @@ Catmull-Rom spline, which gives polygons softly rounded corners: a friendly, mod
    ```
    (In Astro, prefix with `import.meta.env.BASE_URL` for GitHub Pages project sites.)
 3. **Choose 3–5 effects, not all twelve.** A good default:
-   - hero: `mk-aurora` + `canvas[data-field]` + `h1[data-scramble]`
+   - hero: `mk-aurora` + `canvas[data-field]` + a `data-particles` line + a `data-words` slot
    - every card: a `svg[data-morph]` glyph + `data-reveal`
    - stats: `data-countup`
    - primary CTA: `data-magnetic` + `ants`
@@ -72,7 +79,7 @@ Catmull-Rom spline, which gives polygons softly rounded corners: a friendly, mod
 - Everything honours `prefers-reduced-motion`. Reveals show instantly, morphs jump, the field draws one still
   frame, and marquees and auroras stop. Never bypass this.
 - Content is never hidden without JS: the reveal styles only apply after the script adds `mk-ready`.
-- Decorative SVG and canvas need `aria-hidden="true"`. Scrambled text keeps its real text in `aria-label`.
+- Decorative SVG and canvas need `aria-hidden="true"`. Split and particle text keep the real text in a visually hidden `.mk-sr` span, so screen readers and selection get the words, not letters.
 - The field pauses when off-screen (IntersectionObserver) and caps device-pixel-ratio at 2.
 - Elements visible at load are revealed directly; the observer only handles elements below the fold.
 - Keep motion short (≤ 800 ms) and use one easing everywhere (`cubic-bezier(.22,1,.36,1)`).

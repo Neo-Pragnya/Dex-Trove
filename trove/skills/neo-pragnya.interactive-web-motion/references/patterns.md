@@ -7,7 +7,7 @@ Decide what the motion should *say* before adding any:
 | Personality | Effects | Avoid |
 | --- | --- | --- |
 | Playful, welcoming (libraries, community, education) | morphing glyphs, shape field, count-up, soft aurora | glitch, harsh flashes |
-| Technical, precise (dev tools, infra) | marching ants, scramble, dashed borders, grid backgrounds, wireframes | bouncy easing, blobs |
+| Technical, precise (dev tools, infra) | marching ants, letter waves, dashed borders, grid backgrounds, wireframes | bouncy easing, blobs |
 | Calm, editorial (docs, research, writing) | reveals, subtle tilt, grain, one accent morph | fields, marquees |
 
 Graphify (graphify.com) is a good reference for the *technical* end. It uses dashed "marching" borders, glitch and
@@ -55,7 +55,7 @@ The rest shape is calm and rounded; the hover shape is lively, with more points 
 
 - **Hero:** `position:relative; overflow:hidden; border-radius:28px` container, `mk-aurora` +
   `canvas[data-field]` behind, content on top (`position:relative; z-index:1`). Keep the headline short (≤ 8
-  words) and scramble only the headline.
+  words) and give only the headline a particle line or rotating word.
 - **Card grid:** glyph (`svg[data-morph]`, 44–56 px) top-left, title, 2–3 line description, meta chips. Put
   `data-reveal` with an increasing `--d` (0, .05, .1 …, capped at .3 s).
 - **Stats band:** `data-countup` numbers in large weight-800 type, with tiny labels.
@@ -66,7 +66,8 @@ The rest shape is calm and rounded; the hover shape is lively, with more points 
 
 - Don't animate layout properties (width, top, left); the kit only uses transform, opacity and filter.
 - Don't put `data-field` on more than one element per page.
-- Don't scramble long paragraphs, links in prose, or anything a screen reader reads repeatedly.
+- Don't split long paragraphs or links in prose into letters. Keep text effects to headlines, CTAs and short labels.
+- Avoid random-glyph scrambles: they read as glitchy. Prefer a word change, a letter wave or particles.
 - Don't auto-morph more than three things on screen at once.
 - Don't hide primary content behind hover. Hover adds delight; it never reveals information that touch users
   can't reach.

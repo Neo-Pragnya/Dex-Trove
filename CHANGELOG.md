@@ -11,11 +11,44 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 
 ## [Unreleased]
 
+---
+
+## [0.1.1] — 2026-10-20
+
+### Added
+
+- **`neo-pragnya/living-diagrams`** (new first-party skill) contains:
+  - `plexus.js`, an orbit or web constellation canvas;
+  - `diagram-fx.js`, hover effects for any SVG or rendered Mermaid diagram: connected nodes light up, edges flow and
+    pulses travel the connections;
+  - `term_flow.py`, which builds animated terminal walkthroughs as one CSS-animated SVG from real command output;
+  - `cdp_check.mjs`, for verifying animations in real time in headless Chrome.
+- Docs site: Mermaid diagrams now respond to hover (`diagram-fx`).
+
+### Changed
+
+- **Text effects:** the random-glyph "scramble" is gone. The site now uses particle text that diffuses away from the
+  cursor (hero), a rotating word ("for your agents · copilots · teams · workflows"), and letter hover waves on
+  section headings. `data-scramble` remains as an alias for a gentle letter rise.
+- **`neo-pragnya/interactive-web-motion`:** adds `data-words`, `data-letters`, `data-particles` and `data-rise`.
+  Easing is clamped, which fixes rare frames where shapes exploded into huge wedges.
+- **`neo-pragnya/astro-docs-site`:**
+  - Mermaid is detected at build time (`remark-mermaid`), so code samples that merely contain a Mermaid fence stay
+    code.
+  - Shiki syntax highlighting survives sanitising, with light and dark themes and a strict inline-style allow-list.
+  - The renderer is lazy, themed from CSS tokens, re-renders on theme toggle, can expand to full screen and shows the
+    source when a diagram fails.
+  - The scaffolder un-ignores `website/src/lib/` when a Python `.gitignore` hides it.
+
+### Fixed
+
+- Code blocks on the docs site had lost syntax highlighting (the sanitiser stripped Shiki's classes and styles).
+- Item pages could try to render Mermaid examples inside Markdown code samples, showing errors.
+- `release-testpypi.yml` passed `--trusted-publishing if-necessary`, which uv rejects; it now passes `automatic`.
+
 ### Trove
 
-- `neo-pragnya/astro-docs-site` updated. The scaffolder now un-ignores `website/src/lib/` when a Python
-  `.gitignore` hides it. The skill adds advice on giving each site its own theme layer, and on testing phone widths
-  in an iframe.
+- 971 items (one new first-party skill). `astro-docs-site` and `interactive-web-motion` get new item versions.
 
 ---
 

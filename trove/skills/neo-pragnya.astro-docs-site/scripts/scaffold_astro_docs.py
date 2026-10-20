@@ -27,6 +27,7 @@ from typing import Any
 HERE = Path(__file__).resolve().parent
 TEMPLATES = HERE.parent / "templates"
 MOTION_KIT = HERE.parent.parent / "interactive-web-motion" / "assets"
+DIAGRAM_FX = HERE.parent.parent / "living-diagrams" / "assets"
 TINTS = ["coral", "teal", "lilac", "lemon", "sky", "lime", "pink"]
 SHAPES = ["blob>star", "circle>flower", "squircle>spark", "hex>flower8", "triangle>circle", "diamond>star6", "octagon>gear"]
 
@@ -365,6 +366,13 @@ def main() -> int:
             shutil.copyfile(MOTION_KIT / name, kit / name)
     else:
         print("warning: interactive-web-motion skill not found next to this skill; add public/motion-kit/ yourself")
+    fx = out / "public" / "diagram-fx"
+    if DIAGRAM_FX.is_dir():
+        fx.mkdir(parents=True, exist_ok=True)
+        for name in ("diagram-fx.js", "diagram-fx.css"):
+            shutil.copyfile(DIAGRAM_FX / name, fx / name)
+    else:
+        print("warning: living-diagrams skill not found next to this skill; add public/diagram-fx/ yourself")
     gi = out / ".gitignore"
     gi.write_text("node_modules/\ndist/\n.astro/\n", encoding="utf-8")
     if args.workflow:

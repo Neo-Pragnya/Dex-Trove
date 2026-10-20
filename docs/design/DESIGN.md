@@ -275,6 +275,21 @@ relative image and link targets in upstream Markdown to the upstream repo, **pin
 `raw.githubusercontent.com` for images and `github.com/…/blob/<commit>/` for links. Otherwise they would 404 on the
 site, and Astro would try to bundle them as local assets and fail the build.
 
+**Markdown pipeline:** `remark-doc-links`, then `remark-callouts`, then `remark-mermaid`, then Shiki, then
+`rehype-class-names`, then `rehype-sanitize`. Upstream Markdown is untrusted, so the sanitiser always runs last. Three
+things are allowed through:
+
+- heading ids (for the table of contents);
+- callout classes;
+- Shiki's highlighting, with inline styles limited to colour custom properties and a few keywords (no `url()`).
+
+Mermaid fences are marked at build time (`pre.mermaid-src`), so the browser renders exactly those. A Markdown code
+sample that merely *contains* a Mermaid fence stays a code sample.
+
+**Motion:** `motion-kit` (from `interactive-web-motion`) drives the glyphs, the hero field, the particle headline,
+the rotating word and the letter waves. `diagram-fx` (from `living-diagrams`) makes rendered Mermaid diagrams respond
+to hover. Both respect *reduce motion* and `?motion=static`.
+
 ## 11. Delivery loop
 
 ```mermaid

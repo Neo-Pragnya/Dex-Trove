@@ -1,0 +1,15 @@
+{
+  "id": "hello-walkthrough",
+  "title": "Your first walkthrough",
+  "subtitle": "Replace these lines with real output from your own tool.",
+  "theme_name": "paper",
+  "rows": 12,
+  "steps": [
+    {"title": "Install", "text": "One command puts the CLI on your PATH."},
+    {"title": "Run it", "text": "The tool does its work and says what it changed."}
+  ],
+  "session": [
+    {"cmd": "pip install your-tool", "step": 0, "out": ["Successfully installed your-tool-1.0.0"]},
+    {"cmd": "your-tool run --project .", "step": 1, "out": ["✓ 3 files checked", {"text": "  0 problems", "tone": "ok"}, "# comments like this are narration, not output"]}
+  ]
+}

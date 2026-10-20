@@ -1,0 +1,49 @@
+{
+  "id": "neo-pragnya/living-diagrams",
+  "kind": "skill",
+  "namespace": "neo-pragnya",
+  "name": "living-diagrams",
+  "title": "Living diagrams",
+  "description": "Make diagrams and hero visuals alive: a constellation/orbit plexus canvas (nodes ride orbits around a glowing core, drift freely and are pulled back by springs, link to neighbours, react to the cursor), hover effects for any SVG diagram including rendered Mermaid (hover a node and its neighbours light up, edges flow with dashes, pulses travel along the connections, everything else dims), and animated terminal walkthroughs that type real commands, print real output and tick off a step rail in sync, as one self-contained CSS-animated SVG that plays on GitHub, docs sites and slides. Use whenever someone wants animated or interactive diagrams, graph or network hover effects, a constellation or plexus or orbit hero, connected-node highlighting, to animate a flow or architecture diagram, to show how CLI commands work with an animated terminal or SVG, to turn infographics or slides into animated flows, or wants docs to feel alive, even if they don't say skill or animation.",
+  "tags": [
+    "executes-code",
+    "neo-pragnya",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya.living-diagrams",
+  "source": {
+    "id": "neo-pragnya",
+    "title": "Neo Pragnya (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+    "commit": null,
+    "path": "living-diagrams",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.living-diagrams",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "first-party default (sources.yaml)",
+    "notice": "Copyright (c) Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/diagram-fx.css",
+    "assets/diagram-fx.js",
+    "assets/examples/ananke_walkthroughs.py",
+    "assets/examples/hello_walkthrough.json",
+    "assets/plexus.js",
+    "references/recipes.md",
+    "scripts/cdp_check.mjs",
+    "scripts/term_flow.py"
+  ],
+  "entry_hash": "686fa8be96fb5de526c2286849691639ca2dd2435ca63a794af0f649c124d224",
+  "content_hash": "742d77d21cc4d2932a83135a69c0627592f20c91c22d12098ab5b6c32a9c5dca",
+  "learned_at": "2026-10-20T19:00:31+00:00"
+}

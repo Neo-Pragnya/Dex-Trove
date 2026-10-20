@@ -5,13 +5,14 @@ description: Author skills for the neo-pragnya namespace, credit inspirations an
 
 # First-party skills
 
-First-party items are authored by Neo Pragnya and live under the **`neo-pragnya`** namespace. In 0.1.0:
+First-party items are authored by Neo Pragnya and live under the **`neo-pragnya`** namespace. In 0.1.1:
 
 | Skill | What it does |
 | --- | --- |
 | [`marvellous-aws-architecture-docs`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.marvellous-aws-architecture-docs/) | AWS-reference-style architecture diagrams as code: animated SVGs with numbered flows, stage-by-stage views, draw.io and an interactive HTML docs page |
 | [`astro-docs-site`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.astro-docs-site/) | Scaffold a pastel, interactive Astro documentation site for any repo (docs read from `docs/`, MkDocs nav import, Mermaid, callouts, Pages workflow, link checker). Used for this site and Ananke Plexus's |
-| [`interactive-web-motion`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.interactive-web-motion/) | `motion-kit.js`: morphing SVG glyphs, a cursor-reactive shape field, scramble, reveals, count-ups, tilt, marching ants, accessible and dependency-free |
+| [`interactive-web-motion`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.interactive-web-motion/) | `motion-kit.js`: morphing SVG glyphs, a cursor-reactive shape field, rotating words, letter hover waves, particle text that diffuses from the cursor, reveals, count-ups, tilt and marching ants. Accessible and dependency-free |
+| [`living-diagrams`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.living-diagrams/) | Diagrams that move with meaning: an orbit/plexus hero canvas, hover effects for any SVG or Mermaid diagram (connected nodes light up, pulses travel the edges), and animated terminal walkthroughs built from real command output |
 | [`life-ikigai-architect`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.life-ikigai-architect/) | Personal Ikigai, vision, mission and roadmap as an animated HTML presentation |
 
 ## How they are learned

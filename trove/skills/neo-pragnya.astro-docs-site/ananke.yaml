@@ -1,7 +1,7 @@
 kind: skill
 namespace: neo-pragnya
 name: astro-docs-site
-version: 1.0.1
+version: 1.0.2
 ananke_id: urn:dex-trove:skill:neo-pragnya:astro-docs-site
 summary: 'Set up (or migrate to) a modern Astro documentation website for a repository, deployed to GitHub Pages:
   docs read straight from the repo''s docs/ folder (one source of truth for GitHub and the site), s…'

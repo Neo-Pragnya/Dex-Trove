@@ -3,6 +3,7 @@ import { getCollection, render } from "astro:content";
 import Glyph from "../../components/Glyph.astro";
 import Layout from "../../components/Layout.astro";
 import Mermaid from "../../components/Mermaid.astro";
+import { hasMermaid } from "../../lib/remark-mermaid";
 import {
   KIND_GLYPH,
   KINDS,
@@ -194,7 +195,7 @@ const usage: Record<Kind, string> = {
           <Content />
         </div>
       </section>
-      {entry.body?.includes("```mermaid") && <Mermaid />}
+      {hasMermaid(entry.body) && <Mermaid />}
     </article>
 
     <aside class="item-side">

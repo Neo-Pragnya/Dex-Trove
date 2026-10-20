@@ -119,6 +119,21 @@ Legend: `[x]` done · `[~]` in progress / partial · `[ ]` todo
       `feat/interactive-visuals` (not pushed)
 - [x] Dex site: 999 pages, 27 701 internal links, 0 broken, 0 missing anchors (`check_site.py`)
 
+## Phase 8 — Living diagrams, real Mermaid, gentler text effects (2026-10-20)
+- [x] Mermaid fixed at the root. The sanitiser stripped `language-*`, so the client had to guess diagrams from their
+      text. Now `remark-mermaid` marks real fences at build time, and Shiki highlighting is restored behind a strict
+      style allow-list (`rehype-class-names` normalises Shiki's `class`). The renderer is lazy, themed from CSS tokens,
+      re-renders on theme toggle, can expand and shows the source on failure. Verified on all Mermaid pages of the
+      Dex, Ananke and VICHARA sites.
+- [x] Scramble retired across the Dex, Ananke and VICHARA sites. Particle text, rotating words and letter hover waves
+      (colour, weight and typeface) replace it.
+- [x] New first-party skill `living-diagrams` (plexus.js, diagram-fx, term_flow.py, cdp_check.mjs): registered,
+      packaged and learned into the trove.
+- [x] Ananke: animated flows extracted from its infographics (intent to proof, governed execution, code graph, the
+      verifiable pipeline), plus three walkthroughs built from real CLI output, a "See It in Action" guide, a PyPI link
+      and a version chip.
+- [x] Released 0.1.1 to PyPI.
+
 ## Follow-ups / backlog
 - [ ] Move first-party skills into git (this repo's `first-party/` or their own repo) so CI can re-learn them
 - [x] Light-mode visual pass on the docs site (verified by screenshot)

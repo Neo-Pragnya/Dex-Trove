@@ -34,7 +34,13 @@ sources:
       interactive-web-motion:
         inspired_by:
           - { title: "graphify.com — dashed marching borders, reveals, grain", url: "https://graphify.com/" }
+          - { title: "Particle text effects (canvas pixel sampling)", url: "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData" }
           - { title: "Polar shape morphing (radius-function interpolation)", url: "https://en.wikipedia.org/wiki/Polar_coordinate_system" }
+      living-diagrams:
+        inspired_by:
+          - { title: "Ananke Plexus logo and infographics (the cosmic harness)", url: "https://github.com/Neo-Pragnya/Ananke-Plexus/tree/main/docs/assets" }
+          - { title: "Plexus / constellation network visuals", url: "https://en.wikipedia.org/wiki/Plexus" }
+          - { title: "Mermaid (MIT), the diagrams it brings to life", url: "https://github.com/mermaid-js/mermaid" }
       life-ikigai-architect:
         inspired_by:
           - { title: "Ikigai (Héctor García & Francesc Miralles)", url: "https://en.wikipedia.org/wiki/Ikigai" }

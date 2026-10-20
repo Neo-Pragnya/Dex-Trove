@@ -43,8 +43,8 @@ const steps = [
         <span><em>Dex</em>terity <em>Trove</em></span>
       </span>
       <h1 data-reveal style="--d: .05s">
-        <span data-scramble>A trove of dexterities</span>
-        <span class="hl">for your agents.</span>
+        <span class="h1-lead" data-particles="#1f1d2b,#5b3cc4">A trove of dexterities</span>
+        <span class="hl">for your <span data-words="agents|copilots|teams|workflows" data-colors="#ff7a59,#ff8fb1,#a78bfa">agents</span>.</span>
       </h1>
       <p class="lede" data-reveal style="--d: .1s">
         Skills, agents, instructions, hooks and plugins your AI can pick up. They're learned from the best open repos,
@@ -76,7 +76,7 @@ const steps = [
     </a>
   </div>
 
-  <h2 data-reveal>Pick up a dexterity</h2>
+  <h2 data-reveal data-letters>Pick up a dexterity</h2>
   <div class="feature-grid">
     {
       kinds.map((k, i) => (
@@ -93,7 +93,7 @@ const steps = [
   </div>
   <p class="hint"><a href={`${base}docs/concepts/artifact-kinds/`}>What each kind is and how each tool uses it →</a></p>
 
-  <h2 data-reveal>Made here: first-party skills</h2>
+  <h2 data-reveal data-letters>Made here: first-party skills</h2>
   <div class="feature-grid">
     {
       firstParty.map((i, n) => (
@@ -109,7 +109,7 @@ const steps = [
     }
   </div>
 
-  <h2 data-reveal>Good places to start</h2>
+  <h2 data-reveal data-letters>Good places to start</h2>
   <div class="feature-grid">
     {
       highlights.map((i, n) => (
@@ -125,7 +125,7 @@ const steps = [
     }
   </div>
 
-  <h2 data-reveal>How a dexterity gets in</h2>
+  <h2 data-reveal data-letters>How a dexterity gets in</h2>
   <ol class="flow">
     {
       steps.map(([title, text, cls], i) => (
@@ -138,7 +138,7 @@ const steps = [
   </ol>
   <p class="hint"><a href={`${base}docs/concepts/architecture/`}>Architecture in depth →</a> · <a href={`${base}docs/concepts/licence-policy/`}>Licence policy →</a></p>
 
-  <h2 data-reveal>Learned from</h2>
+  <h2 data-reveal data-letters>Learned from</h2>
   <div class="marquee-row" data-marquee>
     {
       [0, 1].map((copy) => (

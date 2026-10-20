@@ -558,3 +558,16 @@ ul.plain {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 16px;
 }
+
+/* motion-kit text effects: coral heat; the hottest letters slip into an italic serif */
+:root {
+  --mk-hot: var(--coral);
+  --mk-w0: 700;
+  --mk-wd: 0;
+  --mk-alt-font: "Instrument Serif", Georgia, serif;
+  --mk-alt-style: italic;
+}
+
+.hero h1 .h1-lead {
+  display: inline-block;
+}

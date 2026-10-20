@@ -1,0 +1,32 @@
+kind: skill
+namespace: neo-pragnya
+name: living-diagrams
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya:living-diagrams
+summary: 'Make diagrams and hero visuals alive: a constellation/orbit plexus canvas (nodes ride orbits around a
+  glowing core, drift freely and are pulled back by springs, link to neighbours, react to the cursor…'
+description: 'Make diagrams and hero visuals alive: a constellation/orbit plexus canvas (nodes ride orbits around
+  a glowing core, drift freely and are pulled back by springs, link to neighbours, react to the cursor), hover effects
+  for any SVG diagram including rendered Mermaid (hover a node and its neighbours light up, edges flow with dashes,
+  pulses travel along the connections, everything else dims), and animated terminal walkthroughs that type real
+  commands, print real output and tick off a step rail in sync, as one self-contained CSS-animated SVG that plays
+  on GitHub, docs sites and slides. Use whenever someone wants animated or interactive diagrams, graph or network
+  hover effects, a constellation or plexus or orbit hero, connected-node highlighting, to animate a flow or architecture
+  diagram, to show how CLI commands work with an animated terminal or SVG, to turn infographics or slides into animated
+  flows, or wants docs to feel alive, even if they don''t say skill or animation.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: first-party default (sources.yaml)
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - neo-pragnya
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.living-diagrams
+  repository: https://github.com/Neo-Pragnya/Dex-Trove

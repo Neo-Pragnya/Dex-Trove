@@ -19,7 +19,7 @@ const href = (h: string) => (/^https?:/.test(h) ? h : `${base}${h.replace(/^\//,
     <div class="hero-content">
       <p class="eyebrow" data-reveal>{site.eyebrow}</p>
       <h1 data-reveal style="--d: .05s">
-        <span data-scramble>{site.headline}</span>
+        <span class="h1-lead" data-particles>{site.headline}</span>
         {site.highlight && <span class="hl">{site.highlight}</span>}
       </h1>
       <p class="lede" data-reveal style="--d: .1s">{site.lede}</p>

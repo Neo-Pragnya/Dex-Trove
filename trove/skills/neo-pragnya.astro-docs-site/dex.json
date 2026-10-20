@@ -10,7 +10,7 @@
     "neo-pragnya",
     "skill"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "entry": "SKILL.md",
   "dir": "skills/neo-pragnya.astro-docs-site",
   "source": {
@@ -58,8 +58,10 @@
     "templates/website/src/components/Layout.astro",
     "templates/website/src/components/Mermaid.astro",
     "templates/website/src/content.config.ts",
+    "templates/website/src/lib/rehype-class-names.ts",
     "templates/website/src/lib/remark-callouts.ts",
     "templates/website/src/lib/remark-doc-links.ts",
+    "templates/website/src/lib/remark-mermaid.ts",
     "templates/website/src/pages/404.astro",
     "templates/website/src/pages/docs/[...slug].astro",
     "templates/website/src/pages/index.astro",
@@ -67,6 +69,6 @@
     "templates/website/tsconfig.json"
   ],
   "entry_hash": "ccde88ae5849043f68f5cd5ca84d97cc7a30ad53f7db52fb52df266c91dee9c0",
-  "content_hash": "8720b1243a5111effad1cba69730e2fb2f85deb5680a2b81a5510de8a02a4c2f",
-  "learned_at": "2026-10-20T05:24:17+00:00"
+  "content_hash": "26c7bebe1a90ce110d510cbcdf70a42f778130a80387fac26062021464a06c1b",
+  "learned_at": "2026-10-20T19:00:31+00:00"
 }

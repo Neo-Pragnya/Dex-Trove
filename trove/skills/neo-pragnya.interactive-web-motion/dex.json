@@ -4,13 +4,13 @@
   "namespace": "neo-pragnya",
   "name": "interactive-web-motion",
   "title": "Interactive Web Motion",
-  "description": "Add playful, modern, accessible interactions to a website or GitHub Pages docs site: SVG shapes that morph on hover (circle → star → flower → blob), a cursor-reactive hero field of pastel shapes, text scramble, blur-in scroll reveals, count-up stats, magnetic buttons, tilt + spotlight cards, marching-ants borders, marquees, drifting aurora backgrounds and film grain, from one dependency-free motion-kit.js + motion-kit.css driven by data attributes. Use whenever someone wants a site to feel alive, modern, fun or less static, wants hover animations, morphing SVGs or effects like graphify.com, Stripe or Linear, asks for an animated hero, landing page polish, micro-interactions, scroll animations or a pastel redesign, or wants to upgrade Astro/MkDocs/plain-HTML docs or a GitHub Pages site visually, even if they don't name a library.",
+  "description": "Add playful, modern, accessible interactions to a website or GitHub Pages docs site: SVG shapes that morph on hover (circle → star → flower → blob), a cursor-reactive hero field of pastel shapes, rotating words, letter hover waves (colour, weight, typeface), particle text that diffuses from the cursor, blur-in scroll reveals, count-up stats, magnetic buttons, tilt + spotlight cards, marching-ants borders, marquees, drifting aurora backgrounds and film grain, from one dependency-free motion-kit.js + motion-kit.css driven by data attributes. Use whenever someone wants a site to feel alive, modern, fun or less static, wants hover animations, morphing SVGs or effects like graphify.com, Stripe or Linear, asks for an animated hero, landing page polish, micro-interactions, scroll animations or a pastel redesign, or wants to upgrade Astro/MkDocs/plain-HTML docs or a GitHub Pages site visually, even if they don't name a library.",
   "tags": [
     "executes-code",
     "neo-pragnya",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/neo-pragnya.interactive-web-motion",
   "source": {
@@ -50,7 +50,7 @@
     "references/verification.md",
     "scripts/install_motion_kit.py"
   ],
-  "entry_hash": "2bbb81f81c06c7b7f92fbb7aaea3e39627251e75a7a4c4f54e491f58d0febfbf",
-  "content_hash": "4fe07588b559859920c667467b234de2746ce46a2069c50ed448ec59d96714f4",
-  "learned_at": "2026-10-20T04:50:31+00:00"
+  "entry_hash": "360579cd1141d4693e0cb981e151c7d4ffea3f21910c0261071091679973eb74",
+  "content_hash": "5ab64ac62099b31c74df969d31b2f16b970293733c4cef37037c61edcb3e87dc",
+  "learned_at": "2026-10-20T19:00:31+00:00"
 }

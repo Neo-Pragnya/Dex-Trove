@@ -1,6 +1,6 @@
 {
   "generator": "dex-trove 0.1.0",
-  "count": 970,
+  "count": 971,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -40095,7 +40095,7 @@
         "neo-pragnya",
         "skill"
       ],
-      "version": "1.0.1",
+      "version": "1.0.2",
       "entry": "SKILL.md",
       "dir": "skills/neo-pragnya.astro-docs-site",
       "source": {
@@ -40143,8 +40143,10 @@
         "templates/website/src/components/Layout.astro",
         "templates/website/src/components/Mermaid.astro",
         "templates/website/src/content.config.ts",
+        "templates/website/src/lib/rehype-class-names.ts",
         "templates/website/src/lib/remark-callouts.ts",
         "templates/website/src/lib/remark-doc-links.ts",
+        "templates/website/src/lib/remark-mermaid.ts",
         "templates/website/src/pages/404.astro",
         "templates/website/src/pages/docs/[...slug].astro",
         "templates/website/src/pages/index.astro",
@@ -40152,8 +40154,8 @@
         "templates/website/tsconfig.json"
       ],
       "entry_hash": "ccde88ae5849043f68f5cd5ca84d97cc7a30ad53f7db52fb52df266c91dee9c0",
-      "content_hash": "8720b1243a5111effad1cba69730e2fb2f85deb5680a2b81a5510de8a02a4c2f",
-      "learned_at": "2026-10-20T05:24:17+00:00"
+      "content_hash": "26c7bebe1a90ce110d510cbcdf70a42f778130a80387fac26062021464a06c1b",
+      "learned_at": "2026-10-20T19:00:31+00:00"
     },
     {
       "id": "neo-pragnya/interactive-web-motion",
@@ -40161,13 +40163,13 @@
       "namespace": "neo-pragnya",
       "name": "interactive-web-motion",
       "title": "Interactive Web Motion",
-      "description": "Add playful, modern, accessible interactions to a website or GitHub Pages docs site: SVG shapes that morph on hover (circle → star → flower → blob), a cursor-reactive hero field of pastel shapes, text scramble, blur-in scroll reveals, count-up stats, magnetic buttons, tilt + spotlight cards, marching-ants borders, marquees, drifting aurora backgrounds and film grain, from one dependency-free motion-kit.js + motion-kit.css driven by data attributes. Use whenever someone wants a site to feel alive, modern, fun or less static, wants hover animations, morphing SVGs or effects like graphify.com, Stripe or Linear, asks for an animated hero, landing page polish, micro-interactions, scroll animations or a pastel redesign, or wants to upgrade Astro/MkDocs/plain-HTML docs or a GitHub Pages site visually, even if they don't name a library.",
+      "description": "Add playful, modern, accessible interactions to a website or GitHub Pages docs site: SVG shapes that morph on hover (circle → star → flower → blob), a cursor-reactive hero field of pastel shapes, rotating words, letter hover waves (colour, weight, typeface), particle text that diffuses from the cursor, blur-in scroll reveals, count-up stats, magnetic buttons, tilt + spotlight cards, marching-ants borders, marquees, drifting aurora backgrounds and film grain, from one dependency-free motion-kit.js + motion-kit.css driven by data attributes. Use whenever someone wants a site to feel alive, modern, fun or less static, wants hover animations, morphing SVGs or effects like graphify.com, Stripe or Linear, asks for an animated hero, landing page polish, micro-interactions, scroll animations or a pastel redesign, or wants to upgrade Astro/MkDocs/plain-HTML docs or a GitHub Pages site visually, even if they don't name a library.",
       "tags": [
         "executes-code",
         "neo-pragnya",
         "skill"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "entry": "SKILL.md",
       "dir": "skills/neo-pragnya.interactive-web-motion",
       "source": {
@@ -40207,9 +40209,9 @@
         "references/verification.md",
         "scripts/install_motion_kit.py"
       ],
-      "entry_hash": "2bbb81f81c06c7b7f92fbb7aaea3e39627251e75a7a4c4f54e491f58d0febfbf",
-      "content_hash": "4fe07588b559859920c667467b234de2746ce46a2069c50ed448ec59d96714f4",
-      "learned_at": "2026-10-20T04:50:31+00:00"
+      "entry_hash": "360579cd1141d4693e0cb981e151c7d4ffea3f21910c0261071091679973eb74",
+      "content_hash": "5ab64ac62099b31c74df969d31b2f16b970293733c4cef37037c61edcb3e87dc",
+      "learned_at": "2026-10-20T19:00:31+00:00"
     },
     {
       "id": "neo-pragnya/life-ikigai-architect",
@@ -40268,6 +40270,55 @@
       "notes": [
         "5 file(s) withheld by sources.yaml exclude globs (third-party terms)"
       ]
+    },
+    {
+      "id": "neo-pragnya/living-diagrams",
+      "kind": "skill",
+      "namespace": "neo-pragnya",
+      "name": "living-diagrams",
+      "title": "Living diagrams",
+      "description": "Make diagrams and hero visuals alive: a constellation/orbit plexus canvas (nodes ride orbits around a glowing core, drift freely and are pulled back by springs, link to neighbours, react to the cursor), hover effects for any SVG diagram including rendered Mermaid (hover a node and its neighbours light up, edges flow with dashes, pulses travel along the connections, everything else dims), and animated terminal walkthroughs that type real commands, print real output and tick off a step rail in sync, as one self-contained CSS-animated SVG that plays on GitHub, docs sites and slides. Use whenever someone wants animated or interactive diagrams, graph or network hover effects, a constellation or plexus or orbit hero, connected-node highlighting, to animate a flow or architecture diagram, to show how CLI commands work with an animated terminal or SVG, to turn infographics or slides into animated flows, or wants docs to feel alive, even if they don't say skill or animation.",
+      "tags": [
+        "executes-code",
+        "neo-pragnya",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya.living-diagrams",
+      "source": {
+        "id": "neo-pragnya",
+        "title": "Neo Pragnya (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+        "commit": null,
+        "path": "living-diagrams",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.living-diagrams",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "first-party default (sources.yaml)",
+        "notice": "Copyright (c) Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "assets/diagram-fx.css",
+        "assets/diagram-fx.js",
+        "assets/examples/ananke_walkthroughs.py",
+        "assets/examples/hello_walkthrough.json",
+        "assets/plexus.js",
+        "references/recipes.md",
+        "scripts/cdp_check.mjs",
+        "scripts/term_flow.py"
+      ],
+      "entry_hash": "686fa8be96fb5de526c2286849691639ca2dd2435ca63a794af0f649c124d224",
+      "content_hash": "742d77d21cc4d2932a83135a69c0627592f20c91c22d12098ab5b6c32a9c5dca",
+      "learned_at": "2026-10-20T19:00:31+00:00"
     },
     {
       "id": "neo-pragnya/marvellous-aws-architecture-docs",
