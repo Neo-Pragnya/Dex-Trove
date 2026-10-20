@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/latchshot-page-capture",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "latchshot-page-capture",
+  "title": "Latchshot page capture",
+  "description": "Use this skill when a user needs a screenshot, website thumbnail, full-page capture, or PDF of a public HTTP(S) webpage saved as a local artifact through Latchshot, including report, QA, archive, and social-preview workflows. Do not use it for private or authenticated pages, raw HTML, scraping or extraction, arbitrary browser actions, CAPTCHA or anti-bot bypass, or local-file capture.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.latchshot-page-capture",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/latchshot-page-capture",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/latchshot-page-capture",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/latchshot.mjs"
+  ],
+  "entry_hash": "65d6fb69e6f74f55dfaf5e8f3aec2e320fe06cae1586d6aa04e94e653487b2ce",
+  "content_hash": "f2971b0ea899092a06adfa66b052d2611d05e1206150a7eb71175e7c5d101548",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

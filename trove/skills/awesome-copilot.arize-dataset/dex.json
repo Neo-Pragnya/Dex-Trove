@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/arize-dataset",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "arize-dataset",
+  "title": "Arize Dataset Skill",
+  "description": "Creates, manages, and queries Arize datasets and examples. Covers dataset CRUD, appending examples, exporting data, and file-based dataset creation using the ax CLI. Use when the user needs test data, evaluation examples, or mentions create dataset, list datasets, export dataset, append examples, dataset version, golden dataset, or test set.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.arize-dataset",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/arize-dataset",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-dataset",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/ax-profiles.md",
+    "references/ax-setup.md"
+  ],
+  "entry_hash": "29a40d67885277ff82cf623a4d260de3e02c9267bffe7098952f3e9ff8efa7c8",
+  "content_hash": "c6a68728562723038b23ffd40b4a4718a89a9c19921730c9e8527a79e4faffad",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

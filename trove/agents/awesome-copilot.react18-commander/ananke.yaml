@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: react18-commander
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:react18-commander
+summary: Master orchestrator for React 16/17 → 18.3.1 migration. Designed for class-component-heavy codebases.
+description: Master orchestrator for React 16/17 → 18.3.1 migration. Designed for class-component-heavy codebases.
+  Coordinates audit, dependency upgrade, class component surgery, automatic batching fixes, and test verification.
+  Uses memory to gate each phase and resume interrupted sessions. 18.3.1 is the target - it surface-exposes every
+  deprecation that React 19 will remove, so the output is a codebase ready for the React 19 orchestra next.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: react18-commander.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react18-commander.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/prompt-engineer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "prompt-engineer",
+  "title": "Prompt Engineer",
+  "description": "A specialized chat mode for analyzing and improving prompts. Every user input is treated as a prompt to be improved. It first provides a detailed analysis of the original prompt within a <reasoning> tag, evaluating it against a systematic framework based on OpenAI's prompt engineering best practices. Following the analysis, it generates a new, improved prompt.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "prompt-engineer.agent.md",
+  "dir": "agents/awesome-copilot.prompt-engineer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/prompt-engineer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/prompt-engineer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "prompt-engineer.agent.md"
+  ],
+  "entry_hash": "8894d62bf78e94b16228d6df6362ab09a1c8db6b79b7a2403fbc222df29869e5",
+  "content_hash": "69431e2086188422c4656d9af842eb535fd2bbd3191a605583f2ddb41cabc347",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

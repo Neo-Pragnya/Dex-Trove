@@ -1,0 +1,301 @@
+{
+  "count": 37,
+  "excluded": [
+    {
+      "source": "anthropic",
+      "kind": "skill",
+      "name": "doc-coauthoring",
+      "path": "skills/doc-coauthoring",
+      "reason": "license-denied",
+      "detail": "unknown — no licence found"
+    },
+    {
+      "source": "anthropic",
+      "kind": "skill",
+      "name": "docx",
+      "path": "skills/docx",
+      "reason": "license-denied",
+      "detail": "LicenseRef-Proprietary — skills/docx/LICENSE.txt: restrictive terms ('governed by your agreement with')"
+    },
+    {
+      "source": "anthropic",
+      "kind": "skill",
+      "name": "pdf",
+      "path": "skills/pdf",
+      "reason": "license-denied",
+      "detail": "LicenseRef-Proprietary — skills/pdf/LICENSE.txt: restrictive terms ('governed by your agreement with')"
+    },
+    {
+      "source": "anthropic",
+      "kind": "skill",
+      "name": "pptx",
+      "path": "skills/pptx",
+      "reason": "license-denied",
+      "detail": "LicenseRef-Proprietary — skills/pptx/LICENSE.txt: restrictive terms ('governed by your agreement with')"
+    },
+    {
+      "source": "anthropic",
+      "kind": "skill",
+      "name": "xlsx",
+      "path": "skills/xlsx",
+      "reason": "license-denied",
+      "detail": "LicenseRef-Proprietary — skills/xlsx/LICENSE.txt: restrictive terms ('governed by your agreement with')"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "accessibility-kanban",
+      "path": "plugins/accessibility-kanban",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "apng-studio",
+      "path": "plugins/apng-studio",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "arcade-canvas",
+      "path": "plugins/arcade-canvas",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "backlog-swipe-triage",
+      "path": "plugins/backlog-swipe-triage",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "backrooms-canvas",
+      "path": "plugins/backrooms-canvas",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "chat-cards",
+      "path": "plugins/chat-cards",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "chromium-control-canvas",
+      "path": "plugins/chromium-control-canvas",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "chronicle-stats",
+      "path": "plugins/chronicle-stats",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "color-orb",
+      "path": "plugins/color-orb",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "diagram-viewer",
+      "path": "plugins/diagram-viewer",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "draw",
+      "path": "plugins/draw",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "edit-tutorial",
+      "path": "plugins/edit-tutorial",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "feedback-themes",
+      "path": "plugins/feedback-themes",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "flight-map-canvas",
+      "path": "plugins/flight-map-canvas",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "gesture-review",
+      "path": "plugins/gesture-review",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "git-worktree-explorer",
+      "path": "plugins/git-worktree-explorer",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "java-modernization-studio",
+      "path": "plugins/java-modernization-studio",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "jupyter-notebooks",
+      "path": "plugins/jupyter-notebooks",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "modernization-workflow",
+      "path": "plugins/modernization-workflow",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "pcf-development",
+      "path": "plugins/pcf-development",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "pr-artifact-explorer",
+      "path": "plugins/pr-artifact-explorer",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "pr-review",
+      "path": "plugins/pr-review",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "release-notes-showcase",
+      "path": "plugins/release-notes-showcase",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "repo-actions-hub",
+      "path": "plugins/repo-actions-hub",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "sentry-triage",
+      "path": "plugins/sentry-triage",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "signals-dashboard",
+      "path": "plugins/signals-dashboard",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "site-studio",
+      "path": "plugins/site-studio",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "tiny-tool-town-submitter",
+      "path": "plugins/tiny-tool-town-submitter",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "token-pacman",
+      "path": "plugins/token-pacman",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "where-was-i",
+      "path": "plugins/where-was-i",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "windows-app-storage-inspector-cleanup",
+      "path": "plugins/windows-app-storage-inspector-cleanup",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "work-hub",
+      "path": "plugins/work-hub",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    }
+  ]
+}

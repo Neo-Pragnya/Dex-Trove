@@ -1,0 +1,43 @@
+kind: skill
+namespace: awesome-copilot
+name: agent-owasp-compliance
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:agent-owasp-compliance
+summary: Check any AI agent codebase against the OWASP Agentic Security Initiative (ASI) Top 10 risks.
+description: 'Check any AI agent codebase against the OWASP Agentic Security Initiative (ASI) Top 10 risks.
+
+  Use this skill when:
+
+  - Evaluating an agent system''s security posture before production deployment
+
+  - Running a compliance check against OWASP ASI 2026 standards
+
+  - Mapping existing security controls to the 10 agentic risks
+
+  - Generating a compliance report for security review or audit
+
+  - Comparing agent framework security features against the standard
+
+  - Any request like "is my agent OWASP compliant?", "check ASI compliance", or "agentic security audit"'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/agent-owasp-compliance
+  repository: https://github.com/github/awesome-copilot

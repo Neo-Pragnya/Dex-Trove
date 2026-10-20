@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/react19-test-patterns",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "react19-test-patterns",
+  "title": "React 19 Test Migration Patterns",
+  "description": "Provides before/after patterns for migrating test files to React 19 compatibility, including act() imports, Simulate removal, and StrictMode call count changes.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.react19-test-patterns",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/react19-test-patterns",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react19-test-patterns",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "c3eac6a63114127eacc0562b98514e80d415e194bac9d59e0d72dded7824c94d",
+  "content_hash": "8de60c74ecee440800c04e234409258ecdc69a976635b5bf074cbd63e3ecf6ce",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

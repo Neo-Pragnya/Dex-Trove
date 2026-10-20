@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: quarkus-application-development
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:quarkus-application-development
+summary: 'Write Quarkus application code: REST with Quarkus REST, validation, exception mappers, OpenAPI, configuration,
+  CDI (ArC), Hibernate ORM with Panache, Mutiny and virtual threads, Reactive Messaging wit…'
+description: 'Write Quarkus application code: REST with Quarkus REST, validation, exception mappers, OpenAPI, configuration,
+  CDI (ArC), Hibernate ORM with Panache, Mutiny and virtual threads, Reactive Messaging with Kafka, OIDC security,
+  health, metrics, OpenTelemetry, fault tolerance, REST Client, scheduler and cache. Use when implementing or changing
+  features in an existing Quarkus project.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/quarkus-application-development
+  repository: https://github.com/github/awesome-copilot

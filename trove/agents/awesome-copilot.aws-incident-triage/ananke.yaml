@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: aws-incident-triage
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:aws-incident-triage
+summary: On-call SRE agent that drives structured CloudWatch-based incident investigation from alarms through root-cause
+  hypothesis.
+description: On-call SRE agent that drives structured CloudWatch-based incident investigation from alarms through
+  root-cause hypothesis.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: aws-incident-triage.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/aws-incident-triage.agent.md
+  repository: https://github.com/github/awesome-copilot

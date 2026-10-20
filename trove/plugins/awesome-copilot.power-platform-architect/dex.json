@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/power-platform-architect",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "power-platform-architect",
+  "title": "Power Platform Architect Plugin",
+  "description": "Solution Architect for the Microsoft Power Platform, turning business requirements into functioning Power Platform solution architectures.",
+  "tags": [
+    "awesome-copilot",
+    "dataverse",
+    "plugin",
+    "power-apps",
+    "power-automate",
+    "power-bi",
+    "power-pages",
+    "power-platform",
+    "power-platform-architect"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.power-platform-architect",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/power-platform-architect",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/power-platform-architect",
+    "author": "Tim Hanewich"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/power-platform-architect"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "de34269ce664bb5f155d16706de2490fe867692f0b893b68e36d20f7901f6468",
+  "content_hash": "aefb2c838e713657cdd584bdfa973541b23c346db9937e127cf56b05712ce618",
+  "learned_at": "2026-10-20T04:06:50+00:00"
+}

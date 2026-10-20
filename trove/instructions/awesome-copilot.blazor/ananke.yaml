@@ -1,0 +1,31 @@
+kind: prompt
+namespace: awesome-copilot
+name: blazor
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:blazor
+summary: Blazor component and application patterns
+description: Blazor component and application patterns
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: blazor.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/blazor.instructions.md
+  repository: https://github.com/github/awesome-copilot

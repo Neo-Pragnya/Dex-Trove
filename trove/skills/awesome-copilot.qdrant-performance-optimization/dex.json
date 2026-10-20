@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/qdrant-performance-optimization",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "qdrant-performance-optimization",
+  "title": "Qdrant Performance Optimization",
+  "description": "Different techniques to optimize the performance of Qdrant, including indexing strategies, query optimization, and hardware considerations. Use when you want to improve the speed and efficiency of your Qdrant deployment.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.qdrant-performance-optimization",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/qdrant-performance-optimization",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/qdrant-performance-optimization",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "indexing-performance-optimization/SKILL.md",
+    "memory-usage-optimization/SKILL.md",
+    "search-speed-optimization/SKILL.md"
+  ],
+  "entry_hash": "5323301ea670baa98623e53f8c363845f6edde59a2f0f88e0c6e948d61438a3f",
+  "content_hash": "c1933aa9e655ce3fce2d625c048870d48336f1eb2dc8279fee510bc104ae2bab",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

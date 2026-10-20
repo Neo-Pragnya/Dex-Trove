@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/github-actions-node-upgrade",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "github-actions-node-upgrade",
+  "title": "GitHub Actions Node Runtime Upgrade",
+  "description": "Upgrade a GitHub Actions JavaScript/TypeScript action to a newer Node runtime version (e.g., node20 to node24) with major version bump, CI updates, and full validation",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "github-actions-node-upgrade.agent.md",
+  "dir": "agents/awesome-copilot.github-actions-node-upgrade",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/github-actions-node-upgrade.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/github-actions-node-upgrade.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "github-actions-node-upgrade.agent.md"
+  ],
+  "entry_hash": "1c35ded0b6342723c7fff4d30e956892094a24a9e4f6635e9e75681306e26365",
+  "content_hash": "dc0a78c298bf9ddcfe2875e1a671b7fd12fa31094109bee0aab8e1ffdaf60001",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

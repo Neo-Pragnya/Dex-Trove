@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/agentic-eval",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "agentic-eval",
+  "title": "Agentic Evaluation Patterns",
+  "description": "Patterns and techniques for evaluating and improving AI agent outputs. Use this skill when:\n- Implementing self-critique and reflection loops\n- Building evaluator-optimizer pipelines for quality-critical generation\n- Creating test-driven code refinement workflows\n- Designing rubric-based or LLM-as-judge evaluation systems\n- Adding iterative improvement to agent outputs (code, reports, analysis)\n- Measuring and improving agent response quality",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.agentic-eval",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/agentic-eval",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/agentic-eval",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "fb198a5c9b12e746d01a43c9ff3368598fdc1134bb458766f580186f31001573",
+  "content_hash": "216b6f4673c28981b134b037558d4b29c9acfc3a224daae4e62d87df44a7dcf3",
+  "learned_at": "2026-10-20T03:28:49+00:00"
+}

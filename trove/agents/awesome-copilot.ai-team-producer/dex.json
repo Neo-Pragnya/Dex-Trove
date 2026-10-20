@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ai-team-producer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "ai-team-producer",
+  "title": "ai-team-producer",
+  "description": "AI team producer (Remy). Use when planning work, clarifying scope, coordinating Dev and optional QA, triaging issues, maintaining project context, or preparing and merging pull requests. Never writes application code.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "ai-team-producer.agent.md",
+  "dir": "agents/awesome-copilot.ai-team-producer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/ai-team-producer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/ai-team-producer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ai-team-producer.agent.md"
+  ],
+  "entry_hash": "ae3ee06a88783d74d70da2db21da63c2c1716b4a9f3896ae7144684be1f41805",
+  "content_hash": "a9952d76462dff55ddefdbfcd516d50663805c7d4a487e2a1a5f55e9d8278a3d",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/rug-agentic-workflow",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "rug-agentic-workflow",
+  "title": "RUG Agentic Workflow Plugin",
+  "description": "Three-agent workflow for orchestrated software delivery with an orchestrator plus implementation and QA subagents.",
+  "tags": [
+    "agentic-workflow",
+    "awesome-copilot",
+    "orchestration",
+    "plugin",
+    "qa",
+    "software-engineering",
+    "subagents"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.rug-agentic-workflow",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/rug-agentic-workflow",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/rug-agentic-workflow",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "agent:awesome-copilot/qa-subagent",
+    "agent:awesome-copilot/rug-orchestrator",
+    "agent:awesome-copilot/swe-subagent"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "c7df4d0f8d9d06d21b91785546b8a0d8eb9324c25638bcb2f6db713cf0750ad8",
+  "content_hash": "13d0c01ca42ee546acf0f83ad356cd27574db6088ab618689ff21c1d3de69a51",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

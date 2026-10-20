@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gtm-product-led-growth",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "gtm-product-led-growth",
+  "title": "Product-Led Growth",
+  "description": "Build self-serve acquisition and expansion motions. Use when deciding PLG vs sales-led, optimizing activation, driving freemium conversion, building growth equations, or recognizing when product complexity demands human touch. Includes the parallel test where sales-led won 10x on revenue.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.gtm-product-led-growth",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/gtm-product-led-growth",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-product-led-growth",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "c938e886e38cd6d6ad89da3ec005053bc1adb37db4ccfd473b242a4f0aad33de",
+  "content_hash": "9b875ff4d06befa1b7305b9e68f6dc74466f8ab0719770a45d948bc01129f260",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

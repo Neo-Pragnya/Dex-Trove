@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/github-actions-runtime-upgrade-conventions",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "github-actions-runtime-upgrade-conventions",
+  "title": "GitHub Actions Runtime Upgrade Conventions",
+  "description": "Upgrade GitHub Actions to supported runtimes by selecting safe action versions, preserving workflow behavior, and validating post-upgrade execution.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.github-actions-runtime-upgrade-conventions",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/github-actions-runtime-upgrade-conventions",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/github-actions-runtime-upgrade-conventions",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "b964b4609e9b7ca8bbe394d4232e4f8bff122813e09433ccda1c4356f79c98eb",
+  "content_hash": "d44564949b52a9b4c4fe4cf244c516b9b19787c48c3640d74a22e88015ca1050",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/github-issues",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "github-issues",
+  "title": "GitHub Issues",
+  "description": "Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestones, manage repository labels, set issue fields (dates, priority, custom fields), set issue types, manage issue workflows, link issues, add dependencies, or track blocked-by/blocking relationships. Triggers on requests like \"create an issue\", \"file a bug\", \"request a feature\", \"update issue X\", \"set the priority\", \"set the start date\", \"create a label\", \"rename a label\", \"list repo labels\", \"link issues\", \"add dependency\", \"blocked by\", \"blocking\", or any GitHub issue management task.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.github-issues",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/github-issues",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/github-issues",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/dependencies.md",
+    "references/images.md",
+    "references/issue-fields.md",
+    "references/issue-types.md",
+    "references/labels.md",
+    "references/milestones.md",
+    "references/projects.md",
+    "references/search.md",
+    "references/sub-issues.md",
+    "references/templates.md"
+  ],
+  "entry_hash": "c7859f993a8c8cfbff117830be1532e82e8b8e913297a40f8e685a662eaf3183",
+  "content_hash": "5710ba1a9c9e7d33b1de7090b82522b386cc125e3d9cf53ed087cbb2b6eed264",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

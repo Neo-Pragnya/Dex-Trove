@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/csharp-ja",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "csharp-ja",
+  "title": "C# アプリケーション開発",
+  "description": "C# アプリケーション構築指針 by @tsubakimoto",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "csharp-ja.instructions.md",
+  "dir": "instructions/awesome-copilot.csharp-ja",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/csharp-ja.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/csharp-ja.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "csharp-ja.instructions.md"
+  ],
+  "entry_hash": "8d1ee5b5a2d5015bbba4e3350dc6acae2e1d03ae621291c1c1044e1852a78f97",
+  "content_hash": "1196354403c2c0de9214fbecbead6e2577b9c315d0a61241b5b7a1f8495168a5",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.cs"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/architecture-blueprint-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "architecture-blueprint-generator",
+  "title": "Comprehensive Project Architecture Blueprint Generator",
+  "description": "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.architecture-blueprint-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/architecture-blueprint-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/architecture-blueprint-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "a6a6f7a3b7a8210a9a391f2da3f3945bf86505341fd677eb2eb62e599520f512",
+  "content_hash": "510592cd8b919c6270dbbebc7063ab09ed806e6cc8cb45a296c1acc1adf2fb63",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

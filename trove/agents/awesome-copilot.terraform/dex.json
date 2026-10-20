@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/terraform",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "terraform",
+  "title": "Terraform Agent",
+  "description": "Terraform infrastructure specialist with automated HCP Terraform workflows. Leverages Terraform MCP server for registry integration, workspace management, and run orchestration. Generates compliant code using latest provider/module versions, manages private registries, automates variable sets, and orchestrates infrastructure deployments with proper validation and security practices.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "terraform.agent.md",
+  "dir": "agents/awesome-copilot.terraform",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/terraform.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/terraform.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "terraform.agent.md"
+  ],
+  "entry_hash": "611ccecc51541afe3ce8b4b2c9ef7a99cf7e15558523aac23855b44eeeba2ed1",
+  "content_hash": "2fce1725d1d7841b34059f4f05da361d252c43c43ca34b680b494e3fe1741315",
+  "learned_at": "2026-10-20T04:06:48+00:00"
+}

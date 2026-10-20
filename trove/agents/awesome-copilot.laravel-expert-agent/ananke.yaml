@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: laravel-expert-agent
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:laravel-expert-agent
+summary: Expert Laravel development assistant specializing in modern Laravel 12+ applications with Eloquent, Artisan,
+  testing, and best practices
+description: Expert Laravel development assistant specializing in modern Laravel 12+ applications with Eloquent,
+  Artisan, testing, and best practices
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: laravel-expert-agent.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/laravel-expert-agent.agent.md
+  repository: https://github.com/github/awesome-copilot

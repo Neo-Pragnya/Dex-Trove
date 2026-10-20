@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/qa-subagent",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "qa-subagent",
+  "title": "QA",
+  "description": "Meticulous QA subagent for test planning, bug hunting, edge-case analysis, and implementation verification.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "qa-subagent.agent.md",
+  "dir": "agents/awesome-copilot.qa-subagent",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/qa-subagent.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/qa-subagent.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "qa-subagent.agent.md"
+  ],
+  "entry_hash": "2e3a7787fe28cd7eec3065a71b7b8bc446c8bcf74e4053897b7d385dc3ba2bbe",
+  "content_hash": "e5dec97d0e9f43f870f3e9dbf85d4288e81e364d480ee8d888beb23b94298e5c",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

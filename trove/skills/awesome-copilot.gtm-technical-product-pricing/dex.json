@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gtm-technical-product-pricing",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "gtm-technical-product-pricing",
+  "title": "Technical Product Pricing",
+  "description": "Pricing strategy for technical products. Use when choosing usage-based vs seat-based, designing freemium thresholds, structuring enterprise pricing conversations, deciding when to raise prices, or using price as a positioning signal.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.gtm-technical-product-pricing",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/gtm-technical-product-pricing",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-technical-product-pricing",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "afb71bdbcbc0bfe8ec1ba210b0184e9b03466f3db9c3e9805fb898d76bb90460",
+  "content_hash": "4234923089c4ec24135fdee2d47e289ce5858acaa8a4309ad3f01ad67afd55c1",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

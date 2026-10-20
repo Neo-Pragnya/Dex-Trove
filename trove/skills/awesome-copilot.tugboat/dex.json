@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/tugboat",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "tugboat",
+  "title": "Tugboat",
+  "description": "Anxiety-aware, evidence-driven collaboration for stalled or high-stakes work when a user says uncertainty, repeated setbacks, or lack of visible progress is causing significant anxiety or distress. Use immediately when explicitly invoked; when this fit is only inferred from the user's own account, ask permission before applying it. Preserve the user's ideal and turn grounded perspective-taking into persistent, bounded problem solving. Do not use to diagnose, provide therapy, manufacture certainty, or lower goals for reassurance.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.tugboat",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/tugboat",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/tugboat",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e8274b245cb6e2edff07e7cf3b196f87ced48040d677d20b56bf385f1606d289",
+  "content_hash": "681aa4c436081d24d1fb22c4c0921e25bea56a6c6f0466935565a8e01782793f",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

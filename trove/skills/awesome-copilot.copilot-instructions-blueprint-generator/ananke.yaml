@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: copilot-instructions-blueprint-generator
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:copilot-instructions-blueprint-generator
+summary: Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide
+  GitHub Copilot to produce code consistent with project standards, architecture patterns, and…
+description: Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that
+  guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology
+  versions by analyzing existing codebase patterns and avoiding assumptions.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/copilot-instructions-blueprint-generator
+  repository: https://github.com/github/awesome-copilot

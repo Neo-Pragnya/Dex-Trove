@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/springboot",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "springboot",
+  "title": "Spring Boot Development",
+  "description": "Guidelines for building Spring Boot base applications",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "springboot.instructions.md",
+  "dir": "instructions/awesome-copilot.springboot",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/springboot.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/springboot.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "springboot.instructions.md"
+  ],
+  "entry_hash": "c98e5ff2ef76f4402fe4ad8f28da4f91b02aacc338a9f77147b66a95b105598c",
+  "content_hash": "e9cf72e3a52a1276bb7f7bca03a042025d9902c340d3801e38f55fb8a6895f6f",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.java, **/*.kt"
+}

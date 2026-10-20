@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/structured-autonomy-plan",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "structured-autonomy-plan",
+  "title": "{Feature Name}",
+  "description": "Structured Autonomy Planning Prompt",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.structured-autonomy-plan",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/structured-autonomy-plan",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/structured-autonomy-plan",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "5272f19e7c68639078a0baa61585f6be413853cdfa8e8a71465c5bcd5ffb8fdc",
+  "content_hash": "6d343c7cfe9f5df3081929b67cf10f5e251c2f001097bc75b820675253718aa7",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

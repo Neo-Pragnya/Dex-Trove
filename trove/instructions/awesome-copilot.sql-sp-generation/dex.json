@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/sql-sp-generation",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "sql-sp-generation",
+  "title": "SQL Development",
+  "description": "Guidelines for generating SQL statements and stored procedures",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "sql-sp-generation.instructions.md",
+  "dir": "instructions/awesome-copilot.sql-sp-generation",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/sql-sp-generation.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/sql-sp-generation.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "sql-sp-generation.instructions.md"
+  ],
+  "entry_hash": "6e7a66e3d4f5a62cccfc47324002ae10e61eb6660f041c2d6d11b3c2a58d0c07",
+  "content_hash": "13ef4b5f8c7fab438d61043167e8cd0c6d40a8a3a90f856f9712599392714ef6",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.sql"
+}

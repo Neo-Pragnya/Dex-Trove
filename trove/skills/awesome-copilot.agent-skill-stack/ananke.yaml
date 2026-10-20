@@ -1,0 +1,29 @@
+kind: skill
+namespace: awesome-copilot
+name: agent-skill-stack
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:agent-skill-stack
+summary: Find, evaluate, and assemble the smallest compatible set of AI Agent Skills for an end-to-end natural-language
+  goal.
+description: Find, evaluate, and assemble the smallest compatible set of AI Agent Skills for an end-to-end natural-language
+  goal. Use when a user wants Skills for a multi-step workflow, asks which Skills fit a project, needs an installed-Skill
+  audit or conflict check, has low Skill recall, wants indirect helpers such as humanizers or compliance checks,
+  or wants a project-specific Skill Stack with controlled installation. Search local Skills, registries, GitHub,
+  and OpenCLI; compare adoption, verified fit, safety, and overlap. Do not use for locating one known or common
+  Skill; use the generic find-skills workflow.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/agent-skill-stack
+  repository: https://github.com/github/awesome-copilot

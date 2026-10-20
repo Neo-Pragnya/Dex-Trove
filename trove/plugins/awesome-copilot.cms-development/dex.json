@@ -1,0 +1,53 @@
+{
+  "id": "awesome-copilot/cms-development",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "cms-development",
+  "title": "CMS Development Plugin",
+  "description": "Skills for CMS development across themes, plugins, admin tooling, media workflows, markdown rendering, and static export pipelines.",
+  "tags": [
+    "awesome-copilot",
+    "cms",
+    "content-management-system",
+    "drupal",
+    "media",
+    "plugin",
+    "shopify",
+    "static-site",
+    "theme",
+    "wordpress"
+  ],
+  "version": "1.1.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.cms-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/cms-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/cms-development",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/content-management-systems",
+    "skill:awesome-copilot/markdown-to-html",
+    "skill:awesome-copilot/quasi-coder"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "10d75e5ded19d999bba987b278a05b346cd3cd3a90a9958b29c090e14c40c9a5",
+  "content_hash": "4afc56d533b3701900b71580f47429a11255a582bec5ea364a157cf12a6ef927",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

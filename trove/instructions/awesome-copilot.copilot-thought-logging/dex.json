@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/copilot-thought-logging",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "copilot-thought-logging",
+  "title": "Copilot Process tracking Instructions",
+  "description": "See process Copilot is following where you can edit this to reshape the interaction or save when follow up may be needed",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "copilot-thought-logging.instructions.md",
+  "dir": "instructions/awesome-copilot.copilot-thought-logging",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/copilot-thought-logging.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/copilot-thought-logging.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "copilot-thought-logging.instructions.md"
+  ],
+  "entry_hash": "148c0c2bb4a72c9b2e477949342087ba784dd03d74698cb0f66b9d5b86a62e5e",
+  "content_hash": "d68caf92b474e22114b0f601c1e26fd95d1b6d44f27250679b394d7581f3a844",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

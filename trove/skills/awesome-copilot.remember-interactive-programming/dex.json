@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/remember-interactive-programming",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "remember-interactive-programming",
+  "title": "remember-interactive-programming",
+  "description": "A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.remember-interactive-programming",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/remember-interactive-programming",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/remember-interactive-programming",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9397a72a1af17c5eab9337ab027637fafc08c9cd95bfb8ecbe43c2c981780d6d",
+  "content_hash": "b1c60068e05379bce4b4a10e72a42b2b1bafb4f36557f21d538a1ee8f298b8f0",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

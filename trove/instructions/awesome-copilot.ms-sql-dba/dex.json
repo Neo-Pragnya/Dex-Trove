@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/ms-sql-dba",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "ms-sql-dba",
+  "title": "MS-SQL DBA Chat Mode Instructions",
+  "description": "Instructions for customizing GitHub Copilot behavior for MS-SQL DBA chat mode.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "ms-sql-dba.instructions.md",
+  "dir": "instructions/awesome-copilot.ms-sql-dba",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/ms-sql-dba.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/ms-sql-dba.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ms-sql-dba.instructions.md"
+  ],
+  "entry_hash": "e42a8088f2eae32bb3dc4d63c9b8efdf02097ab1e3b5189d22f0987320ea877f",
+  "content_hash": "140652b29899a8d0f3746bdff51fe6e4dbaf14dd938643b5583839656692aca1",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

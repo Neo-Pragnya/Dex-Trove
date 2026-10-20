@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/cast-imaging-impact-analysis",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "cast-imaging-impact-analysis",
+  "title": "CAST Imaging Impact Analysis Agent",
+  "description": "Specialized agent for comprehensive change impact assessment and risk analysis in software systems using CAST Imaging",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "cast-imaging-impact-analysis.agent.md",
+  "dir": "agents/awesome-copilot.cast-imaging-impact-analysis",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/cast-imaging-impact-analysis.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/cast-imaging-impact-analysis.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cast-imaging-impact-analysis.agent.md"
+  ],
+  "entry_hash": "e4f55529cfd1763e3f47688d41c261542f52d1b4fe35d37f6f0c487492ddf0ea",
+  "content_hash": "c11fb0313155e1765fc42c7e1442d3724c2a0a697bba774f7d97be613c804023",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

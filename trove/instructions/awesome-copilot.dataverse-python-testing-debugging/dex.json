@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/dataverse-python-testing-debugging",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python-testing-debugging",
+  "title": "Dataverse SDK for Python — Testing & Debugging Strategies",
+  "description": "# Dataverse SDK for Python — Testing & Debugging Strategies Based on official Azure Functions and pytest testing patterns. ## 1. Testing Overview ### Testing Pyramid for Dataverse SDK ``` Integration Tests <- Test with real Dataverse /\\ / \\ /Unit Tests (Mocked)\\ /____________________\\ < Framework Tests ``` --- ## 2.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dataverse-python-testing-debugging.instructions.md",
+  "dir": "instructions/awesome-copilot.dataverse-python-testing-debugging",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dataverse-python-testing-debugging.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-testing-debugging.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dataverse-python-testing-debugging.instructions.md"
+  ],
+  "entry_hash": "128cfc8b5ebf7349522f77d81fa231dba4fbc3662a66f5e47629708c566fccd6",
+  "content_hash": "69bae57afbccb0e3eec430a0e0cadfb7cbb201e76860ccff3f3dc4125eefb32e",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

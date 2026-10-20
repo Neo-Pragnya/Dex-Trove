@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: azure-resource-visualizer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:azure-resource-visualizer
+summary: Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships
+  between individual resources.
+description: Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships
+  between individual resources. Use this skill when the user asks for a diagram of their Azure resources or help
+  in understanding how the resources relate to each other.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'skills/azure-resource-visualizer/LICENSE.txt: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/azure-resource-visualizer
+  repository: https://github.com/github/awesome-copilot

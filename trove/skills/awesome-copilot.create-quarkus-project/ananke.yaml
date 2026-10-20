@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: create-quarkus-project
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:create-quarkus-project
+summary: Create a new Quarkus project (Maven or Gradle) with the Quarkus CLI, code.quarkus.io API or Maven plugin,
+  choose extensions, and run it in dev mode.
+description: Create a new Quarkus project (Maven or Gradle) with the Quarkus CLI, code.quarkus.io API or Maven plugin,
+  choose extensions, and run it in dev mode. Use when asked to scaffold, bootstrap or start a Quarkus application
+  or REST API.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-quarkus-project
+  repository: https://github.com/github/awesome-copilot

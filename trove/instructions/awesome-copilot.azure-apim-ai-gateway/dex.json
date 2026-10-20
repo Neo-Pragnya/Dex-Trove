@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/azure-apim-ai-gateway",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "azure-apim-ai-gateway",
+  "title": "Azure API Management as an AI Gateway Instructions",
+  "description": "Configure Azure API Management as an AI (GenAI) gateway in front of Microsoft Foundry and other LLM APIs: token-limit and token-metric policies, managed-identity auth, backend load balancing with circuit breakers, semantic caching, and content safety — plus the policy mistakes Copilot makes by default.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-apim-ai-gateway.instructions.md",
+  "dir": "instructions/awesome-copilot.azure-apim-ai-gateway",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/azure-apim-ai-gateway.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/azure-apim-ai-gateway.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-apim-ai-gateway.instructions.md"
+  ],
+  "entry_hash": "6df781cdef338823538c0a9bd1d6f3131b02f907b309dfcd189e82365ec8e561",
+  "content_hash": "dd88b8bb32a0edb94b981764d099d1e618f55ac10fd572536ede0b77201b8f63",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.xml, **/policies/**, **/*.bicep"
+}

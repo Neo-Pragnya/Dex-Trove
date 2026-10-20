@@ -1,0 +1,34 @@
+kind: prompt
+namespace: awesome-copilot
+name: dataverse-python-testing-debugging
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:dataverse-python-testing-debugging
+summary: '# Dataverse SDK for Python — Testing & Debugging Strategies Based on official Azure Functions and pytest
+  testing patterns. ## 1.'
+description: '# Dataverse SDK for Python — Testing & Debugging Strategies Based on official Azure Functions and
+  pytest testing patterns. ## 1. Testing Overview ### Testing Pyramid for Dataverse SDK ``` Integration Tests <-
+  Test with real Dataverse /\ / \ /Unit Tests (Mocked)\ /____________________\ < Framework Tests ``` --- ## 2.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dataverse-python-testing-debugging.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-testing-debugging.instructions.md
+  repository: https://github.com/github/awesome-copilot

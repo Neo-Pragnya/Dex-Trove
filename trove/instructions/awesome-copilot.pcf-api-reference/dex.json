@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/pcf-api-reference",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "pcf-api-reference",
+  "title": "Power Apps Component Framework API Reference",
+  "description": "Complete PCF API reference with all interfaces and their availability in model-driven and canvas apps",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "pcf-api-reference.instructions.md",
+  "dir": "instructions/awesome-copilot.pcf-api-reference",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/pcf-api-reference.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/pcf-api-reference.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pcf-api-reference.instructions.md"
+  ],
+  "entry_hash": "a5e738605cde66eacdd77de7384f8c9c1e9e5c49b1674253e7e4ce6263e46198",
+  "content_hash": "36bf85754090884ad8841d0468a6a8c9afc2b7e9facb9edb023a1c2fcd82d4f7",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{ts,tsx,js}"
+}

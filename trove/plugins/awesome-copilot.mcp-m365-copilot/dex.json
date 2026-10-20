@@ -1,0 +1,52 @@
+{
+  "id": "awesome-copilot/mcp-m365-copilot",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "mcp-m365-copilot",
+  "title": "MCP-based M365 Agents Plugin",
+  "description": "Comprehensive collection for building declarative agents with Model Context Protocol integration for Microsoft 365 Copilot",
+  "tags": [
+    "adaptive-cards",
+    "api-plugins",
+    "awesome-copilot",
+    "declarative-agents",
+    "m365-copilot",
+    "mcp",
+    "model-context-protocol",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.mcp-m365-copilot",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/mcp-m365-copilot",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/mcp-m365-copilot",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/mcp-create-adaptive-cards",
+    "skill:awesome-copilot/mcp-create-declarative-agent",
+    "skill:awesome-copilot/mcp-deploy-manage-agents",
+    "agent:awesome-copilot/mcp-m365-agent-expert"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "88265d192a8a4fd30c7aced0efecc1d6f670d943149bc48b4a705dae314b3985",
+  "content_hash": "7ea10e5a2b453d3f3049e19f7fcba73077f86cdb5230220fe8b454a3939b7fbe",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/comment-code-generate-a-tutorial",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "comment-code-generate-a-tutorial",
+  "title": "comment-code-generate-a-tutorial",
+  "description": "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.comment-code-generate-a-tutorial",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/comment-code-generate-a-tutorial",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/comment-code-generate-a-tutorial",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "eb6189f8148067297e446dd284559d12397658980d35335bd091236dcd666542",
+  "content_hash": "9c02db432a6c0e4c634d71f94a601983b27fc4d3127476ba422318e0afc0e4fa",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

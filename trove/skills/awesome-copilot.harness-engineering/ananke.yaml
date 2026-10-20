@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: harness-engineering
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:harness-engineering
+summary: Adopt repository-level harness engineering for coding agents. Use when a user wants to prevent repeated
+  AI coding-agent mistakes by turning failures into durable instructions, drift checks, regression…
+description: Adopt repository-level harness engineering for coding agents. Use when a user wants to prevent repeated
+  AI coding-agent mistakes by turning failures into durable instructions, drift checks, regression tests, failure
+  memory, and adoption reports tailored to the target repository.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/harness-engineering
+  repository: https://github.com/github/awesome-copilot

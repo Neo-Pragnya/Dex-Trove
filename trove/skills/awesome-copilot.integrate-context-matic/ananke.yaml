@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: integrate-context-matic
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:integrate-context-matic
+summary: Discovers and integrates third-party APIs using the context-matic MCP server. Uses `fetch_api` to find
+  available API SDKs, `ask` for integration guidance, `model_search` and `endpoint_search` for SDK…
+description: Discovers and integrates third-party APIs using the context-matic MCP server. Uses `fetch_api` to find
+  available API SDKs, `ask` for integration guidance, `model_search` and `endpoint_search` for SDK details. Use
+  when the user asks to integrate a third-party API, add an API client, implement features with an external API,
+  or work with any third-party API or SDK.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/integrate-context-matic
+  repository: https://github.com/github/awesome-copilot

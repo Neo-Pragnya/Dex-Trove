@@ -1,0 +1,47 @@
+kind: bundle
+namespace: awesome-copilot
+name: ai-team-orchestration
+version: 2.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:ai-team-orchestration
+summary: Run a lightweight, role-separated AI development team with flexible tools, developer-selected models, proportionate
+  planning, and optional QA.
+description: Run a lightweight, role-separated AI development team with flexible tools, developer-selected models,
+  proportionate planning, and optional QA.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/ai-team-orchestration
+  version: '*'
+- ref: ananke://agent/awesome-copilot/ai-team-dev
+  version: '*'
+- ref: ananke://agent/awesome-copilot/ai-team-producer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/ai-team-qa
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - ai-team
+  - awesome-copilot
+  - brainstorm
+  - developer-workflow
+  - multi-agent
+  - orchestration
+  - plugin
+  - project-management
+  - sprint-planning
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/ai-team-orchestration
+  repository: https://github.com/github/awesome-copilot

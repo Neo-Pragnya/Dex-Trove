@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/prompt-optimizer",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "prompt-optimizer",
+  "title": "Prompt Optimizer",
+  "description": "Turn any rough prompt, half-formed idea, or task description into a finished, ready-to-send prompt optimized for any LLM model inside a chat interface — NOT the API. Use this skill whenever the user wants to write, rewrite, optimize, improve, sharpen, or polish a prompt for chat. Trigger phrases include \"rewrite this prompt\", \"make this a better prompt\", \"optimize this prompt\", \"turn this into a prompt\", \"help me prompt this\", \"draft a prompt that...\", \"I want to ask...\", or whenever the user pastes a draft prompt and asks for improvements. Also trigger when the user describes a task they plan to send to an LLM model and clearly wants a reusable, well-structured prompt rather than a direct answer. The output is always a single, copy-pasteable prompt in a code block that the user sends as-is — never a template with placeholders.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.prompt-optimizer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/prompt-optimizer",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/prompt-optimizer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "191e2544ccf5890c4d7134b116d5fc2b554571d596d1b8a43ef260d77168caab",
+  "content_hash": "00db4acd93900ab417a4d1d93ac53a0b9242a138150b9c56295018c5d0f72d95",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/tech-debt-remediation-plan",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "tech-debt-remediation-plan",
+  "title": "Technical Debt Remediation Plan",
+  "description": "Generate technical debt remediation plans for code, tests, and documentation.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "tech-debt-remediation-plan.agent.md",
+  "dir": "agents/awesome-copilot.tech-debt-remediation-plan",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/tech-debt-remediation-plan.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/tech-debt-remediation-plan.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "tech-debt-remediation-plan.agent.md"
+  ],
+  "entry_hash": "05454c2aa4f0d89d725c33f3bdf63c4deb58d103011dde51a8fcadfe944444f1",
+  "content_hash": "49ed2be925144b6f601ed4e808905edc08be8a5a7bfc80e4587cbb4109558743",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

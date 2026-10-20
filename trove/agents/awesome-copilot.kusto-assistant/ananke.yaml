@@ -1,0 +1,31 @@
+kind: agent
+namespace: awesome-copilot
+name: kusto-assistant
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:kusto-assistant
+summary: Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server
+description: Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: kusto-assistant.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/kusto-assistant.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/power-bi-data-modeling-best-practices",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "power-bi-data-modeling-best-practices",
+  "title": "Power BI Data Modeling Best Practices",
+  "description": "Comprehensive Power BI data modeling best practices based on Microsoft guidance for creating efficient, scalable, and maintainable semantic models using star schema principles.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "power-bi-data-modeling-best-practices.instructions.md",
+  "dir": "instructions/awesome-copilot.power-bi-data-modeling-best-practices",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/power-bi-data-modeling-best-practices.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/power-bi-data-modeling-best-practices.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "power-bi-data-modeling-best-practices.instructions.md"
+  ],
+  "entry_hash": "829385667dbb74a1d8524717762f466b7747a9f18189f5d9a9af4a696e55c01a",
+  "content_hash": "c2eee4f1fc2e164b0bdc750c757720d1174d0bdad045628279e55c9def680e22",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{pbix,md,json,txt}"
+}

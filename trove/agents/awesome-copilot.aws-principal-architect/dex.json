@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/aws-principal-architect",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "aws-principal-architect",
+  "title": "aws-principal-architect",
+  "description": "Provide expert AWS Principal Architect guidance using AWS Well-Architected Framework principles and AWS best practices.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "aws-principal-architect.agent.md",
+  "dir": "agents/awesome-copilot.aws-principal-architect",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/aws-principal-architect.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/aws-principal-architect.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "aws-principal-architect.agent.md"
+  ],
+  "entry_hash": "0f843b14dfe5bbe4467625296c38a478bf8d5405c131dfc67d4d8b6923190533",
+  "content_hash": "061d14617270edcd5f6598071b67aa9c120d4622b32723baa1d015f8c2fea1db",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

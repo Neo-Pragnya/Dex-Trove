@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/adr-generator",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "adr-generator",
+  "title": "ADR Generator",
+  "description": "Expert agent for creating comprehensive Architectural Decision Records (ADRs) with structured formatting optimized for AI consumption and human readability.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "adr-generator.agent.md",
+  "dir": "agents/awesome-copilot.adr-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/adr-generator.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/adr-generator.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "adr-generator.agent.md"
+  ],
+  "entry_hash": "abbf07c6a768a21baa94a1aed858510c8038cb89866461d47ab64817e9f347ac",
+  "content_hash": "b6d1a70e25eebf96fdd1b3540cb5274e046a473a04e00f463cde50ed8ddab54b",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

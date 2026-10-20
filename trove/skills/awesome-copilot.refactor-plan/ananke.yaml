@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: refactor-plan
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:refactor-plan
+summary: Create a concrete plan before starting a multi-file refactor. Use when the user asks to plan, sequence,
+  scope, or safely execute a refactor across multiple files; always investigate first, output the…
+description: Create a concrete plan before starting a multi-file refactor. Use when the user asks to plan, sequence,
+  scope, or safely execute a refactor across multiple files; always investigate first, output the plan, and wait
+  for confirmation before making code changes.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/refactor-plan
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: create-github-issues-for-unmet-specification-requirements
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:create-github-issues-for-unmet-specification-requirements
+summary: Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml
+  template.
+description: Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml
+  template.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-github-issues-for-unmet-specification-requirements
+  repository: https://github.com/github/awesome-copilot

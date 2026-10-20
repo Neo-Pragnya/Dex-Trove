@@ -1,0 +1,52 @@
+kind: bundle
+namespace: awesome-copilot
+name: database-data-management
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:database-data-management
+summary: Database administration, SQL optimization, and data management tools for PostgreSQL, SQL Server, and general
+  database development best practices.
+description: Database administration, SQL optimization, and data management tools for PostgreSQL, SQL Server, and
+  general database development best practices.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/postgresql-code-review
+  version: '*'
+- ref: ananke://skill/awesome-copilot/postgresql-optimization
+  version: '*'
+- ref: ananke://skill/awesome-copilot/sql-code-review
+  version: '*'
+- ref: ananke://skill/awesome-copilot/sql-optimization
+  version: '*'
+- ref: ananke://agent/awesome-copilot/ms-sql-dba
+  version: '*'
+- ref: ananke://agent/awesome-copilot/postgresql-dba
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - data-management
+  - database
+  - dba
+  - optimization
+  - plugin
+  - postgresql
+  - queries
+  - sql
+  - sql-server
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/database-data-management
+  repository: https://github.com/github/awesome-copilot

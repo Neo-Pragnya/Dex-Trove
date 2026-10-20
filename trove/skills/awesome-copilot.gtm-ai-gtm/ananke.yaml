@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: gtm-ai-gtm
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:gtm-ai-gtm
+summary: Go-to-market strategy for AI products. Use when positioning AI products, handling "who is responsible when
+  it breaks" objections, pricing variable-cost AI, choosing between copilot/agent/teammate fram…
+description: Go-to-market strategy for AI products. Use when positioning AI products, handling "who is responsible
+  when it breaks" objections, pricing variable-cost AI, choosing between copilot/agent/teammate framing, or selling
+  autonomous tools into enterprises.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-ai-gtm
+  repository: https://github.com/github/awesome-copilot

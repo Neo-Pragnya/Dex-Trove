@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/markdown",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "markdown",
+  "title": "CommonMark Markdown",
+  "description": "Markdown formatting aligned to the CommonMark specification (0.31.2)",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "markdown.instructions.md",
+  "dir": "instructions/awesome-copilot.markdown",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/markdown.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/markdown.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "markdown.instructions.md"
+  ],
+  "entry_hash": "4dbd77240f4e946b321fbadb3dfaa6e5add1f803e80402ea7af598de55b3991a",
+  "content_hash": "bb0d444125e55fc51c588c86171e8f4e9a8248ee9d50c677f5858ac0a0a4628d",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.md"
+}

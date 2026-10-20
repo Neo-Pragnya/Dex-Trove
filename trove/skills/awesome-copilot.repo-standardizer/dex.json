@@ -1,0 +1,61 @@
+{
+  "id": "awesome-copilot/repo-standardizer",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "repo-standardizer",
+  "title": "GitHub Repo Standardizer",
+  "description": "Polish any GitHub repository's surface — labels (emoji rating tiers, P0–P3 priority, impact severity), issue forms, PR template, CI workflows, CODEOWNERS, rulesets, docs. Repo meta & config only — no code logic touched. Use when creating a new repo or polishing an existing one.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.repo-standardizer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/repo-standardizer",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/repo-standardizer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "templates/AGENTS.md",
+    "templates/CHANGELOG.md",
+    "templates/CLAUDE.md",
+    "templates/CODEOWNERS",
+    "templates/CODE_OF_CONDUCT.md",
+    "templates/CONTRIBUTING.md",
+    "templates/LABELS.md",
+    "templates/PR_TEMPLATE.md",
+    "templates/README.md",
+    "templates/README.zh.md",
+    "templates/SECURITY.md",
+    "templates/VISION.md",
+    "templates/ci-go.yml",
+    "templates/ci-node.yml",
+    "templates/ci-python.yml",
+    "templates/ci-rust.yml",
+    "templates/config.yml",
+    "templates/issue-form-bug.yml",
+    "templates/issue-form-feature.yml",
+    "templates/issue-form-question.yml",
+    "templates/labels.json"
+  ],
+  "entry_hash": "048aeb0422593d9c3f5f1e007887b53f9d66d807372637e023899ea158943e6d",
+  "content_hash": "010c963261bc78129eb31258497ee81cd5976a4b52c1242dac5ce7d121c3317c",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: se-product-manager-advisor
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:se-product-manager-advisor
+summary: Product management guidance for creating GitHub issues, aligning business value with user needs, and making
+  data-driven product decisions
+description: Product management guidance for creating GitHub issues, aligning business value with user needs, and
+  making data-driven product decisions
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: se-product-manager-advisor.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/se-product-manager-advisor.agent.md
+  repository: https://github.com/github/awesome-copilot

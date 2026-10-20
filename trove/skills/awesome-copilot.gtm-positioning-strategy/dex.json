@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gtm-positioning-strategy",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "gtm-positioning-strategy",
+  "title": "Positioning Strategy",
+  "description": "Find and own a defensible market position. Use when messaging sounds like competitors, conversion is weak despite awareness, repositioning a product, or testing positioning claims. Includes Crawl-Walk-Run rollout methodology and the word change that improved enterprise deal progression.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.gtm-positioning-strategy",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/gtm-positioning-strategy",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-positioning-strategy",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "332c1426936c92ffba2173b00d92fcb388991d88f25f9e0f4531aed55de7f27f",
+  "content_hash": "f30b1e31e5091eca0fb179820e2d1f69552c444faf25d8708b11d73743eead7e",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

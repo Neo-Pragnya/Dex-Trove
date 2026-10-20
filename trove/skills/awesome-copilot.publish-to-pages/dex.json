@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/publish-to-pages",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "publish-to-pages",
+  "title": "publish-to-pages",
+  "description": "Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub Pages URL. Handles repo creation, file conversion, Pages enablement, and returns the live URL. Use when the user wants to publish, deploy, or share a presentation or HTML file via GitHub Pages.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.publish-to-pages",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/publish-to-pages",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/publish-to-pages",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/convert-pdf.py",
+    "scripts/convert-pptx.py",
+    "scripts/publish.sh"
+  ],
+  "entry_hash": "0f970c26b1c167f3d230258d6c32530fd5c32bfd2c9da439c1d9ad376f7f23cc",
+  "content_hash": "e62546b3a258a0e15c281f27cb0b4968953ec14a47dce6bbf1426e39e097a789",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/arize-annotation",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "arize-annotation",
+  "title": "Arize Annotation Skill",
+  "description": "Creates and manages annotation configs (categorical, continuous, freeform label schemas) and annotation queues (human review workflows) on Arize. Applies human annotations to project spans via the Python SDK. Use when the user mentions annotation config, annotation queue, label schema, human feedback, bulk annotate spans, update_annotations, labeling queue, annotate record, or human review.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.arize-annotation",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/arize-annotation",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-annotation",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/ax-profiles.md",
+    "references/ax-setup.md"
+  ],
+  "entry_hash": "7c8370632bfb017a36c4c1315c60410a334f2cd3e2054165fba1bac37df40af3",
+  "content_hash": "c2e8d3db5e922205f580ebb77951f35c624ea3301964b3259dc2791e78bc0542",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

@@ -1,0 +1,29 @@
+kind: skill
+namespace: awesome-copilot
+name: java-docs
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:java-docs
+summary: Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.
+description: Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-docs
+  repository: https://github.com/github/awesome-copilot

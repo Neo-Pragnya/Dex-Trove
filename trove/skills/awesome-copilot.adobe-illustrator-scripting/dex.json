@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/adobe-illustrator-scripting",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "adobe-illustrator-scripting",
+  "title": "Adobe Illustrator Scripting",
+  "description": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX). Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, colors, symbols, artboards, or any Illustrator DOM objects. Covers the complete JavaScript object model, coordinate system, measurement units, export workflows, and scripting best practices.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.adobe-illustrator-scripting",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/adobe-illustrator-scripting",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/adobe-illustrator-scripting",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/object-model-quick-reference.md",
+    "scripts/batch-export-png.jsx",
+    "scripts/create-color-grid.jsx",
+    "scripts/find-replace-text.jsx"
+  ],
+  "entry_hash": "6a3b601bb3d7ae8a2a527aad788c7266001feadd5aca43db7e9926af1cda3518",
+  "content_hash": "ad3d6c8c716ef5f5ac00477feaad2e0d2b053919b3f1ebcbde44209728e2faa1",
+  "learned_at": "2026-10-20T03:28:49+00:00"
+}

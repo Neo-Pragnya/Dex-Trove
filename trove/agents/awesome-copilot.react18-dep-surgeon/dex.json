@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/react18-dep-surgeon",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "react18-dep-surgeon",
+  "title": "react18-dep-surgeon",
+  "description": "Dependency upgrade specialist for React 16/17 → 18.3.1. Pins to 18.3.1 exactly (not 18.x latest). Upgrades RTL to v14, Apollo 3.8+, Emotion 11.10+, react-router v6. Detects and blocks on Enzyme (no React 18 support). Returns GO/NO-GO to commander.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "react18-dep-surgeon.agent.md",
+  "dir": "agents/awesome-copilot.react18-dep-surgeon",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/react18-dep-surgeon.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react18-dep-surgeon.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "react18-dep-surgeon.agent.md"
+  ],
+  "entry_hash": "9047bd8efb4033b80085e0bfa07db5c2b77957e4e3953e225862057a710c3dc6",
+  "content_hash": "7dda23a281d1f20fe3d805c087615573a11bccdaa17f0d41ca4a32ca059c4f4f",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

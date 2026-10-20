@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: ai-team-qa
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:ai-team-qa
+summary: Optional AI QA engineer (Ivy). Use when testing behavior, running automated or exploratory checks, filing
+  reproducible bugs, verifying fixes, or providing release confidence for changes that warrant d…
+description: Optional AI QA engineer (Ivy). Use when testing behavior, running automated or exploratory checks,
+  filing reproducible bugs, verifying fixes, or providing release confidence for changes that warrant dedicated
+  QA.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: ai-team-qa.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/ai-team-qa.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/declarative-agents-microsoft365",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "declarative-agents-microsoft365",
+  "title": "Microsoft 365 Declarative Agents Development Guidelines",
+  "description": "Comprehensive development guidelines for Microsoft 365 Copilot declarative agents with schema v1.5, TypeSpec integration, and Microsoft 365 Agents Toolkit workflows",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "declarative-agents-microsoft365.instructions.md",
+  "dir": "instructions/awesome-copilot.declarative-agents-microsoft365",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/declarative-agents-microsoft365.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/declarative-agents-microsoft365.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "declarative-agents-microsoft365.instructions.md"
+  ],
+  "entry_hash": "bc289254a7c73e474f04e4580536855a76f42f4a1ce52183c99ed9c37790208f",
+  "content_hash": "2438d8f260ec5a23eaf9f95314136867f456eefa4e0c2b657f91f6cafc3dcefa",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**.json, **.ts, **.tsp, **manifest.json, **agent.json, **declarative-agent.json"
+}

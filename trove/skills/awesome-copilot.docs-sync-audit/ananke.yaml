@@ -1,0 +1,28 @@
+kind: skill
+namespace: awesome-copilot
+name: docs-sync-audit
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:docs-sync-audit
+summary: Run a read-only documentation drift audit for a feature, PR, branch, release, API, configuration change,
+  workflow, CLI, package, or repository area.
+description: Run a read-only documentation drift audit for a feature, PR, branch, release, API, configuration change,
+  workflow, CLI, package, or repository area. Use when the user asks whether docs are stale, missing, inconsistent
+  with code, or need updates after code changes. Checks README files, setup guides, API docs, env docs, changelogs,
+  examples, comments, generated docs, and user-facing instructions. This is not a general code review; it compares
+  what the docs claim against what the code does.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/docs-sync-audit
+  repository: https://github.com/github/awesome-copilot

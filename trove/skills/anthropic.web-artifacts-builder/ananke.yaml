@@ -1,0 +1,26 @@
+kind: skill
+namespace: anthropic
+name: web-artifacts-builder
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:anthropic:web-artifacts-builder
+summary: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web
+  technologies (React, Tailwind CSS, shadcn/ui).
+description: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend
+  web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing,
+  or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'skills/web-artifacts-builder/LICENSE.txt: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - anthropic
+  - executes-code
+  - skill
+  homepage: https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/web-artifacts-builder
+  repository: https://github.com/anthropics/skills

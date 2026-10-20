@@ -1,0 +1,27 @@
+kind: skill
+namespace: awesome-copilot
+name: excalidraw-diagram-generator
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:excalidraw-diagram-generator
+summary: Generate Excalidraw diagrams from natural language descriptions. Use when asked to "create a diagram",
+  "make a flowchart", "visualize a process", "draw a system architecture", "create a mind map", or…
+description: Generate Excalidraw diagrams from natural language descriptions. Use when asked to "create a diagram",
+  "make a flowchart", "visualize a process", "draw a system architecture", "create a mind map", or "generate an
+  Excalidraw file". Supports flowcharts, relationship diagrams, mind maps, and system architecture diagrams. Outputs
+  .excalidraw JSON files that can be opened directly in Excalidraw.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/excalidraw-diagram-generator
+  repository: https://github.com/github/awesome-copilot

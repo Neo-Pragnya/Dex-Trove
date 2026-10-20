@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/qdrant-version-upgrade",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "qdrant-version-upgrade",
+  "title": "Qdrant Version Upgrade",
+  "description": "Guidance on how to upgrade your Qdrant version without interrupting the availability of your application and ensuring data integrity.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.qdrant-version-upgrade",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/qdrant-version-upgrade",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/qdrant-version-upgrade",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "1a6722e67b24970d52ef94386e162e97f4b4c10eb1599d6d0165050df2ba4993",
+  "content_hash": "8b58ba6166a32a47f19341d7199c5566283a7582502fc6ff27a589454a8b132f",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

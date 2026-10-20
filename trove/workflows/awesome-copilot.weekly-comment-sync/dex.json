@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/weekly-comment-sync",
+  "kind": "workflow",
+  "namespace": "awesome-copilot",
+  "name": "weekly-comment-sync",
+  "title": "Weekly Comment Sync",
+  "description": "Weekly workflow that finds stale code comments or README snippets, makes text-only synchronization updates, and opens a draft pull request when changes are needed.",
+  "tags": [
+    "awesome-copilot",
+    "workflow"
+  ],
+  "version": "1.0.0",
+  "entry": "weekly-comment-sync.md",
+  "dir": "workflows/awesome-copilot.weekly-comment-sync",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "workflows/weekly-comment-sync.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/workflows/weekly-comment-sync.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "weekly-comment-sync.md"
+  ],
+  "entry_hash": "e2dbb614eed8ad17d1daa41e7d7f260d8601ebe3d9309a286f859c60f87adeb8",
+  "content_hash": "de1f254f78be1996303904704b8759af186be27d189d16fd93a019ec4308b184",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "anthropic/theme-factory",
+  "kind": "skill",
+  "namespace": "anthropic",
+  "name": "theme-factory",
+  "title": "Theme Factory Skill",
+  "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+  "tags": [
+    "anthropic",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/anthropic.theme-factory",
+  "source": {
+    "id": "anthropic",
+    "title": "Anthropic Agent Skills",
+    "repo": "https://github.com/anthropics/skills",
+    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "path": "skills/theme-factory",
+    "url": "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/theme-factory",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "skills/theme-factory/LICENSE.txt: Apache-2.0 text",
+    "notice": "Copyright 2026 Anthropic, PBC.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "theme-showcase.pdf",
+    "themes/arctic-frost.md",
+    "themes/botanical-garden.md",
+    "themes/desert-rose.md",
+    "themes/forest-canopy.md",
+    "themes/golden-hour.md",
+    "themes/midnight-galaxy.md",
+    "themes/modern-minimalist.md",
+    "themes/ocean-depths.md",
+    "themes/sunset-boulevard.md",
+    "themes/tech-innovation.md"
+  ],
+  "entry_hash": "c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552",
+  "content_hash": "5711761f74c5331d046dda76ed3f0907625d2a85f9acbb47145801c82277fb8f",
+  "learned_at": "2026-10-20T03:29:00+00:00"
+}

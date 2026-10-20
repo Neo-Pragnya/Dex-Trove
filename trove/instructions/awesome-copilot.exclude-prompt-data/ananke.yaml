@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: exclude-prompt-data
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:exclude-prompt-data
+summary: Write only the resulting content into files. Never echo prompt instructions, rationale, or meta-commentary
+  into documentation, comments, or code being produced from a prompt.
+description: Write only the resulting content into files. Never echo prompt instructions, rationale, or meta-commentary
+  into documentation, comments, or code being produced from a prompt.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: exclude-prompt-data.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/exclude-prompt-data.instructions.md
+  repository: https://github.com/github/awesome-copilot

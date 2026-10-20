@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: rebase-current-branch
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:rebase-current-branch
+summary: Rebase the currently checked out feature branch onto the latest upstream default branch.
+description: Rebase the currently checked out feature branch onto the latest upstream default branch. Use when asked
+  to update a branch with main or master, rebase the current branch onto the default branch, or sync a feature branch
+  before review. Detects whether the repository uses main or master and guides safe conflict handling.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/rebase-current-branch
+  repository: https://github.com/github/awesome-copilot

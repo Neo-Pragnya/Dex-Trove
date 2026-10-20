@@ -1,0 +1,34 @@
+kind: bundle
+namespace: awesome-copilot
+name: ospo-sponsorship
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:ospo-sponsorship
+summary: Tools and resources for Open Source Program Offices (OSPOs) to identify, evaluate, and manage sponsorship
+  of open source dependencies through GitHub Sponsors, Open Collective, and other funding platfo…
+description: Tools and resources for Open Source Program Offices (OSPOs) to identify, evaluate, and manage sponsorship
+  of open source dependencies through GitHub Sponsors, Open Collective, and other funding platforms.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/sponsor-finder
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - plugin
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/ospo-sponsorship
+  repository: https://github.com/github/awesome-copilot

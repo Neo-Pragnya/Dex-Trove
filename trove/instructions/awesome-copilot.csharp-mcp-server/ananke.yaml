@@ -1,0 +1,31 @@
+kind: prompt
+namespace: awesome-copilot
+name: csharp-mcp-server
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:csharp-mcp-server
+summary: Instructions for building Model Context Protocol (MCP) servers using the C# SDK
+description: Instructions for building Model Context Protocol (MCP) servers using the C# SDK
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: csharp-mcp-server.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/csharp-mcp-server.instructions.md
+  repository: https://github.com/github/awesome-copilot

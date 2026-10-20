@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/arize-ai-provider-integration",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "arize-ai-provider-integration",
+  "title": "Arize AI Integration Skill",
+  "description": "Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials used by evaluators and other Arize features. Supports any LLM provider (e.g. OpenAI, Anthropic, Azure OpenAI, AWS Bedrock, Vertex AI, Gemini, NVIDIA NIM). Use when the user mentions AI integration, LLM provider credentials, create integration, list integrations, update credentials, delete integration, or connecting an LLM provider to Arize.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.arize-ai-provider-integration",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/arize-ai-provider-integration",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-ai-provider-integration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/ax-profiles.md",
+    "references/ax-setup.md"
+  ],
+  "entry_hash": "c1fe70e2c0bd7950d48eb5910cbed9bcb6893d0af3bca3983f232dacc48adf03",
+  "content_hash": "2a884360cf58c79bdf790554ac61ae2c06f1d33d7fcb53ffb71385f51c5a2199",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

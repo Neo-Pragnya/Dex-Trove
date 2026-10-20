@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/mvvm-toolkit",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "mvvm-toolkit",
+  "title": "CommunityToolkit.Mvvm (core)",
+  "description": "CommunityToolkit.Mvvm (the MVVM Toolkit) core: source generators ([ObservableProperty], [RelayCommand], [NotifyPropertyChangedFor], [NotifyCanExecuteChangedFor], [NotifyDataErrorInfo]), base classes (ObservableObject / ObservableValidator / ObservableRecipient), commands (RelayCommand / AsyncRelayCommand), and validation. Companion skills: mvvm-toolkit-messenger for pub/sub, mvvm-toolkit-di for Microsoft.Extensions.DependencyInjection wiring. Works across WPF, WinUI 3, MAUI, Uno, and Avalonia.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.mvvm-toolkit",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/mvvm-toolkit",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mvvm-toolkit",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/end-to-end-walkthrough.md",
+    "references/relaycommand-cookbook.md",
+    "references/source-generators.md",
+    "references/troubleshooting.md",
+    "references/validation.md"
+  ],
+  "entry_hash": "25fc1d882a92163b96e2990272af75db0a70a329b9dd6b7cb49e1b058c8bff9d",
+  "content_hash": "2ca2e3a21731f0739ad10d0171ead76f0d47453749e56d06506c40008b9f3460",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

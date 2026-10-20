@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/pcf-fluent-modern-theming",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "pcf-fluent-modern-theming",
+  "title": "Style Components with Modern Theming (Preview)",
+  "description": "Style components with modern theming using Fluent UI",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "pcf-fluent-modern-theming.instructions.md",
+  "dir": "instructions/awesome-copilot.pcf-fluent-modern-theming",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/pcf-fluent-modern-theming.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/pcf-fluent-modern-theming.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pcf-fluent-modern-theming.instructions.md"
+  ],
+  "entry_hash": "9801ba97ff80400ada60c07901fc0ff7ebf6f0dc60941c7a283cc91abe8f101d",
+  "content_hash": "af9503660e86487e45a7d0356ec530ce5326a548e15c06b7e69eb93123ee9280",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+}

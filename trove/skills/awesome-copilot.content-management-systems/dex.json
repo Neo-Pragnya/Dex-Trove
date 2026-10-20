@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/content-management-systems",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "content-management-systems",
+  "title": "Content Management Systems",
+  "description": "Workflow for building and modifying content management systems across WordPress, Shopify, Wix, Squarespace, Drupal, WooCommerce, Joomla, HubSpot CMS Hub, Webflow, Adobe Experience Manager, and similar platforms. Use when working on CMS themes, plugins, apps, modules, admin panels, media uploads, content models, editors, markdown pipelines, or static export workflows.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.content-management-systems",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/content-management-systems",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/content-management-systems",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/cms-platform-workflows.md"
+  ],
+  "entry_hash": "919c83458a358435b234e8d2d8e35514cdcaec0163b58886dd95fc1a736cc50c",
+  "content_hash": "c6d97ec6efdff63fd6bfa642ce0ec816fb7a1c6362d8e274c54e49c3dbe5ab91",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

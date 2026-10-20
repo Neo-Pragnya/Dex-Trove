@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/generate-image",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "generate-image",
+  "title": "Generate Image",
+  "description": "Generate images using AI. Use when asked to generate, create, or make images, textures, icons, sprites, artwork, visual assets, or mockups. Supports OpenAI (gpt-image-2) and Google Gemini (Nano Banana). Requires an API key for the chosen provider.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.generate-image",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/generate-image",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/generate-image",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "95e604ccc07f7c81370361ef5afe63de3d99c8165eb5f700fc464d175d79a206",
+  "content_hash": "fc80275464ab5141450b9f68b01b84bb29f59156d86287c0922d3d7b3edb10ba",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

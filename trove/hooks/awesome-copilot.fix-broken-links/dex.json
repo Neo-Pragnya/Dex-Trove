@@ -1,0 +1,49 @@
+{
+  "id": "awesome-copilot/fix-broken-links",
+  "kind": "hook",
+  "namespace": "awesome-copilot",
+  "name": "fix-broken-links",
+  "title": "Fix Broken Links",
+  "description": "Checks changed web files for broken hyperlinks and SEO anchor issues after each Copilot tool use.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "hook",
+    "html",
+    "links",
+    "markdown",
+    "post-tool-use",
+    "seo"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "hooks/awesome-copilot.fix-broken-links",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "hooks/fix-broken-links",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/fix-broken-links",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "README.md",
+    "hooks.json",
+    "link-fix.ps1",
+    "link-fix.sh"
+  ],
+  "entry_hash": "70421782f8298229a5666a07a591806b425088f2d464264284778a4e1ab943bd",
+  "content_hash": "947eb42a1585a515963f841d8e794d287ec38a24fc6b2f2e7b6ae5dc0d8deb73",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

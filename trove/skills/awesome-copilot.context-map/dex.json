@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/context-map",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "context-map",
+  "title": "Context Map",
+  "description": "Generate a map of all files relevant to a task before making changes",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.context-map",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/context-map",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/context-map",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "af0037b06a0b56a5014e16a32538ac419725638659428b7e229ed5bbb9087a37",
+  "content_hash": "b72e260b02df19d0e6820d0dc95799f78ad2f829d2b4cef5159b1408635b2164",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/git-commit",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "git-commit",
+  "title": "Git Commit with Conventional Commits",
+  "description": "Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when user asks to commit changes, create a git commit, or mentions \"/commit\". Supports: (1) Auto-detecting type and scope from changes, (2) Generating conventional commit messages from diff, (3) Interactive commit with optional type/scope/description overrides, (4) Intelligent file staging for logical grouping",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.git-commit",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/git-commit",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/git-commit",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "554d1a3c6d95f15bc1170160659ecdc9a9958b64f377f3988941b672c249b13f",
+  "content_hash": "2ec73abbd7b35f5fd768dd2cf253625e75295d8de6bdf1ff84d8faf07afe11d5",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

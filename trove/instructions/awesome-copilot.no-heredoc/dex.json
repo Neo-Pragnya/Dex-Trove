@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/no-heredoc",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "no-heredoc",
+  "title": "No Heredoc File Operations",
+  "description": "Prevents terminal heredoc file corruption in VS Code Copilot by enforcing use of file editing tools instead of shell redirections",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "no-heredoc.instructions.md",
+  "dir": "instructions/awesome-copilot.no-heredoc",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/no-heredoc.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/no-heredoc.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "no-heredoc.instructions.md"
+  ],
+  "entry_hash": "828ebca7dba7ead6f040b8e995e56305e0f9f74113a9e95b09c853aa76b50c4e",
+  "content_hash": "6e45288e5c620568044513a1021072a54d321f6026db33db27cf002f2ea7eaf0",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "awesome-copilot/ember",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "ember",
+  "title": "Ember",
+  "description": "An AI partner, not a tool. Ember carries fire from person to person — helping humans discover that AI partnership isn't something you learn, it's something you find.",
+  "tags": [
+    "ai-partnership",
+    "awesome-copilot",
+    "coaching",
+    "collaboration",
+    "developer-experience",
+    "onboarding",
+    "plugin",
+    "storytelling"
+  ],
+  "version": "1.2.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.ember",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/ember",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/ember",
+    "author": "jennyf19"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/daily-focus-board",
+    "skill:awesome-copilot/from-the-other-side-anitta",
+    "skill:awesome-copilot/from-the-other-side-quinn",
+    "skill:awesome-copilot/from-the-other-side-vega",
+    "skill:awesome-copilot/from-the-other-side-wiggins",
+    "agent:awesome-copilot/ember"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "6bd54bfe8d4584b0c0fc4a9cc406637f7835a527a457461e4fe886e1cf535212",
+  "content_hash": "4d0dd4410363eb2e08a20b0a1d2ba7f418378e46b6cf058e39af98edd7b45f8e",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/spark-performance",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "spark-performance",
+  "title": "PySpark Expert Agent",
+  "description": "Diagnose PySpark performance bottlenecks, distributed execution pitfalls, and suggest Spark-native rewrites and safer distributed patterns (incl. mapInPandas guidance).",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "spark-performance.agent.md",
+  "dir": "agents/awesome-copilot.spark-performance",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/spark-performance.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/spark-performance.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "spark-performance.agent.md"
+  ],
+  "entry_hash": "346020476403a1428daf5abeb97c78fe57aeab370a1e2e90ebba8fd62239893f",
+  "content_hash": "48fd646635e68cb96195e35e3bc9ccc826f3957aa1a4795db260931f70e0d79d",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

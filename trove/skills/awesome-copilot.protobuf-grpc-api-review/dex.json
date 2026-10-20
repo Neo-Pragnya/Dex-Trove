@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/protobuf-grpc-api-review",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "protobuf-grpc-api-review",
+  "title": "Protobuf and gRPC API Review",
+  "description": "Review Protocol Buffer (.proto) and gRPC API changes for wire and JSON compatibility, safe schema evolution, rollout hazards, and RPC contract quality. Use when reviewing proto diffs, adding or changing messages and services, planning migrations, or diagnosing cross-version failures.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.protobuf-grpc-api-review",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/protobuf-grpc-api-review",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/protobuf-grpc-api-review",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/grpc-contract-review.md",
+    "references/protobuf-compatibility.md"
+  ],
+  "entry_hash": "0897f9b79c4aaa4842e4b6b3aff48ddddee97d88fed25376eb5f9f24749c1747",
+  "content_hash": "696146fef0913143b189d831be2c7848e6a1e6c8612a88bb7c7b2beebf37da88",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

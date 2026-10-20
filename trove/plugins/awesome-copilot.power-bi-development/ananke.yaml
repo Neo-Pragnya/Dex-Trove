@@ -1,0 +1,57 @@
+kind: bundle
+namespace: awesome-copilot
+name: power-bi-development
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:power-bi-development
+summary: Comprehensive Power BI development resources including data modeling, DAX optimization, performance tuning,
+  visualization design, security best practices, and DevOps/ALM guidance for building enterpri…
+description: Comprehensive Power BI development resources including data modeling, DAX optimization, performance
+  tuning, visualization design, security best practices, and DevOps/ALM guidance for building enterprise-grade Power
+  BI solutions.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/power-bi-dax-optimization
+  version: '*'
+- ref: ananke://skill/awesome-copilot/power-bi-model-design-review
+  version: '*'
+- ref: ananke://skill/awesome-copilot/power-bi-performance-troubleshooting
+  version: '*'
+- ref: ananke://skill/awesome-copilot/power-bi-report-design-consultation
+  version: '*'
+- ref: ananke://agent/awesome-copilot/power-bi-data-modeling-expert
+  version: '*'
+- ref: ananke://agent/awesome-copilot/power-bi-dax-expert
+  version: '*'
+- ref: ananke://agent/awesome-copilot/power-bi-performance-expert
+  version: '*'
+- ref: ananke://agent/awesome-copilot/power-bi-visualization-expert
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - business-intelligence
+  - data-modeling
+  - dax
+  - devops
+  - performance
+  - plugin
+  - power-bi
+  - security
+  - visualization
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/power-bi-development
+  repository: https://github.com/github/awesome-copilot

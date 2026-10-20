@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: ai-ready
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:ai-ready
+summary: Make any repo AI-ready — analyzes your codebase and generates AGENTS.md, copilot-instructions.md, CI workflows,
+  issue templates, and more.
+description: Make any repo AI-ready — analyzes your codebase and generates AGENTS.md, copilot-instructions.md, CI
+  workflows, issue templates, and more. Mines your PR review patterns and creates files customized to your stack.
+  USE THIS SKILL when the user asks to "make this repo ai-ready", "set up AI config", or "prepare this repo for
+  AI contributions".
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/ai-ready
+  repository: https://github.com/github/awesome-copilot

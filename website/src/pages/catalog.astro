@@ -1,0 +1,149 @@
+---
+import Glyph from "../components/Glyph.astro";
+import Layout from "../components/Layout.astro";
+import search from "../data/search.json";
+import trove from "../data/trove.json";
+import { KINDS, KIND_GLYPH, KIND_ORDER, itemHref, type Kind } from "../lib/site";
+
+const base = import.meta.env.BASE_URL;
+const items = [...search].sort((a, b) => a.title.localeCompare(b.title));
+const counts = trove.counts as Record<string, number>;
+const namespaces = [...new Set(items.map((i) => i.ns))].sort();
+const licences = [...new Set(items.map((i) => i.lic ?? "unknown"))].sort();
+---
+
+<Layout title="Catalog" description="Search every skill, agent, instruction, hook, workflow and plugin in Dex Trove.">
+  <p class="eyebrow">Catalog</p>
+  <h1><span data-scramble>Every dexterity in the trove</span></h1>
+  <p class="lede">
+    Search names, descriptions and tags. Every card links to a page with the item's licence evidence, upstream
+    source and install commands.
+  </p>
+
+  <div class="filters" id="filters">
+    <input id="q" type="search" placeholder="Search e.g. “terraform”, “debugging”, “mermaid diagram”" autocomplete="off" aria-label="Search the catalog" />
+    <div class="filter-row" role="group" aria-label="Filter by kind">
+      {
+        KIND_ORDER.filter((k) => counts[k]).map((k) => (
+          <button type="button" class={`toggle k-${k}`} data-kind={k} aria-pressed="false">
+            <Glyph shapes={KIND_GLYPH[k]} class="" />
+            {KINDS[k].plural} · {counts[k]}
+          </button>
+        ))
+      }
+    </div>
+    <div class="filter-row">
+      <label>
+        Source
+        <select id="ns">
+          <option value="">All sources</option>
+          {namespaces.map((n) => <option value={n}>{n}</option>)}
+        </select>
+      </label>
+      <label>
+        Licence
+        <select id="lic">
+          <option value="">Any licence</option>
+          {licences.map((l) => <option value={l}>{l}</option>)}
+        </select>
+      </label>
+      <span class="count" id="count" aria-live="polite">{items.length} items</span>
+    </div>
+  </div>
+
+  <ul class="results" id="results">
+    {
+      items.map((it) => (
+        <li
+          class={`result k-${it.kind}`}
+          data-kind={it.kind}
+          data-ns={it.ns}
+          data-lic={it.lic ?? "unknown"}
+          data-name={it.name}
+          data-title={it.title.toLowerCase()}
+          data-text={`${it.d} ${it.tags.join(" ")}`.toLowerCase()}
+        >
+          <a class="card" href={itemHref(base, it.kind, it.ns, it.name)}>
+            <span class="card-head">
+              <Glyph shapes={KIND_GLYPH[it.kind as Kind]} class="glyph" />
+              <span class="chips">
+                <span class={`chip kind k-${it.kind}`}>{KINDS[it.kind as Kind].label}</span>
+                <span class="chip">{it.lic}</span>
+              </span>
+            </span>
+            <h3>{it.title}</h3>
+            <p>{it.d}</p>
+            <span class="meta">{it.id}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  <p class="empty" id="empty" hidden>Nothing matches. Try fewer words or clear the filters.</p>
+
+  <script>
+    const q = document.querySelector<HTMLInputElement>("#q")!;
+    const ns = document.querySelector<HTMLSelectElement>("#ns")!;
+    const lic = document.querySelector<HTMLSelectElement>("#lic")!;
+    const count = document.querySelector<HTMLElement>("#count")!;
+    const empty = document.querySelector<HTMLElement>("#empty")!;
+    const list = document.querySelector<HTMLElement>("#results")!;
+    const toggles = Array.from(document.querySelectorAll<HTMLButtonElement>("button[data-kind]"));
+    const cards = Array.from(list.querySelectorAll<HTMLElement>("li.result"));
+
+    const params = new URLSearchParams(location.search);
+    q.value = params.get("q") ?? "";
+    ns.value = params.get("source") ?? "";
+    lic.value = params.get("license") ?? "";
+    const initialKinds = (params.get("kind") ?? "").split(",").filter(Boolean);
+    toggles.forEach((t) => t.setAttribute("aria-pressed", String(initialKinds.includes(t.dataset.kind!))));
+
+    function score(el: HTMLElement, words: string[]): number {
+      let total = 0;
+      for (const w of words) {
+        const hit =
+          (el.dataset.name!.includes(w) ? 5 : 0) +
+          (el.dataset.title!.includes(w) ? 3 : 0) +
+          (el.dataset.text!.includes(w) ? 1 : 0);
+        if (!hit) return 0;
+        total += hit;
+      }
+      return total;
+    }
+
+    function apply(): void {
+      const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+      const kinds = toggles.filter((t) => t.getAttribute("aria-pressed") === "true").map((t) => t.dataset.kind);
+      const ranked: [number, HTMLElement][] = [];
+      for (const el of cards) {
+        const ok =
+          (!kinds.length || kinds.includes(el.dataset.kind)) &&
+          (!ns.value || el.dataset.ns === ns.value) &&
+          (!lic.value || el.dataset.lic === lic.value);
+        const s = ok ? (words.length ? score(el, words) : 1) : 0;
+        el.hidden = s === 0;
+        if (s) ranked.push([s, el]);
+      }
+      if (words.length) ranked.sort((a, b) => b[0] - a[0]).forEach(([, el]) => list.append(el));
+      count.textContent = `${ranked.length} of ${cards.length} items`;
+      empty.hidden = ranked.length > 0;
+      const next = new URLSearchParams();
+      if (q.value) next.set("q", q.value);
+      if (kinds.length) next.set("kind", kinds.join(","));
+      if (ns.value) next.set("source", ns.value);
+      if (lic.value) next.set("license", lic.value);
+      history.replaceState(null, "", next.size ? `?${next}` : location.pathname);
+    }
+
+    toggles.forEach((t) =>
+      t.addEventListener("click", () => {
+        t.setAttribute("aria-pressed", String(t.getAttribute("aria-pressed") !== "true"));
+        apply();
+      }),
+    );
+    q.addEventListener("input", apply);
+    ns.addEventListener("change", apply);
+    lic.addEventListener("change", apply);
+    apply();
+  </script>
+</Layout>

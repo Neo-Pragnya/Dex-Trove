@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/dotnet-maui-9-to-dotnet-maui-10-upgrade",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dotnet-maui-9-to-dotnet-maui-10-upgrade",
+  "title": "Upgrading from .NET MAUI 9 to .NET MAUI 10",
+  "description": "Instructions for upgrading .NET MAUI applications from version 9 to version 10, including breaking changes, deprecated APIs, and migration strategies for ListView to CollectionView.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md",
+  "dir": "instructions/awesome-copilot.dotnet-maui-9-to-dotnet-maui-10-upgrade",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md"
+  ],
+  "entry_hash": "0e2ec4d7f1c2e93b640b2ef60cf2cd688d590c65f3e94a2d877e7b73ec3f7361",
+  "content_hash": "c9a3e9700885fd262213bc79b10c565247bcdbac94240e4918dde000ba208096",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.csproj, **/*.cs, **/*.xaml"
+}

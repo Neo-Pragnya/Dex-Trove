@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/salesforce-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "salesforce-expert",
+  "title": "Salesforce Expert Agent",
+  "description": "Provide expert Salesforce Platform guidance, including Apex Enterprise Patterns, LWC, integration, and Aura-to-LWC migration.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "salesforce-expert.agent.md",
+  "dir": "agents/awesome-copilot.salesforce-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/salesforce-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/salesforce-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "salesforce-expert.agent.md"
+  ],
+  "entry_hash": "666af1810618c51d1e57e723b5bfb210dbb9bca13dadf8fb642a8a382238d82c",
+  "content_hash": "7b2a3550e472534375529641a3bda0d558e839ad3da89c63e7657aae1e52adae",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

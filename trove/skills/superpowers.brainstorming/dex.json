@@ -1,0 +1,48 @@
+{
+  "id": "superpowers/brainstorming",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "brainstorming",
+  "title": "Brainstorming",
+  "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
+  "tags": [
+    "executes-code",
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.brainstorming",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/brainstorming",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/brainstorming",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "builder-check-prompt.md",
+    "scripts/frame-template.html",
+    "scripts/helper.js",
+    "scripts/server.cjs",
+    "scripts/start-server.sh",
+    "scripts/stop-server.sh",
+    "visual-companion.md"
+  ],
+  "entry_hash": "6ee10d1481b8a2580d5336ff66c5c08acc9d4b251b13bbc3bfd31be99c261d43",
+  "content_hash": "6e2c3dfe4c01c2f7ed0d7dc6ae42270580434aedab4e96f23b04bca53b4a0cae",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

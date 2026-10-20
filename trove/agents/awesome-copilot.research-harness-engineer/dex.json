@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/research-harness-engineer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "research-harness-engineer",
+  "title": "Research Harness Engineer",
+  "description": "Research harness engineer for experiment campaigns: builds evaluation harnesses that are hard to fool, then keeps every reported number honest - null models first, calibration/held-out separation, baseline reproduction before improvement claims, paired error bars, and guards verified by deliberate breakage.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "research-harness-engineer.agent.md",
+  "dir": "agents/awesome-copilot.research-harness-engineer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/research-harness-engineer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/research-harness-engineer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "research-harness-engineer.agent.md"
+  ],
+  "entry_hash": "630c9af6401e1e7145936181939cfe78ca92d9ccfe1738d6646f4467ad6d2502",
+  "content_hash": "f3f2d077a532fc57cdae4353f15ca7146aacb428948200f9bf70ba59ce36d95c",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

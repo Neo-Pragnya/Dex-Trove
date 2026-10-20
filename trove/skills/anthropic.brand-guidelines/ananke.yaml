@@ -1,0 +1,32 @@
+kind: skill
+namespace: anthropic
+name: brand-guidelines
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:anthropic:brand-guidelines
+summary: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from
+  having Anthropic's look-and-feel.
+description: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from
+  having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company
+  design standards apply.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'skills/brand-guidelines/LICENSE.txt: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - anthropic
+  - skill
+  homepage: https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/brand-guidelines
+  repository: https://github.com/anthropics/skills

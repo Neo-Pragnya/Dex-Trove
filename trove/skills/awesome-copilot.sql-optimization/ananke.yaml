@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: sql-optimization
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:sql-optimization
+summary: Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and
+  database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle)…
+description: Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies,
+  and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution
+  plan analysis, pagination optimization, batch operations, and performance monitoring guidance.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/sql-optimization
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/exclude-prompt-data",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "exclude-prompt-data",
+  "title": "Exclude Prompt Data",
+  "description": "Write only the resulting content into files. Never echo prompt instructions, rationale, or meta-commentary into documentation, comments, or code being produced from a prompt.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "exclude-prompt-data.instructions.md",
+  "dir": "instructions/awesome-copilot.exclude-prompt-data",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/exclude-prompt-data.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/exclude-prompt-data.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "exclude-prompt-data.instructions.md"
+  ],
+  "entry_hash": "b198ca943be53e392c200bebbd63f58cfe2923cbb780443d03138799d5fa190a",
+  "content_hash": "8ea91c4ba7efa49660ed83a9971f8d61cd0f5779fc4c68977c3414c2f5135063",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

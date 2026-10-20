@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/playwright-typescript",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "playwright-typescript",
+  "title": "playwright-typescript",
+  "description": "Playwright test generation instructions",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "playwright-typescript.instructions.md",
+  "dir": "instructions/awesome-copilot.playwright-typescript",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/playwright-typescript.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/playwright-typescript.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "playwright-typescript.instructions.md"
+  ],
+  "entry_hash": "bf42d14519531fddc310b2e786982d3d669d8d1618acc1a1a4b833013fff06f1",
+  "content_hash": "29a9c504aa26abbfd90427c73290484a4b399d0f29c383eabc1326c9cd0fbe6b",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

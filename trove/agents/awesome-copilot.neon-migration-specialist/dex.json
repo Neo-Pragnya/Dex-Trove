@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/neon-migration-specialist",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "neon-migration-specialist",
+  "title": "Neon Migration Specialist",
+  "description": "Safe Postgres migrations with zero-downtime using Neon's branching workflow. Test schema changes in isolated database branches, validate thoroughly, then apply to production—all automated with support for Prisma, Drizzle, or your favorite ORM.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "neon-migration-specialist.agent.md",
+  "dir": "agents/awesome-copilot.neon-migration-specialist",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/neon-migration-specialist.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/neon-migration-specialist.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "neon-migration-specialist.agent.md"
+  ],
+  "entry_hash": "8c6545c7eceaed3a233e8f4034a03b2148efe370dc7f5e95b6fac3832578086e",
+  "content_hash": "30bce459506d92c02384e3b00f8cba77ff784fb84c2c3d81cb16d0427fb625d2",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

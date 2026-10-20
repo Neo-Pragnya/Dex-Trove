@@ -1,0 +1,25 @@
+kind: skill
+namespace: anthropic
+name: algorithmic-art
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:anthropic:algorithmic-art
+summary: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration.
+description: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration.
+  Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle
+  systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'skills/algorithmic-art/LICENSE.txt: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - anthropic
+  - executes-code
+  - skill
+  homepage: https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/algorithmic-art
+  repository: https://github.com/anthropics/skills

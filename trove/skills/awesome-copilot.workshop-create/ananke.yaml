@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: workshop-create
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:workshop-create
+summary: 'Create a new workshop or use an existing directory as one. Handles two paths: (A) use an existing local
+  directory the operator points at, or (B) create a new private GitHub repo in the signed-in accou…'
+description: 'Create a new workshop or use an existing directory as one. Handles two paths: (A) use an existing
+  local directory the operator points at, or (B) create a new private GitHub repo in the signed-in account. Never
+  creates a repo inside another repo.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/workshop-create
+  repository: https://github.com/github/awesome-copilot

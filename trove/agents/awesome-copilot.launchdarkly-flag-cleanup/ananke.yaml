@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: launchdarkly-flag-cleanup
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:launchdarkly-flag-cleanup
+summary: A specialized GitHub Copilot agent that uses the LaunchDarkly MCP server to safely automate feature flag
+  cleanup workflows.
+description: A specialized GitHub Copilot agent that uses the LaunchDarkly MCP server to safely automate feature
+  flag cleanup workflows. This agent determines removal readiness, identifies the correct forward value, and creates
+  PRs that preserve production behavior while removing obsolete flags and updating stale defaults.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: launchdarkly-flag-cleanup.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/launchdarkly-flag-cleanup.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/speak-summary",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "speak-summary",
+  "title": "Speak Summary",
+  "description": "Convert text, markdown, or a summary produced by another skill into a listenable MP3 using local CPU-only neural text-to-speech. Rewrites written prose for the ear before synthesising. Use when the user asks to \"read this out\", \"turn this into audio\", \"make an MP3\", \"I want to listen to this\", \"podcast version\", or wants a spoken digest for a commute or breakfast.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.speak-summary",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/speak-summary",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/speak-summary",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/tts.sh"
+  ],
+  "entry_hash": "ce226849c8b0a28d5aab749ef48a38ba92770301bc85de9311e0e8295c4f1beb",
+  "content_hash": "60d599890db5003b9dcc94b3a3bb20839560cd31ac99a60d9cea7ca19d356d19",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

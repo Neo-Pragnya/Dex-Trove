@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/onboard-context-matic",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "onboard-context-matic",
+  "title": "Onboarding: ContextMatic MCP",
+  "description": "Interactive onboarding tour for the context-matic MCP server. Walks the user through what the server does, shows all available APIs, lets them pick one to explore, explains it in their project language, demonstrates model_search and endpoint_search live, and ends with a menu of things the user can ask the agent to do. USE FOR: first-time setup; \"what can this MCP do?\"; \"show me the available APIs\"; \"onboard me\"; \"how do I use the context-matic server\"; \"give me a tour\". DO NOT USE FOR: actually integrating an API end-to-end (use integrate-context-matic instead).",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.onboard-context-matic",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/onboard-context-matic",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/onboard-context-matic",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "db5b6ff9092017ab254334daee1df36ee526b3f1af42d9d8197d6dc6f7a4edb9",
+  "content_hash": "0bd1bc2e1bbc57502545400a83a4944c1bb44d70002b7713b33096a794cd46f9",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

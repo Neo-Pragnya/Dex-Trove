@@ -1,0 +1,62 @@
+{
+  "id": "awesome-copilot/react18-upgrade",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "react18-upgrade",
+  "title": "React 18 Upgrade Plugin",
+  "description": "Enterprise React 18 migration toolkit with specialized agents and skills for upgrading React 16/17 class-component codebases to React 18.3.1. Includes auditor, dependency surgeon, class component migration specialist, automatic batching fixer, and test guardian.",
+  "tags": [
+    "awesome-copilot",
+    "batching",
+    "class-components",
+    "lifecycle",
+    "migration",
+    "plugin",
+    "react",
+    "react18",
+    "upgrade"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.react18-upgrade",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/react18-upgrade",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/react18-upgrade",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/react-audit-grep-patterns",
+    "skill:awesome-copilot/react18-batching-patterns",
+    "skill:awesome-copilot/react18-dep-compatibility",
+    "skill:awesome-copilot/react18-enzyme-to-rtl",
+    "skill:awesome-copilot/react18-legacy-context",
+    "skill:awesome-copilot/react18-lifecycle-patterns",
+    "skill:awesome-copilot/react18-string-refs",
+    "agent:awesome-copilot/react18-auditor",
+    "agent:awesome-copilot/react18-batching-fixer",
+    "agent:awesome-copilot/react18-class-surgeon",
+    "agent:awesome-copilot/react18-commander",
+    "agent:awesome-copilot/react18-dep-surgeon",
+    "agent:awesome-copilot/react18-test-guardian"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "a7ae54c3507208e2c3d6901a88937b9ceefc87c0fb1cb22bfdd55958a5687533",
+  "content_hash": "206419fb257f72789b62c641a7092272cb7b69ad87f2a9a19bd350d9cbd00c9f",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

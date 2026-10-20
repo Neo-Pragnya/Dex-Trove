@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/create-spring-boot-java-project",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "create-spring-boot-java-project",
+  "title": "Create Spring Boot Java project prompt",
+  "description": "Create Spring Boot Java Project Skeleton",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.create-spring-boot-java-project",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/create-spring-boot-java-project",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-spring-boot-java-project",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "353f26c4ff608b0e9a00e6f0d75916cae2fb5680358285e06f6c1862c4b459e4",
+  "content_hash": "19b6bb7ebd32c00fd03738ac8112e80a309958c7f44360095c83eb2aff3d9ea7",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

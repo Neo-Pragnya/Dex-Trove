@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/lwc",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "lwc",
+  "title": "LWC Development",
+  "description": "Guidelines and best practices for developing Lightning Web Components (LWC) on Salesforce Platform.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "lwc.instructions.md",
+  "dir": "instructions/awesome-copilot.lwc",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/lwc.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/lwc.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "lwc.instructions.md"
+  ],
+  "entry_hash": "83ec9673560600f2249c96aaea4d73430be7c983158f5b0109864fdd1231174a",
+  "content_hash": "916764bc4c59fe2e2ecf383d122362e3a65987854f3d23c80f786debbf2d8658",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "force-app/main/default/lwc/**"
+}

@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: agent-governance-reviewer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:agent-governance-reviewer
+summary: AI agent governance expert that reviews code for safety issues, missing governance controls, and helps
+  implement policy enforcement, trust scoring, and audit trails in agent systems.
+description: AI agent governance expert that reviews code for safety issues, missing governance controls, and helps
+  implement policy enforcement, trust scoring, and audit trails in agent systems.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: agent-governance-reviewer.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/agent-governance-reviewer.agent.md
+  repository: https://github.com/github/awesome-copilot

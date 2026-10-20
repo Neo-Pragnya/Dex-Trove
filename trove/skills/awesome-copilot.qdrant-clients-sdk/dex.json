@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/qdrant-clients-sdk",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "qdrant-clients-sdk",
+  "title": "Qdrant Clients SDK",
+  "description": "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.qdrant-clients-sdk",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/qdrant-clients-sdk",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/qdrant-clients-sdk",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "eac9386970303787ccff5ce65f77e2bc51286a07b27977a8fba1f256f4c95426",
+  "content_hash": "6f57c27565bbcb25fe214b9aff461c9db5d9f0484b1f5f522af3eece6650b6d6",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

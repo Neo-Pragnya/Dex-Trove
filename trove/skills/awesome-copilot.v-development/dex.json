@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/v-development",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "v-development",
+  "title": "v-development",
+  "description": "Guide GitHub Copilot through V language development: installing the toolchain, project layout with v.mod, building, testing, formatting, and writing idiomatic V including Option/Result error handling. Use when the user works with V source files, v.mod projects, or asks about V syntax, tooling, and conventions.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.v-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/v-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/v-development",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "4d51d06ae4e31b4d2294cefe5daada419f2c39ffb704b62a82082bc8946ebf1d",
+  "content_hash": "f926b3d6b582598ffc24430526bf7a1cef189e0bc97d825eb3a7fa9a537f3add",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

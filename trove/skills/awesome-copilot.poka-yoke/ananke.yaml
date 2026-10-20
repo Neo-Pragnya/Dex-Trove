@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: poka-yoke
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:poka-yoke
+summary: Mistake-proof code so misuse cannot be expressed, rather than warning against it. Use when designing an
+  interface, schema, or state machine and the user wants it hard to get wrong ("make invalid state…
+description: Mistake-proof code so misuse cannot be expressed, rather than warning against it. Use when designing
+  an interface, schema, or state machine and the user wants it hard to get wrong ("make invalid states unrepresentable",
+  "so callers cannot screw it up", "type-safe API", "pit of success"); when auditing existing code for footguns
+  ("what could bite us here", "what is easy to misuse", "poka-yoke this repo", "review this diff for ways to get
+  it wrong"); or when a bug has recurred and the fix must close the class rather than the case ("make sure this
+  never happens again", "this is the third time"). Especially for money, auth, permissions, deletion, migrations,
+  and pipelines where failure is silent. Classifies every finding by what happens when the mistake occurs and how
+  the device notices, which is what keeps it from collapsing into generic code review.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/poka-yoke
+  repository: https://github.com/github/awesome-copilot

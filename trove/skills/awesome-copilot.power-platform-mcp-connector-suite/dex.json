@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/power-platform-mcp-connector-suite",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "power-platform-mcp-connector-suite",
+  "title": "Power Platform MCP Connector Suite",
+  "description": "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.power-platform-mcp-connector-suite",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/power-platform-mcp-connector-suite",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/power-platform-mcp-connector-suite",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0b7764050e18c8257335da89594192c462aa33e2fcd2cef8c1f066ba1fe496d3",
+  "content_hash": "b93da29ef3cbfc65625611b7fcbd87734134d21eaccb5308db6bb71fc54a1b2e",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

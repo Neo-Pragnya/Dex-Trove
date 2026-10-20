@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/typespec-m365-copilot",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "typespec-m365-copilot",
+  "title": "TypeSpec for Microsoft 365 Copilot Plugin",
+  "description": "Comprehensive collection of prompts, instructions, and resources for building declarative agents and API plugins using TypeSpec for Microsoft 365 Copilot extensibility.",
+  "tags": [
+    "agent-development",
+    "api-plugins",
+    "awesome-copilot",
+    "declarative-agents",
+    "m365-copilot",
+    "microsoft-365",
+    "plugin",
+    "typespec"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.typespec-m365-copilot",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/typespec-m365-copilot",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/typespec-m365-copilot",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/typespec-api-operations",
+    "skill:awesome-copilot/typespec-create-agent",
+    "skill:awesome-copilot/typespec-create-api-plugin"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "e75445447006aaf4e7b3f2eba4996c6648f99f99e3e0a5f8534fe8e38a60bd85",
+  "content_hash": "8956c7157f0d5d3438d4fbf392b59b6bd12938fcd48bc8a1e26a287da6debaee",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

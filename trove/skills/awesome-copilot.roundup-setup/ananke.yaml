@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: roundup-setup
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:roundup-setup
+summary: Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized
+  status briefings.
+description: Interactive onboarding that learns your communication style, audiences, and data sources to configure
+  personalized status briefings. Paste in examples of updates you already write, answer a few questions, and roundup
+  calibrates itself to your workflow.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/roundup-setup
+  repository: https://github.com/github/awesome-copilot

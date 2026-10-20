@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/monday-bug-fixer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "monday-bug-fixer",
+  "title": "Monday Bug Context Fixer",
+  "description": "Elite bug-fixing agent that enriches task context from Monday.com platform data. Gathers related items, docs, comments, epics, and requirements to deliver production-quality fixes with comprehensive PRs.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "monday-bug-fixer.agent.md",
+  "dir": "agents/awesome-copilot.monday-bug-fixer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/monday-bug-fixer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/monday-bug-fixer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "monday-bug-fixer.agent.md"
+  ],
+  "entry_hash": "89b5ba4c1a68234f76855321bd2e94fb71c5c1a9ea566ad8a57aecb88e4b6fcd",
+  "content_hash": "9821b8347454c6c713981f380e59d975daa11a4007f424b923d31fd042d5c328",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

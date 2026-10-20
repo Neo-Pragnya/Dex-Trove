@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: qdrant-model-migration
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:qdrant-model-migration
+summary: Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch embedding
+  models', 'how to migrate vectors', 'how to update to a new model', 'zero-downtime model chan…
+description: Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch embedding
+  models', 'how to migrate vectors', 'how to update to a new model', 'zero-downtime model change', 'how to re-embed
+  my data', or 'can I use two models at once'. Also use when upgrading model dimensions, switching providers, or
+  A/B testing models.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/qdrant-model-migration
+  repository: https://github.com/github/awesome-copilot

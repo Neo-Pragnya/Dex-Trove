@@ -1,0 +1,32 @@
+kind: skill
+namespace: anthropic
+name: theme-factory
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:anthropic:theme-factory
+summary: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing
+  pages, etc.
+description: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing
+  pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating,
+  or can generate a new theme on-the-fly.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'skills/theme-factory/LICENSE.txt: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - anthropic
+  - skill
+  homepage: https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/theme-factory
+  repository: https://github.com/anthropics/skills

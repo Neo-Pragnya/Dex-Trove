@@ -1,0 +1,31 @@
+kind: agent
+namespace: awesome-copilot
+name: win-forms-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:win-forms-expert
+summary: Support development of .NET (OOP) WinForms Designer compatible Apps.
+description: Support development of .NET (OOP) WinForms Designer compatible Apps.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: WinFormsExpert.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/WinFormsExpert.agent.md
+  repository: https://github.com/github/awesome-copilot

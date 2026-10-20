@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/centos-linux-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "centos-linux-expert",
+  "title": "CentOS Linux Expert",
+  "description": "CentOS (Stream/Legacy) Linux specialist focused on RHEL-compatible administration, yum/dnf workflows, and enterprise hardening.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "centos-linux-expert.agent.md",
+  "dir": "agents/awesome-copilot.centos-linux-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/centos-linux-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/centos-linux-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "centos-linux-expert.agent.md"
+  ],
+  "entry_hash": "2d8ebeeb93b049fa79540ec3bd956fd4b5871fbbd3bb7a1df5b2c734259eb34c",
+  "content_hash": "9abff2fc166bff4d50ae735f8d0edd9101fcc95594662393f0536d435baca5b6",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

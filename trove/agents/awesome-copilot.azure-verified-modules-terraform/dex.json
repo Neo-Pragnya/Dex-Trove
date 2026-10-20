@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/azure-verified-modules-terraform",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "azure-verified-modules-terraform",
+  "title": "Azure AVM Terraform mode",
+  "description": "Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-verified-modules-terraform.agent.md",
+  "dir": "agents/awesome-copilot.azure-verified-modules-terraform",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/azure-verified-modules-terraform.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-verified-modules-terraform.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-verified-modules-terraform.agent.md"
+  ],
+  "entry_hash": "6c53ab2bc5d4d79d56697b56d915ee42397a16c467e3120331fe02a9d4df275c",
+  "content_hash": "d647db2bf1072e400c54346246ad23f831ad584de02f7138dba8463b2f1a05a7",
+  "learned_at": "2026-10-20T04:06:46+00:00"
+}

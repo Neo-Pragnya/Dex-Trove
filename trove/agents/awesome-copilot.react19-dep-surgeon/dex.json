@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/react19-dep-surgeon",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "react19-dep-surgeon",
+  "title": "react19-dep-surgeon",
+  "description": "Dependency upgrade specialist. Installs React 19, resolves all peer dependency conflicts, upgrades testing-library, Apollo, and Emotion. Uses memory to log each upgrade step. Returns GO/NO-GO to the commander. Invoked as a subagent by react19-commander.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "react19-dep-surgeon.agent.md",
+  "dir": "agents/awesome-copilot.react19-dep-surgeon",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/react19-dep-surgeon.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react19-dep-surgeon.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "react19-dep-surgeon.agent.md"
+  ],
+  "entry_hash": "bd339f5f34f3bd7cc38c7f81435e1f8765b115fbf420c8b2f4864f0a813c449d",
+  "content_hash": "d795bf41d8b20fc2f9889fed85e0c6b9655c16d907b19ea10cf15df6f8ed9a3b",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

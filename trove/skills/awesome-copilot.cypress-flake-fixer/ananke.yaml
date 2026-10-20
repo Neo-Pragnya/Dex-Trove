@@ -1,0 +1,29 @@
+kind: skill
+namespace: awesome-copilot
+name: cypress-flake-fixer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:cypress-flake-fixer
+summary: Find and fix flake-prone anti-patterns in an existing Cypress suite, and APIs removed in Cypress 12 to
+  16.
+description: 'Find and fix flake-prone anti-patterns in an existing Cypress suite, and APIs removed in Cypress 12
+  to 16. Bundles a zero-dependency scanner for fixed cy.wait() delays, assigned command return values, async/await,
+  force: true, chaining after actions, one-shot expect() inside .then(), conditional testing, and removed APIs such
+  as Cypress.env(), cy.exec(), cy.server()/cy.route(). Use when asked to fix flaky Cypress tests, remove cy.wait,
+  stabilize or harden a Cypress suite, audit Cypress specs, debug "detached from the DOM" errors, or prepare an
+  upgrade to Cypress 15 or 16.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/cypress-flake-fixer
+  repository: https://github.com/github/awesome-copilot

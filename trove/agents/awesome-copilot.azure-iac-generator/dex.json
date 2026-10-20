@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/azure-iac-generator",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "azure-iac-generator",
+  "title": "azure-iac-generator",
+  "description": "Central hub for generating Infrastructure as Code (Bicep, ARM, Terraform, Pulumi) with format-specific validation and best practices. Use this skill when the user asks to generate, create, write, or build infrastructure code, deployment code, or IaC templates in any format (Bicep, ARM Templates, Terraform, Pulumi).",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-iac-generator.agent.md",
+  "dir": "agents/awesome-copilot.azure-iac-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/azure-iac-generator.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-iac-generator.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-iac-generator.agent.md"
+  ],
+  "entry_hash": "60f0597dae56e0498e0acc512c9ee8d9d5a967ecc5e3b41b735ced2d299c6ebe",
+  "content_hash": "486c240642dee0310d3503319f9b04d9c9c67047779908cc3dc17ea6e5d91d07",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

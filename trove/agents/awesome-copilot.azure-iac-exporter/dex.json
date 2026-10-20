@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/azure-iac-exporter",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "azure-iac-exporter",
+  "title": "azure-iac-exporter",
+  "description": "Export existing Azure resources to Infrastructure as Code templates via Azure Resource Graph analysis, Azure Resource Manager API calls, and azure-iac-generator integration. Use this skill when the user asks to export, convert, migrate, or extract existing Azure resources to IaC templates (Bicep, ARM Templates, Terraform, Pulumi).",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-iac-exporter.agent.md",
+  "dir": "agents/awesome-copilot.azure-iac-exporter",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/azure-iac-exporter.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-iac-exporter.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-iac-exporter.agent.md"
+  ],
+  "entry_hash": "4650309d976139e4f570286f96384a2deff2b28e1c0491c499983e580b663240",
+  "content_hash": "bc8c800547221284a2a26e4ca006eb0e5d543dd46bf08d05ad24af70c6cc97a9",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

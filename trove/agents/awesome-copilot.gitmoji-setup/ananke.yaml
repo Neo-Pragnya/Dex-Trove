@@ -1,0 +1,35 @@
+kind: agent
+namespace: awesome-copilot
+name: gitmoji-setup
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:gitmoji-setup
+summary: Sets up gitmoji (https://gitmoji.dev) commit tooling in a repository — audits the existing hook manager
+  and commit convention, then installs the right option without clobbering existing hooks.
+description: Sets up gitmoji (https://gitmoji.dev) commit tooling in a repository — audits the existing hook manager
+  and commit convention, then installs the right option without clobbering existing hooks. Defaults to a non-interactive
+  prepare-commit-msg hook that prefills a suggested emoji from the branch name and staged files; can alternatively
+  install the gitmoji-cli interactive picker or commitlint enforcement.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: gitmoji-setup.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gitmoji-setup.agent.md
+  repository: https://github.com/github/awesome-copilot

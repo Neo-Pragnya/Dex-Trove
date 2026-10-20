@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/sandbox-npm-install",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "sandbox-npm-install",
+  "title": "Sandbox npm Install",
+  "description": "Install npm packages in a Docker sandbox environment. Use this skill whenever you need to install, reinstall, or update node_modules inside a container where the workspace is mounted via virtiofs. Native binaries (esbuild, lightningcss, rollup) crash on virtiofs, so packages must be installed on the local ext4 filesystem and symlinked back.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.sandbox-npm-install",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/sandbox-npm-install",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/sandbox-npm-install",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/install.sh"
+  ],
+  "entry_hash": "efbad94eaadd3b4284dd4fb3e2dfab71e528bcad4dfbfe4dc8c03c34a35439b3",
+  "content_hash": "8293d71b1247a5f4e27d0e836e01c65fae49a281c47fedd85034b2afaa247865",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

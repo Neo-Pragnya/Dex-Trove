@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: react19-commander
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:react19-commander
+summary: Master orchestrator for React 19 migration. Invokes specialist subagents in sequence - auditor, dep-surgeon,
+  migrator, test-guardian - and gates advancement between steps.
+description: Master orchestrator for React 19 migration. Invokes specialist subagents in sequence - auditor, dep-surgeon,
+  migrator, test-guardian - and gates advancement between steps. Uses memory to track migration state across the
+  pipeline. Zero tolerance for incomplete migrations.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: react19-commander.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react19-commander.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/system-commandline-cli",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "system-commandline-cli",
+  "title": "System.CommandLine CLI Developer Skill",
+  "description": "Use this skill when adding, modifying, or reviewing CLI commands in a .NET project built with System.CommandLine. Triggers include: creating a new CLI command, adding options or arguments, wiring command handlers, registering subcommands, building command groups, or any architecture decision about CLI command structure. Also use when the user mentions 'System.CommandLine', 'CommandBase', 'SetAction', 'ParseResult', 'RootCommand', 'subcommand', or asks to add a verb to the CLI. Do NOT use for general C# coding, web APIs, UI work, or non-CLI projects.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.system-commandline-cli",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/system-commandline-cli",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/system-commandline-cli",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "579c731ea7a7c948bea8d4ad9eef8d65a94e9f260401d7028ffdd4193372e250",
+  "content_hash": "5f858031bcdf237d2169a61062d1ddbd897077c0c23bb13b222772590fbf52a7",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/mcp-implementation-security-review",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "mcp-implementation-security-review",
+  "title": "MCP Implementation Security Review",
+  "description": "Review the implementation source code of MCP (Model Context Protocol) servers, clients, and tool handlers against a security baseline — authentication, sessions, rate limiting, input-schema validation, official-SDK usage, RCE vectors, and the OWASP MCP Top 10 — producing a report with file/line evidence. Use this skill when:\n- Reviewing an MCP server implementation for security before release\n- Checking a server against the baseline controls (MCP-01 to MCP-05) and the OWASP MCP Top 10\n- Auditing tools for RCE vectors (command/code injection, unsafe deserialization, path traversal, SSTI, dependency hijacking, SSRF)\n- Verifying auth, session, rate-limiting, and input-validation controls on a network-exposed server\n- Reviewing MCP client code that handles untrusted server responses and session IDs\n- Requests like \"review this MCP server for security\" or \"is my MCP server implementation secure?\"",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.mcp-implementation-security-review",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/mcp-implementation-security-review",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mcp-implementation-security-review",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "8974ffc89746dd2bf947069d6a162120df8f81fdf0a1ca31b3bb1781cf8bb31f",
+  "content_hash": "085185686151ac5e52029c1a683179d668c13443d30474949d4ba2a48a7f0b1e",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/kubernetes-manifests",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "kubernetes-manifests",
+  "title": "Kubernetes Manifests Instructions",
+  "description": "Best practices for Kubernetes YAML manifests including labeling conventions, security contexts, pod security, resource management, probes, and validation commands",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "kubernetes-manifests.instructions.md",
+  "dir": "instructions/awesome-copilot.kubernetes-manifests",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/kubernetes-manifests.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/kubernetes-manifests.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "kubernetes-manifests.instructions.md"
+  ],
+  "entry_hash": "e54ba3f60913c4f391de409f72662ba2e34fd51926c3d16317a43415a7cd3ff1",
+  "content_hash": "79b0a590614f0b75f9b79868f42defabd87e681d2ef50f51bacc0705b35814fc",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "k8s/**/*.yaml,k8s/**/*.yml,manifests/**/*.yaml,manifests/**/*.yml,deploy/**/*.yaml,deploy/**/*.yml,charts/**/templates/**/*.yaml,charts/**/templates/**/*.yml"
+}

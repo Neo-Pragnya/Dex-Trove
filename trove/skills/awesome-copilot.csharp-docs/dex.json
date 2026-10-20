@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/csharp-docs",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "csharp-docs",
+  "title": "C# Documentation Best Practices",
+  "description": "Ensure that C# types are documented with XML comments and follow best practices for documentation.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.csharp-docs",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/csharp-docs",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/csharp-docs",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ddcc59c5f0320af04a59ba090b8e6490ce537aad2d8b2667fdf386686d037826",
+  "content_hash": "3c826bce5e671e6b196646bc4ef877a76e30996e5dc53f1a14d768222fd8dd0a",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

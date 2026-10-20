@@ -1,0 +1,31 @@
+kind: skill
+namespace: superpowers
+name: using-superpowers
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:superpowers:using-superpowers
+summary: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation
+  before ANY response including clarifying questions
+description: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation
+  before ANY response including clarifying questions
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - skill
+  - superpowers
+  homepage: https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/using-superpowers
+  repository: https://github.com/obra/superpowers

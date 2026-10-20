@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: ui-screenshots
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:ui-screenshots
+summary: Capture screenshots of web apps during development using Playwright and PIL. Supports full-page captures,
+  interactive states, and an iterate-on-crop workflow that avoids slow re-screenshots.
+description: Capture screenshots of web apps during development using Playwright and PIL. Supports full-page captures,
+  interactive states, and an iterate-on-crop workflow that avoids slow re-screenshots.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/ui-screenshots
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: no-heredoc
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:no-heredoc
+summary: Prevents terminal heredoc file corruption in VS Code Copilot by enforcing use of file editing tools instead
+  of shell redirections
+description: Prevents terminal heredoc file corruption in VS Code Copilot by enforcing use of file editing tools
+  instead of shell redirections
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: no-heredoc.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/no-heredoc.instructions.md
+  repository: https://github.com/github/awesome-copilot

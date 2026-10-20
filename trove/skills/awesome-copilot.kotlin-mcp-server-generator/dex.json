@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/kotlin-mcp-server-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "kotlin-mcp-server-generator",
+  "title": "Kotlin MCP Server Project Generator",
+  "description": "Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the official io.modelcontextprotocol:kotlin-sdk library.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.kotlin-mcp-server-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/kotlin-mcp-server-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/kotlin-mcp-server-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "4bedcbc52a3f47f831552d7e0e3599c6653e62918ae8bd0b535e2147b8ce1f1e",
+  "content_hash": "8e40c54e2fd2fdb6cca6366e7b9514b4ab740286eff0e2592f6234e3bd0a5eb7",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

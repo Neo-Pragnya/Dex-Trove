@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/automate-this",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "automate-this",
+  "title": "Automate This",
+  "description": "Analyze a screen recording of a manual process and produce targeted, working automation scripts. Extracts frames and audio narration from video files, reconstructs the step-by-step workflow, and proposes automation at multiple complexity levels using tools already installed on the user machine.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.automate-this",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/automate-this",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/automate-this",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "4f45d8a3ce3e8c0e53e0e1ab0b81ba01d10236ff64ff3c397a272af9486ac59f",
+  "content_hash": "b50f6825fc92bbf5fb746c21893420e018bcd58535f3da49c0d3d82fc4975e40",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

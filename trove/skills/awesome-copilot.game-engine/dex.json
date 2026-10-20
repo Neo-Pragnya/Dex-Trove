@@ -1,0 +1,54 @@
+{
+  "id": "awesome-copilot/game-engine",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "game-engine",
+  "title": "Game Engine Skill",
+  "description": "Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when asked to create games, build game engines, implement game physics, handle collision detection, set up game loops, manage sprites, add game controls, or work with 2D/3D rendering. Covers techniques for platformers, breakout-style games, maze games, tilemaps, audio, multiplayer via WebRTC, and publishing games.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.game-engine",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/game-engine",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/game-engine",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/2d-maze-game.md",
+    "assets/2d-platform-game.md",
+    "assets/gameBase-template-repo.md",
+    "assets/paddle-game-template.md",
+    "assets/simple-2d-engine.md",
+    "references/3d-web-games.md",
+    "references/algorithms.md",
+    "references/basics.md",
+    "references/game-control-mechanisms.md",
+    "references/game-engine-core-principles.md",
+    "references/game-publishing.md",
+    "references/techniques.md",
+    "references/terminology.md",
+    "references/web-apis.md"
+  ],
+  "entry_hash": "af6d0628e806be430903743ca1795f715937e65ef81d4c3f0544fb326d23dce2",
+  "content_hash": "f6aab930383e0168d0631677d6fb2bf84e294dc7fec7957477c6575f78cbaa99",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

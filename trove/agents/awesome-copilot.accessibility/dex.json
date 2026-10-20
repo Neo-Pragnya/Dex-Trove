@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/accessibility",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "accessibility",
+  "title": "Accessibility Expert",
+  "description": "Expert assistant for web accessibility (WCAG 2.1/2.2), inclusive UX, and a11y testing",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "accessibility.agent.md",
+  "dir": "agents/awesome-copilot.accessibility",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/accessibility.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/accessibility.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "accessibility.agent.md"
+  ],
+  "entry_hash": "739ed64a0ef2e7f560ef16329e7f6d7fedfdfbcc3f00382a926d33f978e614d0",
+  "content_hash": "e4e780458299c49a9df136a6638b8b2542a3492f34541d047e60ee99a77c9ffd",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,36 @@
+kind: skill
+namespace: awesome-copilot
+name: dependabot
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:dependabot
+summary: Comprehensive guide for configuring and managing GitHub Dependabot. Use this skill when users ask about
+  creating or optimizing dependabot.yml files, managing Dependabot pull requests, configuring depe…
+description: Comprehensive guide for configuring and managing GitHub Dependabot. Use this skill when users ask about
+  creating or optimizing dependabot.yml files, managing Dependabot pull requests, configuring dependency update
+  strategies, setting up grouped updates, monorepo patterns, multi-ecosystem groups, security update configuration,
+  auto-triage rules, or any GitHub Advanced Security (GHAS) supply chain security topic related to Dependabot. For
+  pre-commit dependency vulnerability scanning in AI coding agents via the GitHub MCP Server, this skill references
+  the Advanced Security plugin (`advanced-security@copilot-plugins`). Use this skill when an agent needs to scan
+  dependencies for known vulnerabilities before committing.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/dependabot
+  repository: https://github.com/github/awesome-copilot

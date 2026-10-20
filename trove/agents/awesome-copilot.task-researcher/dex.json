@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/task-researcher",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "task-researcher",
+  "title": "Task Researcher Instructions",
+  "description": "Task research specialist for comprehensive project analysis - Brought to you by microsoft/edge-ai",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "task-researcher.agent.md",
+  "dir": "agents/awesome-copilot.task-researcher",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/task-researcher.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/task-researcher.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "task-researcher.agent.md"
+  ],
+  "entry_hash": "75369373a1a00f2c8243b18a31df35978d759376de6b22df7308090dece514c2",
+  "content_hash": "6d052c92ffd9563957501581d86b51f46b5c27d3dbfe62c4dcbda38d68085881",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

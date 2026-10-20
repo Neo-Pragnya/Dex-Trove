@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: technical-content-evaluator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:technical-content-evaluator
+summary: Elite technical content editor and curriculum architect for evaluating technical training materials, documentation,
+  and educational content.
+description: Elite technical content editor and curriculum architect for evaluating technical training materials,
+  documentation, and educational content. Reviews for technical accuracy, pedagogical excellence, content flow,
+  code validation, and ensures A-grade quality standards.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: technical-content-evaluator.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/technical-content-evaluator.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: winui3
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:winui3
+summary: WinUI 3 and Windows App SDK coding guidelines. Prevents common UWP API misuse, enforces correct XAML namespaces,
+  threading, windowing, and MVVM patterns for desktop Windows apps.
+description: WinUI 3 and Windows App SDK coding guidelines. Prevents common UWP API misuse, enforces correct XAML
+  namespaces, threading, windowing, and MVVM patterns for desktop Windows apps.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: winui3.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/winui3.instructions.md
+  repository: https://github.com/github/awesome-copilot

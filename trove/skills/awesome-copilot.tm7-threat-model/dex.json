@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/tm7-threat-model",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "tm7-threat-model",
+  "title": "Microsoft Threat Modeling Tool (.tm7) Generator",
+  "description": "Creates valid Microsoft Threat Modeling Tool (.tm7) files compatible with the Microsoft Threat Modeling Tool v7.3+. Use this skill whenever asked to create, generate, or modify a .tm7 threat model file, or when performing STRIDE threat modeling that should output a .tm7 file that opens cleanly in the Microsoft Threat Modeling Tool.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.tm7-threat-model",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/tm7-threat-model",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/tm7-threat-model",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/example-minimal.tm7"
+  ],
+  "entry_hash": "6f0613a2b3343f5f86b37b78c856a718df92507600ce8f4543e4e9ffe4e18fc0",
+  "content_hash": "3301f4041e7ac48d65371d6c764b6a709c4333ee8e7e8c14c6f2cbf303c87352",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

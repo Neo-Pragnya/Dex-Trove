@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/debian-linux-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "debian-linux-expert",
+  "title": "Debian Linux Expert",
+  "description": "Debian Linux specialist focused on stable system administration, apt-based package management, and Debian policy-aligned practices.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "debian-linux-expert.agent.md",
+  "dir": "agents/awesome-copilot.debian-linux-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/debian-linux-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/debian-linux-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "debian-linux-expert.agent.md"
+  ],
+  "entry_hash": "a0636e894c754abf97142c57935e8b3a8f859be600a337ddb2281b65a7ffa630",
+  "content_hash": "8c5b4f8a54a7cd37b3d806b257159326a2d2d521f118ca8807f14ced75f78bfd",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

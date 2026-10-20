@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/codebase-memory-mcp",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "codebase-memory-mcp",
+  "title": "Codebase Memory MCP",
+  "description": "Use when exploring unfamiliar code, mapping architecture, finding symbols or relationships, tracing callers, callees, data flow or dependencies, assessing impact, auditing dead or complex code, or handling explicit Codebase Memory requests. Otherwise skip tasks confined to a supplied known file, tiny one-file check, exact literal, configuration value, error string, or non-code text.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.codebase-memory-mcp",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/codebase-memory-mcp",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/codebase-memory-mcp",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "2e7a42f87cb7a150f87c3aa9de777a1c5324298896c3760382da358d101dcaa7",
+  "content_hash": "61940e8e4347f28f34c8b520cde722ee1b759d1a3e43c2e7ba006df9e11d5a30",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

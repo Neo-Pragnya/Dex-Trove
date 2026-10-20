@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: breakdown-epic-pm
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:breakdown-epic-pm
+summary: Prompt for creating an Epic Product Requirements Document (PRD) for a new epic. This PRD will be used as
+  input for generating a technical architecture specification.
+description: Prompt for creating an Epic Product Requirements Document (PRD) for a new epic. This PRD will be used
+  as input for generating a technical architecture specification.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/breakdown-epic-pm
+  repository: https://github.com/github/awesome-copilot

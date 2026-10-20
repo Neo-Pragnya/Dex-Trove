@@ -1,0 +1,42 @@
+kind: bundle
+namespace: awesome-copilot
+name: security-best-practices
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:security-best-practices
+summary: Security frameworks, accessibility guidelines, performance optimization, and code quality best practices
+  for building secure, maintainable, and high-performance applications.
+description: Security frameworks, accessibility guidelines, performance optimization, and code quality best practices
+  for building secure, maintainable, and high-performance applications.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/ai-prompt-engineering-safety-review
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - a11y
+  - accessibility
+  - awesome-copilot
+  - best-practices
+  - code-quality
+  - optimization
+  - owasp
+  - performance
+  - plugin
+  - security
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/security-best-practices
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/power-apps-canvas-yaml",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "power-apps-canvas-yaml",
+  "title": "Power Apps Canvas Apps YAML Structure Guide",
+  "description": "Comprehensive guide for working with Power Apps Canvas Apps YAML structure based on Microsoft Power Apps YAML schema v3.0. Covers Power Fx formulas, control structures, data types, and source control best practices.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "power-apps-canvas-yaml.instructions.md",
+  "dir": "instructions/awesome-copilot.power-apps-canvas-yaml",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/power-apps-canvas-yaml.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/power-apps-canvas-yaml.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "power-apps-canvas-yaml.instructions.md"
+  ],
+  "entry_hash": "2d013c77f4cc03256bc3633e9bee5231d3037bc9f9776420908c361f76221343",
+  "content_hash": "652f7f62772fb01f28ad4ca96f88254b7be4b793a0b3f956a3c59cdd145c266e",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{yaml,yml,md,pa.yaml}"
+}

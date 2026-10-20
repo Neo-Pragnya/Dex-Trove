@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: monday-bug-fixer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:monday-bug-fixer
+summary: Elite bug-fixing agent that enriches task context from Monday.com platform data. Gathers related items,
+  docs, comments, epics, and requirements to deliver production-quality fixes with comprehensive P…
+description: Elite bug-fixing agent that enriches task context from Monday.com platform data. Gathers related items,
+  docs, comments, epics, and requirements to deliver production-quality fixes with comprehensive PRs.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: monday-bug-fixer.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/monday-bug-fixer.agent.md
+  repository: https://github.com/github/awesome-copilot

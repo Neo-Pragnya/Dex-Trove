@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/update-markdown-file-index",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "update-markdown-file-index",
+  "title": "Update Markdown File Index",
+  "description": "Update a markdown file section with an index/table of files from a specified folder.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.update-markdown-file-index",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/update-markdown-file-index",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/update-markdown-file-index",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0871e50e9f5bcb1e11f0734f66d6fb24de9cce2d26f14548c20fa395c7d3147b",
+  "content_hash": "4dde5cb5ef853f55ff82531e9a920cf25562b2991900f8591d8e1e40cdc4b5f7",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

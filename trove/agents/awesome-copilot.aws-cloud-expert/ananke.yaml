@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: aws-cloud-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:aws-cloud-expert
+summary: AWS Cloud Expert provides deep, hands-on guidance for designing, building, and operating AWS workloads.
+description: AWS Cloud Expert provides deep, hands-on guidance for designing, building, and operating AWS workloads.
+  Covers the full AWS ecosystem — serverless, containers, databases, networking, IaC, security, and cost optimization
+  — grounded in the AWS Well-Architected Framework.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: aws-cloud-expert.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/aws-cloud-expert.agent.md
+  repository: https://github.com/github/awesome-copilot

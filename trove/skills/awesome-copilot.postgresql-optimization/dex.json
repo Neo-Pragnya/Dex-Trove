@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/postgresql-optimization",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "postgresql-optimization",
+  "title": "PostgreSQL Development Assistant",
+  "description": "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.postgresql-optimization",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/postgresql-optimization",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/postgresql-optimization",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9b511a7d706302761a7700cd6b87df9793650fa7f7f3299fe33243fc339e3c9f",
+  "content_hash": "6f5fec31c5557312e74415002d386c157be8bc057240729a4dc0d13a31977930",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

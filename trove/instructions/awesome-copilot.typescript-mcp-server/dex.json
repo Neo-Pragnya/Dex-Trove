@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/typescript-mcp-server",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "typescript-mcp-server",
+  "title": "TypeScript MCP Server Development",
+  "description": "Instructions for building Model Context Protocol (MCP) servers using the TypeScript SDK",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "typescript-mcp-server.instructions.md",
+  "dir": "instructions/awesome-copilot.typescript-mcp-server",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/typescript-mcp-server.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/typescript-mcp-server.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "typescript-mcp-server.instructions.md"
+  ],
+  "entry_hash": "a3b081f30ef9256b63b216a6287c816ee44f2c49ff0b378a28b58fe74b01f22b",
+  "content_hash": "b1f2bdd080cb79f4943c67591051dc1856b807ba4ae4540eefc5dd8dc0ae948d",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.ts, **/*.js, **/package.json"
+}

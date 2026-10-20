@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/integrate-context-matic",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "integrate-context-matic",
+  "title": "API Integration",
+  "description": "Discovers and integrates third-party APIs using the context-matic MCP server. Uses `fetch_api` to find available API SDKs, `ask` for integration guidance, `model_search` and `endpoint_search` for SDK details. Use when the user asks to integrate a third-party API, add an API client, implement features with an external API, or work with any third-party API or SDK.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.integrate-context-matic",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/integrate-context-matic",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/integrate-context-matic",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "1251b1a1afebe0c881241dd7b87ed7688b01696866fada8f3071e0336f39ba43",
+  "content_hash": "cd8008c93f411e0b9dadc7c10784a2c4c1717b4db473205d20753416b0e2ae33",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

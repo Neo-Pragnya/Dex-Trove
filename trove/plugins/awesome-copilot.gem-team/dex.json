@@ -1,0 +1,66 @@
+{
+  "id": "awesome-copilot/gem-team",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "gem-team",
+  "title": "Gem Team",
+  "description": "Self-Learning Multi-agent orchestration framework for spec-driven development and automated verification. With smarter tool calling and leaner context.",
+  "tags": [
+    "awesome-copilot",
+    "code-review",
+    "devops",
+    "e2e",
+    "mobile",
+    "multi-agent",
+    "orchestration",
+    "plugin",
+    "prd",
+    "security-audit",
+    "tdd",
+    "testing"
+  ],
+  "version": "1.138.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.gem-team",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/gem-team",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/gem-team",
+    "author": "mubaidr"
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/gem-devops-guidelines",
+    "agent:awesome-copilot/gem-browser-tester",
+    "agent:awesome-copilot/gem-code-simplifier",
+    "agent:awesome-copilot/gem-debugger",
+    "agent:awesome-copilot/gem-designer",
+    "agent:awesome-copilot/gem-devops",
+    "agent:awesome-copilot/gem-documentation-writer",
+    "agent:awesome-copilot/gem-implementer",
+    "agent:awesome-copilot/gem-mobile-tester",
+    "agent:awesome-copilot/gem-orchestrator",
+    "agent:awesome-copilot/gem-planner",
+    "agent:awesome-copilot/gem-researcher",
+    "agent:awesome-copilot/gem-reviewer",
+    "agent:awesome-copilot/gem-skill-creator"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "22c83e2964837e26f6a84ab2ae5668698594c4cee06093df8c186c139dacd202",
+  "content_hash": "9e46a9fe31cf0a029d56299d2afb366cf84cf5a51a7e6b252c0662b321e334b6",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

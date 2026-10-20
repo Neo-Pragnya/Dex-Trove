@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/code-review-generic",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "code-review-generic",
+  "title": "Generic Code Review Instructions",
+  "description": "Generic code review instructions that can be customized for any project using GitHub Copilot",
+  "tags": [
+    "ananke-secret-flag",
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "code-review-generic.instructions.md",
+  "dir": "instructions/awesome-copilot.code-review-generic",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/code-review-generic.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/code-review-generic.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "code-review-generic.instructions.md"
+  ],
+  "entry_hash": "e6917309e3e986cde1650768cc871f54e5d054e90c4518afb5c937941ee212a9",
+  "content_hash": "a1060d05027943646b199c1f33ff8bbe6c0e25a93d4eb2144b41dd85fb05acc0",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "secret_flags": [
+    "generic-credential code-review-generic.instructions.md:142"
+  ],
+  "apply_to": "**"
+}

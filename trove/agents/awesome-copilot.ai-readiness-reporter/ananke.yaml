@@ -1,0 +1,35 @@
+kind: agent
+namespace: awesome-copilot
+name: ai-readiness-reporter
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:ai-readiness-reporter
+summary: Runs the AgentRC readiness assessment on the current repository and produces a self-contained, static HTML
+  dashboard at reports/index.html.
+description: Runs the AgentRC readiness assessment on the current repository and produces a self-contained, static
+  HTML dashboard at reports/index.html. Explains every readiness pillar, the maturity level, and an actionable remediation
+  plan, framed by AgentRC measure → generate → maintain loop. Use when asked to assess, audit, score, report on,
+  or visualise the AI readiness of a repo.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: ai-readiness-reporter.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/ai-readiness-reporter.agent.md
+  repository: https://github.com/github/awesome-copilot

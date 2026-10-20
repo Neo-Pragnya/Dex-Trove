@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/update-specification",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "update-specification",
+  "title": "Update Specification",
+  "description": "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing code.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.update-specification",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/update-specification",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/update-specification",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "2d6df53ebd1d50e5a69a4425bc579d5c8a15e0102c6bff685c3fa3ac70e920a6",
+  "content_hash": "1111b4d8d314a36264025b4e4460ed6199d1b435906326fd61a80253a81f4427",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

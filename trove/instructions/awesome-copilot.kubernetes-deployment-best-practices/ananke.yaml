@@ -1,0 +1,32 @@
+kind: prompt
+namespace: awesome-copilot
+name: kubernetes-deployment-best-practices
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:kubernetes-deployment-best-practices
+summary: Comprehensive best practices for deploying and managing applications on Kubernetes.
+description: Comprehensive best practices for deploying and managing applications on Kubernetes. Covers Pods, Deployments,
+  Services, Ingress, ConfigMaps, Secrets, health checks, resource limits, scaling, and security contexts.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: kubernetes-deployment-best-practices.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/kubernetes-deployment-best-practices.instructions.md
+  repository: https://github.com/github/awesome-copilot

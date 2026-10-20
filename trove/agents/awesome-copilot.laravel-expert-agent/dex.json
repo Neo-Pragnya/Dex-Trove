@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/laravel-expert-agent",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "laravel-expert-agent",
+  "title": "Laravel Expert Agent",
+  "description": "Expert Laravel development assistant specializing in modern Laravel 12+ applications with Eloquent, Artisan, testing, and best practices",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "laravel-expert-agent.agent.md",
+  "dir": "agents/awesome-copilot.laravel-expert-agent",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/laravel-expert-agent.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/laravel-expert-agent.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "laravel-expert-agent.agent.md"
+  ],
+  "entry_hash": "6d8c8b75852610595fecb6bdd0eaeb3af74a200714ad8c1eed9fa73c91df793d",
+  "content_hash": "d226e0b0bfcd1683a34e659ebeba4e29601cd9c9d5a4d2c818dfd30370f0b0a4",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

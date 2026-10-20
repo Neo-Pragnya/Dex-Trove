@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/vsixtoolkit",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "vsixtoolkit",
+  "title": "Visual Studio Extension Development with Community.VisualStudio.Toolkit",
+  "description": "Guidelines for Visual Studio extension (VSIX) development using Community.VisualStudio.Toolkit",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "vsixtoolkit.instructions.md",
+  "dir": "instructions/awesome-copilot.vsixtoolkit",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/vsixtoolkit.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/vsixtoolkit.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "vsixtoolkit.instructions.md"
+  ],
+  "entry_hash": "93e2d688113ed2504308e0d313b1c347c912c0eeb5c94669decb4d88d9413a43",
+  "content_hash": "4b5538189977e08bba61e4c31994b2c4e3e8bce68703fa080ff7bd295362a15f",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.cs, **/*.vsct, **/*.xaml, **/source.extension.vsixmanifest"
+}

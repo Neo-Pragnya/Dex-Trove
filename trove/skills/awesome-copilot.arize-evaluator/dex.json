@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/arize-evaluator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "arize-evaluator",
+  "title": "Arize Evaluator Skill",
+  "description": "Handles LLM-as-judge evaluation workflows on Arize including creating/updating evaluators, running evaluations on spans or experiments, managing tasks, trigger-run operations, column mapping, and continuous monitoring. Use when the user mentions create evaluator, LLM judge, hallucination, faithfulness, correctness, relevance, run eval, score spans, score experiment, trigger-run, column mapping, continuous monitoring, or improve evaluator prompt.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.arize-evaluator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/arize-evaluator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-evaluator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/ax-profiles.md",
+    "references/ax-setup.md"
+  ],
+  "entry_hash": "00dda4378a6b8ab1caad0ed099bf86a890e6fdd4b03459e2c5154136c3067715",
+  "content_hash": "75408664dc21eda89930474bb3b2fb3f2659ebdc99cd7b25e788a603433bb2ee",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

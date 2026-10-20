@@ -1,0 +1,80 @@
+kind: bundle
+namespace: awesome-copilot
+name: partners
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:partners
+summary: Custom agents that have been created by GitHub partners
+description: Custom agents that have been created by GitHub partners
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://agent/awesome-copilot/amplitude-experiment-implementation
+  version: '*'
+- ref: ananke://agent/awesome-copilot/apify-integration-expert
+  version: '*'
+- ref: ananke://agent/awesome-copilot/arm-migration
+  version: '*'
+- ref: ananke://agent/awesome-copilot/comet-opik
+  version: '*'
+- ref: ananke://agent/awesome-copilot/diffblue-cover
+  version: '*'
+- ref: ananke://agent/awesome-copilot/droid
+  version: '*'
+- ref: ananke://agent/awesome-copilot/dynatrace-expert
+  version: '*'
+- ref: ananke://agent/awesome-copilot/elasticsearch-observability
+  version: '*'
+- ref: ananke://agent/awesome-copilot/jfrog-sec
+  version: '*'
+- ref: ananke://agent/awesome-copilot/launchdarkly-flag-cleanup
+  version: '*'
+- ref: ananke://agent/awesome-copilot/lingodotdev-i18n
+  version: '*'
+- ref: ananke://agent/awesome-copilot/monday-bug-fixer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/mongodb-performance-advisor
+  version: '*'
+- ref: ananke://agent/awesome-copilot/neo4j-docker-client-generator
+  version: '*'
+- ref: ananke://agent/awesome-copilot/neon-migration-specialist
+  version: '*'
+- ref: ananke://agent/awesome-copilot/neon-optimization-analyzer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/octopus-deploy-release-notes-mcp
+  version: '*'
+- ref: ananke://agent/awesome-copilot/pagerduty-incident-responder
+  version: '*'
+- ref: ananke://agent/awesome-copilot/stackhawk-security-onboarding
+  version: '*'
+- ref: ananke://agent/awesome-copilot/terraform
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - cicd
+  - cloud
+  - database
+  - devops
+  - feature-flags
+  - infrastructure
+  - migration
+  - observability
+  - performance
+  - plugin
+  - security
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/partners
+  repository: https://github.com/github/awesome-copilot

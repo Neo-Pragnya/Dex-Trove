@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: ai-team-dev
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:ai-team-dev
+summary: AI development team (Nova, Sage, Milo). Use when implementing features, fixing bugs, writing tests, improving
+  user experience, or preparing a pull request across the project's actual stack.
+description: AI development team (Nova, Sage, Milo). Use when implementing features, fixing bugs, writing tests,
+  improving user experience, or preparing a pull request across the project's actual stack.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: ai-team-dev.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/ai-team-dev.agent.md
+  repository: https://github.com/github/awesome-copilot

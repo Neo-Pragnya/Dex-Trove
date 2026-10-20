@@ -1,0 +1,57 @@
+{
+  "id": "awesome-copilot/software-engineering-team",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "software-engineering-team",
+  "title": "Software Engineering Team Plugin",
+  "description": "7 specialized agents covering the full software development lifecycle from UX design and architecture to security and DevOps.",
+  "tags": [
+    "ai-ethics",
+    "architecture",
+    "awesome-copilot",
+    "devops",
+    "enterprise",
+    "plugin",
+    "product",
+    "security",
+    "team",
+    "ux"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.software-engineering-team",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/software-engineering-team",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/software-engineering-team",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "agent:awesome-copilot/se-gitops-ci-specialist",
+    "agent:awesome-copilot/se-product-manager-advisor",
+    "agent:awesome-copilot/se-responsible-ai-code",
+    "agent:awesome-copilot/se-security-reviewer",
+    "agent:awesome-copilot/se-system-architecture-reviewer",
+    "agent:awesome-copilot/se-technical-writer",
+    "agent:awesome-copilot/se-ux-ui-designer"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "a3233dec4e4d4f9ef70ff3cbc8fe38049f3ca298072da3b153e9a41373a923ce",
+  "content_hash": "d58e142ed2d34562efec297339b6c04274bef30515348ecd79129775c7e429aa",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

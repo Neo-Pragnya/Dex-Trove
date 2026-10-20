@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/se-technical-writer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "se-technical-writer",
+  "title": "SE: Tech Writer",
+  "description": "Technical writing specialist for creating developer documentation, technical blogs, tutorials, and educational content",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "se-technical-writer.agent.md",
+  "dir": "agents/awesome-copilot.se-technical-writer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/se-technical-writer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/se-technical-writer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "se-technical-writer.agent.md"
+  ],
+  "entry_hash": "e2b7fe3959fee4701084022bdfb6bae9c24b2890d44305f17d779d0055ec9506",
+  "content_hash": "8977e80068ce8f815bbd62a77355f4a819093318e86e7cf32699dcd114b84079",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

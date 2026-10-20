@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/microsoft-study-mode",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "microsoft-study-mode",
+  "title": "Microsoft Study and Learn",
+  "description": "Activate your personal Microsoft/Azure tutor - learn through guided discovery, not just answers.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "microsoft-study-mode.agent.md",
+  "dir": "agents/awesome-copilot.microsoft-study-mode",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/microsoft-study-mode.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/microsoft-study-mode.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "microsoft-study-mode.agent.md"
+  ],
+  "entry_hash": "885d75ab5ecbf6ce849d2f9b90c967eecacf860164fa79d998ebb71ff022e727",
+  "content_hash": "163e895dc111a281993ba2f23ad977aa5d41f23199060875f7b9484e623d614a",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

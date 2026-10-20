@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/react-audit-grep-patterns",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "react-audit-grep-patterns",
+  "title": "React Audit Grep Patterns",
+  "description": "Provides the complete, verified grep scan command library for auditing React codebases before a React 18.3.1 or React 19 upgrade. Use this skill whenever running a migration audit - for both the react18-auditor and react19-auditor agents. Contains every grep pattern needed to find deprecated APIs, removed APIs, unsafe lifecycle methods, batching vulnerabilities, test file issues, dependency conflicts, and React 19 specific removals. Always use this skill when writing audit scan commands - do not rely on memory for grep syntax, especially for the multi-line async setState patterns which require context flags.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.react-audit-grep-patterns",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/react-audit-grep-patterns",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react-audit-grep-patterns",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/dep-scans.md",
+    "references/react18-scans.md",
+    "references/react19-scans.md",
+    "references/test-scans.md"
+  ],
+  "entry_hash": "786b14c055e6182ed04e606bae7c7489cf9a4dc83f866f3f2c317d032cdaf023",
+  "content_hash": "f896e3f17499725b0e5ea609c3704b616749e484a4339cf2193f9d576243eef9",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

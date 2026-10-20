@@ -1,0 +1,53 @@
+{
+  "id": "awesome-copilot/dotnet-mcp-builder",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "dotnet-mcp-builder",
+  "title": "Building MCP servers in .NET",
+  "description": "Build Model Context Protocol (MCP) servers in C#/.NET against the current ModelContextProtocol 2.x NuGet packages. Helps with cases the model gets wrong without guidance — stale versions (0.x preview or 1.x-era defaults), the v2 stateless-by-default HTTP flip, the 2026-07-28 spec deprecations (roots/sampling/logging), MCP Apps and Tasks extension packages, elicitation URL mode, per-session HTTP wiring, OAuth and reverse-proxy deploy specifics, and debugging MapMcp / STDIO / Streamable-HTTP errors. Also covers STDIO and Streamable HTTP transports (SSE is deprecated), tools, prompts, resources, completions, and a basic .NET MCP client. Trigger when the user says or implies any .NET MCP server work: ModelContextProtocol, McpServerTool, MapMcp, WithStdioServerTransport, \"MCP server in C#\", \"MCP tool in dotnet\", \"expose this as MCP\", or names a primitive (prompt/resource/elicitation/MCP App) in a .NET context. Skip for MCP work in other languages.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.dotnet-mcp-builder",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/dotnet-mcp-builder",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/dotnet-mcp-builder",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/client.md",
+    "references/elicitation.md",
+    "references/mcp-apps.md",
+    "references/packages.md",
+    "references/prompt-primitive.md",
+    "references/resource-primitive.md",
+    "references/roots.md",
+    "references/sampling.md",
+    "references/server-features.md",
+    "references/testing.md",
+    "references/tool-primitive.md",
+    "references/transport-http.md",
+    "references/transport-stdio.md"
+  ],
+  "entry_hash": "7860696a124e61fc1fa6bb38f9c79f6be6eda130e245a814e41f0e7030d09619",
+  "content_hash": "cec625145b237e06f539692dc437509d0ddb85a36f6e4596f65c01183c759e33",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

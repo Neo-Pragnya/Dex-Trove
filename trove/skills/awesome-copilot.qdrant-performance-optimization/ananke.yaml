@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: qdrant-performance-optimization
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:qdrant-performance-optimization
+summary: Different techniques to optimize the performance of Qdrant, including indexing strategies, query optimization,
+  and hardware considerations.
+description: Different techniques to optimize the performance of Qdrant, including indexing strategies, query optimization,
+  and hardware considerations. Use when you want to improve the speed and efficiency of your Qdrant deployment.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/qdrant-performance-optimization
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/hlbpa",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "hlbpa",
+  "title": "High-Level Big Picture Architect (HLBPA)",
+  "description": "Your perfect AI chat mode for high-level architectural documentation and review. Perfect for targeted updates after a story or researching that legacy system when nobody remembers what it's supposed to be doing.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "hlbpa.agent.md",
+  "dir": "agents/awesome-copilot.hlbpa",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/hlbpa.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/hlbpa.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "hlbpa.agent.md"
+  ],
+  "entry_hash": "bba7a818480ffd61e53a67ab60a2449fcf2e6971efbab26162bbe89337ec6b9b",
+  "content_hash": "be5cebfaecb34eea6061175efdf280173e3ecdc00cd23524211c72d50ed40004",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/dataverse-python",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python",
+  "title": "Dataverse SDK for Python — Getting Started",
+  "description": "# Dataverse SDK for Python — Getting Started - Install the Dataverse Python SDK and prerequisites. - Configure environment variables for Dataverse tenant, client ID, secret, and resource URL. - Use the SDK to authenticate via OAuth and perform CRUD operations.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dataverse-python.instructions.md",
+  "dir": "instructions/awesome-copilot.dataverse-python",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dataverse-python.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dataverse-python.instructions.md"
+  ],
+  "entry_hash": "2b671b7e2e99083bd7c755c94f8c0a2f2d927c98d66519cdec7a67514ceadd87",
+  "content_hash": "a506854423ee0d89e89b11110c9cf0e81f102343585531f5a5cd2e37f187ff74",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

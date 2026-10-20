@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/create-technical-spike",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "create-technical-spike",
+  "title": "Create Technical Spike Document",
+  "description": "Create time-boxed technical spike documents for researching and resolving critical development decisions before implementation.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.create-technical-spike",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/create-technical-spike",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-technical-spike",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "2caccb0ba3b9851b82c648870330b6d22a47ee7cda4d3770ef8b5f8d6e439281",
+  "content_hash": "cad96a80f4059140caa32527ca7d9862b30c763cae9fd8d59fe14f07b2ba9fc4",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

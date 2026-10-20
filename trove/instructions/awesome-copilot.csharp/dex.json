@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/csharp",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "csharp",
+  "title": "C# Development",
+  "description": "Guidelines for building C# applications",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "csharp.instructions.md",
+  "dir": "instructions/awesome-copilot.csharp",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/csharp.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/csharp.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "csharp.instructions.md"
+  ],
+  "entry_hash": "260d67446b88b08f996b4849d55df7e57674d5ff1d80a7cf481660d78c0e3690",
+  "content_hash": "768ddaa664817bfeb67c19dfdecab7eb8efc2169e6a1c99b745d54df9cb5a195",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.cs"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/workshop-create",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "workshop-create",
+  "title": "Create a Workshop",
+  "description": "Create a new workshop or use an existing directory as one. Handles two paths: (A) use an existing local directory the operator points at, or (B) create a new private GitHub repo in the signed-in account. Never creates a repo inside another repo.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.workshop-create",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/workshop-create",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/workshop-create",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "1d931774ba1e2866f2136c467a08548f2c5708f7fdf8c7eea9de62bc4b335ad6",
+  "content_hash": "eb70497ff62656ca94c89206585a9a7dfb7ae7ba49374f131b2d8075f106e8f8",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

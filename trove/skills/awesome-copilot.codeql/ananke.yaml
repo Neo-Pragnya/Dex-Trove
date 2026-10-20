@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: codeql
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:codeql
+summary: Comprehensive guide for setting up and configuring CodeQL code scanning via GitHub Actions workflows and
+  the CodeQL CLI.
+description: Comprehensive guide for setting up and configuring CodeQL code scanning via GitHub Actions workflows
+  and the CodeQL CLI. This skill should be used when users need help with code scanning configuration, CodeQL workflow
+  files, CodeQL CLI commands, SARIF output, security analysis setup, or troubleshooting CodeQL analysis.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/codeql
+  repository: https://github.com/github/awesome-copilot

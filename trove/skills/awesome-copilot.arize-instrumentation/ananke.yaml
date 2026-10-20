@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: arize-instrumentation
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:arize-instrumentation
+summary: Adds Arize AX tracing to an LLM application for the first time. Follows a two-phase agent-assisted flow
+  to analyze the codebase then implement instrumentation after user confirmation.
+description: Adds Arize AX tracing to an LLM application for the first time. Follows a two-phase agent-assisted
+  flow to analyze the codebase then implement instrumentation after user confirmation. Use when the user wants to
+  instrument their app, add tracing from scratch, set up LLM observability, integrate OpenTelemetry or openinference,
+  or get started with Arize tracing.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-instrumentation
+  repository: https://github.com/github/awesome-copilot

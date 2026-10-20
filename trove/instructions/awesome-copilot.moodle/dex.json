@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/moodle",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "moodle",
+  "title": "Project Context",
+  "description": "Instructions for GitHub Copilot to generate code in a Moodle project context.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "moodle.instructions.md",
+  "dir": "instructions/awesome-copilot.moodle",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/moodle.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/moodle.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "moodle.instructions.md"
+  ],
+  "entry_hash": "2de27de59825961296f9cc15bf38098716f16321181acd502514d046e814d235",
+  "content_hash": "71565b44808eec9e87b98e5cef9be66308513d3e8dfba3b5ff0792898aeacdd4",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.php, **/*.js, **/*.mustache, **/*.xml, **/*.css, **/*.scss"
+}

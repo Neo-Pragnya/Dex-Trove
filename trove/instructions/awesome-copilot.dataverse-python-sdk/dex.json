@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/dataverse-python-sdk",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python-sdk",
+  "title": "Dataverse SDK for Python — Official Quickstart",
+  "description": "# Dataverse SDK for Python — Official Quickstart This instruction summarizes Microsoft Learn guidance for the Dataverse SDK for Python (preview) and provides copyable snippets.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dataverse-python-sdk.instructions.md",
+  "dir": "instructions/awesome-copilot.dataverse-python-sdk",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dataverse-python-sdk.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-sdk.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dataverse-python-sdk.instructions.md"
+  ],
+  "entry_hash": "d13ea99866f92e96540e5f1bf3d6e13b3da32f73b23c22ab257bc7067e9c6f6c",
+  "content_hash": "ce0861847f9ede7240cae9f9a14e34f2bcf1762bf35e00df4934ef7da7548e99",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

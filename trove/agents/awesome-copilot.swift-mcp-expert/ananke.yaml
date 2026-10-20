@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: swift-mcp-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:swift-mcp-expert
+summary: Expert assistance for building Model Context Protocol servers in Swift using modern concurrency features
+  and the official MCP Swift SDK.
+description: Expert assistance for building Model Context Protocol servers in Swift using modern concurrency features
+  and the official MCP Swift SDK.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: swift-mcp-expert.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/swift-mcp-expert.agent.md
+  repository: https://github.com/github/awesome-copilot

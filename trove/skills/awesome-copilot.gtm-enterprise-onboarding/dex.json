@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gtm-enterprise-onboarding",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "gtm-enterprise-onboarding",
+  "title": "Enterprise Onboarding",
+  "description": "Four-phase framework for onboarding enterprise customers from contract to value realization. Use when implementing new enterprise customers, preventing churn during onboarding, or solving the adoption cliff that kills deals post-go-live. Includes the Week 4 ghosting pattern.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.gtm-enterprise-onboarding",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/gtm-enterprise-onboarding",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-enterprise-onboarding",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "d70746655ff049c6600cd7e7e3ba8aeb5bc318f4a8996979b8db2be096f003de",
+  "content_hash": "c7e894a1851084fce176113cf06ef232995223cbbcf0c8a400f0361a34899e48",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

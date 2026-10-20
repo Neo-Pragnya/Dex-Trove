@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/mcp-security-audit",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "mcp-security-audit",
+  "title": "MCP Security Audit",
+  "description": "Audit MCP (Model Context Protocol) server configurations for security issues. Use this skill when:\n- Reviewing .mcp.json files for security risks\n- Checking MCP server args for hardcoded secrets or shell injection patterns\n- Validating that MCP package-runner dependencies use exact reviewed versions, not bare names, @latest, or ranges\n- Detecting mutable npm/npx, bunx, pnpm dlx, yarn dlx, and npm exec references in MCP configurations\n- Auditing which MCP servers a project registers and whether they're on an approved list\n- Checking for environment variable usage vs. hardcoded credentials in MCP configs\n- Any request like \"is my MCP config secure?\", \"audit my MCP servers\", or \"check .mcp.json\"\nkeywords: [mcp, security, audit, secrets, shell-injection, supply-chain, governance]",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.mcp-security-audit",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/mcp-security-audit",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mcp-security-audit",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "7bcc014d001f57ed4d96fcad2e75bdfa9004a33d65e9cecd598305a84427c700",
+  "content_hash": "49c33a2f40ad887632f56e3ac320212153c0beae5edb2ba373a7bf41ef9a2ad7",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: agent-safety
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:agent-safety
+summary: Guidelines for building safe, governed AI agent systems. Apply when writing code that uses agent frameworks,
+  tool-calling LLMs, or multi-agent orchestration to ensure proper safety boundaries, policy…
+description: Guidelines for building safe, governed AI agent systems. Apply when writing code that uses agent frameworks,
+  tool-calling LLMs, or multi-agent orchestration to ensure proper safety boundaries, policy enforcement, and auditability.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: agent-safety.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/agent-safety.instructions.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/convert-to-md",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "convert-to-md",
+  "title": "Convert to Markdown Plugin",
+  "description": "A collection of Copilot skills that convert common document formats into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Just tell Copilot what you need — the right skill is invoked automatically and the conversion happens behind the scenes.",
+  "tags": [
+    "awesome-copilot",
+    "configuration",
+    "convert-excel-to-md",
+    "convert-pdf-to-md",
+    "convert-word-to-md",
+    "copilot",
+    "plugin",
+    "skills"
+  ],
+  "version": "1.0.1",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.convert-to-md",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/convert-to-md",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/convert-to-md",
+    "author": "Willie Yao"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/convert-excel-to-md",
+    "skill:awesome-copilot/convert-pdf-to-md",
+    "skill:awesome-copilot/convert-word-to-md"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "ab2d64da3f0677aa16d1ec543715ea67e1bd86475f1fed0b8c6a3ff6abaca0b9",
+  "content_hash": "b169a23cec1ae0efd6dbf60d48c335e89cab9ae53de058f4fb7f356a94ae43c3",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

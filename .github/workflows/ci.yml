@@ -1,0 +1,128 @@
+name: ci
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    name: quality (${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@e58605a9b6da7c637471fab8847a5e5a6b8df081
+        with:
+          version: "latest"
+          enable-cache: true
+
+      - name: Set up Python ${{ matrix.python-version }}
+        run: uv python install ${{ matrix.python-version }}
+
+      - name: Install dependencies (incl. Ananke for strict manifest validation)
+        run: uv sync --all-extras --python ${{ matrix.python-version }}
+
+      - name: Lint (ruff check)
+        run: uv run ruff check src tests hatch_build.py
+
+      - name: Format check (ruff format)
+        run: uv run ruff format --check src tests hatch_build.py
+
+      - name: Type check (mypy)
+        run: uv run mypy src
+
+      - name: Tests with coverage
+        run: uv run pytest --cov=dex_trove --cov-report=xml --cov-report=term --cov-fail-under=80
+
+      - name: Validate trove (licences, hashes, Ananke manifests, notices)
+        run: uv run dex validate
+
+      - name: Upload coverage report
+        if: matrix.python-version == '3.11'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: coverage-report
+          path: coverage.xml
+
+  package:
+    name: wheel ships the trove within Ananke's scan depth
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@e58605a9b6da7c637471fab8847a5e5a6b8df081
+        with:
+          version: "latest"
+
+      - name: Build and inspect wheel
+        run: |
+          uv build
+          uv run --no-project python - <<'EOF'
+          import glob, json, zipfile
+          whl = zipfile.ZipFile(glob.glob("dist/*.whl")[0])
+          manifests = [n for n in whl.namelist() if n.endswith("/ananke.yaml")]
+          catalog = json.loads(whl.read("dex_trove/catalog.json"))
+          assert len(manifests) == catalog["count"], (len(manifests), catalog["count"])
+          assert all(n.count("/") + 1 <= 4 for n in manifests), "manifest too deep for Ananke's importer"
+          print(f"{len(manifests)} manifests OK")
+          EOF
+
+      - name: Validate package metadata
+        run: uv run --with twine twine check dist/*
+
+      - name: Smoke-test the built wheel with Ananke
+        run: |
+          uv venv /tmp/smoke
+          uv pip install --python /tmp/smoke/bin/python dist/*.whl ananke-plexus
+          cd "$(mktemp -d)"
+          /tmp/smoke/bin/dex search architecture -n 3
+          /tmp/smoke/bin/ananke registry init --project .
+          /tmp/smoke/bin/dex ananke sync --project . --source neo-pragnya
+
+  docs:
+    name: docs site build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@e58605a9b6da7c637471fab8847a5e5a6b8df081
+        with:
+          version: "latest"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+
+      - name: Export trove to Astro content
+        run: |
+          uv sync
+          uv run dex docs export --out website/src
+
+      - name: Build site (astro check + build)
+        working-directory: website
+        run: |
+          npm ci
+          npm run build

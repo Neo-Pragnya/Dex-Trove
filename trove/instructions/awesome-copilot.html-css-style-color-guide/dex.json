@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/html-css-style-color-guide",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "html-css-style-color-guide",
+  "title": "HTML CSS Style Color Guide",
+  "description": "Color usage guidelines and styling rules for HTML elements to ensure accessible, professional designs.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "html-css-style-color-guide.instructions.md",
+  "dir": "instructions/awesome-copilot.html-css-style-color-guide",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/html-css-style-color-guide.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/html-css-style-color-guide.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "html-css-style-color-guide.instructions.md"
+  ],
+  "entry_hash": "5edafc8f6920c3bc62e6f18b927adbb971d5782bdcd0b54ad0ab9428a56c76e9",
+  "content_hash": "7aeb675bc998a6776160a1b1e4417a6713ccc437ed1196bdb25f29ab65a851c4",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.html, **/*.css, **/*.js"
+}

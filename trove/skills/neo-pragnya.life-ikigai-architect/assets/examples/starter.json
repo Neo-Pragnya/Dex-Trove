@@ -1,0 +1,39 @@
+{
+  "meta": {"title": "TODO Name · Life Ikigai Architecture", "description": "TODO one line", "lang": "en"},
+  "chapters": [
+    {"id": "open", "title": "Opening", "icon": "🌅", "blurb": "TODO"},
+    {"id": "ikigai", "title": "My Ikigai map", "icon": "🌸", "blurb": "Four circles"},
+    {"id": "identity", "title": "Vision & mission", "icon": "✦", "blurb": "Who I'm becoming"},
+    {"id": "roadmap", "title": "Roadmap", "icon": "🗺️", "blurb": "What happens next"}
+  ],
+  "slides": [
+    {"type": "hero", "ch": "open", "kicker": "Life Ikigai Architecture · TODO name", "title": "TODO a life designed as **TODO**",
+     "jp": "生き甲斐 · a reason for being", "subtitle": "TODO the 4-6 domains of this life", "tagline": "TODO one-sentence Ikigai"},
+    {"type": "agenda", "ch": "open", "kicker": "Map of this deck", "title": "TODO chapters, **one life**"},
+    {"type": "venn", "ch": "ikigai", "kicker": "Interactive · my Ikigai", "title": "Where my four circles **meet**",
+     "circles": {
+       "love": {"title": "What I love", "question": "What makes me feel alive even unpaid?", "items": ["TODO"], "summary": "TODO"},
+       "good": {"title": "What I am good at", "question": "What do others already seek my advice for?", "items": ["TODO"], "summary": "TODO"},
+       "need": {"title": "What the world needs", "question": "What pain can my skills relieve?", "items": ["TODO"], "summary": "TODO"},
+       "paid": {"title": "What I can be paid for", "question": "What will people pay for repeatedly?", "items": ["TODO"], "summary": "TODO"}
+     },
+     "overlaps": {
+       "passion": {"expression": "TODO", "pitfall": "TODO", "correction": "TODO"},
+       "mission": {"expression": "TODO", "pitfall": "TODO", "correction": "TODO"},
+       "profession": {"expression": "TODO", "pitfall": "TODO", "correction": "TODO"},
+       "vocation": {"expression": "TODO", "pitfall": "TODO", "correction": "TODO"}
+     },
+     "center": {"title": "TODO", "statement": "TODO one-sentence Ikigai"}},
+    {"type": "vmv", "ch": "identity", "kicker": "North star", "title": "Vision → Mission → **How** → Values",
+     "vision": "TODO the world when the work succeeds", "mission": "TODO what I do, for whom, how",
+     "pillars": [{"icon": "🧱", "title": "TODO", "body": "TODO"}], "values": [{"name": "TODO", "desc": "TODO"}],
+     "identity": {"title": "TODO archetype:", "body": "TODO"}},
+    {"type": "roadmap", "ch": "roadmap", "kicker": "The first 90 days", "title": "From idea to **first proof**", "now": 0,
+     "phases": [
+       {"when": "Days 1-30", "title": "TODO", "items": ["TODO"]},
+       {"when": "Days 31-60", "title": "TODO", "items": ["TODO"]},
+       {"when": "Days 61-90", "title": "TODO", "items": ["TODO"]}
+     ]},
+    {"type": "closing", "ch": "roadmap", "title": "My Ikigai is the bridge between", "words": ["TODO", "TODO", "TODO"], "final": "TODO"}
+  ]
+}

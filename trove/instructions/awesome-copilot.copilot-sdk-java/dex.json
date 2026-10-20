@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/copilot-sdk-java",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "copilot-sdk-java",
+  "title": "GitHub Copilot SDK Java Instructions",
+  "description": "This file provides guidance on building Java applications using GitHub Copilot SDK for Java.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "copilot-sdk-java.instructions.md",
+  "dir": "instructions/awesome-copilot.copilot-sdk-java",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/copilot-sdk-java.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/copilot-sdk-java.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "copilot-sdk-java.instructions.md"
+  ],
+  "entry_hash": "cccf2a5201da9576dfab18e9e8fb05ca0f6c7fa7b8471fda9ab92773b4c7c8d6",
+  "content_hash": "82c0aa7ae54d8e9b5c56346ebb0238351c7cd903795277030cc6670c93fdbcec",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.java, **/pom.xml"
+}

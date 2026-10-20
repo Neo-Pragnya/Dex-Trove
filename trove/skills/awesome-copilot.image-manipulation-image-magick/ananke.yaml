@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: image-manipulation-image-magick
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:image-manipulation-image-magick
+summary: Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing,
+  and retrieving image metadata.
+description: Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing,
+  and retrieving image metadata. Use when working with images, creating thumbnails, resizing wallpapers, or performing
+  batch image operations.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/image-manipulation-image-magick
+  repository: https://github.com/github/awesome-copilot

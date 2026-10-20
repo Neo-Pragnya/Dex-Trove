@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/add-educational-comments",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "add-educational-comments",
+  "title": "Add Educational Comments",
+  "description": "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.add-educational-comments",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/add-educational-comments",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/add-educational-comments",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "5273774d9b6628dcec97bc0b5ed66ff36bf235e65d4d79a43917d60e91df348d",
+  "content_hash": "02966cba68ac71c80da887c147818d6b560d2fdbd819da8245c44b3da5c698e1",
+  "learned_at": "2026-10-20T03:28:49+00:00"
+}

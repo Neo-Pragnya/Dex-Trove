@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/makefile",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "makefile",
+  "title": "Makefile Development Instructions",
+  "description": "Best practices for authoring GNU Make Makefiles",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "makefile.instructions.md",
+  "dir": "instructions/awesome-copilot.makefile",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/makefile.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/makefile.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "makefile.instructions.md"
+  ],
+  "entry_hash": "d94cec887e63a64e2601cd2f731ebacff85c70c1ff5af4760c1816b6e4160101",
+  "content_hash": "251e11111b6421c2876c64cf4dd6b428931da135529d13cf58533db1ec079513",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/Makefile, **/makefile, **/*.mk, **/GNUmakefile"
+}

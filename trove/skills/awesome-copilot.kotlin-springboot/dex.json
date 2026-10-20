@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/kotlin-springboot",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "kotlin-springboot",
+  "title": "Spring Boot with Kotlin Best Practices",
+  "description": "Get best practices for developing applications with Spring Boot and Kotlin.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.kotlin-springboot",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/kotlin-springboot",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/kotlin-springboot",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0ddd1ab19b608348a3728443160cc7a3a7feaa61ed1ae7cc812cdcd62b574ca2",
+  "content_hash": "8a1e34bce7a915956c5f9ec457496af391f64795f52171d262425b0b679f8319",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

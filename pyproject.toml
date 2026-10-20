@@ -1,0 +1,94 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dex-trove"
+dynamic = ["version"]
+description = "Dex Trove — a trove of dexterities for your agents: licence-clean skills, agents, instructions, hooks and plugins learned from open repos, packaged for Ananke, Claude Code and GitHub Copilot."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{ name = "Neo Pragnya" }]
+keywords = ["agent-skills", "claude-code", "github-copilot", "ananke", "skills", "agents", "prompts", "mcp"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Environment :: Console",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+  "PyYAML>=6,<7",
+  "typer>=0.16,<1",
+  "rich>=13",
+]
+
+[project.optional-dependencies]
+ananke = ["ananke-plexus"]
+dev = [
+  "pytest>=8",
+  "pytest-cov>=6",
+  "ruff>=0.12",
+  "mypy>=1.15",
+  "types-PyYAML>=6",
+  "hatchling>=1.26",  # importable so the trove-bundling build hook is testable
+]
+
+[project.scripts]
+dex = "dex_trove.cli:app"
+
+# Lets Ananke (or anything else) locate a trove generically; see docs/design/DESIGN.md §9.
+[project.entry-points."ananke.troves"]
+dex-trove = "dex_trove.paths:trove_root"
+
+[project.urls]
+Homepage = "https://neo-pragnya.github.io/Dex-Trove/"
+Repository = "https://github.com/Neo-Pragnya/Dex-Trove"
+Issues = "https://github.com/Neo-Pragnya/Dex-Trove/issues"
+
+[tool.hatch.version]
+path = "src/dex_trove/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dex_trove"]
+
+# trove/ is copied into the wheel as dex_trove/<kind>/<ns.name>/ by this hook, keeping every
+# ananke.yaml within the 4-path-part depth Ananke's python importer scans.
+[tool.hatch.build.targets.wheel.hooks.custom]
+path = "hatch_build.py"
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "trove", "sources.yaml", "hatch_build.py", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]
+addopts = "--import-mode=importlib"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_unused_ignores = true
+files = ["src/dex_trove"]
+
+[[tool.mypy.overrides]]
+module = ["ananke.*"]
+ignore_missing_imports = true
+
+[tool.coverage.run]
+source = ["dex_trove"]
+omit = ["src/dex_trove/__main__.py"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501"]  # ruff format owns line length; long string literals are left intact

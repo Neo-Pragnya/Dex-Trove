@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/power-bi-report-design-consultation",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "power-bi-report-design-consultation",
+  "title": "Power BI Report Visualization Designer",
+  "description": "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.power-bi-report-design-consultation",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/power-bi-report-design-consultation",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/power-bi-report-design-consultation",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0151c2ebaed4d6fde6c747cfd14c324b54013ec59ef4f43872e043976d880b2b",
+  "content_hash": "5fbd2ff1d606cd87a74a6c97492b80e9a713572c4b3a54414314d3ddcf8e58bc",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/github-actions-efficiency",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "github-actions-efficiency",
+  "title": "GitHub Actions Efficiency",
+  "description": "Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.github-actions-efficiency",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/github-actions-efficiency",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/github-actions-efficiency",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/actions.md",
+    "references/patterns.md",
+    "references/reporting.md",
+    "references/review-rubric.md"
+  ],
+  "entry_hash": "9c41e860468e5c88d83ab6eec70c585b0f122facec2632ea65497b3389139e43",
+  "content_hash": "e68fd042191c43a9e41d136fc1dfd6abd4158fd7589dbc2c496c72816e4c6f4f",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

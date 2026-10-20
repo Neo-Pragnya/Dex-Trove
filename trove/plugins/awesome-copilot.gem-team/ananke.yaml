@@ -1,0 +1,70 @@
+kind: bundle
+namespace: awesome-copilot
+name: gem-team
+version: 1.138.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:gem-team
+summary: Self-Learning Multi-agent orchestration framework for spec-driven development and automated verification.
+  With smarter tool calling and leaner context.
+description: Self-Learning Multi-agent orchestration framework for spec-driven development and automated verification.
+  With smarter tool calling and leaner context.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/gem-devops-guidelines
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-browser-tester
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-code-simplifier
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-debugger
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-designer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-devops
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-documentation-writer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-implementer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-mobile-tester
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-orchestrator
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-planner
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-researcher
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-reviewer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/gem-skill-creator
+  version: '*'
+license:
+  expression: Apache-2.0
+  source: 'frontmatter license: ''Apache-2.0'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - code-review
+  - devops
+  - e2e
+  - mobile
+  - multi-agent
+  - orchestration
+  - plugin
+  - prd
+  - security-audit
+  - tdd
+  - testing
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/gem-team
+  repository: https://github.com/github/awesome-copilot

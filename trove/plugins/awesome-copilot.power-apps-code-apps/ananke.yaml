@@ -1,0 +1,43 @@
+kind: bundle
+namespace: awesome-copilot
+name: power-apps-code-apps
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:power-apps-code-apps
+summary: Complete toolkit for Power Apps Code Apps development including project scaffolding, development standards,
+  and expert guidance for building code-first applications with Power Platform integration.
+description: Complete toolkit for Power Apps Code Apps development including project scaffolding, development standards,
+  and expert guidance for building code-first applications with Power Platform integration.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/power-apps-code-app-scaffold
+  version: '*'
+- ref: ananke://agent/awesome-copilot/power-platform-expert
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - code-apps
+  - connectors
+  - dataverse
+  - plugin
+  - power-apps
+  - power-platform
+  - react
+  - typescript
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/power-apps-code-apps
+  repository: https://github.com/github/awesome-copilot

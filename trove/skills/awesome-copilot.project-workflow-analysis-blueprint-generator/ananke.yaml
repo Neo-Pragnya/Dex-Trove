@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: project-workflow-analysis-blueprint-generator
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:project-workflow-analysis-blueprint-generator
+summary: Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows.
+description: Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows.
+  Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed
+  implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches
+  across multiple technologies including .NET, Java/Spring, React, and microservices architectures.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/project-workflow-analysis-blueprint-generator
+  repository: https://github.com/github/awesome-copilot

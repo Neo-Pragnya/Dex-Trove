@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/nuxt-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "nuxt-expert",
+  "title": "Expert Nuxt Developer",
+  "description": "Expert Nuxt developer specializing in Nuxt 3, Nitro, server routes, data fetching strategies, and performance optimization with Vue 3 and TypeScript",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "nuxt-expert.agent.md",
+  "dir": "agents/awesome-copilot.nuxt-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/nuxt-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/nuxt-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "nuxt-expert.agent.md"
+  ],
+  "entry_hash": "6df4871241ddfa2db4cceff9594e8730b3e3343d53c949fd90aae3da394b80b1",
+  "content_hash": "9264cc6fe8f0a3ef0772fc46dbf35f5fb02900a4f1b986e42cdd39a426e310ef",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

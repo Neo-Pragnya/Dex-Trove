@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/update-avm-modules-in-bicep",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "update-avm-modules-in-bicep",
+  "title": "Update Azure Verified Modules in Bicep Files",
+  "description": "Update Azure Verified Modules (AVM) to latest versions in Bicep files.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.update-avm-modules-in-bicep",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/update-avm-modules-in-bicep",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/update-avm-modules-in-bicep",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "b8ca2755d0ae9b57ea4d90776eb6495a29f614adce765704f02cb352a72c0f18",
+  "content_hash": "e092bff04b854e5e58a4354f25d91a03475ee8379dff551306108b7828bdd0f7",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

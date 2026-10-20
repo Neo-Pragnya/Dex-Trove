@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/arm-migration",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "arm-migration",
+  "title": "arm-migration-agent",
+  "description": "Arm Cloud Migration Assistant accelerates moving x86 workloads to Arm infrastructure. It scans the repository for architecture assumptions, portability issues, container base image and dependency incompatibilities, and recommends Arm-optimized changes. It can drive multi-arch container builds, validate performance, and guide optimization, enabling smooth cross-platform deployment directly inside GitHub.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "arm-migration.agent.md",
+  "dir": "agents/awesome-copilot.arm-migration",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/arm-migration.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/arm-migration.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "arm-migration.agent.md"
+  ],
+  "entry_hash": "75a951deb440347f4acae5e33d0ce8a0409fafbd2bdde14de09c844a4aff2637",
+  "content_hash": "5dd9e59726a00f748675aac3c3c7f4c1f8d7a7fd834fc3631bcb25d7b7bd4cec",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,54 @@
+kind: bundle
+namespace: awesome-copilot
+name: software-engineering-team
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:software-engineering-team
+summary: 7 specialized agents covering the full software development lifecycle from UX design and architecture to
+  security and DevOps.
+description: 7 specialized agents covering the full software development lifecycle from UX design and architecture
+  to security and DevOps.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://agent/awesome-copilot/se-gitops-ci-specialist
+  version: '*'
+- ref: ananke://agent/awesome-copilot/se-product-manager-advisor
+  version: '*'
+- ref: ananke://agent/awesome-copilot/se-responsible-ai-code
+  version: '*'
+- ref: ananke://agent/awesome-copilot/se-security-reviewer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/se-system-architecture-reviewer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/se-technical-writer
+  version: '*'
+- ref: ananke://agent/awesome-copilot/se-ux-ui-designer
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - ai-ethics
+  - architecture
+  - awesome-copilot
+  - devops
+  - enterprise
+  - plugin
+  - product
+  - security
+  - team
+  - ux
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/software-engineering-team
+  repository: https://github.com/github/awesome-copilot

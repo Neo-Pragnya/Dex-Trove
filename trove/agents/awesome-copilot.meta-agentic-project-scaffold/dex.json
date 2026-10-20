@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/meta-agentic-project-scaffold",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "meta-agentic-project-scaffold",
+  "title": "Meta Agentic Project Scaffold",
+  "description": "Meta agentic project creation assistant to help users create and manage project workflows effectively.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "meta-agentic-project-scaffold.agent.md",
+  "dir": "agents/awesome-copilot.meta-agentic-project-scaffold",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/meta-agentic-project-scaffold.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/meta-agentic-project-scaffold.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "meta-agentic-project-scaffold.agent.md"
+  ],
+  "entry_hash": "045954f1d22f9c9e5cf36ca248d60b53ace5ffdc286998592df37662795ddda8",
+  "content_hash": "b8be7c00ffd0721963e2d6e5f109691fd28a68c56dce33b4916466726b686ccf",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

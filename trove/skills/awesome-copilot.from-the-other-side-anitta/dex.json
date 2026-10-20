@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/from-the-other-side-anitta",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "from-the-other-side-anitta",
+  "title": "Anitta Profile",
+  "description": "Rigorous challenge profile for Anitta: assumption checks, evidence calibration, and defensible reasoning patterns for Ember collaboration.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.from-the-other-side-anitta",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/from-the-other-side-anitta",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/from-the-other-side-anitta",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "304c3e6616c8987d3280beb415d28183f24781ded7afeeb5abc5c9459db92283",
+  "content_hash": "81d4a6aa306458d3253bbf8e6c713fdfece3b7b4af9f21a251b6ec5752841d6b",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

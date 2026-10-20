@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/resx-source-generator-migration",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "resx-source-generator-migration",
+  "title": "resx-source-generator-migration",
+  "description": "Migrates a project that uses checked-in .designer.cs files behind .resx to using a source-generator instead",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.resx-source-generator-migration",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/resx-source-generator-migration",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/resx-source-generator-migration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9d2cc68ff4cfaf923a4ffdf4cd45896bc2bfba2a3a1dd16680c606efde482409",
+  "content_hash": "e809300fe51f9b25a5a5f1aabb4ae8a1c8ec9a0e1933c926e221961063fa49dd",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

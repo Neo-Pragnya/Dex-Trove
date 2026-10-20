@@ -1,0 +1,23 @@
+kind: skill
+namespace: superpowers
+name: systematic-debugging
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:superpowers:systematic-debugging
+summary: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - skill
+  - superpowers
+  homepage: https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/systematic-debugging
+  repository: https://github.com/obra/superpowers

@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: system-commandline-cli
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:system-commandline-cli
+summary: Use this skill when adding, modifying, or reviewing CLI commands in a .NET project built with System.CommandLine.
+description: 'Use this skill when adding, modifying, or reviewing CLI commands in a .NET project built with System.CommandLine.
+  Triggers include: creating a new CLI command, adding options or arguments, wiring command handlers, registering
+  subcommands, building command groups, or any architecture decision about CLI command structure. Also use when
+  the user mentions ''System.CommandLine'', ''CommandBase'', ''SetAction'', ''ParseResult'', ''RootCommand'', ''subcommand'',
+  or asks to add a verb to the CLI. Do NOT use for general C# coding, web APIs, UI work, or non-CLI projects.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/system-commandline-cli
+  repository: https://github.com/github/awesome-copilot

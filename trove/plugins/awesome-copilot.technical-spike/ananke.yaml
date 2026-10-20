@@ -1,0 +1,40 @@
+kind: bundle
+namespace: awesome-copilot
+name: technical-spike
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:technical-spike
+summary: Tools for creation, management and research of technical spikes to reduce unknowns and assumptions before
+  proceeding to specification and implementation of solutions.
+description: Tools for creation, management and research of technical spikes to reduce unknowns and assumptions
+  before proceeding to specification and implementation of solutions.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/create-technical-spike
+  version: '*'
+- ref: ananke://agent/awesome-copilot/research-technical-spike
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - assumption-testing
+  - awesome-copilot
+  - plugin
+  - research
+  - technical-spike
+  - validation
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/technical-spike
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: dotnet-self-learning-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:dotnet-self-learning-architect
+summary: 'Senior .NET architect for complex delivery: designs .NET 6+ systems, decides between parallel subagents
+  and orchestrated team execution, documents lessons learned, and captures durable project memory…'
+description: 'Senior .NET architect for complex delivery: designs .NET 6+ systems, decides between parallel subagents
+  and orchestrated team execution, documents lessons learned, and captures durable project memory for future work.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dotnet-self-learning-architect.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/dotnet-self-learning-architect.agent.md
+  repository: https://github.com/github/awesome-copilot

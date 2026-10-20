@@ -1,0 +1,60 @@
+kind: bundle
+namespace: awesome-copilot
+name: arize-ax
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:arize-ax
+summary: Arize AX platform skills for LLM observability, evaluation, and optimization. Includes trace export, instrumentation,
+  datasets, experiments, evaluators, AI provider integrations, annotations, prompt o…
+description: Arize AX platform skills for LLM observability, evaluation, and optimization. Includes trace export,
+  instrumentation, datasets, experiments, evaluators, AI provider integrations, annotations, prompt optimization,
+  and deep linking to the Arize UI.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/arize-ai-provider-integration
+  version: '*'
+- ref: ananke://skill/awesome-copilot/arize-annotation
+  version: '*'
+- ref: ananke://skill/awesome-copilot/arize-dataset
+  version: '*'
+- ref: ananke://skill/awesome-copilot/arize-evaluator
+  version: '*'
+- ref: ananke://skill/awesome-copilot/arize-experiment
+  version: '*'
+- ref: ananke://skill/awesome-copilot/arize-instrumentation
+  version: '*'
+- ref: ananke://skill/awesome-copilot/arize-link
+  version: '*'
+- ref: ananke://skill/awesome-copilot/arize-prompt-optimization
+  version: '*'
+- ref: ananke://skill/awesome-copilot/arize-trace
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - arize
+  - awesome-copilot
+  - datasets
+  - evaluation
+  - experiments
+  - instrumentation
+  - llm
+  - observability
+  - plugin
+  - prompt-optimization
+  - tracing
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/arize-ax
+  repository: https://github.com/github/awesome-copilot

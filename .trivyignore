@@ -1,0 +1,14 @@
+# .trivyignore — Trivy false-positive suppressions for Dex Trove
+#
+# Format: one suppression per line.
+#   - Vulnerability ID (e.g. CVE-2024-XXXX) suppresses that specific CVE.
+#   - Secret rule ID suppresses that secret type globally.
+#   - Add a comment explaining every suppression.
+#
+# Scope note: the blocking gate runs with `--skip-dirs trove`. trove/ is redistributed upstream *content*
+# (instructions, reference docs, example code); Dex never installs or executes it. It is scanned separately,
+# non-blocking, and uploaded to the Security tab. Dex's own learn-time guards exclude real-format credentials
+# and record Ananke-scanner placeholder hits as `secret_flags` (see docs/concepts/security-model.md).
+#
+# The .env file holds local PyPI upload tokens (UV_PUBLISH_TOKEN*). It is gitignored and never committed;
+# CI uses OIDC Trusted Publishing and never sees it.

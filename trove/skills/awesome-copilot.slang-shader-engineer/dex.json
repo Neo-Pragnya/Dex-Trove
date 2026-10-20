@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/slang-shader-engineer",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "slang-shader-engineer",
+  "title": "Slang Shader Expert",
+  "description": "Use when working with Slang shaders, shader modules, HLSL-compatible GPU code, graphics pipelines, compute shaders, tessellation, ray tracing, parameter blocks, generics, interfaces, capabilities, cross-compilation, shader optimization, shader review, or C++ engine integration for Slang. Trigger on any mention of Slang, .slang files, slangc, SPIR-V from Slang, Slang modules, [shader(\"compute\")], [shader(\"vertex\")], or requests to write/review/refactor shader code with modern language features. Also trigger for Slang-to-HLSL/GLSL/Metal/CUDA cross-compile questions, or when the user says \"shader\" alongside \"generics\", \"interfaces\", \"parameter blocks\", \"autodiff\", or \"capabilities\".",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.slang-shader-engineer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/slang-shader-engineer",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/slang-shader-engineer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/language-reference.md",
+    "references/rules-and-patterns.md",
+    "references/slang-documentation-full.md"
+  ],
+  "entry_hash": "cab49bbddf84fbc05c6ff23d505a07757b46cd30fd64898b68e5b66ecb4f4f79",
+  "content_hash": "14ac32deebbdd7a0398fdc2301c889d9a912fd0835f002b8e7ff8dccdac457f7",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

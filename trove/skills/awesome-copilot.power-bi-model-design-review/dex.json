@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/power-bi-model-design-review",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "power-bi-model-design-review",
+  "title": "Power BI Data Model Design Review",
+  "description": "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.power-bi-model-design-review",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/power-bi-model-design-review",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/power-bi-model-design-review",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "bf6268e3d75446533b54887db6263302fde01f516634d4bd60a1cc21928add4c",
+  "content_hash": "44af46c4dabfbee22d5bffcd7be3d8dd66d2509caf84d647f48c39f26ddde71d",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

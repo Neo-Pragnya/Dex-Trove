@@ -1,0 +1,32 @@
+kind: skill
+namespace: superpowers
+name: verification-before-completion
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:superpowers:verification-before-completion
+summary: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires
+  running verification commands and confirming output before making any success claims; evidence…
+description: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires
+  running verification commands and confirming output before making any success claims; evidence before assertions
+  always
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - skill
+  - superpowers
+  homepage: https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/verification-before-completion
+  repository: https://github.com/obra/superpowers

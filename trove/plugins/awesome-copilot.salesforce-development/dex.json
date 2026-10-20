@@ -1,0 +1,58 @@
+{
+  "id": "awesome-copilot/salesforce-development",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "salesforce-development",
+  "title": "Salesforce Development Plugin",
+  "description": "Complete Salesforce agentic development environment covering Apex & Triggers, Flow automation, Lightning Web Components, Aura components, and Visualforce pages.",
+  "tags": [
+    "apex",
+    "aura",
+    "awesome-copilot",
+    "crm",
+    "flow",
+    "lwc",
+    "plugin",
+    "salesforce",
+    "salesforce-dx",
+    "triggers",
+    "visualforce"
+  ],
+  "version": "1.1.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.salesforce-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/salesforce-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/salesforce-development",
+    "author": "TemitayoAfolabi"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/salesforce-apex-quality",
+    "skill:awesome-copilot/salesforce-component-standards",
+    "skill:awesome-copilot/salesforce-flow-design",
+    "agent:awesome-copilot/salesforce-apex-triggers",
+    "agent:awesome-copilot/salesforce-aura-lwc",
+    "agent:awesome-copilot/salesforce-flow",
+    "agent:awesome-copilot/salesforce-visualforce"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "da72a35f8421311d12e5668ba4c3e861ef2d70b004cde20e594fb8c8113fe9c5",
+  "content_hash": "bb546e376868150cfbe59b3a985bb0578a9efdf99029be8ff738f79d6cd1b0a9",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

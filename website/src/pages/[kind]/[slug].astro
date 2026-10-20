@@ -1,0 +1,293 @@
+---
+import { getCollection, render } from "astro:content";
+import Glyph from "../../components/Glyph.astro";
+import Layout from "../../components/Layout.astro";
+import Mermaid from "../../components/Mermaid.astro";
+import {
+  KIND_GLYPH,
+  KINDS,
+  TARGETS,
+  formatBytes,
+  itemHref,
+  parseRef,
+  shortCommit,
+  site,
+  type Kind,
+} from "../../lib/site";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("items");
+  return entries.map((entry) => ({
+    params: { kind: entry.data.kind, slug: `${entry.data.namespace}.${entry.data.name}` },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const it = entry.data;
+const base = import.meta.env.BASE_URL;
+const kind = KINDS[it.kind];
+const ref = `${it.kind}:${it.id}`;
+const targets = TARGETS[it.kind];
+const src = it.source;
+const firstParty = !src.commit && it.namespace === "neo-pragnya";
+const flagged = it.secret_flags > 0;
+
+// Titles for related / member / plugin links.
+const all = await getCollection("items");
+const titleByRef = new Map(all.map((e) => [`${e.data.kind}:${e.data.id}`, e.data.title]));
+const describe = (r: string) => {
+  const p = parseRef(r);
+  return { href: itemHref(base, p.kind, p.ns, p.name), title: titleByRef.get(r) ?? p.name, kind: p.kind as Kind, id: `${p.ns}/${p.name}` };
+};
+const related = it.related.map(describe);
+const partOf = it.part_of.map(describe);
+const members = it.members.map(describe);
+const totalSize = it.file_rows.reduce((a, f) => a + f.size, 0);
+const toc = headings.filter((h) => h.depth === 2).slice(0, 14);
+
+const usage: Record<Kind, string> = {
+  skill:
+    "Skills load on demand: the agent sees this skill's name and description, and opens SKILL.md (and any bundled references or scripts) when a task matches.",
+  agent:
+    "Agents are personas with their own instructions. Select it in your tool's agent picker (Copilot) or let Claude Code delegate to it as a subagent.",
+  instruction:
+    "Instructions apply automatically to files matching their applyTo glob in GitHub Copilot. For Claude Code, reference the file from CLAUDE.md.",
+  prompt: "Prompts are invoked explicitly: as a slash command in Claude Code, or from the prompt picker in Copilot.",
+  hook: "Hooks run their command automatically when the listed session events fire. Review the script before enabling it.",
+  workflow:
+    "Agentic workflows run in GitHub Actions. Place the file in .github/workflows/ and compile it with the gh aw CLI.",
+  plugin: "Installing a plugin installs every bundled skill and agent listed below.",
+};
+---
+
+<Layout title={it.title} description={it.description} wide>
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href={`${base}catalog/`}>Catalog</a> /
+    <a href={`${base}catalog/?kind=${it.kind}`}>{kind.plural}</a> /
+    <a href={`${base}catalog/?source=${it.namespace}`}>{it.namespace}</a>
+  </nav>
+
+  <div class="item-layout">
+    <article class="prose">
+      <header class={`item-hero k-${it.kind}`}>
+        <Glyph shapes={KIND_GLYPH[it.kind]} class="glyph" />
+        <div>
+          <div class="chips" style="margin-bottom:10px">
+            <span class={`chip kind k-${it.kind}`}>{kind.label}</span>
+            <span class="chip ok" title={it.license.evidence}>{it.license.spdx}</span>
+            <span class="chip">v{it.version}</span>
+            <span class="chip">{it.namespace}</span>
+            {it.executes_code && <span class="chip warn" title="Contains scripts or hooks.json">runs code</span>}
+            {flagged && <span class="chip warn" title="Ananke's secret scanner flags placeholder credentials">placeholder secrets</span>}
+            {firstParty && <span class="chip gold">first-party</span>}
+          </div>
+          <h1><span data-scramble>{it.title}</span></h1>
+          <p class="lede">{it.description}</p>
+        </div>
+      </header>
+
+      <section class="overview card">
+        <h2>At a glance</h2>
+        <dl class="facts">
+          <dt>Kind</dt>
+          <dd>{kind.label} · Ananke <code>{kind.ananke}</code></dd>
+          <dt>Reference</dt>
+          <dd><code>{it.id}</code> · <code>ananke://{kind.ananke}/{it.namespace}/{it.name}@{it.version}</code></dd>
+          {it.apply_to && (<><dt>Applies to</dt><dd><code>{it.apply_to}</code></dd></>)}
+          <dt>Files</dt>
+          <dd>{it.files.length} · {formatBytes(totalSize)}</dd>
+          <dt>How it's used</dt>
+          <dd>{usage[it.kind]}</dd>
+        </dl>
+      </section>
+
+      {
+        it.notes.length > 0 && (
+          <p class="notice">
+            {it.notes.map((n) => <span style="display:block">{n}</span>)}
+            {it.name === "marvellous-aws-architecture-docs" && (
+              <span style="display:block">
+                Run <code>scripts/fetch_icons.py</code> after installing to fetch the AWS icons from the MIT-licensed{" "}
+                <code>diagrams</code> package.
+              </span>
+            )}
+          </p>
+        )
+      }
+      {
+        flagged && (
+          <p class="notice">
+            This item contains {it.secret_flags} credential-shaped <em>example</em> line(s), such as placeholders or
+            "don't do this" samples, that Ananke's registration scanner rejects by default.{" "}
+            <code>dex ananke sync</code> skips it unless you pass <code>--include-flagged</code>.
+          </p>
+        )
+      }
+
+      {
+        it.upstream_meta.length > 0 && (
+          <section>
+            <h2>Upstream metadata</h2>
+            <div class="table-wrap">
+              <table>
+                <tbody>
+                  {it.upstream_meta.map((m) => (
+                    <tr>
+                      <th scope="row"><code>{m.key}</code></th>
+                      <td>{m.value}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )
+      }
+
+      {
+        it.hook_events.length > 0 && (
+          <section>
+            <h2>Hook events</h2>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Event</th><th>Command</th><th>Timeout</th></tr></thead>
+                <tbody>
+                  {it.hook_events.map((h) => (
+                    <tr><td><code>{h.event}</code></td><td><code>{h.command}</code></td><td>{h.timeout && `${h.timeout}s`}</td></tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )
+      }
+
+      {
+        members.length > 0 && (
+          <section>
+            <h2>Bundled items ({members.length})</h2>
+            <ul class="link-cards">
+              {members.map((m) => (
+                <li><a class={`card k-${m.kind}`} href={m.href}><span class={`chip kind k-${m.kind}`}>{KINDS[m.kind]?.label}</span> {m.title}<small>{m.id}</small></a></li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      <section class="upstream">
+        <div class="upstream-head">
+          <h2>Documentation</h2>
+          {src.url && <a href={src.url}>View upstream ↗</a>}
+        </div>
+        {
+          toc.length > 2 && (
+            <details class="toc-inline">
+              <summary>Contents</summary>
+              <ul>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul>
+            </details>
+          )
+        }
+        <div class="upstream-body">
+          <Content />
+        </div>
+      </section>
+      {entry.body?.includes("```mermaid") && <Mermaid />}
+    </article>
+
+    <aside class="item-side">
+      <section class="card install">
+        <h2>Install</h2>
+        {
+          targets.map((t) => (
+            <>
+              <p>{t === "claude" ? "Claude Code (~/.claude)" : "GitHub Copilot (./.github)"}</p>
+              <pre><code>{`dex install ${ref} --target ${t}${it.kind === "hook" ? " --allow-exec" : ""}`}</code></pre>
+            </>
+          ))
+        }
+        <p>Ananke Plexus</p>
+        <pre><code>{`dex ananke sync --name ${it.id}${flagged ? " --include-flagged" : ""}`}</code></pre>
+        <p>Any folder (full item)</p>
+        <pre><code>{`dex install ${ref} --target dir --path ./vendor`}</code></pre>
+        <p class="hint">Needs <code>pip install dex-trove</code>. <a href={`${base}docs/guides/installing-items/`}>Where things go →</a></p>
+      </section>
+
+      <section class="card">
+        <h2>{firstParty ? "Origin" : "Source & inspiration"}</h2>
+        <dl class="facts">
+          <dt>Source</dt>
+          <dd>{src.repo ? <a href={src.repo}>{src.title}</a> : src.title}</dd>
+          <dt>Upstream</dt>
+          <dd>{src.url ? <a href={src.url}>{src.path}</a> : <code>{src.path}</code>}</dd>
+          <dt>Commit</dt>
+          <dd><code>{shortCommit(src.commit)}</code></dd>
+          {src.author && (<><dt>Author</dt><dd>{src.author}</dd></>)}
+        </dl>
+        {
+          it.inspired_by.length > 0 && (
+            <>
+              <h3 class="side-sub">Inspired by</h3>
+              <ul class="plain">
+                {it.inspired_by.map((i) => <li>{i.url ? <a href={i.url}>{i.title}</a> : i.title}</li>)}
+              </ul>
+            </>
+          )
+        }
+      </section>
+
+      <section class="card">
+        <h2>Licence</h2>
+        <dl class="facts">
+          <dt>SPDX</dt>
+          <dd><strong>{it.license.spdx}</strong> · {it.license.verdict}</dd>
+          <dt>Evidence</dt>
+          <dd>{it.license.evidence}</dd>
+          {it.license.notice && (<><dt>Notice</dt><dd style="white-space:pre-line">{it.license.notice}</dd></>)}
+          {it.license.components.length > 0 && (<><dt>Bundled</dt><dd>{it.license.components.join(", ")}</dd></>)}
+        </dl>
+        <p class="hint"><a href={`${base}docs/concepts/licence-policy/`}>How licences are decided →</a></p>
+      </section>
+
+      {
+        partOf.length > 0 && (
+          <section class="card">
+            <h2>Part of</h2>
+            <ul class="plain">{partOf.map((p) => <li><a href={p.href}>{p.title}</a> <small class="muted">plugin</small></li>)}</ul>
+          </section>
+        )
+      }
+
+      <section class="card">
+        <h2>Files ({it.files.length})</h2>
+        <ul class="files">
+          {
+            it.file_rows.map((f) => (
+              <li>
+                <a href={f.url}>{f.path}</a>
+                <span>{formatBytes(f.size)}</span>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="hint">Links open the upstream file at the learned commit.</p>
+      </section>
+
+      {
+        related.length > 0 && (
+          <section class="card">
+            <h2>Related</h2>
+            <ul class="plain related">
+              {related.map((r) => (
+                <li class={`k-${r.kind}`}><Glyph shapes={KIND_GLYPH[r.kind]} class="" /><a href={r.href}>{r.title}</a></li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+      <p class="hint side-foot"><a href={`${site.repo}/tree/main/trove/${KINDS[it.kind].plural.toLowerCase()}/${it.namespace}.${it.name}`}>This item in the Dex-Trove repo ↗</a></p>
+    </aside>
+  </div>
+</Layout>

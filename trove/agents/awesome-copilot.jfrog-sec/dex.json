@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/jfrog-sec",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "jfrog-sec",
+  "title": "JFrog Security Agent",
+  "description": "The dedicated Application Security agent for automated security remediation. Verifies package and version compliance, and suggests vulnerability fixes using JFrog security intelligence.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "jfrog-sec.agent.md",
+  "dir": "agents/awesome-copilot.jfrog-sec",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/jfrog-sec.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/jfrog-sec.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "jfrog-sec.agent.md"
+  ],
+  "entry_hash": "48f885e7d6a698e7778881a8e62df8df02795514d30e98228794b124227a70b9",
+  "content_hash": "950247c42e9c9f1646b33d7e614dccb4a4fd49016f81d8845d76ef67ab580077",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

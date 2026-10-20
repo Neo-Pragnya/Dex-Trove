@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/acreadiness-assess",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "acreadiness-assess",
+  "title": "/acreadiness-assess — AI-readiness assessment",
+  "description": "Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html. Wraps `npx github:microsoft/agentrc readiness` and hands off rendering to the @ai-readiness-reporter custom agent. Supports policies (--policy) for org-specific scoring. Use when asked to assess, audit, or score the AI readiness of a repo.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.acreadiness-assess",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/acreadiness-assess",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/acreadiness-assess",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "report-template.html"
+  ],
+  "entry_hash": "e632ae0d57b87accd0ca1488dba27bd842c6e6c4c28670f2da101f1322ba5f8d",
+  "content_hash": "d3ebb359ab04660196431867a5e447000530e2b777cedc4bab8467842788a9f6",
+  "learned_at": "2026-10-20T03:28:49+00:00"
+}

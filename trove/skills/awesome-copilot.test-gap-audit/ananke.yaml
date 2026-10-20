@@ -1,0 +1,29 @@
+kind: skill
+namespace: awesome-copilot
+name: test-gap-audit
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:test-gap-audit
+summary: Run a read-only audit for missing, weak, stale, or mis-scoped test coverage. If the user does not name
+  a scope, audit the full repository and identify important code paths, routes, features, services,…
+description: Run a read-only audit for missing, weak, stale, or mis-scoped test coverage. If the user does not name
+  a scope, audit the full repository and identify important code paths, routes, features, services, workflows, and
+  contracts that lack proper tests. If the user names a feature, PR, branch, route, workflow, service, bug fix,
+  API, security-sensitive path, or risky code change, focus only on that specific scope. Use when the user asks
+  what tests are missing, whether coverage is enough, what regression tests to add, or how to prove a change is
+  safe. This is not a general bug audit and not a security review; it evaluates whether behavior is covered by tests.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/test-gap-audit
+  repository: https://github.com/github/awesome-copilot

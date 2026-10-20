@@ -1,0 +1,46 @@
+{
+  "id": "awesome-copilot/data-breach-blast-radius",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "data-breach-blast-radius",
+  "title": "Data Breach Blast Radius Analyzer",
+  "description": "Pre-breach impact analysis: inventories sensitive data (PII, PHI, PCI-DSS, credentials), traces data flows, scores exposure vectors, and produces a regulatory blast radius report with fine ranges sourced verbatim from GDPR Art. 83, CCPA § 1798.155(a), and HIPAA 45 CFR § 160.404. Cost benchmarks from IBM Cost of a Data Breach Report (annually updated). All citations in references/SOURCES.md for verification. Use when asked: \"assess breach impact\", \"what data could be exposed\", \"calculate blast radius\", \"data exposure analysis\", \"how bad would a breach be\", \"quantify data risk\", \"sensitive data inventory\", \"data flow security audit\", \"pre-breach assessment\", \"worst-case breach scenario\", \"breach readiness\", \"data risk report\", \"/data-breach-blast-radius\". For any stack handling user data, health records, or financial information. Output labels law-sourced figures (exact) vs heuristic estimates (planning only). Does not replace legal counsel.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.data-breach-blast-radius",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/data-breach-blast-radius",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/data-breach-blast-radius",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/SOURCES.md",
+    "references/blast-radius-calculator.md",
+    "references/data-classification.md",
+    "references/hardening-playbook.md",
+    "references/regulatory-impact.md",
+    "references/report-format.md"
+  ],
+  "entry_hash": "d61d7e6036a67fa25afa016b61d4130448f3e74896dfafef1847f1f01fc86bbe",
+  "content_hash": "8b8cef840fc485e2a802bf6f8524dea1728ad92f33eaac6acc91f827838bc1ee",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

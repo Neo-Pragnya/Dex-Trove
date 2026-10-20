@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/flowstudio-power-automate-mcp",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "flowstudio-power-automate-mcp",
+  "title": "Power Automate via FlowStudio MCP — Foundation",
+  "description": "Foundation skill for Power Automate via FlowStudio MCP — auth setup, the reusable MCP helper (Python + Node.js), tool discovery via `list_skills` / `tool_search`, and oversized-response handling. Load this skill first when connecting an agent to Power Automate. For specialized workflows, load `flowstudio-power-automate-build`, `flowstudio-power-automate-debug`, `flowstudio-power-automate-monitoring` (Pro+), or `flowstudio-power-automate-governance` (Pro+) — each contains the workflow narrative, this skill provides the plumbing they all rely on. Requires a FlowStudio MCP subscription or compatible server — see https://mcp.flowstudio.app",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.flowstudio-power-automate-mcp",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/flowstudio-power-automate-mcp",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/flowstudio-power-automate-mcp",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/MCP-BOOTSTRAP.md",
+    "references/action-types.md",
+    "references/connection-references.md",
+    "references/tool-reference.md"
+  ],
+  "entry_hash": "e91667958cb53be26f6815c0686115cedcdec49d76e4956646f2d56f64cc260a",
+  "content_hash": "bb5f00520f6d2e4aed51bf5590b49409c4505befc970fbdb22ea3d9e4d85232a",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/se-product-manager-advisor",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "se-product-manager-advisor",
+  "title": "SE: Product Manager",
+  "description": "Product management guidance for creating GitHub issues, aligning business value with user needs, and making data-driven product decisions",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "se-product-manager-advisor.agent.md",
+  "dir": "agents/awesome-copilot.se-product-manager-advisor",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/se-product-manager-advisor.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/se-product-manager-advisor.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "se-product-manager-advisor.agent.md"
+  ],
+  "entry_hash": "d38a92f0b9a8c8a6d78c303378f95d16d040836e027f63628e4d0266aacddd11",
+  "content_hash": "e635879c9f88f1bfe39045879b60915bbcbb059d57474b6e36eecabf2056a1ad",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/commit-message-storyteller",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "commit-message-storyteller",
+  "title": "Commit Message Storyteller",
+  "description": "Analyzes git diffs or staged changes and generates narrative commit messages that explain WHY a change was made, not just what changed — following Conventional Commits format. Use when asked to \"write a commit message\", \"generate a commit\", \"describe my changes\", \"what should I commit this as\", \"commit this\", \"summarize my diff\", or \"help me commit\". Works with git diff output, staged files, or plain descriptions of changes.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.commit-message-storyteller",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/commit-message-storyteller",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/commit-message-storyteller",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/conventional-commits-guide.md"
+  ],
+  "entry_hash": "9a351d6276d9c17c5e5ac0920efc1dfa054cf9e17c7db52a9fc2a0e38f39e65a",
+  "content_hash": "9447375e7a8ccc67275a8a872482a9affddc9cafee66a55199ffc13a99e254b6",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/ospo-sponsorship",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "ospo-sponsorship",
+  "title": "Open Source Sponsorship Plugin",
+  "description": "Tools and resources for Open Source Program Offices (OSPOs) to identify, evaluate, and manage sponsorship of open source dependencies through GitHub Sponsors, Open Collective, and other funding platforms.",
+  "tags": [
+    "awesome-copilot",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.ospo-sponsorship",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/ospo-sponsorship",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/ospo-sponsorship",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/sponsor-finder"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "68c3f86e57fd013a52a0abecc8e925f14b7aca326c49aab5163fa900c4387b6c",
+  "content_hash": "f5a0e2f09f19b35af1812e48e3cc48710e65edecdd763179c4e659a94aa21284",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

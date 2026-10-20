@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-researcher",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-researcher",
+  "title": "gem-researcher",
+  "description": "Codebase exploration: patterns, relationships, architecture discovery. Supports multiple exploration modes for cost-controlled research.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-researcher.agent.md",
+  "dir": "agents/awesome-copilot.gem-researcher",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-researcher.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-researcher.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-researcher.agent.md"
+  ],
+  "entry_hash": "c982de05539eba2b436d515ac9a0abe45d6fb03c9b84a2e3cead8baa6625c429",
+  "content_hash": "8cdc2cb3c8e530b9812ccc16fe4b60cd8c05a54ccac7d7b805c9b7421aa8ba5e",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

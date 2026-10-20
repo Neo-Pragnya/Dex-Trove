@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/php-mcp-development",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "php-mcp-development",
+  "title": "PHP MCP Server Development Plugin",
+  "description": "Comprehensive resources for building Model Context Protocol servers using the official PHP SDK with attribute-based discovery, including best practices, project generation, and expert assistance",
+  "tags": [
+    "attributes",
+    "awesome-copilot",
+    "composer",
+    "mcp",
+    "model-context-protocol",
+    "php",
+    "plugin",
+    "sdk",
+    "server-development"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.php-mcp-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/php-mcp-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/php-mcp-development",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/php-mcp-server-generator",
+    "agent:awesome-copilot/php-mcp-expert"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "0c253d961b6fde19cc644297a8127b2b88481a15e894455e46c148011c65d60a",
+  "content_hash": "61ae1fd744536e84b9b17b92982b64628e423b63b0b247d5f2a0d11e4e48c2b2",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/agent-skills",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "agent-skills",
+  "title": "Agent Skills File Guidelines",
+  "description": "Guidelines for creating high-quality Agent Skills for GitHub Copilot",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "agent-skills.instructions.md",
+  "dir": "instructions/awesome-copilot.agent-skills",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/agent-skills.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/agent-skills.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "agent-skills.instructions.md"
+  ],
+  "entry_hash": "2462b317022d382573215358823acaedc05030aac121d54b6bf2fb0e22de51d3",
+  "content_hash": "813fd4ed39d1a2c54845289f305a0a753d8c5937977523d6922c257ce5538bd9",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/skills/**/SKILL.md"
+}

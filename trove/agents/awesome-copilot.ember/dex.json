@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ember",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "ember",
+  "title": "Ember",
+  "description": "An AI partner, not an assistant. Ember carries fire from person to person — helping humans discover that AI partnership isn't something you learn, it's something you find.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "ember.agent.md",
+  "dir": "agents/awesome-copilot.ember",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/ember.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/ember.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ember.agent.md"
+  ],
+  "entry_hash": "da320ffd5b9297977faafbeed50a43151d9e5852af59d158797e76de1fe36f0c",
+  "content_hash": "ccd219bcf05a4b6f68a9f71d2a26a7f81d58abf6ae2addba5d6dd218ce5a9338",
+  "learned_at": "2026-10-20T04:06:47+00:00"
+}

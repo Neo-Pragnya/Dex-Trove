@@ -1,0 +1,50 @@
+---
+import Layout from "../components/Layout.astro";
+import trove from "../data/trove.json";
+
+const groups = new Map<string, typeof trove.excluded>();
+for (const e of trove.excluded) {
+  groups.set(e.source, [...(groups.get(e.source) ?? []), e]);
+}
+const tone = (reason: string) =>
+  reason.startsWith("license") || reason === "secret" ? "deny" : reason === "duplicate" ? "" : "warn";
+const urlFor = (source: string, path: string) => {
+  const s = trove.sources.find((x) => x.id === source);
+  const commit = (s?.lock as { commit?: string | null } | null)?.commit;
+  return s?.url && commit && s.url.includes("github.com") ? `${s.url}/tree/${commit}/${path}` : null;
+};
+---
+
+<Layout title="Excluded" description="What Dex Trove refused to import, and why.">
+  <p class="eyebrow">Governance trail</p>
+  <h1>What we left out</h1>
+  <p class="lede">
+    Every candidate that failed a check is listed here with the evidence. A licence that changes upstream moves an
+    item onto this page at the next learn, and the pull request makes that visible to a reviewer.
+  </p>
+  {
+    [...groups.entries()].map(([source, rows]) => (
+      <section>
+        <h2 id={source}>{source} · {rows.length}</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Item</th><th>Kind</th><th>Reason</th><th>Detail</th></tr></thead>
+            <tbody>
+              {rows.map((e) => {
+                const url = urlFor(e.source, e.path);
+                return (
+                  <tr>
+                    <td>{url ? <a href={url}>{e.name}</a> : e.name}</td>
+                    <td>{e.kind}</td>
+                    <td><span class={`chip ${tone(e.reason)}`}>{e.reason}</span></td>
+                    <td style="font-size:.85rem">{e.detail}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    ))
+  }
+</Layout>

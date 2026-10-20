@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/pagerduty-incident-responder",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "pagerduty-incident-responder",
+  "title": "PagerDuty Incident Responder",
+  "description": "Responds to PagerDuty incidents by analyzing incident context, identifying recent code changes, and suggesting fixes via GitHub PRs.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "pagerduty-incident-responder.agent.md",
+  "dir": "agents/awesome-copilot.pagerduty-incident-responder",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/pagerduty-incident-responder.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/pagerduty-incident-responder.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pagerduty-incident-responder.agent.md"
+  ],
+  "entry_hash": "ab286be4abb1d5858b55966edc7973f4d1094b7da704f22f65886bfafc241971",
+  "content_hash": "e9f0351eb49618482da1836b5ac7ac9192c704fb6e1a7a493dbb938e570b9b94",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

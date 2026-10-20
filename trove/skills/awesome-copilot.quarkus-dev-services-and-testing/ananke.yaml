@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: quarkus-dev-services-and-testing
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:quarkus-dev-services-and-testing
+summary: 'Quarkus Dev Services and testing: zero-config containers, @QuarkusTest, @QuarkusIntegrationTest, test
+  resources, RestAssured, @InjectMock, profiles and continuous testing.'
+description: 'Quarkus Dev Services and testing: zero-config containers, @QuarkusTest, @QuarkusIntegrationTest, test
+  resources, RestAssured, @InjectMock, profiles and continuous testing. Use when writing or fixing tests in a Quarkus
+  project.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/quarkus-dev-services-and-testing
+  repository: https://github.com/github/awesome-copilot

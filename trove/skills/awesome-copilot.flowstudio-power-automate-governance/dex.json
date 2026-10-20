@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/flowstudio-power-automate-governance",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "flowstudio-power-automate-governance",
+  "title": "Power Automate Governance with FlowStudio MCP",
+  "description": "Govern Power Automate flows and Power Apps at scale using the FlowStudio MCP cached store. Classify flows by business impact, detect orphaned resources, audit connector usage, enforce compliance standards, manage notification rules, and compute governance scores — all without Dataverse or the CoE Starter Kit. Load this skill when asked to: tag or classify flows, set business impact, assign ownership, detect orphans, audit connectors, check compliance, compute archive scores, manage notification rules, run a governance review, generate a compliance report, offboard a maker, or any task that involves writing governance metadata to flows. Requires a FlowStudio for Teams or MCP Pro+ subscription — see https://mcp.flowstudio.app",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.flowstudio-power-automate-governance",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/flowstudio-power-automate-governance",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/flowstudio-power-automate-governance",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "847fc4c3df86b37dd649a39c8a937cdb064b0958c54a5c3871d0edf00ef7dc25",
+  "content_hash": "bc1c553fcb1311890adba0e32d14a24f1566415b1140cbb2f38da2f828f685cc",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

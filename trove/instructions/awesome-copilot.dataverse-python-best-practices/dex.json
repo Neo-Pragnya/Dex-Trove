@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/dataverse-python-best-practices",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python-best-practices",
+  "title": "Dataverse SDK for Python - Best Practices Guide",
+  "description": "# Dataverse SDK for Python - Best Practices Guide ## Overview Production-ready patterns and best practices extracted from Microsoft's official PowerPlatform-DataverseClient-Python repository, examples, and recommended workflows. ## 1.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dataverse-python-best-practices.instructions.md",
+  "dir": "instructions/awesome-copilot.dataverse-python-best-practices",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dataverse-python-best-practices.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-best-practices.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dataverse-python-best-practices.instructions.md"
+  ],
+  "entry_hash": "6aaa1008042af1faf0b47464c9ad1903452411cd216e6656e39e338e087bffd7",
+  "content_hash": "6e5b70a5ae08c6e02bbfc3c0d39a6af6a81d131c3a2c76cfda313868020b472d",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

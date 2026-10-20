@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/email-drafter",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "email-drafter",
+  "title": "Email Drafter",
+  "description": "Draft and review professional emails that match your personal writing style. Analyzes your sent emails for tone, greeting, structure, and sign-off patterns via WorkIQ, then generates context-aware drafts for any recipient. USE FOR: draft email, write email, compose email, reply email, follow-up email, analyze email tone, email style.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.email-drafter",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/email-drafter",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/email-drafter",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "c3324d26f899149e5b664a02cad9fa4b1a615d9b2ce5bb7f6dfd908c17c622e8",
+  "content_hash": "aa10030c7657534b2b2b1eeffdb77f05b9e1a112eb0093c2748fa3fecc2b4635",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

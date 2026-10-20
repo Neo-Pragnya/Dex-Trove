@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/debug",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "debug",
+  "title": "Debug Mode Instructions",
+  "description": "Debug your application to find and fix a bug",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "debug.agent.md",
+  "dir": "agents/awesome-copilot.debug",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/debug.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/debug.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "debug.agent.md"
+  ],
+  "entry_hash": "2ac23b322866f85b15918847b7989887df0f167aefdd815f7790214412b6ccdc",
+  "content_hash": "e00dd7183fb327bbe12bc430592aadc5f34c8d0324223653000a6386c2d02877",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

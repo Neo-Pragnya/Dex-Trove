@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-planner",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-planner",
+  "title": "gem-planner",
+  "description": "Create lean, decision-complete wave plans with clear task ownership, outputs, and validation.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-planner.agent.md",
+  "dir": "agents/awesome-copilot.gem-planner",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-planner.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-planner.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-planner.agent.md"
+  ],
+  "entry_hash": "aa11647768362d1b0ba520d75282ff2b5195a5491d38e8e8d9668fee743f6d10",
+  "content_hash": "fc004f9d4aaedd704d7fccffc15c9104a23ad808266a6d8c39a685b6988d44e2",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/foundry-hosted-agent-copilotkit",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "foundry-hosted-agent-copilotkit",
+  "title": "Foundry Hosted Agent + CopilotKit Plugin",
+  "description": "Build CopilotKit + AG-UI web apps on Microsoft Foundry hosted agents (Microsoft Agent Framework): wiring, native Foundry primitives, human-in-the-loop approvals, azd deploy, and debugging — with the Microsoft Learn and Foundry MCP servers for live grounding.",
+  "tags": [
+    "ag-ui",
+    "agent-framework",
+    "awesome-copilot",
+    "azure",
+    "copilotkit",
+    "hosted-agents",
+    "human-in-the-loop",
+    "microsoft-foundry",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.foundry-hosted-agent-copilotkit",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/foundry-hosted-agent-copilotkit",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/foundry-hosted-agent-copilotkit",
+    "author": "Sunil Sattiraju"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/foundry-hosted-agent-copilotkit"
+  ],
+  "files": [
+    "README.md",
+    "mcp.json",
+    "plugin.json"
+  ],
+  "entry_hash": "db1c6d338f4205ed479673aabdcb03c9fac6d48ec7ccb673f3f89ce56c8d8010",
+  "content_hash": "a799a5280c07da09a5115de7fcb74a3a06e387c3136686cfe7a624c49f65e2eb",
+  "learned_at": "2026-10-20T04:06:50+00:00"
+}

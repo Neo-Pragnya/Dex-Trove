@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/markdown-accessibility",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "markdown-accessibility",
+  "title": "Markdown Accessibility Review Guidelines",
+  "description": "Markdown accessibility guidelines based on GitHub's 5 best practices for inclusive documentation",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "markdown-accessibility.instructions.md",
+  "dir": "instructions/awesome-copilot.markdown-accessibility",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/markdown-accessibility.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/markdown-accessibility.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "markdown-accessibility.instructions.md"
+  ],
+  "entry_hash": "9452eee08e304487bdce8189e39972771d2086c2413f08b3536ca4b3eabbb032",
+  "content_hash": "f3c07a856bfe3525df6e82924d45d2b966d4d7a5bf62821bf938681d5822eefa",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.md"
+}

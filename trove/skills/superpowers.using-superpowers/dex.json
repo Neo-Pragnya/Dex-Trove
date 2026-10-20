@@ -1,0 +1,47 @@
+{
+  "id": "superpowers/using-superpowers",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "using-superpowers",
+  "title": "using-superpowers",
+  "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+  "tags": [
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.using-superpowers",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/using-superpowers",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/using-superpowers",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/antigravity-tools.md",
+    "references/claude-code-tools.md",
+    "references/codex-tools.md",
+    "references/gemini-tools.md",
+    "references/hermes-tools.md",
+    "references/muse-tools.md",
+    "references/pi-tools.md"
+  ],
+  "entry_hash": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
+  "content_hash": "6069d06da87295d937355e903921d34f0e1bdd6bba1040f8b85fc88a08dd5b90",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

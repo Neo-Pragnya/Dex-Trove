@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: gtm-enterprise-account-planning
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:gtm-enterprise-account-planning
+summary: Strategic account planning and execution for enterprise deals. Use when planning complex sales cycles,
+  managing multiple stakeholders, applying MEDDICC qualification, tracking deal health, or building…
+description: Strategic account planning and execution for enterprise deals. Use when planning complex sales cycles,
+  managing multiple stakeholders, applying MEDDICC qualification, tracking deal health, or building mutual action
+  plans. Includes the "stale MAP equals dead deal" pattern.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-enterprise-account-planning
+  repository: https://github.com/github/awesome-copilot

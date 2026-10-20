@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/devcontainers",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "devcontainers",
+  "title": "Dev Container Configuration",
+  "description": "Twelve sourced rules for reviewing and authoring devcontainer.json, Dev Container Features, and Codespaces lifecycle configuration. Every rule cites the Dev Container specification, the reference CLI source, or official vendor documentation, states the concrete fix, and needs only file reading rather than a command to run.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "devcontainers.instructions.md",
+  "dir": "instructions/awesome-copilot.devcontainers",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/devcontainers.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/devcontainers.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "devcontainers.instructions.md"
+  ],
+  "entry_hash": "773446b6ed2aacbacf78bd0a1d7249c1c90499689a54ff23b415c25104c080a9",
+  "content_hash": "b6aac99031cc00221d80348c01ac9a0679777d7ba35a96cb2ac480ec6b2fb35b",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/devcontainer.json,**/.devcontainer.json,**/.devcontainer/**,**/devcontainer-feature.json"
+}

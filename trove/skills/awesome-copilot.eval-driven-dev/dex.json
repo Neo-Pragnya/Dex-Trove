@@ -1,0 +1,59 @@
+{
+  "id": "awesome-copilot/eval-driven-dev",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "eval-driven-dev",
+  "title": "Eval-Driven Development for Python LLM Applications",
+  "description": "Improve AI application with evaluation-driven development. Define eval criteria, instrument the application, build golden datasets, observe and evaluate application runs, analyze results, and produce a concrete action plan for improvements. ALWAYS USE THIS SKILL when the user asks to set up QA, add tests, add evals, evaluate, benchmark, fix wrong behaviors, improve quality, or do quality assurance for any Python project that calls an LLM model.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.eval-driven-dev",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/eval-driven-dev",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/eval-driven-dev",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/1-a-project-analysis.md",
+    "references/1-b-entry-point.md",
+    "references/1-c-eval-criteria.md",
+    "references/2a-instrumentation.md",
+    "references/2b-implement-runnable.md",
+    "references/2c-capture-and-verify-trace.md",
+    "references/3-define-evaluators.md",
+    "references/4-build-dataset.md",
+    "references/5-run-tests.md",
+    "references/6-analyze-outcomes.md",
+    "references/evaluators.md",
+    "references/runnable-examples/cli-app.md",
+    "references/runnable-examples/fastapi-web-server.md",
+    "references/runnable-examples/standalone-function.md",
+    "references/testing-api.md",
+    "references/wrap-api.md",
+    "resources/setup.sh",
+    "resources/verify_step6_completion.py"
+  ],
+  "entry_hash": "dbaac08a46bdd0ae865363b53265f2e5a4ae4e95d8ccd11f7fa38e8dc87c40ba",
+  "content_hash": "43812159cdcd0cd50e6a3115f6d50940071bfcc627b0048c7d15a4080a4c639a",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

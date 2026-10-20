@@ -1,0 +1,30 @@
+kind: skill
+namespace: anthropic
+name: frontend-design
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:anthropic:frontend-design
+summary: Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.
+description: Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.
+  Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'skills/frontend-design/LICENSE.txt: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - anthropic
+  - skill
+  homepage: https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design
+  repository: https://github.com/anthropics/skills

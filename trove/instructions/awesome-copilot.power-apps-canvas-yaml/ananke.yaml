@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: power-apps-canvas-yaml
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:power-apps-canvas-yaml
+summary: Comprehensive guide for working with Power Apps Canvas Apps YAML structure based on Microsoft Power Apps
+  YAML schema v3.0.
+description: Comprehensive guide for working with Power Apps Canvas Apps YAML structure based on Microsoft Power
+  Apps YAML schema v3.0. Covers Power Fx formulas, control structures, data types, and source control best practices.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: power-apps-canvas-yaml.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/power-apps-canvas-yaml.instructions.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: azure-policy-analyzer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:azure-policy-analyzer
+summary: Analyze Azure Policy compliance posture (NIST SP 800-53, MCSB, CIS, ISO 27001, PCI DSS, SOC 2), auto-discover
+  scope, and return a structured single-pass risk report with evidence and remediation comma…
+description: Analyze Azure Policy compliance posture (NIST SP 800-53, MCSB, CIS, ISO 27001, PCI DSS, SOC 2), auto-discover
+  scope, and return a structured single-pass risk report with evidence and remediation commands.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: azure-policy-analyzer.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-policy-analyzer.agent.md
+  repository: https://github.com/github/awesome-copilot

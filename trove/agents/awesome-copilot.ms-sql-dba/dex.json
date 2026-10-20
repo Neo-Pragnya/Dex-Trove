@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ms-sql-dba",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "ms-sql-dba",
+  "title": "MS-SQL Database Administrator",
+  "description": "Work with Microsoft SQL Server databases using the MS SQL extension.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "ms-sql-dba.agent.md",
+  "dir": "agents/awesome-copilot.ms-sql-dba",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/ms-sql-dba.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/ms-sql-dba.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ms-sql-dba.agent.md"
+  ],
+  "entry_hash": "c3ca3256c178f81f7f54f0fd34522c02b6c2931b89b90663d19fdd16af944139",
+  "content_hash": "e73214e77517d4dcb302038aa833d43bffe0e1ea93b9512afaade533e8b08dae",
+  "learned_at": "2026-10-20T04:06:47+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/react18-commander",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "react18-commander",
+  "title": "react18-commander",
+  "description": "Master orchestrator for React 16/17 → 18.3.1 migration. Designed for class-component-heavy codebases. Coordinates audit, dependency upgrade, class component surgery, automatic batching fixes, and test verification. Uses memory to gate each phase and resume interrupted sessions. 18.3.1 is the target - it surface-exposes every deprecation that React 19 will remove, so the output is a codebase ready for the React 19 orchestra next.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "react18-commander.agent.md",
+  "dir": "agents/awesome-copilot.react18-commander",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/react18-commander.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react18-commander.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "react18-commander.agent.md"
+  ],
+  "entry_hash": "fa3c84f2bcdc4c86ef6eca55e3bc2f4f79265f77bd08988dd8cbe7f0cb9f3ae7",
+  "content_hash": "3b79bf8f37feaaaac4820b02b0c0d9b0d8abfdc038f9b30c89e3f839409eb657",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

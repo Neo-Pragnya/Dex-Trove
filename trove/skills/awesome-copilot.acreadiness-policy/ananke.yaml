@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: acreadiness-policy
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:acreadiness-policy
+summary: Help the user pick, write, or apply an AgentRC policy. Policies customise readiness scoring by disabling
+  irrelevant checks, overriding impact/level, setting pass-rate thresholds, or chaining org basel…
+description: Help the user pick, write, or apply an AgentRC policy. Policies customise readiness scoring by disabling
+  irrelevant checks, overriding impact/level, setting pass-rate thresholds, or chaining org baselines with team
+  overrides. Use when the user asks about strict mode, AI-only scoring, custom weights, CI gating, or wants org-wide
+  standardisation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/acreadiness-policy
+  repository: https://github.com/github/awesome-copilot

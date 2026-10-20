@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/se-ux-ui-designer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "se-ux-ui-designer",
+  "title": "SE: UX Designer",
+  "description": "Jobs-to-be-Done analysis, user journey mapping, and UX research artifacts for Figma and design workflows",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "se-ux-ui-designer.agent.md",
+  "dir": "agents/awesome-copilot.se-ux-ui-designer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/se-ux-ui-designer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/se-ux-ui-designer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "se-ux-ui-designer.agent.md"
+  ],
+  "entry_hash": "a7078735984cfec19643027b8e876435b3d73f43ab431f910186e16a11b0bdd2",
+  "content_hash": "5e8d524a26bd79ff4ae1056ae2efd024fdfdf2fd76a2307a911fe4c77d83d98b",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

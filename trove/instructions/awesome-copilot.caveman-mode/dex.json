@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/caveman-mode",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "caveman-mode",
+  "title": "Caveman Mode",
+  "description": "Terse, low-token responses. Minimal words, no fluff. Full capabilities preserved. Use when: optimize token usage, low-token mode, concise output, caveman mode, reduce verbosity, token-efficient, brief responses.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "caveman-mode.instructions.md",
+  "dir": "instructions/awesome-copilot.caveman-mode",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/caveman-mode.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/caveman-mode.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "caveman-mode.instructions.md"
+  ],
+  "entry_hash": "cce8b185fea4664d8a099fa53e080663dd41514f7d2419aa462aa5788031268e",
+  "content_hash": "832dca6c8fa56654da0c1d47ff013b2486235e738004643e63c1c77c9454d042",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**"
+}

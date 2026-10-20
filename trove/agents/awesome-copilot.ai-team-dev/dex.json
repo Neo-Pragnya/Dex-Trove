@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ai-team-dev",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "ai-team-dev",
+  "title": "ai-team-dev",
+  "description": "AI development team (Nova, Sage, Milo). Use when implementing features, fixing bugs, writing tests, improving user experience, or preparing a pull request across the project's actual stack.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "ai-team-dev.agent.md",
+  "dir": "agents/awesome-copilot.ai-team-dev",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/ai-team-dev.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/ai-team-dev.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ai-team-dev.agent.md"
+  ],
+  "entry_hash": "043ac0905000a34c201f3ad3990e82dba0c981fd4adbf2260c8498ceeafd873a",
+  "content_hash": "f0736b9cdd9d517622155efae49c9d81cea57e8ac60dcd0f1774ffcc9e98b772",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

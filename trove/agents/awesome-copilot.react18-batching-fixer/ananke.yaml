@@ -1,0 +1,35 @@
+kind: agent
+namespace: awesome-copilot
+name: react18-batching-fixer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:react18-batching-fixer
+summary: Automatic batching regression specialist. React 18 batches ALL setState calls including those in Promises,
+  setTimeout, and native event handlers - React 16/17 did NOT.
+description: Automatic batching regression specialist. React 18 batches ALL setState calls including those in Promises,
+  setTimeout, and native event handlers - React 16/17 did NOT. Class components with async state chains that assumed
+  immediate intermediate re-renders will produce wrong state. This agent finds every vulnerable pattern and fixes
+  with flushSync where semantically required.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: react18-batching-fixer.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react18-batching-fixer.agent.md
+  repository: https://github.com/github/awesome-copilot

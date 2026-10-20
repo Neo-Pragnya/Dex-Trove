@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/roslyn-analyzers",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "roslyn-analyzers",
+  "title": "Roslyn Analyzers and Source Generators",
+  "description": "Build, review, debug, package, and test Roslyn diagnostic analyzers, code fix providers, and incremental source generators. Use for DiagnosticAnalyzer, CodeFixProvider, IIncrementalGenerator, IOperation analysis, Microsoft.CodeAnalysis dependency pinning, Roslyn test harnesses, C#/VB tests, and analyzer NuGet packaging.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.roslyn-analyzers",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/roslyn-analyzers",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/roslyn-analyzers",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/CSharpCodeFixVerifier.cs",
+    "references/SourceWriter.cs"
+  ],
+  "entry_hash": "48e96b0d8e7e3fdbdd244153a12735d550ad8ba9622133eb9ec92f228f28646b",
+  "content_hash": "1e87e779266d43b2600f5e8a53e4077923a2ac812eacbb0be84c95cbb54a91d1",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

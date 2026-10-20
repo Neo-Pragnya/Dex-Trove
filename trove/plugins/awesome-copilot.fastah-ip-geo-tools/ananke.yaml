@@ -1,0 +1,44 @@
+kind: bundle
+namespace: awesome-copilot
+name: fastah-ip-geo-tools
+version: 0.0.9
+ananke_id: urn:dex-trove:plugin:awesome-copilot:fastah-ip-geo-tools
+summary: This plugin is for network operations engineers who wish to tune and publish IP geolocation feeds in RFC
+  8805 format.
+description: This plugin is for network operations engineers who wish to tune and publish IP geolocation feeds in
+  RFC 8805 format. It consists of an AI Skill and an associated MCP server that geocodes geolocation place names
+  to real cities for accuracy.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/geofeed-tuner
+  version: '*'
+license:
+  expression: Apache-2.0
+  source: 'frontmatter license: ''Apache-2.0'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - cloud
+  - geofeed
+  - hosting
+  - ip-geolocation
+  - isp
+  - ixp
+  - network-operations
+  - plugin
+  - rfc-8805
+  - rfc-9632
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/fastah-ip-geo-tools
+  repository: https://github.com/github/awesome-copilot

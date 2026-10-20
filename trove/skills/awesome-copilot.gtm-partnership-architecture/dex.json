@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gtm-partnership-architecture",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "gtm-partnership-architecture",
+  "title": "Partnership Architecture",
+  "description": "Build and scale partner ecosystems that drive revenue and platform adoption. Use when building partner programs from scratch, tiering partnerships, managing co-marketing, making build-vs-partner decisions, or structuring crawl-walk-run partner deployment.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.gtm-partnership-architecture",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/gtm-partnership-architecture",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-partnership-architecture",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "d7dab398f7ce5c16cb5a7026f7e9465a6cb077a7b16caf024b3b120502d924b4",
+  "content_hash": "3c3d9486b49bc0c6e5a13bcee1a9bba19abdc2c72ec032bdc6d76ff76e69ddfe",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

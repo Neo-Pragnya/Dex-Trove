@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/aws-incident-triage",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "aws-incident-triage",
+  "title": "AWS Incident Triage",
+  "description": "On-call SRE agent that drives structured CloudWatch-based incident investigation from alarms through root-cause hypothesis.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "aws-incident-triage.agent.md",
+  "dir": "agents/awesome-copilot.aws-incident-triage",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/aws-incident-triage.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/aws-incident-triage.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "aws-incident-triage.agent.md"
+  ],
+  "entry_hash": "0d2031317231ef9474eb92c36d3cf09bddf4858c019dbe914fcfcc5340ae73a7",
+  "content_hash": "8d49c82a3788b9332b09f80e36923fd734c14a91951b77ee0f07fa5dcf4ecdd2",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

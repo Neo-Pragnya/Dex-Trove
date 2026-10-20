@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/azure-policy-analyzer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "azure-policy-analyzer",
+  "title": "Azure Policy Analyzer",
+  "description": "Analyze Azure Policy compliance posture (NIST SP 800-53, MCSB, CIS, ISO 27001, PCI DSS, SOC 2), auto-discover scope, and return a structured single-pass risk report with evidence and remediation commands.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-policy-analyzer.agent.md",
+  "dir": "agents/awesome-copilot.azure-policy-analyzer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/azure-policy-analyzer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-policy-analyzer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-policy-analyzer.agent.md"
+  ],
+  "entry_hash": "c0da2f36e335d5967a27a65f4d5356d0c5e2df8d77b0bb7060a1ca90e078d1a6",
+  "content_hash": "4e559fe48f2ad47e9b77104c8f3b1464c262e4c9442a5c460454e371a6e331b9",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

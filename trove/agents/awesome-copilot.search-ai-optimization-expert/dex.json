@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/search-ai-optimization-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "search-ai-optimization-expert",
+  "title": "Search & AI Optimization Expert",
+  "description": "Expert guidance for modern search optimization: SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO) with AI-ready content strategies",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "search-ai-optimization-expert.agent.md",
+  "dir": "agents/awesome-copilot.search-ai-optimization-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/search-ai-optimization-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/search-ai-optimization-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "search-ai-optimization-expert.agent.md"
+  ],
+  "entry_hash": "8cf6f19c0747ba311e12fcdc816dab67c5524839f3b330453fe89de3333db99a",
+  "content_hash": "9a77fda2a5fc6946b8ab7fac1867b479fda40fa2b0d6d422cbf56d9127e45223",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,46 @@
+kind: bundle
+namespace: awesome-copilot
+name: fluentui-blazor
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:fluentui-blazor
+summary: Build Blazor apps with the Microsoft Fluent UI Blazor library. Bundles the fluentui-blazor skill for correct
+  usage patterns (providers, service registration, icons, dialogs, data grid, theming) with t…
+description: Build Blazor apps with the Microsoft Fluent UI Blazor library. Bundles the fluentui-blazor skill for
+  correct usage patterns (providers, service registration, icons, dialogs, data grid, theming) with the official
+  Fluent UI Blazor MCP server for live lookup of components, parameters, enums, icons, and documentation, plus v4-to-v5
+  migration guidance.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/fluentui-blazor
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - aspnetcore
+  - awesome-copilot
+  - blazor
+  - components
+  - dotnet
+  - fluentui
+  - icons
+  - mcp
+  - migration
+  - model-context-protocol
+  - plugin
+  - theming
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/fluentui-blazor
+  repository: https://github.com/github/awesome-copilot

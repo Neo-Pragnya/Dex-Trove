@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/suggest-awesome-github-copilot-instructions",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "suggest-awesome-github-copilot-instructions",
+  "title": "Suggest Awesome GitHub Copilot Instructions",
+  "description": "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.suggest-awesome-github-copilot-instructions",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/suggest-awesome-github-copilot-instructions",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/suggest-awesome-github-copilot-instructions",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9bdff877d0d4797d6fe4843e1f134b9935bf45adb3b0dca25514292b41d8fd74",
+  "content_hash": "29780f2f84343aa0506d825925d4b386a12c6fdffbfe17b5f0aacb7e51e2646e",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/aspnet-minimal-api-openapi",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "aspnet-minimal-api-openapi",
+  "title": "ASP.NET Minimal API with OpenAPI",
+  "description": "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.aspnet-minimal-api-openapi",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/aspnet-minimal-api-openapi",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/aspnet-minimal-api-openapi",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "16e632ce8cb514d413e968811a2e07b8e0f1e97c6e2e93174efd6cec2e49e86f",
+  "content_hash": "945df13e476de7ffc3a75e293d9c68c46cbd4e5f5ad8b1d33be2c4d96bd1fe42",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

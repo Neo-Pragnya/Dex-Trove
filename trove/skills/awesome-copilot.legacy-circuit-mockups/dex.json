@@ -1,0 +1,60 @@
+{
+  "id": "awesome-copilot/legacy-circuit-mockups",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "legacy-circuit-mockups",
+  "title": "Legacy Circuit Mockups",
+  "description": "Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas drawing techniques. Use when asked to create circuit layouts, visualize electronic component placements, draw breadboard diagrams, mockup 6502 builds, generate retro computer schematics, or design vintage electronics projects. Supports 555 timers, W65C02S microprocessors, 28C256 EEPROMs, W65C22 VIA chips, 7400-series logic gates, LEDs, resistors, capacitors, switches, buttons, crystals, and wires.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.legacy-circuit-mockups",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/legacy-circuit-mockups",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/legacy-circuit-mockups",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/28256-eeprom.md",
+    "references/555.md",
+    "references/6502.md",
+    "references/6522.md",
+    "references/6C62256.md",
+    "references/7400-series.md",
+    "references/assembly-compiler.md",
+    "references/assembly-language.md",
+    "references/basic-electronic-components.md",
+    "references/breadboard.md",
+    "references/common-breadboard-components.md",
+    "references/connecting-electronic-components.md",
+    "references/emulator-28256-eeprom.md",
+    "references/emulator-6502.md",
+    "references/emulator-6522.md",
+    "references/emulator-6C62256.md",
+    "references/emulator-lcd.md",
+    "references/lcd.md",
+    "references/minipro.md",
+    "references/t48eeprom-programmer.md"
+  ],
+  "entry_hash": "2087521d62e0f99d15db3a73389d0d8bcdf45b4913f3fcfc7ef2657eae6df4de",
+  "content_hash": "9fa857f43bbecef63619c15875c5b03309fbc29faf94688f5a797c458b9f7bd5",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

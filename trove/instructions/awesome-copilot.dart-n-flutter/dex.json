@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/dart-n-flutter",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dart-n-flutter",
+  "title": "Dart and Flutter",
+  "description": "Instructions for writing Dart and Flutter code following the official recommendations.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dart-n-flutter.instructions.md",
+  "dir": "instructions/awesome-copilot.dart-n-flutter",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dart-n-flutter.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dart-n-flutter.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dart-n-flutter.instructions.md"
+  ],
+  "entry_hash": "4e28e54c47299f5b04d75742ae34d982847278b48bc5193e31fb770cc4f54677",
+  "content_hash": "0415db100b6b5d72173e5ae1d888310ba784a881cd0a3cfbcabcec1eeb058fc9",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.dart"
+}

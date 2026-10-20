@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/update-code-from-shorthand",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "update-code-from-shorthand",
+  "title": "Update Code from Shorthand",
+  "description": "Shorthand code will be in the file provided from the prompt or raw data in the prompt, and will be used to update the code file when the prompt has the text `UPDATE CODE FROM SHORTHAND`.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "update-code-from-shorthand.instructions.md",
+  "dir": "instructions/awesome-copilot.update-code-from-shorthand",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/update-code-from-shorthand.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/update-code-from-shorthand.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "update-code-from-shorthand.instructions.md"
+  ],
+  "entry_hash": "995ad70be8077cf031cfea6ed633884625c18ccf211fe47da1906fce455182fa",
+  "content_hash": "5c62304b400159a64b201a4148e2739dc65cd06d277faf5fe3e5daeec0806080",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/${input:file}"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/create-github-issues-for-unmet-specification-requirements",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "create-github-issues-for-unmet-specification-requirements",
+  "title": "Create GitHub Issues for Unmet Specification Requirements",
+  "description": "Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml template.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.create-github-issues-for-unmet-specification-requirements",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/create-github-issues-for-unmet-specification-requirements",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-github-issues-for-unmet-specification-requirements",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "403939f1a02b5d08c571dc9f973bdb98a87b4f84b5e4fbe5b93284f78472b299",
+  "content_hash": "0841fa283be2b0c55963e90f6f7a87c83000558a189858818104d78a8bef76c9",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

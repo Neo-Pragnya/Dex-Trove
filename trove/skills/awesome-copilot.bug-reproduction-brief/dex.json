@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/bug-reproduction-brief",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "bug-reproduction-brief",
+  "title": "Bug Reproduction Brief",
+  "description": "Turn a vague, intermittent, or environment-specific bug report into a minimal evidence-backed reproduction before proposing a fix.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.bug-reproduction-brief",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/bug-reproduction-brief",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/bug-reproduction-brief",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "522ad2948c498f6dcee6d48773387058d2cba3c45ba9e093ed35210601d141b6",
+  "content_hash": "9b4fd224935b5238e92b08f2d43cbab6cfde3cf9304342290cd5e2210971b2f2",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

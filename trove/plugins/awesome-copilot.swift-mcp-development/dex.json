@@ -1,0 +1,54 @@
+{
+  "id": "awesome-copilot/swift-mcp-development",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "swift-mcp-development",
+  "title": "Swift MCP Server Development Plugin",
+  "description": "Comprehensive collection for building Model Context Protocol servers in Swift using the official MCP Swift SDK with modern concurrency features.",
+  "tags": [
+    "actor",
+    "async-await",
+    "awesome-copilot",
+    "concurrency",
+    "ios",
+    "macos",
+    "mcp",
+    "model-context-protocol",
+    "plugin",
+    "sdk",
+    "server-development",
+    "swift"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.swift-mcp-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/swift-mcp-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/swift-mcp-development",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/swift-mcp-server-generator",
+    "agent:awesome-copilot/swift-mcp-expert"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "aa5e172ce2113b76b636ce92ef4cc2ce5839ee2ba11bb63d65af8d933cf7da55",
+  "content_hash": "b8fa67b7c2bc846c1a542251e857bac2c79178bb1ae1e5b4ca3c7a30149ef48f",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

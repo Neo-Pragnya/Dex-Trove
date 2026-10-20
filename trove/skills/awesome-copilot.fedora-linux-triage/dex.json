@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/fedora-linux-triage",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "fedora-linux-triage",
+  "title": "Fedora Linux Triage",
+  "description": "Triage and resolve Fedora issues with dnf, systemd, and SELinux-aware guidance.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.fedora-linux-triage",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/fedora-linux-triage",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/fedora-linux-triage",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "5d615da84432e0b2de47679743697a7718129c2800d672b0734000b03b74daaf",
+  "content_hash": "331bf692056d2eac883334b00b357d724d6f1e1a1696da2c016ef65d9e656545",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

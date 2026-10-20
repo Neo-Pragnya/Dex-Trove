@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/create-github-issues-feature-from-implementation-plan",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "create-github-issues-feature-from-implementation-plan",
+  "title": "Create GitHub Issue from Implementation Plan",
+  "description": "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.create-github-issues-feature-from-implementation-plan",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/create-github-issues-feature-from-implementation-plan",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-github-issues-feature-from-implementation-plan",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "6cc82a68a65904fed67fa7da9ae797f18b245bc9e1a6a3370a8af842dd0816d0",
+  "content_hash": "0c88a0dc1842ae6b48f370d2a25d018793af6c0542c2dc2f6e77009fd001ec9b",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

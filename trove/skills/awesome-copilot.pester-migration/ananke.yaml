@@ -1,0 +1,35 @@
+kind: skill
+namespace: awesome-copilot
+name: pester-migration
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:pester-migration
+summary: Pester migration skill for upgrading PowerShell Pester test suites across major versions — v3→v4, v4→v5,
+  and v5→v6.
+description: Pester migration skill for upgrading PowerShell Pester test suites across major versions — v3→v4, v4→v5,
+  and v5→v6. Covers the Discovery/Run two-phase model, moving setup into BeforeAll, $PSScriptRoot vs $MyInvocation,
+  mock changes (Assert-MockCalled → Should -Invoke, removed fall-through), Invoke-Pester parameters → PesterConfiguration,
+  data-driven -ForEach/-TestCases, and the v6 breaking changes. Use when the user asks to upgrade, migrate, or modernize
+  Pester tests, fix *.Tests.ps1 files that broke after bumping the Pester version, or convert legacy Should / Invoke-Pester
+  syntax.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/pester-migration
+  repository: https://github.com/github/awesome-copilot

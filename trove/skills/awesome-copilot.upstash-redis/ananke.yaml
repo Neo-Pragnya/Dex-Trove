@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: upstash-redis
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:upstash-redis
+summary: Use Redis over HTTP from serverless and edge runtimes with @upstash/redis, and add rate limiting with @upstash/ratelimit.
+description: Use Redis over HTTP from serverless and edge runtimes with @upstash/redis, and add rate limiting with
+  @upstash/ratelimit. Use when the user mentions Upstash Redis, needs Redis from a Next.js route handler or middleware,
+  Vercel, Cloudflare Workers, Deno, or Bun without TCP connection pooling, or wants cache-aside with TTLs, a session
+  store, counters, or a 429 rate limiter using fixed window, sliding window, or token bucket. DO NOT use for self-hosted
+  or TCP Redis clients (ioredis, node-redis), Redis Cluster administration, or vector similarity search.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/upstash-redis
+  repository: https://github.com/github/awesome-copilot

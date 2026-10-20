@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/markdown-gfm",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "markdown-gfm",
+  "title": "GitHub Flavored Markdown (GFM)",
+  "description": "Markdown formatting for GitHub-flavored markdown (GFM) files",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "markdown-gfm.instructions.md",
+  "dir": "instructions/awesome-copilot.markdown-gfm",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/markdown-gfm.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/markdown-gfm.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "markdown-gfm.instructions.md"
+  ],
+  "entry_hash": "72dff55a1857da1b01b3ef60543af066f95d1927686afaf1f9c5257fdc43d9b1",
+  "content_hash": "839eb94f641ff9b9db634ed262c1987cb7c711fe16453188a63372c5935b081b",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.md"
+}

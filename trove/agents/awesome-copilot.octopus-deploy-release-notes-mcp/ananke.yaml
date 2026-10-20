@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: octopus-deploy-release-notes-mcp
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:octopus-deploy-release-notes-mcp
+summary: Generate release notes for a release in Octopus Deploy. The tools for this MCP server provide access to
+  the Octopus Deploy APIs.
+description: Generate release notes for a release in Octopus Deploy. The tools for this MCP server provide access
+  to the Octopus Deploy APIs.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: octopus-deploy-release-notes-mcp.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/octopus-deploy-release-notes-mcp.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/project-architecture-planner",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "project-architecture-planner",
+  "title": "Project Architecture Planner",
+  "description": "Holistic software architecture planner that evaluates tech stacks, designs scalability roadmaps, performs cloud-agnostic cost analysis, reviews existing codebases, and delivers interactive Mermaid diagrams with HTML preview and draw.io export",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "project-architecture-planner.agent.md",
+  "dir": "agents/awesome-copilot.project-architecture-planner",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/project-architecture-planner.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/project-architecture-planner.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "project-architecture-planner.agent.md"
+  ],
+  "entry_hash": "11ce5dc54676fbe183849a4c0d317e5d893d012e6fc32a99b1ac22f9a173ad6c",
+  "content_hash": "f661d16af431637c2135affdc284d72bce585e181751fe8d515039e87fddde9f",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/devils-advocate",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "devils-advocate",
+  "title": "Devils Advocate",
+  "description": "I play the devil's advocate to challenge and stress-test your ideas by finding flaws, risks, and edge cases",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "devils-advocate.agent.md",
+  "dir": "agents/awesome-copilot.devils-advocate",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/devils-advocate.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/devils-advocate.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "devils-advocate.agent.md"
+  ],
+  "entry_hash": "55737a37944b61f08ba13b5a7345f5b5c2cde91c7c77fd7510960d0a1937041a",
+  "content_hash": "f70f465f07895dcb824777ae8498d3ab2ee116ca8a00dfd9775125288a7c766d",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

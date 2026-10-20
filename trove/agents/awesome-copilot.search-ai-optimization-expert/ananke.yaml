@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: search-ai-optimization-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:search-ai-optimization-expert
+summary: 'Expert guidance for modern search optimization: SEO, Answer Engine Optimization (AEO), and Generative
+  Engine Optimization (GEO) with AI-ready content strategies'
+description: 'Expert guidance for modern search optimization: SEO, Answer Engine Optimization (AEO), and Generative
+  Engine Optimization (GEO) with AI-ready content strategies'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: search-ai-optimization-expert.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/search-ai-optimization-expert.agent.md
+  repository: https://github.com/github/awesome-copilot

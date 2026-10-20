@@ -1,0 +1,70 @@
+kind: bundle
+namespace: awesome-copilot
+name: project-planning
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:project-planning
+summary: Tools and guidance for software project planning, feature breakdown, epic management, implementation planning,
+  and task organization for development teams.
+description: Tools and guidance for software project planning, feature breakdown, epic management, implementation
+  planning, and task organization for development teams.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/breakdown-epic-arch
+  version: '*'
+- ref: ananke://skill/awesome-copilot/breakdown-epic-pm
+  version: '*'
+- ref: ananke://skill/awesome-copilot/breakdown-feature-implementation
+  version: '*'
+- ref: ananke://skill/awesome-copilot/breakdown-feature-prd
+  version: '*'
+- ref: ananke://skill/awesome-copilot/create-github-issues-feature-from-implementation-plan
+  version: '*'
+- ref: ananke://skill/awesome-copilot/create-implementation-plan
+  version: '*'
+- ref: ananke://skill/awesome-copilot/create-technical-spike
+  version: '*'
+- ref: ananke://skill/awesome-copilot/update-implementation-plan
+  version: '*'
+- ref: ananke://agent/awesome-copilot/implementation-plan
+  version: '*'
+- ref: ananke://agent/awesome-copilot/plan
+  version: '*'
+- ref: ananke://agent/awesome-copilot/planner
+  version: '*'
+- ref: ananke://agent/awesome-copilot/prd
+  version: '*'
+- ref: ananke://agent/awesome-copilot/research-technical-spike
+  version: '*'
+- ref: ananke://agent/awesome-copilot/task-planner
+  version: '*'
+- ref: ananke://agent/awesome-copilot/task-researcher
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - architecture
+  - awesome-copilot
+  - epic
+  - feature
+  - implementation
+  - planning
+  - plugin
+  - project-management
+  - task
+  - technical-spike
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/project-planning
+  repository: https://github.com/github/awesome-copilot

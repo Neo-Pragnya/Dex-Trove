@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/react19-concurrent-patterns",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "react19-concurrent-patterns",
+  "title": "React 19 Concurrent Patterns",
+  "description": "Preserve React 18 concurrent patterns and adopt React 19 APIs (useTransition, useDeferredValue, Suspense, use(), useOptimistic, Actions) during migration.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.react19-concurrent-patterns",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/react19-concurrent-patterns",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react19-concurrent-patterns",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/react19-actions.md",
+    "references/react19-suspense.md",
+    "references/react19-use.md"
+  ],
+  "entry_hash": "f953aa23d213b4a7f7800f8f59529c3d1321e12f49ef7f7bf7ab7a5e0235fbc3",
+  "content_hash": "171bbe1d1843c8c1fea9a952316c4d983b6a4bc282b26ef1ce4f0305cfee5832",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

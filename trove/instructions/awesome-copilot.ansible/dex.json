@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/ansible",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "ansible",
+  "title": "Ansible Conventions and Best Practices",
+  "description": "Ansible conventions and best practices",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "ansible.instructions.md",
+  "dir": "instructions/awesome-copilot.ansible",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/ansible.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/ansible.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ansible.instructions.md"
+  ],
+  "entry_hash": "2bacffb876f3557e01322197d8d89ddac8fec0e7e9d737f7251dcb09a001fb05",
+  "content_hash": "2ca7049756109aa9e78ddc08ccac3d1bf68fb6ea3de60b8e726bcb65ae79eade",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.yaml, **/*.yml"
+}

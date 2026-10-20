@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: react18-auditor
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:react18-auditor
+summary: Deep-scan specialist for React 16/17 class-component codebases targeting React 18.3.1.
+description: Deep-scan specialist for React 16/17 class-component codebases targeting React 18.3.1. Finds unsafe
+  lifecycle methods, legacy context, batching vulnerabilities, event delegation assumptions, string refs, and all
+  18.3.1 deprecation surface. Reads everything, touches nothing. Saves .github/react18-audit.md.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: react18-auditor.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react18-auditor.agent.md
+  repository: https://github.com/github/awesome-copilot

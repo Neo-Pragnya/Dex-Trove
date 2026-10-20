@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: dotnet-maui
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:dotnet-maui
+summary: Support development of .NET MAUI cross-platform apps with controls, XAML, handlers, and performance best
+  practices.
+description: Support development of .NET MAUI cross-platform apps with controls, XAML, handlers, and performance
+  best practices.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dotnet-maui.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/dotnet-maui.agent.md
+  repository: https://github.com/github/awesome-copilot

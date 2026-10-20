@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/java-helidon",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "java-helidon",
+  "title": "Helidon Best Practices",
+  "description": "Get best practices for developing applications with Helidon 4 (SE and MP). Use when working with Helidon SE or Helidon MP, HttpService routing, Helidon DB Client, MicroProfile Config, Helidon Security, or Helidon testing in Java 21+ projects.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.java-helidon",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/java-helidon",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-helidon",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "d4891e0e448c718440736bbe5d8f95fb8839fd13536631435bd589d57ea6855c",
+  "content_hash": "0fb836adfda3a88c8885f11eac645adfdd0c4265ac74f4dbedbc5fe55564611b",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

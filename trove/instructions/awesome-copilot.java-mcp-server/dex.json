@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/java-mcp-server",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "java-mcp-server",
+  "title": "Java MCP Server Development",
+  "description": "Instructions for building Model Context Protocol (MCP) servers in Java with the MCP Java SDK 2.x",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "java-mcp-server.instructions.md",
+  "dir": "instructions/awesome-copilot.java-mcp-server",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/java-mcp-server.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/java-mcp-server.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "java-mcp-server.instructions.md"
+  ],
+  "entry_hash": "290ab732126dc4fd6f4e99a8248438461c6d4c1842582c67a84fff23e3c391c4",
+  "content_hash": "f85e7abb791ca55fe38cbfaae6218c1f7a3bba32189595c3de875d7663089493",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.java, **/pom.xml, **/build.gradle, **/build.gradle.kts"
+}

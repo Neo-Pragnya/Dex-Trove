@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/terminal-helper",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "terminal-helper",
+  "title": "terminal-helper",
+  "description": "Fast terminal syntax and command helper for PowerShell and Bash",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "terminal-helper.agent.md",
+  "dir": "agents/awesome-copilot.terminal-helper",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/terminal-helper.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/terminal-helper.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "terminal-helper.agent.md"
+  ],
+  "entry_hash": "2a56f8f2d4aa5c18e7eb15a1760f8bf21401eeef2484958e3bd48ec6be56f2f3",
+  "content_hash": "5a4a4427f1b0df43f3acc5c06c36d377eeebc8f3f80388dd17d83e066b7489ce",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

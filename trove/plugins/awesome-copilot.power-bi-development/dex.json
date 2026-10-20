@@ -1,0 +1,58 @@
+{
+  "id": "awesome-copilot/power-bi-development",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "power-bi-development",
+  "title": "Power BI Development Plugin",
+  "description": "Comprehensive Power BI development resources including data modeling, DAX optimization, performance tuning, visualization design, security best practices, and DevOps/ALM guidance for building enterprise-grade Power BI solutions.",
+  "tags": [
+    "awesome-copilot",
+    "business-intelligence",
+    "data-modeling",
+    "dax",
+    "devops",
+    "performance",
+    "plugin",
+    "power-bi",
+    "security",
+    "visualization"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.power-bi-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/power-bi-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/power-bi-development",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/power-bi-dax-optimization",
+    "skill:awesome-copilot/power-bi-model-design-review",
+    "skill:awesome-copilot/power-bi-performance-troubleshooting",
+    "skill:awesome-copilot/power-bi-report-design-consultation",
+    "agent:awesome-copilot/power-bi-data-modeling-expert",
+    "agent:awesome-copilot/power-bi-dax-expert",
+    "agent:awesome-copilot/power-bi-performance-expert",
+    "agent:awesome-copilot/power-bi-visualization-expert"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "5c7a1068704a99c922158a2506b3145d719adb736c4ff587073ccfdfbd5a13ed",
+  "content_hash": "c8d1b5d628907c8bdd24725d75290cd4df3eb9ae5e5f999c10fff9672676d256",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: power-bi-data-modeling-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:power-bi-data-modeling-expert
+summary: Expert Power BI data modeling guidance using star schema principles, relationship design, and Microsoft
+  best practices for optimal model performance and usability.
+description: Expert Power BI data modeling guidance using star schema principles, relationship design, and Microsoft
+  best practices for optimal model performance and usability.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: power-bi-data-modeling-expert.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/power-bi-data-modeling-expert.agent.md
+  repository: https://github.com/github/awesome-copilot

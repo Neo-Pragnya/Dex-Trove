@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: commit-message-storyteller
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:commit-message-storyteller
+summary: Analyzes git diffs or staged changes and generates narrative commit messages that explain WHY a change
+  was made, not just what changed — following Conventional Commits format.
+description: Analyzes git diffs or staged changes and generates narrative commit messages that explain WHY a change
+  was made, not just what changed — following Conventional Commits format. Use when asked to "write a commit message",
+  "generate a commit", "describe my changes", "what should I commit this as", "commit this", "summarize my diff",
+  or "help me commit". Works with git diff output, staged files, or plain descriptions of changes.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/commit-message-storyteller
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,34 @@
+kind: skill
+namespace: awesome-copilot
+name: react18-enzyme-to-rtl
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:react18-enzyme-to-rtl
+summary: Provides exact Enzyme → React Testing Library migration patterns for React 18 upgrades.
+description: Provides exact Enzyme → React Testing Library migration patterns for React 18 upgrades. Use this skill
+  whenever Enzyme tests need to be rewritten - shallow, mount, wrapper.find(), wrapper.simulate(), wrapper.prop(),
+  wrapper.state(), wrapper.instance(), Enzyme configure/Adapter calls, or any test file that imports from enzyme.
+  This skill covers the full API mapping and the philosophy shift from implementation testing to behavior testing.
+  Always read this skill before rewriting Enzyme tests - do not translate Enzyme APIs 1:1, that produces brittle
+  RTL tests.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react18-enzyme-to-rtl
+  repository: https://github.com/github/awesome-copilot

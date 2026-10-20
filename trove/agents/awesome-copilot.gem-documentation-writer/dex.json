@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-documentation-writer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-documentation-writer",
+  "title": "gem-documentation-writer",
+  "description": "Technical documentation, README files, API docs, diagrams, walkthroughs.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-documentation-writer.agent.md",
+  "dir": "agents/awesome-copilot.gem-documentation-writer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-documentation-writer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-documentation-writer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-documentation-writer.agent.md"
+  ],
+  "entry_hash": "bca0182b0c3c557f20711b9aa04bdec1920666e738c928d5393be5dcf5910e21",
+  "content_hash": "57d37a531f4b7b5b277ef66e5ab0411de196e293460db1f2432f64f20fade11c",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/github-copilot-starter",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "github-copilot-starter",
+  "title": "{Project Name} — Copilot Instructions",
+  "description": "Set up complete GitHub Copilot configuration for a new project based on technology stack",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.github-copilot-starter",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/github-copilot-starter",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/github-copilot-starter",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "7288f9613ffd1bccd46a688a717b26f3c13e3821236bb1b29d4a6699d79bb6ba",
+  "content_hash": "dab2edb70d649b599fd43bfa461a52535f8864a34b4c4c810e8f7b67b5c16c34",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

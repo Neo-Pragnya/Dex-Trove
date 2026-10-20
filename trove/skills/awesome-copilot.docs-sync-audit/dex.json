@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/docs-sync-audit",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "docs-sync-audit",
+  "title": "Docs Sync Audit",
+  "description": "Run a read-only documentation drift audit for a feature, PR, branch, release, API, configuration change, workflow, CLI, package, or repository area. Use when the user asks whether docs are stale, missing, inconsistent with code, or need updates after code changes. Checks README files, setup guides, API docs, env docs, changelogs, examples, comments, generated docs, and user-facing instructions. This is not a general code review; it compares what the docs claim against what the code does.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.docs-sync-audit",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/docs-sync-audit",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/docs-sync-audit",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/docs_drift.py"
+  ],
+  "entry_hash": "c21b20dcc59ac43449ef02ed7f69bfa222a241cdf46b870675ac10aac736a203",
+  "content_hash": "8c1a293db91f1d57e49b800874be9fda6ddba6c11021c72c8f903a5d615db271",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/new-relic-incident-response",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "new-relic-incident-response",
+  "title": "New Relic Incident Response Agent",
+  "description": "Identify and fix production issues by correlating New Relic observability data with code changes. Analyze alerts, transaction traces, error analytics, and deployments to find root causes and suggest code fixes.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "new-relic-incident-response.agent.md",
+  "dir": "agents/awesome-copilot.new-relic-incident-response",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/new-relic-incident-response.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/new-relic-incident-response.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "new-relic-incident-response.agent.md"
+  ],
+  "entry_hash": "8c51e47da95b664c1f026789b88680f80436aa568e44fd4f7340cc26c2cc7fde",
+  "content_hash": "d0916ecef4815c17cb22f297b575622c3729d96ca5e968aaf59fb2d3a87ab72d",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

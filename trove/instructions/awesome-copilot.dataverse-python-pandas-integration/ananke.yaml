@@ -1,0 +1,35 @@
+kind: prompt
+namespace: awesome-copilot
+name: dataverse-python-pandas-integration
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:dataverse-python-pandas-integration
+summary: '# Dataverse SDK for Python - Pandas Integration Guide ## Overview Guide to integrating the Dataverse SDK
+  for Python with pandas DataFrames for data science and analysis workflows.'
+description: '# Dataverse SDK for Python - Pandas Integration Guide ## Overview Guide to integrating the Dataverse
+  SDK for Python with pandas DataFrames for data science and analysis workflows. The SDK''s JSON response format
+  maps seamlessly to pandas DataFrames, enabling data scientists to work with Dataverse data using familiar data
+  manipulation tools. --- ## 1.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dataverse-python-pandas-integration.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-pandas-integration.instructions.md
+  repository: https://github.com/github/awesome-copilot

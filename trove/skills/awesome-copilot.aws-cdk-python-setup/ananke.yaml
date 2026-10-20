@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: aws-cdk-python-setup
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:aws-cdk-python-setup
+summary: Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python.
+description: Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python.
+  This skill enables users to configure environment prerequisites, create new CDK projects, manage dependencies,
+  and deploy to AWS.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/aws-cdk-python-setup
+  repository: https://github.com/github/awesome-copilot

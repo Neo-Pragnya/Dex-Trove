@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/dataverse-python-file-operations",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python-file-operations",
+  "title": "Dataverse SDK for Python - File Operations & Practical Examples",
+  "description": "# Dataverse SDK for Python - File Operations & Practical Examples ## Overview Complete guide to file upload operations, chunking strategies, and practical real-world examples using the PowerPlatform-DataverseClient-Python SDK. --- ## 1.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dataverse-python-file-operations.instructions.md",
+  "dir": "instructions/awesome-copilot.dataverse-python-file-operations",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dataverse-python-file-operations.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-file-operations.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dataverse-python-file-operations.instructions.md"
+  ],
+  "entry_hash": "749a788e9f2927c76ba72faf42c36bb753df016bab800a9c8ef1e73e0030b5fa",
+  "content_hash": "213a985c75073111549e186b0a8857c542aefa400d911548062afaa539a02c6b",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

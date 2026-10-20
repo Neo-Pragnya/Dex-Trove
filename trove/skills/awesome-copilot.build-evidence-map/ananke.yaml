@@ -1,0 +1,26 @@
+kind: skill
+namespace: awesome-copilot
+name: build-evidence-map
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:build-evidence-map
+summary: Build an auditable evidence map for a contested technical choice, research synthesis, proposal review,
+  or consequential decision.
+description: Build an auditable evidence map for a contested technical choice, research synthesis, proposal review,
+  or consequential decision. Use when Copilot must preserve supporting, contradicting, qualifying, and missing evidence
+  with exact source regions instead of collapsing disagreement into prose.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/build-evidence-map
+  repository: https://github.com/github/awesome-copilot

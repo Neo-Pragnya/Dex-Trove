@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/gilfoyle-code-review",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "gilfoyle-code-review",
+  "title": "Gilfoyle Code Review Instructions",
+  "description": "Gilfoyle-style code review instructions that channel the sardonic technical supremacy of Silicon Valley's most arrogant systems architect.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "gilfoyle-code-review.instructions.md",
+  "dir": "instructions/awesome-copilot.gilfoyle-code-review",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/gilfoyle-code-review.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/gilfoyle-code-review.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gilfoyle-code-review.instructions.md"
+  ],
+  "entry_hash": "5b49ab9aa9f3d93885ec4177f13a9b816935475a370882cfa94854b377d25662",
+  "content_hash": "0079f41c5c65bc6dbc0e225d7b8c42d6e0cd942beb8d8285a11f153dde93552a",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

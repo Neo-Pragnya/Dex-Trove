@@ -1,0 +1,41 @@
+{
+  "id": "superpowers/requesting-code-review",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "requesting-code-review",
+  "title": "Requesting Code Review",
+  "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+  "tags": [
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.requesting-code-review",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/requesting-code-review",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/requesting-code-review",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "code-reviewer.md"
+  ],
+  "entry_hash": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc",
+  "content_hash": "a9e4991ef931467490d4f76f36e64b8ef841d087320b6557e0e9cc3f42fca5fa",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

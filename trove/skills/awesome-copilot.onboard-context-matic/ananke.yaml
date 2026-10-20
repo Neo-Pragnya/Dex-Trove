@@ -1,0 +1,35 @@
+kind: skill
+namespace: awesome-copilot
+name: onboard-context-matic
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:onboard-context-matic
+summary: Interactive onboarding tour for the context-matic MCP server. Walks the user through what the server does,
+  shows all available APIs, lets them pick one to explore, explains it in their project languag…
+description: 'Interactive onboarding tour for the context-matic MCP server. Walks the user through what the server
+  does, shows all available APIs, lets them pick one to explore, explains it in their project language, demonstrates
+  model_search and endpoint_search live, and ends with a menu of things the user can ask the agent to do. USE FOR:
+  first-time setup; "what can this MCP do?"; "show me the available APIs"; "onboard me"; "how do I use the context-matic
+  server"; "give me a tour". DO NOT USE FOR: actually integrating an API end-to-end (use integrate-context-matic
+  instead).'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/onboard-context-matic
+  repository: https://github.com/github/awesome-copilot

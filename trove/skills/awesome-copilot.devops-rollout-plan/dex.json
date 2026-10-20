@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/devops-rollout-plan",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "devops-rollout-plan",
+  "title": "DevOps Rollout Plan Generator",
+  "description": "Generate comprehensive rollout plans with preflight checks, step-by-step deployment, verification signals, rollback procedures, and communication plans for infrastructure and application changes",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.devops-rollout-plan",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/devops-rollout-plan",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/devops-rollout-plan",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "4895d403e08e9ea4cf59ef06ef843745aa5dd574a1faad83d4140c1f2554b7d4",
+  "content_hash": "8b4747d8a9d76ba4899fbe2961ee490957e96b5b2e628100f4123b511eb5b0a4",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

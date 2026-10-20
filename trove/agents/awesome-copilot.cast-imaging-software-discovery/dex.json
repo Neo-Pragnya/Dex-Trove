@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/cast-imaging-software-discovery",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "cast-imaging-software-discovery",
+  "title": "CAST Imaging Software Discovery Agent",
+  "description": "Specialized agent for comprehensive software application discovery and architectural mapping through static code analysis using CAST Imaging",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "cast-imaging-software-discovery.agent.md",
+  "dir": "agents/awesome-copilot.cast-imaging-software-discovery",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/cast-imaging-software-discovery.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/cast-imaging-software-discovery.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cast-imaging-software-discovery.agent.md"
+  ],
+  "entry_hash": "c44f86312622e4e9b52fbf74dc558657c02e38ab838583473e540c478d87d5b0",
+  "content_hash": "0c4f4a548e506aadeb16b9eb3b7cc57e2ad422ce24933cb10a2f127eebe2e8e1",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

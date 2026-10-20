@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/optimize-simplicite-logs",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "optimize-simplicite-logs",
+  "title": "Optimize Simplicite Logs",
+  "description": "capability to parse Simplicité logs from a raw `.txt` file, filter fields to reduce noise, and output the result as structured JSON.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.optimize-simplicite-logs",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/optimize-simplicite-logs",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/optimize-simplicite-logs",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/SimpliciteLog2Json.ps1",
+    "scripts/simplicite-log2json.py"
+  ],
+  "entry_hash": "536f90efa4d056fe6e2012d056722f3a8f88f57a865cced77d3a0b9e963cece1",
+  "content_hash": "92b7f2e9a9522573d641ce0246fadd5c3422e5e84bff8fa586b42d89ccc6e760",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

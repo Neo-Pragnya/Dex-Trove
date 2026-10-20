@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/apify-integration-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "apify-integration-expert",
+  "title": "apify-integration-expert",
+  "description": "Expert agent for integrating Apify Actors into codebases. Handles Actor selection, workflow design, implementation across JavaScript/TypeScript and Python, testing, and production-ready deployment.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "apify-integration-expert.agent.md",
+  "dir": "agents/awesome-copilot.apify-integration-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/apify-integration-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/apify-integration-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "apify-integration-expert.agent.md"
+  ],
+  "entry_hash": "49409d9b74ab521256eba39b0941735162844d54795c2df497b685d9133fde9d",
+  "content_hash": "fee5d496dd7b905a8d3c69ce7eb3e5e16e3bdef0bac12d44e3ab2785ae9e10f6",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

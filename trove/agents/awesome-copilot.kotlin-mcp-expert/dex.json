@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/kotlin-mcp-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "kotlin-mcp-expert",
+  "title": "Kotlin MCP Server Development Expert",
+  "description": "Expert assistant for building Model Context Protocol (MCP) servers in Kotlin using the official SDK.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "kotlin-mcp-expert.agent.md",
+  "dir": "agents/awesome-copilot.kotlin-mcp-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/kotlin-mcp-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/kotlin-mcp-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "kotlin-mcp-expert.agent.md"
+  ],
+  "entry_hash": "08fa92c5fed74f04bee66c3c3bbab9f3d80772248fdeeb1086b97b6a6987eaf7",
+  "content_hash": "77ae81cdbc69cc4b65ee57e16a16f90f626498a2fbefb9057c2d1bc887d76753",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

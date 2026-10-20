@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/php-mcp-server-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "php-mcp-server-generator",
+  "title": "PHP MCP Server Generator",
+  "description": "Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.php-mcp-server-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/php-mcp-server-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/php-mcp-server-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e4ac56da9b7bfea6a03dece665b2c959ba8862da2ab97dc4041b891662620e37",
+  "content_hash": "6bd81037c24409ef9073df461b2ae67cf8b040a6d3574690ab061f213c4f4b6e",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

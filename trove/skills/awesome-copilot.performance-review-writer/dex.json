@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/performance-review-writer",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "performance-review-writer",
+  "title": "Performance Review Writer",
+  "description": "Draft performance reviews, self-assessments, peer reviews, and upward feedback in your own voice. Analyzes your contributions, emails, and meeting history via WorkIQ, then produces honest, impact-focused drafts using the STAR format. USE FOR: write my performance review, draft self-assessment, peer review, 360 feedback, annual review, mid-year review, upward feedback, write review for colleague, performance appraisal.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.performance-review-writer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/performance-review-writer",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/performance-review-writer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0bec62e91b3698d3fb2089fd853d3ada8e07b6cbd4c355ae85e09bfd6ea34bc6",
+  "content_hash": "8c5e3b53629a1eb8ca6f29564984f7ec4ecf9ee7d055fd8a02c6bf6f8853cf6d",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

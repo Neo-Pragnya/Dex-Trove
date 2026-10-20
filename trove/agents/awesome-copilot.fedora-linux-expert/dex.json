@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/fedora-linux-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "fedora-linux-expert",
+  "title": "Fedora Linux Expert",
+  "description": "Fedora (Red Hat family) Linux specialist focused on dnf, SELinux, and modern systemd-based workflows.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "fedora-linux-expert.agent.md",
+  "dir": "agents/awesome-copilot.fedora-linux-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/fedora-linux-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/fedora-linux-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "fedora-linux-expert.agent.md"
+  ],
+  "entry_hash": "f8c1c34019a2b67bf62048af7433e5e778ceca825e6ecdea9feb064c86fd46fd",
+  "content_hash": "3c5efe19d313fdec16a6bad8bd948a594c00600c2a0406305e11b83443def309",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

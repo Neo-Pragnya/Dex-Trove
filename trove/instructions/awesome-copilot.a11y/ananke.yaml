@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: a11y
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:a11y
+summary: Comprehensive web accessibility standards based on WCAG 2.2 AA, with 38+ anti-patterns, legal enforcement
+  context (EAA, ADA Title II), WAI-ARIA patterns, and framework-specific fixes for modern web fr…
+description: Comprehensive web accessibility standards based on WCAG 2.2 AA, with 38+ anti-patterns, legal enforcement
+  context (EAA, ADA Title II), WAI-ARIA patterns, and framework-specific fixes for modern web frameworks and libraries.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: a11y.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/a11y.instructions.md
+  repository: https://github.com/github/awesome-copilot

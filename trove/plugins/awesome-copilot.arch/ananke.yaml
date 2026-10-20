@@ -1,0 +1,39 @@
+kind: bundle
+namespace: awesome-copilot
+name: arch
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:arch
+summary: 'Architecture and modernization toolkit: produce a cited architecture document for a locally-cloned repo,
+  and generate a phased modernization plan that auto-runs Documentation mode when needed.'
+description: 'Architecture and modernization toolkit: produce a cited architecture document for a locally-cloned
+  repo, and generate a phased modernization plan that auto-runs Documentation mode when needed.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/doc-and-modernize
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - architecture
+  - awesome-copilot
+  - documentation
+  - migration
+  - modernization
+  - onboarding
+  - plugin
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/arch
+  repository: https://github.com/github/awesome-copilot

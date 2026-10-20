@@ -1,0 +1,33 @@
+kind: skill
+namespace: superpowers
+name: diagnosing-superpowers
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:superpowers:diagnosing-superpowers
+summary: Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored
+  plans, stumbles, poor results, a skill that didn't fire, "it took too long", "why is it so e…
+description: Use when a superpowers session went wrong and your human partner wants to know why — repeated work,
+  ignored plans, stumbles, poor results, a skill that didn't fire, "it took too long", "why is it so expensive",
+  "what is it doing" — or wants to build a bug report for the superpowers maintainers, for the current session or
+  a past one identified by id or path, on any harness.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - skill
+  - superpowers
+  homepage: https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/diagnosing-superpowers
+  repository: https://github.com/obra/superpowers

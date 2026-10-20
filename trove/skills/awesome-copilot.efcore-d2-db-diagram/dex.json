@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/efcore-d2-db-diagram",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "efcore-d2-db-diagram",
+  "title": "EF Core D2 Database Diagram Generator",
+  "description": "Generate D2 database diagrams from Entity Framework Core models. USE FOR: EF Core database diagram, Entity Framework Core ERD, DbContext diagram, C# entity relationship diagram, PostgreSQL schema visualization, generate .d2 file from EF Core entities, Fluent API mapping diagram, migrations-based database diagram, table relationships, owned types, many-to-many join tables, indexes and constraints. DO NOT USE FOR: runtime debugging, database migration execution, schema deployment, SQL performance tuning, or draw.io diagrams.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.efcore-d2-db-diagram",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/efcore-d2-db-diagram",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/efcore-d2-db-diagram",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/d2-erd-style.md",
+    "references/efcore-model-extraction.md",
+    "references/grouping-modes.md",
+    "references/quality-gate.md",
+    "references/relationship-rules.md"
+  ],
+  "entry_hash": "e0689c25df306906b3d916a90fa63a8a5bf78f8ee41328befcbe7f475a58d011",
+  "content_hash": "accb40dab3c8462f8c4260a28b35c9f332cd793fff34b29bbbf8e3de9094956f",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

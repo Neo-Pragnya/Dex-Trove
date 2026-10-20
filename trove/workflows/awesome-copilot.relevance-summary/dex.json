@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/relevance-summary",
+  "kind": "workflow",
+  "namespace": "awesome-copilot",
+  "name": "relevance-summary",
+  "title": "Relevance Summary",
+  "description": "Manually triggered workflow that summarizes all open issues and PRs with a /relevance-check response into a single issue",
+  "tags": [
+    "awesome-copilot",
+    "workflow"
+  ],
+  "version": "1.0.0",
+  "entry": "relevance-summary.md",
+  "dir": "workflows/awesome-copilot.relevance-summary",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "workflows/relevance-summary.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/workflows/relevance-summary.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "relevance-summary.md"
+  ],
+  "entry_hash": "993fec4f49c7cee7454fcf141769f47273894b1a57e37e10bce285d2a7aee5bf",
+  "content_hash": "88ffef593822b35716b17f654ab97304cfa438c17bf9329e6051f346ce977273",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

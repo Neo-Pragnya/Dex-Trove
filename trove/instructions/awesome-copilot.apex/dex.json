@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/apex",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "apex",
+  "title": "Apex Development",
+  "description": "Guidelines and best practices for Apex development on the Salesforce Platform",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "apex.instructions.md",
+  "dir": "instructions/awesome-copilot.apex",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/apex.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/apex.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "apex.instructions.md"
+  ],
+  "entry_hash": "8989215863a030fe14c94c7617afc10318c22128a2366855aeb7a2151cee6f90",
+  "content_hash": "f20beae47c20cd2837d5c41dc41d0f8b9b65f69c1a31c585f52d4a7157755f1f",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.cls, **/*.trigger"
+}

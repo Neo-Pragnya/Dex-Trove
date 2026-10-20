@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/azure-verified-modules-bicep",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "azure-verified-modules-bicep",
+  "title": "Azure AVM Bicep mode",
+  "description": "Create, update, or review Azure IaC in Bicep using Azure Verified Modules (AVM).",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-verified-modules-bicep.agent.md",
+  "dir": "agents/awesome-copilot.azure-verified-modules-bicep",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/azure-verified-modules-bicep.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-verified-modules-bicep.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-verified-modules-bicep.agent.md"
+  ],
+  "entry_hash": "f132fbd2b0f90649b647202e450b0a3f8863ebbb8ec14d0ded0caf88b662cc25",
+  "content_hash": "037d6cca9310bf356fabaeb6ffaec3788fc6db303da48bad3867e1d788eefbcb",
+  "learned_at": "2026-10-20T04:06:46+00:00"
+}

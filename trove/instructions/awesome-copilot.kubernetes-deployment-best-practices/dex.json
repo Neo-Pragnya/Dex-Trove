@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/kubernetes-deployment-best-practices",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "kubernetes-deployment-best-practices",
+  "title": "Kubernetes Deployment Best Practices",
+  "description": "Comprehensive best practices for deploying and managing applications on Kubernetes. Covers Pods, Deployments, Services, Ingress, ConfigMaps, Secrets, health checks, resource limits, scaling, and security contexts.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "kubernetes-deployment-best-practices.instructions.md",
+  "dir": "instructions/awesome-copilot.kubernetes-deployment-best-practices",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/kubernetes-deployment-best-practices.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/kubernetes-deployment-best-practices.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "kubernetes-deployment-best-practices.instructions.md"
+  ],
+  "entry_hash": "0aa8ddf92cb0534b373a987dd3b1e7f39338fcc9b18cb9c7a7d002aa8780bc09",
+  "content_hash": "ece2e408f05d19d08d3ad6345a2a2a1a7eed13cc6183bd45ccf2a297616871e9",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "*"
+}

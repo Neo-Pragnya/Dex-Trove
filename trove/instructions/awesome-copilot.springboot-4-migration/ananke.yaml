@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: springboot-4-migration
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:springboot-4-migration
+summary: Comprehensive guide for migrating Spring Boot applications from 3.x to 4.0, focusing on Gradle Kotlin DSL
+  and version catalogs
+description: Comprehensive guide for migrating Spring Boot applications from 3.x to 4.0, focusing on Gradle Kotlin
+  DSL and version catalogs
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: springboot-4-migration.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/springboot-4-migration.instructions.md
+  repository: https://github.com/github/awesome-copilot

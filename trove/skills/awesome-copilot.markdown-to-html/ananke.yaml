@@ -1,0 +1,35 @@
+kind: skill
+namespace: awesome-copilot
+name: markdown-to-html
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:markdown-to-html
+summary: Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar tools;
+  or writing custom script to convert markdown to html and/or working on web template systems li…
+description: Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar
+  tools; or writing custom script to convert markdown to html and/or working on web template systems like `jekyll/jekyll`,
+  `gohugoio/hugo`, or similar web templating systems that utilize markdown documents, converting them to html. Use
+  when asked to "convert markdown to html", "transform md to html", "render markdown", "generate html from markdown",
+  or when working with .md files and/or web a templating system that converts markdown to HTML output. Supports
+  CLI and Node.js workflows with GFM, CommonMark, and standard Markdown flavors.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/markdown-to-html
+  repository: https://github.com/github/awesome-copilot

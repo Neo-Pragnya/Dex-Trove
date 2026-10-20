@@ -1,0 +1,102 @@
+# Dex Trove source map — what we learn from, and how (DESIGN.md §12).
+# Order matters: earlier sources win duplicate content.
+# Licences are re-verified on every `dex learn`, item by item, from licence *text*; `license:` here only
+# records expectations (and, for first-party sources we own, the default).
+
+sources:
+  - id: neo-pragnya
+    title: Neo Pragnya (first-party)
+    description: >-
+      Skills developed in-house: architecture-as-code with animated SVG diagrams, Astro documentation sites,
+      interactive web motion, and a life Ikigai architect. Personal skills in the same folder are hidden by the
+      folder's own .dexignore (never named in this repo).
+    adapter: agent-skills
+    local: ../Skills
+    homepage: https://github.com/Neo-Pragnya/Dex-Trove
+    license: { first_party: true, default: MIT }
+    # AWS Architecture Icons may be used in diagrams but not redistributed as an icon set.
+    # The skill fetches them on demand with scripts/fetch_icons.py (from the MIT `diagrams` wheel).
+    exclude:
+      - "marvellous-aws-architecture-docs/assets/icons/*.png"
+      - "*/assets/previews/*"
+      - "ikigai/*"
+      - "site/*"
+    items:
+      marvellous-aws-architecture-docs:
+        inspired_by:
+          - { title: AWS Reference Architecture Diagrams, url: "https://aws.amazon.com/architecture/reference-architecture-diagrams/" }
+          - { title: "mingrammer/diagrams (MIT)", url: "https://github.com/mingrammer/diagrams" }
+      astro-docs-site:
+        inspired_by:
+          - { title: "Astro content collections", url: "https://docs.astro.build/en/guides/content-collections/" }
+          - { title: "github/awesome-copilot website (Astro)", url: "https://github.com/github/awesome-copilot/tree/main/website" }
+          - { title: "Material for MkDocs (the docs experience it replaces)", url: "https://squidfunk.github.io/mkdocs-material/" }
+      interactive-web-motion:
+        inspired_by:
+          - { title: "graphify.com — dashed marching borders, reveals, grain", url: "https://graphify.com/" }
+          - { title: "Polar shape morphing (radius-function interpolation)", url: "https://en.wikipedia.org/wiki/Polar_coordinate_system" }
+      life-ikigai-architect:
+        inspired_by:
+          - { title: "Ikigai (Héctor García & Francesc Miralles)", url: "https://en.wikipedia.org/wiki/Ikigai" }
+
+  - id: awesome-copilot
+    title: Awesome GitHub Copilot
+    description: Community collection of Copilot agents, instructions, skills, hooks, agentic workflows and plugins.
+    adapter: awesome-copilot
+    repo: https://github.com/github/awesome-copilot
+    ref: main
+    local: ../awesome-copilot
+    license: { expected: MIT }
+
+  - id: anthropic
+    title: Anthropic Agent Skills
+    description: >-
+      Anthropic's public skills repo. No repo-level licence: example skills are Apache-2.0 per item; the
+      document skills (docx, pdf, pptx, xlsx) are proprietary and are excluded.
+    adapter: agent-skills
+    repo: https://github.com/anthropics/skills
+    ref: main
+    options: { roots: [skills] }
+    license: { expected: per-item }
+
+  - id: superpowers
+    title: Superpowers (obra)
+    description: Engineering-workflow skills for coding agents — TDD, systematic debugging, planning, code review.
+    adapter: agent-skills
+    repo: https://github.com/obra/superpowers
+    ref: main
+    options: { roots: [skills] }
+    license: { expected: MIT }
+
+  - id: huggingface
+    title: Hugging Face Skills
+    adapter: agent-skills
+    repo: https://github.com/huggingface/skills
+    ref: main
+    enabled: false
+    license: { expected: Apache-2.0 }
+
+  - id: microsoft
+    title: Microsoft Skills
+    adapter: agent-skills
+    repo: https://github.com/microsoft/skills
+    ref: main
+    enabled: false
+    license: { expected: MIT }
+
+# Evaluated but not enabled (licences checked via GitHub API on 2026-10-19). Rendered on the docs Sources page.
+candidates:
+  - { repo: K-Dense-AI/claude-scientific-skills, license: MIT, decision: "Mapped — enable after size review", offers: "Large scientific / research skill set" }
+  - { repo: wshobson/agents, license: MIT, decision: "Mapped — needs md-agents tuning", offers: "Claude Code subagents and plugins" }
+  - { repo: VoltAgent/awesome-claude-code-subagents, license: MIT, decision: "Mapped — needs md-agents tuning", offers: "Categorised subagents" }
+  - { repo: davila7/claude-code-templates, license: MIT, decision: "Mapped — later", offers: "Agents, commands, hooks, MCP configs" }
+  - { repo: anthropics/claude-plugins-official, license: Apache-2.0, decision: "Mapped — later (plugin adapter)", offers: "Official Claude Code plugins" }
+  - { repo: PatrickJS/awesome-cursorrules, license: CC0-1.0, decision: "Mapped — later (rules adapter)", offers: "Cursor rules → instructions" }
+  - { repo: openai/skills, license: "None at repo level (per-item LICENSE.txt)", decision: "Per-item only — later", offers: "Curated Codex skills" }
+  - { repo: ComposioHQ/awesome-claude-skills, license: "None at repo level", decision: "Per-item only; redistributes proprietary Anthropic skills", offers: "Mixed community skills" }
+  - { repo: vercel-labs/agent-skills, license: "None found", decision: "Not importable until licensed", offers: "Vercel / Next.js skills" }
+  - { repo: f/awesome-chatgpt-prompts, license: "NOASSERTION (CC0 + MIT files)", decision: "Later — needs manual verdict", offers: "Prompt library" }
+  - { repo: trailofbits/skills, license: CC-BY-SA-4.0, decision: "Review — share-alike decision pending", offers: "Security-auditing skills" }
+  - { repo: modelcontextprotocol/servers, license: "NOASSERTION (per-server)", decision: "Out of scope — runnable servers are referenced, not copied", offers: "Reference MCP servers" }
+  - { repo: hesreallyhim/awesome-claude-code, license: NOASSERTION, decision: "Discovery input only (link list)", offers: "Curated links" }
+  - { repo: punkpeye/awesome-mcp-servers, license: MIT, decision: "Discovery input only (link list)", offers: "Curated MCP server links" }

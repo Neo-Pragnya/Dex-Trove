@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/aws-appsync",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "aws-appsync",
+  "title": "AWS AppSync Event API Instructions",
+  "description": "Production-grade guidance for AWS AppSync Event API handlers using APPSYNC_JS runtime restrictions, utilities, modules, and datasource patterns",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "aws-appsync.instructions.md",
+  "dir": "instructions/awesome-copilot.aws-appsync",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/aws-appsync.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/aws-appsync.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "aws-appsync.instructions.md"
+  ],
+  "entry_hash": "587d650a461e81666618639f83b8e3f6c716717aa2cc465be5cacbae16d9d3da",
+  "content_hash": "9ffa72c6827002f117464a46bcf09319c3c7a3ad441b4359e153e501e96505ca",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.{graphql,gql,vtl,ts,js,mjs,cjs,json,yml,yaml}"
+}

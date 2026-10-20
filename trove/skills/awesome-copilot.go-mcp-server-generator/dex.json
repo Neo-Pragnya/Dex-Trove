@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/go-mcp-server-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "go-mcp-server-generator",
+  "title": "Go MCP Server Project Generator",
+  "description": "Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official github.com/modelcontextprotocol/go-sdk.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.go-mcp-server-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/go-mcp-server-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/go-mcp-server-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "70d1f1f45ab175da155c5d1109394a8eab074bdd85fa01e452d68347cf132ccb",
+  "content_hash": "2a5310c36e48140aed14a60592bbc58d32a8f26997071abc63cb3bec3bacb164",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

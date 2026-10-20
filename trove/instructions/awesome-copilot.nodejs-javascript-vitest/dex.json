@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/nodejs-javascript-vitest",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "nodejs-javascript-vitest",
+  "title": "Code Generation Guidelines",
+  "description": "Guidelines for writing Node.js and JavaScript code with Vitest testing",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "nodejs-javascript-vitest.instructions.md",
+  "dir": "instructions/awesome-copilot.nodejs-javascript-vitest",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/nodejs-javascript-vitest.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/nodejs-javascript-vitest.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "nodejs-javascript-vitest.instructions.md"
+  ],
+  "entry_hash": "013f3c0727d7f62d3f8a954c9d0ffec1f4dd2849a28b515b81ebc1685394bd49",
+  "content_hash": "8146095c2efdba5ad342a9e8de9954e2d9364beddf82d9459887cc4977d40a37",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.js, **/*.mjs, **/*.cjs"
+}

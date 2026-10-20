@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/gitmoji",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "gitmoji",
+  "title": "Gitmoji",
+  "description": "Generates commit messages following the gitmoji convention (https://gitmoji.dev) — picks the right emoji for the intent of the change and writes a well-formed message. Use when asked to \"write a gitmoji commit\", \"add an emoji to my commit message\", \"which gitmoji should I use\", \"gitmoji this change\", or when a project uses gitmoji-style commit messages. Works from a git diff, staged changes, or a plain description of the change. Generates the message only — does not run git commands.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.gitmoji",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/gitmoji",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gitmoji",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/gitmoji-reference.md"
+  ],
+  "entry_hash": "2ac146eec71a7ffddff6d488118084cb8b3bc0368da7cff4c444485f8177c6a1",
+  "content_hash": "7491822ba17153d6ed67a818b7971baa95e7503fa6867c925292b2f506f9fe12",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

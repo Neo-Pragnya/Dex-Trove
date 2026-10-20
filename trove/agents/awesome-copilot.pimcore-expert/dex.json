@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/pimcore-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "pimcore-expert",
+  "title": "Pimcore Expert",
+  "description": "Expert Pimcore development assistant specializing in CMS, DAM, PIM, and E-Commerce solutions with Symfony integration",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "pimcore-expert.agent.md",
+  "dir": "agents/awesome-copilot.pimcore-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/pimcore-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/pimcore-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pimcore-expert.agent.md"
+  ],
+  "entry_hash": "ef0fa5dab106c4563a4ea9a76f5131b992845fc9fdcf173f904fb7cc0afb476b",
+  "content_hash": "1b418b272c14fa4e46b93b2ea6f927c0c14bd058678230a687c974e57a7b22cf",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

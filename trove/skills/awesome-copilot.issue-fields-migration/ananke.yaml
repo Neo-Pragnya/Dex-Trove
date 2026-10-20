@@ -1,0 +1,34 @@
+kind: skill
+namespace: awesome-copilot
+name: issue-fields-migration
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:issue-fields-migration
+summary: 'Bulk-migrate metadata to GitHub issue fields from two sources: repo labels (e.g. priority labels to a
+  Priority field) and Project V2 fields.'
+description: 'Bulk-migrate metadata to GitHub issue fields from two sources: repo labels (e.g. priority labels to
+  a Priority field) and Project V2 fields. Use when users say "migrate my labels to issue fields", "migrate project
+  fields to issue fields", "convert labels to issue fields", "copy project field values to issue fields", or ask
+  about adopting issue fields. Issue fields are org-level typed metadata (single select, text, number, date) that
+  replace label-based workarounds with structured, searchable, cross-repo fields.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/issue-fields-migration
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/clojure-interactive-programming",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "clojure-interactive-programming",
+  "title": "Clojure Interactive Programming",
+  "description": "Expert Clojure pair programmer with REPL-first methodology, architectural oversight, and interactive problem-solving. Enforces quality standards, prevents workarounds, and develops solutions incrementally through live REPL evaluation before file modifications.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "clojure-interactive-programming.agent.md",
+  "dir": "agents/awesome-copilot.clojure-interactive-programming",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/clojure-interactive-programming.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/clojure-interactive-programming.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "clojure-interactive-programming.agent.md"
+  ],
+  "entry_hash": "f45dacd431df7f8451d618c6cb517c583c4a38e1598feea1c053fb21c8d2d95b",
+  "content_hash": "e7a2afc541b841857232e4593d28054571a8c87ac81cde66d8d7f861dfec97e9",
+  "learned_at": "2026-10-20T04:06:46+00:00"
+}

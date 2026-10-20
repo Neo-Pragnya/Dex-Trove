@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: simple-app-idea-generator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:simple-app-idea-generator
+summary: Brainstorm and develop new application ideas through fun, interactive questioning until ready for specification
+  creation.
+description: Brainstorm and develop new application ideas through fun, interactive questioning until ready for specification
+  creation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: simple-app-idea-generator.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/simple-app-idea-generator.agent.md
+  repository: https://github.com/github/awesome-copilot

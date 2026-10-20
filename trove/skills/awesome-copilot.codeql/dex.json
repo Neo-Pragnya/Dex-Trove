@@ -1,0 +1,46 @@
+{
+  "id": "awesome-copilot/codeql",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "codeql",
+  "title": "CodeQL Code Scanning",
+  "description": "Comprehensive guide for setting up and configuring CodeQL code scanning via GitHub Actions workflows and the CodeQL CLI. This skill should be used when users need help with code scanning configuration, CodeQL workflow files, CodeQL CLI commands, SARIF output, security analysis setup, or troubleshooting CodeQL analysis.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.codeql",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/codeql",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/codeql",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/alert-management.md",
+    "references/cli-commands.md",
+    "references/compiled-languages.md",
+    "references/sarif-output.md",
+    "references/troubleshooting.md",
+    "references/workflow-configuration.md"
+  ],
+  "entry_hash": "81503394c7c0595756d18a47e0b626dfd1dc6cf4673d40e9be23349a66fa5d27",
+  "content_hash": "01986c8e4efbe92007e0a4f53fd773caa137f923725791ad2e1215a029e6011c",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

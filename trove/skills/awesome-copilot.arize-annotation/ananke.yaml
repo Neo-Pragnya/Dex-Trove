@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: arize-annotation
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:arize-annotation
+summary: Creates and manages annotation configs (categorical, continuous, freeform label schemas) and annotation
+  queues (human review workflows) on Arize.
+description: Creates and manages annotation configs (categorical, continuous, freeform label schemas) and annotation
+  queues (human review workflows) on Arize. Applies human annotations to project spans via the Python SDK. Use when
+  the user mentions annotation config, annotation queue, label schema, human feedback, bulk annotate spans, update_annotations,
+  labeling queue, annotate record, or human review.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-annotation
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,55 @@
+kind: bundle
+namespace: awesome-copilot
+name: react19-upgrade
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:react19-upgrade
+summary: Enterprise React 19 migration toolkit with specialized agents and skills for upgrading React 18 codebases
+  to React 19. Includes auditor, dependency surgeon, source code migrator, and test guardian.
+description: Enterprise React 19 migration toolkit with specialized agents and skills for upgrading React 18 codebases
+  to React 19. Includes auditor, dependency surgeon, source code migrator, and test guardian. Handles removal of
+  deprecated APIs including ReactDOM.render, forwardRef, defaultProps, legacy context, string refs, and more.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/react19-concurrent-patterns
+  version: '*'
+- ref: ananke://skill/awesome-copilot/react19-source-patterns
+  version: '*'
+- ref: ananke://skill/awesome-copilot/react19-test-patterns
+  version: '*'
+- ref: ananke://agent/awesome-copilot/react19-auditor
+  version: '*'
+- ref: ananke://agent/awesome-copilot/react19-commander
+  version: '*'
+- ref: ananke://agent/awesome-copilot/react19-dep-surgeon
+  version: '*'
+- ref: ananke://agent/awesome-copilot/react19-migrator
+  version: '*'
+- ref: ananke://agent/awesome-copilot/react19-test-guardian
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - hooks
+  - migration
+  - modern-react
+  - plugin
+  - react
+  - react19
+  - upgrade
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/react19-upgrade
+  repository: https://github.com/github/awesome-copilot

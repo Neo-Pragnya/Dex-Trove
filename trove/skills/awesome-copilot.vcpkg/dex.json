@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/vcpkg",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "vcpkg",
+  "title": "vcpkg",
+  "description": "Guide for setting up vcpkg in C++ projects, managing dependency versions, and cross-compiling. Covers manifest initialization, CMake and Visual Studio integration, classic-to-manifest migration, version pinning, baselines, overrides, triplets, and cross-compilation. Use when a user is working with vcpkg project setup, installation, version management, or cross-platform builds. For specialized tasks, additional references cover custom registries and overlay ports (references/registries.md), CI/CD and binary caching (references/ci.md), and troubleshooting and dependency lifecycle (references/troubleshooting.md).",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.vcpkg",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/vcpkg",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/vcpkg",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/ci.md",
+    "references/registries.md",
+    "references/troubleshooting.md"
+  ],
+  "entry_hash": "c9568ce0fd8c7afbff4dc242af9b96290651352bdc83ed18c5db9c63cabc021c",
+  "content_hash": "ad817db3f0a58be1850c19b65b871757d39ef0543ab2a0dd545a0c8081a947be",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

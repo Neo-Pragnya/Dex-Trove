@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: automate-this
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:automate-this
+summary: Analyze a screen recording of a manual process and produce targeted, working automation scripts.
+description: Analyze a screen recording of a manual process and produce targeted, working automation scripts. Extracts
+  frames and audio narration from video files, reconstructs the step-by-step workflow, and proposes automation at
+  multiple complexity levels using tools already installed on the user machine.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/automate-this
+  repository: https://github.com/github/awesome-copilot

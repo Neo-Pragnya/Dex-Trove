@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot/excalidraw-diagram-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "excalidraw-diagram-generator",
+  "title": "Excalidraw Diagram Generator",
+  "description": "Generate Excalidraw diagrams from natural language descriptions. Use when asked to \"create a diagram\", \"make a flowchart\", \"visualize a process\", \"draw a system architecture\", \"create a mind map\", or \"generate an Excalidraw file\". Supports flowcharts, relationship diagrams, mind maps, and system architecture diagrams. Outputs .excalidraw JSON files that can be opened directly in Excalidraw.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.excalidraw-diagram-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/excalidraw-diagram-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/excalidraw-diagram-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/element-types.md",
+    "references/excalidraw-schema.md",
+    "scripts/.gitignore",
+    "scripts/README.md",
+    "scripts/add-arrow.py",
+    "scripts/add-icon-to-diagram.py",
+    "scripts/split-excalidraw-library.py",
+    "templates/business-flow-swimlane-template.excalidraw",
+    "templates/class-diagram-template.excalidraw",
+    "templates/data-flow-diagram-template.excalidraw",
+    "templates/er-diagram-template.excalidraw",
+    "templates/flowchart-template.excalidraw",
+    "templates/mindmap-template.excalidraw",
+    "templates/relationship-template.excalidraw",
+    "templates/sequence-diagram-template.excalidraw"
+  ],
+  "entry_hash": "3716375aca4ef46ac4b9e0c6cc349e472be9e1a75df47873d587b7eae56cebce",
+  "content_hash": "01b89ff969a2a1bf12a2f0e468243198a5e4d7c3d6ca14ca1ede2c0e33b7fa31",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

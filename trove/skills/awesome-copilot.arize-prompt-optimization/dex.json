@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/arize-prompt-optimization",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "arize-prompt-optimization",
+  "title": "Arize Prompt Optimization Skill",
+  "description": "Optimizes, improves, and debugs LLM prompts using production trace data, evaluations, and annotations. Extracts prompts from spans, gathers performance signal, and runs a data-driven optimization loop using the ax CLI. Use when the user mentions optimize prompt, improve prompt, make AI respond better, improve output quality, prompt engineering, prompt tuning, or system prompt improvement.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.arize-prompt-optimization",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/arize-prompt-optimization",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-prompt-optimization",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/ax-profiles.md",
+    "references/ax-setup.md"
+  ],
+  "entry_hash": "c46bfbea3014681cc140827d9bed11834371b74dc26d792a31ba615bb60f919e",
+  "content_hash": "027ee2f6ef2ee3bf358386ddb7a658fbe74f778d3559a9442af964057e76c251",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

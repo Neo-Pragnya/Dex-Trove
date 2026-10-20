@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/typespec-create-api-plugin",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "typespec-create-api-plugin",
+  "title": "Create TypeSpec API Plugin",
+  "description": "Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft 365 Copilot",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.typespec-create-api-plugin",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/typespec-create-api-plugin",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/typespec-create-api-plugin",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "b48f961f80c931a0a31f43adf2954d60c8b9006170e45b85c01f5824d3427002",
+  "content_hash": "2ad2ef49f5c789d378d2dd3c72f6daa8b07fa00fad16ae863e6b988e3a49d0d0",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

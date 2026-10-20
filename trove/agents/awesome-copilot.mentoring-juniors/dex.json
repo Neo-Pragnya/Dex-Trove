@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/mentoring-juniors",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "mentoring-juniors",
+  "title": "Sensei - Junior Mentor",
+  "description": "Socratic mentor for junior developers. Guides through questions, never gives direct answers. Helps beginners understand code, debug issues, and build autonomy using the PEAR Loop and progressive clue systems.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "mentoring-juniors.agent.md",
+  "dir": "agents/awesome-copilot.mentoring-juniors",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/mentoring-juniors.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/mentoring-juniors.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mentoring-juniors.agent.md"
+  ],
+  "entry_hash": "ea54f11617b0314687e1af7b75e13efb0a66fba1b9571f59adec482f97584f3e",
+  "content_hash": "a1ec7129686de984ba2e368b16dfa13507400a056f5a99f6766e730d76dfde5a",
+  "learned_at": "2026-10-20T04:06:47+00:00"
+}

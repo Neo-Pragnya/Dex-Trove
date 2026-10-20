@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/dotnet-best-practices",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "dotnet-best-practices",
+  "title": ".NET/C# Best Practices",
+  "description": "Ensure .NET/C# code meets best practices for the solution/project.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.dotnet-best-practices",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/dotnet-best-practices",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/dotnet-best-practices",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "3181f44dfc866313c96cd784a7f003b4b109836a6f02648f95b3323e73e85d62",
+  "content_hash": "0b2c5fe0ffb7de7db53e8b03e337cba6130f0a74c51ec9c6624762c1cd9da132",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

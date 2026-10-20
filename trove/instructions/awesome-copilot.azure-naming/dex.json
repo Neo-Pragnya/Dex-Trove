@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/azure-naming",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "azure-naming",
+  "title": "Azure Resource Naming Conventions (CAF)",
+  "description": "Azure resource naming conventions based on Microsoft CAF (Cloud Adoption Framework). Use when creating, reviewing, or suggesting names for Azure resources.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-naming.instructions.md",
+  "dir": "instructions/awesome-copilot.azure-naming",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/azure-naming.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/azure-naming.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-naming.instructions.md"
+  ],
+  "entry_hash": "f5afd79e5a29c7288b6411a73b2bc8ee28ec8a466f3657f90a1cde7acb2502f9",
+  "content_hash": "1480405b62121062cb50404321ac1af24eda04c104e07e318b086dbe6baa8a93",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.bicep,**/*.tf,**/*.tfvars,**/*.bicepparam,**/infra/**,**/infrastructure/**"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "superpowers/subagent-driven-development",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "subagent-driven-development",
+  "title": "Subagent-Driven Development",
+  "description": "Use when executing implementation plans with independent tasks in the current session",
+  "tags": [
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.subagent-driven-development",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/subagent-driven-development",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "implementer-prompt.md",
+    "re-review-prompt.md",
+    "scripts/review-package",
+    "scripts/sdd-workspace",
+    "scripts/task-brief",
+    "task-reviewer-prompt.md"
+  ],
+  "entry_hash": "8dde5589ee083fb4999106d116f01c8fdaf3116a8a9813fdedeb80329de49046",
+  "content_hash": "eb70937ea4ee79c3624f6ae63d485c78b709aff834587498f0538d9b8db3c395",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

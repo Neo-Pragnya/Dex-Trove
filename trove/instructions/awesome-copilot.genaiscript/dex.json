@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/genaiscript",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "genaiscript",
+  "title": "genaiscript",
+  "description": "AI-powered script generation guidelines",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "genaiscript.instructions.md",
+  "dir": "instructions/awesome-copilot.genaiscript",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/genaiscript.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/genaiscript.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "genaiscript.instructions.md"
+  ],
+  "entry_hash": "17b2d909d01f5803e3f0e157d82fe49f0bce0a6b25fefd9fd58bb0aadd5691b3",
+  "content_hash": "fd1ce4aec6087e6b18003a086fd810a4b58ae9166cbd3a3861e991837ced5b6c",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.genai.*"
+}

@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: github-actions-ci-cd-best-practices
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:github-actions-ci-cd-best-practices
+summary: Comprehensive guide for building robust, secure, and efficient CI/CD pipelines using GitHub Actions.
+description: Comprehensive guide for building robust, secure, and efficient CI/CD pipelines using GitHub Actions.
+  Covers workflow structure, jobs, steps, environment variables, secret management, caching, matrix strategies,
+  testing, and deployment strategies.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: github-actions-ci-cd-best-practices.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/github-actions-ci-cd-best-practices.instructions.md
+  repository: https://github.com/github/awesome-copilot

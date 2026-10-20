@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-designer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-designer",
+  "title": "gem-designer",
+  "description": "UI/UX design specialist: layouts, themes, color schemes, design systems, accessibility.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-designer.agent.md",
+  "dir": "agents/awesome-copilot.gem-designer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-designer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-designer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-designer.agent.md"
+  ],
+  "entry_hash": "f132d91a18d16274ff44b2c1332efb9450fca1e6ec43dc7a32abfea24701706d",
+  "content_hash": "95bd64a89c2658b09893684131964bdf62ccae3ca4c095e6291651793eacb3a7",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

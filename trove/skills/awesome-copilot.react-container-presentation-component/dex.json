@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/react-container-presentation-component",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "react-container-presentation-component",
+  "title": "Container/Presentation Component",
+  "description": "Create a React component using the Container/Presentation pattern in src/components by asking for the component name and type (ui or features), then scaffold files that follow this repository's TypeScript, Storybook, and SCSS conventions. Use when the user explicitly asks for a Container/Presentation-based component or runs /react-container-presentation-component.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.react-container-presentation-component",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/react-container-presentation-component",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react-container-presentation-component",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/component-architecture.md",
+    "references/typescript-and-scss-rules.md"
+  ],
+  "entry_hash": "a9c167eeafa799ac1647bf3bf3cb588099bcba1dfea7821fae0d86e8fc6676d7",
+  "content_hash": "49bc8168c253c183069e49e7bd07dbcd6dfb6eefa4c5c01a163928d139e6c599",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

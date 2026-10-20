@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/migrating-oracle-to-postgres-data-access-code",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "migrating-oracle-to-postgres-data-access-code",
+  "title": "Migrating .NET Data Access Code from Oracle to PostgreSQL",
+  "description": "Migrates .NET/C# data access code from Oracle to PostgreSQL (Npgsql). Replaces Oracle NuGet packages, rewrites OracleConnection/OracleCommand/OracleDataReader usage, fixes DbType mappings, updates stored procedure invocation patterns, and adapts connection string configuration. Use when migrating the application code layer of a .NET project during an Oracle-to-PostgreSQL database migration.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.migrating-oracle-to-postgres-data-access-code",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/migrating-oracle-to-postgres-data-access-code",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/migrating-oracle-to-postgres-data-access-code",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "c748c08f3c665b811545671463220492662cfeb4c8a30c1ddd946066e1c914c5",
+  "content_hash": "1719838e17607ea16494545163d61dde0e105a78f6f8504a8f407fbd7dbea588",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

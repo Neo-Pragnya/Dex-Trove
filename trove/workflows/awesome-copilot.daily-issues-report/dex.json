@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/daily-issues-report",
+  "kind": "workflow",
+  "namespace": "awesome-copilot",
+  "name": "daily-issues-report",
+  "title": "Daily Issues Report",
+  "description": "Generates a daily summary of open issues and recent activity as a GitHub issue",
+  "tags": [
+    "awesome-copilot",
+    "workflow"
+  ],
+  "version": "1.0.0",
+  "entry": "daily-issues-report.md",
+  "dir": "workflows/awesome-copilot.daily-issues-report",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "workflows/daily-issues-report.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/workflows/daily-issues-report.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "daily-issues-report.md"
+  ],
+  "entry_hash": "39682f8217a86fc24d59ad1dc336720b7020039019d21cf93e099d7cdbd444d2",
+  "content_hash": "41ed8fbc65dde69a156b34cf496baf03b6a8776dfc6c3ea6176000dc407bed0c",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

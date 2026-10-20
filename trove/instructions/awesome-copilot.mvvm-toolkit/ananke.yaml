@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: mvvm-toolkit
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:mvvm-toolkit
+summary: CommunityToolkit.Mvvm (MVVM Toolkit) coding conventions for ViewModels, commands, messaging, validation,
+  and DI across WPF, WinUI 3, .NET MAUI, Uno Platform, and Avalonia.
+description: CommunityToolkit.Mvvm (MVVM Toolkit) coding conventions for ViewModels, commands, messaging, validation,
+  and DI across WPF, WinUI 3, .NET MAUI, Uno Platform, and Avalonia.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: mvvm-toolkit.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/mvvm-toolkit.instructions.md
+  repository: https://github.com/github/awesome-copilot

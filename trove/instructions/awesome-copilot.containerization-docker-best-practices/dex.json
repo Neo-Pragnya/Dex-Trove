@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/containerization-docker-best-practices",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "containerization-docker-best-practices",
+  "title": "Containerization & Docker Best Practices",
+  "description": "Comprehensive best practices for creating optimized, secure, and efficient Docker images and managing containers. Covers multi-stage builds, image layer optimization, security scanning, and runtime best practices.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "containerization-docker-best-practices.instructions.md",
+  "dir": "instructions/awesome-copilot.containerization-docker-best-practices",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/containerization-docker-best-practices.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/containerization-docker-best-practices.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "containerization-docker-best-practices.instructions.md"
+  ],
+  "entry_hash": "92736c4f0869bbfee1799012644bb54b32965ee32db35160a846f5e184750a17",
+  "content_hash": "a1da69abe756fdb295c268c689acf539f037bf86403262a65fc4b361a3a825a1",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/Dockerfile,**/Dockerfile.*,**/*.dockerfile,**/docker-compose*.yml,**/docker-compose*.yaml,**/compose*.yml,**/compose*.yaml"
+}

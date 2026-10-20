@@ -1,0 +1,34 @@
+kind: prompt
+namespace: awesome-copilot
+name: dataverse-python-advanced-features
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:dataverse-python-advanced-features
+summary: '# Dataverse SDK for Python - Advanced Features Guide ## Overview Comprehensive guide to advanced Dataverse
+  SDK features including enums, complex filtering, SQL queries, metadata operations, and produc…'
+description: '# Dataverse SDK for Python - Advanced Features Guide ## Overview Comprehensive guide to advanced Dataverse
+  SDK features including enums, complex filtering, SQL queries, metadata operations, and production patterns. Based
+  on official Microsoft walkthrough examples. ## 1.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dataverse-python-advanced-features.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-advanced-features.instructions.md
+  repository: https://github.com/github/awesome-copilot

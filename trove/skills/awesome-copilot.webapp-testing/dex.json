@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/webapp-testing",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "webapp-testing",
+  "title": "Web Application Testing",
+  "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.webapp-testing",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/webapp-testing",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/webapp-testing",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/test-helper.js"
+  ],
+  "entry_hash": "c4629221463d79c84555721ae2a30a6c345dd4d16c38cf6dbe735126e2426044",
+  "content_hash": "bcf7f480008cbe90fbb0125fbe231ec5d9e32382f9c9eada8e982a368a362dd5",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

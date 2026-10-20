@@ -1,0 +1,42 @@
+{
+  "id": "superpowers/executing-plans",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "executing-plans",
+  "title": "Executing Plans",
+  "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+  "tags": [
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.executing-plans",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/executing-plans",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/task-done",
+    "scripts/task-start"
+  ],
+  "entry_hash": "f38e8f2ddcf079f65493adc713c1fed78421dfaf5f4dbf6b3a6b2b1d95466e71",
+  "content_hash": "4fe46fa33e913124d7a12791c05114677d27bf2c7704f33c9b5a7a42c75b80c2",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

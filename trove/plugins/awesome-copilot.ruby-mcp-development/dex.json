@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/ruby-mcp-development",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "ruby-mcp-development",
+  "title": "Ruby MCP Server Development Plugin",
+  "description": "Complete toolkit for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration support.",
+  "tags": [
+    "awesome-copilot",
+    "gem",
+    "mcp",
+    "model-context-protocol",
+    "plugin",
+    "rails",
+    "ruby",
+    "sdk",
+    "server-development"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.ruby-mcp-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/ruby-mcp-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/ruby-mcp-development",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/ruby-mcp-server-generator",
+    "agent:awesome-copilot/ruby-mcp-expert"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "dc55f2b82d16f4a38e6f300712ef8173cb0097507a759218b74c738d0086abf1",
+  "content_hash": "53ed50b6956be171ac3114bd4632d94b493b2a7f69c1ffa06ecb4556464f1123",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

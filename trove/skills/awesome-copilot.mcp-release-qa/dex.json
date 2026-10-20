@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/mcp-release-qa",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "mcp-release-qa",
+  "title": "MCP Release QA",
+  "description": "Verify an MCP server before release by exercising a real protocol session, comparing runtime capabilities with source and documentation, testing failure paths, and recording reproducible evidence. Use when shipping or reviewing an MCP server, tool, resource, prompt, catalog, or install path.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.mcp-release-qa",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/mcp-release-qa",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mcp-release-qa",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "36b5a18d8dde6e3e02300d986853d7a953e6d712357191bbb571ce179d70113e",
+  "content_hash": "5ad0bca65cdfe4b5a4da99226e2200c3e9774716ce527c190293615322cf61e7",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

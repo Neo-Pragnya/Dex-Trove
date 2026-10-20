@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: conventional-branch
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:conventional-branch
+summary: Create Git branches following the Conventional Branch specification (feature/, bugfix/, hotfix/, release/,
+  chore/).
+description: Create Git branches following the Conventional Branch specification (feature/, bugfix/, hotfix/, release/,
+  chore/). Use when creating a new branch, naming a branch, or checking whether a branch name complies with the
+  spec.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/conventional-branch
+  repository: https://github.com/github/awesome-copilot

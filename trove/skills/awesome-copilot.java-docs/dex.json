@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/java-docs",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "java-docs",
+  "title": "Java Documentation (Javadoc) Best Practices",
+  "description": "Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.java-docs",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/java-docs",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-docs",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9f837092e00114d9f18a9e744707ef11bfc68913247d8014adc534a29e46d087",
+  "content_hash": "ffb5ea1821d20b8b6df77f1fe03924611e3ac491039fffec0d5b70456f1d9cdd",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

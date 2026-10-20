@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/devbox-image-definition",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "devbox-image-definition",
+  "title": "Dev Box image definitions",
+  "description": "Authoring recommendations for creating YAML based image definition files for use with Microsoft Dev Box Team Customizations",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "devbox-image-definition.instructions.md",
+  "dir": "instructions/awesome-copilot.devbox-image-definition",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/devbox-image-definition.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/devbox-image-definition.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "devbox-image-definition.instructions.md"
+  ],
+  "entry_hash": "fcbd4b0c3a82b2eeaa75c2192c7823253ddd1764c0f5671fa3bbd1531afe09db",
+  "content_hash": "c45b64521e444caf5877cec3714447aa206ec4bbdf0ee5e5d59b5319f783acf4",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.yaml"
+}

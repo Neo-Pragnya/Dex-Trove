@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/electron-angular-native",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "electron-angular-native",
+  "title": "Electron Code Review Mode Instructions",
+  "description": "Code Review Mode tailored for Electron app with Node.js backend (main), Angular frontend (render), and native integration layer (e.g., AppleScript, shell, or native tooling). Services in other repos are not reviewed here.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "electron-angular-native.agent.md",
+  "dir": "agents/awesome-copilot.electron-angular-native",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/electron-angular-native.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/electron-angular-native.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "electron-angular-native.agent.md"
+  ],
+  "entry_hash": "61e624aa3aa3c6a3d1663e67b3824ca3ca828d48fc2c119c4d16add7c2ba4aa4",
+  "content_hash": "243cb82f2177eef3c267456cd16fcacb6c7fdcca584ad86607f6cb51a149529d",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,31 @@
+kind: prompt
+namespace: awesome-copilot
+name: agents
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:agents
+summary: Guidelines for creating custom agent files for GitHub Copilot
+description: Guidelines for creating custom agent files for GitHub Copilot
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: agents.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/agents.instructions.md
+  repository: https://github.com/github/awesome-copilot

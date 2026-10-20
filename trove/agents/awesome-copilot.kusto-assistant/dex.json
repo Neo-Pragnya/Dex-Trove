@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/kusto-assistant",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "kusto-assistant",
+  "title": "Kusto Assistant",
+  "description": "Expert KQL assistant for live Azure Data Explorer analysis via Azure MCP server",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "kusto-assistant.agent.md",
+  "dir": "agents/awesome-copilot.kusto-assistant",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/kusto-assistant.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/kusto-assistant.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "kusto-assistant.agent.md"
+  ],
+  "entry_hash": "1082c8293b02b393b6c7e298772898e1fc94a8b8665f69822a95fc838108daac",
+  "content_hash": "829cb31588df3ef9718cc296e516540cb57f67f8abe00b030ebd7cede6a9282e",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,99 @@
+---
+import Layout from "../components/Layout.astro";
+import trove from "../data/trove.json";
+import { shortCommit } from "../lib/site";
+
+const base = import.meta.env.BASE_URL;
+type Lock = { commit: string | null; learned_at: string; items: Record<string, number>; excluded: number } | null;
+const learned = trove.sources.filter((s) => s.lock);
+const mapped = trove.sources.filter((s) => !s.lock);
+const total = (lock: Lock) => Object.values(lock?.items ?? {}).reduce((a, b) => a + b, 0);
+---
+
+<Layout title="Sources & inspirations" description="Every repository Dex Trove learns from, credits and evaluated.">
+  <p class="eyebrow">Credits</p>
+  <h1>Sources &amp; inspirations</h1>
+  <p class="lede">
+    Dex Trove stands on the work of these projects. Each item page links back to its exact upstream path and
+    commit, and the original licence text travels with every item.
+  </p>
+
+  <h2>Learned</h2>
+  <div class="grid-2">
+    {
+      learned.map((s) => {
+        const lock = s.lock as Lock;
+        return (
+          <section class="card">
+            <div class="chips">
+              {s.first_party && <span class="chip ok">first-party</span>}
+              {s.licenses.map((l) => <span class="chip">{l}</span>)}
+            </div>
+            <h3 style="margin:10px 0 4px">{s.url ? <a href={s.url}>{s.title}</a> : s.title}</h3>
+            <p style="margin:0 0 10px;color:var(--muted);font-size:.9rem">{s.description}</p>
+            <dl class="facts">
+              <dt>Items</dt>
+              <dd>
+                <a href={`${base}catalog/?source=${s.id}`}>{total(lock)}</a>{" "}
+                <span style="color:var(--muted)">
+                  ({Object.entries(lock?.items ?? {}).map(([k, v]) => `${v} ${k}`).join(", ")})
+                </span>
+              </dd>
+              <dt>Excluded</dt>
+              <dd>{lock?.excluded ? <a href={`${base}excluded/#${s.id}`}>{lock.excluded}</a> : "0"}</dd>
+              <dt>Commit</dt>
+              <dd><code>{shortCommit(lock?.commit)}</code></dd>
+              <dt>Adapter</dt>
+              <dd><code>{s.adapter}</code></dd>
+            </dl>
+          </section>
+        );
+      })
+    }
+  </div>
+
+  {
+    mapped.length > 0 && (
+      <>
+        <h2>Mapped, not yet learned</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Source</th><th>Adapter</th><th>Status</th></tr></thead>
+            <tbody>
+              {mapped.map((s) => (
+                <tr>
+                  <td>{s.url ? <a href={s.url}>{s.title}</a> : s.title}</td>
+                  <td><code>{s.adapter}</code></td>
+                  <td>{s.enabled ? "enabled — awaiting next learn" : "disabled in sources.yaml"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </>
+    )
+  }
+
+  <h2>Evaluated candidates</h2>
+  <p class="lede" style="font-size:.95rem">
+    Repos we looked at, with the licence we found on 2026-10-19 and what we decided. A repo-level licence is
+    never enough on its own: items are still checked one by one.
+  </p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Repository</th><th>Licence found</th><th>Offers</th><th>Decision</th></tr></thead>
+      <tbody>
+        {
+          trove.candidates.map((c) => (
+            <tr>
+              <td><a href={`https://github.com/${c.repo}`}>{c.repo}</a></td>
+              <td>{c.license}</td>
+              <td>{c.offers}</td>
+              <td>{c.decision}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</Layout>

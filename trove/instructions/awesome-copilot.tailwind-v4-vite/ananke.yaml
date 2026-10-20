@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: tailwind-v4-vite
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:tailwind-v4-vite
+summary: Tailwind CSS v4+ installation and configuration for Vite projects using the official @tailwindcss/vite
+  plugin
+description: Tailwind CSS v4+ installation and configuration for Vite projects using the official @tailwindcss/vite
+  plugin
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: tailwind-v4-vite.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/tailwind-v4-vite.instructions.md
+  repository: https://github.com/github/awesome-copilot

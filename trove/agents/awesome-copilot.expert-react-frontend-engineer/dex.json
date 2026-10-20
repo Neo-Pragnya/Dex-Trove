@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/expert-react-frontend-engineer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "expert-react-frontend-engineer",
+  "title": "Expert React Frontend Engineer",
+  "description": "Expert React 19.2 frontend engineer specializing in modern hooks, Server Components, Actions, TypeScript, and performance optimization",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "expert-react-frontend-engineer.agent.md",
+  "dir": "agents/awesome-copilot.expert-react-frontend-engineer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/expert-react-frontend-engineer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/expert-react-frontend-engineer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "expert-react-frontend-engineer.agent.md"
+  ],
+  "entry_hash": "e2c4dd071889ecda11cfba30895e153d6cc10193caf125e683634828985159a8",
+  "content_hash": "40455f00ef82b63cc531a17cbdcdd8c3e5f2f9ae12d7455b9560f959a55d5847",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

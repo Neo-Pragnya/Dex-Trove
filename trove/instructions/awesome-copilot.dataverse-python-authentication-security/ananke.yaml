@@ -1,0 +1,34 @@
+kind: prompt
+namespace: awesome-copilot
+name: dataverse-python-authentication-security
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:dataverse-python-authentication-security
+summary: '# Dataverse SDK for Python — Authentication & Security Patterns Based on official Microsoft Azure SDK
+  authentication documentation and Dataverse SDK best practices. ## 1.'
+description: '# Dataverse SDK for Python — Authentication & Security Patterns Based on official Microsoft Azure
+  SDK authentication documentation and Dataverse SDK best practices. ## 1. Authentication Overview The Dataverse
+  SDK for Python uses Azure Identity credentials for token-based authentication.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dataverse-python-authentication-security.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-authentication-security.instructions.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ai-readiness-reporter",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "ai-readiness-reporter",
+  "title": "ai-readiness-reporter",
+  "description": "Runs the AgentRC readiness assessment on the current repository and produces a self-contained, static HTML dashboard at reports/index.html. Explains every readiness pillar, the maturity level, and an actionable remediation plan, framed by AgentRC measure → generate → maintain loop. Use when asked to assess, audit, score, report on, or visualise the AI readiness of a repo.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "ai-readiness-reporter.agent.md",
+  "dir": "agents/awesome-copilot.ai-readiness-reporter",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/ai-readiness-reporter.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/ai-readiness-reporter.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ai-readiness-reporter.agent.md"
+  ],
+  "entry_hash": "6c804dc8053d64ef3878995d066e6242e9bd3e57d7588ece196569e0c0fbeaea",
+  "content_hash": "757ef08338246f13fa1f743c2117647ad28f09a5041fe0f170c300a1a6552dd7",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

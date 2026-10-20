@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/update-llms",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "update-llms",
+  "title": "Update LLMs.txt File",
+  "description": "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.update-llms",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/update-llms",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/update-llms",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "7377a6b500b054bf41a50b744faba999a44d64dce0201e0a0108ce06e6726fcf",
+  "content_hash": "de93fa23e74764b4a2f35d8c8037769a70f975c9aa426deeb5676344206cc15a",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

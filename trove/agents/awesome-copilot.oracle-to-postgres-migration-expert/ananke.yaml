@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: oracle-to-postgres-migration-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:oracle-to-postgres-migration-expert
+summary: Agent for Oracle-to-PostgreSQL application migrations. Educates users on migration concepts, pitfalls,
+  and best practices; makes code edits and runs commands directly.
+description: Agent for Oracle-to-PostgreSQL application migrations. Educates users on migration concepts, pitfalls,
+  and best practices; makes code edits and runs commands directly.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: oracle-to-postgres-migration-expert.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/oracle-to-postgres-migration-expert.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/dataverse-python-advanced-features",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python-advanced-features",
+  "title": "Dataverse SDK for Python - Advanced Features Guide",
+  "description": "# Dataverse SDK for Python - Advanced Features Guide ## Overview Comprehensive guide to advanced Dataverse SDK features including enums, complex filtering, SQL queries, metadata operations, and production patterns. Based on official Microsoft walkthrough examples. ## 1.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dataverse-python-advanced-features.instructions.md",
+  "dir": "instructions/awesome-copilot.dataverse-python-advanced-features",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dataverse-python-advanced-features.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-advanced-features.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dataverse-python-advanced-features.instructions.md"
+  ],
+  "entry_hash": "3ea4f2104a25131375fab710fc062d6179a0f87f15b4b4eb12e6d25147c0a6b9",
+  "content_hash": "7e468ec274ca4029090756b413b226f86299aed1457ecb5346a821d33f1d52f2",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

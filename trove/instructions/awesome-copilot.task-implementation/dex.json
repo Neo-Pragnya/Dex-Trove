@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/task-implementation",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "task-implementation",
+  "title": "Task Plan Implementation Instructions",
+  "description": "Instructions for implementing task plans with progressive tracking and change record - Brought to you by microsoft/edge-ai",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "task-implementation.instructions.md",
+  "dir": "instructions/awesome-copilot.task-implementation",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/task-implementation.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/task-implementation.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "task-implementation.instructions.md"
+  ],
+  "entry_hash": "fd9a224daaf1b01489b808bbb30e6cf9d7e6653cb975f0ef5f88b40648cdd70b",
+  "content_hash": "02209a70a06eb52a3d2cf44f61b6b4e1f370da9bb62d905392afe5da305ddc97",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/.copilot-tracking/changes/*.md"
+}

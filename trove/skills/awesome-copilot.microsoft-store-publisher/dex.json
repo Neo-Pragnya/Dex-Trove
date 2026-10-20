@@ -1,0 +1,53 @@
+{
+  "id": "awesome-copilot/microsoft-store-publisher",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "microsoft-store-publisher",
+  "title": "Microsoft Store Publisher",
+  "description": "Prepare, validate, submit, and monitor Windows desktop apps in Microsoft Partner Center. Use for MSIX packaging, Store identity, listings, WACK, Partner Center automation, certification, and publishing.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.microsoft-store-publisher",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/microsoft-store-publisher",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/microsoft-store-publisher",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/msix-checklist.md",
+    "references/partner-center-dom.md",
+    "references/submission-playbook.md",
+    "references/worked-example.md",
+    "scripts/inspect-msix.ps1",
+    "scripts/invoke-wack.ps1",
+    "scripts/package.json",
+    "scripts/partner-center-control.mjs",
+    "templates/certification-notes.md",
+    "templates/run-full-trust-rationale.md",
+    "templates/store-listing.md",
+    "templates/submission-record.json"
+  ],
+  "entry_hash": "5e59b0b34dfacd7d9c4cf3ab08f6106f2f8fcc982e1edbe2a1629fc2b81b1c39",
+  "content_hash": "92b5ca5f633da34b22b03ece81c957a24ae24a9d1132235f8b0b17f4acb8eb9d",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

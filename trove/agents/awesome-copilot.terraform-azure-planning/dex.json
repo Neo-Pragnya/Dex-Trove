@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/terraform-azure-planning",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "terraform-azure-planning",
+  "title": "Azure Terraform Infrastructure Planning",
+  "description": "Act as implementation planner for your Azure Terraform Infrastructure as Code task.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "terraform-azure-planning.agent.md",
+  "dir": "agents/awesome-copilot.terraform-azure-planning",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/terraform-azure-planning.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/terraform-azure-planning.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "terraform-azure-planning.agent.md"
+  ],
+  "entry_hash": "749f2328a9836365a3eff14cb362cf1999a233d0ca8de705d7afb92cf8fedda6",
+  "content_hash": "d2b1d4c2b51425375d400aedcdc0be759da028539eead6f6752d97a8a2a8c95d",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

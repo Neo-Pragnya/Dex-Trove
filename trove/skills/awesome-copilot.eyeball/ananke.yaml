@@ -1,0 +1,26 @@
+kind: skill
+namespace: awesome-copilot
+name: eyeball
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:eyeball
+summary: Document analysis with inline source screenshots. When you ask Copilot to analyze a document, Eyeball generates
+  a Word doc where every factual claim includes a highlighted screenshot from the source m…
+description: Document analysis with inline source screenshots. When you ask Copilot to analyze a document, Eyeball
+  generates a Word doc where every factual claim includes a highlighted screenshot from the source material so you
+  can verify it with your own eyes.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/eyeball
+  repository: https://github.com/github/awesome-copilot

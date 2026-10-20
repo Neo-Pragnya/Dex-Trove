@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/salesforce-visualforce",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "salesforce-visualforce",
+  "title": "Salesforce Visualforce Development",
+  "description": "Implement Visualforce pages and controllers following Salesforce MVC architecture and best practices.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "salesforce-visualforce.agent.md",
+  "dir": "agents/awesome-copilot.salesforce-visualforce",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/salesforce-visualforce.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/salesforce-visualforce.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "salesforce-visualforce.agent.md"
+  ],
+  "entry_hash": "f459b47845411eea5b3cca59e9eead45b63b07b261ca81688de210675f969917",
+  "content_hash": "a422165571cb51e14bf7cd870e3882b7b46625dc8244f9b8ae7239dea9908c71",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-skill-creator",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-skill-creator",
+  "title": "gem-skill-creator",
+  "description": "Creates portable Agent Skills from verified reusable patterns. Use when packaging a successful workflow as a skills.sh-compatible SKILL.md.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-skill-creator.agent.md",
+  "dir": "agents/awesome-copilot.gem-skill-creator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-skill-creator.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-skill-creator.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-skill-creator.agent.md"
+  ],
+  "entry_hash": "167b5f66e3815ecb2af73b2b08ad85e1de6f20eff2c47ce5c2c955604c7f220a",
+  "content_hash": "e4afa83d2d3d3193236c799ab6fec639b2ecd28a7238a0d9c9c5db422a873a1e",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

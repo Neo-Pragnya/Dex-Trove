@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: creating-oracle-to-postgres-master-migration-plan
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:creating-oracle-to-postgres-master-migration-plan
+summary: Discovers all projects in a .NET solution, classifies each for Oracle-to-PostgreSQL migration eligibility,
+  and produces a persistent master migration plan.
+description: Discovers all projects in a .NET solution, classifies each for Oracle-to-PostgreSQL migration eligibility,
+  and produces a persistent master migration plan. Use when starting a multi-project Oracle-to-PostgreSQL migration,
+  creating a migration inventory, or assessing which .NET projects contain Oracle dependencies.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/creating-oracle-to-postgres-master-migration-plan
+  repository: https://github.com/github/awesome-copilot

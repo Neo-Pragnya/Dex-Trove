@@ -1,0 +1,26 @@
+kind: tool
+namespace: awesome-copilot
+name: session-logger
+version: 1.0.0
+ananke_id: urn:dex-trove:hook:awesome-copilot:session-logger
+summary: Logs all Copilot coding agent session activity for audit and analysis
+description: Logs all Copilot coding agent session activity for audit and analysis
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - analytics
+  - audit
+  - awesome-copilot
+  - executes-code
+  - hook
+  - logging
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/session-logger
+  repository: https://github.com/github/awesome-copilot

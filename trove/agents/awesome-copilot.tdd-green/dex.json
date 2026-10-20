@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/tdd-green",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "tdd-green",
+  "title": "TDD Green Phase - Make Tests Pass Quickly",
+  "description": "Implement minimal code to satisfy GitHub issue requirements and make failing tests pass without over-engineering.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "tdd-green.agent.md",
+  "dir": "agents/awesome-copilot.tdd-green",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/tdd-green.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/tdd-green.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "tdd-green.agent.md"
+  ],
+  "entry_hash": "4fc9b0de32880d56ffdba6127ed286ea435f9f568091eb6fb8f794878fa7e18c",
+  "content_hash": "fd69be683b256ba33bbff472981d6727d7fe3d21324c8bb2596802d085793e3d",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

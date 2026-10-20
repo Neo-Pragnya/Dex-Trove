@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/harness-engineering",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "harness-engineering",
+  "title": "Harness Engineering",
+  "description": "Adopt repository-level harness engineering for coding agents. Use when a user wants to prevent repeated AI coding-agent mistakes by turning failures into durable instructions, drift checks, regression tests, failure memory, and adoption reports tailored to the target repository.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.harness-engineering",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/harness-engineering",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/harness-engineering",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "536ae3b482b68d818a97e511405c220d3cf3fb87f34bc4d30722dc996f4b064f",
+  "content_hash": "e9de6880b1f6f6f44901982a36d807a326d3933968013e5c79afb3549554561c",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

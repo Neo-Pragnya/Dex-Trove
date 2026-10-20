@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/launchdarkly-flag-cleanup",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "launchdarkly-flag-cleanup",
+  "title": "launchdarkly-flag-cleanup",
+  "description": "A specialized GitHub Copilot agent that uses the LaunchDarkly MCP server to safely automate feature flag cleanup workflows. This agent determines removal readiness, identifies the correct forward value, and creates PRs that preserve production behavior while removing obsolete flags and updating stale defaults.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "launchdarkly-flag-cleanup.agent.md",
+  "dir": "agents/awesome-copilot.launchdarkly-flag-cleanup",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/launchdarkly-flag-cleanup.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/launchdarkly-flag-cleanup.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "launchdarkly-flag-cleanup.agent.md"
+  ],
+  "entry_hash": "c6d8cafbebea6a14d7bdc3d088631cb8bd1de063dd06bd86a3875a64eb9be721",
+  "content_hash": "9e7b427d98e129dc08adf0d5c1c62d9e85fe4831142b3519fe8a03db37757aaa",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

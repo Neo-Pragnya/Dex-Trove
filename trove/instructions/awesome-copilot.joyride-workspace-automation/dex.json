@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/joyride-workspace-automation",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "joyride-workspace-automation",
+  "title": "Joyride Workspace Automation Assistant",
+  "description": "Expert assistance for Joyride Workspace automation - REPL-driven and user space ClojureScript automation within specific VS Code workspaces",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "joyride-workspace-automation.instructions.md",
+  "dir": "instructions/awesome-copilot.joyride-workspace-automation",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/joyride-workspace-automation.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/joyride-workspace-automation.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "joyride-workspace-automation.instructions.md"
+  ],
+  "entry_hash": "68f714261b73138d3e4dbdaccf0767fdaa196b517f363063115a40db13d54e01",
+  "content_hash": "3fe2d7f259bd78caa333b6492f3fcad2918b89b403245f0dc330472e91ff4d61",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/.joyride/**"
+}

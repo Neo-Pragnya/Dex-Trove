@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/aws-well-architected-review",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "aws-well-architected-review",
+  "title": "AWS Well-Architected Review",
+  "description": "Perform an AWS Well-Architected Framework review of the current workload IaC and architecture, generating findings and GitHub issues for improvements.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.aws-well-architected-review",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/aws-well-architected-review",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/aws-well-architected-review",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "bc37c276c66c3305cdbafb766cbdadc153deb69e45e5eb009e2aca904f6359b2",
+  "content_hash": "e63e75c0c3429e78ae8072d0a1089053c06689cbb1ffcf59fdec47762a7b379a",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

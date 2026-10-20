@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/power-bi-performance-troubleshooting",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "power-bi-performance-troubleshooting",
+  "title": "Power BI Performance Troubleshooting Guide",
+  "description": "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.power-bi-performance-troubleshooting",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/power-bi-performance-troubleshooting",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/power-bi-performance-troubleshooting",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "3901de5f09fff6a226b9a458f147875084d2aac30329c3f4c3b1bb3318316921",
+  "content_hash": "385937a48524242928b698c3ab3cfa3683bf035d62f95ae147eab21f0722d6b3",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

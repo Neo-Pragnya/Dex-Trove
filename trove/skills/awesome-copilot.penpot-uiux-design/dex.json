@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/penpot-uiux-design",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "penpot-uiux-design",
+  "title": "Penpot UI/UX Design Guide",
+  "description": "Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or desktop applications, (2) Building design systems with components and tokens, (3) Designing dashboards, forms, navigation, or landing pages, (4) Applying accessibility standards and best practices, (5) Following platform guidelines (iOS, Android, Material Design), (6) Reviewing or improving existing Penpot designs for usability. Triggers: \"design a UI\", \"create interface\", \"build layout\", \"design dashboard\", \"create form\", \"design landing page\", \"make it accessible\", \"design system\", \"component library\".",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.penpot-uiux-design",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/penpot-uiux-design",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/penpot-uiux-design",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/accessibility.md",
+    "references/component-patterns.md",
+    "references/platform-guidelines.md",
+    "references/setup-troubleshooting.md"
+  ],
+  "entry_hash": "d15c5f2607fc96c272738343f58d054357bf54042be36f7d68a1f473fc78bdfe",
+  "content_hash": "961bffc5e2cf5bd1a521edec61f2b7b3a390082999f5cf939b36d7be12734471",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

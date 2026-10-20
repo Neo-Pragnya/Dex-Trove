@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: foundry-hosted-agent-copilotkit
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:foundry-hosted-agent-copilotkit
+summary: Build and evolve agentic web apps that pair a CopilotKit React frontend with a Microsoft Agent Framework
+  agent running as a Microsoft Foundry hosted agent, connected over the AG-UI protocol.
+description: Build and evolve agentic web apps that pair a CopilotKit React frontend with a Microsoft Agent Framework
+  agent running as a Microsoft Foundry hosted agent, connected over the AG-UI protocol. Covers choosing the wiring,
+  using Foundry-native primitives instead of hand-rolled plumbing, agent tools, human-in-the-loop approvals, generative
+  UI and shared state, local run and azd deploy, debugging the event stream, and safe upgrades.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/foundry-hosted-agent-copilotkit
+  repository: https://github.com/github/awesome-copilot

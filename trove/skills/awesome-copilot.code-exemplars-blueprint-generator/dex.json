@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/code-exemplars-blueprint-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "code-exemplars-blueprint-generator",
+  "title": "Code Exemplars Blueprint Generator",
+  "description": "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars. Supports multiple programming languages (.NET, Java, JavaScript, TypeScript, React, Angular, Python) with configurable analysis depth, categorization methods, and documentation formats to establish coding standards and maintain consistency across development teams.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.code-exemplars-blueprint-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/code-exemplars-blueprint-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/code-exemplars-blueprint-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "005a023337c8c7edf7dc55b9317fd246f9093f8d6e7eb9072fff7e2e51b38f95",
+  "content_hash": "3b04a1877bad71fb51701892f6bba695e47992e26257d72153dd246815c10078",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

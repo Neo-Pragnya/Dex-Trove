@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/verify-agent-action",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "verify-agent-action",
+  "title": "Verify Agent Action",
+  "description": "Review a proposed AI-agent action or human-approval packet before execution. Use when an agent wants to run a consequential tool, command, deployment, message, purchase, credential operation, or data mutation; when checking whether approval still matches the exact action; or when auditing action evidence for forged results, parameter swaps, replay, correlated reviewers, missing evidence, expiry, or stale monitoring. Produce an evidence-based review only—never execute or authorize the action.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.verify-agent-action",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/verify-agent-action",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/verify-agent-action",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "13138bebda37fea1fdc235db035a3b43b12545311c20962fe28188b2b8514bb2",
+  "content_hash": "d43e9060e504367d459c7284bd74c7cbd549703f72f29f5a05c73b21a3ab8c25",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

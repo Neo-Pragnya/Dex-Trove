@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/azure-principal-architect",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "azure-principal-architect",
+  "title": "Azure Principal Architect mode instructions",
+  "description": "Provide expert Azure Principal Architect guidance using Azure Well-Architected Framework principles and Microsoft best practices.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-principal-architect.agent.md",
+  "dir": "agents/awesome-copilot.azure-principal-architect",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/azure-principal-architect.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-principal-architect.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-principal-architect.agent.md"
+  ],
+  "entry_hash": "28845359969fc32d34202f1e53376da62ed0c3d14bd3a2d52137ee1f8f9be3a9",
+  "content_hash": "0edcce36767d653eecdb9d1cd9165e4f42381d450c354d83e8bb229dd14dcc74",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

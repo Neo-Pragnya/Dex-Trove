@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/update-docs-on-code-change",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "update-docs-on-code-change",
+  "title": "Update Documentation on Code Change",
+  "description": "Automatically update README.md and documentation files when application code changes require documentation updates",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "update-docs-on-code-change.instructions.md",
+  "dir": "instructions/awesome-copilot.update-docs-on-code-change",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/update-docs-on-code-change.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/update-docs-on-code-change.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "update-docs-on-code-change.instructions.md"
+  ],
+  "entry_hash": "159ee49a9b6ba62f3d8cfb93a93c8e19f344f0571fdeb4462676144766cf0e4f",
+  "content_hash": "c82d3f230005725a3a8d074aca92ca9d5081caf9ef4f3a5ce509f5f72ced0308",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{md,js,mjs,cjs,ts,tsx,jsx,py,java,cs,go,rb,php,rs,cpp,c,h,hpp}"
+}

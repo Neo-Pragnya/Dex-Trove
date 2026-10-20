@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/javascript-typescript-jest",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "javascript-typescript-jest",
+  "title": "javascript-typescript-jest",
+  "description": "Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.javascript-typescript-jest",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/javascript-typescript-jest",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/javascript-typescript-jest",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "cb9a552dfe63cae4f310b27067ba28351b59ad17e83a9e1c5ff23c542ce6fdd8",
+  "content_hash": "e16115a9ffbfcf7a4cbb9c1d49c6169e2427b0cda3d198ce12f17b8456b54620",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

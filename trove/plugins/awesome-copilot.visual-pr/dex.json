@@ -1,0 +1,58 @@
+{
+  "id": "awesome-copilot/visual-pr",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "visual-pr",
+  "title": "Visual PR Plugin",
+  "description": "Capture, annotate, and embed screenshots and animated GIF demos in pull request descriptions. Includes Playwright-based UI capture, PIL image annotations, PR embedding workflows for GitHub and Azure DevOps, and screen recording with variable timing.",
+  "tags": [
+    "annotations",
+    "awesome-copilot",
+    "before-after",
+    "gif",
+    "playwright",
+    "plugin",
+    "pull-request",
+    "screen-recording",
+    "screenshots",
+    "visual"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.visual-pr",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/visual-pr",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/visual-pr",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/image-annotations",
+    "skill:awesome-copilot/pr-screenshots",
+    "skill:awesome-copilot/screen-recording",
+    "skill:awesome-copilot/ui-screenshots"
+  ],
+  "files": [
+    "README.md",
+    "demo/after.png",
+    "demo/before.png",
+    "demo/debug.png",
+    "demo/multi.png",
+    "plugin.json"
+  ],
+  "entry_hash": "b981ca79993bc5ed0fe872b5bfb670c0a57467166e0d3a771e23b45bd9ff0b9d",
+  "content_hash": "29a8c3a98b846c0cf5020b8e20df7f96f2de634dae2e3d31290735b2d528d2a5",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

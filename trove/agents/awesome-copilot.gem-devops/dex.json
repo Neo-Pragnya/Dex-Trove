@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-devops",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-devops",
+  "title": "gem-devops",
+  "description": "Infrastructure deployment, CI/CD pipelines, container management.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-devops.agent.md",
+  "dir": "agents/awesome-copilot.gem-devops",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-devops.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-devops.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-devops.agent.md"
+  ],
+  "entry_hash": "9dd528bd06e1631141153a82610816880452b7ad8011715523bfb5fd6e0e3149",
+  "content_hash": "3ab5200ed4633af5ab9b098fa9f00022bbc6721d88ee73751dd7b1a834ea0d57",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

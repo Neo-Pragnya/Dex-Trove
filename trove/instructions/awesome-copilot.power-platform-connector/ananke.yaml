@@ -1,0 +1,32 @@
+kind: prompt
+namespace: awesome-copilot
+name: power-platform-connector
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:power-platform-connector
+summary: Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions.
+description: Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions.
+  Covers API definitions (Swagger 2.0), API properties, and settings configuration with Microsoft extensions.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: power-platform-connector.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/power-platform-connector.instructions.md
+  repository: https://github.com/github/awesome-copilot

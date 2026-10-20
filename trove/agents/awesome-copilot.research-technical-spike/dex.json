@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/research-technical-spike",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "research-technical-spike",
+  "title": "Technical spike research mode",
+  "description": "Systematically research and validate technical spike documents through exhaustive investigation and controlled experimentation.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "research-technical-spike.agent.md",
+  "dir": "agents/awesome-copilot.research-technical-spike",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/research-technical-spike.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/research-technical-spike.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "research-technical-spike.agent.md"
+  ],
+  "entry_hash": "d094ae33f4e3b42e249491a82530485b0be7949df7ff41c7a9e48cf7a2773740",
+  "content_hash": "59b47754d18248cf0ad2600a6382ca2d9810ea8ad1fa65423d15217cbf23717a",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

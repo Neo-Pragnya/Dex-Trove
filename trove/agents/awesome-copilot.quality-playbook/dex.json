@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/quality-playbook",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "quality-playbook",
+  "title": "quality-playbook",
+  "description": "Run a complete quality engineering audit on any codebase. Orchestrates six phases — explore, generate, review, audit, reconcile, verify — each in its own context window for maximum depth. Then runs iteration strategies to find even more bugs. Finds the 35% of real defects that structural code review alone cannot catch.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "quality-playbook.agent.md",
+  "dir": "agents/awesome-copilot.quality-playbook",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/quality-playbook.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/quality-playbook.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "quality-playbook.agent.md"
+  ],
+  "entry_hash": "8d2258f91710fb07cd850aa7256bb7e90fba9bfed32845c5ab314b5d063fe4b0",
+  "content_hash": "4c249db943ff2c58ad1f376049c855c17b26a55c6c12066bd87b85c0a8417d12",
+  "learned_at": "2026-10-20T04:06:47+00:00"
+}

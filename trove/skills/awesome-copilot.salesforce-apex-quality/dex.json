@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/salesforce-apex-quality",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "salesforce-apex-quality",
+  "title": "Salesforce Apex Quality Guardrails",
+  "description": "Apex code quality guardrails for Salesforce development. Enforces bulk-safety rules (no SOQL/DML in loops), sharing model requirements, CRUD/FLS security, SOQL injection prevention, PNB test coverage (Positive / Negative / Bulk), and modern Apex idioms. Use this skill when reviewing or generating Apex classes, trigger handlers, batch jobs, or test classes to catch governor limit risks, security gaps, and quality issues before deployment.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.salesforce-apex-quality",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/salesforce-apex-quality",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/salesforce-apex-quality",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "1424428af68ba207d5763ac0f885b49741722a1f0e875bb880597f9ea27873a0",
+  "content_hash": "b491148127ff74ec3dbfa4bb9c0d4930f55486368b43fe905bdaffacb59eb002",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

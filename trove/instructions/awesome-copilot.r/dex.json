@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/r",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "r",
+  "title": "R Programming Language Instructions",
+  "description": "R language and document formats (R, Rmd, Quarto): coding standards and Copilot guidance for idiomatic, safe, and consistent code generation.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "r.instructions.md",
+  "dir": "instructions/awesome-copilot.r",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/r.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/r.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "r.instructions.md"
+  ],
+  "entry_hash": "deacac1bb79e31718fe1994f827b5b0a1c4e174f15dc61c866c7aa240beefd19",
+  "content_hash": "5eb36a761dc7285357afe26d29bb79cdac42483f218cf945042dcafd316a233b",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.R, **/*.r, **/*.Rmd, **/*.rmd, **/*.qmd"
+}

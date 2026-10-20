@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/pdftk-server",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "pdftk-server",
+  "title": "PDFtk Server",
+  "description": "Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files. Use when asked to merge PDFs, split PDFs, rotate pages, encrypt or decrypt PDFs, fill PDF forms, apply watermarks, stamp overlays, extract metadata, burst documents into pages, repair corrupted PDFs, attach or extract files, or perform any PDF manipulation from the command line.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.pdftk-server",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/pdftk-server",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/pdftk-server",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/download.md",
+    "references/pdftk-cli-examples.md",
+    "references/pdftk-man-page.md",
+    "references/pdftk-server-license.md",
+    "references/third-party-materials.md"
+  ],
+  "entry_hash": "4fd8d834d63000642697089da926f177f542a0b3a7896dc8d5978ee780939743",
+  "content_hash": "2b47cc25c9d3ee994f7b868a4ba10f393f3084e08c5b40e46a3dd21c494eb78d",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

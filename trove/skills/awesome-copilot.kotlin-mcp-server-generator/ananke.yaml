@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: kotlin-mcp-server-generator
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:kotlin-mcp-server-generator
+summary: Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using
+  the official io.modelcontextprotocol:kotlin-sdk library.
+description: Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation
+  using the official io.modelcontextprotocol:kotlin-sdk library.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/kotlin-mcp-server-generator
+  repository: https://github.com/github/awesome-copilot

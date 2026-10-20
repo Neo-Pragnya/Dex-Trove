@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/automate-this",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "automate-this",
+  "title": "Automate This",
+  "description": "Record your screen doing a manual process, drop the video on your Desktop, and let Copilot CLI analyze it frame-by-frame to build working automation scripts. Supports narrated recordings with audio transcription.",
+  "tags": [
+    "automation",
+    "awesome-copilot",
+    "copilot-cli",
+    "plugin",
+    "process-automation",
+    "productivity",
+    "screen-recording",
+    "scripting",
+    "video-analysis",
+    "workflow"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.automate-this",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/automate-this",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/automate-this",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/automate-this"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "a29dd0bd2e5db54038af09638085fd53cf08420dda9979c7a604d8d8caae310a",
+  "content_hash": "2d1d6f64a77a3c83ebb5761ed7188c1bbe41995f5415716b3ab8844c51ff050a",
+  "learned_at": "2026-10-20T04:06:50+00:00"
+}

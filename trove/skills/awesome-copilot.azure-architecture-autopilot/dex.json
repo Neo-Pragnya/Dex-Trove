@@ -1,0 +1,58 @@
+{
+  "id": "awesome-copilot/azure-architecture-autopilot",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "azure-architecture-autopilot",
+  "title": "Azure Architecture Builder",
+  "description": "Design Azure infrastructure using natural language, or analyze existing Azure resources to auto-generate architecture diagrams, refine them through conversation, and deploy with Bicep.\nWhen to use this skill: - \"Create X on Azure\", \"Set up a RAG architecture\" (new design) - \"Analyze my current Azure infrastructure\", \"Draw a diagram for rg-xxx\" (existing analysis) - \"Foundry is slow\", \"I want to reduce costs\", \"Strengthen security\" (natural language modification) - Azure resource deployment, Bicep template generation, IaC code generation - Microsoft Foundry, AI Search, OpenAI, Fabric, ADLS Gen2, Databricks, and all Azure services",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.azure-architecture-autopilot",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/azure-architecture-autopilot",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/azure-architecture-autopilot",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    ".gitignore",
+    "SKILL.md",
+    "assets/06-architecture-diagram.png",
+    "assets/07-azure-portal-resources.png",
+    "assets/08-deployment-succeeded.png",
+    "references/ai-data.md",
+    "references/architecture-guidance-sources.md",
+    "references/azure-common-patterns.md",
+    "references/azure-dynamic-sources.md",
+    "references/bicep-generator.md",
+    "references/bicep-reviewer.md",
+    "references/phase0-scanner.md",
+    "references/phase1-advisor.md",
+    "references/phase4-deployer.md",
+    "references/service-gotchas.md",
+    "scripts/cli.py",
+    "scripts/generator.py",
+    "scripts/icons.py"
+  ],
+  "entry_hash": "5306e06c35079bcb267e3696f0d40fbf2b7b804e6b3d34f255c3fbc45ae64cda",
+  "content_hash": "a8d430f785deb99b64872b7787824e28b78e85e1450a0ff9dda4152c3c6256fa",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

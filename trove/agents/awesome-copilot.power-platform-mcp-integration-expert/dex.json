@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/power-platform-mcp-integration-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "power-platform-mcp-integration-expert",
+  "title": "Power Platform MCP Integration Expert",
+  "description": "Expert in Power Platform custom connector development with MCP integration for Copilot Studio - comprehensive knowledge of schemas, protocols, and integration patterns",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "power-platform-mcp-integration-expert.agent.md",
+  "dir": "agents/awesome-copilot.power-platform-mcp-integration-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/power-platform-mcp-integration-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/power-platform-mcp-integration-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "power-platform-mcp-integration-expert.agent.md"
+  ],
+  "entry_hash": "5ae5f4aa20d24edb5ec2d82e6db4d3ae320033200b2184dfc9382e754c75537c",
+  "content_hash": "4c21d81d71076de05213656c061be8bf338e9a5e40d37e8ba6fc7cb7576d6ad8",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/shuffle-json-data",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "shuffle-json-data",
+  "title": "Shuffle JSON Data",
+  "description": "Shuffle repetitive JSON objects safely by validating schema consistency before randomising entries.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.shuffle-json-data",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/shuffle-json-data",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/shuffle-json-data",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "00adbbd1ab1f7e525a2f34cfda9fe710c00925920b556751bbfe3a318f9faa3f",
+  "content_hash": "645b122394ccb559ab3557e20fd7d7dea9a1d225e4df6985010b4f719dc57c2b",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

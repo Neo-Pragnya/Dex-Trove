@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/what-context-needed",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "what-context-needed",
+  "title": "What Context Do You Need?",
+  "description": "Ask Copilot what files it needs to see before answering a question",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.what-context-needed",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/what-context-needed",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/what-context-needed",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "65ed7445bf561a5e5199ac77478d2691c05019e0dc32fdddc23db9e45bd9d135",
+  "content_hash": "c181abdce24ba4a9243ffbdbee2d6ab9b9abec091d2850173793c65ff6a15633",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

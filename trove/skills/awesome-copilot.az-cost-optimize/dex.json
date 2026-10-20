@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/az-cost-optimize",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "az-cost-optimize",
+  "title": "Azure Cost Optimize",
+  "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.az-cost-optimize",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/az-cost-optimize",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/az-cost-optimize",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "d27f8311b57d02dedd48a0d563be0964dc458578e4de51b4730516b4e8083829",
+  "content_hash": "622bcb31f7be7eb9b9414006f8ae1f43bf6d3362b9d3e724a130394ade65e2b2",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

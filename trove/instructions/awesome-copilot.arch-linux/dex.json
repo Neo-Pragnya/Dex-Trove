@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/arch-linux",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "arch-linux",
+  "title": "Arch Linux Administration Guidelines",
+  "description": "Guidance for Arch Linux administration, pacman workflows, and rolling-release best practices.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "arch-linux.instructions.md",
+  "dir": "instructions/awesome-copilot.arch-linux",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/arch-linux.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/arch-linux.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "arch-linux.instructions.md"
+  ],
+  "entry_hash": "30308f27f7ccd547343706d13746ebead8083f9f303b13770b1de03f0522ad93",
+  "content_hash": "c629b12dae57b8474e79f4ab245bddc8600f867d0abb83cf9d1fe2fdc2c3e0a3",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**"
+}

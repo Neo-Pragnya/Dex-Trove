@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/dataverse-sdk-for-python",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-sdk-for-python",
+  "title": "Dataverse SDK for Python Plugin",
+  "description": "Comprehensive collection for building production-ready Python integrations with Microsoft Dataverse. Includes official documentation, best practices, advanced features, file operations, and code generation prompts.",
+  "tags": [
+    "awesome-copilot",
+    "dataverse",
+    "integration",
+    "plugin",
+    "python",
+    "sdk"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.dataverse-sdk-for-python",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/dataverse-sdk-for-python",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/dataverse-sdk-for-python",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/dataverse-python-advanced-patterns",
+    "skill:awesome-copilot/dataverse-python-production-code",
+    "skill:awesome-copilot/dataverse-python-quickstart",
+    "skill:awesome-copilot/dataverse-python-usecase-builder"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "210c00a1328c955d54cd77f5b7d1851ebe87e967a0acabd059a3aa376cea1d85",
+  "content_hash": "43d3dbe61976ecceffdcb653e7513c4e0a035ad6d083e3cf73a6452045c919de",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

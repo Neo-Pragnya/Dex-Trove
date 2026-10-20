@@ -1,0 +1,34 @@
+kind: skill
+namespace: awesome-copilot
+name: server-side-conversion-tracking
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:server-side-conversion-tracking
+summary: Set up server-side conversion tracking so purchases are reported accurately to Facebook, TikTok, Google
+  and Bing despite iOS restrictions, ad blockers and cookie loss.
+description: Set up server-side conversion tracking so purchases are reported accurately to Facebook, TikTok, Google
+  and Bing despite iOS restrictions, ad blockers and cookie loss. Use when conversions are under-reported, when
+  platform-reported purchases do not match real orders, when asked about Conversions API / Events API / offline
+  conversions / CAPI, click id passthrough (fbclid, ttclid, gclid, msclkid), or when ad optimization has degraded
+  after tracking changes.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/server-side-conversion-tracking
+  repository: https://github.com/github/awesome-copilot

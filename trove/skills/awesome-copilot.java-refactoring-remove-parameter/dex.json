@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/java-refactoring-remove-parameter",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "java-refactoring-remove-parameter",
+  "title": "Refactoring Java Methods with Remove Parameter",
+  "description": "Refactoring using Remove Parameter in Java Language",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.java-refactoring-remove-parameter",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/java-refactoring-remove-parameter",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-refactoring-remove-parameter",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "40860d758c5a9ce679f4226d6d0c6bd8e6f220157bb2609fa111d2dbaee08c32",
+  "content_hash": "a8265e514ac7f95446874eaffebecb4b9fb95a55bd47f74bb1bca2c7160fe2a1",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/cpp-language-service-tools",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "cpp-language-service-tools",
+  "title": "cpp-language-service-tools",
+  "description": "You are an expert at using C++ language service tools (GetSymbolReferences_CppTools, GetSymbolInfo_CppTools, GetSymbolCallHierarchy_CppTools). Instructions for calling C++ Tools for Copilot. When working with C++ code, you have access to powerful language service tools that provide accurate, IntelliSense-powered analysis. **Always prefer these tools over manual code inspection, text search, or guessing.**",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "cpp-language-service-tools.instructions.md",
+  "dir": "instructions/awesome-copilot.cpp-language-service-tools",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/cpp-language-service-tools.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/cpp-language-service-tools.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cpp-language-service-tools.instructions.md"
+  ],
+  "entry_hash": "fe2819783750c6b11e7e10deec8bfd1cd72a4f724f627b0a9814acd3672fd10b",
+  "content_hash": "e9a66bb4920b0a5d4b33353b92f57c71d1b9fe1267f914b27c5ac9a0028e7731",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.cpp, **/*.h, **/*.hpp, **/*.cc, **/*.cxx, **/*.c"
+}

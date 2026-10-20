@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: tldr-prompt
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:tldr-prompt
+summary: Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers,
+  or documentation from URLs and queries.
+description: Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers,
+  or documentation from URLs and queries.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/tldr-prompt
+  repository: https://github.com/github/awesome-copilot

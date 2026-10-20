@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/react18-class-surgeon",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "react18-class-surgeon",
+  "title": "react18-class-surgeon",
+  "description": "Class component migration specialist for React 16/17 → 18.3.1. Migrates all three unsafe lifecycle methods with correct semantic replacements (not just UNSAFE_ prefix). Migrates legacy context to createContext, string refs to React.createRef(), findDOMNode to direct refs, and ReactDOM.render to createRoot. Uses memory to checkpoint per-file progress.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "react18-class-surgeon.agent.md",
+  "dir": "agents/awesome-copilot.react18-class-surgeon",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/react18-class-surgeon.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react18-class-surgeon.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "react18-class-surgeon.agent.md"
+  ],
+  "entry_hash": "17fa53e395a3540a48a43ffd7cb35ce4ea8b04e43f88600c857409b4f2385bae",
+  "content_hash": "bcde981fdc0b74f4899d92f9cc899e8cfbff9a08d78fe6c3730bd9b26c536156",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

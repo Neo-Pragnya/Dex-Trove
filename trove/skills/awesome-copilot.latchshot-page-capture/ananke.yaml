@@ -1,0 +1,27 @@
+kind: skill
+namespace: awesome-copilot
+name: latchshot-page-capture
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:latchshot-page-capture
+summary: Use this skill when a user needs a screenshot, website thumbnail, full-page capture, or PDF of a public
+  HTTP(S) webpage saved as a local artifact through Latchshot, including report, QA, archive, and…
+description: Use this skill when a user needs a screenshot, website thumbnail, full-page capture, or PDF of a public
+  HTTP(S) webpage saved as a local artifact through Latchshot, including report, QA, archive, and social-preview
+  workflows. Do not use it for private or authenticated pages, raw HTML, scraping or extraction, arbitrary browser
+  actions, CAPTCHA or anti-bot bypass, or local-file capture.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/latchshot-page-capture
+  repository: https://github.com/github/awesome-copilot

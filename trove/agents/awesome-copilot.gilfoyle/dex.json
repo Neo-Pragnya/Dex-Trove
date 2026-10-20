@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gilfoyle",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gilfoyle",
+  "title": "Gilfoyle Code Review Mode",
+  "description": "Code review and analysis with the sardonic wit and technical elitism of Bertram Gilfoyle from Silicon Valley. Prepare for brutal honesty about your code.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gilfoyle.agent.md",
+  "dir": "agents/awesome-copilot.gilfoyle",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gilfoyle.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gilfoyle.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gilfoyle.agent.md"
+  ],
+  "entry_hash": "e90eda749f2396b13fb8245ee4b94f19eb1ef4b09433021f004b1b4bc0e1e7d8",
+  "content_hash": "f887e58f875dfd6dccbf43c6e9109155b5bd55d9fb97173664b2c483ca078f9b",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

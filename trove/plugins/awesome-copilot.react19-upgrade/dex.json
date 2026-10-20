@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot/react19-upgrade",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "react19-upgrade",
+  "title": "React 19 Upgrade Plugin",
+  "description": "Enterprise React 19 migration toolkit with specialized agents and skills for upgrading React 18 codebases to React 19. Includes auditor, dependency surgeon, source code migrator, and test guardian. Handles removal of deprecated APIs including ReactDOM.render, forwardRef, defaultProps, legacy context, string refs, and more.",
+  "tags": [
+    "awesome-copilot",
+    "hooks",
+    "migration",
+    "modern-react",
+    "plugin",
+    "react",
+    "react19",
+    "upgrade"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.react19-upgrade",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/react19-upgrade",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/react19-upgrade",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/react19-concurrent-patterns",
+    "skill:awesome-copilot/react19-source-patterns",
+    "skill:awesome-copilot/react19-test-patterns",
+    "agent:awesome-copilot/react19-auditor",
+    "agent:awesome-copilot/react19-commander",
+    "agent:awesome-copilot/react19-dep-surgeon",
+    "agent:awesome-copilot/react19-migrator",
+    "agent:awesome-copilot/react19-test-guardian"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "24ffcbbd14fcf8c469d6d2c95ea2e1cf7ef382ff763c62fc173012414d3f6458",
+  "content_hash": "9fe5b7116db98991c4b05f79b793e95f1be2ef19271c2c17cd1ddba94a3bc435",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

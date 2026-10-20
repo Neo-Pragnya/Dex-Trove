@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: convert-word-to-md
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:convert-word-to-md
+summary: Converts Word (.docx) documents into Markdown so their contents can be accurately analyzed, summarized,
+  searched, or extracted from.
+description: 'Converts Word (.docx) documents into Markdown so their contents can be accurately analyzed, summarized,
+  searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .docx file —
+  even if they don''t say "convert" or "markdown" explicitly. This includes requests to "read", "summarize", "review",
+  "extract data from", "compare", or "analyze" a Word document, resume, report, contract, or proposal. Always run
+  the bundled conversion script to produce Markdown first; do not attempt to parse .docx content directly or write
+  ad-hoc conversion code. Also use this skill for batch requests involving a whole folder of Word documents. IMPORTANT:
+  When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke
+  ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no file type is
+  silently skipped.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/convert-word-to-md
+  repository: https://github.com/github/awesome-copilot

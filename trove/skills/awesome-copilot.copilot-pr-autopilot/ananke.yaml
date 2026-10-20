@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: copilot-pr-autopilot
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:copilot-pr-autopilot
+summary: Copilot left 14 review comments on your PR — half are nits. Hours of fix → reply → resolve → re-request,
+  and each round lands MORE comments.
+description: 'Copilot left 14 review comments on your PR — half are nits. Hours of fix → reply → resolve → re-request,
+  and each round lands MORE comments. This skill runs loop engineering: auto-triggers Copilot Code Review via GraphQL
+  (no @copilot mention), triages every open thread (Copilot, humans, advanced-security) with a fix / decline / escalate
+  rubric, dispatches parallel fix sub-agents that obey the repo build/test/lint conventions, commits per iteration,
+  replies+resolves citing the pushed SHA, then re-triggers until HEAD is reviewed with zero threads awaiting the
+  agent''s reply (remaining open threads are explicit hand-offs to the human — escalated declines, design tradeoffs).
+  You merge a clean PR; the bot runs it. Trigger phrases: "address copilot comments", "run a copilot review loop",
+  "fix this PR", "iterate on copilot feedback". Repo-agnostic, gh CLI + PowerShell. Full autopilot needs repo Triage/Write;
+  external PR authors get single-iteration mode plus manual re-trigger (UI 🔄 or substantive-commit push).'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/copilot-pr-autopilot
+  repository: https://github.com/github/awesome-copilot

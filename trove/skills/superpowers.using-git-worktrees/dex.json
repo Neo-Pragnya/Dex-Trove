@@ -1,0 +1,40 @@
+{
+  "id": "superpowers/using-git-worktrees",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "using-git-worktrees",
+  "title": "Using Git Worktrees",
+  "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+  "tags": [
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.using-git-worktrees",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/using-git-worktrees",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/using-git-worktrees",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+  "content_hash": "a36cf677015cb8f4ffca228045fc681561a16bfb1a34822bfd8fb1f8edb2a66b",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

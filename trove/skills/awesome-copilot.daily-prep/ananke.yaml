@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: daily-prep
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:daily-prep
+summary: Prepare for tomorrow's meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open
+  tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds l…
+description: Prepare for tomorrow's meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references
+  open tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds learning and
+  deep-work slots, and generates a structured HTML prep file with productivity recommendations.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/daily-prep
+  repository: https://github.com/github/awesome-copilot

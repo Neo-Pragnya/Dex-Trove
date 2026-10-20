@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/java-refactoring-extract-method",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "java-refactoring-extract-method",
+  "title": "Refactoring Java Methods with Extract Method",
+  "description": "Refactoring using Extract Methods in Java Language",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.java-refactoring-extract-method",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/java-refactoring-extract-method",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-refactoring-extract-method",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "4f23304d1c3ea81035cae02381e6f6bf70d4652a46990cfd71620f384ad78a2b",
+  "content_hash": "0564dbf3b2015b028110ee46a421b2a31d9a37059fe5841c57173950215a4d0f",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

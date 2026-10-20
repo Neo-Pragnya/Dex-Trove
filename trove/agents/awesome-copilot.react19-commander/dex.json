@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/react19-commander",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "react19-commander",
+  "title": "react19-commander",
+  "description": "Master orchestrator for React 19 migration. Invokes specialist subagents in sequence - auditor, dep-surgeon, migrator, test-guardian - and gates advancement between steps. Uses memory to track migration state across the pipeline. Zero tolerance for incomplete migrations.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "react19-commander.agent.md",
+  "dir": "agents/awesome-copilot.react19-commander",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/react19-commander.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react19-commander.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "react19-commander.agent.md"
+  ],
+  "entry_hash": "dbf053bb4d94dacb9095a01279637f5b37d776138192aeae770fa988194d4e89",
+  "content_hash": "73f5617273e7f12f670ee36776beaf569e0f7344cf3781298c640dc7f16a7649",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

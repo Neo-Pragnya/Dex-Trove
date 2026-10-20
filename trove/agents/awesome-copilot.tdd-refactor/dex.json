@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/tdd-refactor",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "tdd-refactor",
+  "title": "TDD Refactor Phase - Improve Quality & Security",
+  "description": "Improve code quality, apply security best practices, and enhance design whilst maintaining green tests and GitHub issue compliance.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "tdd-refactor.agent.md",
+  "dir": "agents/awesome-copilot.tdd-refactor",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/tdd-refactor.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/tdd-refactor.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "tdd-refactor.agent.md"
+  ],
+  "entry_hash": "4b1826279cb527534b6c0bcc54710d636bf870ab73da429f6f5cabdc085c5792",
+  "content_hash": "def88e8963b1a650a86cefe1d0809dfcfa5657a77f52cd6f61ba6faa4e2498c9",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

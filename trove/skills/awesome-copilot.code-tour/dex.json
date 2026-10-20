@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/code-tour",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "code-tour",
+  "title": "Code Tour Skill",
+  "description": "Use this skill to create CodeTour .tour files — persona-targeted, step-by-step walkthroughs that link to real files and line numbers. Trigger for: \"create a tour\", \"make a code tour\", \"generate a tour\", \"onboarding tour\", \"tour for this PR\", \"tour for this bug\", \"RCA tour\", \"architecture tour\", \"explain how X works\", \"vibe check\", \"PR review tour\", \"contributor guide\", \"help someone ramp up\", or any request for a structured walkthrough through code. Supports 20 developer personas (new joiner, bug fixer, architect, PR reviewer, vibecoder, security reviewer, and more), all CodeTour step types (file/line, selection, pattern, uri, commands, view), and tour-level fields (ref, isPrimary, nextTour). Works with any repository in any language.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.code-tour",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/code-tour",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/code-tour",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/codetour-schema.json",
+    "references/examples.md",
+    "scripts/generate_from_docs.py",
+    "scripts/validate_tour.py"
+  ],
+  "entry_hash": "365f0d06c564e6bb0f950a28f92e875780d4f0fef0ff6b86e05151a17f658f09",
+  "content_hash": "845548a48e3e4aa0d2e2182ba05fd9cd7fcdeba5cb812a7bdd0074b28be97022",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

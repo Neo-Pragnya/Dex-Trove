@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/vuejs-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "vuejs-expert",
+  "title": "Expert Vue.js Frontend Engineer",
+  "description": "Expert Vue.js frontend engineer specializing in Vue 3 Composition API, reactivity, state management, testing, and performance with TypeScript",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "vuejs-expert.agent.md",
+  "dir": "agents/awesome-copilot.vuejs-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/vuejs-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/vuejs-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "vuejs-expert.agent.md"
+  ],
+  "entry_hash": "057dcddab1ef3b7b61798d60d98f98a87381a9cf5caefe16959754fb3bc7a110",
+  "content_hash": "ff5ee5ff5206ca04dd94f00dfe373be0f4f8a89ae6d0fcfa1b8ee4ffe72ca37c",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

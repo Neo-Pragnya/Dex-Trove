@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/sql-optimization",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "sql-optimization",
+  "title": "SQL Performance Optimization Assistant",
+  "description": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.sql-optimization",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/sql-optimization",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/sql-optimization",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "d87639dea8e0208e2161b78b22f6427b0fdf59e95e693b40d48b1226a0c35ccf",
+  "content_hash": "916e2f95ad8666979d794e14c84c97cc62f944bd158d748bb0f63723e20281df",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

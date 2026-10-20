@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/create-agentsmd",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "create-agentsmd",
+  "title": "Create high‑quality AGENTS.md file",
+  "description": "Prompt for generating an AGENTS.md file for a repository",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.create-agentsmd",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/create-agentsmd",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-agentsmd",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "97b71d3f7c5e30e9f1740fcd7a45d4bf107b7887947cfd3ab92ac99dee294855",
+  "content_hash": "afd1cacf8b3e04f9e0e0aa8e2bc02720296b22417eb6083098dae72003150788",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

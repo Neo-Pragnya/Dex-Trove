@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: react19-source-patterns
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:react19-source-patterns
+summary: Reference for React 19 source-file migration patterns, including API changes, ref handling, and context
+  updates.
+description: Reference for React 19 source-file migration patterns, including API changes, ref handling, and context
+  updates.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react19-source-patterns
+  repository: https://github.com/github/awesome-copilot

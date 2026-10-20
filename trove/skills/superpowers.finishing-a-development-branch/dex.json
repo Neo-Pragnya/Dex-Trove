@@ -1,0 +1,40 @@
+{
+  "id": "superpowers/finishing-a-development-branch",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "finishing-a-development-branch",
+  "title": "Finishing a Development Branch",
+  "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+  "tags": [
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.finishing-a-development-branch",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/finishing-a-development-branch",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/finishing-a-development-branch",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+  "content_hash": "df4f51fe0aac979dbc1d8cc3cf4b6cecc2eaa7e1c8fd177a38ecf7be423dcb15",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

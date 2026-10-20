@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/unit-test-vue-pinia",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "unit-test-vue-pinia",
+  "title": "unit-test-vue-pinia",
+  "description": "Write and review unit tests for Vue 3 + TypeScript + Vitest + Pinia codebases. Use when creating or updating tests for components, composables, and stores; mocking Pinia with createTestingPinia; applying Vue Test Utils patterns; and enforcing black-box assertions over implementation details.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.unit-test-vue-pinia",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/unit-test-vue-pinia",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/unit-test-vue-pinia",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/pinia-patterns.md"
+  ],
+  "entry_hash": "4239e4c27c148bf4bbafd338bf8aeeb7993eda9e544eb80f0f15c68d5536e167",
+  "content_hash": "ae0757598c963cd8fe4cbd6eb4f4111a248a7c0016f2bb4727e027b3c64ec1aa",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

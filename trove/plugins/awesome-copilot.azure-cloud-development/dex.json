@@ -1,0 +1,61 @@
+{
+  "id": "awesome-copilot/azure-cloud-development",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "azure-cloud-development",
+  "title": "Azure & Cloud Development Plugin",
+  "description": "Comprehensive Azure cloud development tools including Infrastructure as Code, serverless functions, architecture patterns, and cost optimization for building scalable cloud applications.",
+  "tags": [
+    "architecture",
+    "awesome-copilot",
+    "azure",
+    "bicep",
+    "cloud",
+    "devops",
+    "infrastructure",
+    "plugin",
+    "serverless",
+    "terraform"
+  ],
+  "version": "1.0.1",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.azure-cloud-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/azure-cloud-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/azure-cloud-development",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/az-cost-optimize",
+    "skill:awesome-copilot/azure-pricing",
+    "skill:awesome-copilot/azure-resource-health-diagnose",
+    "skill:awesome-copilot/import-infrastructure-as-code",
+    "agent:awesome-copilot/azure-logic-apps-expert",
+    "agent:awesome-copilot/azure-principal-architect",
+    "agent:awesome-copilot/azure-saas-architect",
+    "agent:awesome-copilot/azure-verified-modules-bicep",
+    "agent:awesome-copilot/azure-verified-modules-terraform",
+    "agent:awesome-copilot/terraform-azure-implement",
+    "agent:awesome-copilot/terraform-azure-planning"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "223b5c6fc92540068f6db8af691246591024ac6a101e29206e5bedb1d83beef9",
+  "content_hash": "4b4b00e06a1cd9299810f112c9c78aa795cbe056fdbd867dfb15bf131b7c627f",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

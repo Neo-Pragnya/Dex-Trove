@@ -1,0 +1,29 @@
+kind: skill
+namespace: awesome-copilot
+name: datanalysis-credit-risk
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:datanalysis-credit-risk
+summary: Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with
+  raw credit data that needs quality assessment, missing value analysis, or variable selection befo…
+description: Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with
+  raw credit data that needs quality assessment,  missing value analysis, or variable selection before modeling.
+  it covers data loading and formatting, abnormal period filtering, missing rate calculation, high-missing variable
+  removal,low-IV variable filtering, high-PSI variable removal, Null Importance denoising, high-correlation variable
+  removal, and cleaning report generation. Applicable scenarios arecredit risk data cleaning, variable screening,
+  pre-loan modeling preprocessing.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/datanalysis-credit-risk
+  repository: https://github.com/github/awesome-copilot

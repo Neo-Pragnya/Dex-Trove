@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/roundup-setup",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "roundup-setup",
+  "title": "Roundup Setup",
+  "description": "Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized status briefings. Paste in examples of updates you already write, answer a few questions, and roundup calibrates itself to your workflow.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.roundup-setup",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/roundup-setup",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/roundup-setup",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/config-template.md"
+  ],
+  "entry_hash": "c5f936c3e8a5b0884cbe89e8cdd9d93b16b359ff5510cfa3f9b0539165a5ce20",
+  "content_hash": "e5d6948e665cd801b5d775470f64e53161aec61bfb95bbbce72ab658b43cfced",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

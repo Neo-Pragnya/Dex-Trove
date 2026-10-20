@@ -1,0 +1,35 @@
+kind: skill
+namespace: awesome-copilot
+name: autoresearch
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:autoresearch
+summary: Autonomous iterative experimentation loop for any programming task. Guides the user through defining goals,
+  measurable metrics, and scope constraints, then runs an autonomous loop of code changes, tes…
+description: 'Autonomous iterative experimentation loop for any programming task. Guides the user through defining
+  goals, measurable metrics, and scope constraints, then runs an autonomous loop of code changes, testing, measuring,
+  and keeping/discarding results. Inspired by Karpathy''s autoresearch. USE FOR: autonomous improvement, iterative
+  optimization, experiment loop, auto research, performance tuning, automated experimentation, hill climbing, try
+  things automatically, optimize code, run experiments, autonomous coding loop. DO NOT USE FOR: one-shot tasks,
+  simple bug fixes, code review, or tasks without a measurable metric.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/autoresearch
+  repository: https://github.com/github/awesome-copilot

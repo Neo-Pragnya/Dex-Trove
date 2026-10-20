@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/copilot-sdk",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "copilot-sdk",
+  "title": "GitHub Copilot SDK",
+  "description": "Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents in apps, creating custom tools, implementing streaming responses, managing sessions, connecting to MCP servers, or creating custom agents. Triggers on Copilot SDK, GitHub SDK, agentic app, embed Copilot, programmable agent, MCP server, custom agent.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.copilot-sdk",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/copilot-sdk",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/copilot-sdk",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "5b432db55670223935a19215850f0e1e094db2026f1aa880f7d7b978fc48a42f",
+  "content_hash": "4c250b86e65e1103d20e6ae0e6fc480995aa889bf3f18095fb64b1a75f727779",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

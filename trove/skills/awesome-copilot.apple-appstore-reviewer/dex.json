@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/apple-appstore-reviewer",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "apple-appstore-reviewer",
+  "title": "Apple App Store Review Specialist",
+  "description": "Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.apple-appstore-reviewer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/apple-appstore-reviewer",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/apple-appstore-reviewer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "09cb2403169f3789733648751cb93b16e6cb314e064d68d44cfca98cfe518e4e",
+  "content_hash": "5fdf68185277e0b66357bb7a00148ed59c2c16e114301ab568db8d46f3ec8ad7",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

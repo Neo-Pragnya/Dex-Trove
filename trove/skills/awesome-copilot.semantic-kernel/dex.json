@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/semantic-kernel",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "semantic-kernel",
+  "title": "Semantic Kernel",
+  "description": "Create, update, refactor, explain, or review Semantic Kernel solutions using shared guidance plus language-specific references for .NET and Python.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.semantic-kernel",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/semantic-kernel",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/semantic-kernel",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/dotnet.md",
+    "references/python.md"
+  ],
+  "entry_hash": "cf85400071b8b052618541a2a450e7d3299d7af08ae9db08108f1d4d5111c11e",
+  "content_hash": "61d3458a9ba714ff0a5083e319b9c1c025aca16a16a2b53837470979b269492e",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: react19-test-guardian
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:react19-test-guardian
+summary: Test suite fixer and verification specialist. Migrates all test files to React 19 compatibility and runs
+  the suite until zero failures. Uses memory to track per-file fix progress and failure history.
+description: Test suite fixer and verification specialist. Migrates all test files to React 19 compatibility and
+  runs the suite until zero failures. Uses memory to track per-file fix progress and failure history. Does not stop
+  until npm test reports 0 failures. Invoked as a subagent by react19-commander.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: react19-test-guardian.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react19-test-guardian.agent.md
+  repository: https://github.com/github/awesome-copilot

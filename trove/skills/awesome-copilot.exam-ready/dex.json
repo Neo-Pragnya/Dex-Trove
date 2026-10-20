@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/exam-ready",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "exam-ready",
+  "title": "exam-ready",
+  "description": "Activate this skill when a student provides study material (PDF or pasted notes) and a syllabus, and wants to prepare for an exam. Extracts key definitions, points, keywords, diagrams, exam-ready sentences, and practice questions strictly from the provided material.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.exam-ready",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/exam-ready",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/exam-ready",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "c3551239018434cb3cf080ce505b279efeaca8211a5c2d513d7c91b1a157e2ad",
+  "content_hash": "c946d90b255c66e4916d452766fe1575cd43051920491af9486094aaf3ff3147",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

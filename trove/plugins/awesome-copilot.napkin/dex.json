@@ -1,0 +1,53 @@
+{
+  "id": "awesome-copilot/napkin",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "napkin",
+  "title": "Napkin — Visual Whiteboard for Copilot CLI",
+  "description": "Visual whiteboard collaboration for Copilot CLI. Opens an interactive whiteboard in your browser where you can draw, sketch, and add sticky notes — then share everything back with Copilot. Copilot sees your drawings and responds with analysis, suggestions, and ideas.",
+  "tags": [
+    "accessibility",
+    "awesome-copilot",
+    "brainstorming",
+    "collaboration",
+    "copilot-cli",
+    "drawing",
+    "non-technical",
+    "plugin",
+    "sticky-notes",
+    "ux",
+    "visual",
+    "whiteboard"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.napkin",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/napkin",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/napkin",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/napkin"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "ebf60854d279f53ed2eb40ddde013e20211d9c6bc3240b783e45dfd2bf70cbc2",
+  "content_hash": "86973410e5f8bde3cfe4f3b4e9977a8a151b4389a17bed9f872f1750dd347841",
+  "learned_at": "2026-10-20T04:06:50+00:00"
+}

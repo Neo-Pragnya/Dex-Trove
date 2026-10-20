@@ -1,0 +1,59 @@
+{
+  "id": "awesome-copilot/aws-cloud-development",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "aws-cloud-development",
+  "title": "AWS Cloud Development Plugin",
+  "description": "Comprehensive AWS cloud development tools including Infrastructure as Code, serverless functions, architecture patterns, and cost optimization for building scalable cloud applications.",
+  "tags": [
+    "architecture",
+    "awesome-copilot",
+    "aws",
+    "cdk",
+    "cloud",
+    "cloudformation",
+    "devops",
+    "infrastructure",
+    "plugin",
+    "serverless",
+    "terraform"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.aws-cloud-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/aws-cloud-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/aws-cloud-development",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/aws-cost-optimize",
+    "skill:awesome-copilot/aws-resource-health-diagnose",
+    "skill:awesome-copilot/aws-resource-query",
+    "skill:awesome-copilot/aws-well-architected-review",
+    "agent:awesome-copilot/aws-principal-architect",
+    "agent:awesome-copilot/aws-serverless-architect",
+    "agent:awesome-copilot/terraform-aws-implement",
+    "agent:awesome-copilot/terraform-aws-planning"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "e242fcd94883f4996b8f0b7bc86a400865edabc8ceed3e8eb29b40e674478b35",
+  "content_hash": "e054fa0fa54b5934179befef069b01f94dacc6c9fe258a268f817e659587ae20",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

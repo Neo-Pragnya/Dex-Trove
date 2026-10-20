@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: power-platform-mcp-development
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:power-platform-mcp-development
+summary: Instructions for developing Power Platform custom connectors with Model Context Protocol (MCP) integration
+  for Microsoft Copilot Studio
+description: Instructions for developing Power Platform custom connectors with Model Context Protocol (MCP) integration
+  for Microsoft Copilot Studio
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: power-platform-mcp-development.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/power-platform-mcp-development.instructions.md
+  repository: https://github.com/github/awesome-copilot

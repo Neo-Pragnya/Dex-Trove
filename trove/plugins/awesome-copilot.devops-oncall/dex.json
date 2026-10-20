@@ -1,0 +1,49 @@
+{
+  "id": "awesome-copilot/devops-oncall",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "devops-oncall",
+  "title": "DevOps On-Call Plugin",
+  "description": "A focused set of prompts, instructions, and a chat mode to help triage incidents and respond quickly with DevOps tools and Azure resources.",
+  "tags": [
+    "awesome-copilot",
+    "azure",
+    "devops",
+    "incident-response",
+    "oncall",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.devops-oncall",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/devops-oncall",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/devops-oncall",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/azure-resource-health-diagnose",
+    "skill:awesome-copilot/multi-stage-dockerfile",
+    "agent:awesome-copilot/azure-principal-architect"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "6ecb6b4c9fd3a5bd86430c96df2aa7f4f4282e83c6c445b049053fab96005e9c",
+  "content_hash": "8373495fa13f3e0c2cf6fed0fa73bcdda07a934eb6191c5282815533d505fd2e",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

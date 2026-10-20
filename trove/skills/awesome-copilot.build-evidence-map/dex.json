@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/build-evidence-map",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "build-evidence-map",
+  "title": "Build Evidence Map",
+  "description": "Build an auditable evidence map for a contested technical choice, research synthesis, proposal review, or consequential decision. Use when Copilot must preserve supporting, contradicting, qualifying, and missing evidence with exact source regions instead of collapsing disagreement into prose.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.build-evidence-map",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/build-evidence-map",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/build-evidence-map",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/evidence-ladder.md",
+    "references/map-schema.md",
+    "scripts/contract.mjs",
+    "scripts/validate.mjs"
+  ],
+  "entry_hash": "fb104196d94a0530eb5b86c56edfdaac0954a842f7cc71dfd4dcf87b20675fc9",
+  "content_hash": "a5afd29c2edbe14dc40f2c3793642db703131fd1bf418940de2e30c8b45d0e94",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

@@ -1,0 +1,29 @@
+kind: tool
+namespace: awesome-copilot
+name: attester-import-check
+version: 1.0.0
+ananke_id: urn:dex-trove:hook:awesome-copilot:attester-import-check
+summary: Verifies PyPI and npm package names against the attester.dev existence oracle before the Copilot coding
+  agent writes them into code, blocking hallucinated dependencies
+description: Verifies PyPI and npm package names against the attester.dev existence oracle before the Copilot coding
+  agent writes them into code, blocking hallucinated dependencies
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - dependencies
+  - executes-code
+  - hook
+  - pretooluse
+  - security
+  - supply-chain
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/attester-import-check
+  repository: https://github.com/github/awesome-copilot

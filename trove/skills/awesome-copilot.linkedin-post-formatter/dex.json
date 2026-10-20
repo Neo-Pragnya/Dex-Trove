@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/linkedin-post-formatter",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "linkedin-post-formatter",
+  "title": "LinkedIn Post Formatter",
+  "description": "Format and draft compelling LinkedIn posts using Unicode bold/italic styling, visual separators, structured sections, and engagement-optimized patterns. USE FOR: draft LinkedIn post, format text for LinkedIn, create social media post, write thought leadership post, convert content to LinkedIn format, LinkedIn carousel text, Unicode bold italic formatting.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.linkedin-post-formatter",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/linkedin-post-formatter",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/linkedin-post-formatter",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/unicode-charmap.md"
+  ],
+  "entry_hash": "10fbdf86b0e01ea59922138ff7d6568d1b5a70a7aafd902c31ac4c45d96a19a9",
+  "content_hash": "c04838ca6766e561e521270753c9cdc4bfb3a99e31515b92eaef0e62692104b4",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

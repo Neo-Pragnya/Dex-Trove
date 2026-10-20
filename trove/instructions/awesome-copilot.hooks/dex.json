@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/hooks",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "hooks",
+  "title": "Hook Authoring Guidelines",
+  "description": "Portable guidance for authoring safe, fast, and clear hooks and reusable hook examples",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "hooks.instructions.md",
+  "dir": "instructions/awesome-copilot.hooks",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/hooks.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/hooks.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "hooks.instructions.md"
+  ],
+  "entry_hash": "2276d4da548aeb22ace1f014543d63b3f15f8e818aea55d2f33dd1f57d64ea9f",
+  "content_hash": "7a41260f9561bb69103844edefbbb948f5ef97502306500374dec76e608a97a1",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": ".github/hooks/**, hooks/**"
+}

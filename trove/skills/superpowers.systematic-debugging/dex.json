@@ -1,0 +1,51 @@
+{
+  "id": "superpowers/systematic-debugging",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "systematic-debugging",
+  "title": "Systematic Debugging",
+  "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+  "tags": [
+    "executes-code",
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.systematic-debugging",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/systematic-debugging",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/systematic-debugging",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "CREATION-LOG.md",
+    "SKILL.md",
+    "condition-based-waiting-example.ts",
+    "condition-based-waiting.md",
+    "defense-in-depth.md",
+    "find-polluter.sh",
+    "root-cause-tracing.md",
+    "test-academic.md",
+    "test-pressure-1.md",
+    "test-pressure-2.md",
+    "test-pressure-3.md"
+  ],
+  "entry_hash": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+  "content_hash": "da481860177031f4399c51fe752f550c28d5430381dd2ed23810185d10747fe3",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

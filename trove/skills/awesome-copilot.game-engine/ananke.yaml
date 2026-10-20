@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: game-engine
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:game-engine
+summary: Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript.
+description: Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript.
+  Use when asked to create games, build game engines, implement game physics, handle collision detection, set up
+  game loops, manage sprites, add game controls, or work with 2D/3D rendering. Covers techniques for platformers,
+  breakout-style games, maze games, tilemaps, audio, multiplayer via WebRTC, and publishing games.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/game-engine
+  repository: https://github.com/github/awesome-copilot

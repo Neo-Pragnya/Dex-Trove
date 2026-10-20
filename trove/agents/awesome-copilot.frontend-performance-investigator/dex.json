@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/frontend-performance-investigator",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "frontend-performance-investigator",
+  "title": "Frontend Performance Investigator",
+  "description": "Runtime web-performance specialist for diagnosing Core Web Vitals, Lighthouse regressions, layout shifts, long tasks, and slow network paths with Chrome DevTools MCP.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "frontend-performance-investigator.agent.md",
+  "dir": "agents/awesome-copilot.frontend-performance-investigator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/frontend-performance-investigator.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/frontend-performance-investigator.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "frontend-performance-investigator.agent.md"
+  ],
+  "entry_hash": "fa370a3a79c6d22f96e230a15dc9f640bc879eecb2d238c8dc3e07a8b5e0e7cd",
+  "content_hash": "85bf160ed8777bd8f6b03063879c5d41484039fc9e7c43aff084c2a4b23dd77f",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

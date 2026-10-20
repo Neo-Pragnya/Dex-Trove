@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/dataverse-python-api-reference",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python-api-reference",
+  "title": "Dataverse SDK for Python — API Reference Guide",
+  "description": "# Dataverse SDK for Python — API Reference Guide ## DataverseClient Class Main client for interacting with Dataverse. Initialize with base URL and Azure credentials. ### Key Methods #### create(table_schema_name, records) Create single or bulk records. Returns list of GUIDs.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dataverse-python-api-reference.instructions.md",
+  "dir": "instructions/awesome-copilot.dataverse-python-api-reference",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dataverse-python-api-reference.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-api-reference.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dataverse-python-api-reference.instructions.md"
+  ],
+  "entry_hash": "6910902bc4d3b4505f4d61baeff1f4907695c0e7452996bd7176d01d584cfca8",
+  "content_hash": "a1575d7c74b460ffb78082d75130f78e9051d171ee7137334c41b9a45021c878",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

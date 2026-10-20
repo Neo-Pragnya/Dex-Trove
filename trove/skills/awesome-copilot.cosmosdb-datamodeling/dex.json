@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/cosmosdb-datamodeling",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "cosmosdb-datamodeling",
+  "title": "Azure Cosmos DB NoSQL Data Modeling Expert System Prompt",
+  "description": "Step-by-step guide for capturing key application requirements for NoSQL use-case and produce Azure Cosmos DB Data NoSQL Model design using best practices and common patterns, artifacts_produced: \"cosmosdb_requirements.md\" file and \"cosmosdb_data_model.md\" file",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.cosmosdb-datamodeling",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/cosmosdb-datamodeling",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/cosmosdb-datamodeling",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "d68d169870b9d2ccbebd277ee73c43f275e295e0c6554acacefdb11afa9b0d28",
+  "content_hash": "77087894c8ec448035a8c70e9306af61b4aa44dd6b44b950394ffc05cf7453c8",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

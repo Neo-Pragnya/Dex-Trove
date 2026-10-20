@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/create-specification",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "create-specification",
+  "title": "Create Specification",
+  "description": "Create a new specification file for the solution, optimized for Generative AI consumption.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.create-specification",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/create-specification",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-specification",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0de8583934fbcb7afa0aa4c2569c75d74cad1a711664bb57b6aa5e0fcf6d92ae",
+  "content_hash": "c264b3090aacee7e792a79abef0516ecc820da8b07f552ed1c1ca7bd6729a6e8",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

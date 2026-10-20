@@ -1,0 +1,37 @@
+kind: skill
+namespace: awesome-copilot
+name: shopify-review-triage
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:shopify-review-triage
+summary: Use this skill when someone wants public Shopify App Store reviews, low-star reviews, or merchant feedback
+  triaged, prioritized, clustered, or turned into a product or support brief.
+description: Use this skill when someone wants public Shopify App Store reviews, low-star reviews, or merchant feedback
+  triaged, prioritized, clustered, or turned into a product or support brief. Trigger for prompts like "triage these
+  app store reviews", "what should we fix first from this feedback", "cluster our 1-star reviews", or "write a weekly
+  low-star review brief", for a single Shopify app or a portfolio plus watched competitors. Produces a P0-P3 brief
+  covering incident risk, repeated friction, pricing confusion, feature requests, and an explicit needs-human-read
+  bucket, where every item keeps its public source link and stays labeled first pass or human-checked. Do not trigger
+  for support tickets, order data, or any other private merchant data, and never use it to reply to or contact a
+  reviewer.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/shopify-review-triage
+  repository: https://github.com/github/awesome-copilot

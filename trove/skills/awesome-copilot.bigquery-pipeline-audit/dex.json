@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/bigquery-pipeline-audit",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "bigquery-pipeline-audit",
+  "title": "BigQuery Pipeline Audit: Cost, Safety and Production Readiness",
+  "description": "Audits Python + BigQuery pipelines for cost safety, idempotency, and production readiness. Returns a structured report with exact patch locations.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.bigquery-pipeline-audit",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/bigquery-pipeline-audit",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/bigquery-pipeline-audit",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9dca6a922c1fc7599ba12ebaa38cf7336dbd09b064245f57c33f4f5b72ed3b5a",
+  "content_hash": "3fa43aa4d566335dc39f3662e714927edbcf8d4f66dc3e3ce2fe6d2b4839c663",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

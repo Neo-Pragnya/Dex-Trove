@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/scala2",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "scala2",
+  "title": "Scala Best Practices",
+  "description": "Scala 2.12/2.13 programming language coding conventions and best practices following Databricks style guide for functional programming, type safety, and production code quality.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "scala2.instructions.md",
+  "dir": "instructions/awesome-copilot.scala2",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/scala2.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/scala2.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "scala2.instructions.md"
+  ],
+  "entry_hash": "a581251d9169dbdb0d53fc93c17d0cb3f100eebda205fba46779ccabd561128e",
+  "content_hash": "a50d53797275ae5f45d3c3795af33bf40943bbcf175e04cbd2288508bcc07717",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.scala, **/build.sbt, **/build.sc"
+}

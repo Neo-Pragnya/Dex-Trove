@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ruby-mcp-server-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "ruby-mcp-server-generator",
+  "title": "Ruby MCP Server Generator",
+  "description": "Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.ruby-mcp-server-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/ruby-mcp-server-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/ruby-mcp-server-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "32a5f6c9be171bfb0fc8bd4a38d905dafe681fb6f0aa1edce3f4b8c7675e24be",
+  "content_hash": "889a3139fb262527715a57371e3c3b597153ef89570f7fac8fe6fb12faa74b96",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

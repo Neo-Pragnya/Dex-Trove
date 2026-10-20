@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/dataverse-python-agentic-workflows",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python-agentic-workflows",
+  "title": "Dataverse SDK for Python - Agentic Workflows Guide",
+  "description": "# Dataverse SDK for Python - Agentic Workflows Guide ## ⚠️ PREVIEW FEATURE NOTICE **Status**: This feature is in **Public Preview** as of December 2025 **Availability**: General Availability (GA) date TBD **Documentation**: Complete implementation details forthcoming This guide covers the conceptual framework and planned capabilities for building agentic workflows with the Dataverse SDK for Python…",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dataverse-python-agentic-workflows.instructions.md",
+  "dir": "instructions/awesome-copilot.dataverse-python-agentic-workflows",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dataverse-python-agentic-workflows.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-agentic-workflows.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dataverse-python-agentic-workflows.instructions.md"
+  ],
+  "entry_hash": "8cc5d4481114437966e0f7af97d22e63ff4689a6b42648a19b9293eb0a4f7f3b",
+  "content_hash": "cbb4044c469bad7f6ae00f873c3908e045c3224f06830c86a20cb36046caa943",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

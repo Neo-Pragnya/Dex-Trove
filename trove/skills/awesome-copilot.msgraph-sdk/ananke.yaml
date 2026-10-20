@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: msgraph-sdk
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:msgraph-sdk
+summary: Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python.
+description: Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python. Covers auth
+  patterns (client credentials, OBO, managed identity), SDK setup, calling Graph APIs, batching, delta queries,
+  change notifications, throttling, and permission scopes. Use when accessing Microsoft 365 data (users, mail, calendar,
+  Teams, files, SharePoint) from any application type.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/msgraph-sdk
+  repository: https://github.com/github/awesome-copilot

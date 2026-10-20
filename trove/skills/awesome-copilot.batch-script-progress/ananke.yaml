@@ -1,0 +1,27 @@
+kind: skill
+namespace: awesome-copilot
+name: batch-script-progress
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:batch-script-progress
+summary: Design and verify runtime output when creating or modifying Python, PowerShell, or Node.js scripts that
+  process multiple files, records, or API requests.
+description: Design and verify runtime output when creating or modifying Python, PowerShell, or Node.js scripts
+  that process multiple files, records, or API requests. Use for batch scripts, bulk operations, silent long-running
+  loops, progress reporting, per-item failures, final counts, stdout separation, or exit-status consistency. Not
+  for UI progress bars, monitoring infrastructure, or progress updates in the AI conversation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/batch-script-progress
+  repository: https://github.com/github/awesome-copilot

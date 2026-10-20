@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/noob-mode",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "noob-mode",
+  "title": "Noob Mode",
+  "description": "Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message, and technical output into clear, jargon-free English with color-coded risk indicators.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.noob-mode",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/noob-mode",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/noob-mode",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md",
+    "references/glossary.md"
+  ],
+  "entry_hash": "8c9787dae002acfc9f8d49ffd1792df23f07aa6b8350ed942dad47a79d7a6706",
+  "content_hash": "d356c6b16b6e9d3c81c9e88889270a656055a5beb72067aee252f1d84b93ea6f",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

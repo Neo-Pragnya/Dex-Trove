@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/em-dash",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "em-dash",
+  "title": "em dash",
+  "description": "Expert on the history, origin, and correct use of the em dash. Use when writing or reviewing code, comments, or data files to avoid em and en dashes, defaulting to never using them and replacing any found with a hyphen (-). Includes strong knowledge of punctuation marks and the proper usage of punctuation characters when writing comments.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.em-dash",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/em-dash",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/em-dash",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "66051fa6011af5ebbb954bbc4db4157ba163f166eed6e8ec51ee46acec4b3c6e",
+  "content_hash": "4942216050565819834ccbde65e92735ea3d117f210e92888fa730d0369cadda",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

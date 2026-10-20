@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/aws-resource-health-diagnose",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "aws-resource-health-diagnose",
+  "title": "AWS Resource Health & Issue Diagnosis",
+  "description": "Analyze AWS resource health, diagnose issues from CloudWatch logs and metrics, and create a remediation plan for identified problems.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.aws-resource-health-diagnose",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/aws-resource-health-diagnose",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/aws-resource-health-diagnose",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "80bb83b79e74c7f4b97994f89e4feb821bb68868e4809dcffbdbc9d2dc3f00cc",
+  "content_hash": "6e38502ce761e562a6bd7f1140ef7e93788c8766769b448c86da7717643271aa",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

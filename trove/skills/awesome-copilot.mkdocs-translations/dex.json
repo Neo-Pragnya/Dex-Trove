@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/mkdocs-translations",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "mkdocs-translations",
+  "title": "MkDocs AI Translator",
+  "description": "Generate a language translation for a mkdocs documentation stack.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.mkdocs-translations",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/mkdocs-translations",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mkdocs-translations",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ff506b38ec44f8cd7f5252476a6720247ad3d3bb6298a1481fcbc4b5ccf478cf",
+  "content_hash": "fc36a39bde01b1e02cd4cf16dbf181abe5afe36c351a2993d1666f9941d28542",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

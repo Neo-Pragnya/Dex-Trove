@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/cast-imaging-structural-quality-advisor",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "cast-imaging-structural-quality-advisor",
+  "title": "CAST Imaging Structural Quality Advisor Agent",
+  "description": "Specialized agent for identifying, analyzing, and providing remediation guidance for code quality issues using CAST Imaging",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "cast-imaging-structural-quality-advisor.agent.md",
+  "dir": "agents/awesome-copilot.cast-imaging-structural-quality-advisor",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/cast-imaging-structural-quality-advisor.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/cast-imaging-structural-quality-advisor.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cast-imaging-structural-quality-advisor.agent.md"
+  ],
+  "entry_hash": "d05ece6494fe8045e7857e8ecb656b3275b0f635e069a6148c77a1b4ec935d7d",
+  "content_hash": "3ad350d072d8696c4af54bc7a26f99934a68681a7295dcb701aff62437e34461",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

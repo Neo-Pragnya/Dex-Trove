@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ui-screenshots",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "ui-screenshots",
+  "title": "UI Screenshots",
+  "description": "Capture screenshots of web apps during development using Playwright and PIL. Supports full-page captures, interactive states, and an iterate-on-crop workflow that avoids slow re-screenshots.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.ui-screenshots",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/ui-screenshots",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/ui-screenshots",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "b496e7967ad7d88e9c99a7c23a7544375c24ae483b82415c6440946a3ce68c9d",
+  "content_hash": "2afe88d4da53c1838cd3e544e8a6cfe5d2bc816ddb48ff9f0fed5404f4b8bace",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

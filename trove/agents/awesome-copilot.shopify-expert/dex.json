@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/shopify-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "shopify-expert",
+  "title": "Shopify Expert",
+  "description": "Expert Shopify development assistant specializing in theme development, Liquid templating, app development, and Shopify APIs",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "shopify-expert.agent.md",
+  "dir": "agents/awesome-copilot.shopify-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/shopify-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/shopify-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "shopify-expert.agent.md"
+  ],
+  "entry_hash": "0048391356eea88f5ddbe9e2c689c52d97bf33bfa23214f7b8294c1389e9e277",
+  "content_hash": "8bd21fdb0b34ed59ec42468414c29dd570d0be40f658e3afeaaecad1a4ddee28",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

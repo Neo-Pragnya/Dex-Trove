@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/power-bi-dax-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "power-bi-dax-expert",
+  "title": "Power BI DAX Expert Mode",
+  "description": "Expert Power BI DAX guidance using Microsoft best practices for performance, readability, and maintainability of DAX formulas and calculations.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "power-bi-dax-expert.agent.md",
+  "dir": "agents/awesome-copilot.power-bi-dax-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/power-bi-dax-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/power-bi-dax-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "power-bi-dax-expert.agent.md"
+  ],
+  "entry_hash": "9d76fd785d170248e1e989c7fe95e2ea6ecbab793e11564e07ffdc9ab56824de",
+  "content_hash": "4138dda5e8b1a7bee6b0a557bd82adb2f6d13b22922cc54593db003047e63315",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

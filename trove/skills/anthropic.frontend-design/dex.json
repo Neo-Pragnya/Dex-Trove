@@ -1,0 +1,41 @@
+{
+  "id": "anthropic/frontend-design",
+  "kind": "skill",
+  "namespace": "anthropic",
+  "name": "frontend-design",
+  "title": "Frontend Design",
+  "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+  "tags": [
+    "anthropic",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/anthropic.frontend-design",
+  "source": {
+    "id": "anthropic",
+    "title": "Anthropic Agent Skills",
+    "repo": "https://github.com/anthropics/skills",
+    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "path": "skills/frontend-design",
+    "url": "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "skills/frontend-design/LICENSE.txt: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md"
+  ],
+  "entry_hash": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+  "content_hash": "98e239f3f6a8e0a6391affe6ab96f1e7ed56072132bfd152ebcd761e79c45dc4",
+  "learned_at": "2026-10-20T03:29:00+00:00"
+}

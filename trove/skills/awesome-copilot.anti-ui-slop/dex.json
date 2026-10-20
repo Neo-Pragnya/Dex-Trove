@@ -1,0 +1,53 @@
+{
+  "id": "awesome-copilot/anti-ui-slop",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "anti-ui-slop",
+  "title": "Stop Making UI Slop",
+  "description": "Stop coding agents from shipping generic UI. Use UIZZE's 800,000+ real web and iOS screens to build product-specific interfaces, define a design contract, cover required states, and run a hard finish gate. Use when designing, implementing, redesigning, critiquing, or pre-ship reviewing a web or iOS interface in Codex, Claude Code, Cursor, Copilot, or another coding agent. Trigger with \"anti-ui-slop\", \"stop UI slop\", \"ground this UI in real screens\", or \"run the UI finish gate\".",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.anti-ui-slop",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/anti-ui-slop",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/anti-ui-slop",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "CHECKSUMS.sha256",
+    "LICENSE",
+    "MANIFEST.json",
+    "MODIFICATIONS.md",
+    "NOTICE",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "reference/audit.md",
+    "reference/distill.md",
+    "reference/ios.md",
+    "reference/new-work.md",
+    "reference/operate.md",
+    "reference/polish.md",
+    "references/uizze-reference-policy.md"
+  ],
+  "entry_hash": "38beaf00024589581ed70bcf97e1372e0cdca8e08bfd69ee5e8d3b8beefb3f35",
+  "content_hash": "52bcf235265ec4f3e47a79749ce68b01dbe3187989914c22ee16d4d5e976ee47",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

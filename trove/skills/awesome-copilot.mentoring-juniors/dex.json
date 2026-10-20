@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/mentoring-juniors",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "mentoring-juniors",
+  "title": "Mentoring Socratique",
+  "description": "Socratic mentoring for junior developers and AI newcomers. Guides through questions, never answers. Triggers: \"help me understand\", \"explain this code\", \"I'm stuck\", \"Im stuck\", \"I'm confused\", \"Im confused\", \"I don't understand\", \"I dont understand\", \"can you teach me\", \"teach me\", \"mentor me\", \"guide me\", \"what does this error mean\", \"why doesn't this work\", \"why does not this work\", \"I'm a beginner\", \"Im a beginner\", \"I'm learning\", \"Im learning\", \"I'm new to this\", \"Im new to this\", \"walk me through\", \"how does this work\", \"what's wrong with my code\", \"what's wrong\", \"can you break this down\", \"ELI5\", \"step by step\", \"where do I start\", \"what am I missing\", \"newbie here\", \"junior dev\", \"first time using\", \"how do I\", \"what is\", \"is this right\", \"not sure\", \"need help\", \"struggling\", \"show me\", \"help me debug\", \"best practice\", \"too complex\", \"overwhelmed\", \"lost\", \"debug this\", \"/socratic\", \"/hint\", \"/concept\", \"/pseudocode\". Progressive clue systems, teaching techniques, and success metrics.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.mentoring-juniors",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/mentoring-juniors",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mentoring-juniors",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "09bc1b382bc94670b8d4724fc8a204b0170121ebd1a5e091a0cc46a18787967e",
+  "content_hash": "629c8d1b6532b4977d5743509d096563d5cd41f732c1e55a0a4c4b8bedd80910",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

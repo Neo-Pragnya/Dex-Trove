@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/cli-mastery",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "cli-mastery",
+  "title": "Copilot CLI Mastery",
+  "description": "Interactive training for the GitHub Copilot CLI. Guided lessons, quizzes, scenario challenges, and a full reference covering slash commands, shortcuts, modes, agents, skills, MCP, and configuration. Say \"cliexpert\" to start.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.cli-mastery",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/cli-mastery",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/cli-mastery",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/final-exam.md",
+    "references/module-1-slash-commands.md",
+    "references/module-2-keyboard-shortcuts.md",
+    "references/module-3-modes.md",
+    "references/module-4-agents.md",
+    "references/module-5-skills.md",
+    "references/module-6-mcp.md",
+    "references/module-7-advanced.md",
+    "references/module-8-configuration.md",
+    "references/scenarios.md"
+  ],
+  "entry_hash": "d3e4194d69f973aa5bf8993c8e68b09fea9f0f2c0427e740a18fd4175d956879",
+  "content_hash": "8b1ed1506817a169c5e2da3037de869485510e90766202eb7644b24ad88d68bf",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

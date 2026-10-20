@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/azure-static-web-apps",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "azure-static-web-apps",
+  "title": "1. Install CLI",
+  "description": "Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configuring staticwebapp.config.json, adding Azure Functions APIs to SWA, or setting up GitHub Actions CI/CD for Static Web Apps.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.azure-static-web-apps",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/azure-static-web-apps",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/azure-static-web-apps",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "01540172e164a281b585de653406e8c5c4917f28dd1639dadf29f4f58371dc94",
+  "content_hash": "6ca91d124e6b832850f1ad19e32ccc5362d30982f653efc4be4fac93fa509eed",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

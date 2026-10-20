@@ -1,0 +1,35 @@
+kind: skill
+namespace: awesome-copilot
+name: react18-string-refs
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:react18-string-refs
+summary: Provides exact migration patterns for React string refs (ref="name" + this.refs.name) to React.createRef()
+  in class components.
+description: Provides exact migration patterns for React string refs (ref="name" + this.refs.name) to React.createRef()
+  in class components. Use this skill whenever migrating string ref usage - including single element refs, multiple
+  refs in a component, refs in lists, callback refs, and refs passed to child components. Always use this skill
+  before writing any ref migration code - the multiple-refs-in-list pattern is particularly tricky and this skill
+  prevents the most common mistakes. Use it for React 18.3.1 migration (string refs warn) and React 19 migration
+  (string refs removed).
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react18-string-refs
+  repository: https://github.com/github/awesome-copilot

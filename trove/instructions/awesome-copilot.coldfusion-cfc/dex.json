@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/coldfusion-cfc",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "coldfusion-cfc",
+  "title": "ColdFusion Coding Standards for CFC Files",
+  "description": "ColdFusion Coding Standards for CFC component and application patterns",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "coldfusion-cfc.instructions.md",
+  "dir": "instructions/awesome-copilot.coldfusion-cfc",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/coldfusion-cfc.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/coldfusion-cfc.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "coldfusion-cfc.instructions.md"
+  ],
+  "entry_hash": "34385c0ee478704e0395c8399972ce2d02ed24bcb217cf32bb69cee28771631f",
+  "content_hash": "2dbaee31a69efb5c91de664ab5e50106397a014ea753278b2bae7fa5ba5b4bb3",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.cfc"
+}

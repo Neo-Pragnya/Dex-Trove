@@ -1,0 +1,40 @@
+{
+  "id": "superpowers/writing-plans",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "writing-plans",
+  "title": "Writing Plans",
+  "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+  "tags": [
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.writing-plans",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/writing-plans",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/writing-plans",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+  "content_hash": "ab32ff72ca5a7fbf2c6abe4e342ad28036ee836933ed8ad3758584ca7390b158",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

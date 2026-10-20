@@ -1,0 +1,52 @@
+{
+  "id": "awesome-copilot/context-matic",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "context-matic",
+  "title": "ContextMatic Plugin",
+  "description": "Coding agents hallucinate APIs. ContextMatic gives them curated, versioned API and SDK docs. Ask your agent to \"integrate the payments API\" and it guesses — falling back on outdated training data and generic patterns that don't match your actual SDK. ContextMatic solves this by giving the agent deterministic, version-aware, SDK-native context at the exact moment it's needed.",
+  "tags": [
+    "api-context",
+    "api-integration",
+    "apimatic",
+    "awesome-copilot",
+    "mcp",
+    "plugin",
+    "sdk",
+    "sdks",
+    "third-party-apis"
+  ],
+  "version": "0.1.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.context-matic",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/context-matic",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/context-matic",
+    "author": "APIMatic"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/integrate-context-matic",
+    "skill:awesome-copilot/onboard-context-matic"
+  ],
+  "files": [
+    "README.md",
+    "mcp.json",
+    "plugin.json"
+  ],
+  "entry_hash": "6d421285608a77429c0b002fcc43cfe8dce3ca2a832714726e1e2e81a1c200f1",
+  "content_hash": "8c137c719f503809423ece02966916baff95145616c19673f9850c632c1f8f4f",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

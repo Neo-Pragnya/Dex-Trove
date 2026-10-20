@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: azure-naming
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:azure-naming
+summary: Azure resource naming conventions based on Microsoft CAF (Cloud Adoption Framework). Use when creating,
+  reviewing, or suggesting names for Azure resources.
+description: Azure resource naming conventions based on Microsoft CAF (Cloud Adoption Framework). Use when creating,
+  reviewing, or suggesting names for Azure resources.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: azure-naming.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/azure-naming.instructions.md
+  repository: https://github.com/github/awesome-copilot

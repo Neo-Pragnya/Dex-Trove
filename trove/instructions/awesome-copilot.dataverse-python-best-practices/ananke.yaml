@@ -1,0 +1,34 @@
+kind: prompt
+namespace: awesome-copilot
+name: dataverse-python-best-practices
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:dataverse-python-best-practices
+summary: '# Dataverse SDK for Python - Best Practices Guide ## Overview Production-ready patterns and best practices
+  extracted from Microsoft''s official PowerPlatform-DataverseClient-Python repository, examples…'
+description: '# Dataverse SDK for Python - Best Practices Guide ## Overview Production-ready patterns and best practices
+  extracted from Microsoft''s official PowerPlatform-DataverseClient-Python repository, examples, and recommended
+  workflows. ## 1.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dataverse-python-best-practices.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-best-practices.instructions.md
+  repository: https://github.com/github/awesome-copilot

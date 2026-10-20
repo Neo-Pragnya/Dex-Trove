@@ -1,0 +1,52 @@
+{
+  "id": "awesome-copilot/fastah-ip-geo-tools",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "fastah-ip-geo-tools",
+  "title": "IP Geolocation Tools by Fastah Inc.",
+  "description": "This plugin is for network operations engineers who wish to tune and publish IP geolocation feeds in RFC 8805 format. It consists of an AI Skill and an associated MCP server that geocodes geolocation place names to real cities for accuracy.",
+  "tags": [
+    "awesome-copilot",
+    "cloud",
+    "geofeed",
+    "hosting",
+    "ip-geolocation",
+    "isp",
+    "ixp",
+    "network-operations",
+    "plugin",
+    "rfc-8805",
+    "rfc-9632"
+  ],
+  "version": "0.0.9",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.fastah-ip-geo-tools",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/fastah-ip-geo-tools",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/fastah-ip-geo-tools",
+    "author": "Fastah Inc."
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/geofeed-tuner"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "60630ae9e9f3138fb7b636d8f3c38da1b09ab0d03f63cf3dfacf0417e01e4315",
+  "content_hash": "001b327eb4d4eb4edbce74cdd3cd48c6378903aa52c1fed04663fa03675bdb80",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

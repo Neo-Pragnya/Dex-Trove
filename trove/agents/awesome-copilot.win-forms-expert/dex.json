@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/win-forms-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "win-forms-expert",
+  "title": "WinForms Expert",
+  "description": "Support development of .NET (OOP) WinForms Designer compatible Apps.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "WinFormsExpert.agent.md",
+  "dir": "agents/awesome-copilot.win-forms-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/WinFormsExpert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/WinFormsExpert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "WinFormsExpert.agent.md"
+  ],
+  "entry_hash": "b3b589131d7e25fad7262dd55dfb868b0202409046898e518327f7aaa8f6bd69",
+  "content_hash": "6acf4a296671c9e0c2b43a4a63f1ace6267e1e1b1e4b597930d1a22359811c71",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: project-architecture-planner
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:project-architecture-planner
+summary: Holistic software architecture planner that evaluates tech stacks, designs scalability roadmaps, performs
+  cloud-agnostic cost analysis, reviews existing codebases, and delivers interactive Mermaid dia…
+description: Holistic software architecture planner that evaluates tech stacks, designs scalability roadmaps, performs
+  cloud-agnostic cost analysis, reviews existing codebases, and delivers interactive Mermaid diagrams with HTML
+  preview and draw.io export
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: project-architecture-planner.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/project-architecture-planner.agent.md
+  repository: https://github.com/github/awesome-copilot

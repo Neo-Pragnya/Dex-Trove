@@ -1,0 +1,47 @@
+{
+  "id": "awesome-copilot/tool-guardian",
+  "kind": "hook",
+  "namespace": "awesome-copilot",
+  "name": "tool-guardian",
+  "title": "Tool Guardian",
+  "description": "Blocks dangerous tool operations (destructive file ops, force pushes, DB drops) before the Copilot coding agent executes them",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "guardrails",
+    "hook",
+    "pretooluse",
+    "safety",
+    "security"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "hooks/awesome-copilot.tool-guardian",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "hooks/tool-guardian",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/tool-guardian",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "README.md",
+    "guard-tool.sh",
+    "hooks.json"
+  ],
+  "entry_hash": "149a8dc2095bad189ac6808d2adc274d5c1181c9163f3ae50aea0a6b96eca048",
+  "content_hash": "ad726ef1234662b293fdb0fdc306b51624052021717762a97d1a0ea8df3ced23",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

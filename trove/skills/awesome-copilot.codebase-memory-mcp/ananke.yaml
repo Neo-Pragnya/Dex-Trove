@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: codebase-memory-mcp
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:codebase-memory-mcp
+summary: Use when exploring unfamiliar code, mapping architecture, finding symbols or relationships, tracing callers,
+  callees, data flow or dependencies, assessing impact, auditing dead or complex code, or han…
+description: Use when exploring unfamiliar code, mapping architecture, finding symbols or relationships, tracing
+  callers, callees, data flow or dependencies, assessing impact, auditing dead or complex code, or handling explicit
+  Codebase Memory requests. Otherwise skip tasks confined to a supplied known file, tiny one-file check, exact literal,
+  configuration value, error string, or non-code text.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/codebase-memory-mcp
+  repository: https://github.com/github/awesome-copilot

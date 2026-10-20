@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/github-actions-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "github-actions-expert",
+  "title": "GitHub Actions Expert",
+  "description": "GitHub Actions specialist focused on secure CI/CD workflows, action pinning, OIDC authentication, permissions least privilege, and supply-chain security",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "github-actions-expert.agent.md",
+  "dir": "agents/awesome-copilot.github-actions-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/github-actions-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/github-actions-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "github-actions-expert.agent.md"
+  ],
+  "entry_hash": "9a113142559959683041c85c094ca32541fa7e0db42d3510acf6d79a68bbb597",
+  "content_hash": "4edbcabbc3fda1149cc67b1e97f40436aec5a172a66c63070da87c183c41f9f6",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

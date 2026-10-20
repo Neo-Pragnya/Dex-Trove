@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/java-upgrade",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "java-upgrade",
+  "title": "Java Upgrade",
+  "description": "Upgrade a Java project to a newer JDK (11 to 17, 17 to 21, 21 to 25) and adopt the new language and library features. Detects the current Java version from the build files, then loads only the matching per-version guide. Use when the user asks to upgrade Java, modernize Java code, or adopt records, sealed classes, pattern matching, virtual threads or other new Java features. For automated end-to-end upgrades see the modernize-java plugin.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.java-upgrade",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/java-upgrade",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-upgrade",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/java-11-to-17.md",
+    "references/java-17-to-21.md",
+    "references/java-21-to-25.md",
+    "references/upstream-sources.md"
+  ],
+  "entry_hash": "c443266cc8c77ddefbfaa12ec013c87db4647bfa76353111c994b49e50a61702",
+  "content_hash": "1dbac946515a206cc1cfd45aafd7739fe32a225bfafadf59b18c17b650c59a86",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

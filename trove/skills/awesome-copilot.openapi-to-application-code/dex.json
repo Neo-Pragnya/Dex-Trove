@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/openapi-to-application-code",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "openapi-to-application-code",
+  "title": "Generate Application from OpenAPI Spec",
+  "description": "Generate a complete, production-ready application from an OpenAPI specification",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.openapi-to-application-code",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/openapi-to-application-code",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/openapi-to-application-code",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "4ac9c35e14140129df922091b62288258887e5d0efc0760ab390b3b248a35c16",
+  "content_hash": "8f1e68a7cd6ab1723f79841a9d0d310fc11a953a9e887c34f67a61888ff6748f",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

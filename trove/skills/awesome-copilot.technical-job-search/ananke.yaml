@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: technical-job-search
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:technical-job-search
+summary: 'Use this skill when a software engineer asks for help with job search tasks: parsing or analyzing a job
+  description, tailoring a CV/resume, writing a cover letter, evaluating a job offer, or drafting…'
+description: 'Use this skill when a software engineer asks for help with job search tasks: parsing or analyzing
+  a job description, tailoring a CV/resume, writing a cover letter, evaluating a job offer, or drafting a post-interview
+  follow-up email. Do not activate for general career advice unrelated to an active job search action.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/technical-job-search
+  repository: https://github.com/github/awesome-copilot

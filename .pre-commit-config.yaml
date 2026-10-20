@@ -1,0 +1,27 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.12.12
+    hooks:
+      - id: ruff-check
+        files: ^(src|tests)/|^hatch_build\.py$
+      - id: ruff-format
+        files: ^(src|tests)/|^hatch_build\.py$
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      # trove/ holds upstream bytes verbatim — never "fix" them.
+      - id: end-of-file-fixer
+        exclude: ^trove/
+      - id: trailing-whitespace
+        exclude: ^trove/
+      - id: check-merge-conflict
+      - id: check-yaml
+        exclude: ^trove/
+  - repo: local
+    hooks:
+      - id: dex-validate
+        name: dex validate (licences, hashes, manifests, notices)
+        entry: uv run dex validate
+        language: system
+        pass_filenames: false
+        files: ^(trove/|sources\.yaml|src/dex_trove/)

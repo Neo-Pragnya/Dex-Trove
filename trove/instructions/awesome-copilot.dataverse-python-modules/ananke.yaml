@@ -1,0 +1,35 @@
+kind: prompt
+namespace: awesome-copilot
+name: dataverse-python-modules
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:dataverse-python-modules
+summary: '# Dataverse SDK for Python — Complete Module Reference ## Package Hierarchy ``` PowerPlatform.Dataverse
+  ├── client │ └── DataverseClient ├── core │ ├── config (DataverseConfig) │ └── errors (Dataverse…'
+description: '# Dataverse SDK for Python — Complete Module Reference ## Package Hierarchy ``` PowerPlatform.Dataverse
+  ├── client │ └── DataverseClient ├── core │ ├── config (DataverseConfig) │ └── errors (DataverseError, ValidationError,
+  MetadataError, HttpError, SQLParseError) ├── data (OData operations, metadata, SQL, file upload) ├── extensions
+  (placeholder for future extensions) ├── models (placeholder for…'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dataverse-python-modules.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-modules.instructions.md
+  repository: https://github.com/github/awesome-copilot

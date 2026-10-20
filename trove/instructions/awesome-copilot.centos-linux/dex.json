@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/centos-linux",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "centos-linux",
+  "title": "CentOS Administration Guidelines",
+  "description": "Guidance for CentOS administration, RHEL-compatible tooling, and SELinux-aware operations.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "centos-linux.instructions.md",
+  "dir": "instructions/awesome-copilot.centos-linux",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/centos-linux.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/centos-linux.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "centos-linux.instructions.md"
+  ],
+  "entry_hash": "8cf9e52de20756c8f145ad7bc18efa13fccb182db19152bce5acc42e071a5d3f",
+  "content_hash": "8b5f5c42d83021640b91645508c2311f3dc4cbecf0b23b0a99c2b98da2093c21",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**"
+}

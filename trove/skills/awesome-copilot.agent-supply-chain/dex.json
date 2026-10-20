@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/agent-supply-chain",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "agent-supply-chain",
+  "title": "Agent Supply Chain Integrity",
+  "description": "Verify supply chain integrity for AI agent plugins, tools, and dependencies. Use this skill when:\n- Generating SHA-256 integrity manifests for agent plugins or tool packages\n- Verifying that installed plugins match their published manifests\n- Detecting tampered, modified, or untracked files in agent tool directories\n- Auditing dependency pinning and version policies for agent components\n- Building provenance chains for agent plugin promotion (dev → staging → production)\n- Any request like \"verify plugin integrity\", \"generate manifest\", \"check supply chain\", or \"sign this plugin\"",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.agent-supply-chain",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/agent-supply-chain",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/agent-supply-chain",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "5b678338dca40c92051ff46da592e6be13ffc2f843a2238cbf1c91368fe75fa7",
+  "content_hash": "3ac9804eba13be25f4ca30fa11afcb6be9ccb791cc6bf33f2e9134e8859149b5",
+  "learned_at": "2026-10-20T03:28:49+00:00"
+}

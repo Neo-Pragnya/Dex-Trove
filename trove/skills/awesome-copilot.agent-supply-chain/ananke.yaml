@@ -1,0 +1,42 @@
+kind: skill
+namespace: awesome-copilot
+name: agent-supply-chain
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:agent-supply-chain
+summary: 'Verify supply chain integrity for AI agent plugins, tools, and dependencies. Use this skill when: - Generating
+  SHA-256 integrity manifests for agent plugins or tool packages - Verifying that installed…'
+description: 'Verify supply chain integrity for AI agent plugins, tools, and dependencies. Use this skill when:
+
+  - Generating SHA-256 integrity manifests for agent plugins or tool packages
+
+  - Verifying that installed plugins match their published manifests
+
+  - Detecting tampered, modified, or untracked files in agent tool directories
+
+  - Auditing dependency pinning and version policies for agent components
+
+  - Building provenance chains for agent plugin promotion (dev → staging → production)
+
+  - Any request like "verify plugin integrity", "generate manifest", "check supply chain", or "sign this plugin"'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/agent-supply-chain
+  repository: https://github.com/github/awesome-copilot

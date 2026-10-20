@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/python-win-arm64-gha-wheel-builder",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "python-win-arm64-gha-wheel-builder",
+  "title": "GitHub Actions Windows ARM64 wheel builder",
+  "description": "Adds native Windows ARM64 wheel builds and tests to a Python package's existing GitHub Actions workflows using the 'windows-11-arm' runner.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "python-win-arm64-gha-wheel-builder.agent.md",
+  "dir": "agents/awesome-copilot.python-win-arm64-gha-wheel-builder",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/python-win-arm64-gha-wheel-builder.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/python-win-arm64-gha-wheel-builder.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "python-win-arm64-gha-wheel-builder.agent.md"
+  ],
+  "entry_hash": "68cbd83400b2502b22a1578de42d28ee15fef2a84c19362866ebe24a73dd5f35",
+  "content_hash": "825da7b11fcc9699a506ceb25b8d5ebe897c8929443b61eb462fa36a8b201cdd",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

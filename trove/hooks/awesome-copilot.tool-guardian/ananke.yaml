@@ -1,0 +1,29 @@
+kind: tool
+namespace: awesome-copilot
+name: tool-guardian
+version: 1.0.0
+ananke_id: urn:dex-trove:hook:awesome-copilot:tool-guardian
+summary: Blocks dangerous tool operations (destructive file ops, force pushes, DB drops) before the Copilot coding
+  agent executes them
+description: Blocks dangerous tool operations (destructive file ops, force pushes, DB drops) before the Copilot
+  coding agent executes them
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - guardrails
+  - hook
+  - pretooluse
+  - safety
+  - security
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/tool-guardian
+  repository: https://github.com/github/awesome-copilot

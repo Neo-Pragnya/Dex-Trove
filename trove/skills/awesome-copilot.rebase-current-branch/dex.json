@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/rebase-current-branch",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "rebase-current-branch",
+  "title": "Rebase the Current Branch",
+  "description": "Rebase the currently checked out feature branch onto the latest upstream default branch. Use when asked to update a branch with main or master, rebase the current branch onto the default branch, or sync a feature branch before review. Detects whether the repository uses main or master and guides safe conflict handling.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.rebase-current-branch",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/rebase-current-branch",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/rebase-current-branch",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "17e189c01c6f8d84856b456a849a5a19c639b03d87afe2e37ba24d4f85f2b010",
+  "content_hash": "78e387414ed9128e1930ea09cac2b7ee08095f4d9cfcae3c52fe990e02a59d8e",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

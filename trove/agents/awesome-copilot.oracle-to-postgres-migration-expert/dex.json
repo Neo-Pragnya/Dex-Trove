@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/oracle-to-postgres-migration-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "oracle-to-postgres-migration-expert",
+  "title": "Oracle-to-PostgreSQL Migration Expert",
+  "description": "Agent for Oracle-to-PostgreSQL application migrations. Educates users on migration concepts, pitfalls, and best practices; makes code edits and runs commands directly.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "oracle-to-postgres-migration-expert.agent.md",
+  "dir": "agents/awesome-copilot.oracle-to-postgres-migration-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/oracle-to-postgres-migration-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/oracle-to-postgres-migration-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "oracle-to-postgres-migration-expert.agent.md"
+  ],
+  "entry_hash": "711a859dfab53ba7ec649ce798a576b221d9eb40c938a9abf6460a9adf49c446",
+  "content_hash": "c518b19fd9c484638d8280f91214fabc899c0d137ac868b9ab4a3927a67785ca",
+  "learned_at": "2026-10-20T04:06:47+00:00"
+}

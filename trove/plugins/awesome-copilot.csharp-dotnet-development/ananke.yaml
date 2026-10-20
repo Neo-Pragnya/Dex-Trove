@@ -1,0 +1,56 @@
+kind: bundle
+namespace: awesome-copilot
+name: csharp-dotnet-development
+version: 1.2.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:csharp-dotnet-development
+summary: Essential prompts, instructions, and chat modes for C# and .NET development including testing, documentation,
+  and best practices.
+description: Essential prompts, instructions, and chat modes for C# and .NET development including testing, documentation,
+  and best practices.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/aspnet-minimal-api-openapi
+  version: '*'
+- ref: ananke://skill/awesome-copilot/csharp-async
+  version: '*'
+- ref: ananke://skill/awesome-copilot/csharp-mstest
+  version: '*'
+- ref: ananke://skill/awesome-copilot/csharp-nunit
+  version: '*'
+- ref: ananke://skill/awesome-copilot/csharp-tunit
+  version: '*'
+- ref: ananke://skill/awesome-copilot/csharp-xunit
+  version: '*'
+- ref: ananke://skill/awesome-copilot/dotnet-best-practices
+  version: '*'
+- ref: ananke://skill/awesome-copilot/dotnet-upgrade
+  version: '*'
+- ref: ananke://skill/awesome-copilot/resx-source-generator-migration
+  version: '*'
+- ref: ananke://agent/awesome-copilot/expert-dotnet-software-engineer
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - aspnet
+  - awesome-copilot
+  - csharp
+  - dotnet
+  - plugin
+  - testing
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/csharp-dotnet-development
+  repository: https://github.com/github/awesome-copilot

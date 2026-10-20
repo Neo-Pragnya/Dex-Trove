@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/lsp-setup",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "lsp-setup",
+  "title": "LSP Setup for GitHub Copilot CLI",
+  "description": "Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming language by installing and configuring an LSP server for Copilot CLI. Detects the OS, installs the right server, and generates the JSON configuration (user-level or repo-level). Use when you need deeper code understanding and no LSP server is configured, or when the user asks to set up, install, or configure an LSP server.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.lsp-setup",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/lsp-setup",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/lsp-setup",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/lsp-servers.md"
+  ],
+  "entry_hash": "7a49f98b82b66454ad66a0b8506a50028a16a5c91be73cb39669a18bfba3cb01",
+  "content_hash": "988992d3fc3b7588e6103daf544af0a1de3ae8f4f382fd0350c5f5f1a6783bac",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/se-system-architecture-reviewer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "se-system-architecture-reviewer",
+  "title": "SE: Architect",
+  "description": "System architecture review specialist with Well-Architected frameworks, design validation, and scalability analysis for AI and distributed systems",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "se-system-architecture-reviewer.agent.md",
+  "dir": "agents/awesome-copilot.se-system-architecture-reviewer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/se-system-architecture-reviewer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/se-system-architecture-reviewer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "se-system-architecture-reviewer.agent.md"
+  ],
+  "entry_hash": "b50b7f02658270ba4ec70413ff57c7ec628cc7e710e3d0b4646544d438dfd5fd",
+  "content_hash": "b1ed7dfe1a82b6d7f2028f51b9ad92ecf7ce81a689558edc9b6329f026604b7f",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

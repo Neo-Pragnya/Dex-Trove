@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/arize-link",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "arize-link",
+  "title": "Arize Link",
+  "description": "Generates deep links to the Arize UI for traces, spans, sessions, datasets, labeling queues, evaluators, and annotation configs. Produces clickable URLs for sharing Arize resources with team members. Use when the user wants to link to or open a trace, span, session, dataset, evaluator, or annotation config in the Arize UI.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.arize-link",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/arize-link",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-link",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/EXAMPLES.md"
+  ],
+  "entry_hash": "e7ca578678df826fbcb6e5498bea3ba8bd4fc5251c0eb3446d63023adef6a073",
+  "content_hash": "8a987e9c2b92f3438374769e0ac90fb7530f6437e9250de7e93bba5fe5771d6c",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

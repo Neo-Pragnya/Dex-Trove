@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/power-platform-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "power-platform-expert",
+  "title": "Power Platform Expert",
+  "description": "Power Platform expert providing guidance on Code Apps, canvas apps, Dataverse, connectors, and Power Platform best practices",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "power-platform-expert.agent.md",
+  "dir": "agents/awesome-copilot.power-platform-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/power-platform-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/power-platform-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "power-platform-expert.agent.md"
+  ],
+  "entry_hash": "aaed8552fd98a4430a4f99371e269737e73a9b8bce0256a964c411444708d574",
+  "content_hash": "b42d78380d6c6a57e848264f9c92089fac3fc74c9fa71264806f0b8fa8d2d679",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

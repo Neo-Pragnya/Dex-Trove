@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/azure-verified-modules-bicep",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "azure-verified-modules-bicep",
+  "title": "Azure Verified Modules (AVM) Bicep",
+  "description": "Azure Verified Modules (AVM) and Bicep",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-verified-modules-bicep.instructions.md",
+  "dir": "instructions/awesome-copilot.azure-verified-modules-bicep",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/azure-verified-modules-bicep.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/azure-verified-modules-bicep.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-verified-modules-bicep.instructions.md"
+  ],
+  "entry_hash": "8b4e50456f97af456cd6c3893319c731980f32ffc84c2f59301c2fde4b174e32",
+  "content_hash": "0380d4b945c401138d3a1b1ea2ddc912467884ed67665bd4ca26935e06c6ba5a",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.bicep, **/*.bicepparam"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/refactor",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "refactor",
+  "title": "Refactor",
+  "description": "Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renaming variables, breaking down god functions, improving type safety, eliminating code smells, and applying design patterns. Less drastic than repo-rebuilder; use for gradual improvements.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.refactor",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/refactor",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/refactor",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "58a38edd230cdcdd866939906321c8ba6f47c98a70d0cda373360196ee2ca1a7",
+  "content_hash": "8e98076ce5e2f7f425ffabc7a6848fc8e3e141391d726fd85cb94078fb96ed92",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

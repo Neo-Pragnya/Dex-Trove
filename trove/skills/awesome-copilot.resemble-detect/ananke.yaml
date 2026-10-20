@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: resemble-detect
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:resemble-detect
+summary: Deepfake detection and media safety — detect AI-generated audio, images, video, and text, trace synthesis
+  sources, apply watermarks, verify speaker identity, and analyze media intelligence using Resem…
+description: Deepfake detection and media safety — detect AI-generated audio, images, video, and text, trace synthesis
+  sources, apply watermarks, verify speaker identity, and analyze media intelligence using Resemble AI
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'frontmatter license: ''Apache-2.0'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/resemble-detect
+  repository: https://github.com/github/awesome-copilot

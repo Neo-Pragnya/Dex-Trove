@@ -1,0 +1,30 @@
+kind: skill
+namespace: awesome-copilot
+name: containerize-aspnetcore
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:containerize-aspnetcore
+summary: Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.
+description: Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the
+  project.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/containerize-aspnetcore
+  repository: https://github.com/github/awesome-copilot

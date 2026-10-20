@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: power-platform-mcp-connector-suite
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:power-platform-mcp-connector-suite
+summary: Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema
+  generation, troubleshooting, and validation
+description: Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes
+  schema generation, troubleshooting, and validation
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/power-platform-mcp-connector-suite
+  repository: https://github.com/github/awesome-copilot

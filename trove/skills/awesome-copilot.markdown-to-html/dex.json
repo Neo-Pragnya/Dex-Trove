@@ -1,0 +1,55 @@
+{
+  "id": "awesome-copilot/markdown-to-html",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "markdown-to-html",
+  "title": "Markdown to HTML Conversion",
+  "description": "Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar tools; or writing custom script to convert markdown to html and/or working on web template systems like `jekyll/jekyll`, `gohugoio/hugo`, or similar web templating systems that utilize markdown documents, converting them to html. Use when asked to \"convert markdown to html\", \"transform md to html\", \"render markdown\", \"generate html from markdown\", or when working with .md files and/or web a templating system that converts markdown to HTML output. Supports CLI and Node.js workflows with GFM, CommonMark, and standard Markdown flavors.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.markdown-to-html",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/markdown-to-html",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/markdown-to-html",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/basic-markdown-to-html.md",
+    "references/basic-markdown.md",
+    "references/code-blocks-to-html.md",
+    "references/code-blocks.md",
+    "references/collapsed-sections-to-html.md",
+    "references/collapsed-sections.md",
+    "references/gomarkdown.md",
+    "references/hugo.md",
+    "references/jekyll.md",
+    "references/marked.md",
+    "references/pandoc.md",
+    "references/tables-to-html.md",
+    "references/tables.md",
+    "references/writing-mathematical-expressions-to-html.md",
+    "references/writing-mathematical-expressions.md"
+  ],
+  "entry_hash": "a51376b7c8e88e009c60f20af5b9c1157d4e5c3b40dd62f43abc0e873381e0e4",
+  "content_hash": "ddbef20df1054f3f9a38c36fec6155eb45b4352a33037ed6c37efa42cfe06bf8",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

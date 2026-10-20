@@ -1,0 +1,31 @@
+kind: prompt
+namespace: awesome-copilot
+name: terraform-azure
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:terraform-azure
+summary: Create or modify solutions built using Terraform on Azure.
+description: Create or modify solutions built using Terraform on Azure.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: terraform-azure.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/terraform-azure.instructions.md
+  repository: https://github.com/github/awesome-copilot

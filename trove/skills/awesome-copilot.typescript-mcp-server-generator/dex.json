@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/typescript-mcp-server-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "typescript-mcp-server-generator",
+  "title": "Generate TypeScript MCP Server",
+  "description": "Generate a complete MCP server project in TypeScript using the MCP TypeScript SDK v2 (@modelcontextprotocol/server) with tools, resources, and proper configuration",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.typescript-mcp-server-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/typescript-mcp-server-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/typescript-mcp-server-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e409edb78ed746e7a335c35063dea5c2d462e0498740014a58a9c250891cba19",
+  "content_hash": "8abce0754f5fd3bf4f2a05f10a4de2dcd2191cd2f4c50d5dfff8aac5a5ecb4fc",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

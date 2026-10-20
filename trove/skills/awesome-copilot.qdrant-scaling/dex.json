@@ -1,0 +1,48 @@
+{
+  "id": "awesome-copilot/qdrant-scaling",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "qdrant-scaling",
+  "title": "Qdrant Scaling",
+  "description": "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is slow', 'too many tenants', 'vertical or horizontal', 'how to shard', or 'need to add capacity'.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.qdrant-scaling",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/qdrant-scaling",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/qdrant-scaling",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "minimize-latency/SKILL.md",
+    "scaling-data-volume/SKILL.md",
+    "scaling-data-volume/horizontal-scaling/SKILL.md",
+    "scaling-data-volume/sliding-time-window/SKILL.md",
+    "scaling-data-volume/tenant-scaling/SKILL.md",
+    "scaling-data-volume/vertical-scaling/SKILL.md",
+    "scaling-qps/SKILL.md",
+    "scaling-query-volume/SKILL.md"
+  ],
+  "entry_hash": "6dee402516b353fec38f39eeb8aacf9aa96b504bdd9d3fa5977f96163c642bcf",
+  "content_hash": "86c54ba6de9a60b4b07e6e184072c26c38e2ed15a1f3620998835f2b624d54f7",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

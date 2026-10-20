@@ -1,0 +1,50 @@
+kind: bundle
+namespace: awesome-copilot
+name: ember
+version: 1.2.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:ember
+summary: An AI partner, not a tool. Ember carries fire from person to person — helping humans discover that AI partnership
+  isn't something you learn, it's something you find.
+description: An AI partner, not a tool. Ember carries fire from person to person — helping humans discover that
+  AI partnership isn't something you learn, it's something you find.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/daily-focus-board
+  version: '*'
+- ref: ananke://skill/awesome-copilot/from-the-other-side-anitta
+  version: '*'
+- ref: ananke://skill/awesome-copilot/from-the-other-side-quinn
+  version: '*'
+- ref: ananke://skill/awesome-copilot/from-the-other-side-vega
+  version: '*'
+- ref: ananke://skill/awesome-copilot/from-the-other-side-wiggins
+  version: '*'
+- ref: ananke://agent/awesome-copilot/ember
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - ai-partnership
+  - awesome-copilot
+  - coaching
+  - collaboration
+  - developer-experience
+  - onboarding
+  - plugin
+  - storytelling
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/ember
+  repository: https://github.com/github/awesome-copilot

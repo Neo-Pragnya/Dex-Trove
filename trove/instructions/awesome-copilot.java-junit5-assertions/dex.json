@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/java-junit5-assertions",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "java-junit5-assertions",
+  "title": "JUnit 5 Assertions Best Practices",
+  "description": "Standardizes JUnit 5 (Jupiter) assertions with best practices for performance, readability, and modern features (5.8+). Covers Supplier messages, assertAll, assertThrowsExactly, and performance-critical timeouts.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "java-junit5-assertions.instructions.md",
+  "dir": "instructions/awesome-copilot.java-junit5-assertions",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/java-junit5-assertions.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/java-junit5-assertions.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "java-junit5-assertions.instructions.md"
+  ],
+  "entry_hash": "46c2956185440aff90c41040ba85dd28e0d51d9e5b2616a511add4bba9c9943e",
+  "content_hash": "5ba2eb39452856d268187ddb48d682f2327aab5e4bfbc60fa7ad4bee8f1cca33",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*Test.java, **/*IT.java, **/*Steps.java, **/*StepDefs.java"
+}

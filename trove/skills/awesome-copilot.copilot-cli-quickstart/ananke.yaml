@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: copilot-cli-quickstart
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:copilot-cli-quickstart
+summary: Use this skill when someone wants to learn GitHub Copilot CLI from scratch. Offers interactive step-by-step
+  tutorials with separate Developer and Non-Developer tracks, plus on-demand Q&A.
+description: 'Use this skill when someone wants to learn GitHub Copilot CLI from scratch. Offers interactive step-by-step
+  tutorials with separate Developer and Non-Developer tracks, plus on-demand Q&A. Just say "start tutorial" or ask
+  a question! Note: This skill targets GitHub Copilot CLI specifically and uses CLI-specific tools (ask_user, sql,
+  fetch_copilot_cli_documentation).'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/copilot-cli-quickstart
+  repository: https://github.com/github/awesome-copilot

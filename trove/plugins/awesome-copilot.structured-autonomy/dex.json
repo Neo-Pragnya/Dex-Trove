@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/structured-autonomy",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "structured-autonomy",
+  "title": "Structured Autonomy Plugin",
+  "description": "Premium planning, thrifty implementation",
+  "tags": [
+    "awesome-copilot",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.structured-autonomy",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/structured-autonomy",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/structured-autonomy",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/structured-autonomy-generate",
+    "skill:awesome-copilot/structured-autonomy-implement",
+    "skill:awesome-copilot/structured-autonomy-plan"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "3d69cf3240ec4e9cee5954b9f822cd0f3eec5b218430813b2d3af1b13538703e",
+  "content_hash": "a29e21896489c33f5c51469714c98368cc417872610fa9bc8d49d87b0c61c2da",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

@@ -1,0 +1,201 @@
+{
+  "meta": {"title": "Maya · Life Ikigai Architecture", "description": "Fictional example: a nurse-turned-learning-designer's Ikigai, vision, mission and roadmap.", "lang": "en"},
+  "chapters": [
+    {"id": "open", "title": "Opening", "icon": "🌅", "blurb": "The question I'm living", "color": "gold"},
+    {"id": "ikigai", "title": "My Ikigai map", "icon": "🌸", "blurb": "Four circles and six dimensions", "color": "love"},
+    {"id": "identity", "title": "Identity, vision & mission", "icon": "✦", "blurb": "Who I'm becoming", "color": "lotus"},
+    {"id": "principles", "title": "Operating principles", "icon": "🧭", "blurb": "How I want to work", "color": "need"},
+    {"id": "ecosystem", "title": "The ecosystem", "icon": "🌳", "blurb": "What I'm building and how it connects", "color": "good"},
+    {"id": "strategy", "title": "Strategy", "icon": "💰", "blurb": "Options, scores and the north star", "color": "paid"},
+    {"id": "roadmap", "title": "Roadmap", "icon": "🗺️", "blurb": "The next 90 days to five years", "color": "acc"},
+    {"id": "compass", "title": "Inner compass", "icon": "🪷", "blurb": "Pitfalls and practice", "color": "indigo"}
+  ],
+  "slides": [
+    {"type": "hero", "ch": "open", "kicker": "Life Ikigai Architecture · Maya (fictional example)",
+     "title": "Care that **teaches itself forward**", "jp": "生き甲斐 · a reason for being",
+     "subtitle": "Nursing · Learning design · Community health · Small-business freedom",
+     "tagline": "I turn hard-won bedside knowledge into learning that helps families care with confidence."},
+
+    {"type": "statement", "ch": "open", "kicker": "The question I'm living",
+     "quote": "Do I help the most by caring for **one patient at a time**, or by teaching **a thousand families** to care for each other?",
+     "lines": ["After twelve years on wards I know both matter.", "This deck is my attempt to design a life where the bedside and the classroom feed each other, and still leave room for my own health."]},
+
+    {"type": "agenda", "ch": "open", "kicker": "Map of this deck", "title": "Eight chapters, **one life**"},
+
+    {"type": "venn", "ch": "ikigai", "kicker": "Interactive · my Ikigai", "title": "Where my four circles **meet**",
+     "circles": {
+       "love": {"title": "What I love", "question": "What makes me feel alive even unpaid?", "items": ["🩺 Bedside care", "🎨 Visual explainers", "👪 Families learning together", "🌿 Gardening", "🎙️ Storytelling"], "summary": "I love the moment confusion turns into confidence."},
+       "good": {"title": "What I am good at", "question": "What do people already ask me for?", "items": ["🩺 Clinical nursing", "📐 Instructional design", "🗣️ Calm explanation", "🧩 Turning protocols into checklists", "🤝 Building trust fast"], "summary": "My rare mix: clinical credibility + learning design."},
+       "need": {"title": "What the world needs", "question": "What pain can my skills relieve?", "items": ["🏠 Carers at home without training", "📉 Readmissions after discharge", "🌍 Health info in plain language", "⏳ Nurse burnout"], "summary": "Families are sent home with leaflets, not skills."},
+       "paid": {"title": "What I can be paid for", "question": "What will people pay for repeatedly?", "items": ["🏥 Hospital discharge programmes", "🎓 CPD courses for nurses", "📦 Carer training kits", "🎤 Workshops"], "summary": "Hospitals pay to reduce readmissions; families shouldn't have to."}
+     },
+     "overlaps": {
+       "passion": {"expression": "Clinical storytelling and visual explainers", "pitfall": "A hobby blog nobody uses", "correction": "Tie every explainer to a real discharge need"},
+       "mission": {"expression": "Teaching families to care at home", "pitfall": "Free workshops that burn me out", "correction": "Funded by hospitals, free to families"},
+       "profession": {"expression": "Nurse educator, CPD design", "pitfall": "Comfortable but stuck in one hospital", "correction": "Productise the curriculum"},
+       "vocation": {"expression": "Discharge-education programmes", "pitfall": "Box-ticking compliance training", "correction": "Co-design with real families"}
+     },
+     "lenses": {"t_no_paid": "My pattern: saying yes to every unpaid talk.", "t_no_love": "Pure compliance-training contracts would pay and drain me."},
+     "center": {"title": "Care that teaches itself forward", "statement": "I turn bedside knowledge into learning that helps families care with confidence.", "sub": "Risk: trying to serve every condition. Correction: start with heart failure discharge."}},
+
+    {"type": "cards", "ch": "ikigai", "kicker": "Circle 2 · What I am good at", "title": "My **mastery core**", "columns": 3, "rainbow": true,
+     "cards": [
+       {"icon": "🩺", "title": "Clinical nursing", "body": "Twelve years in cardiology and community care.", "tag": "credibility"},
+       {"icon": "📐", "title": "Instructional design", "body": "Certified; built the ward's onboarding programme.", "tag": "method"},
+       {"icon": "🗣️", "title": "Calm explanation", "body": "Families ask for me when news is hard.", "tag": "trust"}
+     ],
+     "summary": "Most educators lack the bedside; most nurses lack the design craft. **I have both.**"},
+
+    {"type": "petals", "ch": "ikigai", "kicker": "Expanding the model", "title": "A **six-dimensional** Ikigai", "center": "Ikigai",
+     "dims": [
+       {"icon": "❤️", "name": "Love", "question": "What attracts my attention?", "expression": "Families learning, visual stories."},
+       {"icon": "🧠", "name": "Capability", "question": "What can I be exceptional at?", "expression": "Clinical learning design."},
+       {"icon": "🌍", "name": "Need", "question": "What is unmet?", "expression": "Skills for home carers."},
+       {"icon": "💰", "name": "Sustainability", "question": "What supports my life?", "expression": "Hospital contracts, CPD."},
+       {"icon": "🪷", "name": "Evolution", "question": "How will I grow?", "expression": "Leading a team; letting go of control."},
+       {"icon": "🌱", "name": "Regeneration", "question": "Does it restore people?", "expression": "Less carer burnout, fewer readmissions."}
+     ]},
+
+    {"type": "table", "ch": "ikigai", "kicker": "The thread", "title": "Many interests, **one principle**",
+     "columns": ["Interest", "What attracts me", "Principle"],
+     "rows": [["🩺 Nursing", "Relieving suffering", "**Care**"], ["📐 Design", "Making learning stick", "**Transmission**"], ["🌿 Gardening", "Growth over seasons", "**Patience**"]],
+     "summary": "Underneath everything: **helping capability grow where care is needed**."},
+
+    {"type": "triad", "ch": "identity", "kicker": "The archetype", "title": "Carer · Teacher · **Builder**",
+     "nodes": [
+       {"icon": "🩺", "name": "Carer", "body": "Present at the hardest moments."},
+       {"icon": "📚", "name": "Teacher", "body": "Turns experience into understanding."},
+       {"icon": "🏗️", "name": "Builder", "body": "Makes it repeatable and sustainable."}
+     ],
+     "center": {"title": "Care Educator-Founder", "body": "Care, made teachable, made lasting."}},
+
+    {"type": "vmv", "ch": "identity", "kicker": "North star", "title": "Vision → Mission → **How** → Values",
+     "vision": "Every family leaving hospital **knows how to care** for the person they love, and no carer feels alone.",
+     "mission": "I build **clinically sound, beautifully simple learning** for carers and the nurses who teach them, funded by health systems, free to families.",
+     "pillars": [
+       {"icon": "📦", "title": "Carer kits", "body": "Condition-specific, picture-first."},
+       {"icon": "🎓", "title": "Nurse educator CPD", "body": "Teach-back done well."},
+       {"icon": "🤝", "title": "Hospital partnerships", "body": "Discharge programmes that pay."}
+     ],
+     "values": [{"name": "Dignity", "desc": "families are partners"}, {"name": "Clarity", "desc": "plain words, real pictures"}, {"name": "Evidence", "desc": "clinically reviewed"}, {"name": "Rest", "desc": "my health counts too"}],
+     "identity": {"title": "Care Educator-Founder:", "body": "a nurse who builds learning that outlives the shift."}},
+
+    {"type": "trinity", "ch": "identity", "kicker": "Three aspirations + the ring", "title": "Service · Growth · **Legacy**", "center": "One life",
+     "circles": [
+       {"icon": "🌍", "name": "Service", "aspiration": "Families care with confidence", "question": "What changes for others?"},
+       {"icon": "🪷", "name": "Growth", "aspiration": "I learn to lead and let go", "question": "Who am I becoming?"},
+       {"icon": "🌱", "name": "Legacy", "aspiration": "Nurses teach it without me", "question": "What works without me?"}
+     ],
+     "outer": {"icon": "♾️", "name": "Sustainability", "words": ["sleep", "family", "garden"], "question": "Does this life leave room for my own health?", "body": "If not, the design is wrong."}},
+
+    {"type": "wheel", "ch": "principles", "kicker": "Operating principles", "title": "Four principles as a **way of working**", "center": "Principles",
+     "segments": [
+       {"icon": "🌱", "name": "Start small", "sub": "pilot", "rows": {"In practice": "One condition, one ward, one month", "Watch for": "Waiting for perfect"}},
+       {"icon": "🤝", "name": "Co-design", "sub": "with families", "rows": {"In practice": "Families test every draft", "Watch for": "Designing for them, not with them"}},
+       {"icon": "🔬", "name": "Evidence", "sub": "review", "rows": {"In practice": "Clinician review, measure teach-back", "Watch for": "Pretty but unproven"}},
+       {"icon": "🕊️", "name": "Let go", "sub": "steward", "rows": {"In practice": "Train nurse champions", "Watch for": "Being the only one who can teach it"}}
+     ]},
+
+    {"type": "chain", "ch": "principles", "kicker": "Teaching forward", "title": "When learners become **teachers**",
+     "nodes": [
+       {"icon": "👪", "title": "A family learns", "body": "Confident at discharge.", "sub": "care"},
+       {"icon": "🗣️", "title": "They help a neighbour", "body": "Skills travel.", "sub": "share", "via": "share"},
+       {"icon": "🩺", "title": "A nurse champion", "body": "Teaches it on her ward.", "sub": "multiply", "via": "train"},
+       {"icon": "🏥", "title": "A hospital standard", "body": "Built into discharge.", "sub": "embed", "via": "adopt"}
+     ]},
+
+    {"type": "cycle", "ch": "ecosystem", "kicker": "The roles that feed each other", "title": "Bedside → classroom → **bedside**",
+     "center": "Each role makes the next one better.",
+     "steps": [
+       {"icon": "🩺", "title": "Notice", "body": "Bedside reveals what families don't know."},
+       {"icon": "📐", "title": "Design", "body": "Turn it into a picture-first lesson."},
+       {"icon": "🧪", "title": "Test", "body": "Families try it; teach-back measured."},
+       {"icon": "📦", "title": "Package", "body": "Kits and CPD that hospitals buy."},
+       {"icon": "🪷", "title": "Reflect", "body": "Am I still close to real families?"}
+     ]},
+
+    {"type": "ecosystem", "ch": "ecosystem", "kicker": "What I'm building", "title": "Four parts that **nourish one another**",
+     "hub": {"icon": "🌿", "title": "CareForward", "body": "learning for carers"},
+     "nodes": [
+       {"id": "kits", "icon": "📦", "title": "Carer kits", "body": "free to families"},
+       {"id": "cpd", "icon": "🎓", "title": "Nurse CPD", "body": "paid courses"},
+       {"id": "hosp", "icon": "🏥", "title": "Hospital programmes", "body": "contracts"},
+       {"id": "comm", "icon": "👪", "title": "Carer community", "body": "peer support"}
+     ],
+     "flows": [
+       {"from": "hosp", "to": "hub", "label": "revenue"},
+       {"from": "hub", "to": "kits", "label": "funds free kits"},
+       {"from": "comm", "to": "kits", "label": "real-world feedback"},
+       {"from": "cpd", "to": "hosp", "label": "trained nurse champions"},
+       {"from": "kits", "to": "comm", "label": "confident carers"}
+     ],
+     "outcomes": ["👪 Confident families", "📉 Fewer readmissions", "🩺 Nurse champions"]},
+
+    {"type": "layers", "ch": "ecosystem", "kicker": "Who pays vs who benefits", "title": "Families **never** pay",
+     "layers": [
+       {"icon": "👪", "title": "Families", "purpose": "free", "items": ["kits", "videos", "community"]},
+       {"icon": "🎓", "title": "Nurses", "purpose": "CPD fees", "items": ["courses", "certification"]},
+       {"icon": "🏥", "title": "Hospitals", "purpose": "contracts", "items": ["discharge programmes", "licences"]}
+     ],
+     "arrow": {"label": "contracts fund free access", "direction": "up"}},
+
+    {"type": "chain", "ch": "strategy", "kicker": "Sequencing", "title": "Cashflow **first**",
+     "nodes": [
+       {"icon": "🎤", "title": "Workshops", "body": "Paid sessions for hospitals.", "sub": "now"},
+       {"icon": "📦", "title": "Heart-failure kit", "body": "First productised kit.", "sub": "6 months", "via": "productise"},
+       {"icon": "🎓", "title": "CPD course", "body": "Recurring revenue.", "sub": "1 year", "via": "scale"},
+       {"icon": "🌿", "title": "CareForward", "body": "A small organisation.", "sub": "3 years", "via": "steward"}
+     ]},
+
+    {"type": "scores", "ch": "strategy", "kicker": "Scoring my options", "title": "Five ideas, **five lenses**",
+     "criteria": [{"icon": "❤️", "name": "Love"}, {"icon": "🧠", "name": "Skill"}, {"icon": "🌍", "name": "Need"}, {"icon": "💰", "name": "Money"}, {"icon": "⚙️", "name": "Effort fit"}],
+     "items": [
+       {"name": "Heart-failure carer kit", "scores": [9, 9, 9, 7, 8]},
+       {"name": "Nurse teach-back CPD", "scores": [8, 10, 8, 8, 9]},
+       {"name": "Discharge app", "scores": [6, 5, 8, 7, 4]},
+       {"name": "Carer podcast", "scores": [9, 7, 6, 4, 8]},
+       {"name": "Consulting for hospitals", "scores": [6, 9, 7, 9, 9]}
+     ],
+     "top": 2},
+
+    {"type": "compare", "ch": "strategy", "kicker": "Two life architectures", "title": "Which path carries the **vision**?",
+     "columns": [
+       {"icon": "🏥", "title": "Stay & build inside", "body": "Lead education within one hospital system.", "pros": "Security, direct impact.", "cons": "Slow; limited reach."},
+       {"icon": "🌿", "title": "Part-time founder", "recommended": true, "body": "Three days on the ward, two building CareForward.", "pros": "Keeps the bedside close while building.", "cons": "Energy: needs firm boundaries."}
+     ],
+     "question": "Which **difficulty** would I gladly endure because the work matters?"},
+
+    {"type": "roadmap", "ch": "roadmap", "kicker": "The first 90 days", "title": "From idea to **paid pilot**", "now": 0,
+     "phases": [
+       {"icon": "🎯", "when": "Days 1-30", "title": "One condition", "items": ["Heart failure", "Interview 10 families"]},
+       {"icon": "📦", "when": "Days 31-60", "title": "Prototype kit", "items": ["Picture-first booklet", "Teach-back script"]},
+       {"icon": "🏥", "when": "Days 61-90", "title": "Paid pilot", "items": ["One ward", "Measure confidence"]}
+     ]},
+
+    {"type": "layers", "ch": "roadmap", "kicker": "Living it", "title": "Three **layers** of my life",
+     "layers": [
+       {"icon": "🪷", "title": "Rest & relationships", "purpose": "wholeness", "items": ["garden", "family dinners", "sleep"]},
+       {"icon": "🌱", "title": "CareForward", "purpose": "multiplication", "items": ["kits", "CPD"]},
+       {"icon": "🩺", "title": "Nursing", "purpose": "depth", "items": ["three ward days"]}
+     ]},
+
+    {"type": "cards", "ch": "compass", "kicker": "Know my patterns", "title": "Pitfalls and **remedies**", "tone": "warn", "columns": 3,
+     "cards": [
+       {"icon": "🙋", "title": "Yes to everything", "body": "Unpaid talks pile up.", "remedy": "Two free talks a month, then a fee"},
+       {"icon": "🧱", "title": "Perfectionism", "body": "Polishing instead of piloting.", "remedy": "Ship v1 to one ward"},
+       {"icon": "🔥", "title": "Burnout", "body": "Ward + startup + family.", "remedy": "Protect the rest layer first"}
+     ]},
+
+    {"type": "questions", "ch": "compass", "kicker": "Monthly review", "title": "Four **questions**",
+     "prompts": [
+       {"q": "What did I **start** that genuinely helped?"},
+       {"q": "What did I **co-design** with families rather than for them?"},
+       {"q": "What evidence surprised me?"},
+       {"q": "Who can now teach this **without me**?", "hint": "The clearest sign the work is generative."}
+     ]},
+
+    {"type": "closing", "ch": "compass", "kicker": "Integrating, not choosing", "title": "My Ikigai is the bridge between",
+     "words": ["🩺 Care", "📚 Learning", "👪 Family", "🌿 Rest"],
+     "final": "Care that **teaches itself forward**."}
+  ]
+}

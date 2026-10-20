@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ssma-console",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "ssma-console",
+  "title": "SSMA Console — Oracle to SQL Server Migration",
+  "description": "Use when: SSMA console operations — create project, generate assessment report, convert schema, migrate data, Oracle to SQL Server migration, schema conversion, data migration",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.ssma-console",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/ssma-console",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/ssma-console",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "68bf5e87b2f6a2c42b795989f3199c74d84c0a3f015cca59576b2e43e603107a",
+  "content_hash": "62739d56eeea689b6f6fb80f86db2a983df6018df4383307198fcadc6a8a6911",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

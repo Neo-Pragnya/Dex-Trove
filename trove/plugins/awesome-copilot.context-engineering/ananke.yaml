@@ -1,0 +1,45 @@
+kind: bundle
+namespace: awesome-copilot
+name: context-engineering
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:context-engineering
+summary: Tools and techniques for maximizing GitHub Copilot effectiveness through better context management.
+description: Tools and techniques for maximizing GitHub Copilot effectiveness through better context management.
+  Includes guidelines for structuring code, an agent for planning multi-file changes, and prompts for context-aware
+  development.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/context-map
+  version: '*'
+- ref: ananke://skill/awesome-copilot/refactor-plan
+  version: '*'
+- ref: ananke://skill/awesome-copilot/what-context-needed
+  version: '*'
+- ref: ananke://agent/awesome-copilot/context-architect
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - architecture
+  - awesome-copilot
+  - best-practices
+  - context
+  - plugin
+  - productivity
+  - refactoring
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/context-engineering
+  repository: https://github.com/github/awesome-copilot

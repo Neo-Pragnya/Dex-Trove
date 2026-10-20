@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: cast-imaging-software-discovery
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:cast-imaging-software-discovery
+summary: Specialized agent for comprehensive software application discovery and architectural mapping through static
+  code analysis using CAST Imaging
+description: Specialized agent for comprehensive software application discovery and architectural mapping through
+  static code analysis using CAST Imaging
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: cast-imaging-software-discovery.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/cast-imaging-software-discovery.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: incident-postmortem
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:incident-postmortem
+summary: Use when an outage, production incident, or significant service degradation has occurred and the team needs
+  to write a structured blameless post-mortem.
+description: Use when an outage, production incident, or significant service degradation has occurred and the team
+  needs to write a structured blameless post-mortem. Triggers on phrases like "write a post-mortem", "incident review",
+  "what went wrong", "outage report", "root cause analysis", or "RCA". Covers timeline reconstruction, contributing
+  factor analysis, impact quantification, and action item generation with owners.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/incident-postmortem
+  repository: https://github.com/github/awesome-copilot

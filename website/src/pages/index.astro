@@ -1,0 +1,184 @@
+---
+import Glyph from "../components/Glyph.astro";
+import Layout from "../components/Layout.astro";
+import search from "../data/search.json";
+import trove from "../data/trove.json";
+import { KINDS, KIND_GLYPH, KIND_ORDER, itemHref, shortCommit, site, type Kind } from "../lib/site";
+
+const base = import.meta.env.BASE_URL;
+const counts = trove.counts as Record<string, number>;
+type Lock = { commit: string | null; items: Record<string, number> } | null;
+const learned = trove.sources.filter((s) => s.lock);
+const firstParty = search.filter((i) => i.ns === "neo-pragnya");
+const pick = (id: string) => search.find((i) => i.id === id);
+const highlights = [
+  "superpowers/systematic-debugging",
+  "anthropic/mcp-builder",
+  "awesome-copilot/git-commit",
+  "awesome-copilot/arize-ax",
+  "awesome-copilot/terraform-iac-reviewer",
+  "anthropic/skill-creator",
+]
+  .map(pick)
+  .filter((i) => i !== undefined);
+const total = (lock: Lock) => Object.values(lock?.items ?? {}).reduce((a, b) => a + b, 0);
+const kinds = KIND_ORDER.filter((k) => counts[k]);
+const steps = [
+  ["Map", "A source is listed in sources.yaml with an adapter.", "k-skill"],
+  ["Fetch", "A shallow clone at a pinned commit, recorded in the lock.", "k-workflow"],
+  ["Licence", "Item → folder → repo, read from the licence text. Unknown means out.", "k-agent"],
+  ["Guard", "Size, symlinks, secrets, duplicates and code are all checked.", "k-hook"],
+  ["Normalise", "Upstream bytes kept verbatim, plus ananke.yaml, dex.json and licence text.", "k-prompt"],
+  ["Ship", "A reviewed PR, then PyPI and this site.", "k-plugin"],
+];
+---
+
+<Layout title={site.name}>
+  <section class="hero">
+    <div class="mk-aurora" style="--mk-aurora-a: var(--lemon); --mk-aurora-b: var(--teal)"></div>
+    <canvas data-field="38" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <span class="wordmark" data-reveal>
+        <Glyph shapes="blob star flower spark" tint="coral" class="" auto={2400} />
+        <span><em>Dex</em>terity <em>Trove</em></span>
+      </span>
+      <h1 data-reveal style="--d: .05s">
+        <span data-scramble>A trove of dexterities</span>
+        <span class="hl">for your agents.</span>
+      </h1>
+      <p class="lede" data-reveal style="--d: .1s">
+        Skills, agents, instructions, hooks and plugins your AI can pick up. They're learned from the best open repos,
+        licence-checked one item at a time, credited to their authors, and one command away in Claude Code,
+        GitHub Copilot or Ananke.
+      </p>
+      <div class="hero-actions" data-reveal style="--d: .15s">
+        <a class="btn ants" data-magnetic href={`${base}catalog/`} style="--mk-ants: var(--coral)">Browse {trove.total} dexterities →</a>
+        <a class="btn ghost ants" data-magnetic href={`${base}docs/guides/getting-started/`} style="--mk-ants: var(--teal)">Get started</a>
+      </div>
+      <div class="install-line" data-reveal style="--d: .2s"><span>$ pip install dex-trove</span></div>
+    </div>
+  </section>
+
+  <div class="stats">
+    {
+      kinds.map((k, i) => (
+        <a class={`card stat k-${k}`} href={`${base}catalog/?kind=${k}`} data-tilt data-reveal style={`--d:${i * 0.04}s`}>
+          <Glyph shapes={KIND_GLYPH[k]} class="glyph" />
+          <strong data-countup>{counts[k]}</strong>
+          <span>{KINDS[k].plural}</span>
+        </a>
+      ))
+    }
+    <a class="card stat t-pink" href={`${base}excluded/`} data-tilt data-reveal style="--d:.3s">
+      <Glyph shapes="octagon>star4" class="glyph" />
+      <strong data-countup>{trove.excluded.length}</strong>
+      <span>Refused, with evidence</span>
+    </a>
+  </div>
+
+  <h2 data-reveal>Pick up a dexterity</h2>
+  <div class="feature-grid">
+    {
+      kinds.map((k, i) => (
+        <a class={`card k-${k}`} href={`${base}catalog/?kind=${k}`} data-tilt data-reveal style={`--d:${Math.min(i * 0.04, 0.25)}s`}>
+          <span class="card-head">
+            <Glyph shapes={KIND_GLYPH[k]} class="glyph" />
+            <span class="chip kind">{counts[k]}</span>
+          </span>
+          <strong>{KINDS[k].plural}</strong>
+          <p>{KINDS[k].blurb}</p>
+        </a>
+      ))
+    }
+  </div>
+  <p class="hint"><a href={`${base}docs/concepts/artifact-kinds/`}>What each kind is and how each tool uses it →</a></p>
+
+  <h2 data-reveal>Made here: first-party skills</h2>
+  <div class="feature-grid">
+    {
+      firstParty.map((i, n) => (
+        <a class="card t-lemon" href={itemHref(base, i.kind, i.ns, i.name)} data-tilt data-reveal style={`--d:${n * 0.05}s`}>
+          <span class="card-head">
+            <Glyph shapes={["blob>star", "hex>spark", "circle>flower", "squircle>flower8"][n % 4]} tint="coral" class="glyph" />
+            <span class="chip gold">first-party · {i.lic}</span>
+          </span>
+          <strong>{i.title}</strong>
+          <p>{i.d.slice(0, 170)}…</p>
+        </a>
+      ))
+    }
+  </div>
+
+  <h2 data-reveal>Good places to start</h2>
+  <div class="feature-grid">
+    {
+      highlights.map((i, n) => (
+        <a class={`card k-${i.kind}`} href={itemHref(base, i.kind, i.ns, i.name)} data-tilt data-reveal style={`--d:${n * 0.04}s`}>
+          <span class="card-head">
+            <Glyph shapes={KIND_GLYPH[i.kind as Kind]} class="glyph" />
+            <span class="chips"><span class="chip kind">{KINDS[i.kind as Kind].label}</span><span class="chip">{i.ns}</span></span>
+          </span>
+          <strong>{i.title}</strong>
+          <p>{i.d.slice(0, 150)}…</p>
+        </a>
+      ))
+    }
+  </div>
+
+  <h2 data-reveal>How a dexterity gets in</h2>
+  <ol class="flow">
+    {
+      steps.map(([title, text, cls], i) => (
+        <li class={`card ${cls}`} data-reveal style={`--d:${i * 0.05}s`}>
+          <strong>{title}</strong>
+          <span>{text}</span>
+        </li>
+      ))
+    }
+  </ol>
+  <p class="hint"><a href={`${base}docs/concepts/architecture/`}>Architecture in depth →</a> · <a href={`${base}docs/concepts/licence-policy/`}>Licence policy →</a></p>
+
+  <h2 data-reveal>Learned from</h2>
+  <div class="marquee-row" data-marquee>
+    {
+      [0, 1].map((copy) => (
+        <div aria-hidden={copy === 1 ? "true" : undefined}>
+          {learned.map((s) => (
+            <a class="chip" href={`${base}catalog/?source=${s.id}`} tabindex={copy === 1 ? -1 : undefined}>
+              {s.title} · {total(s.lock as Lock)} · <code>{shortCommit((s.lock as Lock)?.commit)}</code>
+            </a>
+          ))}
+          {trove.candidates.slice(0, 8).map((c) => (
+            <span class="chip">next: {c.repo}</span>
+          ))}
+        </div>
+      ))
+    }
+  </div>
+  <p class="hint"><a href={`${base}sources/`}>All sources, inspirations and evaluated candidates →</a></p>
+
+  <div class="grid-2" style="margin-top:28px">
+    <section class="card" data-reveal>
+      <h2 style="margin-top:0">Use it anywhere</h2>
+      <pre><code>pip install dex-trove
+
+dex search architecture diagram
+dex show neo-pragnya/marvellous-aws-architecture-docs
+dex install superpowers/systematic-debugging --target claude
+dex install awesome-copilot/git-commit --target copilot</code></pre>
+      <p class="hint"><a href={`${base}docs/guides/installing-items/`}>Where each kind goes →</a></p>
+    </section>
+    <section class="card" data-reveal style="--d:.05s">
+      <h2 style="margin-top:0">…or plug it into Ananke</h2>
+      <pre><code>pip install ananke-plexus dex-trove
+ananke registry init
+
+# everything, discovered from the installed wheel
+ananke registry learn python:dex-trove
+
+# or a curated slice
+dex ananke sync --kind skill --source neo-pragnya</code></pre>
+      <p class="hint"><a href={`${base}docs/guides/ananke-integration/`}>Ananke integration guide →</a></p>
+    </section>
+  </div>
+</Layout>

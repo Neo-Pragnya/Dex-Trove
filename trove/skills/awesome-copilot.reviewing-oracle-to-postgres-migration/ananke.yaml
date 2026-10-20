@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: reviewing-oracle-to-postgres-migration
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:reviewing-oracle-to-postgres-migration
+summary: Identifies Oracle-to-PostgreSQL migration risks by cross-referencing code against known behavioral differences
+  (empty strings, refcursors, type coercion, sorting/collations, UNION ALL planner risks, m…
+description: Identifies Oracle-to-PostgreSQL migration risks by cross-referencing code against known behavioral
+  differences (empty strings, refcursors, type coercion, sorting/collations, UNION ALL planner risks, materialized-view
+  refresh requirements, timestamps, concurrent transactions, etc.). Use when planning a database migration, reviewing
+  migration artifacts, or validating that integration tests cover Oracle/PostgreSQL differences.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/reviewing-oracle-to-postgres-migration
+  repository: https://github.com/github/awesome-copilot

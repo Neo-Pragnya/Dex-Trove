@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/acreadiness-generate-instructions",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "acreadiness-generate-instructions",
+  "title": "/acreadiness-generate-instructions — write AI agent instructions",
+  "description": "Generate tailored AI agent instruction files via AgentRC instructions command. Produces .github/copilot-instructions.md (default, recommended for Copilot in VS Code) plus optional per-area .instructions.md files with applyTo globs for monorepos. Use after running /acreadiness-assess to close gaps in the AI Tooling pillar.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.acreadiness-generate-instructions",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/acreadiness-generate-instructions",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/acreadiness-generate-instructions",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "b0f4f82099fbfdcd2a45d54b8db9392d6ebe26cd396843453e9dcae14de513e8",
+  "content_hash": "24d94347775b1484870cea69fa76e78c878a715cb3ec2dab7cbb7423ff915c4d",
+  "learned_at": "2026-10-20T03:28:49+00:00"
+}

@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: arize-trace
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:arize-trace
+summary: Downloads, exports, and inspects existing Arize traces and spans to understand what an LLM app is doing
+  or debug runtime issues.
+description: Downloads, exports, and inspects existing Arize traces and spans to understand what an LLM app is doing
+  or debug runtime issues. Covers exporting traces by ID, spans by ID, sessions by ID, and root-cause investigation
+  using the ax CLI. Use when the user wants to look at existing trace data, see what their LLM app is doing, export
+  traces, download spans, investigate errors, or analyze behavior regressions.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-trace
+  repository: https://github.com/github/awesome-copilot

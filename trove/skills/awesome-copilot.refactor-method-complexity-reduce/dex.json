@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/refactor-method-complexity-reduce",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "refactor-method-complexity-reduce",
+  "title": "Refactor Method to Reduce Cognitive Complexity",
+  "description": "Refactor given method `${input:methodName}` to reduce its cognitive complexity to `${input:complexityThreshold}` or below, by extracting helper methods.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.refactor-method-complexity-reduce",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/refactor-method-complexity-reduce",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/refactor-method-complexity-reduce",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "445cc1f9afff9cb74946f0a72af936b450e8dc513423607857d59304c84892b2",
+  "content_hash": "5717a8737079323c2d02a22808a06ecfb637eaadce1b665cc0f732b3c22c8a13",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

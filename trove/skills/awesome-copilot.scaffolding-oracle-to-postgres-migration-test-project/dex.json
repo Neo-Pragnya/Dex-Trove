@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/scaffolding-oracle-to-postgres-migration-test-project",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "scaffolding-oracle-to-postgres-migration-test-project",
+  "title": "Scaffolding an Integration Test Project for Oracle-to-PostgreSQL Migration",
+  "description": "Scaffolds an xUnit integration test project targeting Oracle in .NET solutions. Creates the test project, transaction-rollback base class, and seed data manager. Use only during Phase 3, before writing Oracle baseline integration tests. Do not invoke during Phase 6 — the PostgreSQL test project is produced by migrating this project, not by running this skill again.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.scaffolding-oracle-to-postgres-migration-test-project",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/scaffolding-oracle-to-postgres-migration-test-project",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/scaffolding-oracle-to-postgres-migration-test-project",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e0c48d45b172678fdd46b4fd28c4cf7e8c11cbb11f0dc22a708d01867d35bd08",
+  "content_hash": "34cfd358fe4e8096fb4b9a9150f749ddeb03cdf174091576924109576a2db1f0",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

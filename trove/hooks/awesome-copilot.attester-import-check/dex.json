@@ -1,0 +1,47 @@
+{
+  "id": "awesome-copilot/attester-import-check",
+  "kind": "hook",
+  "namespace": "awesome-copilot",
+  "name": "attester-import-check",
+  "title": "Attester Import Check",
+  "description": "Verifies PyPI and npm package names against the attester.dev existence oracle before the Copilot coding agent writes them into code, blocking hallucinated dependencies",
+  "tags": [
+    "awesome-copilot",
+    "dependencies",
+    "executes-code",
+    "hook",
+    "pretooluse",
+    "security",
+    "supply-chain"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "hooks/awesome-copilot.attester-import-check",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "hooks/attester-import-check",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/attester-import-check",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "README.md",
+    "check-imports.py",
+    "hooks.json"
+  ],
+  "entry_hash": "e88e171738d82f90d145f96997e1bd54cd9d7df407970820a43a0c703a943f58",
+  "content_hash": "0f3717289d35822408dd4519f182ab3500a7703fa8fa5807422e6f3259c1f4fd",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

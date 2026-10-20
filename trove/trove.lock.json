@@ -1,0 +1,49 @@
+{
+  "sources": {
+    "anthropic": {
+      "repo": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "learned_at": "2026-10-20T04:06:53+00:00",
+      "items": {
+        "skill": 14
+      },
+      "excluded": 5
+    },
+    "awesome-copilot": {
+      "repo": "https://github.com/github/awesome-copilot",
+      "ref": "main",
+      "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+      "learned_at": "2026-10-20T04:06:53+00:00",
+      "items": {
+        "agent": 222,
+        "hook": 8,
+        "instruction": 192,
+        "plugin": 72,
+        "skill": 435,
+        "workflow": 8
+      },
+      "excluded": 32
+    },
+    "neo-pragnya": {
+      "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+      "ref": "HEAD",
+      "commit": null,
+      "learned_at": "2026-10-20T04:50:32+00:00",
+      "items": {
+        "skill": 4
+      },
+      "excluded": 0
+    },
+    "superpowers": {
+      "repo": "https://github.com/obra/superpowers",
+      "ref": "main",
+      "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "learned_at": "2026-10-20T04:06:53+00:00",
+      "items": {
+        "skill": 15
+      },
+      "excluded": 0
+    }
+  }
+}

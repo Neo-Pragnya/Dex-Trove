@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/salesforce-flow",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "salesforce-flow",
+  "title": "Salesforce Flow Development",
+  "description": "Implement business automation using Salesforce Flow following declarative automation best practices.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "salesforce-flow.agent.md",
+  "dir": "agents/awesome-copilot.salesforce-flow",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/salesforce-flow.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/salesforce-flow.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "salesforce-flow.agent.md"
+  ],
+  "entry_hash": "fd032a55249b6270f1c3ef7851632684cad2301fca9ee925a7dce5f58d71bd62",
+  "content_hash": "0ca815cdd6e31130a9c808b2af7f6ecea46b9358e39d20d438e291584a0fa10b",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

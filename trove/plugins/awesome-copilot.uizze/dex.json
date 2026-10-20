@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/uizze",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "uizze",
+  "title": "UIZZE Plugin",
+  "description": "Build product-specific interfaces with a focused UIZZE workflow, optional real-screen evidence, and a practical finish check.",
+  "tags": [
+    "awesome-copilot",
+    "design",
+    "design-review",
+    "frontend",
+    "ios",
+    "plugin",
+    "quality-gate",
+    "ui",
+    "web"
+  ],
+  "version": "1.2.13",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.uizze",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/uizze",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/uizze",
+    "author": "UIZZE"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/anti-ui-slop"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "eecd37e78da2500ba3f34bfabaae56cfc832a9f4bcaa45f90a11654665f9e7f9",
+  "content_hash": "7c1a4ae0922f978ae91f24e8189452bdfc45f632a9dd3a64f5f3e7a32615e151",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

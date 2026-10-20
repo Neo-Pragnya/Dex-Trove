@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/vscode-ext-localization",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "vscode-ext-localization",
+  "title": "VS Code extension localization",
+  "description": "Guidelines for proper localization of VS Code extensions, following VS Code extension development guidelines, libraries and good practices",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.vscode-ext-localization",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/vscode-ext-localization",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/vscode-ext-localization",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "a238b58545bc23476ac0bd6451e9b01a225cb125096b90b3425e8e08943e3d6c",
+  "content_hash": "ce6aa1c5923147d911b60135a98fbc663d0f4853ca6aec4fa86d46d7b564dcf6",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/powerbi-modeling",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "powerbi-modeling",
+  "title": "Power BI Semantic Modeling",
+  "description": "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schemas, configuring relationships, implementing RLS, or optimizing model performance. Triggers on queries about DAX calculations, table relationships, dimension/fact table design, naming conventions, model documentation, cardinality, cross-filter direction, calculation groups, and data model best practices. Always connects to the active model first using power-bi-modeling MCP tools to understand the data structure before providing guidance.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.powerbi-modeling",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/powerbi-modeling",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/powerbi-modeling",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/MEASURES-DAX.md",
+    "references/PERFORMANCE.md",
+    "references/RELATIONSHIPS.md",
+    "references/RLS.md",
+    "references/STAR-SCHEMA.md"
+  ],
+  "entry_hash": "0730f587a313065335e1ff58f5b5dcb60a150c1632451a365f9d232ada0e54ff",
+  "content_hash": "d3947d86025885eb00367a8455340dce93876e93dc8b5458510dc76be47f916a",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

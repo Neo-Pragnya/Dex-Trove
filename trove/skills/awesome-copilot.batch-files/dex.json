@@ -1,0 +1,49 @@
+{
+  "id": "awesome-copilot/batch-files",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "batch-files",
+  "title": "Batch Files",
+  "description": "Expert-level Windows batch file (.bat/.cmd) skill for writing, debugging, and maintaining CMD scripts. Use when asked to \"create a batch file\", \"write a .bat script\", \"automate a Windows task\", \"CMD scripting\", \"batch automation\", \"scheduled task script\", \"Windows shell script\", or when working with .bat/.cmd files in the workspace. Covers cmd.exe syntax, environment variables, control flow, string processing, error handling, and integration with system tools.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.batch-files",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/batch-files",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/batch-files",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/executable.txt",
+    "assets/library.txt",
+    "assets/task.txt",
+    "references/batch-files-and-functions.md",
+    "references/cygwin.md",
+    "references/msys2.md",
+    "references/tools-and-resources.md",
+    "references/windows-commands.md",
+    "references/windows-subsystem-on-linux.md"
+  ],
+  "entry_hash": "64915b51fab7af2111809a3c787fcf572d3944dcc1310d2478e97e3f9df5ee3c",
+  "content_hash": "9f3a89115e9dfd43da3b808016e0a4ca2b8544fd5a5045a346c81574c8558ebf",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

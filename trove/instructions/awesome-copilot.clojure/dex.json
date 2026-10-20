@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/clojure",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "clojure",
+  "title": "Clojure Development Instructions",
+  "description": "Clojure-specific coding patterns, inline def usage, code block templates, and namespace handling for Clojure development.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "clojure.instructions.md",
+  "dir": "instructions/awesome-copilot.clojure",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/clojure.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/clojure.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "clojure.instructions.md"
+  ],
+  "entry_hash": "19279142bf9e21f68bd6f17758981bfd45178d4a7fa0583f5fdfd005a58e091d",
+  "content_hash": "bf3e1054cf35c3c0d3d88966e3b9fa49e05a1b68cb1d4801aa763baa8f58755c",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.{clj,cljs,cljc,bb,edn.mdx?}"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gh-attach",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "gh-attach",
+  "title": "gh-attach",
+  "description": "Uploads a local file (screenshot, image, PDF, zip, video) to GitHub user-attachments, downloads GitHub user-attachments, and embeds local files in a PR, issue, or comment. Use when asked to \"attach a screenshot to the PR\", \"add an image to the issue\", \"embed before/after screenshots\", \"attach this file\", or \"download this GitHub attachment\". Powered by `gh-attach`.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.gh-attach",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/gh-attach",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gh-attach",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "a639b7a4d82d9b652a665a672f96a214b6225bd9b318b38c42a8055751745ed1",
+  "content_hash": "921c49855de95e9211c76a7d1a104a4f018c2c633921a38a96b102179de08f6d",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

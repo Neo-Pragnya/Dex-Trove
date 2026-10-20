@@ -1,0 +1,47 @@
+{
+  "id": "awesome-copilot/clojure-interactive-programming",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "clojure-interactive-programming",
+  "title": "Clojure Interactive Programming Plugin",
+  "description": "Tools for REPL-first Clojure workflows featuring Clojure instructions, the interactive programming chat mode and supporting guidance.",
+  "tags": [
+    "awesome-copilot",
+    "clojure",
+    "interactive-programming",
+    "plugin",
+    "repl"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.clojure-interactive-programming",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/clojure-interactive-programming",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/clojure-interactive-programming",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/remember-interactive-programming",
+    "agent:awesome-copilot/clojure-interactive-programming"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "9a93efb8205363b2f43567b5bfa185a68595d84e81069a5a0a1c28ce6cbeb870",
+  "content_hash": "9b5d6f55c2d8ffa2304a0ac575d87509a0320ab158307ec4e11f027d619ec096",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/azure-saas-architect",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "azure-saas-architect",
+  "title": "Azure SaaS Architect mode instructions",
+  "description": "Provide expert Azure SaaS Architect guidance focusing on multitenant applications using Azure Well-Architected SaaS principles and Microsoft best practices.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-saas-architect.agent.md",
+  "dir": "agents/awesome-copilot.azure-saas-architect",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/azure-saas-architect.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-saas-architect.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-saas-architect.agent.md"
+  ],
+  "entry_hash": "c6cdb3e9cb60c65837ed40b3d679d00fdafc15708e33206e79c98e8e7f971f05",
+  "content_hash": "849104bf2a086d6d7f068d03c6f0900944622c8e95f4aafd0f19e75c0ae7272c",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

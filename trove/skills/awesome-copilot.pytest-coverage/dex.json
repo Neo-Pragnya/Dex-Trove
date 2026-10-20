@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/pytest-coverage",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "pytest-coverage",
+  "title": "pytest-coverage",
+  "description": "Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.pytest-coverage",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/pytest-coverage",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/pytest-coverage",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "3778add8809c5aac585ab764090f46e7cfdb009ae3fc9fb308710538627970f9",
+  "content_hash": "2d44cbcda2b7d4342290f5f0be4ebe86207caf32ed5890b086498bc4da9b61c9",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

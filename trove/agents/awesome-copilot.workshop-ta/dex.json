@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/workshop-ta",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "workshop-ta",
+  "title": "Workshop TA",
+  "description": "Room coordinator for a multi-agent workshop. Sees all desks, routes work, tracks state, manages journals, and emits coordination signals. Not a desk — the person who sees the whole room.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "workshop-ta.agent.md",
+  "dir": "agents/awesome-copilot.workshop-ta",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/workshop-ta.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/workshop-ta.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "workshop-ta.agent.md"
+  ],
+  "entry_hash": "0d3058daf15340e2b997506ea1c3ec9c51ff54662c6b7342cc997e59a8c25ee9",
+  "content_hash": "3abe092c46da8d4eee1ae2ba8d3a2c8df544285f8e608a3ead84497a68e4365d",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

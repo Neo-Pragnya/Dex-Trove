@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/freecad-scripts",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "freecad-scripts",
+  "title": "FreeCAD Scripts",
+  "description": "Expert skill for writing FreeCAD Python scripts, macros, and automation. Use when asked to create FreeCAD models, parametric objects, Part/Mesh/Sketcher scripts, workbench tools, GUI dialogs with PySide, Coin3D scenegraph manipulation, or any FreeCAD Python API task. Covers FreeCAD scripting basics, geometry creation, FeaturePython objects, interface tools, and macro development.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.freecad-scripts",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/freecad-scripts",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/freecad-scripts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/geometry-and-shapes.md",
+    "references/gui-and-interface.md",
+    "references/parametric-objects.md",
+    "references/scripting-fundamentals.md",
+    "references/workbenches-and-advanced.md"
+  ],
+  "entry_hash": "d7cf141375e743f9f56811a0d16877aaf8e9a2d0dfc31cd48378bd17720ba840",
+  "content_hash": "caa35bf643ad807e54668447745d581f370e69219422ff5c908811f5f4de49a0",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

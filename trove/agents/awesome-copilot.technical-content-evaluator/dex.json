@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/technical-content-evaluator",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "technical-content-evaluator",
+  "title": "technical-content-evaluator",
+  "description": "Elite technical content editor and curriculum architect for evaluating technical training materials, documentation, and educational content. Reviews for technical accuracy, pedagogical excellence, content flow, code validation, and ensures A-grade quality standards.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "technical-content-evaluator.agent.md",
+  "dir": "agents/awesome-copilot.technical-content-evaluator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/technical-content-evaluator.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/technical-content-evaluator.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "technical-content-evaluator.agent.md"
+  ],
+  "entry_hash": "8f8b3c09b579784004c443498aab8214928fdd6d8e343d33e5c14424674cc715",
+  "content_hash": "1bb417fd9ea467137a28471a78f0fc9ffb3aad346efdd9c7c5ca52fce6de0c43",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

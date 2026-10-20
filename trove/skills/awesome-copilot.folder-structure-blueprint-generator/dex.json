@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/folder-structure-blueprint-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "folder-structure-blueprint-generator",
+  "title": "Project Folder Structure Blueprint Generator",
+  "description": "Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects project types (.NET, Java, React, Angular, Python, Node.js, Flutter), generates detailed blueprints with visualization options, naming conventions, file placement patterns, and extension templates for maintaining consistent code organization across diverse technology stacks.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.folder-structure-blueprint-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/folder-structure-blueprint-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/folder-structure-blueprint-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "6e0c362502ea65b3c929fb02baecaf6da2420352c4aa27eebbd2b89643198be3",
+  "content_hash": "e23190067d1266453a3e57b5185d8f9dd03c9c9b20b7aa489e6b18c83b72e478",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

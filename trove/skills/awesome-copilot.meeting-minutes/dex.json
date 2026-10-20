@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/meeting-minutes",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "meeting-minutes",
+  "title": "Meeting Minutes Skill — Short Internal Meetings",
+  "description": "Generate concise, actionable meeting minutes for internal meetings. Includes metadata, attendees, agenda, decisions, action items (owner + due date), and follow-up steps.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.meeting-minutes",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/meeting-minutes",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/meeting-minutes",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "69420bbe78b2f6c81f9689672360dd97e71e9fc83045a70e3d6924f24973a789",
+  "content_hash": "2c0e9a1b9e1ea07f98b2a7ee9773f0ca42102a8e2a1ce93b9e1f3b1e3e35cf6d",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: update-code-from-shorthand
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:update-code-from-shorthand
+summary: Shorthand code will be in the file provided from the prompt or raw data in the prompt, and will be used
+  to update the code file when the prompt has the text `UPDATE CODE FROM SHORTHAND`.
+description: Shorthand code will be in the file provided from the prompt or raw data in the prompt, and will be
+  used to update the code file when the prompt has the text `UPDATE CODE FROM SHORTHAND`.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: update-code-from-shorthand.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/update-code-from-shorthand.instructions.md
+  repository: https://github.com/github/awesome-copilot

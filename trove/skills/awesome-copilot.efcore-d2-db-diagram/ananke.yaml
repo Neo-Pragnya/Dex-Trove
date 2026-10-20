@@ -1,0 +1,34 @@
+kind: skill
+namespace: awesome-copilot
+name: efcore-d2-db-diagram
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:efcore-d2-db-diagram
+summary: 'Generate D2 database diagrams from Entity Framework Core models. USE FOR: EF Core database diagram, Entity
+  Framework Core ERD, DbContext diagram, C# entity relationship diagram, PostgreSQL schema visu…'
+description: 'Generate D2 database diagrams from Entity Framework Core models. USE FOR: EF Core database diagram,
+  Entity Framework Core ERD, DbContext diagram, C# entity relationship diagram, PostgreSQL schema visualization,
+  generate .d2 file from EF Core entities, Fluent API mapping diagram, migrations-based database diagram, table
+  relationships, owned types, many-to-many join tables, indexes and constraints. DO NOT USE FOR: runtime debugging,
+  database migration execution, schema deployment, SQL performance tuning, or draw.io diagrams.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/efcore-d2-db-diagram
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/openapi-to-application-csharp-dotnet",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "openapi-to-application-csharp-dotnet",
+  "title": "OpenAPI to Application - C# .NET Plugin",
+  "description": "Generate production-ready .NET applications from OpenAPI specifications. Includes ASP.NET Core project scaffolding, controller generation, entity framework integration, and C# best practices.",
+  "tags": [
+    "api",
+    "aspnet",
+    "awesome-copilot",
+    "code-generation",
+    "csharp",
+    "dotnet",
+    "openapi",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.openapi-to-application-csharp-dotnet",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/openapi-to-application-csharp-dotnet",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/openapi-to-application-csharp-dotnet",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/openapi-to-application-code",
+    "agent:awesome-copilot/openapi-to-application"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "31dff7a01dd4035a99f1636944246b5efe8abedda6703f909901fda7257a0d35",
+  "content_hash": "3759fb805a9bdcbb6944a00f52ca2d5c058ea3e72263a377b47a62df23030df8",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

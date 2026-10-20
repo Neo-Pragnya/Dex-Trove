@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/ai-team-orchestration",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "ai-team-orchestration",
+  "title": "AI Team Orchestration",
+  "description": "Bootstrap and run a lightweight multi-agent development team. Use when starting or adopting a project, planning work, coordinating implementation and optional QA, brainstorming with distinct perspectives, or preserving context across sessions.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.ai-team-orchestration",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/ai-team-orchestration",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/ai-team-orchestration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/anti-patterns.md",
+    "references/brainstorm-format.md",
+    "references/project-brief-template.md",
+    "references/sprint-plan-template.md"
+  ],
+  "entry_hash": "cfc07008fcab5f0638ff92441cd51367132591ca0b44cefaebd6e389cc81291c",
+  "content_hash": "a072f8045d2e1cc5ff4dd884c629dcc1310c0ec753e0647732e489a252241845",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

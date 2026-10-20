@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/python-mcp-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "python-mcp-expert",
+  "title": "Python MCP Server Expert",
+  "description": "Expert assistant for developing Model Context Protocol (MCP) servers in Python",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "python-mcp-expert.agent.md",
+  "dir": "agents/awesome-copilot.python-mcp-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/python-mcp-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/python-mcp-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "python-mcp-expert.agent.md"
+  ],
+  "entry_hash": "0af89900b0c8f32113e89ba236a15e0cd005a3c6dd003fe0e0690ed8f69a6ece",
+  "content_hash": "313d2f0486a30323e0e04a5455d43cb672d7ac53081451c028972f4bec252a0a",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

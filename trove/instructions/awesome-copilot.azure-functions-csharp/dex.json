@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/azure-functions-csharp",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "azure-functions-csharp",
+  "title": "Azure Functions C# Development",
+  "description": "Guidelines and best practices for building Azure Functions in C# using the isolated worker model",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-functions-csharp.instructions.md",
+  "dir": "instructions/awesome-copilot.azure-functions-csharp",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/azure-functions-csharp.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/azure-functions-csharp.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-functions-csharp.instructions.md"
+  ],
+  "entry_hash": "0a804e38dd4709befc0b13b19611c8a8375f6497b4845d224cee5f043c53d570",
+  "content_hash": "bde0c467748381cec3bcb58858dcc6898596f5d8153c435731693d5b41c5f320",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.cs, **/host.json, **/local.settings.json, **/*.csproj"
+}

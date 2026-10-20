@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/sast-sca-security-analyzer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "sast-sca-security-analyzer",
+  "title": "sast-sca-security-analyzer",
+  "description": "Use when you perform SAST or SCA security scans. Identifies code flaws, audits third-party dependencies, checks policy compliance, and generates structured security reports with CWE mappings and file locations.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "sast-sca-security-analyzer.agent.md",
+  "dir": "agents/awesome-copilot.sast-sca-security-analyzer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/sast-sca-security-analyzer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/sast-sca-security-analyzer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "sast-sca-security-analyzer.agent.md"
+  ],
+  "entry_hash": "af39ef29d944d365ed3484229de4d635292dc798f8eb7cc53c1b0d849bb69b75",
+  "content_hash": "31eb8d921832f8c9ca3902f761590f5241acd20c8afbfd6c2a2c17a726199292",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

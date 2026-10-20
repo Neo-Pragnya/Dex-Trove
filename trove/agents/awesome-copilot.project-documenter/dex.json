@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/project-documenter",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "project-documenter",
+  "title": "Project Documenter",
+  "description": "Generates professional MS Word project documentation with draw.io architecture diagrams and embedded PNG images. Automatically discovers any project's technology stack, architecture, and code structure. Produces Markdown, draw.io diagrams, PNG exports, and .docx output.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "project-documenter.agent.md",
+  "dir": "agents/awesome-copilot.project-documenter",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/project-documenter.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/project-documenter.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "project-documenter.agent.md"
+  ],
+  "entry_hash": "120e1f4fdc6199a30c2d8792a92093e0b03bb6c1bfad7f609787fc2fc1bd74b2",
+  "content_hash": "a23f2e9c31f9184e9726101039edb2949659a88e5e90ec57000c60db09d26b2e",
+  "learned_at": "2026-10-20T04:06:47+00:00"
+}

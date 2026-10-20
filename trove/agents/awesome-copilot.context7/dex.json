@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/context7",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "context7",
+  "title": "Context7-Expert",
+  "description": "Expert in latest library versions, best practices, and correct syntax using up-to-date documentation",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "context7.agent.md",
+  "dir": "agents/awesome-copilot.context7",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/context7.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/context7.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "context7.agent.md"
+  ],
+  "entry_hash": "fdc4139376ff3b5dde385988d90b8995ca50cdee1d151e115dd9be8fa8eedd69",
+  "content_hash": "f4e95582e1686a4fe315003494bf562f6190ff0fc7d81f1af71a31c6da81d9bd",
+  "learned_at": "2026-10-20T04:06:46+00:00"
+}

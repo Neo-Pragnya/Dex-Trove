@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/convert-pdf-to-md",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "convert-pdf-to-md",
+  "title": "Convert PDF to Markdown",
+  "description": "Converts PDF (.pdf) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .pdf file — even if they don't say \"convert\" or \"markdown\" explicitly. This includes requests to \"read\", \"summarize\", \"review\", \"extract data from\", \"compare\", or \"analyze\" a PDF report, paper, invoice, form, contract, or scanned document. Always run the bundled conversion script to produce Markdown first; do not attempt to parse PDF content directly or write ad-hoc extraction code. Also use this skill for batch requests involving a whole folder of PDF documents. IMPORTANT: When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no file type is silently skipped.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.convert-pdf-to-md",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/convert-pdf-to-md",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/convert-pdf-to-md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/setup.md",
+    "scripts/convert_pdf_to_md.py",
+    "scripts/requirements.txt"
+  ],
+  "entry_hash": "adadaec52cb7bda8b03254df12eae421d58fd85b6e5c96e57f494ee42216b6a1",
+  "content_hash": "40204d1a53a8fe54f29bf53b903609a7bb780e3dff1197a3ba7c53889be3a017",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

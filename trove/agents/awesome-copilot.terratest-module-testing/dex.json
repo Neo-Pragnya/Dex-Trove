@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/terratest-module-testing",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "terratest-module-testing",
+  "title": "Terratest Module Testing",
+  "description": "Generate and refactor Go Terratest suites for Terraform modules, including CI-safe patterns, staged tests, and negative-path validation.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "terratest-module-testing.agent.md",
+  "dir": "agents/awesome-copilot.terratest-module-testing",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/terratest-module-testing.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/terratest-module-testing.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "terratest-module-testing.agent.md"
+  ],
+  "entry_hash": "4926a4f253b14196fde660c57201907ed5f91b8ec49bb422c37b1194e92d1161",
+  "content_hash": "e5bdc08f8108deebad0837e5ef5723b8e6d76eadd0e30e2ad2016995234876e3",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

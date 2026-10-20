@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/rhino3d-scripts",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "rhino3d-scripts",
+  "title": "Rhino 3D Scripting Skill",
+  "description": "Authoring and debugging scripts for Rhinoceros 3D (Rhino 8 and later). Use when asked to write RhinoScript (VBScript / .rvb / .vbs), RhinoPython, or RhinoCommon-based scripts; automate Rhino modeling tasks; build command macros; manipulate Rhino geometry, layers, blocks, or document objects; pick objects from the viewport; control redraw and undo; or load and run scripts from the Rhino Script Editor. Covers `rhinoscriptsyntax`, `scriptcontext`, the `Rhino.*` RhinoCommon namespaces (`Rhino.Geometry`, `Rhino.DocObjects`, `Rhino.Input`, `Rhino.UI`, `Rhino.Display`, `Rhino.FileIO`), and the Rhino 8 unified Script Editor.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.rhino3d-scripts",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/rhino3d-scripts",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/rhino3d-scripts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/macros-and-loading.md",
+    "references/rhinocommon-map.md",
+    "references/rhinoscriptsyntax-cheatsheet.md",
+    "references/vbscript-quirks.md"
+  ],
+  "entry_hash": "6618e636ac83c50a034a477e2ce6b2c0b2f4d8a0fc9dfd4ea0d676a8d32c4c80",
+  "content_hash": "078983f3ed17e3426b1082c3e8db37cc6cecd19124572d1641be80d20caefa91",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

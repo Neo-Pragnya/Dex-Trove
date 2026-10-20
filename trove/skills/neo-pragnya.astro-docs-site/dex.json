@@ -1,0 +1,72 @@
+{
+  "id": "neo-pragnya/astro-docs-site",
+  "kind": "skill",
+  "namespace": "neo-pragnya",
+  "name": "astro-docs-site",
+  "title": "Astro Docs Site",
+  "description": "Set up (or migrate to) a modern Astro documentation website for a repository, deployed to GitHub Pages: docs read straight from the repo's docs/ folder (one source of truth for GitHub and the site), sidebar + on-page TOC + prev/next + edit-on-GitHub, Mermaid diagrams, GitHub alerts and MkDocs admonitions, .md links rewritten to routes, sanitised Markdown, a pastel interactive landing page (morphing SVG glyphs, cursor-reactive shape field, reveals, count-up stats), light/dark toggle, 404, link checker, Pages workflow and screenshot verification. Use whenever someone wants docs for a repo, a GitHub Pages site, a project website or landing page, to move off MkDocs/Docusaurus/Jekyll, to 'make the docs look modern', or to give a new repo 'all the elements' of a docs setup, even if they don't say Astro.",
+  "tags": [
+    "executes-code",
+    "neo-pragnya",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya.astro-docs-site",
+  "source": {
+    "id": "neo-pragnya",
+    "title": "Neo Pragnya (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+    "commit": null,
+    "path": "astro-docs-site",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.astro-docs-site",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "first-party default (sources.yaml)",
+    "notice": "Copyright (c) Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [
+    {
+      "title": "Astro content collections",
+      "url": "https://docs.astro.build/en/guides/content-collections/"
+    },
+    {
+      "title": "github/awesome-copilot website (Astro)",
+      "url": "https://github.com/github/awesome-copilot/tree/main/website"
+    },
+    {
+      "title": "Material for MkDocs (the docs experience it replaces)",
+      "url": "https://squidfunk.github.io/mkdocs-material/"
+    }
+  ],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/checklist.md",
+    "references/structure.md",
+    "scripts/check_site.py",
+    "scripts/scaffold_astro_docs.py",
+    "templates/website/astro.config.mjs",
+    "templates/website/package.json",
+    "templates/website/public/favicon.svg",
+    "templates/website/src/components/Glyph.astro",
+    "templates/website/src/components/Layout.astro",
+    "templates/website/src/components/Mermaid.astro",
+    "templates/website/src/content.config.ts",
+    "templates/website/src/lib/remark-callouts.ts",
+    "templates/website/src/lib/remark-doc-links.ts",
+    "templates/website/src/pages/404.astro",
+    "templates/website/src/pages/docs/[...slug].astro",
+    "templates/website/src/pages/index.astro",
+    "templates/website/src/styles/global.css",
+    "templates/website/tsconfig.json"
+  ],
+  "entry_hash": "c71f431289bf681c5499741c9643ccd9b9ed3d2a6c26d9f8fdec1790dd10d883",
+  "content_hash": "0aa3ac8600b2608ab9a71955613a1dd4d986feaecb2bb6b982a621ec2b1d5374",
+  "learned_at": "2026-10-20T04:50:31+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/self-explanatory-code-commenting",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "self-explanatory-code-commenting",
+  "title": "Self-explanatory Code Commenting Instructions",
+  "description": "Guidelines for GitHub Copilot to write comments to achieve self-explanatory code with less comments. Examples are in JavaScript but it should work on any language that has comments.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "self-explanatory-code-commenting.instructions.md",
+  "dir": "instructions/awesome-copilot.self-explanatory-code-commenting",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/self-explanatory-code-commenting.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/self-explanatory-code-commenting.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "self-explanatory-code-commenting.instructions.md"
+  ],
+  "entry_hash": "817b73ae219c5be1c3ed225e028996048d77a043dccbfea31033d6b56c64d95a",
+  "content_hash": "dfd2d34cf93226a692f32d299abaf8e7b9067915bcd62b68adea2ba7173c0c0f",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

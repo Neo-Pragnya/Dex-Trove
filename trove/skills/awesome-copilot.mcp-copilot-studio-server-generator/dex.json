@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/mcp-copilot-studio-server-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "mcp-copilot-studio-server-generator",
+  "title": "Power Platform MCP Connector Generator",
+  "description": "Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.mcp-copilot-studio-server-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/mcp-copilot-studio-server-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mcp-copilot-studio-server-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "55a4523e7480cc4fc7c0524b5c50d471bebe8100b408131aebb1fbab064e181d",
+  "content_hash": "2c56b8572b804dfedb26ea7e2c9168c7ca1ce48522fb21d7b9d60f5a33c78dff",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

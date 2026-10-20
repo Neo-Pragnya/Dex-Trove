@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: scaffolding-oracle-to-postgres-migration-test-project
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:scaffolding-oracle-to-postgres-migration-test-project
+summary: Scaffolds an xUnit integration test project targeting Oracle in .NET solutions. Creates the test project,
+  transaction-rollback base class, and seed data manager.
+description: Scaffolds an xUnit integration test project targeting Oracle in .NET solutions. Creates the test project,
+  transaction-rollback base class, and seed data manager. Use only during Phase 3, before writing Oracle baseline
+  integration tests. Do not invoke during Phase 6 — the PostgreSQL test project is produced by migrating this project,
+  not by running this skill again.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/scaffolding-oracle-to-postgres-migration-test-project
+  repository: https://github.com/github/awesome-copilot

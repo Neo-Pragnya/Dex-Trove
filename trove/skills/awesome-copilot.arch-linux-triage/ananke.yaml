@@ -1,0 +1,29 @@
+kind: skill
+namespace: awesome-copilot
+name: arch-linux-triage
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:arch-linux-triage
+summary: Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.
+description: Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arch-linux-triage
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/pcf-power-pages",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "pcf-power-pages",
+  "title": "Use Code Components in Power Pages",
+  "description": "Using code components in Power Pages sites",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "pcf-power-pages.instructions.md",
+  "dir": "instructions/awesome-copilot.pcf-power-pages",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/pcf-power-pages.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/pcf-power-pages.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pcf-power-pages.instructions.md"
+  ],
+  "entry_hash": "eaf60f2fa0c59e6a687168a8e738835ab84be83988f919f4bcde929c0231ae2d",
+  "content_hash": "f0f19056f5216e6970bc9b23351d7c8eb73b4497ae44998cb2fdeff15c322c8a",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+}

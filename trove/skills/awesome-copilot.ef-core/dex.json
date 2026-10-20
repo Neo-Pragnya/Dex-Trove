@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ef-core",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "ef-core",
+  "title": "Entity Framework Core Best Practices",
+  "description": "Get best practices for Entity Framework Core",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.ef-core",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/ef-core",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/ef-core",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "bd7f6824d9b7bad10b18fec05edbbba1208bd1f2a42603d820187aff5ddc3ec8",
+  "content_hash": "3a8473e30cf453d3a77a8d12e5e80847af6001ced02dcab373517d2359cb8aec",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

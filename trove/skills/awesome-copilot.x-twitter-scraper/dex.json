@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/x-twitter-scraper",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "x-twitter-scraper",
+  "title": "X Twitter Scraper",
+  "description": "Build GitHub Copilot workflows with Xquik X API SDKs, REST endpoints, hosted Apify Actor runs, MCP tools, TweetClaw OpenClaw plugin installs, signed webhooks, tweet search, user lookup, follower exports, media actions, and agent automation.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.x-twitter-scraper",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/x-twitter-scraper",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/x-twitter-scraper",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "5203d59a9effb79eeeafb5532c04814648e6b4a4fc64cdcf7ee018f86d53e689",
+  "content_hash": "22fe7e0f742f1a7fa742933ea004fe7006bcc2a7b824843dff30b8169275349e",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

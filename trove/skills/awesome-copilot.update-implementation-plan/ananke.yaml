@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: update-implementation-plan
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:update-implementation-plan
+summary: Update an existing implementation plan file with new or update requirements to provide new features, refactoring
+  existing code or upgrading packages, design, architecture or infrastructure.
+description: Update an existing implementation plan file with new or update requirements to provide new features,
+  refactoring existing code or upgrading packages, design, architecture or infrastructure.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/update-implementation-plan
+  repository: https://github.com/github/awesome-copilot

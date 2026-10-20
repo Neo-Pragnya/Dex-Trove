@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: trojan-skill-hunter
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:trojan-skill-hunter
+summary: Audits agent, skill, instruction, hook, and MCP-config contributions for hidden prompt injection, tool
+  poisoning, unicode steganography, and excessive-agency red flags before they are merged, installe…
+description: Audits agent, skill, instruction, hook, and MCP-config contributions for hidden prompt injection, tool
+  poisoning, unicode steganography, and excessive-agency red flags before they are merged, installed, or trusted
+  — mapped to the OWASP Top 10 for LLM Applications and real-world MCP attack research.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: trojan-skill-hunter.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/trojan-skill-hunter.agent.md
+  repository: https://github.com/github/awesome-copilot

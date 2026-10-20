@@ -1,0 +1,30 @@
+kind: skill
+namespace: awesome-copilot
+name: qdrant-clients-sdk
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:qdrant-clients-sdk
+summary: Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.
+description: Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant
+  deployments.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/qdrant-clients-sdk
+  repository: https://github.com/github/awesome-copilot

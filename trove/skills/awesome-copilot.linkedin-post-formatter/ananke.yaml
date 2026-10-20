@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: linkedin-post-formatter
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:linkedin-post-formatter
+summary: Format and draft compelling LinkedIn posts using Unicode bold/italic styling, visual separators, structured
+  sections, and engagement-optimized patterns.
+description: 'Format and draft compelling LinkedIn posts using Unicode bold/italic styling, visual separators, structured
+  sections, and engagement-optimized patterns. USE FOR: draft LinkedIn post, format text for LinkedIn, create social
+  media post, write thought leadership post, convert content to LinkedIn format, LinkedIn carousel text, Unicode
+  bold italic formatting.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/linkedin-post-formatter
+  repository: https://github.com/github/awesome-copilot

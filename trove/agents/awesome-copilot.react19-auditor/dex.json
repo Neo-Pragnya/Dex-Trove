@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/react19-auditor",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "react19-auditor",
+  "title": "react19-auditor",
+  "description": "Deep-scan specialist that identifies every React 19 breaking change and deprecated pattern across the entire codebase. Produces a prioritized migration report at .github/react19-audit.md. Reads everything, touches nothing. Invoked as a subagent by react19-commander.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "react19-auditor.agent.md",
+  "dir": "agents/awesome-copilot.react19-auditor",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/react19-auditor.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react19-auditor.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "react19-auditor.agent.md"
+  ],
+  "entry_hash": "39182f80c2333364691a88154e4105f5a9d980d701d2352a05a0515ed7d17d8f",
+  "content_hash": "04aa2230cbc69283c438ce0f302d725aab01044f48bc0bf27fcad8370d4f1382",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "awesome-copilot/minecraft-plugin-development",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "minecraft-plugin-development",
+  "title": "Minecraft Plugin Development",
+  "description": "Use this skill when building or modifying Minecraft server plugins for Paper, Spigot, or Bukkit, including plugin.yml setup, commands, listeners, schedulers, player state, team or arena systems, persistent progression, economy or profile data, configuration files, Adventure text, and version-safe API usage. Trigger for requests like \"build a Minecraft plugin\", \"add a Paper command\", \"fix a Bukkit listener\", \"create plugin.yml\", \"implement a minigame mechanic\", \"add a perk or quest system\", or \"debug server plugin behavior\".",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.minecraft-plugin-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/minecraft-plugin-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/minecraft-plugin-development",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/bootstrap-registration.md",
+    "references/build-test-and-runtime-validation.md",
+    "references/config-data-and-async.md",
+    "references/maps-heroes-and-feature-modules.md",
+    "references/minigame-instance-flow.md",
+    "references/persistent-progression-and-events.md",
+    "references/project-patterns.md",
+    "references/state-sessions-and-phases.md"
+  ],
+  "entry_hash": "49cae402f5313d85323a0381c9ed3d9d2e1279ce5bc43cef17c40d497d1c8328",
+  "content_hash": "98aefad5ce4ec9e6e281045085e7a713124029967d9bd3041238a14ccb40fc6c",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

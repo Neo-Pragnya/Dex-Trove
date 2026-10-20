@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: documentation-writer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:documentation-writer
+summary: Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software
+  documentation, guided by the principles and structure of the Diátaxis technical documentation a…
+description: Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software
+  documentation, guided by the principles and structure of the Diátaxis technical documentation authoring framework.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/documentation-writer
+  repository: https://github.com/github/awesome-copilot

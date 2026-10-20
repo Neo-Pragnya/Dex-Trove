@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/repo-story-time",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "repo-story-time",
+  "title": "Repository Analysis: [Repo Name]",
+  "description": "Generate a comprehensive repository summary and narrative story from commit history",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.repo-story-time",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/repo-story-time",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/repo-story-time",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "1b5e89152b3c3201726c4e12d582c90c952f61a99bfc94c0e34f633391be324a",
+  "content_hash": "de3b23adcac434975742ceef721f69915ceaa38d782ddb88a087e5bca8b3c065",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

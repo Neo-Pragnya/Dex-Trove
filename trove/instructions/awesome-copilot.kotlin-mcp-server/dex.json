@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/kotlin-mcp-server",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "kotlin-mcp-server",
+  "title": "Kotlin MCP Server Development Guidelines",
+  "description": "Best practices and patterns for building Model Context Protocol (MCP) servers in Kotlin using the official io.modelcontextprotocol:kotlin-sdk library.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "kotlin-mcp-server.instructions.md",
+  "dir": "instructions/awesome-copilot.kotlin-mcp-server",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/kotlin-mcp-server.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/kotlin-mcp-server.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "kotlin-mcp-server.instructions.md"
+  ],
+  "entry_hash": "147687e3bc6e633f386bed655b92ac51dce5c48b5857c94b52ef192f98ace65a",
+  "content_hash": "d4dda37a59c588de790ecdedffa5b30f555333bf9c07c5aeb926124c69439128",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.kt, **/*.kts, **/build.gradle.kts, **/settings.gradle.kts"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "awesome-copilot/poka-yoke",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "poka-yoke",
+  "title": "Poka-Yoke: Make the Mistake Unsayable",
+  "description": "Mistake-proof code so misuse cannot be expressed, rather than warning against it. Use when designing an interface, schema, or state machine and the user wants it hard to get wrong (\"make invalid states unrepresentable\", \"so callers cannot screw it up\", \"type-safe API\", \"pit of success\"); when auditing existing code for footguns (\"what could bite us here\", \"what is easy to misuse\", \"poka-yoke this repo\", \"review this diff for ways to get it wrong\"); or when a bug has recurred and the fix must close the class rather than the case (\"make sure this never happens again\", \"this is the third time\"). Especially for money, auth, permissions, deletion, migrations, and pipelines where failure is silent. Classifies every finding by what happens when the mistake occurs and how the device notices, which is what keeps it from collapsing into generic code review.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.poka-yoke",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/poka-yoke",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/poka-yoke",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/hazard-catalog.md",
+    "references/lang-python.md",
+    "references/lang-rust-go.md",
+    "references/lang-typescript.md",
+    "scripts/detect_hazards.py"
+  ],
+  "entry_hash": "39bd4171c088862253310b91a5046f38bf9441da8d3fa78b60a04577949839e4",
+  "content_hash": "d575cd0d54513a052d508681bfac1f2e31fa5bfc7585a276204796f697d613fe",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

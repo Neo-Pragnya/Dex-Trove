@@ -1,0 +1,46 @@
+{
+  "id": "awesome-copilot/quarkus-application-development",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "quarkus-application-development",
+  "title": "Quarkus Application Development",
+  "description": "Write Quarkus application code: REST with Quarkus REST, validation, exception mappers, OpenAPI, configuration, CDI (ArC), Hibernate ORM with Panache, Mutiny and virtual threads, Reactive Messaging with Kafka, OIDC security, health, metrics, OpenTelemetry, fault tolerance, REST Client, scheduler and cache. Use when implementing or changing features in an existing Quarkus project.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.quarkus-application-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/quarkus-application-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/quarkus-application-development",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/config-cdi.md",
+    "references/observability-resilience.md",
+    "references/persistence.md",
+    "references/reactive-messaging.md",
+    "references/rest.md",
+    "references/security-oidc.md"
+  ],
+  "entry_hash": "16aa261f5e2d44a3d98e6fbd33f20d867c615a786424209598f50b9ecc11aa54",
+  "content_hash": "13cf720172c2034616a7ef008fdf499931d8e5bef2a9a545896b33fc5a491ba6",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/arize-experiment",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "arize-experiment",
+  "title": "Arize Experiment Skill",
+  "description": "Creates, runs, and analyzes Arize experiments for evaluating and comparing model performance. Covers experiment CRUD, exporting runs, comparing results, and evaluation workflows using the ax CLI. Use when the user mentions create experiment, run experiment, compare models, model performance, evaluate AI, experiment results, benchmark, A/B test models, or measure accuracy.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.arize-experiment",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/arize-experiment",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/arize-experiment",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/ax-profiles.md",
+    "references/ax-setup.md"
+  ],
+  "entry_hash": "388c2ed4e5ca253ea11a1bea5975bf3fa763c02d2b297a7f5eaabe629e3c79cc",
+  "content_hash": "ab88414f8cc932b6e7522607aa6f4e9cd47421d567aa33db7f5381191e28652c",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/project-workflow-analysis-blueprint-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "project-workflow-analysis-blueprint-generator",
+  "title": "Project Workflow Documentation Generator",
+  "description": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.project-workflow-analysis-blueprint-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/project-workflow-analysis-blueprint-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/project-workflow-analysis-blueprint-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "1563be31e5dd0568317b196dc92e10282a41d628db7bc04a990ad9019d35c37b",
+  "content_hash": "bf5ff13ad10c1a476c8a35554b1f2767dd714d8d80024f8e395a9e5b529dc7a9",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

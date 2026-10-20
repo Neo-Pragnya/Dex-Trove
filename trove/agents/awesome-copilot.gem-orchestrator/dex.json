@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-orchestrator",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-orchestrator",
+  "title": "gem-orchestrator",
+  "description": "The team lead: Orchestrates planning, implementation, and verification.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-orchestrator.agent.md",
+  "dir": "agents/awesome-copilot.gem-orchestrator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-orchestrator.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-orchestrator.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-orchestrator.agent.md"
+  ],
+  "entry_hash": "7c9cdf1ab8d8b2de08a50dccb0ab02ee4e4a0935ee4982e56e66135c25aa18dc",
+  "content_hash": "191730997b8ce8054d7fe20485f531f117fc02845405d344c1ef93c33c341d07",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

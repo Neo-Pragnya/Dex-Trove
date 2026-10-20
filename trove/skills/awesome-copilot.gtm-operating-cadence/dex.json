@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gtm-operating-cadence",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "gtm-operating-cadence",
+  "title": "Operating Cadence",
+  "description": "Design meeting rhythms, metric reporting, quarterly planning, and decision-making velocity for scaling companies. Use when decisions are slow, planning is broken, the company is growing but alignment is worse, or leadership meetings consume all time without producing decisions.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.gtm-operating-cadence",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/gtm-operating-cadence",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-operating-cadence",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "59deb368b2474c810c6b2607f10575d3e1ad65a0edc1159c259bf387d33f27b8",
+  "content_hash": "bc7800feebc4e714c11ed9c9d9c4775fee39865b9c8abc227b98a20937dd9d8a",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

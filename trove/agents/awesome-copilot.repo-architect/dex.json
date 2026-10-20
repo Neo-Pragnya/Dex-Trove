@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/repo-architect",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "repo-architect",
+  "title": "Repo Architect Agent",
+  "description": "Bootstraps and validates agentic project structures for GitHub Copilot (VS Code) and OpenCode CLI workflows. Run after `opencode /init` or VS Code Copilot initialization to scaffold proper folder hierarchies, instructions, agents, skills, and prompts.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "repo-architect.agent.md",
+  "dir": "agents/awesome-copilot.repo-architect",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/repo-architect.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/repo-architect.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "repo-architect.agent.md"
+  ],
+  "entry_hash": "d20f4e7bdeffa5d325cffc829287423d8d62b654fde45827111bcae788ad0ee2",
+  "content_hash": "3732c0e14d19c37b3aa3f583f0c75ab7bc527db3db693224e5742d11b584a954",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

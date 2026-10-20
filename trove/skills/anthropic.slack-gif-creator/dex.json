@@ -1,0 +1,47 @@
+{
+  "id": "anthropic/slack-gif-creator",
+  "kind": "skill",
+  "namespace": "anthropic",
+  "name": "slack-gif-creator",
+  "title": "Slack GIF Creator",
+  "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+  "tags": [
+    "anthropic",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/anthropic.slack-gif-creator",
+  "source": {
+    "id": "anthropic",
+    "title": "Anthropic Agent Skills",
+    "repo": "https://github.com/anthropics/skills",
+    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "path": "skills/slack-gif-creator",
+    "url": "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/slack-gif-creator",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "skills/slack-gif-creator/LICENSE.txt: Apache-2.0 text",
+    "notice": "Copyright 2026 Anthropic, PBC.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "core/easing.py",
+    "core/frame_composer.py",
+    "core/gif_builder.py",
+    "core/validators.py",
+    "requirements.txt"
+  ],
+  "entry_hash": "2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22",
+  "content_hash": "27feb7fe31f78d47e6aa6014f87f958e42a7f86691c81fa26d437a09cdeee634",
+  "learned_at": "2026-10-20T03:29:00+00:00"
+}

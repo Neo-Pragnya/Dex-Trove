@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/aws-cdk-python-setup",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "aws-cdk-python-setup",
+  "title": "AWS CDK Python Setup Instructions",
+  "description": "Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python. This skill enables users to configure environment prerequisites, create new CDK projects, manage dependencies, and deploy to AWS.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.aws-cdk-python-setup",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/aws-cdk-python-setup",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/aws-cdk-python-setup",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ffc9ecadc84bdeaf29c4e5616d497254339e5bad77f05e6c370da569ce9c98c3",
+  "content_hash": "80281f2a0de24b5d33f9c5e221023ac1a392271434cc20fd3a024bcdcdb4a09a",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

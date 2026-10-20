@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/winui3",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "winui3",
+  "title": "WinUI 3 / Windows App SDK",
+  "description": "WinUI 3 and Windows App SDK coding guidelines. Prevents common UWP API misuse, enforces correct XAML namespaces, threading, windowing, and MVVM patterns for desktop Windows apps.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "winui3.instructions.md",
+  "dir": "instructions/awesome-copilot.winui3",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/winui3.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/winui3.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "winui3.instructions.md"
+  ],
+  "entry_hash": "537b7157b8683448fde3ac92ae687fb94ddf41c4e4a43310d118243fa4d1d2ac",
+  "content_hash": "0e0c952471ec2e53c5c93da852cc27701c8670aceb4ea3a8ec3c1a56e3c53517",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.xaml, **/*.cs, **/*.csproj"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/azure-durable-functions-csharp",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "azure-durable-functions-csharp",
+  "title": "Azure Durable Functions C# Development",
+  "description": "Guidelines and best practices for building Azure Durable Functions in C# using the isolated worker model",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-durable-functions-csharp.instructions.md",
+  "dir": "instructions/awesome-copilot.azure-durable-functions-csharp",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/azure-durable-functions-csharp.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/azure-durable-functions-csharp.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-durable-functions-csharp.instructions.md"
+  ],
+  "entry_hash": "098d6f12eee1bf9c1c5c90478ba59a3c5668ae28906d650c172e4710e615dede",
+  "content_hash": "45b4735919d72d03e4605a3919fbb84ebd62ee6139615fcc92dea32f1e3e7ad5",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.cs, **/host.json, **/local.settings.json, **/*.csproj"
+}

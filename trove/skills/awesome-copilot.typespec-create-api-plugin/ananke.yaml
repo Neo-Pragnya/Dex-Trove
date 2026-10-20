@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: typespec-create-api-plugin
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:typespec-create-api-plugin
+summary: Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft 365
+  Copilot
+description: Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft
+  365 Copilot
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/typespec-create-api-plugin
+  repository: https://github.com/github/awesome-copilot

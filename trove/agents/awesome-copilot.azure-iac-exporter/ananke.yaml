@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: azure-iac-exporter
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:azure-iac-exporter
+summary: Export existing Azure resources to Infrastructure as Code templates via Azure Resource Graph analysis,
+  Azure Resource Manager API calls, and azure-iac-generator integration.
+description: Export existing Azure resources to Infrastructure as Code templates via Azure Resource Graph analysis,
+  Azure Resource Manager API calls, and azure-iac-generator integration. Use this skill when the user asks to export,
+  convert, migrate, or extract existing Azure resources to IaC templates (Bicep, ARM Templates, Terraform, Pulumi).
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: azure-iac-exporter.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-iac-exporter.agent.md
+  repository: https://github.com/github/awesome-copilot

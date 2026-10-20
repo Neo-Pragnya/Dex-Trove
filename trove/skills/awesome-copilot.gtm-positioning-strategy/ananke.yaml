@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: gtm-positioning-strategy
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:gtm-positioning-strategy
+summary: Find and own a defensible market position. Use when messaging sounds like competitors, conversion is weak
+  despite awareness, repositioning a product, or testing positioning claims.
+description: Find and own a defensible market position. Use when messaging sounds like competitors, conversion is
+  weak despite awareness, repositioning a product, or testing positioning claims. Includes Crawl-Walk-Run rollout
+  methodology and the word change that improved enterprise deal progression.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-positioning-strategy
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/readme-blueprint-generator",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "readme-blueprint-generator",
+  "title": "README Generator Prompt",
+  "description": "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.readme-blueprint-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/readme-blueprint-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/readme-blueprint-generator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "571094038e74bd3de56356f67d1e73af69afc4ce63f886c2b047f351b85a3183",
+  "content_hash": "9b33c8c86d44ee70ede697c9db56fe6168a279eb27ba10fecad55189ab2cda5c",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

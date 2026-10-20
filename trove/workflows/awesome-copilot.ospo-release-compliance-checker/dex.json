@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ospo-release-compliance-checker",
+  "kind": "workflow",
+  "namespace": "awesome-copilot",
+  "name": "ospo-release-compliance-checker",
+  "title": "OSS Release Compliance Checker",
+  "description": "Analyzes a target repository against open source release requirements and posts a detailed compliance report as an issue comment.",
+  "tags": [
+    "awesome-copilot",
+    "workflow"
+  ],
+  "version": "1.0.0",
+  "entry": "ospo-release-compliance-checker.md",
+  "dir": "workflows/awesome-copilot.ospo-release-compliance-checker",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "workflows/ospo-release-compliance-checker.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/workflows/ospo-release-compliance-checker.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ospo-release-compliance-checker.md"
+  ],
+  "entry_hash": "bb0202960ccc60019a853710c37ca8c2f95b36f5bb998def1699ab7382bb95ee",
+  "content_hash": "c6936ddec1f44cb6738b520d57074d501eabad6d092eb8395eecd2c629ea06fd",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

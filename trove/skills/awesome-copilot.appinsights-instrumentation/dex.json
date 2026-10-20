@@ -1,0 +1,48 @@
+{
+  "id": "awesome-copilot/appinsights-instrumentation",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "appinsights-instrumentation",
+  "title": "AppInsights instrumentation",
+  "description": "Instrument a webapp to send useful telemetry data to Azure App Insights",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.appinsights-instrumentation",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/appinsights-instrumentation",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/appinsights-instrumentation",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "skills/appinsights-instrumentation/LICENSE.txt: MIT text",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "examples/appinsights.bicep",
+    "references/ASPNETCORE.md",
+    "references/AUTO.md",
+    "references/NODEJS.md",
+    "references/PYTHON.md",
+    "scripts/appinsights.ps1"
+  ],
+  "entry_hash": "15d281900b1fa0d7d29b086257c54b5852e0ba652b62fe877c6342fa1a8554af",
+  "content_hash": "57dfbe9ccc0ef4abfaf4dafd12b938c8d4c022bb42faebd45c7886085b857663",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

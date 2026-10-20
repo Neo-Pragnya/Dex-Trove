@@ -1,0 +1,23 @@
+kind: skill
+namespace: superpowers
+name: writing-skills
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:superpowers:writing-skills
+summary: Use when creating new skills, editing existing skills, or verifying skills work before deployment
+description: Use when creating new skills, editing existing skills, or verifying skills work before deployment
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - skill
+  - superpowers
+  homepage: https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/writing-skills
+  repository: https://github.com/obra/superpowers

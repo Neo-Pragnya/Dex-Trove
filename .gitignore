@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+.DS_Store
+
+# docs site — content is generated from trove/ by `dex docs export`
+website/node_modules/
+website/dist/
+website/.astro/
+website/src/content/items/
+website/src/content/design.md
+website/src/data/
+
+# local publish tokens (see .env.example)
+.env
+htmlcov/
+coverage.xml
+.coverage
+trivy-*.json
+trivy-results.sarif

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/cloud-saas-outage-triage",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "cloud-saas-outage-triage",
+  "title": "Cloud and SaaS Outage Triage",
+  "description": "Distinguish upstream cloud or SaaS incidents from application failures before changing code, using live official-feed status and incident timelines.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "cloud-saas-outage-triage.agent.md",
+  "dir": "agents/awesome-copilot.cloud-saas-outage-triage",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/cloud-saas-outage-triage.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/cloud-saas-outage-triage.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cloud-saas-outage-triage.agent.md"
+  ],
+  "entry_hash": "60e520986e4ef03ef026e1db9a3df8257d8c866e61dc450e70a7acc36a73dafc",
+  "content_hash": "75e46e519e54fe8fc4821b31cec9210bcb8381bf71e571ae1ee5c6218df74934",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

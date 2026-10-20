@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/neon-optimization-analyzer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "neon-optimization-analyzer",
+  "title": "Neon Performance Analyzer",
+  "description": "Identify and fix slow Postgres queries automatically using Neon's branching workflow. Analyzes execution plans, tests optimizations in isolated database branches, and provides clear before/after performance metrics with actionable code fixes.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "neon-optimization-analyzer.agent.md",
+  "dir": "agents/awesome-copilot.neon-optimization-analyzer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/neon-optimization-analyzer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/neon-optimization-analyzer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "neon-optimization-analyzer.agent.md"
+  ],
+  "entry_hash": "93fe6bca30ad11d81bca5661a180608196c84af0994aa0ca6f353aebb221fc6a",
+  "content_hash": "a70c6c92ae9fd4613f16e4fde27999c5cc5f52d90d272272aacd18555965c83c",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

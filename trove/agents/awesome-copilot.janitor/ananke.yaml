@@ -1,0 +1,31 @@
+kind: agent
+namespace: awesome-copilot
+name: janitor
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:janitor
+summary: Perform janitorial tasks on any codebase including cleanup, simplification, and tech debt remediation.
+description: Perform janitorial tasks on any codebase including cleanup, simplification, and tech debt remediation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: janitor.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/janitor.agent.md
+  repository: https://github.com/github/awesome-copilot

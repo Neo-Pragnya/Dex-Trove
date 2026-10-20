@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/quarkus-dev-services-and-testing",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "quarkus-dev-services-and-testing",
+  "title": "Quarkus Dev Services and Testing",
+  "description": "Quarkus Dev Services and testing: zero-config containers, @QuarkusTest, @QuarkusIntegrationTest, test resources, RestAssured, @InjectMock, profiles and continuous testing. Use when writing or fixing tests in a Quarkus project.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.quarkus-dev-services-and-testing",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/quarkus-dev-services-and-testing",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/quarkus-dev-services-and-testing",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "a7ba8792ac02ac3e2bd7779bc162b9aaa1cdf67b3b56958e847260018f12d5a9",
+  "content_hash": "d2360196993a476859353578d0225d41278ca72e47f6884eaf5998e44eb55a14",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

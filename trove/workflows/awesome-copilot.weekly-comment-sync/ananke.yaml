@@ -1,0 +1,31 @@
+kind: workflow
+namespace: awesome-copilot
+name: weekly-comment-sync
+version: 1.0.0
+ananke_id: urn:dex-trove:workflow:awesome-copilot:weekly-comment-sync
+summary: Weekly workflow that finds stale code comments or README snippets, makes text-only synchronization updates,
+  and opens a draft pull request when changes are needed.
+description: Weekly workflow that finds stale code comments or README snippets, makes text-only synchronization
+  updates, and opens a draft pull request when changes are needed.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - workflow
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/workflows/weekly-comment-sync.md
+  repository: https://github.com/github/awesome-copilot

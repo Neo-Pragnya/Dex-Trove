@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/acreadiness-policy",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "acreadiness-policy",
+  "title": "/acreadiness-policy — AgentRC policies",
+  "description": "Help the user pick, write, or apply an AgentRC policy. Policies customise readiness scoring by disabling irrelevant checks, overriding impact/level, setting pass-rate thresholds, or chaining org baselines with team overrides. Use when the user asks about strict mode, AI-only scoring, custom weights, CI gating, or wants org-wide standardisation.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.acreadiness-policy",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/acreadiness-policy",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/acreadiness-policy",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e563c5e334e1dac21a7d6a43ae43abb96721395e7af7b97f49ef764ad8325550",
+  "content_hash": "035fcab65ba51489d68368d9143c6738b6c0b6b789d049f31d3a9813a62585dd",
+  "learned_at": "2026-10-20T03:28:49+00:00"
+}

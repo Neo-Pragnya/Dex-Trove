@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/quarkus-native-and-container",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "quarkus-native-and-container",
+  "title": "Quarkus Native and Container",
+  "description": "Build Quarkus native executables (Mandrel/GraalVM), fix native failures with reflection registration, test the native binary, and produce container images and Kubernetes/OpenShift manifests. Use for native, Docker, Jib or Kubernetes work in a Quarkus project.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.quarkus-native-and-container",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/quarkus-native-and-container",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/quarkus-native-and-container",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "93c9cd356b4c28b0c393a59e73381ed61939c516585135e9ee0801d4c570d95c",
+  "content_hash": "dbecc904397ac3d5e2ee34bbf5cb6faee1d777cfdee393d571a459db696ea5e6",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

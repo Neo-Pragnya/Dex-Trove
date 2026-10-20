@@ -1,0 +1,182 @@
+name: security
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  schedule:
+    - cron: "0 3 * * 1"  # weekly Monday 03:00 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  # ── Trivy — package code + dependencies (blocking) ─────────────────────────
+  trivy:
+    name: trivy filesystem scan
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Install Trivy
+        uses: aquasecurity/setup-trivy@81e514348e19b6112ce2a7e3ecbafe19c1e1f567 # v0.3.1
+        with:
+          version: v0.74.0
+
+      - name: Trivy SARIF (all severities → Security tab)
+        run: |
+          trivy fs \
+            --cache-dir .trivy-cache \
+            --ignorefile .trivyignore \
+            --skip-dirs trove --skip-dirs website \
+            --ignore-unfixed \
+            --severity CRITICAL,HIGH,MEDIUM \
+            --format sarif \
+            --output trivy-results.sarif \
+            .
+
+      - name: Upload SARIF to GitHub Security
+        uses: github/codeql-action/upload-sarif@ed1a0fa18ac745d017ca370dd4ef08bba3b4f504
+        if: always()
+        with:
+          sarif_file: trivy-results.sarif
+          category: trivy-package
+
+      - name: Trivy blocking gate (CRITICAL + HIGH unfixed)
+        run: |
+          trivy fs \
+            --cache-dir .trivy-cache \
+            --ignorefile .trivyignore \
+            --skip-dirs trove --skip-dirs website \
+            --ignore-unfixed \
+            --severity CRITICAL,HIGH \
+            --exit-code 1 \
+            .
+
+  # ── Trivy — trove content (visibility, non-blocking) ───────────────────────
+  trove-content:
+    name: trivy trove content scan
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Install Trivy
+        uses: aquasecurity/setup-trivy@81e514348e19b6112ce2a7e3ecbafe19c1e1f567 # v0.3.1
+        with:
+          version: v0.74.0
+
+      - name: Scan upstream content shipped in trove/
+        run: |
+          trivy fs trove \
+            --cache-dir .trivy-cache \
+            --scanners vuln,secret,misconfig \
+            --severity CRITICAL,HIGH \
+            --format sarif \
+            --output trove-results.sarif || true
+
+      - name: Upload SARIF to GitHub Security
+        uses: github/codeql-action/upload-sarif@ed1a0fa18ac745d017ca370dd4ef08bba3b4f504
+        if: always()
+        with:
+          sarif_file: trove-results.sarif
+          category: trivy-trove
+        continue-on-error: true
+
+  # ── Semgrep SAST ────────────────────────────────────────────────────────────
+  sast:
+    name: semgrep SAST
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@e58605a9b6da7c637471fab8847a5e5a6b8df081
+        with:
+          version: "latest"
+
+      - name: Semgrep scan
+        run: |
+          uv run --no-project --with semgrep semgrep scan \
+            --config auto \
+            --sarif \
+            --output semgrep-results.sarif \
+            src/ || true
+
+      - name: Upload Semgrep SARIF
+        uses: github/codeql-action/upload-sarif@ed1a0fa18ac745d017ca370dd4ef08bba3b4f504
+        if: always()
+        with:
+          sarif_file: semgrep-results.sarif
+          category: semgrep
+        continue-on-error: true
+
+  # ── pip-audit dependency CVE check ─────────────────────────────────────────
+  dependency-audit:
+    name: pip-audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@e58605a9b6da7c637471fab8847a5e5a6b8df081
+        with:
+          version: "latest"
+
+      - name: pip-audit (blocking on known CVEs)
+        run: |
+          uv sync --all-extras
+          uv run --with pip-audit pip-audit
+
+  # ── Gitleaks secrets scan ───────────────────────────────────────────────────
+  secrets:
+    name: gitleaks secrets scan
+    runs-on: ubuntu-latest
+    env:
+      GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Gitleaks (licensed org action)
+        if: ${{ env.GITLEAKS_LICENSE != '' }}
+        uses: gitleaks/gitleaks-action@dcedce43c6f43de0b836d1fe38946645c9c638dc
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_LICENSE: ${{ env.GITLEAKS_LICENSE }}
+
+      - name: Gitleaks (free CLI fallback)
+        if: ${{ env.GITLEAKS_LICENSE == '' }}
+        run: |
+          docker run --rm \
+            -v "$PWD:/src" \
+            ghcr.io/gitleaks/gitleaks:latest \
+            detect \
+            --source="/src" \
+            --config="/src/.gitleaks.toml" \
+            --no-banner \
+            --redact \
+            --exit-code=1

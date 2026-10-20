@@ -1,0 +1,13 @@
+# Gitleaks configuration for Dex Trove.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Upstream content and intentionally fake test fixtures"
+paths = [
+  # trove/ is verbatim upstream content. Dex's learn-time guards exclude real-format credentials; what remains are
+  # documented placeholders in security-teaching material (recorded per item as `secret_flags`).
+  '''^trove/''',
+  # Test fixtures that must look like credentials to exercise the guards (e.g. AKIAABCDEFGHIJKLMNOP).
+  '''^tests/conftest\.py$''',
+]

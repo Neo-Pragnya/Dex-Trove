@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/terraform-azure",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "terraform-azure",
+  "title": "Azure Terraform Best Practices",
+  "description": "Create or modify solutions built using Terraform on Azure.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "terraform-azure.instructions.md",
+  "dir": "instructions/awesome-copilot.terraform-azure",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/terraform-azure.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/terraform-azure.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "terraform-azure.instructions.md"
+  ],
+  "entry_hash": "9efcdb003b33aec83bb0d50731b4683c240afc045b76db4b2cf0a124744cf08d",
+  "content_hash": "a52b2528441a7879b9badb2151f6d9323383d0b9d5ef2be04e391df7fb5595f2",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.terraform, **/*.tf, **/*.tfvars, **/*.tflint.hcl, **/*.tfstate, **/*.tf.json, **/*.tfvars.json"
+}

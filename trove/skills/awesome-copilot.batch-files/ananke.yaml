@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: batch-files
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:batch-files
+summary: Expert-level Windows batch file (.bat/.cmd) skill for writing, debugging, and maintaining CMD scripts.
+description: Expert-level Windows batch file (.bat/.cmd) skill for writing, debugging, and maintaining CMD scripts.
+  Use when asked to "create a batch file", "write a .bat script", "automate a Windows task", "CMD scripting", "batch
+  automation", "scheduled task script", "Windows shell script", or when working with .bat/.cmd files in the workspace.
+  Covers cmd.exe syntax, environment variables, control flow, string processing, error handling, and integration
+  with system tools.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/batch-files
+  repository: https://github.com/github/awesome-copilot

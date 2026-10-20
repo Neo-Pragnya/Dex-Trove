@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/microsoft-foundry",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "microsoft-foundry",
+  "title": "Microsoft Foundry Agents (Python) Instructions",
+  "description": "Build agents with the Microsoft Foundry SDK (azure-ai-projects v2) in Python: versioned agents, the Responses/Conversations model, tools, and the SDK mistakes Copilot makes by default.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "microsoft-foundry.instructions.md",
+  "dir": "instructions/awesome-copilot.microsoft-foundry",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/microsoft-foundry.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/microsoft-foundry.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "microsoft-foundry.instructions.md"
+  ],
+  "entry_hash": "5a1460771d8eef37c0b5981825e4f324ecac405993c8dee12dc3459039cf6552",
+  "content_hash": "f5731f27cfe1d79851ff36d5a300df408e02dca5098884ad8886c5d3e1572648",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.py"
+}

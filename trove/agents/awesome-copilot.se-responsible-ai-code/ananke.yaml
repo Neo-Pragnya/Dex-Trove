@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: se-responsible-ai-code
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:se-responsible-ai-code
+summary: Responsible AI specialist ensuring AI works for everyone through bias prevention, accessibility compliance,
+  ethical development, and inclusive design
+description: Responsible AI specialist ensuring AI works for everyone through bias prevention, accessibility compliance,
+  ethical development, and inclusive design
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: se-responsible-ai-code.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/se-responsible-ai-code.agent.md
+  repository: https://github.com/github/awesome-copilot

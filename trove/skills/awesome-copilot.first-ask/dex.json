@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/first-ask",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "first-ask",
+  "title": "Act Informed: First understand together with the human, then do",
+  "description": "Interactive, input-tool powered, task refinement workflow: interrogates scope, deliverables, constraints before carrying out the task; Requires the Joyride extension.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.first-ask",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/first-ask",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/first-ask",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "cb38b8e48917ba6e0480f4c2e6993fca24491603046f653ef244d3e8a915f1e1",
+  "content_hash": "da86194271c39fb4d24d9e257fbf0821797bcef096b0cd2384f31666471cc77a",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

@@ -1,0 +1,31 @@
+kind: agent
+namespace: awesome-copilot
+name: azure-verified-modules-terraform
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:azure-verified-modules-terraform
+summary: Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).
+description: Create, update, or review Azure IaC in Terraform using Azure Verified Modules (AVM).
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: azure-verified-modules-terraform.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-verified-modules-terraform.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/scientific-paper-research",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "scientific-paper-research",
+  "title": "Scientific Paper Research",
+  "description": "Research agent that searches scientific papers and retrieves structured experimental data from full-text studies using the BGPT MCP server.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "scientific-paper-research.agent.md",
+  "dir": "agents/awesome-copilot.scientific-paper-research",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/scientific-paper-research.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/scientific-paper-research.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "scientific-paper-research.agent.md"
+  ],
+  "entry_hash": "3382da1d6faa316c22980a7f1b16982cbb1dbd30a3ebbba075832226313b6355",
+  "content_hash": "b568749487146f049c1a50ad714d92e9823da0db77270631eacc51d607cb69cd",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

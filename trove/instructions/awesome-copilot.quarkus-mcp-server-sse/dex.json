@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/quarkus-mcp-server-sse",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "quarkus-mcp-server-sse",
+  "title": "Quarkus MCP Server",
+  "description": "Quarkus MCP Server development standards and instructions, with Streamable HTTP (preferred) and legacy HTTP SSE transports",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "quarkus-mcp-server-sse.instructions.md",
+  "dir": "instructions/awesome-copilot.quarkus-mcp-server-sse",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/quarkus-mcp-server-sse.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/quarkus-mcp-server-sse.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "quarkus-mcp-server-sse.instructions.md"
+  ],
+  "entry_hash": "d7a16269388eb2c72a9640668bf7df3c2d184b889f0abd7429fe1d2288a39f10",
+  "content_hash": "a8344f9055247dbc9fcb6dac67938a55541425760c32d5634d27feb1f53709ef",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.java, **/application*.properties, **/application*.yml, **/application*.yaml"
+}

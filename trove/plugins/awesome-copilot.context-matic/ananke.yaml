@@ -1,0 +1,44 @@
+kind: bundle
+namespace: awesome-copilot
+name: context-matic
+version: 0.1.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:context-matic
+summary: Coding agents hallucinate APIs. ContextMatic gives them curated, versioned API and SDK docs.
+description: Coding agents hallucinate APIs. ContextMatic gives them curated, versioned API and SDK docs. Ask your
+  agent to "integrate the payments API" and it guesses — falling back on outdated training data and generic patterns
+  that don't match your actual SDK. ContextMatic solves this by giving the agent deterministic, version-aware, SDK-native
+  context at the exact moment it's needed.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/integrate-context-matic
+  version: '*'
+- ref: ananke://skill/awesome-copilot/onboard-context-matic
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - api-context
+  - api-integration
+  - apimatic
+  - awesome-copilot
+  - mcp
+  - plugin
+  - sdk
+  - sdks
+  - third-party-apis
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/context-matic
+  repository: https://github.com/github/awesome-copilot

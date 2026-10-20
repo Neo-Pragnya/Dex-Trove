@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/resemble-detect",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "resemble-detect",
+  "title": "Resemble Detect — Deepfake Detection & Media Safety",
+  "description": "Deepfake detection and media safety — detect AI-generated audio, images, video, and text, trace synthesis sources, apply watermarks, verify speaker identity, and analyze media intelligence using Resemble AI",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.resemble-detect",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/resemble-detect",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/resemble-detect",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "LICENSE",
+    "SKILL.md",
+    "references/api-reference.md"
+  ],
+  "entry_hash": "54fd45fbb68e01beda1d71f1a9e0f23da1cb0d3022ff2992fc4d4ec415cd9530",
+  "content_hash": "dba0dc83472548e645dbb270dd62fb973ce4eee3c9e256e237da5b91b6865e45",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/neo4j-docker-client-generator",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "neo4j-docker-client-generator",
+  "title": "neo4j-docker-client-generator",
+  "description": "AI agent that generates simple, high-quality Python Neo4j client libraries from GitHub issues with proper best practices",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "neo4j-docker-client-generator.agent.md",
+  "dir": "agents/awesome-copilot.neo4j-docker-client-generator",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/neo4j-docker-client-generator.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/neo4j-docker-client-generator.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "neo4j-docker-client-generator.agent.md"
+  ],
+  "entry_hash": "459f8b523f65e4d6ad23d1d1550c413233a66c8e084bd10a4974989b50405d66",
+  "content_hash": "c524b08538fdeeadb318429c33434edd5f9c6e285313db73b11690cb654cb7fc",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

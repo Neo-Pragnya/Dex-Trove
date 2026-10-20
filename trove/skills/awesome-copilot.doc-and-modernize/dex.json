@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/doc-and-modernize",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "doc-and-modernize",
+  "title": "Documentation & Modernization",
+  "description": "Two related workflows for a locally-cloned codebase, in one skill. Documentation mode produces a single, comprehensive, verifiable architecture document primarily by reading files on disk (local-first) — use it whenever the user wants to understand, map, document, research, or onboard onto a codebase (\"research this repo\", \"write up the architecture\", \"do an architecture deep dive\", \"document how this codebase works\", \"map the system design\", \"create an onboarding doc\"). Modernization mode generates a phased plan to modernize, migrate, upgrade, or rewrite a legacy system (\"modernize this\", \"plan the migration\", \"how would we rewrite this\", \"how do we get off this legacy stack\"); if no architecture document exists yet it first runs Documentation mode, then continues straight through to the plan. It assumes the legacy stack may be dead, runs a time-boxed feasibility spike, and picks the highest achievable rung on a safety ladder instead of demanding a fully-green legacy CI gate up front.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.doc-and-modernize",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/doc-and-modernize",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/doc-and-modernize",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/copilot-instructions.template.md",
+    "references/migration-hazards.md"
+  ],
+  "entry_hash": "a1b5ff3752fa95d1597d33f95f265ca29171bd00c7315854b062f5117d0a89b6",
+  "content_hash": "10c71d9b2f09dcf2f16c4babddc151d04721440a15a998cb98a4149d28e7d219",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

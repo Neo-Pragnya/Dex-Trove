@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/svelte",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "svelte",
+  "title": "Svelte 5 and SvelteKit Development Instructions",
+  "description": "Svelte 5 and SvelteKit 2 development standards and best practices for component-based user interfaces and full-stack applications",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "svelte.instructions.md",
+  "dir": "instructions/awesome-copilot.svelte",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/svelte.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/svelte.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "svelte.instructions.md"
+  ],
+  "entry_hash": "e18077ced6538d39e27611c1aa7aacfb5106af400cbcdefc4852bf2add93a82d",
+  "content_hash": "ccd6663b2f69d6aa67c0bee601bcd7430ada8a2bf0861f4987dda7240cb6b02b",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.svelte, **/*.ts, **/*.js, **/*.css, **/*.scss, **/*.json"
+}

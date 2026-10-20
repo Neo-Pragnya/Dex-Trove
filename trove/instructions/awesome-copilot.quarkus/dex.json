@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/quarkus",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "quarkus",
+  "title": "quarkus",
+  "description": "Quarkus development standards and instructions",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "quarkus.instructions.md",
+  "dir": "instructions/awesome-copilot.quarkus",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/quarkus.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/quarkus.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "quarkus.instructions.md"
+  ],
+  "entry_hash": "37db577d28f5b22191dee5301868a2969c481544cd2534f26c3e995884faa434",
+  "content_hash": "93e52408ac04daf57a6f67bbf1cf237ba242ced186b4bbe85dd84578a2d80fea",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.java, **/application*.properties, **/application*.yml, **/application*.yaml, **/pom.xml, **/build.gradle, **/build.gradle.kts"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/power-bi-report-design-best-practices",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "power-bi-report-design-best-practices",
+  "title": "Power BI Report Design and Visualization Best Practices",
+  "description": "Comprehensive Power BI report design and visualization best practices based on Microsoft guidance for creating effective, accessible, and performant reports and dashboards.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "power-bi-report-design-best-practices.instructions.md",
+  "dir": "instructions/awesome-copilot.power-bi-report-design-best-practices",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/power-bi-report-design-best-practices.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/power-bi-report-design-best-practices.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "power-bi-report-design-best-practices.instructions.md"
+  ],
+  "entry_hash": "548de2e27676e543a57ebff35534cd4f78029b9eb7cd904a3b844c0c120d2f2b",
+  "content_hash": "6e1739fdd77c1718318df0587c4c55dc3de604dd2994853cf80701122f29574b",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{pbix,md,json,txt}"
+}

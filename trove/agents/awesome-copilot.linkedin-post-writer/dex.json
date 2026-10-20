@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/linkedin-post-writer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "linkedin-post-writer",
+  "title": "LinkedIn Post Writer",
+  "description": "Draft and format compelling LinkedIn posts with Unicode bold/italic styling, visual separators, and engagement-optimized structure. Transforms raw content, technical material, images, or ideas into copy-paste-ready LinkedIn posts.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "linkedin-post-writer.agent.md",
+  "dir": "agents/awesome-copilot.linkedin-post-writer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/linkedin-post-writer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/linkedin-post-writer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "linkedin-post-writer.agent.md"
+  ],
+  "entry_hash": "1a6c8505fb43e6636af78914728c87283d5908a8a25dc4d8fef8cf96c0d24b9a",
+  "content_hash": "401e01017c3cd91fb5f3598c4f4184ccdb7cfc5c87013d07402007c34a2285de",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

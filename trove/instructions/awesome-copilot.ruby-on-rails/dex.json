@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/ruby-on-rails",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "ruby-on-rails",
+  "title": "Ruby on Rails",
+  "description": "Ruby on Rails coding conventions and guidelines",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "ruby-on-rails.instructions.md",
+  "dir": "instructions/awesome-copilot.ruby-on-rails",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/ruby-on-rails.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/ruby-on-rails.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ruby-on-rails.instructions.md"
+  ],
+  "entry_hash": "c41b647f6faf1e59d08e41035c1942ded44fe45d392767328afa0ea74d37887a",
+  "content_hash": "ec748a5f9da32c6d98331d9d88c6f773437286de92facf1099f5eb1eaff068d9",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.rb"
+}

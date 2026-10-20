@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/breakdown-epic-pm",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "breakdown-epic-pm",
+  "title": "Epic Product Requirements Document (PRD) Prompt",
+  "description": "Prompt for creating an Epic Product Requirements Document (PRD) for a new epic. This PRD will be used as input for generating a technical architecture specification.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.breakdown-epic-pm",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/breakdown-epic-pm",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/breakdown-epic-pm",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0818b54601c15a0360978c530e0f6f2560626a8024773587a7da57fe211b458b",
+  "content_hash": "9bad2e50316885863fe1428ca8aa451632c1153cc3347afcf92a2d7306c94a77",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: gtm-product-led-growth
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:gtm-product-led-growth
+summary: Build self-serve acquisition and expansion motions. Use when deciding PLG vs sales-led, optimizing activation,
+  driving freemium conversion, building growth equations, or recognizing when product compl…
+description: Build self-serve acquisition and expansion motions. Use when deciding PLG vs sales-led, optimizing
+  activation, driving freemium conversion, building growth equations, or recognizing when product complexity demands
+  human touch. Includes the parallel test where sales-led won 10x on revenue.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gtm-product-led-growth
+  repository: https://github.com/github/awesome-copilot

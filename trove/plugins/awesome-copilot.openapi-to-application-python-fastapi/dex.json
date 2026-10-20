@@ -1,0 +1,49 @@
+{
+  "id": "awesome-copilot/openapi-to-application-python-fastapi",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "openapi-to-application-python-fastapi",
+  "title": "OpenAPI to Application - Python FastAPI Plugin",
+  "description": "Generate production-ready FastAPI applications from OpenAPI specifications. Includes project scaffolding, route generation, dependency injection, and Python best practices for async APIs.",
+  "tags": [
+    "api",
+    "awesome-copilot",
+    "code-generation",
+    "fastapi",
+    "openapi",
+    "plugin",
+    "python"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.openapi-to-application-python-fastapi",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/openapi-to-application-python-fastapi",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/openapi-to-application-python-fastapi",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/openapi-to-application-code",
+    "agent:awesome-copilot/openapi-to-application"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "1caab06eb88ec922bd0df9e9c86b0662b1e714b17ccefc2990478dd5c0e7f6be",
+  "content_hash": "a1c1c1676b937654fcc646999a9f71368b44ac3728de2b9d3eb3ba7312029616",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

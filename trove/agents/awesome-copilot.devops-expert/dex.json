@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/devops-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "devops-expert",
+  "title": "DevOps Expert",
+  "description": "DevOps specialist following the infinity loop principle (Plan → Code → Build → Test → Release → Deploy → Operate → Monitor) with focus on automation, collaboration, and continuous improvement",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "devops-expert.agent.md",
+  "dir": "agents/awesome-copilot.devops-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/devops-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/devops-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "devops-expert.agent.md"
+  ],
+  "entry_hash": "63197c5250702760e79fb3ccb4e2b154b1a52b41ac62e7d45ae2def6eea23952",
+  "content_hash": "61cb46de87219c7e5b3ccedeafbcd9d7eeab5ace808ba5d7917d73079f3c2768",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

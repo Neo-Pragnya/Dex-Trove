@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/ai-prompt-engineering-safety-best-practices",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "ai-prompt-engineering-safety-best-practices",
+  "title": "AI Prompt Engineering & Safety Best Practices",
+  "description": "Comprehensive best practices for AI prompt engineering, safety frameworks, bias mitigation, and responsible AI usage for Copilot and LLMs.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "ai-prompt-engineering-safety-best-practices.instructions.md",
+  "dir": "instructions/awesome-copilot.ai-prompt-engineering-safety-best-practices",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/ai-prompt-engineering-safety-best-practices.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/ai-prompt-engineering-safety-best-practices.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ai-prompt-engineering-safety-best-practices.instructions.md"
+  ],
+  "entry_hash": "ba321f291131f1d64fd16bb2ad4359497e9b9befe4fea7fc1ab2b288fa1cefe7",
+  "content_hash": "2aa0ba71d69af429880c5b5e7ce400724ae9530a3f6bcb3d148b0a73733c3b8e",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "['*']"
+}

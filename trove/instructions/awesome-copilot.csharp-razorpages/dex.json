@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/csharp-razorpages",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "csharp-razorpages",
+  "title": "csharp-razorpages",
+  "description": "Razor Pages component and application patterns",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "csharp-razorpages.instructions.md",
+  "dir": "instructions/awesome-copilot.csharp-razorpages",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/csharp-razorpages.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/csharp-razorpages.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "csharp-razorpages.instructions.md"
+  ],
+  "entry_hash": "c12fe35f03501e85a870ac866b7a5c85bebc2bad582633b464ffe8d1c90b7f29",
+  "content_hash": "8902cb3cf69d734ee57a3751e7f644ad7db9fd7b017c09e8871b82355895beda",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.cshtml, **/*.cshtml.cs"
+}

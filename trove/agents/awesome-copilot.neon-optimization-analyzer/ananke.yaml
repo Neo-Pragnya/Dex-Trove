@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: neon-optimization-analyzer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:neon-optimization-analyzer
+summary: Identify and fix slow Postgres queries automatically using Neon's branching workflow.
+description: Identify and fix slow Postgres queries automatically using Neon's branching workflow. Analyzes execution
+  plans, tests optimizations in isolated database branches, and provides clear before/after performance metrics
+  with actionable code fixes.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: neon-optimization-analyzer.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/neon-optimization-analyzer.agent.md
+  repository: https://github.com/github/awesome-copilot

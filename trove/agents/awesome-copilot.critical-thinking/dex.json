@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/critical-thinking",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "critical-thinking",
+  "title": "Critical thinking mode instructions",
+  "description": "Challenge assumptions and encourage critical thinking to ensure the best possible solution and outcomes.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "critical-thinking.agent.md",
+  "dir": "agents/awesome-copilot.critical-thinking",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/critical-thinking.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/critical-thinking.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "critical-thinking.agent.md"
+  ],
+  "entry_hash": "b3826697e4da8097beaa8d45b9e3f351dc16691dd48d73bd6f86040e255b2852",
+  "content_hash": "d65e59753adf2c7a077d8a75bcada57d24fff6aeb28023c9c7720a8692a28231",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

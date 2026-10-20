@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: code-exemplars-blueprint-generator
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:code-exemplars-blueprint-generator
+summary: Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying
+  high-quality code exemplars.
+description: Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and
+  identifying high-quality code exemplars. Supports multiple programming languages (.NET, Java, JavaScript, TypeScript,
+  React, Angular, Python) with configurable analysis depth, categorization methods, and documentation formats to
+  establish coding standards and maintain consistency across development teams.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/code-exemplars-blueprint-generator
+  repository: https://github.com/github/awesome-copilot

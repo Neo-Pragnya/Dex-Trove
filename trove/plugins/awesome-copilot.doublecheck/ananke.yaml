@@ -1,0 +1,42 @@
+kind: bundle
+namespace: awesome-copilot
+name: doublecheck
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:doublecheck
+summary: Three-layer verification pipeline for AI output. Extracts claims, finds sources, and flags hallucination
+  risks so humans can verify before acting.
+description: Three-layer verification pipeline for AI output. Extracts claims, finds sources, and flags hallucination
+  risks so humans can verify before acting.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/doublecheck
+  version: '*'
+- ref: ananke://agent/awesome-copilot/doublecheck
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - fact-check
+  - hallucination
+  - plugin
+  - safety
+  - source-citation
+  - trust
+  - verification
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/doublecheck
+  repository: https://github.com/github/awesome-copilot

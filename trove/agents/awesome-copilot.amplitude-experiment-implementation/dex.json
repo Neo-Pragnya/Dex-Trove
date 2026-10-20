@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/amplitude-experiment-implementation",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "amplitude-experiment-implementation",
+  "title": "Amplitude Experiment Implementation",
+  "description": "This custom agent uses Amplitude's MCP tools to deploy new experiments inside of Amplitude, enabling seamless variant testing capabilities and rollout of product features.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "amplitude-experiment-implementation.agent.md",
+  "dir": "agents/awesome-copilot.amplitude-experiment-implementation",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/amplitude-experiment-implementation.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/amplitude-experiment-implementation.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "amplitude-experiment-implementation.agent.md"
+  ],
+  "entry_hash": "03d392b4baacfda10feecb756ce9654c2b422ee45da8597400120fe2e11007ca",
+  "content_hash": "15130608ace0ddc4d3c4afab9ef4efb3a88bea67fa7e77e0c3921bac619127b4",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

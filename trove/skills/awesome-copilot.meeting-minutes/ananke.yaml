@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: meeting-minutes
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:meeting-minutes
+summary: Generate concise, actionable meeting minutes for internal meetings. Includes metadata, attendees, agenda,
+  decisions, action items (owner + due date), and follow-up steps.
+description: Generate concise, actionable meeting minutes for internal meetings. Includes metadata, attendees, agenda,
+  decisions, action items (owner + due date), and follow-up steps.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/meeting-minutes
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/java-upgrade",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "java-upgrade",
+  "title": "Java Version Upgrades",
+  "description": "Pointer to the java-upgrade skill when changing the Java version in Maven or Gradle build files",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "java-upgrade.instructions.md",
+  "dir": "instructions/awesome-copilot.java-upgrade",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/java-upgrade.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/java-upgrade.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "java-upgrade.instructions.md"
+  ],
+  "entry_hash": "82ec3a87ed32202795a6c682735bd3c637920cd3ed233d8cfe122d52487353b7",
+  "content_hash": "a534da0e412bfd52485051b7e3bfa74d539a87639f992dacac30b22765d83e77",
+  "learned_at": "2026-10-20T04:06:49+00:00",
+  "apply_to": "**/pom.xml, **/build.gradle, **/build.gradle.kts"
+}

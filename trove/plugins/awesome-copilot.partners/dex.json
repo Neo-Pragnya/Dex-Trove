@@ -1,0 +1,72 @@
+{
+  "id": "awesome-copilot/partners",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "partners",
+  "title": "Partners Plugin",
+  "description": "Custom agents that have been created by GitHub partners",
+  "tags": [
+    "awesome-copilot",
+    "cicd",
+    "cloud",
+    "database",
+    "devops",
+    "feature-flags",
+    "infrastructure",
+    "migration",
+    "observability",
+    "performance",
+    "plugin",
+    "security"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.partners",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/partners",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/partners",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "agent:awesome-copilot/amplitude-experiment-implementation",
+    "agent:awesome-copilot/apify-integration-expert",
+    "agent:awesome-copilot/arm-migration",
+    "agent:awesome-copilot/comet-opik",
+    "agent:awesome-copilot/diffblue-cover",
+    "agent:awesome-copilot/droid",
+    "agent:awesome-copilot/dynatrace-expert",
+    "agent:awesome-copilot/elasticsearch-observability",
+    "agent:awesome-copilot/jfrog-sec",
+    "agent:awesome-copilot/launchdarkly-flag-cleanup",
+    "agent:awesome-copilot/lingodotdev-i18n",
+    "agent:awesome-copilot/monday-bug-fixer",
+    "agent:awesome-copilot/mongodb-performance-advisor",
+    "agent:awesome-copilot/neo4j-docker-client-generator",
+    "agent:awesome-copilot/neon-migration-specialist",
+    "agent:awesome-copilot/neon-optimization-analyzer",
+    "agent:awesome-copilot/octopus-deploy-release-notes-mcp",
+    "agent:awesome-copilot/pagerduty-incident-responder",
+    "agent:awesome-copilot/stackhawk-security-onboarding",
+    "agent:awesome-copilot/terraform"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "81d9a07940f28bc75fdaf6838918c8fcce346ecbccd28d9a1a94d8f9c637547b",
+  "content_hash": "565f7a81212b126b091eab84070f5d66038e525e1517e85684cc89f11566f8fe",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

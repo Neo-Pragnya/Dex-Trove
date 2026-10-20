@@ -1,0 +1,35 @@
+kind: agent
+namespace: awesome-copilot
+name: react18-class-surgeon
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:react18-class-surgeon
+summary: Class component migration specialist for React 16/17 → 18.3.1. Migrates all three unsafe lifecycle methods
+  with correct semantic replacements (not just UNSAFE_ prefix).
+description: Class component migration specialist for React 16/17 → 18.3.1. Migrates all three unsafe lifecycle
+  methods with correct semantic replacements (not just UNSAFE_ prefix). Migrates legacy context to createContext,
+  string refs to React.createRef(), findDOMNode to direct refs, and ReactDOM.render to createRoot. Uses memory to
+  checkpoint per-file progress.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: react18-class-surgeon.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react18-class-surgeon.agent.md
+  repository: https://github.com/github/awesome-copilot

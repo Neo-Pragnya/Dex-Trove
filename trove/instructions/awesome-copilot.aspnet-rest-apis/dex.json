@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/aspnet-rest-apis",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "aspnet-rest-apis",
+  "title": "ASP.NET REST API Development",
+  "description": "Guidelines for building REST APIs with ASP.NET",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "aspnet-rest-apis.instructions.md",
+  "dir": "instructions/awesome-copilot.aspnet-rest-apis",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/aspnet-rest-apis.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/aspnet-rest-apis.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "aspnet-rest-apis.instructions.md"
+  ],
+  "entry_hash": "adab10c739e705232f92a3cc92b791020e7ec9c417629b2d773ca30e81a67fe2",
+  "content_hash": "46ea304a674cff8d6459e07332665d6677c086118428530033d97b00a4171f3d",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.cs, **/*.json"
+}

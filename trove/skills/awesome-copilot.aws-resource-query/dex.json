@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/aws-resource-query",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "aws-resource-query",
+  "title": "AWS Resource Query",
+  "description": "Query AWS resources using natural language. Covers EC2, S3, RDS, Lambda, ECS, EKS, Secrets Manager, IAM, VPC, networking, messaging, and more. Strictly read-only — no writes, deletes, or mutations.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.aws-resource-query",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/aws-resource-query",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/aws-resource-query",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "bf92899618f707b0c6439e0255e352486821b3eead6e9dbba4a585306c456e5f",
+  "content_hash": "a9c45f825c6f96f17f7c5acf01e8d50c3b7223ca0030a7089fec7427cd55c3b1",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

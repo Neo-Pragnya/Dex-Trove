@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/flowstudio-power-automate-debug",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "flowstudio-power-automate-debug",
+  "title": "Power Automate Debugging with FlowStudio MCP",
+  "description": "Debug failing Power Automate cloud flows using the FlowStudio MCP server. The Graph API only shows top-level status codes. This skill gives your agent action-level inputs and outputs to find the actual root cause. Load this skill when asked to: debug a flow, investigate a failed run, why is this flow failing, inspect action outputs, find the root cause of a flow error, fix a broken Power Automate flow, diagnose a timeout, trace a DynamicOperationRequestFailure, check connector auth errors, read error details from a run, or troubleshoot expression failures. Requires a FlowStudio MCP subscription — see https://mcp.flowstudio.app",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.flowstudio-power-automate-debug",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/flowstudio-power-automate-debug",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/flowstudio-power-automate-debug",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/common-errors.md",
+    "references/debug-workflow.md"
+  ],
+  "entry_hash": "8c9e090767904d355de25c81c625752b456ac6f6e8c9936ed86312fdedf05d4f",
+  "content_hash": "3c292ab7dc0c653b8f9802208ea3f8f2d511619955722081eef26810059e3f5a",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

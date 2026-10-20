@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/fluentui-blazor",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "fluentui-blazor",
+  "title": "Fluent UI Blazor — Consumer Usage Guide",
+  "description": "Guide for using the Microsoft Fluent UI Blazor component library (Microsoft.FluentUI.AspNetCore.Components NuGet package) in Blazor applications. Use this when the user is building a Blazor app with Fluent UI components, setting up the library, using FluentUI components like FluentButton, FluentDataGrid, FluentDialog, FluentToast, FluentNavMenu, FluentTextField, FluentSelect, FluentAutocomplete, FluentDesignTheme, or any component prefixed with \"Fluent\". Also use when troubleshooting missing providers, JS interop issues, or theming.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.fluentui-blazor",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/fluentui-blazor",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/fluentui-blazor",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/DATAGRID.md",
+    "references/LAYOUT-AND-NAVIGATION.md",
+    "references/SETUP.md",
+    "references/THEMING.md"
+  ],
+  "entry_hash": "d23fbc5dfb9a1580f930652bdfbf8c891edbaaa3bf162fb4904de9cba74f01b0",
+  "content_hash": "2b68df2e906388e115c55e4c71bf09221a17132f3cd8b835206c077417381d70",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: java-junit5-assertions
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:java-junit5-assertions
+summary: Standardizes JUnit 5 (Jupiter) assertions with best practices for performance, readability, and modern
+  features (5.8+).
+description: Standardizes JUnit 5 (Jupiter) assertions with best practices for performance, readability, and modern
+  features (5.8+). Covers Supplier messages, assertAll, assertThrowsExactly, and performance-critical timeouts.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: java-junit5-assertions.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/java-junit5-assertions.instructions.md
+  repository: https://github.com/github/awesome-copilot

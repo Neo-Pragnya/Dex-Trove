@@ -1,0 +1,59 @@
+{
+  "id": "awesome-copilot/testing-automation",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "testing-automation",
+  "title": "Testing & Test Automation Plugin",
+  "description": "Comprehensive collection for writing tests, test automation, and test-driven development including unit tests, integration tests, and end-to-end testing strategies.",
+  "tags": [
+    "automation",
+    "awesome-copilot",
+    "integration",
+    "jest",
+    "nunit",
+    "playwright",
+    "plugin",
+    "tdd",
+    "testing",
+    "unit-tests"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.testing-automation",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/testing-automation",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/testing-automation",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/ai-prompt-engineering-safety-review",
+    "skill:awesome-copilot/csharp-nunit",
+    "skill:awesome-copilot/java-junit",
+    "skill:awesome-copilot/playwright-explore-website",
+    "skill:awesome-copilot/playwright-generate-test",
+    "agent:awesome-copilot/playwright-tester",
+    "agent:awesome-copilot/tdd-green",
+    "agent:awesome-copilot/tdd-red",
+    "agent:awesome-copilot/tdd-refactor"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "f69d649a7687ea8c97755569bfa2003df4ecd76ebafe2fe50a050c3075a3bbff",
+  "content_hash": "3f936ea4b318935c17d9de3730d8a0bf396a3983e7b12dfdb5c22c730d8adf26",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

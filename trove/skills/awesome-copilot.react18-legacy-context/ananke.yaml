@@ -1,0 +1,35 @@
+kind: skill
+namespace: awesome-copilot
+name: react18-legacy-context
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:react18-legacy-context
+summary: Provides the complete migration pattern for React legacy context API (contextTypes, childContextTypes,
+  getChildContext) to the modern createContext API.
+description: Provides the complete migration pattern for React legacy context API (contextTypes, childContextTypes,
+  getChildContext) to the modern createContext API. Use this skill whenever migrating legacy context in class components
+  - this is always a cross-file migration requiring the provider AND all consumers to be updated together. Use it
+  before touching any contextTypes or childContextTypes code, because migrating only the provider without the consumers
+  (or vice versa) will cause a runtime failure. Always read this skill before writing any context migration - the
+  cross-file coordination steps here prevent the most common context migration bugs.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react18-legacy-context
+  repository: https://github.com/github/awesome-copilot

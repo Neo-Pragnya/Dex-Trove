@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/debian-linux-triage",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "debian-linux-triage",
+  "title": "Debian Linux Triage",
+  "description": "Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.debian-linux-triage",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/debian-linux-triage",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/debian-linux-triage",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "75ed743f3862662099c0c0af8aeeea61b93812656dd93cbd2305fbe74e6177f9",
+  "content_hash": "cc5c461ca737d06c419e86f3c668344b5ed871d382aeaaa38f4361c4a3b3ba31",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

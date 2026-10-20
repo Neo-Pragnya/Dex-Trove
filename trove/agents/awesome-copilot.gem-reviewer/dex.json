@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-reviewer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-reviewer",
+  "title": "gem-reviewer",
+  "description": "Independent standard, high, or critic review of plans, tasks, code, decisions, docs, configuration, and integrations.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-reviewer.agent.md",
+  "dir": "agents/awesome-copilot.gem-reviewer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-reviewer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-reviewer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-reviewer.agent.md"
+  ],
+  "entry_hash": "57c55441dc12a0bd1b14923d90619284fdb2b41231b6945596076ae23937207a",
+  "content_hash": "e22457f86cac1998076901bfdc9fb6085a4e56115ffcb13b5605f57af9caffd6",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: nextjs
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:nextjs
+summary: Best practices for building Next.js (App Router) apps with modern caching, tooling, and server/client boundaries
+  (aligned with Next.js 16.1.1).
+description: Best practices for building Next.js (App Router) apps with modern caching, tooling, and server/client
+  boundaries (aligned with Next.js 16.1.1).
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: nextjs.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/nextjs.instructions.md
+  repository: https://github.com/github/awesome-copilot

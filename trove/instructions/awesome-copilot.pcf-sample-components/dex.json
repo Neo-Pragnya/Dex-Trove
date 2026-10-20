@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/pcf-sample-components",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "pcf-sample-components",
+  "title": "How to Use the Sample Components",
+  "description": "How to use and run PCF sample components from the PowerApps-Samples repository",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "pcf-sample-components.instructions.md",
+  "dir": "instructions/awesome-copilot.pcf-sample-components",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/pcf-sample-components.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/pcf-sample-components.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pcf-sample-components.instructions.md"
+  ],
+  "entry_hash": "9fa4f19a80f195cd19905540720462cb1583f1ab99ed1d7488e1067faeb2914f",
+  "content_hash": "d9f277ea7f7e62b394027b6223760ba884e7b90ad57f4bb259d402e1fda7c68d",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+}

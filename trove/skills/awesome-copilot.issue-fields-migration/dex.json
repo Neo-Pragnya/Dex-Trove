@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/issue-fields-migration",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "issue-fields-migration",
+  "title": "Issue Fields Migration",
+  "description": "Bulk-migrate metadata to GitHub issue fields from two sources: repo labels (e.g. priority labels to a Priority field) and Project V2 fields. Use when users say \"migrate my labels to issue fields\", \"migrate project fields to issue fields\", \"convert labels to issue fields\", \"copy project field values to issue fields\", or ask about adopting issue fields. Issue fields are org-level typed metadata (single select, text, number, date) that replace label-based workarounds with structured, searchable, cross-repo fields.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.issue-fields-migration",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/issue-fields-migration",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/issue-fields-migration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/issue-fields-api.md",
+    "references/labels-api.md",
+    "references/projects-api.md"
+  ],
+  "entry_hash": "a1538bbbb18f528fe3655534984a3be110c3411b4c10786507365982d8f5d950",
+  "content_hash": "9e7bc51018e3261e6ca894b92d303c3b08bbcd43dccf83d6a6f1eb8e510781a2",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

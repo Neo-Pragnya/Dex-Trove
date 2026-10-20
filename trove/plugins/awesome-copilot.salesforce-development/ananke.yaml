@@ -1,0 +1,55 @@
+kind: bundle
+namespace: awesome-copilot
+name: salesforce-development
+version: 1.1.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:salesforce-development
+summary: Complete Salesforce agentic development environment covering Apex & Triggers, Flow automation, Lightning
+  Web Components, Aura components, and Visualforce pages.
+description: Complete Salesforce agentic development environment covering Apex & Triggers, Flow automation, Lightning
+  Web Components, Aura components, and Visualforce pages.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/salesforce-apex-quality
+  version: '*'
+- ref: ananke://skill/awesome-copilot/salesforce-component-standards
+  version: '*'
+- ref: ananke://skill/awesome-copilot/salesforce-flow-design
+  version: '*'
+- ref: ananke://agent/awesome-copilot/salesforce-apex-triggers
+  version: '*'
+- ref: ananke://agent/awesome-copilot/salesforce-aura-lwc
+  version: '*'
+- ref: ananke://agent/awesome-copilot/salesforce-flow
+  version: '*'
+- ref: ananke://agent/awesome-copilot/salesforce-visualforce
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - apex
+  - aura
+  - awesome-copilot
+  - crm
+  - flow
+  - lwc
+  - plugin
+  - salesforce
+  - salesforce-dx
+  - triggers
+  - visualforce
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/salesforce-development
+  repository: https://github.com/github/awesome-copilot

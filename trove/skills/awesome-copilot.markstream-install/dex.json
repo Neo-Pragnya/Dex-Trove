@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/markstream-install",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "markstream-install",
+  "title": "Markstream Install",
+  "description": "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, and Vue 2 applications. Use for package selection, minimal peer dependencies, CSS order, SSR boundaries, streaming mode, and renderer setup.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.markstream-install",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/markstream-install",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/markstream-install",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/scenarios.md"
+  ],
+  "entry_hash": "2507cf60784ac7819300a34b66eaeb68764135fe75d0313ddfc58cfa98fadac3",
+  "content_hash": "aff22d404b199258b65056a067c0b17d57fca73600d9f5ba9c452c68b6812471",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

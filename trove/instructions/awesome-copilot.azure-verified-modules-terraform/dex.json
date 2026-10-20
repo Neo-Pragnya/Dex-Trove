@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/azure-verified-modules-terraform",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "azure-verified-modules-terraform",
+  "title": "Azure Verified Modules (AVM) Terraform",
+  "description": "Azure Verified Modules (AVM) and Terraform",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-verified-modules-terraform.instructions.md",
+  "dir": "instructions/awesome-copilot.azure-verified-modules-terraform",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/azure-verified-modules-terraform.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/azure-verified-modules-terraform.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-verified-modules-terraform.instructions.md"
+  ],
+  "entry_hash": "7c64355703d449eeb56438c8b79b8b6b55af06ac9e7aae8da5e5e639bf520e00",
+  "content_hash": "0d2c66536842de0306874108264acac3ebf898cf941e3103fc81241f40e455db",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.terraform, **/*.tf, **/*.tfvars, **/*.tfstate, **/*.tflint.hcl, **/*.tf.json, **/*.tfvars.json"
+}

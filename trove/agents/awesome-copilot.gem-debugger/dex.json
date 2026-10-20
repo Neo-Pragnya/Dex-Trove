@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-debugger",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-debugger",
+  "title": "gem-debugger",
+  "description": "Root-cause analysis, stack trace diagnosis, regression bisection, error reproduction.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-debugger.agent.md",
+  "dir": "agents/awesome-copilot.gem-debugger",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-debugger.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-debugger.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-debugger.agent.md"
+  ],
+  "entry_hash": "ad8c0590a28d6204a76ce4d8a5b3260f2088917e3d7b437189a543adce1de7aa",
+  "content_hash": "3c899aa35b6e81320e676502ba0f62344fb464a4874888d658535e24223ac01f",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

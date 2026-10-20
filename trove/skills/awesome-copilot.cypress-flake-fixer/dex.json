@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/cypress-flake-fixer",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "cypress-flake-fixer",
+  "title": "Cypress Flake Fixer",
+  "description": "Find and fix flake-prone anti-patterns in an existing Cypress suite, and APIs removed in Cypress 12 to 16. Bundles a zero-dependency scanner for fixed cy.wait() delays, assigned command return values, async/await, force: true, chaining after actions, one-shot expect() inside .then(), conditional testing, and removed APIs such as Cypress.env(), cy.exec(), cy.server()/cy.route(). Use when asked to fix flaky Cypress tests, remove cy.wait, stabilize or harden a Cypress suite, audit Cypress specs, debug \"detached from the DOM\" errors, or prepare an upgrade to Cypress 15 or 16.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.cypress-flake-fixer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/cypress-flake-fixer",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/cypress-flake-fixer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/anti-patterns.md",
+    "references/removed-apis.md",
+    "scripts/scan-cypress.mjs"
+  ],
+  "entry_hash": "bbcc3720a59fcb3b9be0658c8b705e1e3c4aacabb81dd34d72913c1720924663",
+  "content_hash": "eb827b8083ace331e791ade895be26b9526f20443d7a346c7b2e24f45f6927c8",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/typespec-create-agent",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "typespec-create-agent",
+  "title": "Create TypeSpec Declarative Agent",
+  "description": "Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.typespec-create-agent",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/typespec-create-agent",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/typespec-create-agent",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "a25c02160da90770d824b693bd408c94e830942a657c99511a00174506ec1672",
+  "content_hash": "d7f790e8d28f1d06cf0047a4c286267b46181306bf86e942b4326a499b6add77",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

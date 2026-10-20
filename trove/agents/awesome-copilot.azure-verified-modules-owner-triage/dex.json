@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/azure-verified-modules-owner-triage",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "azure-verified-modules-owner-triage",
+  "title": "AVM Owner Triage",
+  "description": "Triage open GitHub issues across the Azure Verified Modules (AVM) repos an owner maintains. Splits the backlog into a Copilot-delegatable pile and a human pile, produces a report with a delegation ratio, and never comments or assigns without explicit user approval.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-verified-modules-owner-triage.agent.md",
+  "dir": "agents/awesome-copilot.azure-verified-modules-owner-triage",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/azure-verified-modules-owner-triage.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-verified-modules-owner-triage.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-verified-modules-owner-triage.agent.md"
+  ],
+  "entry_hash": "fdd6a110c328acf9282854eb989959ce8a47506b48f1197f1a95927a5820fcdd",
+  "content_hash": "77f97e2ddd3e56c14190178dac808159d5f25e3072bbb17f621cfce0e41cc1a9",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: drupal-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:drupal-expert
+summary: Expert assistant for Drupal development, architecture, and best practices using PHP 8.3+ and modern Drupal
+  patterns
+description: Expert assistant for Drupal development, architecture, and best practices using PHP 8.3+ and modern
+  Drupal patterns
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: drupal-expert.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/drupal-expert.agent.md
+  repository: https://github.com/github/awesome-copilot

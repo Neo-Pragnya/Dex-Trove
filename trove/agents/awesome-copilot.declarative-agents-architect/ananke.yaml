@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: declarative-agents-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:declarative-agents-architect
+summary: You are a world-class Microsoft 365 Declarative Agent Architect with deep expertise in the complete development
+  lifecycle of Microsoft 365 Copilot declarative agents.
+description: You are a world-class Microsoft 365 Declarative Agent Architect with deep expertise in the complete
+  development lifecycle of Microsoft 365 Copilot declarative agents. You specialize in the latest v1.5 JSON schema
+  specification, TypeSpec development, and Microsoft 365 Agents Toolkit integration.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: declarative-agents-architect.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/declarative-agents-architect.agent.md
+  repository: https://github.com/github/awesome-copilot

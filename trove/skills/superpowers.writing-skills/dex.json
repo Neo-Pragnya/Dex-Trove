@@ -1,0 +1,47 @@
+{
+  "id": "superpowers/writing-skills",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "writing-skills",
+  "title": "Writing Skills",
+  "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+  "tags": [
+    "executes-code",
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.writing-skills",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/writing-skills",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/writing-skills",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "anthropic-best-practices.md",
+    "examples/CLAUDE_MD_TESTING.md",
+    "graphviz-conventions.dot",
+    "persuasion-principles.md",
+    "render-graphs.js",
+    "testing-skills-with-subagents.md"
+  ],
+  "entry_hash": "bbdfe742f853562e643a3d40d64476359d47881e39cef80a189283fa26d11ab9",
+  "content_hash": "e61e2e7d78416ec7dc9a438d1207388498030d0a7d6cd16e35779015ef368c6c",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

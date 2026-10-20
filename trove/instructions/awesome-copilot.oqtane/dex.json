@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/oqtane",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "oqtane",
+  "title": "oqtane",
+  "description": "Oqtane Module patterns",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "oqtane.instructions.md",
+  "dir": "instructions/awesome-copilot.oqtane",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/oqtane.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/oqtane.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "oqtane.instructions.md"
+  ],
+  "entry_hash": "423deb64a97aad4ee3dad13d01a81342814f4aaae92ff370b669bf2ca892771f",
+  "content_hash": "7edd1c123eae9ef2a6d62072123a36b890aa7d83555734184024b2932d39ea3e",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.razor, **/*.razor.cs, **/*.razor.css"
+}

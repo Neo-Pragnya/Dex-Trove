@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/powershell-pester-6",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "powershell-pester-6",
+  "title": "PowerShell Pester v6 Testing Guidelines",
+  "description": "PowerShell Pester testing best practices based on Pester v6 conventions",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "powershell-pester-6.instructions.md",
+  "dir": "instructions/awesome-copilot.powershell-pester-6",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/powershell-pester-6.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/powershell-pester-6.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "powershell-pester-6.instructions.md"
+  ],
+  "entry_hash": "19b4c6301e6b2ab4b8e3941d7b964c3bdc892ab8763b5dd965adf3a0e48c7aaf",
+  "content_hash": "b0647e7b5158be9b41596add3de67f634f5ad72bbed3d80face105898a6f2d79",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.Tests.ps1"
+}

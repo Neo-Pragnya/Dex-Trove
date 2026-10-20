@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/playwright-automation-fill-in-form",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "playwright-automation-fill-in-form",
+  "title": "Automating Filling in a Form with Playwright MCP",
+  "description": "Automate filling in a form using Playwright MCP",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.playwright-automation-fill-in-form",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/playwright-automation-fill-in-form",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/playwright-automation-fill-in-form",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ed10ea649ed942b29707738ceb78de7f1a5bfddafe348d23b2ef81e8e3a4b80b",
+  "content_hash": "3f947ff2b2a183b7c2199d149255e500db8f5f551ee2cc88435c49e315afdca5",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

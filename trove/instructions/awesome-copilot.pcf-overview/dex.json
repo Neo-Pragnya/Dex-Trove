@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/pcf-overview",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "pcf-overview",
+  "title": "Power Apps Component Framework Overview",
+  "description": "Power Apps Component Framework overview and fundamentals",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "pcf-overview.instructions.md",
+  "dir": "instructions/awesome-copilot.pcf-overview",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/pcf-overview.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/pcf-overview.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pcf-overview.instructions.md"
+  ],
+  "entry_hash": "e3e06ed10fcdbefe09041fdbae5206b3ef62d43de888d00b7ce04277310f2431",
+  "content_hash": "19c7eb3b7991c51c1270aa56da78c6b349eb0f7fc9794d580bb70f77367123dd",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+}

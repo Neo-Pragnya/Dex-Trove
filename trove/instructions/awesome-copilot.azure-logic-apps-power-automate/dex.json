@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/azure-logic-apps-power-automate",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "azure-logic-apps-power-automate",
+  "title": "Azure Logic Apps and Power Automate Instructions",
+  "description": "Guidelines for developing Azure Logic Apps and Power Automate workflows with best practices for Workflow Definition Language (WDL), integration patterns, and enterprise automation",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-logic-apps-power-automate.instructions.md",
+  "dir": "instructions/awesome-copilot.azure-logic-apps-power-automate",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/azure-logic-apps-power-automate.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/azure-logic-apps-power-automate.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-logic-apps-power-automate.instructions.md"
+  ],
+  "entry_hash": "a3cae709ed0fa3f4bd9b3102c12b0a6bec03e9da6a169bddf81e4f7ffed170ef",
+  "content_hash": "6600f91ecb16b1db8831237d6c32bc9dc33d1ef986d3b1914d31d05114237709",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.json,**/*.logicapp.json,**/workflow.json,**/*-definition.json,**/*.flow.json"
+}

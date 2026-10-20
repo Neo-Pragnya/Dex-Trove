@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: expert-react-frontend-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:expert-react-frontend-engineer
+summary: Expert React 19.2 frontend engineer specializing in modern hooks, Server Components, Actions, TypeScript,
+  and performance optimization
+description: Expert React 19.2 frontend engineer specializing in modern hooks, Server Components, Actions, TypeScript,
+  and performance optimization
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: expert-react-frontend-engineer.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/expert-react-frontend-engineer.agent.md
+  repository: https://github.com/github/awesome-copilot

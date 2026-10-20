@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/terraform-aws-implement",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "terraform-aws-implement",
+  "title": "terraform-aws-implement",
+  "description": "Act as an AWS Terraform Infrastructure as Code coding specialist that creates and reviews Terraform for AWS resources.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "terraform-aws-implement.agent.md",
+  "dir": "agents/awesome-copilot.terraform-aws-implement",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/terraform-aws-implement.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/terraform-aws-implement.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "terraform-aws-implement.agent.md"
+  ],
+  "entry_hash": "1427cfc1f6e02ad3290e38887de7647689214a8a42f9eef9cd72011a6f6e71ac",
+  "content_hash": "17a2d048d4ba8e629342a2aa4f5a4eef3a18f21b8b746603028b116aab3a786b",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

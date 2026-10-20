@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/mvvm-toolkit",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "mvvm-toolkit",
+  "title": "CommunityToolkit.Mvvm (MVVM Toolkit)",
+  "description": "CommunityToolkit.Mvvm (MVVM Toolkit) coding conventions for ViewModels, commands, messaging, validation, and DI across WPF, WinUI 3, .NET MAUI, Uno Platform, and Avalonia.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "mvvm-toolkit.instructions.md",
+  "dir": "instructions/awesome-copilot.mvvm-toolkit",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/mvvm-toolkit.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/mvvm-toolkit.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mvvm-toolkit.instructions.md"
+  ],
+  "entry_hash": "c2e02f65c96358770027bfd16311edf5f0628b18133aa4a0721bf8ef8cba4cdd",
+  "content_hash": "20ccbd56d8722f5c27c08c5d726e15a89393e0f5056bd8fdb10d286bf723681d",
+  "learned_at": "2026-10-20T04:06:49+00:00",
+  "apply_to": "**/*.cs, **/*.xaml, **/*.csproj"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/github-release",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "github-release",
+  "title": "GitHub Release Skill",
+  "description": "Guides IA through releasing a new version of a GitHub library end-to-end. Handles SemVer versioning and Keep a Changelog formatting automatically.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.github-release",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/github-release",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/github-release",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/commit-classification.md",
+    "references/semver-rules.md"
+  ],
+  "entry_hash": "7ef644b19c8f87b09be121efdb3fc946c3354bb48ce6ec841ebb56384ee4c431",
+  "content_hash": "4146c3bf6fcade6261c8aa3010a9c528a4ca2be7b0cff993c813d1224729b9e9",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

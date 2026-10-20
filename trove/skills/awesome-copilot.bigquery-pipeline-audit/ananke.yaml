@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: bigquery-pipeline-audit
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:bigquery-pipeline-audit
+summary: Audits Python + BigQuery pipelines for cost safety, idempotency, and production readiness. Returns a structured
+  report with exact patch locations.
+description: Audits Python + BigQuery pipelines for cost safety, idempotency, and production readiness. Returns
+  a structured report with exact patch locations.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/bigquery-pipeline-audit
+  repository: https://github.com/github/awesome-copilot

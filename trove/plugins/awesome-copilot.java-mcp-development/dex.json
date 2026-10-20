@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/java-mcp-development",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "java-mcp-development",
+  "title": "Java MCP Server Development Plugin",
+  "description": "Build Model Context Protocol (MCP) servers in Java with the official MCP Java SDK 2.x. Includes a skill that generates a server project and an expert agent for guidance.",
+  "tags": [
+    "awesome-copilot",
+    "java",
+    "mcp",
+    "mcp-java-sdk",
+    "model-context-protocol",
+    "plugin",
+    "server-development",
+    "spring-ai"
+  ],
+  "version": "2.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.java-mcp-development",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/java-mcp-development",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/java-mcp-development",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/java-mcp-server-generator",
+    "agent:awesome-copilot/java-mcp-expert"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "96eeed30fa04efe3fe2bdde8d4fd393c981725c0f5338d5b4a71d6f9c3c70136",
+  "content_hash": "dc57cff4f1df0f1c9f5358f83cfa7567748eb60f414378e742a17fd45ec407f1",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

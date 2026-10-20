@@ -1,0 +1,29 @@
+kind: skill
+namespace: awesome-copilot
+name: create-architectural-decision-record
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:create-architectural-decision-record
+summary: Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation.
+description: Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-architectural-decision-record
+  repository: https://github.com/github/awesome-copilot

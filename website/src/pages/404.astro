@@ -1,0 +1,17 @@
+---
+import Layout from "../components/Layout.astro";
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Not found">
+  <p class="eyebrow">404</p>
+  <h1>That page isn't in the trove</h1>
+  <p class="lede">
+    Items are addressed as <code>/&lt;kind&gt;/&lt;namespace&gt;.&lt;name&gt;/</code>. If an item disappeared, it
+    may have been removed upstream or excluded at the last learn.
+  </p>
+  <p>
+    <a href={`${base}catalog/`}>Search the catalog</a> · <a href={`${base}excluded/`}>See what was excluded</a> ·
+    <a href={`${base}docs/`}>Read the docs</a>
+  </p>
+</Layout>

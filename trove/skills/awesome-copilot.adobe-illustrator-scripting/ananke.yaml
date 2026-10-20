@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: adobe-illustrator-scripting
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:adobe-illustrator-scripting
+summary: Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX).
+description: Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX).
+  Use when creating or modifying scripts that manipulate documents, layers, paths, text frames, colors, symbols,
+  artboards, or any Illustrator DOM objects. Covers the complete JavaScript object model, coordinate system, measurement
+  units, export workflows, and scripting best practices.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/adobe-illustrator-scripting
+  repository: https://github.com/github/awesome-copilot

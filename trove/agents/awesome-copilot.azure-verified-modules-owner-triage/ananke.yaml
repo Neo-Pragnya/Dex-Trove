@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: azure-verified-modules-owner-triage
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:azure-verified-modules-owner-triage
+summary: Triage open GitHub issues across the Azure Verified Modules (AVM) repos an owner maintains.
+description: Triage open GitHub issues across the Azure Verified Modules (AVM) repos an owner maintains. Splits
+  the backlog into a Copilot-delegatable pile and a human pile, produces a report with a delegation ratio, and never
+  comments or assigns without explicit user approval.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: azure-verified-modules-owner-triage.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-verified-modules-owner-triage.agent.md
+  repository: https://github.com/github/awesome-copilot

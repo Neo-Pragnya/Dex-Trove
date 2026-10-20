@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/taming-copilot",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "taming-copilot",
+  "title": "taming-copilot",
+  "description": "Prevent Copilot from wreaking havoc across your codebase, keeping it under control.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "taming-copilot.instructions.md",
+  "dir": "instructions/awesome-copilot.taming-copilot",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/taming-copilot.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/taming-copilot.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "taming-copilot.instructions.md"
+  ],
+  "entry_hash": "72500a4221558125e60ff5d2207dccaa0d486ff8430a4358575874501813e50e",
+  "content_hash": "449d95166fea4a44b3163bede6b5406db160e831e0b5a63bc0537124cea1056b",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

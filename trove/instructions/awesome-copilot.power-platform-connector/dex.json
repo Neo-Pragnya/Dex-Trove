@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/power-platform-connector",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "power-platform-connector",
+  "title": "Power Platform Connectors Schema Development Instructions",
+  "description": "Comprehensive development guidelines for Power Platform Custom Connectors using JSON Schema definitions. Covers API definitions (Swagger 2.0), API properties, and settings configuration with Microsoft extensions.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "power-platform-connector.instructions.md",
+  "dir": "instructions/awesome-copilot.power-platform-connector",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/power-platform-connector.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/power-platform-connector.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "power-platform-connector.instructions.md"
+  ],
+  "entry_hash": "3ae45171cc46d59f7426b49fc0d606fc1b251cc41e9f2bf88b3098926929f83a",
+  "content_hash": "59506f6ee6c8138608aa868ad3868655e4eb1cf3415493b6a9e2adcdf5fcaf46",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{json,md}"
+}

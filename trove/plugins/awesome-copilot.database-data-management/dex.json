@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot/database-data-management",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "database-data-management",
+  "title": "Database & Data Management Plugin",
+  "description": "Database administration, SQL optimization, and data management tools for PostgreSQL, SQL Server, and general database development best practices.",
+  "tags": [
+    "awesome-copilot",
+    "data-management",
+    "database",
+    "dba",
+    "optimization",
+    "plugin",
+    "postgresql",
+    "queries",
+    "sql",
+    "sql-server"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.database-data-management",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/database-data-management",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/database-data-management",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/postgresql-code-review",
+    "skill:awesome-copilot/postgresql-optimization",
+    "skill:awesome-copilot/sql-code-review",
+    "skill:awesome-copilot/sql-optimization",
+    "agent:awesome-copilot/ms-sql-dba",
+    "agent:awesome-copilot/postgresql-dba"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "581a02b7905e79e96f4b1cfed0dc1dced0fdb54d9c6dbb4771f0652518e33293",
+  "content_hash": "e0e4b02b5f6475510cf78b30536f26545981e0b5e4ccaa6c16a44aac62d61d0a",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

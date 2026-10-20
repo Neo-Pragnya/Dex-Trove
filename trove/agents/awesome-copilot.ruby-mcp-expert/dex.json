@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/ruby-mcp-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "ruby-mcp-expert",
+  "title": "Ruby MCP Expert",
+  "description": "Expert assistance for building Model Context Protocol servers in Ruby using the official MCP Ruby SDK gem with Rails integration.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "ruby-mcp-expert.agent.md",
+  "dir": "agents/awesome-copilot.ruby-mcp-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/ruby-mcp-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/ruby-mcp-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ruby-mcp-expert.agent.md"
+  ],
+  "entry_hash": "9783b3d91ef483d09d46500a4494703238097a9ce938425260697c64e053a98c",
+  "content_hash": "8f7a81bc880013178388cb5a37813983ae310fe7eabc8778876cbac6368dc5e1",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

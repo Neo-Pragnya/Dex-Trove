@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/wg-code-alchemist",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "wg-code-alchemist",
+  "title": "WG Code Alchemist",
+  "description": "Ask WG Code Alchemist to transform your code with Clean Code principles and SOLID design",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "wg-code-alchemist.agent.md",
+  "dir": "agents/awesome-copilot.wg-code-alchemist",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/wg-code-alchemist.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/wg-code-alchemist.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "wg-code-alchemist.agent.md"
+  ],
+  "entry_hash": "3a4f0440c95e7c14912464ac19fd9d8c43c6635ca0d21e375c00a1d1faa38222",
+  "content_hash": "23e9291bd1bf52e65343e9259347869f639d784e8cb97e3e6efb819590d92fb1",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

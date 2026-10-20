@@ -1,0 +1,46 @@
+{
+  "id": "awesome-copilot/session-auto-commit",
+  "kind": "hook",
+  "namespace": "awesome-copilot",
+  "name": "session-auto-commit",
+  "title": "Session Auto-Commit",
+  "description": "Automatically commits and pushes changes when a Copilot coding agent session ends",
+  "tags": [
+    "automation",
+    "awesome-copilot",
+    "executes-code",
+    "git",
+    "hook",
+    "productivity"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "hooks/awesome-copilot.session-auto-commit",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "hooks/session-auto-commit",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/session-auto-commit",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "README.md",
+    "auto-commit.sh",
+    "hooks.json"
+  ],
+  "entry_hash": "23ad287d5e5f0961db3ca4eba62197594c5dc176ec31925e82f7d3f869eeacc7",
+  "content_hash": "ad353f88b7cfadc83793f24ba48fca8b3e152191fbb9c1ca734384060d6bdd35",
+  "learned_at": "2026-10-20T03:28:58+00:00"
+}

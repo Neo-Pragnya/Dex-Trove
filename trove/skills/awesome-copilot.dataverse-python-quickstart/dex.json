@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/dataverse-python-quickstart",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python-quickstart",
+  "title": "dataverse-python-quickstart",
+  "description": "Generate Python SDK setup + CRUD + bulk + paging snippets using official patterns.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.dataverse-python-quickstart",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/dataverse-python-quickstart",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/dataverse-python-quickstart",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "f8553b9dc0effb7e367c74775f59ab0bb11696ede69323ee75703194d67d5572",
+  "content_hash": "418eeb6379b856644e6a60e2bb7ec289b13fc89810610198e9ef4a213aa447b7",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

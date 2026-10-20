@@ -1,0 +1,45 @@
+kind: bundle
+namespace: awesome-copilot
+name: convert-to-md
+version: 1.0.1
+ananke_id: urn:dex-trove:plugin:awesome-copilot:convert-to-md
+summary: A collection of Copilot skills that convert common document formats into Markdown so their contents can
+  be accurately analyzed, summarized, searched, or extracted from.
+description: A collection of Copilot skills that convert common document formats into Markdown so their contents
+  can be accurately analyzed, summarized, searched, or extracted from. Just tell Copilot what you need — the right
+  skill is invoked automatically and the conversion happens behind the scenes.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/convert-excel-to-md
+  version: '*'
+- ref: ananke://skill/awesome-copilot/convert-pdf-to-md
+  version: '*'
+- ref: ananke://skill/awesome-copilot/convert-word-to-md
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - configuration
+  - convert-excel-to-md
+  - convert-pdf-to-md
+  - convert-word-to-md
+  - copilot
+  - plugin
+  - skills
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/convert-to-md
+  repository: https://github.com/github/awesome-copilot

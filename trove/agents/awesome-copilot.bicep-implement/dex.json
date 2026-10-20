@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/bicep-implement",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "bicep-implement",
+  "title": "Bicep Specialist",
+  "description": "Act as an Azure Bicep Infrastructure as Code coding specialist that creates Bicep templates.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "bicep-implement.agent.md",
+  "dir": "agents/awesome-copilot.bicep-implement",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/bicep-implement.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/bicep-implement.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "bicep-implement.agent.md"
+  ],
+  "entry_hash": "8b9eaffd40c4e1e6326bef8aa34daf5d880550512ddf1eb89e36fd2daca7edac",
+  "content_hash": "a00926b051e8734d365cab19d5ed803e691b87e060ade958bb6bc45522bb1885",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

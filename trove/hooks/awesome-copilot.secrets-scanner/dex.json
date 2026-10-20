@@ -1,0 +1,52 @@
+{
+  "id": "awesome-copilot/secrets-scanner",
+  "kind": "hook",
+  "namespace": "awesome-copilot",
+  "name": "secrets-scanner",
+  "title": "Secrets Scanner",
+  "description": "Scans files modified during a Copilot coding agent session for leaked secrets, credentials, and sensitive data",
+  "tags": [
+    "ananke-secret-flag",
+    "awesome-copilot",
+    "executes-code",
+    "hook",
+    "scanning",
+    "secrets",
+    "security",
+    "session-end"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "hooks/awesome-copilot.secrets-scanner",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "hooks/secrets-scanner",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/secrets-scanner",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "README.md",
+    "hooks.json",
+    "scan-secrets.sh"
+  ],
+  "entry_hash": "5a905a5902f9cd98a9e85d2b5f24aac614f695e952f428b36638a88a535b5aa2",
+  "content_hash": "1a8a8f9cfa7124536202dabd48877e926b43aced9b5936b0c3683d998c47f36f",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "secret_flags": [
+    "aws-access-key README.md:105",
+    "private-key README.md:112"
+  ]
+}

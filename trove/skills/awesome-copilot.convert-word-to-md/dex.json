@@ -1,0 +1,44 @@
+{
+  "id": "awesome-copilot/convert-word-to-md",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "convert-word-to-md",
+  "title": "Convert Word to Markdown",
+  "description": "Converts Word (.docx) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from. Use this skill whenever the user shares, references, or asks about a .docx file — even if they don't say \"convert\" or \"markdown\" explicitly. This includes requests to \"read\", \"summarize\", \"review\", \"extract data from\", \"compare\", or \"analyze\" a Word document, resume, report, contract, or proposal. Always run the bundled conversion script to produce Markdown first; do not attempt to parse .docx content directly or write ad-hoc conversion code. Also use this skill for batch requests involving a whole folder of Word documents. IMPORTANT: When the user references a folder or set of documents containing multiple file types (.pdf, .docx, .xlsx), invoke ALL three sibling skills — convert-pdf-to-md, convert-word-to-md, and convert-excel-to-md — so no file type is silently skipped.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.convert-word-to-md",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/convert-word-to-md",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/convert-word-to-md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/setup.md",
+    "scripts/convert_word_to_md.py",
+    "scripts/requirements.txt"
+  ],
+  "entry_hash": "dde993754e47ebccf30b540b98f9555936d44a5e40c9c70d83d296e03e60785e",
+  "content_hash": "dec4e5bdb5b9584ed439dbf923f700b71c58c200d6dafe4a519a94f6b7d94b88",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

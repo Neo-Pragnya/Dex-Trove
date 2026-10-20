@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/bicep-code-best-practices",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "bicep-code-best-practices",
+  "title": "bicep-code-best-practices",
+  "description": "Infrastructure as Code with Bicep",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "bicep-code-best-practices.instructions.md",
+  "dir": "instructions/awesome-copilot.bicep-code-best-practices",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/bicep-code-best-practices.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/bicep-code-best-practices.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "bicep-code-best-practices.instructions.md"
+  ],
+  "entry_hash": "e5dc63050d0e55b9c658292e5bbf0d15ed0babdacafe449195c037a09d7aad50",
+  "content_hash": "ca89283ed262b19fe59404fd28cb27eafb95a4063f666dd0ab83c685f86c8a28",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.bicep"
+}

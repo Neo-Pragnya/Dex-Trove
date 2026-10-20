@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: azure-smart-city-iot-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:azure-smart-city-iot-architect
+summary: Design Azure IoT and Smart City architectures with clear platform engineering reasoning, requiring mandatory
+  review of Azure IoT Edge documentation before recommending edge solutions.
+description: Design Azure IoT and Smart City architectures with clear platform engineering reasoning, requiring
+  mandatory review of Azure IoT Edge documentation before recommending edge solutions.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: azure-smart-city-iot-architect.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/azure-smart-city-iot-architect.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/salesforce-component-standards",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "salesforce-component-standards",
+  "title": "Salesforce Component Quality Standards",
+  "description": "Quality standards for Salesforce Lightning Web Components (LWC), Aura components, and Visualforce pages. Covers SLDS 2 compliance, accessibility (WCAG 2.1 AA), data access pattern selection, component communication rules, XSS prevention, CSRF enforcement, FLS/CRUD in AuraEnabled methods, view state management, and Jest test requirements. Use this skill when building or reviewing any Salesforce UI component to enforce platform-specific security and quality standards.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.salesforce-component-standards",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/salesforce-component-standards",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/salesforce-component-standards",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "cbc52d34e7f41a125996ae8573b800a43881c3fab4b81a11a6bd7ba2ee9ff13b",
+  "content_hash": "f84c686a50fa9e5338ea38b8b8840084486b08afc2eb18e6737020bae89516f6",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

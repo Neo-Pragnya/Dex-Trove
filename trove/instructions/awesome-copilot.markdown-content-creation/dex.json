@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/markdown-content-creation",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "markdown-content-creation",
+  "title": "Markdown Content Rules",
+  "description": "Markdown guidelines and content creation standards for blog posts",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "markdown-content-creation.instructions.md",
+  "dir": "instructions/awesome-copilot.markdown-content-creation",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/markdown-content-creation.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/markdown-content-creation.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "markdown-content-creation.instructions.md"
+  ],
+  "entry_hash": "9d487fd5a17afc909984ad4bb4985f538095659f7d3b62fad04b668d8407347f",
+  "content_hash": "e1d5d63cd2f6780de34576be5dd3e96b1c5b1e3f4c0bed43e91f807838de4516",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.md"
+}

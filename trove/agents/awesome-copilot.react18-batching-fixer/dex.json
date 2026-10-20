@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/react18-batching-fixer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "react18-batching-fixer",
+  "title": "react18-batching-fixer",
+  "description": "Automatic batching regression specialist. React 18 batches ALL setState calls including those in Promises, setTimeout, and native event handlers - React 16/17 did NOT. Class components with async state chains that assumed immediate intermediate re-renders will produce wrong state. This agent finds every vulnerable pattern and fixes with flushSync where semantically required.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "react18-batching-fixer.agent.md",
+  "dir": "agents/awesome-copilot.react18-batching-fixer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/react18-batching-fixer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/react18-batching-fixer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "react18-batching-fixer.agent.md"
+  ],
+  "entry_hash": "40388fa4507ce3ae7e6058472cb16e51f16f6bbad879483724fcbc03bca451a5",
+  "content_hash": "b045349ab613a0e8366cf874e4b413e1e7f01d790b732c3526502b551c395c4c",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

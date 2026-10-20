@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/convert-cassandra-to-spring-data-cosmos",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "convert-cassandra-to-spring-data-cosmos",
+  "title": "Comprehensive Guide: Converting Spring Boot Cassandra Applications to use Azure Cosmos DB with Spring Data Cosmos (spring-data-cosmos)",
+  "description": "Step-by-step guide for converting Spring Boot Cassandra applications to use Azure Cosmos DB with Spring Data Cosmos",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "convert-cassandra-to-spring-data-cosmos.instructions.md",
+  "dir": "instructions/awesome-copilot.convert-cassandra-to-spring-data-cosmos",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/convert-cassandra-to-spring-data-cosmos.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/convert-cassandra-to-spring-data-cosmos.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "convert-cassandra-to-spring-data-cosmos.instructions.md"
+  ],
+  "entry_hash": "8f490213a34d0efbf9b99110878a736009f40631680691e409c4fc9fa4457a48",
+  "content_hash": "6aeb923e0ade66bb89f194613ccb044d21f583b515bf137060fea8b45a490c32",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.java,**/pom.xml,**/build.gradle,**/application*.properties,**/application*.yml,**/application*.conf"
+}

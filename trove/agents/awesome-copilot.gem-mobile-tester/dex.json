@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/gem-mobile-tester",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "gem-mobile-tester",
+  "title": "gem-mobile-tester",
+  "description": "Mobile E2E testing: Detox, Maestro, iOS/Android simulators.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "gem-mobile-tester.agent.md",
+  "dir": "agents/awesome-copilot.gem-mobile-tester",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/gem-mobile-tester.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/gem-mobile-tester.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gem-mobile-tester.agent.md"
+  ],
+  "entry_hash": "d80535b185e2a6d942c8e06826913b0b6c5dd2d43ae087f6ca798978baa9f748",
+  "content_hash": "ffca93c7cf767e50274019697667e54d4e380a3886a0abb046653274e015818a",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

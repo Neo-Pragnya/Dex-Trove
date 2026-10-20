@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: planning-oracle-to-postgres-migration-integration-testing
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:planning-oracle-to-postgres-migration-integration-testing
+summary: Creates an integration testing plan for .NET data access artifacts during Oracle-to-PostgreSQL database
+  migrations.
+description: Creates an integration testing plan for .NET data access artifacts during Oracle-to-PostgreSQL database
+  migrations. Analyzes a single project to identify repositories, DAOs, and service layers that interact with the
+  database, then produces a structured testing plan. Use when planning integration test coverage for a migrated
+  project, identifying which data access methods need tests, or preparing for Oracle-to-PostgreSQL migration validation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/planning-oracle-to-postgres-migration-integration-testing
+  repository: https://github.com/github/awesome-copilot

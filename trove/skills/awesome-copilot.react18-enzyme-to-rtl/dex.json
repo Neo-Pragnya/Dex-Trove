@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/react18-enzyme-to-rtl",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "react18-enzyme-to-rtl",
+  "title": "React 18 Enzyme → RTL Migration",
+  "description": "Provides exact Enzyme → React Testing Library migration patterns for React 18 upgrades. Use this skill whenever Enzyme tests need to be rewritten - shallow, mount, wrapper.find(), wrapper.simulate(), wrapper.prop(), wrapper.state(), wrapper.instance(), Enzyme configure/Adapter calls, or any test file that imports from enzyme. This skill covers the full API mapping and the philosophy shift from implementation testing to behavior testing. Always read this skill before rewriting Enzyme tests - do not translate Enzyme APIs 1:1, that produces brittle RTL tests.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.react18-enzyme-to-rtl",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/react18-enzyme-to-rtl",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react18-enzyme-to-rtl",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/async-patterns.md",
+    "references/enzyme-api-map.md"
+  ],
+  "entry_hash": "948b578f25740476a29074902cfd6c0886bee07cdbe99fcfe76dd58072f422a4",
+  "content_hash": "19d96b63007a825e1e67aeb980e08ca6066797b53d7702c06a18dc74dde21eee",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

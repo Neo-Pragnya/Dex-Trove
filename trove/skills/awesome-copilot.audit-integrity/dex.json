@@ -1,0 +1,47 @@
+{
+  "id": "awesome-copilot/audit-integrity",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "audit-integrity",
+  "title": "Audit Integrity Skill",
+  "description": "Enforce output quality, evidence verification, and quality gates across security audits. Use this skill when you perform SAST, SCA, threat modeling, or security code reviews. Use this skill to verify code locations and taint traces for all findings. Use this skill to prevent the suppression of valid security findings. Use this skill to evaluate reports against quality thresholds (score ≥ 8/10) before delivery.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.audit-integrity",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/audit-integrity",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/audit-integrity",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/anti-rationalization-guard.md",
+    "references/clarification-protocol.md",
+    "references/non-negotiable-behaviors.md",
+    "references/retry-protocol.md",
+    "references/self-critique-loop.md",
+    "references/self-learning-system.md",
+    "references/self-reflection-quality-gate.md"
+  ],
+  "entry_hash": "f2aa1a0cce91cfcaca860eee69a3140f0c012e3cc714fac38b883d550c2a2b49",
+  "content_hash": "efc841004be284195b76ab48758375454627c7545766a7e587996d482a0bc7fa",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

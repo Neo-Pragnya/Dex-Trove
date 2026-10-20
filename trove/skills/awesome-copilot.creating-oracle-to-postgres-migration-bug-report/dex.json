@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/creating-oracle-to-postgres-migration-bug-report",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "creating-oracle-to-postgres-migration-bug-report",
+  "title": "Creating Bug Reports for Oracle-to-PostgreSQL Migration",
+  "description": "Creates structured bug reports for defects found during Oracle-to-PostgreSQL migration. Use when documenting behavioral differences between Oracle and PostgreSQL as actionable bug reports with severity, root cause, and remediation steps.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.creating-oracle-to-postgres-migration-bug-report",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/creating-oracle-to-postgres-migration-bug-report",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/creating-oracle-to-postgres-migration-bug-report",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/BUG-REPORT-TEMPLATE.md"
+  ],
+  "entry_hash": "993ffe2426a60038b6917068d52a8784eda3aa90d9894e3e840b3c7f289cbb41",
+  "content_hash": "5d9171ae486ca94aba4d8a59c22d061264b79d8e6e6ed3ef32a98567e411ad7a",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

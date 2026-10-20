@@ -1,0 +1,45 @@
+kind: bundle
+namespace: awesome-copilot
+name: napkin
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:napkin
+summary: Visual whiteboard collaboration for Copilot CLI. Opens an interactive whiteboard in your browser where
+  you can draw, sketch, and add sticky notes — then share everything back with Copilot.
+description: Visual whiteboard collaboration for Copilot CLI. Opens an interactive whiteboard in your browser where
+  you can draw, sketch, and add sticky notes — then share everything back with Copilot. Copilot sees your drawings
+  and responds with analysis, suggestions, and ideas.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/napkin
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - accessibility
+  - awesome-copilot
+  - brainstorming
+  - collaboration
+  - copilot-cli
+  - drawing
+  - non-technical
+  - plugin
+  - sticky-notes
+  - ux
+  - visual
+  - whiteboard
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/napkin
+  repository: https://github.com/github/awesome-copilot

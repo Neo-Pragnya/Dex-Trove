@@ -1,0 +1,31 @@
+kind: agent
+namespace: awesome-copilot
+name: fedora-linux-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:fedora-linux-expert
+summary: Fedora (Red Hat family) Linux specialist focused on dnf, SELinux, and modern systemd-based workflows.
+description: Fedora (Red Hat family) Linux specialist focused on dnf, SELinux, and modern systemd-based workflows.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: fedora-linux-expert.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/fedora-linux-expert.agent.md
+  repository: https://github.com/github/awesome-copilot

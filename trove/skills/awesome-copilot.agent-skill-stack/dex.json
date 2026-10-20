@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/agent-skill-stack",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "agent-skill-stack",
+  "title": "Build an Agent Skill Stack",
+  "description": "Find, evaluate, and assemble the smallest compatible set of AI Agent Skills for an end-to-end natural-language goal. Use when a user wants Skills for a multi-step workflow, asks which Skills fit a project, needs an installed-Skill audit or conflict check, has low Skill recall, wants indirect helpers such as humanizers or compliance checks, or wants a project-specific Skill Stack with controlled installation. Search local Skills, registries, GitHub, and OpenCLI; compare adoption, verified fit, safety, and overlap. Do not use for locating one known or common Skill; use the generic find-skills workflow.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.agent-skill-stack",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/agent-skill-stack",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/agent-skill-stack",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/discovery-ranking.md",
+    "references/local-index-and-profiles.md",
+    "references/security-installation.md",
+    "references/workflow-model.md",
+    "scripts/inventory_skills.py",
+    "scripts/project_profile.py",
+    "scripts/render_stack_card.py",
+    "scripts/skill_index.py",
+    "scripts/stage_install.py"
+  ],
+  "entry_hash": "d75ed95177dab5ddb5ca96c87fed93842e7d3221b4b5c9f2d8ebb72d33cde5e2",
+  "content_hash": "47c4d02aaad2e6fc8d9516ffc5ebdc0a63d59db2f45942152f0c05c2566cba5c",
+  "learned_at": "2026-10-20T03:28:49+00:00"
+}

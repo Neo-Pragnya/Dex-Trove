@@ -1,0 +1,28 @@
+kind: tool
+namespace: awesome-copilot
+name: fix-broken-links
+version: 1.0.0
+ananke_id: urn:dex-trove:hook:awesome-copilot:fix-broken-links
+summary: Checks changed web files for broken hyperlinks and SEO anchor issues after each Copilot tool use.
+description: Checks changed web files for broken hyperlinks and SEO anchor issues after each Copilot tool use.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - hook
+  - html
+  - links
+  - markdown
+  - post-tool-use
+  - seo
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/fix-broken-links
+  repository: https://github.com/github/awesome-copilot

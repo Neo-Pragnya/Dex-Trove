@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: ad-campaign-analyzer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:ad-campaign-analyzer
+summary: Use this skill when the user shares ad campaign performance data and asks what to cut, scale, or test.
+description: Use this skill when the user shares ad campaign performance data and asks what to cut, scale, or test.
+  Trigger for prompts like "analyze my ad campaigns", "where am I wasting ad spend", "reallocate my ad budget",
+  "which ads are actually working", or "ROAS analysis". Do not trigger for campaign planning or creative generation
+  without performance data.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/ad-campaign-analyzer
+  repository: https://github.com/github/awesome-copilot

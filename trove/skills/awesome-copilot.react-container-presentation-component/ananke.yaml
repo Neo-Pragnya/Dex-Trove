@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: react-container-presentation-component
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:react-container-presentation-component
+summary: Create a React component using the Container/Presentation pattern in src/components by asking for the component
+  name and type (ui or features), then scaffold files that follow this repository's TypeSc…
+description: Create a React component using the Container/Presentation pattern in src/components by asking for the
+  component name and type (ui or features), then scaffold files that follow this repository's TypeScript, Storybook,
+  and SCSS conventions. Use when the user explicitly asks for a Container/Presentation-based component or runs /react-container-presentation-component.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react-container-presentation-component
+  repository: https://github.com/github/awesome-copilot

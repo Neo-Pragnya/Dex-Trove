@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/copilot-sdk-csharp",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "copilot-sdk-csharp",
+  "title": "GitHub Copilot SDK C# Instructions",
+  "description": "This file provides guidance on building C# applications using GitHub Copilot SDK.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "copilot-sdk-csharp.instructions.md",
+  "dir": "instructions/awesome-copilot.copilot-sdk-csharp",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/copilot-sdk-csharp.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/copilot-sdk-csharp.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "copilot-sdk-csharp.instructions.md"
+  ],
+  "entry_hash": "abc8d011808490bb1c5900c0a99b580dbc393838f942bf494d6f26684b5f1770",
+  "content_hash": "5b162c567bb23768ec8544d950b5debd54d4f0e22180ba8786720aadd5f1abf5",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**.cs, **.csproj"
+}

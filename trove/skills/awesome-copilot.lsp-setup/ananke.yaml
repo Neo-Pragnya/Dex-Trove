@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: lsp-setup
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:lsp-setup
+summary: Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming language
+  by installing and configuring an LSP server for Copilot CLI.
+description: Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming
+  language by installing and configuring an LSP server for Copilot CLI. Detects the OS, installs the right server,
+  and generates the JSON configuration (user-level or repo-level). Use when you need deeper code understanding and
+  no LSP server is configured, or when the user asks to set up, install, or configure an LSP server.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/lsp-setup
+  repository: https://github.com/github/awesome-copilot

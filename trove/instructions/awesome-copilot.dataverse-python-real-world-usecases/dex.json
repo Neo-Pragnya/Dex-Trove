@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/dataverse-python-real-world-usecases",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dataverse-python-real-world-usecases",
+  "title": "Dataverse SDK for Python — Real-World Use Cases & Templates",
+  "description": "# Dataverse SDK for Python — Real-World Use Cases & Templates Based on official Dataverse data migration and integration patterns. ## 1.",
+  "tags": [
+    "ananke-secret-flag",
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dataverse-python-real-world-usecases.instructions.md",
+  "dir": "instructions/awesome-copilot.dataverse-python-real-world-usecases",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dataverse-python-real-world-usecases.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-real-world-usecases.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dataverse-python-real-world-usecases.instructions.md"
+  ],
+  "entry_hash": "c44443721919de104b237857fd6e822167ec9df25b274a933561f7f5a850a7ec",
+  "content_hash": "f33e69bf2896a56224a55d01d8fdc35cd42a4ab37df6295b82978408465c9969",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "secret_flags": [
+    "generic-credential dataverse-python-real-world-usecases.instructions.md:289"
+  ],
+  "apply_to": "**"
+}

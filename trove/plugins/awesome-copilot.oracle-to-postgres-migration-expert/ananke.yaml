@@ -1,0 +1,58 @@
+kind: bundle
+namespace: awesome-copilot
+name: oracle-to-postgres-migration-expert
+version: 1.1.3
+ananke_id: urn:dex-trove:plugin:awesome-copilot:oracle-to-postgres-migration-expert
+summary: Expert agent for Oracle-to-PostgreSQL application migrations in .NET solutions. Performs code edits, runs
+  commands, and invokes extension tools to migrate .NET/Oracle data access patterns to PostgreSQ…
+description: Expert agent for Oracle-to-PostgreSQL application migrations in .NET solutions. Performs code edits,
+  runs commands, and invokes extension tools to migrate .NET/Oracle data access patterns to PostgreSQL.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/creating-oracle-to-postgres-master-migration-plan
+  version: '*'
+- ref: ananke://skill/awesome-copilot/creating-oracle-to-postgres-migration-bug-report
+  version: '*'
+- ref: ananke://skill/awesome-copilot/creating-oracle-to-postgres-migration-integration-tests
+  version: '*'
+- ref: ananke://skill/awesome-copilot/migrating-oracle-to-postgres-data-access-code
+  version: '*'
+- ref: ananke://skill/awesome-copilot/migrating-oracle-to-postgres-stored-procedures
+  version: '*'
+- ref: ananke://skill/awesome-copilot/planning-oracle-to-postgres-migration-integration-testing
+  version: '*'
+- ref: ananke://skill/awesome-copilot/reviewing-oracle-to-postgres-migration
+  version: '*'
+- ref: ananke://skill/awesome-copilot/scaffolding-oracle-to-postgres-migration-test-project
+  version: '*'
+- ref: ananke://agent/awesome-copilot/oracle-to-postgres-migration-expert
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - database-migration
+  - dotnet
+  - integration-testing
+  - migration
+  - oracle
+  - plugin
+  - postgresql
+  - sql
+  - stored-procedures
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/oracle-to-postgres-migration-expert
+  repository: https://github.com/github/awesome-copilot

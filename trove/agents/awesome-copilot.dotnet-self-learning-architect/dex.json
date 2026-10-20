@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/dotnet-self-learning-architect",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "dotnet-self-learning-architect",
+  "title": ".NET Self-Learning Architect",
+  "description": "Senior .NET architect for complex delivery: designs .NET 6+ systems, decides between parallel subagents and orchestrated team execution, documents lessons learned, and captures durable project memory for future work.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "dotnet-self-learning-architect.agent.md",
+  "dir": "agents/awesome-copilot.dotnet-self-learning-architect",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/dotnet-self-learning-architect.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/dotnet-self-learning-architect.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dotnet-self-learning-architect.agent.md"
+  ],
+  "entry_hash": "adf946600cbf4cb3c28b64cce7f976f704f96f4d994325ddbc9e5f346bccd7a3",
+  "content_hash": "80318d9da17e964786ab786a2d929bfa4f57cac1195b9a9ca3a4acfc740b34fd",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

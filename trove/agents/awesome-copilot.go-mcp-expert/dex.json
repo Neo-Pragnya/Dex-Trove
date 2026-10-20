@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/go-mcp-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "go-mcp-expert",
+  "title": "Go MCP Server Development Expert",
+  "description": "Expert assistant for building Model Context Protocol (MCP) servers in Go using the official SDK.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "go-mcp-expert.agent.md",
+  "dir": "agents/awesome-copilot.go-mcp-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/go-mcp-expert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/go-mcp-expert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "go-mcp-expert.agent.md"
+  ],
+  "entry_hash": "485d6fb6ba3413ccebc0f6d188b582543c0fdb58943ce26168f25deee545084b",
+  "content_hash": "a75c16b67018f9ceb41f3faa5268df02d82e1eea4f21b0da77a612577a89f4f6",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

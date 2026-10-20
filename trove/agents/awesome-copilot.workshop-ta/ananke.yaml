@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: workshop-ta
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:workshop-ta
+summary: Room coordinator for a multi-agent workshop. Sees all desks, routes work, tracks state, manages journals,
+  and emits coordination signals. Not a desk — the person who sees the whole room.
+description: Room coordinator for a multi-agent workshop. Sees all desks, routes work, tracks state, manages journals,
+  and emits coordination signals. Not a desk — the person who sees the whole room.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: workshop-ta.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/workshop-ta.agent.md
+  repository: https://github.com/github/awesome-copilot

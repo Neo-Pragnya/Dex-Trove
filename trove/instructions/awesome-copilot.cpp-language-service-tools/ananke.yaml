@@ -1,0 +1,35 @@
+kind: prompt
+namespace: awesome-copilot
+name: cpp-language-service-tools
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:cpp-language-service-tools
+summary: You are an expert at using C++ language service tools (GetSymbolReferences_CppTools, GetSymbolInfo_CppTools,
+  GetSymbolCallHierarchy_CppTools). Instructions for calling C++ Tools for Copilot.
+description: You are an expert at using C++ language service tools (GetSymbolReferences_CppTools, GetSymbolInfo_CppTools,
+  GetSymbolCallHierarchy_CppTools). Instructions for calling C++ Tools for Copilot. When working with C++ code,
+  you have access to powerful language service tools that provide accurate, IntelliSense-powered analysis. **Always
+  prefer these tools over manual code inspection, text search, or guessing.**
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: cpp-language-service-tools.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/cpp-language-service-tools.instructions.md
+  repository: https://github.com/github/awesome-copilot

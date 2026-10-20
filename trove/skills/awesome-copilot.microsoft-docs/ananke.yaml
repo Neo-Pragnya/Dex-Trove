@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: microsoft-docs
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:microsoft-docs
+summary: Query official Microsoft documentation to find concepts, tutorials, and code examples across Azure, .NET,
+  Agent Framework, Aspire, VS Code, GitHub, and more.
+description: Query official Microsoft documentation to find concepts, tutorials, and code examples across Azure,
+  .NET, Agent Framework, Aspire, VS Code, GitHub, and more. Uses Microsoft Learn MCP as the default, with Context7
+  and Aspire MCP for content that lives outside learn.microsoft.com.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/microsoft-docs
+  repository: https://github.com/github/awesome-copilot

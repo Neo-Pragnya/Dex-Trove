@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/chrome-devtools",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "chrome-devtools",
+  "title": "Chrome DevTools Agent",
+  "description": "Expert-level browser automation, debugging, and performance analysis using Chrome DevTools MCP. Use for interacting with web pages, capturing screenshots, analyzing network traffic, and profiling performance.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.chrome-devtools",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/chrome-devtools",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/chrome-devtools",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e85ec55f68317923033375f00b431e9d5822283ea4bfad967f5fa7cbc61e6265",
+  "content_hash": "6ead908e9bfafd535bdd256b489e31f28a7bf8f174fbf8768b77cc8de45efb11",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

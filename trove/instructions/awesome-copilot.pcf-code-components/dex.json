@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/pcf-code-components",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "pcf-code-components",
+  "title": "Code Components",
+  "description": "Understanding code components structure and implementation",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "pcf-code-components.instructions.md",
+  "dir": "instructions/awesome-copilot.pcf-code-components",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/pcf-code-components.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/pcf-code-components.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pcf-code-components.instructions.md"
+  ],
+  "entry_hash": "a5e126fdc293d9c94fbd3e940b83a0a1649888eb80018c571bc18998709db42c",
+  "content_hash": "761e1d57743399e7689ff636ae9e4fa2f719101b66fb4f86eea198bf5f753b70",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+}

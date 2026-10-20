@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/gdpr-compliant",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "gdpr-compliant",
+  "title": "GDPR Engineering Skill",
+  "description": "Apply GDPR-compliant engineering practices across your codebase. Use this skill whenever you are designing APIs, writing data models, building authentication flows, implementing logging, handling user data, writing retention/deletion jobs, designing cloud infrastructure, or reviewing pull requests for privacy compliance. Trigger this skill for any task involving personal data, user accounts, cookies, analytics, emails, audit logs, encryption, pseudonymization, anonymization, data exports, breach response, CI/CD pipelines that process real data, or any question framed as \"is this GDPR-compliant?\". Inspired by CNIL developer guidance and GDPR Articles 5, 25, 32, 33, 35.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.gdpr-compliant",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/gdpr-compliant",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gdpr-compliant",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/Security.md",
+    "references/data-rights.md"
+  ],
+  "entry_hash": "e1f33a817a1d0f7165f4f6652cfeb52632ba124067c3f46c37f867cde730242e",
+  "content_hash": "222685dd4c37fe7f131fbe37822988eaad3223e6ff1089adcf880c5a87054712",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

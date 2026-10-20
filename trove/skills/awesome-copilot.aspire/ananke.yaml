@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: aspire
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:aspire
+summary: Aspire skill covering the Aspire CLI, AppHost orchestration, service discovery, integrations, MCP server,
+  VS Code extension, Dev Containers, GitHub Codespaces, templates, dashboard, and deployment.
+description: Aspire skill covering the Aspire CLI, AppHost orchestration, service discovery, integrations, MCP server,
+  VS Code extension, Dev Containers, GitHub Codespaces, templates, dashboard, and deployment. Use when the user
+  asks to create, run, debug, configure, deploy, or troubleshoot an Aspire distributed application.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/aspire
+  repository: https://github.com/github/awesome-copilot

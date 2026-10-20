@@ -1,0 +1,35 @@
+kind: skill
+namespace: awesome-copilot
+name: threat-model-analyst
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:threat-model-analyst
+summary: Full STRIDE-A threat model analysis and incremental update skill for repositories and systems.
+description: 'Full STRIDE-A threat model analysis and incremental update skill for repositories and systems. Supports
+  two modes: (1) Single analysis — full STRIDE-A threat model of a repository, producing architecture overviews,
+  DFD diagrams, STRIDE-A analysis, prioritized findings, and executive assessments. (2) Incremental analysis — takes
+  a previous threat model report as baseline, compares the codebase at the latest (or a given commit), and produces
+  an updated report with change tracking (new, resolved, still-present threats), STRIDE heatmap, findings diff,
+  and an embedded HTML comparison. Only activate when the user explicitly requests a threat model analysis, incremental
+  update, or invokes /threat-model-analyst directly.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/threat-model-analyst
+  repository: https://github.com/github/awesome-copilot

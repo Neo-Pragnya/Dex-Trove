@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/dotnet-upgrade",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "dotnet-upgrade",
+  "title": ".NET Framework Upgrade Specialist",
+  "description": "Specialized agent for comprehensive .NET framework upgrades with progressive tracking and validation",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "dotnet-upgrade.instructions.md",
+  "dir": "instructions/awesome-copilot.dotnet-upgrade",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/dotnet-upgrade.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dotnet-upgrade.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dotnet-upgrade.instructions.md"
+  ],
+  "entry_hash": "62cc465bad649c0b245b5b0e4528c7ff0b1e417bd63d1561725405e2390e2458",
+  "content_hash": "7bb86996f7dbe5d8433e43908e670a416189f50ed54c43068c312644e722d8ea",
+  "learned_at": "2026-10-20T04:06:48+00:00"
+}

@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: python-mcp-server-generator
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:python-mcp-server-generator
+summary: Use this skill when the user wants to create a new Model Context Protocol (MCP) server in Python. Also
+  use it to expose Python functions, an API, or a database to AI clients as MCP tools.
+description: Use this skill when the user wants to create a new Model Context Protocol (MCP) server in Python. Also
+  use it to expose Python functions, an API, or a database to AI clients as MCP tools. The skill makes a uv project
+  with the MCP Python SDK v2 (MCPServer), typed tools, in-memory tests, and client configuration. Do not use it
+  for an MCP client or for a server in another language.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/python-mcp-server-generator
+  repository: https://github.com/github/awesome-copilot

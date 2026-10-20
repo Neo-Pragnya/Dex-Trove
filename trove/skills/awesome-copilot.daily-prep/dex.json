@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/daily-prep",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "daily-prep",
+  "title": "Daily Prep",
+  "description": "Prepare for tomorrow's meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and workspace context, classifies meetings, detects conflicts and day-fit issues, finds learning and deep-work slots, and generates a structured HTML prep file with productivity recommendations.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.daily-prep",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/daily-prep",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/daily-prep",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ea2800856b936cb83aed9b43f9c5e431ac2de436f8f00df546db4253ab4076f3",
+  "content_hash": "965c39b3d097fa0ddf2170f4e2bff0b58f257bca9a31813592ea07569acbf472",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

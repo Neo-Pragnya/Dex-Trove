@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/pcf-events",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "pcf-events",
+  "title": "Define Events (Preview)",
+  "description": "Define and handle custom events in PCF components",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "pcf-events.instructions.md",
+  "dir": "instructions/awesome-copilot.pcf-events",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/pcf-events.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/pcf-events.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pcf-events.instructions.md"
+  ],
+  "entry_hash": "16fad3198e3082b0348d5458241be66ebfaf6fae667e08ed4ca315be935324ec",
+  "content_hash": "00e4238069f61ddf4d0fcae7816c9a907164d3aafaa2e4e79f041bf0e5e29cfa",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.{ts,tsx,js,json,xml,pcfproj,csproj}"
+}

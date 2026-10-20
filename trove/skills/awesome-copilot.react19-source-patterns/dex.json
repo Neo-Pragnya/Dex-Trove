@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/react19-source-patterns",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "react19-source-patterns",
+  "title": "React 19 Source Migration Patterns",
+  "description": "Reference for React 19 source-file migration patterns, including API changes, ref handling, and context updates.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.react19-source-patterns",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/react19-source-patterns",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/react19-source-patterns",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api-migrations.md"
+  ],
+  "entry_hash": "cbbf1227b3f46f9b91c948c3846611a539496b363e4dc1bbd3faff2e913dff86",
+  "content_hash": "5859d35edb371f69c89dc6a9645fcb7158669879f5c62b11ef3e4a20df0e7ea8",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

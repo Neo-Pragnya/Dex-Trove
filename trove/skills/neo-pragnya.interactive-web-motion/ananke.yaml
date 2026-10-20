@@ -1,0 +1,31 @@
+kind: skill
+namespace: neo-pragnya
+name: interactive-web-motion
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya:interactive-web-motion
+summary: 'Add playful, modern, accessible interactions to a website or GitHub Pages docs site: SVG shapes that morph
+  on hover (circle → star → flower → blob), a cursor-reactive hero field of pastel shapes, text…'
+description: 'Add playful, modern, accessible interactions to a website or GitHub Pages docs site: SVG shapes that
+  morph on hover (circle → star → flower → blob), a cursor-reactive hero field of pastel shapes, text scramble,
+  blur-in scroll reveals, count-up stats, magnetic buttons, tilt + spotlight cards, marching-ants borders, marquees,
+  drifting aurora backgrounds and film grain, from one dependency-free motion-kit.js + motion-kit.css driven by
+  data attributes. Use whenever someone wants a site to feel alive, modern, fun or less static, wants hover animations,
+  morphing SVGs or effects like graphify.com, Stripe or Linear, asks for an animated hero, landing page polish,
+  micro-interactions, scroll animations or a pastel redesign, or wants to upgrade Astro/MkDocs/plain-HTML docs or
+  a GitHub Pages site visually, even if they don''t name a library.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: first-party default (sources.yaml)
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - neo-pragnya
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.interactive-web-motion
+  repository: https://github.com/Neo-Pragnya/Dex-Trove

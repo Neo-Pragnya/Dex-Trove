@@ -1,0 +1,56 @@
+{
+  "id": "awesome-copilot/threat-model-analyst",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "threat-model-analyst",
+  "title": "Threat Model Analyst",
+  "description": "Full STRIDE-A threat model analysis and incremental update skill for repositories and systems. Supports two modes: (1) Single analysis — full STRIDE-A threat model of a repository, producing architecture overviews, DFD diagrams, STRIDE-A analysis, prioritized findings, and executive assessments. (2) Incremental analysis — takes a previous threat model report as baseline, compares the codebase at the latest (or a given commit), and produces an updated report with change tracking (new, resolved, still-present threats), STRIDE heatmap, findings diff, and an embedded HTML comparison. Only activate when the user explicitly requests a threat model analysis, incremental update, or invokes /threat-model-analyst directly.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.threat-model-analyst",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/threat-model-analyst",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/threat-model-analyst",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/analysis-principles.md",
+    "references/diagram-conventions.md",
+    "references/incremental-orchestrator.md",
+    "references/orchestrator.md",
+    "references/output-formats.md",
+    "references/skeletons/skeleton-architecture.md",
+    "references/skeletons/skeleton-assessment.md",
+    "references/skeletons/skeleton-dfd.md",
+    "references/skeletons/skeleton-findings.md",
+    "references/skeletons/skeleton-incremental-html.md",
+    "references/skeletons/skeleton-inventory.md",
+    "references/skeletons/skeleton-stride-analysis.md",
+    "references/skeletons/skeleton-summary-dfd.md",
+    "references/skeletons/skeleton-threatmodel.md",
+    "references/tmt-element-taxonomy.md",
+    "references/verification-checklist.md"
+  ],
+  "entry_hash": "cdd72b75b224b20f006cb31602b0b68d0ea27c22a25c9a6458a2cf0b90a25fb3",
+  "content_hash": "1d6af2efab88f277ad4a9e59e141eb5ce04dd3841ab3a6e4262ad798b86ee1a3",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/mvvm-toolkit-di",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "mvvm-toolkit-di",
+  "title": "CommunityToolkit.Mvvm + `Microsoft.Extensions.DependencyInjection`",
+  "description": "Wire CommunityToolkit.Mvvm ViewModels into Microsoft.Extensions.DependencyInjection. Covers the .NET Generic Host composition root, constructor injection, service lifetimes (Singleton / Transient / Scoped), IMessenger registration, resolving ViewModels in Views, keyed services, testing seams, and the legacy Ioc.Default escape hatch. Use across WPF, WinUI 3, .NET MAUI, Uno, and Avalonia.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.mvvm-toolkit-di",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/mvvm-toolkit-di",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mvvm-toolkit-di",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/dependency-injection.md"
+  ],
+  "entry_hash": "1cb004175f6c732d684c78df2d6ad8fe7b597a503bc6f6fa031b41613da0b8d6",
+  "content_hash": "990f0c841b1be8ef115ffadd45ed40db6ccbe890575dd145184e7c8406a03319",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

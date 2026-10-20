@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/copilot-cli-quickstart",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "copilot-cli-quickstart",
+  "title": "🚀 Copilot CLI Quick Start — Your Friendly Terminal Tutor",
+  "description": "Use this skill when someone wants to learn GitHub Copilot CLI from scratch. Offers interactive step-by-step tutorials with separate Developer and Non-Developer tracks, plus on-demand Q&A. Just say \"start tutorial\" or ask a question! Note: This skill targets GitHub Copilot CLI specifically and uses CLI-specific tools (ask_user, sql, fetch_copilot_cli_documentation).",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.copilot-cli-quickstart",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/copilot-cli-quickstart",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/copilot-cli-quickstart",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "a7de35da1454e0858d443d681cc468ed109de6d33d9014e75556103895e64ff0",
+  "content_hash": "7382822db2e4620a6b014b6da96629dcd2c06fe029287251cb0988d4d6acf7fb",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

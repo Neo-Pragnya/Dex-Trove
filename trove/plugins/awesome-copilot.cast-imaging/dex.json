@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/cast-imaging",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "cast-imaging",
+  "title": "CAST Imaging Agents Plugin",
+  "description": "A comprehensive collection of specialized agents for software analysis, impact assessment, structural quality advisories, and architectural review using CAST Imaging.",
+  "tags": [
+    "architecture",
+    "awesome-copilot",
+    "cast-imaging",
+    "devops",
+    "impact-analysis",
+    "plugin",
+    "quality",
+    "software-analysis"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.cast-imaging",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/cast-imaging",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/cast-imaging",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "agent:awesome-copilot/cast-imaging-impact-analysis",
+    "agent:awesome-copilot/cast-imaging-software-discovery",
+    "agent:awesome-copilot/cast-imaging-structural-quality-advisor"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "ebd3d5fdc22918eae9612a2a51af0faa90b5bd1723bcefacd411f0b9b839dbdc",
+  "content_hash": "c981c344f20f056074ae6481e6b9ac31f49e7ff5b6df1c72f36858be72cd2808",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

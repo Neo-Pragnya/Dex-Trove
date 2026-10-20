@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/mentor",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "mentor",
+  "title": "Mentor mode",
+  "description": "Help mentor the engineer by providing guidance and support.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "mentor.agent.md",
+  "dir": "agents/awesome-copilot.mentor",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/mentor.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/mentor.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mentor.agent.md"
+  ],
+  "entry_hash": "34c703d0d51283cd5146fb9842794e7f6671d8909f169bb1124e4db5603893ba",
+  "content_hash": "f297683df7e34c8b5041df06b057412417418606b42a4ee5b9e40e10d0243df9",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

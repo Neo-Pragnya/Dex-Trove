@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: web-design-reviewer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:web-design-reviewer
+summary: This skill enables visual inspection of websites running locally or remotely to identify and fix design
+  issues.
+description: This skill enables visual inspection of websites running locally or remotely to identify and fix design
+  issues. Triggers on requests like "review website design", "check the UI", "fix the layout", "find design problems".
+  Detects issues with responsive design, accessibility, visual consistency, and layout breakage, then performs fixes
+  at the source code level.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/web-design-reviewer
+  repository: https://github.com/github/awesome-copilot

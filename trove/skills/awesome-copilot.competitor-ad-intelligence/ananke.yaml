@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: competitor-ad-intelligence
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:competitor-ad-intelligence
+summary: Use this skill when the user asks to analyze, tear down, or reverse-engineer a competitor's paid ads.
+description: Use this skill when the user asks to analyze, tear down, or reverse-engineer a competitor's paid ads.
+  Trigger for prompts like "what ads is [competitor] running", "tear down their ad strategy", "competitor ad analysis",
+  "find ad angles we haven't tried", or "reverse-engineer their paid funnel". Do not trigger for organic/SEO competitor
+  research or website positioning analysis.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/competitor-ad-intelligence
+  repository: https://github.com/github/awesome-copilot

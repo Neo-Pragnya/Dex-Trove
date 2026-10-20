@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/mcp-create-declarative-agent",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "mcp-create-declarative-agent",
+  "title": "Create MCP-based Declarative Agent for Microsoft 365 Copilot",
+  "description": "Skill converted from mcp-create-declarative-agent.prompt.md",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.mcp-create-declarative-agent",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/mcp-create-declarative-agent",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mcp-create-declarative-agent",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "8aa6694de0da94ea8e1231555cca446d50a1c4553c898e7382e04b30120a2820",
+  "content_hash": "8be5bbdcd3ba8fe01168f9113932a16f652c7056ade2966f6de5954ebc1c5563",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

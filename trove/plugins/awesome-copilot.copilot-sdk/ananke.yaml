@@ -1,0 +1,42 @@
+kind: bundle
+namespace: awesome-copilot
+name: copilot-sdk
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:copilot-sdk
+summary: Build applications with the GitHub Copilot SDK across multiple programming languages.
+description: Build applications with the GitHub Copilot SDK across multiple programming languages. Includes comprehensive
+  instructions for C#, Go, Node.js/TypeScript, and Python to help you create AI-powered applications.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/copilot-sdk
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - ai
+  - awesome-copilot
+  - copilot-sdk
+  - csharp
+  - github-copilot
+  - go
+  - nodejs
+  - plugin
+  - python
+  - sdk
+  - typescript
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/copilot-sdk
+  repository: https://github.com/github/awesome-copilot

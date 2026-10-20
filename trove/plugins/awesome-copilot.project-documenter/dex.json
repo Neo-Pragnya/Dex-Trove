@@ -1,0 +1,54 @@
+{
+  "id": "awesome-copilot/project-documenter",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "project-documenter",
+  "title": "Project Documenter Plugin",
+  "description": "Generate professional project documentation with draw.io architecture diagrams and Word (.docx) output with embedded images. Automatically discovers any project's technology stack and produces Markdown, diagrams, PNG exports, and a formatted Word document.",
+  "tags": [
+    "architecture-diagrams",
+    "auto-discovery",
+    "awesome-copilot",
+    "c4-model",
+    "documentation",
+    "docx",
+    "drawio",
+    "plugin",
+    "png-images",
+    "project-summary",
+    "word-document"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.project-documenter",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/project-documenter",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/project-documenter",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/drawio",
+    "skill:awesome-copilot/md-to-docx",
+    "agent:awesome-copilot/project-documenter"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "47c6b2ce314a3ec504374b7d7b74a411671b67d7fd19c045ff82826289f3b561",
+  "content_hash": "a6f96cfeb5573956f93676eb291224a59b86663f0bf6cc5e2f67efd73b38d0b9",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

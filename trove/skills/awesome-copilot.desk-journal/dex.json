@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/desk-journal",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "desk-journal",
+  "title": "Desk Journal",
+  "description": "Write, append, or read desk journal entries. The journal is persistent memory — what survives session boundaries. A good entry has: what was done, current state, next step.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.desk-journal",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/desk-journal",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/desk-journal",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9c25843ca8f39e75dcae595af5cd3993db8c6e6b01999d06e9d6738d0e8712f3",
+  "content_hash": "41ad8073e0ab8668023ab146d9693bc1a0447a6cf055e04c15da03747ee2086b",
+  "learned_at": "2026-10-20T03:28:52+00:00"
+}

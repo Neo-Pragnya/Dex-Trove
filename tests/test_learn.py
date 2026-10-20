@@ -1,0 +1,150 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import pytest
+import yaml
+
+from dex_trove import catalog, learn
+from dex_trove.sources import Source
+
+
+def run(trove: Path, source: Source, upstream: Path, commit: str = "abc123") -> learn.SourceResult:
+    result = learn.Learner(trove).learn(source, upstream, commit, {source.id: 0})
+    learn.finalize(trove, [result], [source])
+    return result
+
+
+def by_id(trove: Path) -> dict[str, dict]:
+    return {f"{i['kind']}:{i['name']}": i for i in catalog.load(trove)}
+
+
+def test_admission_rules(trove: Path, source: Source, upstream: Path) -> None:
+    result = run(trove, source, upstream)
+    items = by_id(trove)
+    reasons = {e.name: e.reason for e in result.excluded}
+
+    assert reasons["closed"] == "license-denied"
+    assert reasons["leaky"] == "secret"
+    assert reasons["canvas"] == "out-of-scope"
+    assert {"skill:alpha", "skill:apache-declared", "skill:see-file", "skill:fonts", "skill:runner"} <= set(
+        items
+    )
+    assert items["skill:see-file"]["license"]["spdx"] == "MIT"
+    assert items["skill:fonts"]["license"]["components"] == ["OFL-1.1"]
+    assert items["skill:runner"]["executes_code"] is True
+    assert "ananke-secret-flag" in items["skill:teaching"]["tags"]
+    assert items["instruction:py"]["apply_to"] == "**/*.py"
+    assert (
+        items["agent:helper"]["source"]["url"]
+        == "https://github.com/example/up/blob/abc123/agents/Helper.agent.md"
+    )
+
+
+def test_licence_text_travels_with_item(trove: Path, source: Source, upstream: Path) -> None:
+    run(trove, source, upstream)
+    alpha = trove / "skills" / "up.alpha"
+    assert "Permission is hereby granted" in (alpha / "LICENSE.upstream").read_text()
+    declared = trove / "skills" / "up.apache-declared" / "LICENSE.upstream"
+    assert "Apache License" in declared.read_text()  # canonical text when upstream only declares it
+
+
+def test_upstream_bytes_unmodified(trove: Path, source: Source, upstream: Path) -> None:
+    run(trove, source, upstream)
+    assert (trove / "skills/up.alpha/SKILL.md").read_bytes() == (
+        upstream / "skills/alpha/SKILL.md"
+    ).read_bytes()
+
+
+def test_plugin_becomes_bundle_without_excluded_members(trove: Path, source: Source, upstream: Path) -> None:
+    run(trove, source, upstream)
+    kit = by_id(trove)["plugin:kit"]
+    assert kit["version"] == "2.1.0"
+    assert kit["members"] == ["skill:up/alpha", "agent:up/helper"]
+    manifest = yaml.safe_load((trove / kit["dir"] / "ananke.yaml").read_text())
+    assert manifest["kind"] == "bundle"
+    assert [m["ref"] for m in manifest["members"]] == ["ananke://skill/up/alpha", "ananke://agent/up/helper"]
+
+
+def test_versions_bump_only_on_change_and_removals(trove: Path, source: Source, upstream: Path) -> None:
+    run(trove, source, upstream)
+    assert by_id(trove)["skill:alpha"]["version"] == "1.0.0"
+    run(trove, source, upstream)
+    assert by_id(trove)["skill:alpha"]["version"] == "1.0.0"
+    (upstream / "skills/alpha/SKILL.md").write_text("---\nname: alpha\ndescription: 'changed'\n---\nNew.\n")
+    result = run(trove, source, upstream)
+    assert by_id(trove)["skill:alpha"]["version"] == "1.0.1"
+    import shutil
+
+    shutil.rmtree(upstream / "skills" / "runner")
+    result = run(trove, source, upstream)
+    assert "skill:up/runner" in result.removed
+    assert not (trove / "skills" / "up.runner").exists()
+
+
+def test_duplicates_prefer_higher_priority_source(
+    trove: Path, source: Source, upstream: Path, tmp_path: Path
+) -> None:
+    run(trove, source, upstream)
+    mirror = tmp_path / "mirror"
+    (mirror / "skills").mkdir(parents=True)
+    (mirror / "LICENSE").write_text((upstream / "LICENSE").read_text())
+    import shutil
+
+    shutil.copytree(upstream / "skills" / "alpha", mirror / "skills" / "alpha")
+    second = Source(
+        id="mirror", title="Mirror", adapter="agent-skills", priority=1, options={"roots": ["skills"]}
+    )
+    result = learn.Learner(trove).learn(second, mirror, None, {"up": 0, "mirror": 1})
+    assert [e.reason for e in result.excluded] == ["duplicate"]
+
+
+def test_manifests_are_valid_for_ananke(trove: Path, source: Source, upstream: Path) -> None:
+    models = pytest.importorskip("ananke.plexus.registry.models")
+    run(trove, source, upstream)
+    for item in catalog.load(trove):
+        manifest = yaml.safe_load((trove / item["dir"] / "ananke.yaml").read_text())
+        models.ArtifactManifest.model_validate(manifest)
+
+
+def test_validate_detects_drift(trove: Path, source: Source, upstream: Path) -> None:
+    from dex_trove.validate import validate
+
+    run(trove, source, upstream)
+    assert validate(trove) == []
+    (trove / "skills/up.alpha/SKILL.md").write_text("tampered")
+    assert any("drifted" in p for p in validate(trove))
+
+
+def test_slugify() -> None:
+    assert learn.slugify("CSharpExpert") == "csharp-expert"
+    assert learn.slugify("microsoft_learn_contributor") == "microsoft-learn-contributor"
+    assert learn.slugify("  Weird Name!! ") == "weird-name"
+    assert json.dumps(learn.slugify("x" * 100)).count("x") == 64
+
+
+def test_dexignore_hides_items_without_trace(
+    trove: Path, source: Source, upstream: Path, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    (upstream / ".dexignore").write_text("# private\nalpha\nagents/Helper*\n")
+    user_cfg = tmp_path / "user-ignore"
+    user_cfg.write_text("up:runner\nother-source:fonts\n")
+    monkeypatch.setenv("DEX_TROVE_IGNORE", str(user_cfg))
+    result = run(trove, source, upstream)
+    items = by_id(trove)
+    assert result.ignored == 3  # alpha + helper (source file) + runner (user file, scoped to "up")
+    assert "skill:alpha" not in items and "agent:helper" not in items and "skill:runner" not in items
+    assert "skill:fonts" in items  # scoped to another source → not ignored here
+    recorded = (trove / "EXCLUDED.json").read_text() + (trove / "trove.lock.json").read_text()
+    assert "alpha" not in recorded and "runner" not in recorded
+    # kit's remaining member (alpha) is ignored and closed is denied → no admissible members → out-of-scope
+    assert "plugin:kit" not in items
+
+
+def test_ignore_patterns_unit(tmp_path: Path) -> None:
+    from dex_trove import ignore
+
+    assert ignore.is_ignored(["Chosen"], "skills/some-dir", ["some-*"])
+    assert ignore.is_ignored(["x"], "skills/x", ["skills/*"])
+    assert not ignore.is_ignored(["x"], "skills/x", [])

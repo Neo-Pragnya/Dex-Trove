@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/intellij-java-kotlin",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "intellij-java-kotlin",
+  "title": "IntelliJ IDEA Java and Kotlin Development",
+  "description": "Guidance for Java and Kotlin development in IntelliJ IDEA with portable Gradle/Maven builds, safe IDE workflows, and CI-aligned validation.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "intellij-java-kotlin.instructions.md",
+  "dir": "instructions/awesome-copilot.intellij-java-kotlin",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/intellij-java-kotlin.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/intellij-java-kotlin.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "intellij-java-kotlin.instructions.md"
+  ],
+  "entry_hash": "576d86a256bd45b83a9318deb25a2bdddbe5510126f5aea0acb584f6aa5ddcb6",
+  "content_hash": "5f104adc1de83e83c1f9a4f715af71a9c6c8cf34aa558032ad5547c716aa85c6",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.java, **/*.kt, **/*.kts, **/*.gradle, **/gradle.properties, **/gradle/*.versions.toml, **/gradle/wrapper/gradle-wrapper.properties, **/gradlew, **/gradlew.bat, **/pom.xml, **/.mvn/**, **/mvnw, **/mvnw.cmd, **/.idea/**, **/*.iml, **/.run/*.run.xml"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/elasticsearch-observability",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "elasticsearch-observability",
+  "title": "elasticsearch-agent",
+  "description": "Our expert AI assistant for debugging code (O11y), optimizing vector search (RAG), and remediating security threats using live Elastic data.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "elasticsearch-observability.agent.md",
+  "dir": "agents/awesome-copilot.elasticsearch-observability",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/elasticsearch-observability.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/elasticsearch-observability.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "elasticsearch-observability.agent.md"
+  ],
+  "entry_hash": "a8d2a0d2f549b6b34b7c5a2ad01507e4f4086d434bd0c65b897f323a5e3b3326",
+  "content_hash": "5ba9999b5c63d72a8611e225265749dd6fe029353fc88388f3196acb899d6372",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

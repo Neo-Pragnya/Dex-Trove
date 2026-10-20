@@ -1,0 +1,54 @@
+{
+  "id": "awesome-copilot/the-workshop",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "the-workshop",
+  "title": "The Workshop",
+  "description": "Stop being the switchboard between your AI agents — direct a team. The Workshop puts long-running AI agents (desks) in the same room, on the same work, each with its own memory and history, sharing one workspace so you direct the work instead of relaying it.",
+  "tags": [
+    "agent-signals",
+    "awesome-copilot",
+    "coordination",
+    "desks",
+    "developer-experience",
+    "multi-agent",
+    "persistent-memory",
+    "plugin"
+  ],
+  "version": "0.1.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.the-workshop",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/the-workshop",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/the-workshop",
+    "author": "jennyf19"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/bench-read",
+    "skill:awesome-copilot/desk-journal",
+    "skill:awesome-copilot/desk-open",
+    "skill:awesome-copilot/signal-write",
+    "skill:awesome-copilot/workshop-create",
+    "agent:awesome-copilot/workshop-ta"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "d714c120f7610b9b632ef8b44c97bd5e7152bd47e144ebb7a03468ca09dfd7ab",
+  "content_hash": "c01513fc246bace33a2f4dd60bd7e69816b9a95cb3e98c40265a1dfd65a15cb1",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/convert-jpa-to-spring-data-cosmos",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "convert-jpa-to-spring-data-cosmos",
+  "title": "Convert Spring JPA project to Spring Data Cosmos",
+  "description": "Step-by-step guide for converting Spring Boot JPA applications to use Azure Cosmos DB with Spring Data Cosmos",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "convert-jpa-to-spring-data-cosmos.instructions.md",
+  "dir": "instructions/awesome-copilot.convert-jpa-to-spring-data-cosmos",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/convert-jpa-to-spring-data-cosmos.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/convert-jpa-to-spring-data-cosmos.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "convert-jpa-to-spring-data-cosmos.instructions.md"
+  ],
+  "entry_hash": "aafb23b2cb2fcedc30963b88b85ca720923e63ae5cbfb359ffc670447b3e9946",
+  "content_hash": "0f5d382d4e9ee623b4f1a0f94d84f0f4ee11d246db550ad4e6db6489c61479a4",
+  "learned_at": "2026-10-20T03:28:57+00:00",
+  "apply_to": "**/*.java,**/pom.xml,**/build.gradle,**/application*.properties"
+}

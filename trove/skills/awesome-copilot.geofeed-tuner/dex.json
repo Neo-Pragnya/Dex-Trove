@@ -1,0 +1,47 @@
+{
+  "id": "awesome-copilot/geofeed-tuner",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "geofeed-tuner",
+  "title": "Geofeed Tuner – Create Better IP Geolocation Feeds",
+  "description": "Use this skill whenever the user mentions IP geolocation feeds, RFC 8805, geofeeds, or wants help creating, tuning, validating, or publishing a self-published IP geolocation feed in CSV format. Intended user audience is a network operator, ISP, mobile carrier, cloud provider, hosting company, IXP, or satellite provider asking about IP geolocation accuracy, or geofeed authoring best practices. Helps create, refine, and improve CSV-format IP geolocation feeds with opinionated recommendations beyond RFC 8805 compliance. Do NOT use for private or internal IP address management — applies only to publicly routable IP addresses.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.geofeed-tuner",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/geofeed-tuner",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/geofeed-tuner",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/example/01-user-input-rfc8805-feed.csv",
+    "assets/iso3166-1.json",
+    "assets/iso3166-2.json",
+    "assets/small-territories.json",
+    "references/rfc8805.txt",
+    "references/snippets-python3.md",
+    "scripts/templates/index.html"
+  ],
+  "entry_hash": "60ba0fc27995b7def1b76599878ac1ad1dc5896b09bf099a1428348cf8a72bcf",
+  "content_hash": "d0095dd0dd362dff17a66a7198ad6db51628f2a495afd87f11794e71ec2c6d2f",
+  "learned_at": "2026-10-20T03:28:53+00:00"
+}

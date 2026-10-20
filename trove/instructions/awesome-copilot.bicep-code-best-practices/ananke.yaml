@@ -1,0 +1,31 @@
+kind: prompt
+namespace: awesome-copilot
+name: bicep-code-best-practices
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:bicep-code-best-practices
+summary: Infrastructure as Code with Bicep
+description: Infrastructure as Code with Bicep
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: bicep-code-best-practices.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/bicep-code-best-practices.instructions.md
+  repository: https://github.com/github/awesome-copilot

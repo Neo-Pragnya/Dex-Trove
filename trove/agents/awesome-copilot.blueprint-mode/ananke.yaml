@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: blueprint-mode
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:blueprint-mode
+summary: Executes structured workflows (Debug, Express, Main, Loop) with strict correctness and maintainability.
+description: Executes structured workflows (Debug, Express, Main, Loop) with strict correctness and maintainability.
+  Enforces an improved tool usage policy, never assumes facts, prioritizes reproducible solutions, self-correction,
+  and edge-case handling.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: blueprint-mode.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/blueprint-mode.agent.md
+  repository: https://github.com/github/awesome-copilot

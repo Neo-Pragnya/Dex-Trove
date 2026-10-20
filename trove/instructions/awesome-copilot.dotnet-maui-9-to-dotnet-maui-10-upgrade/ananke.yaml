@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: dotnet-maui-9-to-dotnet-maui-10-upgrade
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:dotnet-maui-9-to-dotnet-maui-10-upgrade
+summary: Instructions for upgrading .NET MAUI applications from version 9 to version 10, including breaking changes,
+  deprecated APIs, and migration strategies for ListView to CollectionView.
+description: Instructions for upgrading .NET MAUI applications from version 9 to version 10, including breaking
+  changes, deprecated APIs, and migration strategies for ListView to CollectionView.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dotnet-maui-9-to-dotnet-maui-10-upgrade.instructions.md
+  repository: https://github.com/github/awesome-copilot

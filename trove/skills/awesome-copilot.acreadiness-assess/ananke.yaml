@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: acreadiness-assess
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:acreadiness-assess
+summary: Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html.
+description: Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard
+  at reports/index.html. Wraps `npx github:microsoft/agentrc readiness` and hands off rendering to the @ai-readiness-reporter
+  custom agent. Supports policies (--policy) for org-specific scoring. Use when asked to assess, audit, or score
+  the AI readiness of a repo.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/acreadiness-assess
+  repository: https://github.com/github/awesome-copilot

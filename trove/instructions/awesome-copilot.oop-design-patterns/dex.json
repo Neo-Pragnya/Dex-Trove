@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/oop-design-patterns",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "oop-design-patterns",
+  "title": "Design Patterns for Object-Oriented Programming for Clean Code",
+  "description": "Best practices for applying Object-Oriented Programming (OOP) design patterns, including Gang of Four (GoF) patterns and SOLID principles, to ensure clean, maintainable, and scalable code.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "oop-design-patterns.instructions.md",
+  "dir": "instructions/awesome-copilot.oop-design-patterns",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/oop-design-patterns.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/oop-design-patterns.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "oop-design-patterns.instructions.md"
+  ],
+  "entry_hash": "1c80401f806371b6227754b4dc6bf2f0b90065f5837981f37b9cc6297fc77b4a",
+  "content_hash": "c7811f739671df918843f005b5d1ae787eae6e4e31cf991925a6626fd64e4215",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**/*.py, **/*.java, **/*.ts, **/*.js, **/*.cs"
+}

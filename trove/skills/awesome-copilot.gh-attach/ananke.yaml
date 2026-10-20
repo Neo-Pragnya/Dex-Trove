@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: gh-attach
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:gh-attach
+summary: Uploads a local file (screenshot, image, PDF, zip, video) to GitHub user-attachments, downloads GitHub
+  user-attachments, and embeds local files in a PR, issue, or comment.
+description: Uploads a local file (screenshot, image, PDF, zip, video) to GitHub user-attachments, downloads GitHub
+  user-attachments, and embeds local files in a PR, issue, or comment. Use when asked to "attach a screenshot to
+  the PR", "add an image to the issue", "embed before/after screenshots", "attach this file", or "download this
+  GitHub attachment". Powered by `gh-attach`.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/gh-attach
+  repository: https://github.com/github/awesome-copilot

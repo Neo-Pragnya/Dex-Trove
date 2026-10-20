@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Motion Kit Gallery</title>
+    <link rel="stylesheet" href="motion-kit.css" />
+    <style>
+      :root {
+        --bg: #fffaf0;
+        --ink: #1f1d2b;
+        --muted: #5b5870;
+        --line: #ece6d8;
+        --coral: #ff7a59;
+        --lemon: #ffd84d;
+        --lime: #b5e655;
+        --teal: #46d1c6;
+        --lilac: #a78bfa;
+        --sky: #7cc4ff;
+        --pink: #ff8fb1;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 ui-sans-serif, system-ui, sans-serif; }
+      main { max-width: 1100px; margin: 0 auto; padding: 0 16px 80px; }
+      .hero { position: relative; min-height: 420px; display: grid; place-items: center; text-align: center; overflow: hidden; border-radius: 28px; margin: 24px 0; background: #fff4e0; }
+      .hero > div { position: relative; z-index: 1; }
+      h1 { font-size: clamp(2rem, 6vw, 4rem); line-height: 1.05; margin: 0 0 12px; letter-spacing: -0.03em; }
+      h2 { margin: 48px 0 14px; }
+      p { color: var(--muted); }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+      .tile { display: grid; justify-items: center; gap: 6px; padding: 18px; border-radius: 18px; background: #fff; border: 1px solid var(--line); text-decoration: none; color: inherit; }
+      .tile svg { width: 72px; height: 72px; }
+      .tile code { font-size: 0.75rem; color: var(--muted); }
+      .btn { display: inline-flex; gap: 8px; align-items: center; padding: 12px 20px; border-radius: 999px; background: var(--ink); color: #fff; text-decoration: none; font-weight: 600; }
+      .btn.ghost { background: transparent; color: var(--ink); border: 2px solid var(--ink); }
+      .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+      .card { padding: 22px; border-radius: 20px; background-color: #fff; border: 1px solid var(--line); }
+      .stat { font-size: 2.6rem; font-weight: 800; }
+      .chip { padding: 6px 14px; border-radius: 999px; background: #fff; border: 1px solid var(--line); white-space: nowrap; }
+    </style>
+  </head>
+  <body class="mk-grain">
+    <main>
+      <section class="hero">
+        <div class="mk-aurora" style="--mk-aurora-a: var(--lemon); --mk-aurora-b: var(--teal)"></div>
+        <canvas data-field="40"></canvas>
+        <div>
+          <h1 data-scramble>Motion Kit</h1>
+          <p>Move your pointer through the shapes. Hover anything below.</p>
+          <a class="btn ants" data-magnetic href="#shapes" style="--mk-ants: var(--coral)">Explore shapes →</a>
+        </div>
+      </section>
+
+      <h2 id="shapes" data-reveal>Morphing shapes <small>(hover)</small></h2>
+      <div class="grid" id="shape-grid"></div>
+
+      <h2 data-reveal>Cycle on hover, auto-morph</h2>
+      <div class="grid">
+        <a class="tile" href="#"><svg viewBox="0 0 100 100" data-morph="circle star hex flower blob" style="color: var(--lilac)"></svg><code>circle star hex flower blob</code></a>
+        <div class="tile"><svg viewBox="0 0 100 100" data-morph="blob blob2 blob3" data-morph-auto="1800" style="color: var(--teal)"></svg><code>data-morph-auto</code></div>
+        <div class="tile"><svg viewBox="0 0 100 100" data-morph="spark gear star6" data-morph-auto="2200" style="color: var(--coral)"></svg><code>spark gear star6</code></div>
+      </div>
+
+      <h2 data-reveal>Tilt + spotlight cards, count-up</h2>
+      <div class="cards">
+        <div class="card" data-tilt data-reveal style="--d: 0s"><div class="stat" data-countup>968</div>items</div>
+        <div class="card" data-tilt data-reveal style="--d: 0.08s"><div class="stat" data-countup>466</div>skills</div>
+        <div class="card" data-tilt data-reveal style="--d: 0.16s"><div class="stat" data-countup>37</div>refused</div>
+      </div>
+
+      <h2 data-reveal>Marquee</h2>
+      <div data-marquee style="gap: 12px">
+        <div><span class="chip">awesome-copilot</span><span class="chip">anthropic</span><span class="chip">superpowers</span><span class="chip">neo-pragnya</span><span class="chip">huggingface</span><span class="chip">microsoft</span></div>
+        <div aria-hidden="true"><span class="chip">awesome-copilot</span><span class="chip">anthropic</span><span class="chip">superpowers</span><span class="chip">neo-pragnya</span><span class="chip">huggingface</span><span class="chip">microsoft</span></div>
+      </div>
+
+      <h2 data-reveal>Buttons</h2>
+      <p><a class="btn ants" data-magnetic href="#" style="--mk-ants: var(--teal)">Magnetic + ants</a> <a class="btn ghost ants" href="#" style="--mk-ants: var(--coral)"><span data-scramble>Scramble me</span></a></p>
+    </main>
+    <script src="motion-kit.js"></script>
+    <script>
+      const colors = ["--coral", "--lemon", "--lime", "--teal", "--lilac", "--sky", "--pink"];
+      const pairs = [
+        ["circle", "star"], ["squircle", "flower"], ["hex", "spark"], ["triangle", "circle"], ["blob", "star6"],
+        ["diamond", "flower4"], ["square", "squircle"], ["octagon", "gear"], ["blob2", "flower8"], ["cloud", "star4"],
+      ];
+      document.getElementById("shape-grid").innerHTML = pairs
+        .map(([a, b], i) => `<a class="tile" href="#"><svg viewBox="0 0 100 100" data-morph="${a}>${b}" style="color: var(${colors[i % colors.length]})"></svg><code>${a} → ${b}</code></a>`)
+        .join("");
+      MotionKit.init(document.getElementById("shape-grid"));
+    </script>
+  </body>
+</html>

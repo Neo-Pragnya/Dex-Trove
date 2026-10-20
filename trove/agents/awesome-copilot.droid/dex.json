@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/droid",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "droid",
+  "title": "droid",
+  "description": "Provides installation guidance, usage examples, and automation patterns for the Droid CLI, with emphasis on droid exec for CI/CD and non-interactive automation",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "droid.agent.md",
+  "dir": "agents/awesome-copilot.droid",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/droid.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/droid.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "droid.agent.md"
+  ],
+  "entry_hash": "a6aac08749eb0f405fff4d9e3a89e8db8252e2541740bcfce48b59c2066a6d96",
+  "content_hash": "665cdf06dc41a2b5ba21bd5e8fb2e58165055292c82fe8247a2830b3f62f6f2f",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

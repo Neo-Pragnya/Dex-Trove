@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/azure-role-selector",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "azure-role-selector",
+  "title": "azure-role-selector",
+  "description": "When user is asking for guidance for which role to assign to an identity given desired permissions, this agent helps them understand the role that will meet the requirements with least privilege access and how to apply that role.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.azure-role-selector",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/azure-role-selector",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/azure-role-selector",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "skills/azure-role-selector/LICENSE.txt: MIT text",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md"
+  ],
+  "entry_hash": "b4de898de0d72f258606efff41841bd31145db5ac18a57a7bd416450eaabe670",
+  "content_hash": "faa17fbe3d62f2cef3ccb243efa7e6d74b61894fdfe86d089faccd3db8f441c9",
+  "learned_at": "2026-10-20T03:28:50+00:00"
+}

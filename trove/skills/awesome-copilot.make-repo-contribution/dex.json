@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/make-repo-contribution",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "make-repo-contribution",
+  "title": "Contribution guidelines",
+  "description": "All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensure the right steps are followed. Whenever asked to create an issue, commit messages, to push code, or create a PR, use this skill so everything is done correctly.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.make-repo-contribution",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/make-repo-contribution",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/make-repo-contribution",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/issue-template.md",
+    "assets/pr-template.md"
+  ],
+  "entry_hash": "8452ae255064604f38942a920ff92bd05a6a4d5bcd0b94ad58b13b07d1abd1b7",
+  "content_hash": "13f8757c0f0623f5f044ac55fbb2ea3b17f38fb714afa60058eac618c7838e60",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

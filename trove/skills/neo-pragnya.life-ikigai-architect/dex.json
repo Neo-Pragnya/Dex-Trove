@@ -1,0 +1,58 @@
+{
+  "id": "neo-pragnya/life-ikigai-architect",
+  "kind": "skill",
+  "namespace": "neo-pragnya",
+  "name": "life-ikigai-architect",
+  "title": "Life Ikigai Architect",
+  "description": "Life Ikigai Architect: turn a person's reflections, journals, notes or purpose conversations into a personal Ikigai, vision, mission, values and roadmap, delivered as one self-explanatory, animated HTML presentation (interactive four-circle Ikigai Venn, six-dimension petals, archetype triad, vision-to-values cascade, five-function wheel, ecosystem with live flows, scoring heatmap, roadmaps with a moving comet, reflection prompts). Use whenever someone wants to find or articulate their Ikigai, life purpose, personal mission or vision statement, calling or vocation, dharma, life design or life architecture, a personal strategy or 90-day plan that ties meaning to money, or to choose between career paths or ventures by purpose. Also when they share a purpose or career conversation, a journal, or an Ikigai note and ask to make it visual, a deck, a vision board or presentation, or a skill for others to do the same, even if they don't say Ikigai.",
+  "tags": [
+    "executes-code",
+    "neo-pragnya",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya.life-ikigai-architect",
+  "source": {
+    "id": "neo-pragnya",
+    "title": "Neo Pragnya (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+    "commit": null,
+    "path": "life-ikigai-architect",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.life-ikigai-architect",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "first-party default (sources.yaml)",
+    "notice": "Copyright (c) Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [
+    {
+      "title": "Ikigai (Héctor García & Francesc Miralles)",
+      "url": "https://en.wikipedia.org/wiki/Ikigai"
+    }
+  ],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "assets/examples/maya_example.json",
+    "assets/examples/starter.json",
+    "references/frameworks.md",
+    "references/reflection-protocol.md",
+    "references/spec-reference.md",
+    "scripts/build_deck.py",
+    "scripts/ikigai_deck.py",
+    "scripts/snap.py"
+  ],
+  "entry_hash": "2dda8485fa9ee4274ca50c0feeef4a86bc79169871879c341a0a464c6a0ceb6e",
+  "content_hash": "f7a8f70808f0810cb207e09e2ae542e2e9d8c3008a74200ac0f8d10e13503aa4",
+  "learned_at": "2026-10-20T03:28:45+00:00",
+  "notes": [
+    "5 file(s) withheld by sources.yaml exclude globs (third-party terms)"
+  ]
+}

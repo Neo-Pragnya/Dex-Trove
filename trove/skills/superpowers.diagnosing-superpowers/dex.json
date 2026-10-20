@@ -1,0 +1,59 @@
+{
+  "id": "superpowers/diagnosing-superpowers",
+  "kind": "skill",
+  "namespace": "superpowers",
+  "name": "diagnosing-superpowers",
+  "title": "Diagnosing Superpowers",
+  "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" — or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.",
+  "tags": [
+    "skill",
+    "superpowers"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/superpowers.diagnosing-superpowers",
+  "source": {
+    "id": "superpowers",
+    "title": "Superpowers (obra)",
+    "repo": "https://github.com/obra/superpowers",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "path": "skills/diagnosing-superpowers",
+    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/diagnosing-superpowers",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 Jesse Vincent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "prompts/analyst-common.md",
+    "prompts/cost-and-time.md",
+    "prompts/plan-adherence.md",
+    "prompts/quality-evidence.md",
+    "prompts/repeated-work.md",
+    "prompts/request-conflicts.md",
+    "prompts/scrub-audit.md",
+    "prompts/scrub.md",
+    "prompts/similar-session.md",
+    "prompts/skill-timeline.md",
+    "prompts/stumbles.md",
+    "references/context-safety.md",
+    "references/github-issues.md",
+    "references/redaction-policy.md",
+    "references/session-discovery.md",
+    "templates/bundle-README.md",
+    "templates/case.md",
+    "templates/issue.md",
+    "templates/report.md"
+  ],
+  "entry_hash": "5a652f8132cc901eb5ca61f89157839f87a2f20aed037fc7a2b51051bc37cd19",
+  "content_hash": "13c627f13207ecff3c5bb6f025ec0012c8eb26203e355394d4608aed0ba5f14c",
+  "learned_at": "2026-10-20T03:29:01+00:00"
+}

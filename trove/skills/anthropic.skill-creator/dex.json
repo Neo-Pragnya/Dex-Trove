@@ -1,0 +1,58 @@
+{
+  "id": "anthropic/skill-creator",
+  "kind": "skill",
+  "namespace": "anthropic",
+  "name": "skill-creator",
+  "title": "Skill Creator",
+  "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+  "tags": [
+    "anthropic",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/anthropic.skill-creator",
+  "source": {
+    "id": "anthropic",
+    "title": "Anthropic Agent Skills",
+    "repo": "https://github.com/anthropics/skills",
+    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "path": "skills/skill-creator",
+    "url": "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/skill-creator",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "skills/skill-creator/LICENSE.txt: Apache-2.0 text",
+    "notice": "Copyright 2026 Anthropic, PBC.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "agents/analyzer.md",
+    "agents/comparator.md",
+    "agents/grader.md",
+    "assets/eval_review.html",
+    "eval-viewer/generate_review.py",
+    "eval-viewer/viewer.html",
+    "references/schemas.md",
+    "scripts/__init__.py",
+    "scripts/aggregate_benchmark.py",
+    "scripts/generate_report.py",
+    "scripts/improve_description.py",
+    "scripts/package_skill.py",
+    "scripts/quick_validate.py",
+    "scripts/run_eval.py",
+    "scripts/run_loop.py",
+    "scripts/utils.py"
+  ],
+  "entry_hash": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+  "content_hash": "44fe5f0d11653fbdc6e05d7c2f4347331ddfba9c198f02ecaf085929eb3297bf",
+  "learned_at": "2026-10-20T03:29:00+00:00"
+}

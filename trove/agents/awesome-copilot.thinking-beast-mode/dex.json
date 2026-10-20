@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/thinking-beast-mode",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "thinking-beast-mode",
+  "title": "Thinking Beast Mode",
+  "description": "A transcendent coding agent with quantum cognitive architecture, adversarial intelligence, and unrestricted creative freedom.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "Thinking-Beast-Mode.agent.md",
+  "dir": "agents/awesome-copilot.thinking-beast-mode",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/Thinking-Beast-Mode.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/Thinking-Beast-Mode.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "Thinking-Beast-Mode.agent.md"
+  ],
+  "entry_hash": "53f8b55fce98038d0b59d71146c439f363f5f6daf079237c37ed20e07711269d",
+  "content_hash": "052a6dcd68a26022592a72916421f48804c52656dedddea28c8afdb90368a63d",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

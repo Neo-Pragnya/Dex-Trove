@@ -1,0 +1,33 @@
+kind: agent
+namespace: awesome-copilot
+name: devops-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:devops-expert
+summary: DevOps specialist following the infinity loop principle (Plan → Code → Build → Test → Release → Deploy
+  → Operate → Monitor) with focus on automation, collaboration, and continuous improvement
+description: DevOps specialist following the infinity loop principle (Plan → Code → Build → Test → Release → Deploy
+  → Operate → Monitor) with focus on automation, collaboration, and continuous improvement
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: devops-expert.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/devops-expert.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,42 @@
+{
+  "id": "awesome-copilot/qdrant-monitoring",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "qdrant-monitoring",
+  "title": "Qdrant Monitoring",
+  "description": "Guides Qdrant monitoring and observability setup. Use when someone asks 'how to monitor Qdrant', 'what metrics to track', 'is Qdrant healthy', 'optimizer stuck', 'why is memory growing', 'requests are slow', or needs to set up Prometheus, Grafana, or health checks. Also use when debugging production issues that require metric analysis.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.qdrant-monitoring",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/qdrant-monitoring",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/qdrant-monitoring",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "debugging/SKILL.md",
+    "setup/SKILL.md"
+  ],
+  "entry_hash": "5264e89c01d4e02fb3db9ad9bebd0132c7de951a249c1ebc93d863a834529af2",
+  "content_hash": "f61d9bd4298b555cbb2cd7255f69e56ec0b47b733db414e415d4ae7c4ea5714f",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

@@ -1,0 +1,34 @@
+kind: agent
+namespace: awesome-copilot
+name: taxcore-technical-writer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:taxcore-technical-writer
+summary: A domain-expert technical writer for the TaxCore electronic fiscal invoicing ecosystem.
+description: A domain-expert technical writer for the TaxCore electronic fiscal invoicing ecosystem. Use this agent
+  to create, improve, or review documentation for TaxCore applications — including the Secure Element Reader, smart
+  card workflows, fiscal invoicing concepts, audit processes, and PKI/SE security topics. Covers end-user guides,
+  developer docs, reference material, and setup guides across all TaxCore-related surfaces.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: taxcore-technical-writer.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/taxcore-technical-writer.agent.md
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/security-best-practices",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "security-best-practices",
+  "title": "Security & Code Quality Plugin",
+  "description": "Security frameworks, accessibility guidelines, performance optimization, and code quality best practices for building secure, maintainable, and high-performance applications.",
+  "tags": [
+    "a11y",
+    "accessibility",
+    "awesome-copilot",
+    "best-practices",
+    "code-quality",
+    "optimization",
+    "owasp",
+    "performance",
+    "plugin",
+    "security"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.security-best-practices",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "plugins/security-best-practices",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/security-best-practices",
+    "author": "Awesome Copilot Community"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/ai-prompt-engineering-safety-review"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "2475162de42d196ce4285f8c2ccf8b2ad18fecde9d31999a427f0f0c03e60d26",
+  "content_hash": "ecfebcd618a5ba23b58cf5cb6176db1be98366a2ee90e050a5f8c8e6309acc76",
+  "learned_at": "2026-10-20T03:28:59+00:00"
+}

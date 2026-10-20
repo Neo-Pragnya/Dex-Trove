@@ -1,0 +1,29 @@
+kind: workflow
+namespace: awesome-copilot
+name: relevance-check
+version: 1.0.0
+ananke_id: urn:dex-trove:workflow:awesome-copilot:relevance-check
+summary: Slash command to evaluate whether an issue or pull request is still relevant to the project
+description: Slash command to evaluate whether an issue or pull request is still relevant to the project
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - workflow
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/workflows/relevance-check.md
+  repository: https://github.com/github/awesome-copilot

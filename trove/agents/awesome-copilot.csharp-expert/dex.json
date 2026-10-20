@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/csharp-expert",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "csharp-expert",
+  "title": "C# Expert",
+  "description": "An agent designed to assist with software development tasks for .NET projects.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "CSharpExpert.agent.md",
+  "dir": "agents/awesome-copilot.csharp-expert",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/CSharpExpert.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/CSharpExpert.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "CSharpExpert.agent.md"
+  ],
+  "entry_hash": "7f14637b072c57f12f693465529c76057af2271059b74eb896eb8692d1bf6bda",
+  "content_hash": "c1dd78b2ada05326b793f183a4f64a9f396df0db5f5496b3a502d90f61e7bca9",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

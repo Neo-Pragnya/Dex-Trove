@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: svelte
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:svelte
+summary: Svelte 5 and SvelteKit 2 development standards and best practices for component-based user interfaces and
+  full-stack applications
+description: Svelte 5 and SvelteKit 2 development standards and best practices for component-based user interfaces
+  and full-stack applications
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: svelte.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/svelte.instructions.md
+  repository: https://github.com/github/awesome-copilot

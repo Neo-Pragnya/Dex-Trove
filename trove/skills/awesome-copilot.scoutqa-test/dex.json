@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/scoutqa-test",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "scoutqa-test",
+  "title": "ScoutQA Testing Skill",
+  "description": "This skill should be used when the user asks to \"test this website\", \"run exploratory testing\", \"check for accessibility issues\", \"verify the login flow works\", \"find bugs on this page\", or requests automated QA testing. Triggers on web application testing scenarios including smoke tests, accessibility audits, e-commerce flows, and user flow validation using ScoutQA CLI. Use this skill proactively after implementing web application features to verify they work correctly.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.scoutqa-test",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/scoutqa-test",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/scoutqa-test",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "6c09a43984b05b6a108e79c2defb51d8f7fee7e230610a5e220f63dde8bcdee1",
+  "content_hash": "3a7a873bdf9e11ea8985e86f268e5ac86084a6efb7095aaeef10e01ae3bde401",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

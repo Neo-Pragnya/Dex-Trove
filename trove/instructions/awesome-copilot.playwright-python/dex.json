@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/playwright-python",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "playwright-python",
+  "title": "Playwright Python Test Generation Instructions",
+  "description": "Playwright Python AI test generation instructions based on official documentation.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "playwright-python.instructions.md",
+  "dir": "instructions/awesome-copilot.playwright-python",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "instructions/playwright-python.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/playwright-python.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "playwright-python.instructions.md"
+  ],
+  "entry_hash": "b26b8501da4693601ec4867dc4b857fd1f6ca8b7c76e385bdab6663b5f0e22be",
+  "content_hash": "7d640654319f700a587e6693ed2549d0a4bb9f68613badeb7d1af7d49a084b28",
+  "learned_at": "2026-10-20T03:28:58+00:00",
+  "apply_to": "**"
+}

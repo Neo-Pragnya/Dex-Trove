@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/containerize-aspnetcore",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "containerize-aspnetcore",
+  "title": "ASP.NET Core Docker Containerization Prompt",
+  "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.containerize-aspnetcore",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/containerize-aspnetcore",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/containerize-aspnetcore",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ad4057ce6e1cca41005e1955df84e121d6b760a8d259e55ca9d051c679df37e0",
+  "content_hash": "2f5dfffe04755570b89efba965117a8a0523f9fccafdeaeb795d05dca43032bf",
+  "learned_at": "2026-10-20T03:28:51+00:00"
+}

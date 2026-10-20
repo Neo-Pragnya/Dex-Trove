@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/update-implementation-plan",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "update-implementation-plan",
+  "title": "Update Implementation Plan",
+  "description": "Update an existing implementation plan file with new or update requirements to provide new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.update-implementation-plan",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/update-implementation-plan",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/update-implementation-plan",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "08f62222ba518b54dd0f369c539f6f75dabb32893768e0cb2ff49ecb1e8cb7a9",
+  "content_hash": "92265e839845e9e2c51a2a89f21a22f6a54daa276eca721bc91c87a9a9ef8288",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}

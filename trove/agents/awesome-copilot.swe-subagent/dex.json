@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/swe-subagent",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "swe-subagent",
+  "title": "SWE",
+  "description": "Senior software engineer subagent for implementation tasks: feature development, debugging, refactoring, and testing.",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "swe-subagent.agent.md",
+  "dir": "agents/awesome-copilot.swe-subagent",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/swe-subagent.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/swe-subagent.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "swe-subagent.agent.md"
+  ],
+  "entry_hash": "0860b8c08dcffcc53f8f4e0de82d941e02aa8b251af9913b4250ba76fde7f180",
+  "content_hash": "efb2f0b03280a7823d58c75bc6a39085f30f9b92252b5f74d1d1cfe7512491f0",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

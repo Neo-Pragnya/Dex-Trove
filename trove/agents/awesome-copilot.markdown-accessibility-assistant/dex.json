@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/markdown-accessibility-assistant",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "markdown-accessibility-assistant",
+  "title": "Markdown Accessibility Assistant",
+  "description": "Improves the accessibility of markdown files using five GitHub best practices",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "markdown-accessibility-assistant.agent.md",
+  "dir": "agents/awesome-copilot.markdown-accessibility-assistant",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/markdown-accessibility-assistant.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/markdown-accessibility-assistant.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "markdown-accessibility-assistant.agent.md"
+  ],
+  "entry_hash": "be7f29e3f00670901011fef24707f9188fbcbc540fb07c9612a8e487daa99a3e",
+  "content_hash": "08843e6877a9a55a09f726d9665954b803cff0fd8a8ee2cdd5e7ee51e88f957c",
+  "learned_at": "2026-10-20T03:28:57+00:00"
+}

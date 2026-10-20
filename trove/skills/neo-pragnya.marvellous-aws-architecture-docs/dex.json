@@ -1,0 +1,65 @@
+{
+  "id": "neo-pragnya/marvellous-aws-architecture-docs",
+  "kind": "skill",
+  "namespace": "neo-pragnya",
+  "name": "marvellous-aws-architecture-docs",
+  "title": "Marvellous AWS Architectures Docs",
+  "description": "Marvellous AWS Architectures Docs: build AWS-reference-style architecture diagrams as code (official AWS icons, account/VPC/cluster boundaries, numbered steps with a legend) and publish animated SVGs, stage-by-stage map-so-far views, editable draw.io files and an interactive HTML docs page (play the flow, build the system up stage by stage). Use whenever the user wants an architecture, reference-architecture, data-flow, request-flow or deployment diagram, or architecture docs, for anything on AWS (Bedrock, SageMaker, Lambda, EKS/ECS, API Gateway, S3, DynamoDB, RAG or agent systems, data or ML pipelines). This includes requests like draw our architecture, make it look like AWS reference architectures, animate or number the flow, show how it is built up part by part, a diagram for slides, notebook, README or docs, or redoing hand-drawn or draw.io diagrams, even if they do not say skill or architecture as code. Also concept diagrams (cards + live flows).",
+  "tags": [
+    "executes-code",
+    "neo-pragnya",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya.marvellous-aws-architecture-docs",
+  "source": {
+    "id": "neo-pragnya",
+    "title": "Neo Pragnya (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+    "commit": null,
+    "path": "marvellous-aws-architecture-docs",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.marvellous-aws-architecture-docs",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "first-party default (sources.yaml)",
+    "notice": "Copyright (c) Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [
+    {
+      "title": "AWS Reference Architecture Diagrams",
+      "url": "https://aws.amazon.com/architecture/reference-architecture-diagrams/"
+    },
+    {
+      "title": "mingrammer/diagrams (MIT)",
+      "url": "https://github.com/mingrammer/diagrams"
+    }
+  ],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "assets/examples/concept_cards.py",
+    "assets/examples/serverless_rag_chatbot.py",
+    "assets/examples/wwi_data_science_agent.py",
+    "assets/icons/CATALOG.md",
+    "assets/icons/SOURCE.md",
+    "references/integration.md",
+    "references/layout-playbook.md",
+    "references/spec-reference.md",
+    "scripts/archlib.py",
+    "scripts/build_arch.py",
+    "scripts/fetch_icons.py"
+  ],
+  "entry_hash": "fdfa9bef1d3b142aa0f18bbb87d900679c2d047ed5294b59e7e4ac05d40b6d59",
+  "content_hash": "760be12d2085167d36be656369639931986df5931bb65cb0ce2de2e4117484bd",
+  "learned_at": "2026-10-20T03:28:45+00:00",
+  "notes": [
+    "130 file(s) withheld by sources.yaml exclude globs (third-party terms)"
+  ]
+}

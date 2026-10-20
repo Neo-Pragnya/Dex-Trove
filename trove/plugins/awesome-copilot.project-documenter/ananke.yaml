@@ -1,0 +1,48 @@
+kind: bundle
+namespace: awesome-copilot
+name: project-documenter
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:project-documenter
+summary: Generate professional project documentation with draw.io architecture diagrams and Word (.docx) output
+  with embedded images.
+description: Generate professional project documentation with draw.io architecture diagrams and Word (.docx) output
+  with embedded images. Automatically discovers any project's technology stack and produces Markdown, diagrams,
+  PNG exports, and a formatted Word document.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/drawio
+  version: '*'
+- ref: ananke://skill/awesome-copilot/md-to-docx
+  version: '*'
+- ref: ananke://agent/awesome-copilot/project-documenter
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - architecture-diagrams
+  - auto-discovery
+  - awesome-copilot
+  - c4-model
+  - documentation
+  - docx
+  - drawio
+  - plugin
+  - png-images
+  - project-summary
+  - word-document
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/project-documenter
+  repository: https://github.com/github/awesome-copilot

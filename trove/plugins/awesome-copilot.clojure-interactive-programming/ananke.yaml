@@ -1,0 +1,39 @@
+kind: bundle
+namespace: awesome-copilot
+name: clojure-interactive-programming
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:clojure-interactive-programming
+summary: Tools for REPL-first Clojure workflows featuring Clojure instructions, the interactive programming chat
+  mode and supporting guidance.
+description: Tools for REPL-first Clojure workflows featuring Clojure instructions, the interactive programming
+  chat mode and supporting guidance.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/remember-interactive-programming
+  version: '*'
+- ref: ananke://agent/awesome-copilot/clojure-interactive-programming
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - clojure
+  - interactive-programming
+  - plugin
+  - repl
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/clojure-interactive-programming
+  repository: https://github.com/github/awesome-copilot

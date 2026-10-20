@@ -1,0 +1,35 @@
+kind: prompt
+namespace: awesome-copilot
+name: dataverse-python-agentic-workflows
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:dataverse-python-agentic-workflows
+summary: '# Dataverse SDK for Python - Agentic Workflows Guide ## ⚠️ PREVIEW FEATURE NOTICE **Status**: This feature
+  is in **Public Preview** as of December 2025 **Availability**: General Availability (GA) date…'
+description: '# Dataverse SDK for Python - Agentic Workflows Guide ## ⚠️ PREVIEW FEATURE NOTICE **Status**: This
+  feature is in **Public Preview** as of December 2025 **Availability**: General Availability (GA) date TBD **Documentation**:
+  Complete implementation details forthcoming This guide covers the conceptual framework and planned capabilities
+  for building agentic workflows with the Dataverse SDK for Python…'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dataverse-python-agentic-workflows.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-agentic-workflows.instructions.md
+  repository: https://github.com/github/awesome-copilot

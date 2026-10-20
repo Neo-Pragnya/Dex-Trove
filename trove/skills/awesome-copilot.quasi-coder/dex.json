@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/quasi-coder",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "quasi-coder",
+  "title": "Quasi-Coder Skill",
+  "description": "Expert 10x engineer skill for interpreting and implementing code from shorthand, quasi-code, and natural language descriptions. Use when collaborators provide incomplete code snippets, pseudo-code, or descriptions with potential typos or incorrect terminology. Excels at translating non-technical or semi-technical descriptions into production-quality code.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.quasi-coder",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/quasi-coder",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/quasi-coder",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "5bd225b43ce82a866b25477d11df02fa8ad35305afa66d56ebb878ec6d9f9dce",
+  "content_hash": "94bf9310689d30cf3081c16fd9948942d36df4e5775fc5e88a1ece12e8bb2d35",
+  "learned_at": "2026-10-20T03:28:55+00:00"
+}

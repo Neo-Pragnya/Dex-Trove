@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: power-bi-data-modeling-best-practices
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:power-bi-data-modeling-best-practices
+summary: Comprehensive Power BI data modeling best practices based on Microsoft guidance for creating efficient,
+  scalable, and maintainable semantic models using star schema principles.
+description: Comprehensive Power BI data modeling best practices based on Microsoft guidance for creating efficient,
+  scalable, and maintainable semantic models using star schema principles.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: power-bi-data-modeling-best-practices.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/power-bi-data-modeling-best-practices.instructions.md
+  repository: https://github.com/github/awesome-copilot

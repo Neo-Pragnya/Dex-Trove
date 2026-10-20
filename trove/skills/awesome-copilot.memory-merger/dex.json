@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/memory-merger",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "memory-merger",
+  "title": "Memory Merger",
+  "description": "Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` where scope is `global` (default), `user`, `workspace`, or `ws`.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.memory-merger",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "skills/memory-merger",
+    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/memory-merger",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "a98f9bbd157755bfcaa8914095990d13a8d614afa18c882f3892f81e257e221c",
+  "content_hash": "47efe5e7cdca1e951b78590494a33fd5854e80401893650703a91f274f24a485",
+  "learned_at": "2026-10-20T03:28:54+00:00"
+}

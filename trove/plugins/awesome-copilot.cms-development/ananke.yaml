@@ -1,0 +1,46 @@
+kind: bundle
+namespace: awesome-copilot
+name: cms-development
+version: 1.1.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:cms-development
+summary: Skills for CMS development across themes, plugins, admin tooling, media workflows, markdown rendering,
+  and static export pipelines.
+description: Skills for CMS development across themes, plugins, admin tooling, media workflows, markdown rendering,
+  and static export pipelines.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/content-management-systems
+  version: '*'
+- ref: ananke://skill/awesome-copilot/markdown-to-html
+  version: '*'
+- ref: ananke://skill/awesome-copilot/quasi-coder
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - cms
+  - content-management-system
+  - drupal
+  - media
+  - plugin
+  - shopify
+  - static-site
+  - theme
+  - wordpress
+  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/cms-development
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/expert-nextjs-developer",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "expert-nextjs-developer",
+  "title": "Next.js Expert",
+  "description": "Expert Next.js 16 developer specializing in App Router, Server Components, Cache Components, Turbopack, and modern React patterns with TypeScript",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "expert-nextjs-developer.agent.md",
+  "dir": "agents/awesome-copilot.expert-nextjs-developer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "path": "agents/expert-nextjs-developer.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/expert-nextjs-developer.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "expert-nextjs-developer.agent.md"
+  ],
+  "entry_hash": "6549476b3c3be2a8ee830f10a9e1f92ff382634c77560d0bb199d306c60caf73",
+  "content_hash": "4e2558f5f9df51089081251a9ca9e40a6230047db83792a2733c73c3e5ac2b42",
+  "learned_at": "2026-10-20T03:28:56+00:00"
+}
