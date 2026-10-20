@@ -38,6 +38,8 @@ dev = [
   "mypy>=1.15",
   "types-PyYAML>=6",
   "hatchling>=1.26",  # importable so the trove-bundling build hook is testable
+  "pytest-bdd>=8",  # acceptance/ scenarios
+  "pytest-xdist>=3",
 ]
 
 [project.scripts]
@@ -88,6 +90,10 @@ omit = ["src/dex_trove/__main__.py"]
 [tool.ruff]
 line-length = 110
 target-version = "py311"
+
+[tool.ruff.format]
+# Vendored verbatim from Ananke-Plexus/acceptance/harness.py (formatted there at line length 100).
+exclude = ["acceptance/harness.py"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "SIM"]

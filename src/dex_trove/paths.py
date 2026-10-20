@@ -33,10 +33,19 @@ def repo_root(start: Path | None = None) -> Path | None:
 
 
 def trove_root() -> Path:
-    """Directory holding ``<kind-plural>/<ns.name>/`` items and ``catalog.json``."""
+    """Directory holding ``<kind-plural>/<ns.name>/`` items and ``catalog.json``.
+
+    Order: ``DEX_TROVE_ROOT``; the trove of the Dex-Trove checkout you are working in (so ``dex learn`` and
+    ``dex validate`` agree, even when dex itself is installed from a wheel); the trove inside the installed
+    wheel; the development checkout.
+    """
     env = os.environ.get("DEX_TROVE_ROOT")
     if env:
         return Path(env).expanduser().resolve()
+    here = Path.cwd().resolve()
+    for candidate in (here, *here.parents):
+        if (candidate / "sources.yaml").is_file() and (candidate / "src" / "dex_trove").is_dir():
+            return candidate / "trove"
     if (PACKAGE_DIR / "catalog.json").is_file():
         return PACKAGE_DIR
     root = repo_root()

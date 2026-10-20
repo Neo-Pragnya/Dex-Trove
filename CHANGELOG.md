@@ -11,6 +11,27 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 
 ## [Unreleased]
 
+### Added
+
+- **Capability acceptance suite** (`acceptance/`): 35 Gherkin scenarios across 12 capabilities.
+  - They cover packaging, catalog, install targets and safety, licences, the learn pipeline (two fixture upstreams
+    covering every admission path), privacy, notices, Ananke integration and docs export.
+  - Real-Chrome **browser journeys** for the website (`acceptance/site/journeys.mjs`) are included.
+  - The suite shares Ananke Plexus's harness and its PROMOTE / CONDITIONAL / BLOCK release gate.
+- `make acceptance`, `acceptance-wheel`, `acceptance-dist` and `acceptance-site`.
+- `acceptance.yml` runs the suite on push and PR. `docs.yml` runs the journeys before deploying, and
+  `release-pypi.yml` gates publishing on the wheel.
+
+### Fixed
+
+- Inside a Dex-Trove checkout, an installed `dex` used the wheel's trove (so `dex validate` checked the wrong
+  trove). `trove_root()` now prefers the checkout you are working in.
+
+### Known issues (tracked as `@known_issue` scenarios)
+
+- Duplicate detection only sees items from previous runs, so the first learn admits an exact duplicate.
+- `dex install <hook>` without `--allow-exec` exits 0.
+
 ---
 
 ## [0.1.1] — 2026-10-20

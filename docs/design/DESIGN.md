@@ -290,6 +290,10 @@ sample that merely *contains* a Mermaid fence stays a code sample.
 the rotating word and the letter waves. `diagram-fx` (from `living-diagrams`) makes rendered Mermaid diagrams respond
 to hover. Both respect *reduce motion* and `?motion=static`.
 
+**Acceptance:** before every release, `acceptance/` runs Gherkin scenarios against the built wheel and the browser
+journeys run against the built site. A release gate turns them into PROMOTE, CONDITIONAL or BLOCK. See
+`acceptance/README.md`.
+
 ## 11. Delivery loop
 
 ```mermaid

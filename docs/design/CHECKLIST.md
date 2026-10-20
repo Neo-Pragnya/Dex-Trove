@@ -134,6 +134,18 @@ Legend: `[x]` done · `[~]` in progress / partial · `[ ]` todo
       and a version chip.
 - [x] Released 0.1.1 to PyPI.
 
+## Phase 9 — Capability acceptance and release gate (2026-10-20)
+- [x] `acceptance/`: Gherkin scenarios drive the real CLI in sandboxes (fresh project or maintainer checkout,
+      isolated HOME). The harness is shared with Ananke Plexus (byte-identical copy).
+- [x] Capability catalog with blockers, a Week-12-style gate (PROMOTE / CONDITIONAL / BLOCK) with evidence, and
+      CLI surface coverage (12/12 commands).
+- [x] Learn fixtures cover every admission path: MIT, Apache (frontmatter), proprietary, none, bundled GPL, AWS key,
+      6 MB file, duplicate, scripts and `.dexignore`. Secrets and big files are generated at runtime.
+- [x] Browser journeys (real headless Chrome via CDP): search/filters, item page, Mermaid render + hover,
+      highlighting, theme, 404, 390 px. Run in `docs.yml` before deploy.
+- [x] The wheel-mode run found and fixed `trove_root()` preferring the wheel over the working checkout.
+- [ ] Known issues: duplicate detection within a single learn run; `install` refusals exit 0.
+
 ## Follow-ups / backlog
 - [ ] Move first-party skills into git (this repo's `first-party/` or their own repo) so CI can re-learn them
 - [x] Light-mode visual pass on the docs site (verified by screenshot)

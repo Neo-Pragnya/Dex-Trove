@@ -1,0 +1,34 @@
+# What Dex Trove must be able to do before a release. Scenarios prove capabilities with @cap_<id>.
+# blocker: true means a failing or unproven capability BLOCKs the release; the rest hold it at CONDITIONAL.
+product: Dex Trove
+default_fixture: consumer
+binaries: [dex, ananke]
+surface_target: 0.8
+
+capabilities:
+  - { id: packaging, title: "Installs cleanly: version, the whole trove inside the wheel, valid manifests", dimension: release, blocker: true }
+  - { id: catalog, title: "Browse: list, search and show with kind and source filters", dimension: core, blocker: true }
+  - { id: install, title: "Install into Claude Code, Copilot or a folder; plugins expand to members", dimension: core, blocker: true }
+  - { id: install-safety, title: "Install safety: code-running hooks need --allow-exec; nothing written outside the target", dimension: safety, blocker: true }
+  - { id: licence, title: "Licence classification from licence text (allow, deny, bundled)", dimension: governance, blocker: true }
+  - { id: learn, title: "Learn pipeline: admit, exclude with reasons, normalise, version, stay idempotent", dimension: core, blocker: true }
+  - { id: privacy, title: "Ignored items leave no trace (trove, EXCLUDED.json, lock, notices)", dimension: safety, blocker: true }
+  - { id: notices, title: "Third-party notices and catalog regenerate from the trove", dimension: governance, blocker: false }
+  - { id: ananke, title: "Ananke integration: wheel learnable by Ananke; dex ananke sync", dimension: ecosystem, blocker: true }
+  - { id: docs-export, title: "Docs export feeds the website", dimension: docs, blocker: false }
+  - { id: site, title: "Website journeys: search, item pages, Mermaid + hover, theme, 404, phone width", dimension: docs, blocker: false }
+  - { id: cli-ux, title: "Errors are clean; refusals exit non-zero", dimension: usability, blocker: false }
+
+surface:
+  - dex sources
+  - dex learn
+  - dex validate
+  - dex list
+  - dex search
+  - dex show
+  - dex install
+  - dex license
+  - dex notices
+  - dex catalog
+  - dex ananke sync
+  - dex docs export

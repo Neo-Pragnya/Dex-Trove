@@ -1,6 +1,7 @@
 .PHONY: install lint format format-check typecheck test coverage verify validate learn notices \
         build build-check sbom trivy-scan trivy-scan-json trivy-scan-sarif security \
-        docs-export docs-install docs-build docs-serve publish-testpypi publish-pypi clean check-uv
+        docs-export docs-install docs-build docs-serve publish-testpypi publish-pypi clean check-uv \
+        acceptance acceptance-wheel acceptance-dist acceptance-site
 
 UV := uv
 # Load local publish tokens (UV_PUBLISH_TOKEN, UV_PUBLISH_TOKEN_TESTPYPI) when present. Never committed.
@@ -33,7 +34,7 @@ test:
 
 coverage:
 	$(UV) run pytest --cov=src/dex_trove --cov-report=html --cov-report=term
-	@echo "HTML report: htmlcov/index.html"
+	@echo "HTML report: htmlcov $(ACCEPTANCE_VENV) acceptance/report/index.html"
 
 validate:
 	$(UV) run dex validate
@@ -112,6 +113,33 @@ publish-pypi: verify build-check
 	$(UV) publish --token "$$UV_PUBLISH_TOKEN"
 
 # ── Clean ──────────────────────────────────────────────────────────────────
+
+# ── Acceptance (capability scenarios + release gate) ─────────────────────────
+# Gherkin scenarios in acceptance/features drive the real CLI in sandboxes; the gate writes
+# acceptance/report/{acceptance.json,summary.md} and fails on BLOCK. See acceptance/README.md.
+ACCEPTANCE_VENV := .acceptance-venv
+ACCEPTANCE_ARGS ?=
+
+acceptance:
+	$(UV) run --frozen pytest acceptance -n auto -p no:cacheprovider $(ACCEPTANCE_ARGS)
+
+# What ships: build the wheel, install it (with the ananke extra) into a fresh venv, run the suite from there.
+acceptance-wheel: build acceptance-dist
+
+# Run against an already-built dist/*.whl (CI tests the exact artifact it publishes).
+acceptance-dist:
+	rm -rf $(ACCEPTANCE_VENV)
+	$(UV) venv -q --python 3.12 $(ACCEPTANCE_VENV)
+	$(UV) pip install -q --python $(ACCEPTANCE_VENV)/bin/python "$$(ls dist/*.whl | head -1)[ananke]" \
+	  pytest pytest-bdd pytest-xdist pyyaml
+	ACCEPTANCE_BIN_DIR=$(CURDIR)/$(ACCEPTANCE_VENV)/bin $(ACCEPTANCE_VENV)/bin/python -m pytest acceptance \
+	  -n auto -p no:cacheprovider $(ACCEPTANCE_ARGS)
+
+# Browser journeys on the built website (real Chrome, run serially: they are timing-sensitive under load).
+acceptance-site:
+	ACCEPTANCE_SITE_DIST=$(CURDIR)/website/dist $(UV) run --frozen pytest acceptance -p no:cacheprovider -k "site or journeys" \
+	  $(ACCEPTANCE_ARGS)
+
 clean:
 	rm -rf build dist .pytest_cache .mypy_cache .ruff_cache htmlcov \
 	       trivy-report.json trivy-results.sarif website/dist

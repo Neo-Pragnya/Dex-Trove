@@ -23,3 +23,7 @@ coverage.xml
 .coverage
 trivy-*.json
 trivy-results.sarif
+
+# Acceptance suite: wheel-under-test venv and generated reports
+.acceptance-venv/
+acceptance/report/

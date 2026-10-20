@@ -41,7 +41,13 @@ make install
 uv run dex learn                 # refresh the trove (or a single source)
 make verify                      # must be green
 make docs-build                  # site must build
+make acceptance-wheel            # capability scenarios on the built wheel: gate must not BLOCK
+make acceptance-site             # browser journeys on the built site
 ```
+
+The acceptance gate prints **PROMOTE**, **CONDITIONAL** or **BLOCK** and writes `acceptance/report/summary.md`.
+CONDITIONAL means known issues or non-blocker gaps remain; list them in the release notes. The release workflow
+runs the same gate on the exact wheel it publishes. See `acceptance/README.md`.
 
 Then:
 
