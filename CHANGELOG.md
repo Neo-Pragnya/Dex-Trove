@@ -11,6 +11,12 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 
 ## [Unreleased]
 
+### Trove
+
+- `neo-pragnya/astro-docs-site` updated. The scaffolder now un-ignores `website/src/lib/` when a Python
+  `.gitignore` hides it. The skill adds advice on giving each site its own theme layer, and on testing phone widths
+  in an iframe.
+
 ---
 
 ## [0.1.0] — 2026-10-20

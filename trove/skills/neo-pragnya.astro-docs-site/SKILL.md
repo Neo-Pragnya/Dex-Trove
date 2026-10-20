@@ -74,6 +74,20 @@ from `mkdocs.yml`), VICHARA.
 - Never put the shape field under body text: the template masks it to the right side (and the bottom on phones).
 - `astro check` needs `@types/node` and `@types/mdast` for the remark plugins (already in the template).
 - Headless screenshots catch animations mid-flight. Use `?motion=static` for the settled state.
+- **Python `.gitignore` templates ignore `lib/`**, which silently keeps `website/src/lib/site.ts` out of git, so
+  CI fails while local builds pass. The scaffolder now detects this and appends `!website/src/lib/`. Check with
+  `git status --ignored website`.
+- Headless Chrome won't make a window narrower than about 500px, so a `--window-size=390,…` screenshot looks like
+  horizontal overflow. To test phone width, load the page in a 390px `<iframe>` and compare `scrollWidth` with
+  `innerWidth`.
+
+## Give each project its own identity
+
+The template is a neutral pastel starting point. Sibling projects shouldn't look identical. Add a theme layer
+(`src/styles/<project>.css`, imported after `global.css` in `Layout.astro`) that overrides the tokens, fonts,
+radius and hero, and take the palette from the project's own logo and diagrams. Example: Ananke Plexus ("the
+cosmic harness") uses celestial navy, royal blue and gold, Cinzel display type, a blueprint grid, square-ish
+corners, and a canvas hero of orbits around a gold core. Dex Trove keeps the playful pastel shapes.
 
 ## Verify
 

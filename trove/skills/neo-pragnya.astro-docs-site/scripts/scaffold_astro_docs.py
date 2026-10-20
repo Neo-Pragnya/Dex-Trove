@@ -271,6 +271,26 @@ jobs:
 """
 
 
+def unignore_site_sources(repo: Path, out: Path) -> None:
+    """Python .gitignore templates ignore `lib/`, which silently drops src/lib/site.ts from commits. Fix it."""
+    sources = [p for p in (out / "src").rglob("*") if p.is_file()] + [p for p in (out / "public").rglob("*") if p.is_file()]
+    rel = [str(p.relative_to(repo)) for p in sources]
+    if not rel:
+        return
+    try:
+        res = subprocess.run(["git", "-C", str(repo), "check-ignore", *rel], capture_output=True, text=True, check=False)
+    except FileNotFoundError:
+        return
+    ignored = sorted({str(Path(line).parent) for line in res.stdout.splitlines() if line.strip()})
+    if not ignored:
+        return
+    gi = repo / ".gitignore"
+    lines = "".join(f"!{d}/\n" for d in ignored)
+    with gi.open("a", encoding="utf-8") as fh:
+        fh.write(f"\n# Docs website sources (un-ignored by scaffold_astro_docs.py)\n{lines}")
+    print(f"note: the repo .gitignore hid {len(ignored)} site folder(s); added negations to {gi}: {', '.join(ignored)}")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("repo", type=Path)
@@ -352,6 +372,7 @@ def main() -> int:
         wf.parent.mkdir(parents=True, exist_ok=True)
         wf.write_text(WORKFLOW.format(out=args.out, base=base), encoding="utf-8")
         print(f"wrote {wf}")
+    unignore_site_sources(repo, out)
     n = sum(len(s["items"]) for s in sections)
     print(f"scaffolded {out} — {len(sections)} sections, {n} docs, base {base}")
     print(f"next: cd {out} && npm install && npm run build   (preview: npm run dev)")

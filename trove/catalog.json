@@ -40095,7 +40095,7 @@
         "neo-pragnya",
         "skill"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "entry": "SKILL.md",
       "dir": "skills/neo-pragnya.astro-docs-site",
       "source": {
@@ -40151,9 +40151,9 @@
         "templates/website/src/styles/global.css",
         "templates/website/tsconfig.json"
       ],
-      "entry_hash": "c71f431289bf681c5499741c9643ccd9b9ed3d2a6c26d9f8fdec1790dd10d883",
-      "content_hash": "0aa3ac8600b2608ab9a71955613a1dd4d986feaecb2bb6b982a621ec2b1d5374",
-      "learned_at": "2026-10-20T04:50:31+00:00"
+      "entry_hash": "ccde88ae5849043f68f5cd5ca84d97cc7a30ad53f7db52fb52df266c91dee9c0",
+      "content_hash": "8720b1243a5111effad1cba69730e2fb2f85deb5680a2b81a5510de8a02a4c2f",
+      "learned_at": "2026-10-20T05:24:17+00:00"
     },
     {
       "id": "neo-pragnya/interactive-web-motion",
