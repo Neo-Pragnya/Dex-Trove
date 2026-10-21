@@ -5,7 +5,7 @@ description: Author skills for the neo-pragnya namespace, credit inspirations an
 
 # First-party skills
 
-First-party items are authored by Neo Pragnya and live under the **`neo-pragnya`** namespace. In 0.1.1:
+First-party items are authored by Neo Pragnya and live under the **`neo-pragnya`** namespace. In 0.1.2:
 
 | Skill | What it does |
 | --- | --- |
@@ -13,6 +13,7 @@ First-party items are authored by Neo Pragnya and live under the **`neo-pragnya`
 | [`astro-docs-site`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.astro-docs-site/) | Scaffold a pastel, interactive Astro documentation site for any repo (docs read from `docs/`, MkDocs nav import, Mermaid, callouts, Pages workflow, link checker). Used for this site and Ananke Plexus's |
 | [`interactive-web-motion`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.interactive-web-motion/) | `motion-kit.js`: morphing SVG glyphs, a cursor-reactive shape field, rotating words, letter hover waves, particle text that diffuses from the cursor, reveals, count-ups, tilt and marching ants. Accessible and dependency-free |
 | [`living-diagrams`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.living-diagrams/) | Diagrams that move with meaning: an orbit/plexus hero canvas, hover effects for any SVG or Mermaid diagram (connected nodes light up, pulses travel the edges), and animated terminal walkthroughs built from real command output |
+| [`capability-acceptance`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.capability-acceptance/) | Behaviour-level acceptance tests and a release gate for any CLI or package: Gherkin scenarios in sandboxes, a capability catalog with blockers, PROMOTE / CONDITIONAL / BLOCK, adversarial probes with twins, wheel-under-test runs, browser journeys, and a scaffolder that discovers the CLI surface |
 | [`life-ikigai-architect`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.life-ikigai-architect/) | Personal Ikigai, vision, mission and roadmap as an animated HTML presentation |
 
 ## How they are learned

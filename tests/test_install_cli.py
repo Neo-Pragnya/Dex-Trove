@@ -48,3 +48,22 @@ def test_cli_search_show(trove: Path, source: Source, upstream: Path) -> None:
     out = runner.invoke(app, ["show", "up/fonts"]).output
     assert "MIT" in out and "Upstream" in out
     assert runner.invoke(app, ["show", "nope"]).exit_code == 2
+
+
+def test_install_exits_non_zero_when_nothing_was_installed(tmp_path, monkeypatch) -> None:  # type: ignore[no-untyped-def]
+    """A refused hook (no --allow-exec) installs nothing; scripts must see a failure, not exit 0."""
+    from typer.testing import CliRunner
+
+    from dex_trove import catalog
+    from dex_trove.cli import app
+
+    hooks = [i for i in catalog.load() if i["kind"] == "hook"]
+    if not hooks:
+        import pytest
+
+        pytest.skip("no hook in this trove")
+    monkeypatch.chdir(tmp_path)
+    ref = f"{hooks[0]['namespace']}/{hooks[0]['name']}"
+    result = CliRunner().invoke(app, ["install", ref, "--target", "dir", "--path", "vendor"])
+    assert result.exit_code == 1, result.output
+    assert not (tmp_path / "vendor" / "hooks").exists()

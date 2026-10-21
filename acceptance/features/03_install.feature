@@ -46,7 +46,7 @@ Feature: Items install where each agent looks for them
     Then it succeeds
     And a file matching "vendor/hooks/*/hooks.json" exists
 
-  @cap_install_safety @cap_cli_ux @known_issue
+  @cap_install_safety @cap_cli_ux
   Scenario: Refusing to install exits non-zero
     When I run "dex install awesome-copilot/attester-import-check --target dir --path vendor"
     Then it fails cleanly

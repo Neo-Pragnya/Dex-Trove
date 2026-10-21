@@ -11,6 +11,10 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 
 ## [Unreleased]
 
+---
+
+## [0.1.2] — 2026-10-20
+
 ### Added
 
 - **Capability acceptance suite** (`acceptance/`): 35 Gherkin scenarios across 12 capabilities.
@@ -27,10 +31,16 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 - Inside a Dex-Trove checkout, an installed `dex` used the wheel's trove (so `dex validate` checked the wrong
   trove). `trove_root()` now prefers the checkout you are working in.
 
-### Known issues (tracked as `@known_issue` scenarios)
+- Duplicates are now caught within a single learn run, not only against a previous run's catalog. The first learn
+  on a fresh trove refuses an exact duplicate, and learning twice from unchanged upstreams changes nothing.
+- `dex install` exits 1 when nothing was installed (for example a hook without `--allow-exec`), so scripts can't
+  mistake a refusal for success. Partial plugin installs still exit 0 and list what was skipped.
 
-- Duplicate detection only sees items from previous runs, so the first learn admits an exact duplicate.
-- `dex install <hook>` without `--allow-exec` exits 0.
+### Trove
+
+- 972 items. New first-party skill **`neo-pragnya/capability-acceptance`**: the acceptance harness, scaffolder,
+  probe and browser-journeys example behind this release's suite. `living-diagrams` and `interactive-web-motion`
+  get new item versions.
 
 ---
 

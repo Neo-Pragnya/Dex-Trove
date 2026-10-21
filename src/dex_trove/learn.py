@@ -273,6 +273,9 @@ class Learner:
         self.trove = trove
         self.dry_run = dry_run
         self.catalog_before = {r["id"]: r for r in read_catalog(trove)}
+        # entry hash → (item id, source priority) for everything admitted during *this* run, so a duplicate is
+        # caught on the first learn, not only once a previous run's catalog knows the original.
+        self.run_hashes: dict[str, tuple[str, int]] = {}
 
     def item_dir(self, kind: str, ns: str, slug: str) -> Path:
         return self.trove / KIND_DIRS[kind] / f"{ns}.{slug}"
@@ -288,6 +291,7 @@ class Learner:
             for r in self.catalog_before.values()
             if r.get("entry_hash") and priority_of.get(r["namespace"], 1 << 30) < source.priority
         }
+        seen.update({h: item for h, (item, prio) in self.run_hashes.items() if prio < source.priority})
         produced: dict[tuple[str, str], dict[str, Any]] = {}
         plugins: list[RawItem] = []
         patterns = ignore.load_patterns(ns, root)
@@ -471,6 +475,7 @@ class Learner:
         if notes:
             record["notes"] = notes
         seen[entry_hash] = record["id"]
+        self.run_hashes.setdefault(entry_hash, (record["id"], source.priority))
         produced[(raw.kind, slug)] = record
         result.items.append(record)
         if self.dry_run:

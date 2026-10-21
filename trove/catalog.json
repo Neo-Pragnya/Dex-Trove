@@ -1,6 +1,6 @@
 {
-  "generator": "dex-trove 0.1.0",
-  "count": 971,
+  "generator": "dex-trove 0.1.2",
+  "count": 972,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -40158,6 +40158,76 @@
       "learned_at": "2026-10-20T19:00:31+00:00"
     },
     {
+      "id": "neo-pragnya/capability-acceptance",
+      "kind": "skill",
+      "namespace": "neo-pragnya",
+      "name": "capability-acceptance",
+      "title": "Capability acceptance",
+      "description": "Behaviour-level acceptance testing and a release gate for any CLI tool or Python package. Gherkin scenarios (behave-style, pytest-bdd) drive the real commands in sandbox projects with isolated HOME, a capability catalog marks what blocks a release, and the gate decides PROMOTE / CONDITIONAL / BLOCK with evidence and CLI-surface coverage. It includes adversarial probes with legitimate twins, runtime-generated fake credentials, testing of the built wheel in a fresh venv, real-Chrome browser journeys for the project's website (Playwright-style, no extra dependency) and CI wiring. Use whenever someone wants to test all capabilities or features of a package or CLI before release, add end-to-end, acceptance, BDD, behave, Gherkin, smoke or Playwright-like tests, build a release or quality gate, check that what ships (the wheel) really works, find bugs the unit tests miss, or asks 'what checks should run before we publish', even if they don't say acceptance.",
+      "tags": [
+        "executes-code",
+        "neo-pragnya",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya.capability-acceptance",
+      "source": {
+        "id": "neo-pragnya",
+        "title": "Neo Pragnya (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+        "commit": null,
+        "path": "capability-acceptance",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.capability-acceptance",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "first-party default (sources.yaml)",
+        "notice": "Copyright (c) Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [
+        {
+          "title": "WWI Data Science Agent course, Week 12 — agent evaluation and release gate",
+          "url": "https://github.com/Neo-Pragnya/Dex-Trove/blob/main/acceptance/README.md"
+        },
+        {
+          "title": "pytest-bdd (MIT) — Gherkin scenarios on pytest",
+          "url": "https://github.com/pytest-dev/pytest-bdd"
+        },
+        {
+          "title": "Chrome DevTools Protocol",
+          "url": "https://chromedevtools.github.io/devtools-protocol/"
+        }
+      ],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "assets/examples/ananke_features/06_registry.feature",
+        "assets/examples/ananke_features/08_registry_security.feature",
+        "assets/examples/ananke_features/13_mcp.feature",
+        "assets/examples/dex_features/03_install.feature",
+        "assets/examples/dex_features/05_learn.feature",
+        "assets/examples/dex_trove_journeys.mjs",
+        "assets/harness.py",
+        "assets/templates/Makefile.snippet",
+        "assets/templates/README.md",
+        "assets/templates/acceptance.yml",
+        "assets/templates/capabilities.yaml",
+        "assets/templates/conftest.py",
+        "assets/templates/test_acceptance.py",
+        "references/methodology.md",
+        "scripts/probe.py",
+        "scripts/scaffold_acceptance.py"
+      ],
+      "entry_hash": "f4babf8cf5aad821d84175a4c5d9ae16254f92d07ab1d44a4b85ab6519217d52",
+      "content_hash": "5555f982562b9a0eee6f68d837f286661c24a3d714b0a33f00c9a923775a86c1",
+      "learned_at": "2026-10-21T02:41:47+00:00"
+    },
+    {
       "id": "neo-pragnya/interactive-web-motion",
       "kind": "skill",
       "namespace": "neo-pragnya",
@@ -40192,6 +40262,10 @@
         {
           "title": "graphify.com — dashed marching borders, reveals, grain",
           "url": "https://graphify.com/"
+        },
+        {
+          "title": "Particle text effects (canvas pixel sampling)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData"
         },
         {
           "title": "Polar shape morphing (radius-function interpolation)",
@@ -40302,7 +40376,20 @@
         "notice": "Copyright (c) Neo Pragnya",
         "components": []
       },
-      "inspired_by": [],
+      "inspired_by": [
+        {
+          "title": "Ananke Plexus logo and infographics (the cosmic harness)",
+          "url": "https://github.com/Neo-Pragnya/Ananke-Plexus/tree/main/docs/assets"
+        },
+        {
+          "title": "Plexus / constellation network visuals",
+          "url": "https://en.wikipedia.org/wiki/Plexus"
+        },
+        {
+          "title": "Mermaid (MIT), the diagrams it brings to life",
+          "url": "https://github.com/mermaid-js/mermaid"
+        }
+      ],
       "executes_code": true,
       "members": [],
       "files": [

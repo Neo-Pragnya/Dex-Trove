@@ -55,14 +55,14 @@ The learn scenarios check each kind of item:
 Secret-shaped strings and the 6 MB file are **generated at runtime** (see `conftest.py`). Nothing that looks like a
 credential is committed.
 
-## Known issues (as of 0.1.1)
+## Found by this suite (all fixed in 0.1.2)
 
-| Scenario | What's wrong |
+| What the scenario expected | What was wrong |
 | --- | --- |
-| An exact duplicate of a higher-priority item is refused on the first learn | Duplicates are only detected against items from *previous* runs, so the first learn admits the duplicate |
-| Learning twice from unchanged upstreams changes nothing | Follows from the above: the second learn removes the duplicate |
-| Refusing to install exits non-zero | `dex install <hook>` without `--allow-exec` installs nothing but exits 0 |
+| An exact duplicate is refused on the first learn | duplicates were only detected against items from *previous* runs |
+| Learning twice from unchanged upstreams changes nothing | the second learn removed the duplicate the first admitted |
+| Refusing to install exits non-zero | `dex install <hook>` without `--allow-exec` installed nothing and exited 0 |
+| `dex validate` in a checkout checks that checkout (wheel run) | an installed `dex` validated the wheel's trove against the checkout's notices |
 
-Fixed while building the suite: inside a checkout, an installed `dex` validated the *wheel's* trove against the
-checkout's notices. `trove_root()` now prefers the checkout you are working in. Only the wheel-mode run could catch
-this.
+When a new problem is found, add a `@known_issue` scenario that states the correct behaviour, and list it here. The
+harness, scaffolder and probe ship as the **`neo-pragnya/capability-acceptance`** skill.

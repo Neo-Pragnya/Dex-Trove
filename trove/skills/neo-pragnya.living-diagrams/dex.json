@@ -29,7 +29,20 @@
     "notice": "Copyright (c) Neo Pragnya",
     "components": []
   },
-  "inspired_by": [],
+  "inspired_by": [
+    {
+      "title": "Ananke Plexus logo and infographics (the cosmic harness)",
+      "url": "https://github.com/Neo-Pragnya/Ananke-Plexus/tree/main/docs/assets"
+    },
+    {
+      "title": "Plexus / constellation network visuals",
+      "url": "https://en.wikipedia.org/wiki/Plexus"
+    },
+    {
+      "title": "Mermaid (MIT), the diagrams it brings to life",
+      "url": "https://github.com/mermaid-js/mermaid"
+    }
+  ],
   "executes_code": true,
   "members": [],
   "files": [

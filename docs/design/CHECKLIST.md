@@ -144,7 +144,8 @@ Legend: `[x]` done · `[~]` in progress / partial · `[ ]` todo
 - [x] Browser journeys (real headless Chrome via CDP): search/filters, item page, Mermaid render + hover,
       highlighting, theme, 404, 390 px. Run in `docs.yml` before deploy.
 - [x] The wheel-mode run found and fixed `trove_root()` preferring the wheel over the working checkout.
-- [ ] Known issues: duplicate detection within a single learn run; `install` refusals exit 0.
+- [x] Known issues fixed in 0.1.2: duplicate detection within a single learn run; `install` refusals exit 1.
+- [x] New first-party skill `capability-acceptance` (harness + scaffolder + probe + journeys) learned into the trove.
 
 ## Follow-ups / backlog
 - [ ] Move first-party skills into git (this repo's `first-party/` or their own repo) so CI can re-learn them

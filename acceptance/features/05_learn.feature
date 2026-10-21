@@ -36,14 +36,14 @@ Feature: Learning admits only what may be redistributed, and says why for the re
     When I run "dex learn && grep -rIl 'AKIA[A-Z0-9]\{16\}' trove || echo none-found"
     Then the output contains "none-found"
 
-  @known_issue
+ 
   Scenario: An exact duplicate of a higher-priority item is refused on the first learn
     When I run "dex learn"
     Then it succeeds
     And the file "trove/skills/mixed.csv-summary" does not exist
     And the JSON file "trove/EXCLUDED.json" at "excluded.reason" contains "duplicate"
 
-  @known_issue
+ 
   Scenario: Learning twice from unchanged upstreams changes nothing
     Given I have run "dex learn"
     And the changes are committed

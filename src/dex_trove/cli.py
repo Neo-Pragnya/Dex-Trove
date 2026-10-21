@@ -235,6 +235,10 @@ def install(
             console.print(f"[green]✓[/green] {d.kind}:{d.id} → {d.dest}")
         else:
             console.print(f"[yellow]–[/yellow] {d.kind}:{d.id}: {d.skipped}")
+    if not any(d.dest for d in done):
+        # Everything requested was refused or skipped: scripts must not mistake that for success.
+        err.print("[red]✗ nothing was installed[/red]")
+        raise typer.Exit(1)
 
 
 @app.command("license")

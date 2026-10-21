@@ -41,6 +41,11 @@ sources:
           - { title: "Ananke Plexus logo and infographics (the cosmic harness)", url: "https://github.com/Neo-Pragnya/Ananke-Plexus/tree/main/docs/assets" }
           - { title: "Plexus / constellation network visuals", url: "https://en.wikipedia.org/wiki/Plexus" }
           - { title: "Mermaid (MIT), the diagrams it brings to life", url: "https://github.com/mermaid-js/mermaid" }
+      capability-acceptance:
+        inspired_by:
+          - { title: "WWI Data Science Agent course, Week 12 — agent evaluation and release gate", url: "https://github.com/Neo-Pragnya/Dex-Trove/blob/main/acceptance/README.md" }
+          - { title: "pytest-bdd (MIT) — Gherkin scenarios on pytest", url: "https://github.com/pytest-dev/pytest-bdd" }
+          - { title: "Chrome DevTools Protocol", url: "https://chromedevtools.github.io/devtools-protocol/" }
       life-ikigai-architect:
         inspired_by:
           - { title: "Ikigai (Héctor García & Francesc Miralles)", url: "https://en.wikipedia.org/wiki/Ikigai" }

@@ -35,6 +35,10 @@
       "url": "https://graphify.com/"
     },
     {
+      "title": "Particle text effects (canvas pixel sampling)",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData"
+    },
+    {
       "title": "Polar shape morphing (radius-function interpolation)",
       "url": "https://en.wikipedia.org/wiki/Polar_coordinate_system"
     }

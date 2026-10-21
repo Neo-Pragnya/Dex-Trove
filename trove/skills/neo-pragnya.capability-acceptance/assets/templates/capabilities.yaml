@@ -1,0 +1,17 @@
+# What __PRODUCT__ must be able to do before a release, and how much of the CLI the scenarios exercise.
+# Scenarios prove capabilities by tagging themselves @cap_<id> (dots and dashes become underscores).
+# blocker: true → a failing or unproven capability BLOCKs the release; the rest hold it at CONDITIONAL.
+product: __PRODUCT__
+default_fixture: __FIXTURE__
+binaries: [__BINARIES__]
+surface_target: 0.6
+
+capabilities:
+  - { id: packaging, title: "Installs cleanly: entry points, version, fast start", dimension: release, blocker: true }
+  # - { id: core-feature, title: "…what a user relies on…", dimension: core, blocker: true }
+  # - { id: safety, title: "…attack probes with legitimate twins…", dimension: safety, blocker: true }
+  # - { id: cli-ux, title: "Errors are clean: no tracebacks, no success marks on failure", dimension: usability, blocker: false }
+
+# Every user-facing command (discovered from --help; prune what is internal).
+surface:
+__SURFACE__

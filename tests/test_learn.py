@@ -148,3 +148,24 @@ def test_ignore_patterns_unit(tmp_path: Path) -> None:
     assert ignore.is_ignored(["Chosen"], "skills/some-dir", ["some-*"])
     assert ignore.is_ignored(["x"], "skills/x", ["skills/*"])
     assert not ignore.is_ignored(["x"], "skills/x", [])
+
+
+def test_duplicates_are_caught_within_a_single_run(
+    trove: Path, source: Source, upstream: Path, tmp_path: Path
+) -> None:
+    """The first learn on a fresh trove must already refuse a duplicate (not only the second one)."""
+    import shutil
+
+    mirror = tmp_path / "mirror"
+    (mirror / "skills").mkdir(parents=True)
+    (mirror / "LICENSE").write_text((upstream / "LICENSE").read_text())
+    shutil.copytree(upstream / "skills" / "alpha", mirror / "skills" / "alpha")
+    second = Source(
+        id="mirror", title="Mirror", adapter="agent-skills", priority=1, options={"roots": ["skills"]}
+    )
+    learner = learn.Learner(trove)  # one run, both sources, nothing in the catalog yet
+    priority = {"up": 0, "mirror": 1}
+    first = learner.learn(source, upstream, "abc123", priority)
+    result = learner.learn(second, mirror, None, priority)
+    assert first.items
+    assert [e.reason for e in result.excluded] == ["duplicate"]

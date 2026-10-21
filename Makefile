@@ -130,14 +130,14 @@ acceptance-wheel: build acceptance-dist
 acceptance-dist:
 	rm -rf $(ACCEPTANCE_VENV)
 	$(UV) venv -q --python 3.12 $(ACCEPTANCE_VENV)
-	$(UV) pip install -q --python $(ACCEPTANCE_VENV)/bin/python "$$(ls dist/*.whl | head -1)[ananke]" \
+	$(UV) pip install -q --python $(ACCEPTANCE_VENV)/bin/python "$$(ls -t dist/*.whl | head -1)[ananke]" \
 	  pytest pytest-bdd pytest-xdist pyyaml
 	ACCEPTANCE_BIN_DIR=$(CURDIR)/$(ACCEPTANCE_VENV)/bin $(ACCEPTANCE_VENV)/bin/python -m pytest acceptance \
 	  -n auto -p no:cacheprovider $(ACCEPTANCE_ARGS)
 
 # Browser journeys on the built website (real Chrome, run serially: they are timing-sensitive under load).
 acceptance-site:
-	ACCEPTANCE_SITE_DIST=$(CURDIR)/website/dist $(UV) run --frozen pytest acceptance -p no:cacheprovider -k "site or journeys" \
+	ACCEPTANCE_SITE_DIST=$(CURDIR)/website/dist $(UV) run --frozen pytest acceptance -p no:cacheprovider -k journeys \
 	  $(ACCEPTANCE_ARGS)
 
 clean:
