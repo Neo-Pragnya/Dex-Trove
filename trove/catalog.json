@@ -40169,7 +40169,7 @@
         "neo-pragnya",
         "skill"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "entry": "SKILL.md",
       "dir": "skills/neo-pragnya.capability-acceptance",
       "source": {
@@ -40224,8 +40224,8 @@
         "scripts/scaffold_acceptance.py"
       ],
       "entry_hash": "f4babf8cf5aad821d84175a4c5d9ae16254f92d07ab1d44a4b85ab6519217d52",
-      "content_hash": "5555f982562b9a0eee6f68d837f286661c24a3d714b0a33f00c9a923775a86c1",
-      "learned_at": "2026-10-21T02:41:47+00:00"
+      "content_hash": "a3ec55649b5edf397190becbf1b9b8f36fd8dcd70ffa79ba12dc4db71a69df11",
+      "learned_at": "2026-10-21T04:04:36+00:00"
     },
     {
       "id": "neo-pragnya/interactive-web-motion",

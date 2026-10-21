@@ -13,6 +13,26 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 
 ---
 
+## [0.1.3] — 2026-10-21
+
+### Added
+
+- Docs: **switch Dex Trove on with Ananke's `[troves]` setting** (Ananke 0.3.7+): `ananke registry troves enable
+  dex-trove` and `sync`. This replaces the roadmap section. An acceptance scenario proves it end to end.
+
+### Changed
+
+- TestPyPI publishing runs only when the `TESTPYPI_ENABLED` repository variable is set. Otherwise the workflow skips
+  with setup instructions instead of failing.
+- The `ananke` extra locks ananke-plexus 0.3.7.
+
+### Trove
+
+- `neo-pragnya/capability-acceptance` updated: partial-run gate, and browser journeys that use a mock keychain and
+  a watchdog.
+
+---
+
 ## [0.1.2] — 2026-10-20
 
 ### Added

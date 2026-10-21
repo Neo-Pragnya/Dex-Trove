@@ -1,7 +1,7 @@
 kind: skill
 namespace: neo-pragnya
 name: capability-acceptance
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:neo-pragnya:capability-acceptance
 summary: Behaviour-level acceptance testing and a release gate for any CLI tool or Python package.
 description: Behaviour-level acceptance testing and a release gate for any CLI tool or Python package. Gherkin scenarios

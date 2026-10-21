@@ -49,11 +49,29 @@ const origin = `http://127.0.0.1:${server.address().port}`;
 
 // ---------------------------------------------------------------------------------------------- CDP plumbing
 const port = 9500 + Math.floor(Math.random() * 400);
-const chrome = spawn(CHROME, ["--headless=new", `--remote-debugging-port=${port}`, `--user-data-dir=${mkdtempSync(join(tmpdir(), "journeys-"))}`, "--no-first-run", "--hide-scrollbars", "about:blank"], { stdio: "ignore" });
+// --use-mock-keychain / --password-store=basic: with an isolated HOME (as in the acceptance sandbox) macOS
+// Chrome otherwise blocks on the login keychain and the whole run hangs.
+const chrome = spawn(
+  CHROME,
+  ["--headless=new", `--remote-debugging-port=${port}`, `--user-data-dir=${mkdtempSync(join(tmpdir(), "journeys-"))}`,
+    "--no-first-run", "--no-default-browser-check", "--use-mock-keychain", "--password-store=basic", "--hide-scrollbars", "about:blank"],
+  { stdio: "ignore" },
+);
+// Watchdog: a hang anywhere fails fast with a clear message instead of eating the caller's timeout.
+const WATCHDOG_MS = Number(process.env.JOURNEYS_TIMEOUT_MS || 180000);
+setTimeout(() => {
+  console.log(`✗ journeys timed out after ${WATCHDOG_MS / 1000}s`);
+  chrome.kill();
+  process.exit(1);
+}, WATCHDOG_MS).unref();
 let target;
-for (let i = 0; i < 60 && !target; i++) {
+for (let i = 0; i < 100 && !target; i++) {
   await sleep(150);
   try { target = (await (await fetch(`http://127.0.0.1:${port}/json`)).json()).find((t) => t.type === "page"); } catch {}
+}
+if (!target) {
+  console.log("✗ Chrome did not expose a DevTools target (is CHROME correct?)");
+  process.exit(1);
 }
 const ws = new WebSocket(target.webSocketDebuggerUrl);
 await new Promise((r) => ws.addEventListener("open", r));

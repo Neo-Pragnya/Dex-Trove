@@ -9,6 +9,29 @@ Dex Trove is designed to be loaded into [Ananke Plexus](https://github.com/Neo-P
 ships a strict Ananke manifest (`ananke.yaml`) inside the wheel, so Ananke can discover and register the whole
 library with no glue code.
 
+## Recommended: switch it on with `[troves]` (Ananke 0.3.7+)
+
+```bash
+pip install "ananke-plexus[dex]"        # Ananke + Dex Trove
+cd my-project && ananke init
+ananke registry troves list              # [off] dex-trove  dex-trove 0.1.3  972 items
+ananke registry troves enable dex-trove --kind skill --kind agent   # writes [troves.dex-trove]
+ananke registry troves sync              # learns that slice; secret-flagged items are skipped
+```
+
+```toml
+# .ananke/config.toml (written by `troves enable`, safe to edit)
+[troves.dex-trove]
+enabled = true
+kinds = ["skill", "agent"]      # empty = every kind
+namespaces = []                 # e.g. ["neo-pragnya"]
+include_flagged = false
+```
+
+Re-run `ananke registry troves sync` after `pip install -U dex-trove`: unchanged items stay as they are, and changed
+ones get a new version. Ananke finds any trove through the `ananke.troves` entry point, so Dex needs no other glue.
+The options below remain for one-off loads and older Ananke versions.
+
 ## Option A: learn the installed package (everything)
 
 ```bash
@@ -115,21 +138,3 @@ pip install -U dex-trove
 ananke registry learn python:dex-trove     # registers new versions only for items whose content changed
 ananke apm upgrade --dry-run
 ```
-
-## Roadmap: the `[troves]` setting
-
-The planned Ananke-side integration (tracked in [the design doc](../design/DESIGN.md#9-ananke-integration)):
-
-```bash
-pip install "ananke-plexus[dex]"
-```
-
-```toml
-# .ananke/registry/policy.toml
-[troves]
-dex-trove = { enabled = true, kinds = ["skill", "agent"], sources = ["*"], channel = "candidate" }
-```
-
-With this, `ananke registry init` and `ananke sync` would learn the installed trove automatically, and re-learn
-when the `dex-trove` version changes. Dex already exposes the entry point (`ananke.troves`) that Ananke needs to
-find any trove package generically.

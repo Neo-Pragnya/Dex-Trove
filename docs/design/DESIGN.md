@@ -257,6 +257,9 @@ top of Dex's. That's defence in depth.
 3. Dex exposes an entry point `ananke.troves: dex-trove = dex_trove.ananke_bridge:trove_root` so Ananke can find
    any trove package generically, not just Dex.
 
+**Shipped in Ananke 0.3.7:** `ananke registry troves list|enable|sync` with `[troves.dex-trove]` in
+`.ananke/config.toml`, discovered through the `ananke.troves` entry point.
+
 ## 10. Docs site
 
 Astro (same stack as VICHARA), static, deployed to GitHub Pages.

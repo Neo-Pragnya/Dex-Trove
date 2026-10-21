@@ -18,3 +18,16 @@ Feature: Ananke Plexus learns the trove
     And the output contains "SECRET_DETECTED"
     When I run "ananke registry list --json"
     Then the JSON output has at least 900 items
+
+  Scenario: A project switches Dex Trove on with Ananke's [troves] setting
+    When I run "ananke registry troves list --json"
+    Then it succeeds
+    And the JSON output at "name" contains "dex-trove"
+    When I run "ananke registry troves enable dex-trove --kind skill --namespace neo-pragnya"
+    Then it succeeds
+    When I run "ananke registry troves sync --json"
+    Then it succeeds
+    And the JSON output at "[0].denied" equals 0
+    When I run "ananke skill list"
+    Then the output contains "neo-pragnya/living-diagrams"
+    And the output contains "neo-pragnya/capability-acceptance"
