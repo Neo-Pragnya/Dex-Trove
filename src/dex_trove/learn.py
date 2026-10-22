@@ -591,13 +591,24 @@ def finalize(trove: Path, results: list[SourceResult], sources: list[Source]) ->
         counts: dict[str, int] = {}
         for it in r.items:
             counts[it["kind"]] = counts.get(it["kind"], 0) + 1
-        lock["sources"][r.source.id] = {
+        entry = {
             "repo": r.source.web_url,
             "ref": r.source.ref,
             "commit": r.commit,
-            "learned_at": now_iso(),
             "items": dict(sorted(counts.items())),
             "excluded": len(r.excluded),
+        }
+        # Keep the old timestamp when nothing changed, so re-learning an unchanged upstream leaves the lock alone.
+        old = lock["sources"].get(r.source.id, {})
+        unchanged = old and {k: v for k, v in old.items() if k != "learned_at"} == entry
+        learned_at = old.get("learned_at") if unchanged else now_iso()
+        lock["sources"][r.source.id] = {
+            "repo": entry["repo"],
+            "ref": entry["ref"],
+            "commit": entry["commit"],
+            "learned_at": learned_at,
+            "items": entry["items"],
+            "excluded": entry["excluded"],
         }
     known = {s.id for s in sources}
     lock["sources"] = {k: v for k, v in sorted(lock["sources"].items()) if k in known}

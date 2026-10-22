@@ -13,6 +13,25 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 
 ---
 
+## [0.1.4] — 2026-10-21
+
+### Changed
+
+- **Releases publish from CI.** This is the first Dex Trove release built, gated and uploaded by `release-pypi.yml`
+  after a tag push, rather than from a laptop.
+  - TestPyPI publishing is switched on.
+  - Both `pypi` and `testpypi` environments have publish secrets until a trusted publisher replaces them.
+  - No trove content changes since 0.1.3.
+
+### Fixed
+
+- **Re-learning an unchanged upstream no longer rewrites `trove.lock.json`.** `learned_at` was restamped on every
+  run, so the lock showed churn with nothing changed. The acceptance scenario for this was flaky: it failed only
+  when the two runs straddled a clock tick. The timestamp now moves only when the commit, the item counts or the
+  exclusions change.
+
+---
+
 ## [0.1.3] — 2026-10-21
 
 ### Added

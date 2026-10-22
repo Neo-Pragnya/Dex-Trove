@@ -169,3 +169,19 @@ def test_duplicates_are_caught_within_a_single_run(
     result = learner.learn(second, mirror, None, priority)
     assert first.items
     assert [e.reason for e in result.excluded] == ["duplicate"]
+
+
+def test_relearning_unchanged_upstream_keeps_lock_byte_identical(
+    trove: Path, source: Source, upstream: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    import itertools
+
+    tick = itertools.count(1)  # every call is a later instant, as if each run took a while
+    monkeypatch.setattr(learn, "now_iso", lambda: f"2026-01-01T00:00:{next(tick):02d}Z")
+    run(trove, source, upstream)
+    before = (trove / "trove.lock.json").read_text()
+    run(trove, source, upstream)
+    assert (trove / "trove.lock.json").read_text() == before
+    run(trove, source, upstream, commit="def456")  # a new upstream commit is a real change
+    old, new = json.loads(before), json.loads((trove / "trove.lock.json").read_text())
+    assert new["sources"][source.id]["learned_at"] > old["sources"][source.id]["learned_at"]
