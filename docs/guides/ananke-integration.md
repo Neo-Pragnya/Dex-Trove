@@ -14,7 +14,7 @@ library with no glue code.
 ```bash
 pip install "ananke-plexus[dex]"        # Ananke + Dex Trove
 cd my-project && ananke init
-ananke registry troves list              # [off] dex-trove  dex-trove 0.1.3  972 items
+ananke registry troves list              # [off] dex-trove  dex-trove 0.1.6  964 items
 ananke registry troves enable dex-trove --kind skill --kind agent   # writes [troves.dex-trove]
 ananke registry troves sync              # learns that slice; secret-flagged items are skipped
 ```

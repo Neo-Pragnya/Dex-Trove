@@ -8,7 +8,8 @@ sources:
     title: Neo Pragnya (first-party)
     description: >-
       Skills developed in-house: architecture-as-code with animated SVG diagrams, Astro documentation sites,
-      interactive web motion, and a life Ikigai architect. Personal skills in the same folder are hidden by the
+      interactive web motion, living diagrams, capability acceptance testing, package security scanning, and a
+      life Ikigai architect. Personal skills in the same folder are hidden by the
       folder's own .dexignore (never named in this repo).
     adapter: agent-skills
     local: ../Skills

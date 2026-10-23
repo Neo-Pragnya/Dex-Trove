@@ -18,7 +18,7 @@ also installs straight into Claude Code and GitHub Copilot, so you don't need An
 flowchart LR
   U[Open repos<br/>awesome-copilot · anthropic · superpowers] --> L[dex learn<br/>licence · guards · normalise]
   F[First-party skills] --> L
-  L --> T[(trove/<br/>970 items)]
+  L --> T[(trove/<br/>964 items)]
   T --> P[PyPI: dex-trove]
   P --> A[Ananke registry]
   P --> C[Claude Code]

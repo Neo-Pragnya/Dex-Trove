@@ -13,6 +13,23 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 
 ---
 
+## [0.1.6] — 2026-10-22
+
+### Added
+
+- **First-party skill `package-security-scan`**, so other projects can repeat the work behind 0.1.5. It finds out
+  why a package is quarantined by Black Duck-class firewalls and fixes it with free tools:
+  - the distribution scan script and a CI job with pinned tools;
+  - a gitleaks template for reviewed false positives;
+  - a guide that maps firewall report wording to causes and fixes.
+
+  The trove has 964 items.
+
+### Changed
+
+- The gitleaks history scan pins five historical placeholder findings by fingerprint (`.gitleaksignore`), instead
+  of allowlisting `trove/` and `tests/` wholesale.
+
 ## [0.1.5] — 2026-10-22
 
 ### Security

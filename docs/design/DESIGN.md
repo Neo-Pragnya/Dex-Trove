@@ -201,7 +201,7 @@ lose good content. Shipping them silently would make `ananke registry learn pyth
 
 **Since 0.1.5 they are excluded.** Package firewalls and SCA tools (Black Duck, JFrog Xray, Sonatype, Socket) scan
 the published wheel with gitleaks-class rules. They can't tell a placeholder from a key, so one hit quarantines
-all 963 items. `EXCLUDED.json` keeps the rule and line (never the text), so a reviewer can still find them
+every item in the trove. `EXCLUDED.json` keeps the rule and line (never the text), so a reviewer can still find them
 upstream. `dex ananke sync --include-flagged` and the bridge's `secret_flags` filter remain for troves built
 before 0.1.5. `scripts/scan_dist.py` runs the same class of scan on every release (see the release guide).
 

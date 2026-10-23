@@ -155,6 +155,8 @@ Legend: `[x]` done · `[~]` in progress / partial · `[ ]` todo
 - [x] Fixed: items sharing a name across kinds (34 ids) lost their version history on every learn.
 - [x] `scripts/scan_dist.py` + `make scan`; the release workflow's `dist-scan` job blocks publish on secrets or
       vulnerable dependencies and uploads the report. `.gitleaks.toml` lists the two reviewed false positives.
+- [x] New first-party skill `package-security-scan` (scan script, CI job, gitleaks template, quarantine guide)
+      learned into the trove (0.1.6).
 - [ ] Heuristic hits remain on third-party scripts in the trove (base64 icons, detached spawn, env-var keys).
       They're inherent to a skill library. Option: split the content into its own distribution.
 

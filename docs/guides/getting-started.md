@@ -18,7 +18,7 @@ pip install dex-trove          # or: uv tool install dex-trove   /   pipx instal
 dex --version                  # dex-trove 0.1.0
 ```
 
-The whole library (970 items) is inside the wheel. No network access is needed after installation.
+The whole library (964 items) is inside the wheel. No network access is needed after installation.
 
 ## Find something
 

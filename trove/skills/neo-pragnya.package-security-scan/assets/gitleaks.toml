@@ -1,0 +1,14 @@
+# gitleaks configuration used by scripts/scan_dist.py and the release gate: the default rules plus reviewed
+# false positives. Keep each allowlist narrow and say why; a real credential must never be allowlisted.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "UUIDs are identifiers, not keys (e.g. sample data rows)"
+regexTarget = "secret"
+regexes = ['''^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$''']
+
+[[allowlists]]
+description = "Example: a public design-file key quoted as a reference (replace with your own reviewed case, or delete)"
+targetRules = ["generic-api-key"]
+paths = ['''path/to/reviewed-file\.md$''']

@@ -1,6 +1,6 @@
 {
-  "generator": "dex-trove 0.1.4",
-  "count": 963,
+  "generator": "dex-trove 0.1.5",
+  "count": 964,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -40050,6 +40050,51 @@
       "notes": [
         "130 file(s) withheld by sources.yaml exclude globs (third-party terms)"
       ]
+    },
+    {
+      "id": "neo-pragnya/package-security-scan",
+      "kind": "skill",
+      "namespace": "neo-pragnya",
+      "name": "package-security-scan",
+      "title": "Package security scan",
+      "description": "Find out why a Python package gets quarantined, flagged or blocked by package firewalls and SCA tools (Black Duck, JFrog Xray or Curation, Sonatype Nexus Firewall, Snyk, Mend, Socket), and fix it with free tools instead of a subscription. It scans the exact built or published wheel and sdist: secrets with gitleaks, vulnerable dependencies with pip-audit, Grype or OSV, malicious-package heuristics with GuardDog, Bandit, licence metadata, and an inventory of scripts, binaries and minified JS. It produces a report, applies honest fixes (remove secret-shaped strings, declare every bundled licence, close real code issues), and adds a blocking dist-scan job to the release workflow. Use whenever someone says their package was quarantined, flagged, blocked or failed a security scan, asks for a security scan or report without a paid tool, wants an SBOM or pre-release security gate for PyPI, or asks what Black Duck or a package firewall will find, even if they don't say scan.",
+      "tags": [
+        "executes-code",
+        "neo-pragnya",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya.package-security-scan",
+      "source": {
+        "id": "neo-pragnya",
+        "title": "Neo Pragnya (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+        "commit": null,
+        "path": "package-security-scan",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.package-security-scan",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "first-party default (sources.yaml)",
+        "notice": "Copyright (c) Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "assets/dist-scan-job.yml",
+        "assets/gitleaks.toml",
+        "references/quarantine-reasons.md",
+        "scripts/scan_dist.py"
+      ],
+      "entry_hash": "14f69a8dc6857b2645b7d304c20618ffaa1917d5c099fc68e5c0772e37d6e2cd",
+      "content_hash": "171cb2193acd315ac969d5f59db9220331ff9b37bff1f5818a9f002f7f20e47b",
+      "learned_at": "2026-10-23T02:25:36+00:00"
     },
     {
       "id": "superpowers/brainstorming",
