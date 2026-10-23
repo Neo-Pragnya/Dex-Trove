@@ -13,7 +13,7 @@ Licences: MIT (6 items)
 ## Awesome GitHub Copilot
 
 Source: <https://github.com/github/awesome-copilot>  
-Licences: Apache-2.0 (10 items), MIT (927 items)
+Licences: Apache-2.0 (9 items), MIT (919 items)
 
 - Copyright (c) 2026 Stanislav Bankovskii
 - Copyright (c) Microsoft Corporation. All rights reserved.

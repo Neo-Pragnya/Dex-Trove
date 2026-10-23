@@ -14,16 +14,16 @@
       "repo": "https://github.com/github/awesome-copilot",
       "ref": "main",
       "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-      "learned_at": "2026-10-20T04:06:53+00:00",
+      "learned_at": "2026-10-22T02:32:27+00:00",
       "items": {
-        "agent": 222,
-        "hook": 8,
-        "instruction": 192,
+        "agent": 220,
+        "hook": 7,
+        "instruction": 189,
         "plugin": 72,
-        "skill": 435,
+        "skill": 432,
         "workflow": 8
       },
-      "excluded": 32
+      "excluded": 41
     },
     "neo-pragnya": {
       "repo": "https://github.com/Neo-Pragnya/Dex-Trove",

@@ -39,7 +39,6 @@
   "inspired_by": [],
   "executes_code": false,
   "members": [
-    "agent:awesome-copilot/se-gitops-ci-specialist",
     "agent:awesome-copilot/se-product-manager-advisor",
     "agent:awesome-copilot/se-responsible-ai-code",
     "agent:awesome-copilot/se-security-reviewer",

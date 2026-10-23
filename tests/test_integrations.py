@@ -36,19 +36,26 @@ def test_ananke_sync_filters_and_skips_flagged(
     trove: Path, source: Source, upstream: Path, tmp_path: Path, fake_ananke: tuple[Path, Path]
 ) -> None:
     _learned(trove, source, upstream)
+    # Troves learned before 0.1.5 kept placeholder items with `secret_flags`; the bridge must still skip them.
+    cat_path = trove / "catalog.json"
+    cat = json.loads(cat_path.read_text())
+    for item in cat["items"]:
+        if item["name"] == "fonts":
+            item["secret_flags"] = ["generic-credential SKILL.md:9"]
+    cat_path.write_text(json.dumps(cat))
     exe, log = fake_ananke
     selected, proc = ananke_bridge.sync(project=tmp_path, kinds=["skill"], ananke_bin=str(exe))
     names = {i["name"] for i in selected}
-    assert "alpha" in names and "teaching" not in names  # flagged placeholder item skipped
+    assert "alpha" in names and "fonts" not in names  # flagged placeholder item skipped
     assert proc.returncode == 0
     text = log.read_text()
     assert "registry learn" in text and f"--project {tmp_path}" in text
-    assert "up.alpha" in text and "up.teaching" not in text
+    assert "up.alpha" in text and "up.fonts" not in text
 
     selected, _ = ananke_bridge.sync(
-        project=tmp_path, names=["teaching"], include_flagged=True, ananke_bin=str(exe), dry_run=True
+        project=tmp_path, names=["fonts"], include_flagged=True, ananke_bin=str(exe), dry_run=True
     )
-    assert [i["name"] for i in selected] == ["teaching"]
+    assert [i["name"] for i in selected] == ["fonts"]
     assert "--dry-run" in log.read_text()
 
 

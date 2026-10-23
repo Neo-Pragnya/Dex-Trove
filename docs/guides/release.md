@@ -69,7 +69,9 @@ git push origin main "v$VERSION"
 ```text
 release-testpypi.yml            release-pypi.yml
   └─ build                        └─ build (version check · tests · dex validate · uv build · twine check · SBOM)
-  └─ trivy (CRITICAL)             └─ trivy (CRITICAL + HIGH, blocking)
+  └─ trivy (CRITICAL)             └─ acceptance (built wheel)
+                                  └─ dist-scan (gitleaks · pip-audit block; GuardDog · Bandit reported)
+                                  └─ trivy (CRITICAL + HIGH, blocking)
   └─ provenance                   └─ provenance (attest-build-provenance)
   └─ publish TestPyPI             └─ publish PyPI (OIDC, token fallback)
                                   └─ GitHub Release (dist + notes)
@@ -79,6 +81,18 @@ release-testpypi.yml            release-pypi.yml
 
 **Idempotent:** if the version is already on (Test)PyPI, for example after a manual `make publish-pypi`, the
 publish job is skipped and only the GitHub Release is created.
+
+### Scan before you tag
+
+Package firewalls (Black Duck, JFrog Xray and Curation, Sonatype, Socket) quarantine wheels for secret-shaped
+strings, vulnerable dependencies, malicious-code heuristics and licence mismatches. `make scan` runs the free
+equivalents on the built wheel and sdist and writes `scan-report/summary.md`. It needs `gitleaks` and `uv`, and
+fetches the Python tools through `uvx`. The `dist-scan` job runs the same script with pinned tool versions.
+
+- **Blocking.** Any gitleaks or pip-audit finding stops the release. Fix the content; allowlist a reviewed false
+  positive narrowly in `.gitleaks.toml`, with the reason.
+- **Reported.** GuardDog rules fire on third-party scripts in the trove (spawning processes, reading env-var API
+  keys, base64 icons). Read each new hit: it is either expected for that item, or a reason to exclude it.
 
 ## 4. Manual publish (fallback)
 

@@ -45,9 +45,10 @@ ananke registry learn python:dex-trove           # everything in the installed w
 dex ananke sync --kind skill --source neo-pragnya # or a curated slice
 ```
 
-Plugins become Ananke **bundles** whose members resolve to the trove's skills and agents. A few security-teaching items
-carry credential-shaped *placeholders* that Ananke's secret scanner refuses by default. They are tagged
-`ananke-secret-flag`, and `dex ananke sync` skips them unless you pass `--include-flagged`.
+Plugins become Ananke **bundles** whose members resolve to the trove's skills and agents. Items whose text contains
+credential-shaped strings are left out of the trove (`secret-shaped` in `EXCLUDED.json`), even when the strings
+are only placeholders. A secret scanner can't tell a placeholder from a real key, and a package firewall
+quarantines the whole wheel for one hit.
 
 ## Licence policy in one table
 

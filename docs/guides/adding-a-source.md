@@ -64,8 +64,9 @@ Review:
 - **Every exclusion.** Is `license-denied` correct? A `no licence found` often means the item really has none.
 - **A sample of admitted items.** Open `dex.json` and check the `license.evidence` matches what you'd expect.
 - **`executes-code` items.** Skim the scripts.
-- **`secret_flags`.** Placeholders, or a real secret? A real one would have been excluded by Dex's own guard, so
-  if you see a live credential, report it upstream and exclude the item.
+- **`secret` and `secret-shaped` exclusions.** `secret` matched a real key format. `secret-shaped` is usually a
+  placeholder in teaching content: it's excluded anyway so the wheel passes package scanners. If an upstream
+  item contains a live credential, report it upstream.
 
 Open a PR with the `dex learn` summary line in the description.
 
@@ -91,6 +92,7 @@ If the layout isn't covered, add a function to `src/dex_trove/adapters.py`:
 def my_layout(root: Path, options: dict[str, Any]) -> Iterator[RawItem]:
     for path in sorted((root / "rules").glob("*.mdc")):
         yield _md_item("instruction", path, name=path.stem, is_dir=False, entry=path.name)
+
 
 ADAPTERS["my-layout"] = my_layout
 ```

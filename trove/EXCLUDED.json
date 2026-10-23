@@ -1,5 +1,5 @@
 {
-  "count": 37,
+  "count": 46,
   "excluded": [
     {
       "source": "anthropic",
@@ -40,6 +40,54 @@
       "path": "skills/xlsx",
       "reason": "license-denied",
       "detail": "LicenseRef-Proprietary — skills/xlsx/LICENSE.txt: restrictive terms ('governed by your agreement with')"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "agent",
+      "name": "aem-frontend-specialist",
+      "path": "agents/aem-frontend-specialist.agent.md",
+      "reason": "secret-shaped",
+      "detail": "generic-credential aem-frontend-specialist.agent.md:287; generic-credential aem-frontend-specialist.agent.md:291; generic-credential aem-frontend-specialist.agent.md:357"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "agent",
+      "name": "se-gitops-ci-specialist",
+      "path": "agents/se-gitops-ci-specialist.agent.md",
+      "reason": "secret-shaped",
+      "detail": "generic-credential se-gitops-ci-specialist.agent.md:92"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "hook",
+      "name": "secrets-scanner",
+      "path": "hooks/secrets-scanner",
+      "reason": "secret-shaped",
+      "detail": "aws-access-key README.md:105; private-key README.md:112"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "instruction",
+      "name": "code-review-generic",
+      "path": "instructions/code-review-generic.instructions.md",
+      "reason": "secret-shaped",
+      "detail": "generic-credential code-review-generic.instructions.md:142"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "instruction",
+      "name": "dataverse-python-real-world-usecases",
+      "path": "instructions/dataverse-python-real-world-usecases.instructions.md",
+      "reason": "secret-shaped",
+      "detail": "generic-credential dataverse-python-real-world-usecases.instructions.md:289"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "instruction",
+      "name": "security-and-owasp",
+      "path": "instructions/security-and-owasp.instructions.md",
+      "reason": "secret-shaped",
+      "detail": "generic-credential security-and-owasp.instructions.md:421"
     },
     {
       "source": "awesome-copilot",
@@ -296,6 +344,30 @@
       "path": "plugins/work-hub",
       "reason": "out-of-scope",
       "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "skill",
+      "name": "namecheap",
+      "path": "skills/namecheap",
+      "reason": "secret-shaped",
+      "detail": "generic-credential namecheap.py:168"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "skill",
+      "name": "pinecone-rag",
+      "path": "skills/pinecone-rag",
+      "reason": "secret-shaped",
+      "detail": "generic-credential SKILL.md:50"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "skill",
+      "name": "security-review",
+      "path": "skills/security-review",
+      "reason": "secret-shaped",
+      "detail": "generic-credential references/secret-patterns.md:142; generic-credential references/secret-patterns.md:160; aws-access-key references/secret-patterns.md:161"
     }
   ]
 }

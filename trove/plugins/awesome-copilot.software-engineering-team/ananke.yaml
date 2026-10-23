@@ -20,8 +20,6 @@ permissions:
     allow: []
   network: []
 members:
-- ref: ananke://agent/awesome-copilot/se-gitops-ci-specialist
-  version: '*'
 - ref: ananke://agent/awesome-copilot/se-product-manager-advisor
   version: '*'
 - ref: ananke://agent/awesome-copilot/se-responsible-ai-code

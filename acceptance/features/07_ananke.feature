@@ -12,10 +12,11 @@ Feature: Ananke Plexus learns the trove
     Then it succeeds
     And the output contains "neo-pragnya/living-diagrams"
 
-  Scenario: Ananke learns the whole wheel; placeholder secrets are refused by design
+  Scenario: Ananke learns the whole wheel and its secret scanner refuses nothing
+    # Since 0.1.5 secret-shaped items are excluded at learn time, so nothing in the wheel trips a scanner.
     When I run "ananke registry learn python:dex-trove"
-    Then it does not crash
-    And the output contains "SECRET_DETECTED"
+    Then it succeeds
+    And the output does not contain "SECRET_DETECTED"
     When I run "ananke registry list --json"
     Then the JSON output has at least 900 items
 

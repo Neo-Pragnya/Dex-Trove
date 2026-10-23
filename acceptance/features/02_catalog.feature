@@ -8,7 +8,7 @@ Feature: People find the right dexterity
   Scenario: Filters narrow by kind and by source
     When I run "dex list --kind hook --json"
     Then it succeeds
-    And the JSON output at "kind" equals ["hook", "hook", "hook", "hook", "hook", "hook", "hook", "hook"]
+    And the JSON output at "kind" equals ["hook", "hook", "hook", "hook", "hook", "hook", "hook"]
     When I run "dex list --source neo-pragnya --json"
     Then it succeeds
     And the JSON output has at least 5 items

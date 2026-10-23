@@ -52,12 +52,12 @@ that, or use option B, which skips them.
 ## Option B: `dex ananke sync` (filtered, clean exit)
 
 ```bash
-dex ananke sync --project .                                   # all items except secret-flagged ones
+dex ananke sync --project .                                   # every item in the trove
 dex ananke sync --project . --kind skill --kind agent         # only skills and agents
 dex ananke sync --project . --source neo-pragnya              # only first-party
 dex ananke sync --project . --name superpowers/systematic-debugging --name git-commit
 dex ananke sync --project . --dry-run                         # report, register nothing
-dex ananke sync --project . --include-flagged                 # also offer flagged items
+dex ananke sync --project . --include-flagged                 # troves built before 0.1.5: also offer flagged items
 ```
 
 `dex ananke sync` selects items from the catalog, stages them in a temporary directory and runs

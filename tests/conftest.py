@@ -53,8 +53,9 @@ def upstream(tmp_path: Path) -> Path:
     skill(root, "apache-declared", fm="license: Apache-2.0\n")
     skill(root, "see-file", fm="license: Complete terms in LICENSE.txt\n", files={"LICENSE.txt": MIT})
     skill(root, "fonts", files={"canvas-fonts/Foo-OFL.txt": OFL, "canvas-fonts/Foo.ttf": "binary"})
-    skill(root, "leaky", files={"cfg.env": "AWS_KEY=AKIAABCDEFGHIJKLMNOP\n"})
-    skill(root, "teaching", body='Never do this: const API_KEY = "sk_live_abc123xyz789abc";')
+    # Credential-shaped strings are assembled at runtime so the sdist (which ships tests/) holds none.
+    skill(root, "leaky", files={"cfg.env": "AWS_KEY=" + "AKIA" + "ABCDEFGHIJKLMNOP" + "\n"})
+    skill(root, "teaching", body='Never do this: const API_KEY = "' + "sk_" + "live_abc123xyz789abc" + '";')
     skill(root, "runner", files={"scripts/run.sh": "echo hi\n"})
     (root / "agents").mkdir()
     (root / "agents" / "Helper.agent.md").write_text(

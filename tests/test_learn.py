@@ -27,6 +27,7 @@ def test_admission_rules(trove: Path, source: Source, upstream: Path) -> None:
 
     assert reasons["closed"] == "license-denied"
     assert reasons["leaky"] == "secret"
+    assert reasons["teaching"] == "secret-shaped"  # a placeholder still gets a wheel quarantined
     assert reasons["canvas"] == "out-of-scope"
     assert {"skill:alpha", "skill:apache-declared", "skill:see-file", "skill:fonts", "skill:runner"} <= set(
         items
@@ -34,7 +35,9 @@ def test_admission_rules(trove: Path, source: Source, upstream: Path) -> None:
     assert items["skill:see-file"]["license"]["spdx"] == "MIT"
     assert items["skill:fonts"]["license"]["components"] == ["OFL-1.1"]
     assert items["skill:runner"]["executes_code"] is True
-    assert "ananke-secret-flag" in items["skill:teaching"]["tags"]
+    assert "skill:teaching" not in items
+    excluded = (trove / "EXCLUDED.json").read_text()
+    assert "generic-credential SKILL.md" in excluded and "abc123xyz789" not in excluded  # where, never what
     assert items["instruction:py"]["apply_to"] == "**/*.py"
     assert (
         items["agent:helper"]["source"]["url"]
@@ -185,3 +188,19 @@ def test_relearning_unchanged_upstream_keeps_lock_byte_identical(
     run(trove, source, upstream, commit="def456")  # a new upstream commit is a real change
     old, new = json.loads(before), json.loads((trove / "trove.lock.json").read_text())
     assert new["sources"][source.id]["learned_at"] > old["sources"][source.id]["learned_at"]
+
+
+def test_same_name_in_two_kinds_keeps_each_version_history(
+    trove: Path, source: Source, upstream: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    (upstream / "agents" / "Alpha.agent.md").write_text(
+        "---\nname: alpha\ndescription: 'An agent.'\n---\n\nHi.\n"
+    )
+    run(trove, source, upstream)
+    first = {(i["kind"], i["name"]): i for i in catalog.load(trove)}
+    assert ("agent", "alpha") in first and ("skill", "alpha") in first
+    monkeypatch.setattr(learn, "now_iso", lambda: "2099-01-01T00:00:00Z")
+    run(trove, source, upstream)
+    again = {(i["kind"], i["name"]): i for i in catalog.load(trove)}
+    for key in (("agent", "alpha"), ("skill", "alpha")):
+        assert again[key]["learned_at"] == first[key]["learned_at"]  # unchanged content keeps its record

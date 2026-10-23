@@ -147,6 +147,17 @@ Legend: `[x]` done · `[~]` in progress / partial · `[ ]` todo
 - [x] Known issues fixed in 0.1.2: duplicate detection within a single learn run; `install` refusals exit 1.
 - [x] New first-party skill `capability-acceptance` (harness + scaffolder + probe + journeys) learned into the trove.
 
+## Phase 10 — Package scanners and quarantine (2026-10-22)
+- [x] Scanned the published 0.1.4 wheel and sdist with free tools: gitleaks, pip-audit, Grype, Trivy, GuardDog, Bandit.
+      No vulnerable dependencies. Secret-shaped strings were found in 9 trove items and in `tests/conftest.py`.
+- [x] Secret-shaped items are now excluded (`secret-shaped`); test credentials are assembled at runtime.
+- [x] `license` declares `MIT AND Apache-2.0 AND OFL-1.1`; `tests/test_packaging.py` keeps it in step with the trove.
+- [x] Fixed: items sharing a name across kinds (34 ids) lost their version history on every learn.
+- [x] `scripts/scan_dist.py` + `make scan`; the release workflow's `dist-scan` job blocks publish on secrets or
+      vulnerable dependencies and uploads the report. `.gitleaks.toml` lists the two reviewed false positives.
+- [ ] Heuristic hits remain on third-party scripts in the trove (base64 icons, detached spawn, env-var keys).
+      They're inherent to a skill library. Option: split the content into its own distribution.
+
 ## Follow-ups / backlog
 - [ ] Move first-party skills into git (this repo's `first-party/` or their own repo) so CI can re-learn them
 - [x] Light-mode visual pass on the docs site (verified by screenshot)

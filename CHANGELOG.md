@@ -13,6 +13,31 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 
 ---
 
+## [0.1.5] — 2026-10-22
+
+### Security
+
+- **The wheel and sdist pass package scanners' secret checks.** Scanners in the Black Duck and JFrog class
+  quarantine a wheel that contains credential-shaped strings, even placeholders.
+  - The 9 security-teaching items whose placeholders trip those rules are now excluded as `secret-shaped`.
+    `EXCLUDED.json` records the rule and line, never the text. The trove has 963 items.
+  - `tests/conftest.py` assembles its fake keys at runtime, so the sdist holds none.
+- **Licence metadata matches the contents.** `License-Expression` is `MIT AND Apache-2.0 AND OFL-1.1`, not MIT
+  alone. A test fails if a newly learned licence isn't declared.
+
+### Added
+
+- `scripts/scan_dist.py` and `make scan` check the built wheel and sdist with free tools:
+  - gitleaks and pip-audit block on any finding;
+  - GuardDog, Bandit and an inventory of scripts and binaries are reported.
+- The `dist-scan` release job runs the scan, and publishing waits for it.
+
+### Fixed
+
+- Items that share a name across kinds (an agent and a skill both called `arch`; 34 such ids) lost their
+  `learned_at` and could lose their version history on every learn. The previous record is now looked up by
+  kind and id.
+
 ## [0.1.4] — 2026-10-21
 
 ### Changed

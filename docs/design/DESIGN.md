@@ -191,13 +191,19 @@ Architecture Icons. AWS grants use *in diagrams*, not redistribution as an icon 
 | Name | Ananke `_NAME_RE` (lower-kebab, ≤ 64) after slugify | slugify; collision means exclude |
 | Private items | `.dexignore` in the source root, or `~/.config/dex-trove/ignore` (`[source:]pattern`) | skipped silently: not copied, not in `EXCLUDED.json` or the lock |
 
-| Ananke secret rules | Dex mirrors Ananke's registration-time scanner (broader than Dex's own) | keep, but record `secret_flags` and tag `ananke-secret-flag`; `dex ananke sync` skips unless `--include-flagged` |
+| Ananke secret rules | Dex mirrors Ananke's registration-time scanner (broader than Dex's own) | exclude (`secret-shaped`, since 0.1.5); the location is recorded, never the text |
 
 The two secret scanners have different jobs. Dex's own patterns target *real* key formats and exclude on a hit.
 Ananke's are broader (e.g. `api_key = "<16+ chars>"`) and, on the first full run, refused 9 security-teaching items
 for placeholders like `"PINECONE_API_KEY"` and `sk_live_…`. Dropping those items from the library would
-lose good content. Shipping them silently would make `ananke registry learn python:dex-trove` exit non-zero. Flagging
-them keeps both behaviours honest.
+lose good content. Shipping them silently would make `ananke registry learn python:dex-trove` exit non-zero. Until
+0.1.4, Dex flagged them instead (`secret_flags`, tag `ananke-secret-flag`, skipped by `dex ananke sync`).
+
+**Since 0.1.5 they are excluded.** Package firewalls and SCA tools (Black Duck, JFrog Xray, Sonatype, Socket) scan
+the published wheel with gitleaks-class rules. They can't tell a placeholder from a key, so one hit quarantines
+all 963 items. `EXCLUDED.json` keeps the rule and line (never the text), so a reviewer can still find them
+upstream. `dex ananke sync --include-flagged` and the bridge's `secret_flags` filter remain for troves built
+before 0.1.5. `scripts/scan_dist.py` runs the same class of scan on every release (see the release guide).
 
 Upstream content stays **untrusted**. Dex never executes it, and the docs site renders it through `rehype-sanitize`.
 

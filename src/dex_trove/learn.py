@@ -48,7 +48,8 @@ SECRET_PATTERNS = {
     "google-api-key": re.compile(r"\bAIza[0-9A-Za-z_-]{35}\b"),
 }
 # Mirror of Ananke's registration-time scanner (ananke.plexus.registry.secrets). It is deliberately broad,
-# so security-teaching content trips it on placeholders; Dex records those as flags instead of excluding.
+# so security-teaching content trips it on placeholders; Dex excludes those as "secret-shaped" (since 0.1.5)
+# because package scanners quarantine a wheel that contains them, placeholder or not.
 ANANKE_SECRET_RULES = {
     "aws-access-key": re.compile(r"\b(?:AKIA|ASIA)[0-9A-Z]{16}\b"),
     "private-key": re.compile(r"-----BEGIN (?:[A-Z]+ )?PRIVATE KEY-----"),
@@ -272,7 +273,8 @@ class Learner:
     def __init__(self, trove: Path, *, dry_run: bool = False) -> None:
         self.trove = trove
         self.dry_run = dry_run
-        self.catalog_before = {r["id"]: r for r in read_catalog(trove)}
+        # Keyed by (kind, id): an agent and a skill may share a name, and each keeps its own version history.
+        self.catalog_before = {(r["kind"], r["id"]): r for r in read_catalog(trove)}
         # entry hash → (item id, source priority) for everything admitted during *this* run, so a duplicate is
         # caught on the first learn, not only once a previous run's catalog knows the original.
         self.run_hashes: dict[str, tuple[str, int]] = {}
@@ -396,6 +398,12 @@ class Learner:
         if secret:
             self._exclude(result, raw, root, "secret", secret)
             return
+        flags = ananke_secret_flags(files)
+        if flags:
+            # Placeholders in teaching content are harmless, but every secret scanner (Ananke's, gitleaks, a package
+            # firewall) flags them, and one hit is enough to quarantine the whole wheel. Record where, never what.
+            self._exclude(result, raw, root, "secret-shaped", "; ".join(flags[:3]))
+            return
         hashes = {rel: sha256_bytes(p.read_bytes()) for rel, p in sorted(files.items())}
         entry_hash = hashes[raw.entry]
         if entry_hash in seen:
@@ -403,11 +411,7 @@ class Learner:
             return
         content_hash = sha256_bytes(json.dumps(hashes, sort_keys=True).encode())
         dest = self.item_dir(raw.kind, ns, slug)
-        prior = (
-            self.catalog_before.get(f"{ns}/{slug}")
-            if (self.catalog_before.get(f"{ns}/{slug}", {}).get("kind") == raw.kind)
-            else None
-        )
+        prior = self.catalog_before.get((raw.kind, f"{ns}/{slug}"))
         upstream_version = _semver(raw.version)
         if prior and prior.get("content_hash") == content_hash:
             version, learned_at = prior["version"], prior["learned_at"]
@@ -424,13 +428,7 @@ class Learner:
         if url is None and source.first_party and source.homepage:
             url = f"{source.homepage}/tree/main/trove/{KIND_DIRS[raw.kind]}/{ns}.{slug}"
         executes = any(Path(r).suffix in EXEC_SUFFIXES for r in files) or "hooks.json" in files
-        secret_flags = ananke_secret_flags(files)
-        tags = sorted(
-            set(raw.tags)
-            | {raw.kind, ns}
-            | ({"executes-code"} if executes else set())
-            | ({"ananke-secret-flag"} if secret_flags else set())
-        )
+        tags = sorted(set(raw.tags) | {raw.kind, ns} | ({"executes-code"} if executes else set()))
         overrides = source.items.get(slug, {}) or source.items.get(raw.name, {}) or {}
         description = raw.description or _summary(raw.body, 400)
         record: dict[str, Any] = {
@@ -468,8 +466,6 @@ class Learner:
             "content_hash": content_hash,
             "learned_at": learned_at,
         }
-        if secret_flags:
-            record["secret_flags"] = secret_flags
         if raw.meta.get("applyTo"):
             record["apply_to"] = str(raw.meta["applyTo"])
         if notes:

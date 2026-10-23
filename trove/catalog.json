@@ -1,6 +1,6 @@
 {
-  "generator": "dex-trove 0.1.2",
-  "count": 972,
+  "generator": "dex-trove 0.1.4",
+  "count": 963,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -161,52 +161,6 @@
       "entry_hash": "abbf07c6a768a21baa94a1aed858510c8038cb89866461d47ab64817e9f347ac",
       "content_hash": "b6d1a70e25eebf96fdd1b3540cb5274e046a473a04e00f463cde50ed8ddab54b",
       "learned_at": "2026-10-20T03:28:56+00:00"
-    },
-    {
-      "id": "awesome-copilot/aem-frontend-specialist",
-      "kind": "agent",
-      "namespace": "awesome-copilot",
-      "name": "aem-frontend-specialist",
-      "title": "AEM Front-End Specialist",
-      "description": "Expert assistant for developing AEM components using HTL, Tailwind CSS, and Figma-to-code workflows with design system integration",
-      "tags": [
-        "agent",
-        "ananke-secret-flag",
-        "awesome-copilot"
-      ],
-      "version": "1.0.0",
-      "entry": "aem-frontend-specialist.agent.md",
-      "dir": "agents/awesome-copilot.aem-frontend-specialist",
-      "source": {
-        "id": "awesome-copilot",
-        "title": "Awesome GitHub Copilot",
-        "repo": "https://github.com/github/awesome-copilot",
-        "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-        "path": "agents/aem-frontend-specialist.agent.md",
-        "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/aem-frontend-specialist.agent.md",
-        "author": null
-      },
-      "license": {
-        "spdx": "MIT",
-        "verdict": "allow",
-        "evidence": "LICENSE: MIT text",
-        "notice": "Copyright GitHub, Inc.",
-        "components": []
-      },
-      "inspired_by": [],
-      "executes_code": false,
-      "members": [],
-      "files": [
-        "aem-frontend-specialist.agent.md"
-      ],
-      "entry_hash": "66bd637992826aa4c4186a06338a89bec205db6ce16ac4f88c5c510de030893b",
-      "content_hash": "f2596456d3e4396c22fcf8beaf5300362014d9dda1e5436e591a27f0087018f4",
-      "learned_at": "2026-10-20T03:28:56+00:00",
-      "secret_flags": [
-        "generic-credential aem-frontend-specialist.agent.md:287",
-        "generic-credential aem-frontend-specialist.agent.md:291",
-        "generic-credential aem-frontend-specialist.agent.md:357"
-      ]
     },
     {
       "id": "awesome-copilot/agent-governance-reviewer",
@@ -7249,50 +7203,6 @@
       "learned_at": "2026-10-20T03:28:57+00:00"
     },
     {
-      "id": "awesome-copilot/se-gitops-ci-specialist",
-      "kind": "agent",
-      "namespace": "awesome-copilot",
-      "name": "se-gitops-ci-specialist",
-      "title": "SE: DevOps/CI",
-      "description": "DevOps specialist for CI/CD pipelines, deployment debugging, and GitOps workflows focused on making deployments boring and reliable",
-      "tags": [
-        "agent",
-        "ananke-secret-flag",
-        "awesome-copilot"
-      ],
-      "version": "1.0.0",
-      "entry": "se-gitops-ci-specialist.agent.md",
-      "dir": "agents/awesome-copilot.se-gitops-ci-specialist",
-      "source": {
-        "id": "awesome-copilot",
-        "title": "Awesome GitHub Copilot",
-        "repo": "https://github.com/github/awesome-copilot",
-        "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-        "path": "agents/se-gitops-ci-specialist.agent.md",
-        "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/agents/se-gitops-ci-specialist.agent.md",
-        "author": null
-      },
-      "license": {
-        "spdx": "MIT",
-        "verdict": "allow",
-        "evidence": "LICENSE: MIT text",
-        "notice": "Copyright GitHub, Inc.",
-        "components": []
-      },
-      "inspired_by": [],
-      "executes_code": false,
-      "members": [],
-      "files": [
-        "se-gitops-ci-specialist.agent.md"
-      ],
-      "entry_hash": "8ca4679e0e55f39ecadc50834354a8d9ea7162b1ca1cdd13521ed59717148a76",
-      "content_hash": "7e8d9851a0d68358e87088e7a9f1c9b32e2dcef159f6df1358f250d55cf717f7",
-      "learned_at": "2026-10-20T03:28:57+00:00",
-      "secret_flags": [
-        "generic-credential se-gitops-ci-specialist.agent.md:92"
-      ]
-    },
-    {
       "id": "awesome-copilot/se-product-manager-advisor",
       "kind": "agent",
       "namespace": "awesome-copilot",
@@ -9085,58 +8995,6 @@
       "learned_at": "2026-10-20T03:28:58+00:00"
     },
     {
-      "id": "awesome-copilot/secrets-scanner",
-      "kind": "hook",
-      "namespace": "awesome-copilot",
-      "name": "secrets-scanner",
-      "title": "Secrets Scanner",
-      "description": "Scans files modified during a Copilot coding agent session for leaked secrets, credentials, and sensitive data",
-      "tags": [
-        "ananke-secret-flag",
-        "awesome-copilot",
-        "executes-code",
-        "hook",
-        "scanning",
-        "secrets",
-        "security",
-        "session-end"
-      ],
-      "version": "1.0.0",
-      "entry": "README.md",
-      "dir": "hooks/awesome-copilot.secrets-scanner",
-      "source": {
-        "id": "awesome-copilot",
-        "title": "Awesome GitHub Copilot",
-        "repo": "https://github.com/github/awesome-copilot",
-        "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-        "path": "hooks/secrets-scanner",
-        "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/secrets-scanner",
-        "author": null
-      },
-      "license": {
-        "spdx": "MIT",
-        "verdict": "allow",
-        "evidence": "LICENSE: MIT text",
-        "notice": "Copyright GitHub, Inc.",
-        "components": []
-      },
-      "inspired_by": [],
-      "executes_code": true,
-      "members": [],
-      "files": [
-        "README.md",
-        "hooks.json",
-        "scan-secrets.sh"
-      ],
-      "entry_hash": "5a905a5902f9cd98a9e85d2b5f24aac614f695e952f428b36638a88a535b5aa2",
-      "content_hash": "1a8a8f9cfa7124536202dabd48877e926b43aced9b5936b0c3683d998c47f36f",
-      "learned_at": "2026-10-20T03:28:58+00:00",
-      "secret_flags": [
-        "aws-access-key README.md:105",
-        "private-key README.md:112"
-      ]
-    },
-    {
       "id": "awesome-copilot/session-auto-commit",
       "kind": "hook",
       "namespace": "awesome-copilot",
@@ -10424,51 +10282,6 @@
       "content_hash": "7ecca9f403bf0831fc5ff8d37288402d6bdf730e1fd6b0b53d326fe5e7311d24",
       "learned_at": "2026-10-20T03:28:57+00:00",
       "apply_to": "**/*.cmake, **/CMakeLists.txt, **/*.cpp, **/*.h, **/*.hpp"
-    },
-    {
-      "id": "awesome-copilot/code-review-generic",
-      "kind": "instruction",
-      "namespace": "awesome-copilot",
-      "name": "code-review-generic",
-      "title": "Generic Code Review Instructions",
-      "description": "Generic code review instructions that can be customized for any project using GitHub Copilot",
-      "tags": [
-        "ananke-secret-flag",
-        "awesome-copilot",
-        "instruction"
-      ],
-      "version": "1.0.0",
-      "entry": "code-review-generic.instructions.md",
-      "dir": "instructions/awesome-copilot.code-review-generic",
-      "source": {
-        "id": "awesome-copilot",
-        "title": "Awesome GitHub Copilot",
-        "repo": "https://github.com/github/awesome-copilot",
-        "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-        "path": "instructions/code-review-generic.instructions.md",
-        "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/code-review-generic.instructions.md",
-        "author": null
-      },
-      "license": {
-        "spdx": "MIT",
-        "verdict": "allow",
-        "evidence": "LICENSE: MIT text",
-        "notice": "Copyright GitHub, Inc.",
-        "components": []
-      },
-      "inspired_by": [],
-      "executes_code": false,
-      "members": [],
-      "files": [
-        "code-review-generic.instructions.md"
-      ],
-      "entry_hash": "e6917309e3e986cde1650768cc871f54e5d054e90c4518afb5c937941ee212a9",
-      "content_hash": "a1060d05027943646b199c1f33ff8bbe6c0e25a93d4eb2144b41dd85fb05acc0",
-      "learned_at": "2026-10-20T03:28:57+00:00",
-      "secret_flags": [
-        "generic-credential code-review-generic.instructions.md:142"
-      ],
-      "apply_to": "**"
     },
     {
       "id": "awesome-copilot/codexer",
@@ -11774,51 +11587,6 @@
       "entry_hash": "24b9d34541d4e255d3ec92dd7520e7315ddb3ec6d3803374412d2545f4d516fa",
       "content_hash": "eab19f50200cb20f175f46274d866495a136b0ad86452b538d2d2c035342af19",
       "learned_at": "2026-10-20T03:28:58+00:00",
-      "apply_to": "**"
-    },
-    {
-      "id": "awesome-copilot/dataverse-python-real-world-usecases",
-      "kind": "instruction",
-      "namespace": "awesome-copilot",
-      "name": "dataverse-python-real-world-usecases",
-      "title": "Dataverse SDK for Python — Real-World Use Cases & Templates",
-      "description": "# Dataverse SDK for Python — Real-World Use Cases & Templates Based on official Dataverse data migration and integration patterns. ## 1.",
-      "tags": [
-        "ananke-secret-flag",
-        "awesome-copilot",
-        "instruction"
-      ],
-      "version": "1.0.0",
-      "entry": "dataverse-python-real-world-usecases.instructions.md",
-      "dir": "instructions/awesome-copilot.dataverse-python-real-world-usecases",
-      "source": {
-        "id": "awesome-copilot",
-        "title": "Awesome GitHub Copilot",
-        "repo": "https://github.com/github/awesome-copilot",
-        "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-        "path": "instructions/dataverse-python-real-world-usecases.instructions.md",
-        "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/dataverse-python-real-world-usecases.instructions.md",
-        "author": null
-      },
-      "license": {
-        "spdx": "MIT",
-        "verdict": "allow",
-        "evidence": "LICENSE: MIT text",
-        "notice": "Copyright GitHub, Inc.",
-        "components": []
-      },
-      "inspired_by": [],
-      "executes_code": false,
-      "members": [],
-      "files": [
-        "dataverse-python-real-world-usecases.instructions.md"
-      ],
-      "entry_hash": "c44443721919de104b237857fd6e822167ec9df25b274a933561f7f5a850a7ec",
-      "content_hash": "f33e69bf2896a56224a55d01d8fdc35cd42a4ab37df6295b82978408465c9969",
-      "learned_at": "2026-10-20T03:28:58+00:00",
-      "secret_flags": [
-        "generic-credential dataverse-python-real-world-usecases.instructions.md:289"
-      ],
       "apply_to": "**"
     },
     {
@@ -16083,51 +15851,6 @@
       "content_hash": "a50d53797275ae5f45d3c3795af33bf40943bbcf175e04cbd2288508bcc07717",
       "learned_at": "2026-10-20T03:28:58+00:00",
       "apply_to": "**/*.scala, **/build.sbt, **/build.sc"
-    },
-    {
-      "id": "awesome-copilot/security-and-owasp",
-      "kind": "instruction",
-      "namespace": "awesome-copilot",
-      "name": "security-and-owasp",
-      "title": "Security Standards",
-      "description": "Comprehensive secure coding standards based on OWASP Top 10 2025, with 55+ anti-patterns, detection regex, framework-specific fixes for modern web and backend frameworks, and AI/LLM security guidance.",
-      "tags": [
-        "ananke-secret-flag",
-        "awesome-copilot",
-        "instruction"
-      ],
-      "version": "1.0.0",
-      "entry": "security-and-owasp.instructions.md",
-      "dir": "instructions/awesome-copilot.security-and-owasp",
-      "source": {
-        "id": "awesome-copilot",
-        "title": "Awesome GitHub Copilot",
-        "repo": "https://github.com/github/awesome-copilot",
-        "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-        "path": "instructions/security-and-owasp.instructions.md",
-        "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/security-and-owasp.instructions.md",
-        "author": null
-      },
-      "license": {
-        "spdx": "MIT",
-        "verdict": "allow",
-        "evidence": "LICENSE: MIT text",
-        "notice": "Copyright GitHub, Inc.",
-        "components": []
-      },
-      "inspired_by": [],
-      "executes_code": false,
-      "members": [],
-      "files": [
-        "security-and-owasp.instructions.md"
-      ],
-      "entry_hash": "d2a71c9a78cafe3fd59177848c344be88f8b3abfad38e9c282e0a312fa2dd754",
-      "content_hash": "8df1427425370ba3181413301585e607628cd851c76d748c1802f8ebc1e980d3",
-      "learned_at": "2026-10-20T03:28:58+00:00",
-      "secret_flags": [
-        "generic-credential security-and-owasp.instructions.md:421"
-      ],
-      "apply_to": "**"
     },
     {
       "id": "awesome-copilot/self-explanatory-code-commenting",
@@ -20480,7 +20203,6 @@
       "inspired_by": [],
       "executes_code": false,
       "members": [
-        "agent:awesome-copilot/se-gitops-ci-specialist",
         "agent:awesome-copilot/se-product-manager-advisor",
         "agent:awesome-copilot/se-responsible-ai-code",
         "agent:awesome-copilot/se-security-reviewer",
@@ -33160,53 +32882,6 @@
       "learned_at": "2026-10-20T03:28:54+00:00"
     },
     {
-      "id": "awesome-copilot/namecheap",
-      "kind": "skill",
-      "namespace": "awesome-copilot",
-      "name": "namecheap",
-      "title": "Namecheap DNS Management",
-      "description": "Manage DNS records for domains registered with Namecheap via their API. List domains, view/add/update/remove DNS host entries (A, AAAA, CNAME, MX, TXT, etc.), and guide users through API setup including public IP detection and credential configuration. Use when the user mentions Namecheap, DNS records, domain management, or wants to add/change/remove A records, CNAME records, MX records, or TXT records for their domains.",
-      "tags": [
-        "ananke-secret-flag",
-        "awesome-copilot",
-        "executes-code",
-        "skill"
-      ],
-      "version": "1.0.0",
-      "entry": "SKILL.md",
-      "dir": "skills/awesome-copilot.namecheap",
-      "source": {
-        "id": "awesome-copilot",
-        "title": "Awesome GitHub Copilot",
-        "repo": "https://github.com/github/awesome-copilot",
-        "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-        "path": "skills/namecheap",
-        "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/namecheap",
-        "author": null
-      },
-      "license": {
-        "spdx": "MIT",
-        "verdict": "allow",
-        "evidence": "LICENSE: MIT text",
-        "notice": "Copyright GitHub, Inc.",
-        "components": []
-      },
-      "inspired_by": [],
-      "executes_code": true,
-      "members": [],
-      "files": [
-        "SKILL.md",
-        "namecheap.py",
-        "references/namecheap-api.md"
-      ],
-      "entry_hash": "5023cc6052e48e32c5f93a076cf88d67ea7fd2ed20e67e5a1d0f78daa0457ca6",
-      "content_hash": "54f9a2da697c48e12d07f7b53c208c7c19e123c6cf904aed99d22ffa664972bc",
-      "learned_at": "2026-10-20T03:28:54+00:00",
-      "secret_flags": [
-        "generic-credential namecheap.py:168"
-      ]
-    },
-    {
       "id": "awesome-copilot/nano-banana-pro-openrouter",
       "kind": "skill",
       "namespace": "awesome-copilot",
@@ -34022,50 +33697,6 @@
       "entry_hash": "e4ac56da9b7bfea6a03dece665b2c959ba8862da2ab97dc4041b891662620e37",
       "content_hash": "6bd81037c24409ef9073df461b2ae67cf8b040a6d3574690ab061f213c4f4b6e",
       "learned_at": "2026-10-20T03:28:55+00:00"
-    },
-    {
-      "id": "awesome-copilot/pinecone-rag",
-      "kind": "skill",
-      "namespace": "awesome-copilot",
-      "name": "pinecone-rag",
-      "title": "Pinecone RAG Skill",
-      "description": "Build production RAG pipelines and persistent agent memory using Pinecone as the vector database backend. ALWAYS USE THIS SKILL when the user mentions Pinecone, wants to index documents for semantic search, build a retrieval-augmented generation system, store agent memory across sessions, implement hybrid search, or connect an LLM to a searchable knowledge base — even if they don't say \"Pinecone\" explicitly. Also use when the user asks about vector databases for RAG, namespace isolation for multi-tenant agents, embedding pipelines, or scaling a knowledge base beyond what local storage can handle. DO NOT use for local-only vector stores (Chroma, FAISS, pgvector) or pure keyword search with no semantic component.",
-      "tags": [
-        "ananke-secret-flag",
-        "awesome-copilot",
-        "skill"
-      ],
-      "version": "1.0.0",
-      "entry": "SKILL.md",
-      "dir": "skills/awesome-copilot.pinecone-rag",
-      "source": {
-        "id": "awesome-copilot",
-        "title": "Awesome GitHub Copilot",
-        "repo": "https://github.com/github/awesome-copilot",
-        "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-        "path": "skills/pinecone-rag",
-        "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/pinecone-rag",
-        "author": null
-      },
-      "license": {
-        "spdx": "Apache-2.0",
-        "verdict": "allow",
-        "evidence": "frontmatter license: 'Apache-2.0'",
-        "notice": "",
-        "components": []
-      },
-      "inspired_by": [],
-      "executes_code": false,
-      "members": [],
-      "files": [
-        "SKILL.md"
-      ],
-      "entry_hash": "31f32b56986b60ecbd51292bd734338bde31eb9fec088f7644bfaf183eeb1601",
-      "content_hash": "3f7b6ea4f341e947f439e755c08f7db655e8f4daeabcc6f9e78d256ea07cfa03",
-      "learned_at": "2026-10-20T03:28:55+00:00",
-      "secret_flags": [
-        "generic-credential SKILL.md:50"
-      ]
     },
     {
       "id": "awesome-copilot/planning-oracle-to-postgres-migration-integration-testing",
@@ -37426,58 +37057,6 @@
       "entry_hash": "ebbaf8a49777e8be6d8c220b91bbee935b2aaab81b3ee976562484a339d750db",
       "content_hash": "af5be27fd5739ab587762537e150e4720de63a738bb102bed04ff189116d8a0b",
       "learned_at": "2026-10-20T03:28:55+00:00"
-    },
-    {
-      "id": "awesome-copilot/security-review",
-      "kind": "skill",
-      "namespace": "awesome-copilot",
-      "name": "security-review",
-      "title": "Security Review",
-      "description": "AI-powered codebase security scanner that reasons about code like a security researcher — tracing data flows, understanding component interactions, and catching vulnerabilities that pattern-matching tools miss. Use this skill when asked to scan code for security vulnerabilities, find bugs, check for SQL injection, XSS, command injection, exposed API keys, hardcoded secrets, insecure dependencies, access control issues, or any request like \"is my code secure?\", \"review for security issues\", \"audit this codebase\", or \"check for vulnerabilities\". Covers injection flaws, authentication and access control bugs, secrets exposure, weak cryptography, insecure dependencies, and business logic issues across JavaScript, TypeScript, Python, Java, PHP, Go, Ruby, and Rust.",
-      "tags": [
-        "ananke-secret-flag",
-        "awesome-copilot",
-        "skill"
-      ],
-      "version": "1.0.0",
-      "entry": "SKILL.md",
-      "dir": "skills/awesome-copilot.security-review",
-      "source": {
-        "id": "awesome-copilot",
-        "title": "Awesome GitHub Copilot",
-        "repo": "https://github.com/github/awesome-copilot",
-        "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-        "path": "skills/security-review",
-        "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/security-review",
-        "author": null
-      },
-      "license": {
-        "spdx": "MIT",
-        "verdict": "allow",
-        "evidence": "LICENSE: MIT text",
-        "notice": "Copyright GitHub, Inc.",
-        "components": []
-      },
-      "inspired_by": [],
-      "executes_code": false,
-      "members": [],
-      "files": [
-        "SKILL.md",
-        "references/language-patterns.md",
-        "references/report-format.md",
-        "references/secret-patterns.md",
-        "references/vuln-categories.md",
-        "references/vulnerable-packages.md"
-      ],
-      "entry_hash": "002392d88637b89e4cbc409a0531834970937f3b57c0b448a17e04b5ca6d356c",
-      "content_hash": "5aa20817ece8a6acdac2474b3f83d9d1800c2a38200c43322983eb8de32de2e3",
-      "learned_at": "2026-10-20T03:28:55+00:00",
-      "secret_flags": [
-        "generic-credential references/secret-patterns.md:142",
-        "generic-credential references/secret-patterns.md:160",
-        "aws-access-key references/secret-patterns.md:161",
-        "private-key references/vuln-categories.md:174"
-      ]
     },
     {
       "id": "awesome-copilot/semantic-kernel",

@@ -1,13 +1,14 @@
-# Gitleaks configuration for Dex Trove.
+# gitleaks configuration used by scripts/scan_dist.py and the release gate: the default rules plus reviewed
+# false positives. Keep each allowlist narrow and say why; a real credential must never be allowlisted.
 [extend]
 useDefault = true
 
-[allowlist]
-description = "Upstream content and intentionally fake test fixtures"
-paths = [
-  # trove/ is verbatim upstream content. Dex's learn-time guards exclude real-format credentials; what remains are
-  # documented placeholders in security-teaching material (recorded per item as `secret_flags`).
-  '''^trove/''',
-  # Test fixtures that must look like credentials to exercise the guards (e.g. AKIAABCDEFGHIJKLMNOP).
-  '''^tests/conftest\.py$''',
-]
+[[allowlists]]
+description = "UUIDs are identifiers, not keys (geofeed-tuner's sample rows use the RFC 4122 namespace UUIDs)"
+regexTarget = "secret"
+regexes = ['''^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$''']
+
+[[allowlists]]
+description = "A public Figma file key quoted as a design reference"
+targetRules = ["generic-api-key"]
+paths = ['''macos-golden-gate-design/references/sources\.md$''']
