@@ -1,0 +1,8 @@
+# Historical findings only (commit 39f7ec5, 2026-10-20). Each is a placeholder, not a credential, and none is in the
+# current tree: Dex 0.1.5 excluded the secret-shaped trove items and builds test fakes at runtime. Pinned by
+# fingerprint (commit:file:rule:line) so anything new is still reported. Never add a current-tree finding here.
+39f7ec52e943983838a23d5ba656a861290fba4e:tests/conftest.py:aws-access-token:56
+39f7ec52e943983838a23d5ba656a861290fba4e:tests/conftest.py:stripe-access-token:57
+39f7ec52e943983838a23d5ba656a861290fba4e:trove/agents/awesome-copilot.se-gitops-ci-specialist/se-gitops-ci-specialist.agent.md:generic-api-key:92
+39f7ec52e943983838a23d5ba656a861290fba4e:trove/instructions/awesome-copilot.code-review-generic/code-review-generic.instructions.md:stripe-access-token:142
+39f7ec52e943983838a23d5ba656a861290fba4e:trove/instructions/awesome-copilot.security-and-owasp/security-and-owasp.instructions.md:stripe-access-token:421
