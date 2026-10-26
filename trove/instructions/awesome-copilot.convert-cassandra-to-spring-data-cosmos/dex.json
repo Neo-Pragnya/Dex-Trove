@@ -9,16 +9,16 @@
     "awesome-copilot",
     "instruction"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "convert-cassandra-to-spring-data-cosmos.instructions.md",
   "dir": "instructions/awesome-copilot.convert-cassandra-to-spring-data-cosmos",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "instructions/convert-cassandra-to-spring-data-cosmos.instructions.md",
-    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/convert-cassandra-to-spring-data-cosmos.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/instructions/convert-cassandra-to-spring-data-cosmos.instructions.md",
     "author": null
   },
   "license": {
@@ -34,8 +34,8 @@
   "files": [
     "convert-cassandra-to-spring-data-cosmos.instructions.md"
   ],
-  "entry_hash": "8f490213a34d0efbf9b99110878a736009f40631680691e409c4fc9fa4457a48",
-  "content_hash": "6aeb923e0ade66bb89f194613ccb044d21f583b515bf137060fea8b45a490c32",
-  "learned_at": "2026-10-20T03:28:57+00:00",
+  "entry_hash": "b12f5ccd0080fa318990242adfac3f480ff986e5bfcb2576ef50bc7e1a57a222",
+  "content_hash": "5d943bd10cf76b142baceb71c3740eb0a518f14e35168c02a0714ac36ad8dd14",
+  "learned_at": "2026-10-26T13:16:55+00:00",
   "apply_to": "**/*.java,**/pom.xml,**/build.gradle,**/application*.properties,**/application*.yml,**/application*.conf"
 }

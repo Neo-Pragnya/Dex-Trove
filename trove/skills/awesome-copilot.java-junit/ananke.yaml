@@ -1,10 +1,14 @@
 kind: skill
 namespace: awesome-copilot
 name: java-junit
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:awesome-copilot:java-junit
-summary: Get best practices for JUnit 5 unit testing, including data-driven tests
-description: Get best practices for JUnit 5 unit testing, including data-driven tests
+summary: 'Write, review and fix Java unit tests with JUnit 5 and JUnit 6 (Jupiter), AssertJ and Mockito: assertions,
+  parameterized and nested tests, mocking rules, deterministic time and randomness, Surefire vs…'
+description: 'Write, review and fix Java unit tests with JUnit 5 and JUnit 6 (Jupiter), AssertJ and Mockito: assertions,
+  parameterized and nested tests, mocking rules, deterministic time and randomness, Surefire vs Failsafe, JaCoCo
+  coverage, optional PIT mutation testing, and guardrails for agents (never skip or delete failing tests). Use when
+  adding, refactoring or debugging tests in Maven or Gradle projects. Framework-neutral.'
 runtime:
   supported:
   - claude-code
@@ -25,5 +29,5 @@ metadata:
   tags:
   - awesome-copilot
   - skill
-  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-junit
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-junit
   repository: https://github.com/github/awesome-copilot

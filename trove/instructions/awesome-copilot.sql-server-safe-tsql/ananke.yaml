@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: sql-server-safe-tsql
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:sql-server-safe-tsql
+summary: 'SQL Server-specific write-safety rules for T-SQL: XACT_ABORT with THROW, @@TRANCOUNT-aware transactions,
+  fail-closed dry runs, batched OUTPUT...INTO archiving, autocommit-only admin statements, and re…'
+description: 'SQL Server-specific write-safety rules for T-SQL: XACT_ABORT with THROW, @@TRANCOUNT-aware transactions,
+  fail-closed dry runs, batched OUTPUT...INTO archiving, autocommit-only admin statements, and read-only DMV diagnostics.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: sql-server-safe-tsql.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/instructions/sql-server-safe-tsql.instructions.md
+  repository: https://github.com/github/awesome-copilot

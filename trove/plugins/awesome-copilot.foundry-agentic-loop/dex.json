@@ -1,0 +1,53 @@
+{
+  "id": "awesome-copilot/foundry-agentic-loop",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "foundry-agentic-loop",
+  "title": "Foundry Agentic Loop",
+  "description": "Build agentic solutions on Microsoft Foundry, GitHub and Azure. Prototype in an existing Foundry project, or run spec-driven development (SDD): a dynamic workflow that specifies, implements, verifies and deploys with azd behind evidence gates. Includes a canvas with a gallery of 61 industry prompt templates, a live workflow view and Foundry enablement, plus an improve mode that learns from past runs.",
+  "tags": [
+    "agentic-loop",
+    "awesome-copilot",
+    "azd",
+    "azure",
+    "canvas",
+    "copilot-sdk",
+    "dynamic-workflow",
+    "hosted-agents",
+    "microsoft-foundry",
+    "plugin",
+    "rapid-prototyping",
+    "spec-driven-development"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.foundry-agentic-loop",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+    "path": "plugins/foundry-agentic-loop",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/plugins/foundry-agentic-loop",
+    "author": "Microsoft AI Apps GBB"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/foundry-agentic-loop"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "45b5d9a976f7448697862abb78a43f62d376837c79f46791fa3d6b9abeffa99a",
+  "content_hash": "99ee5362be4f62dc8ceff73f62e5ef25978d169add8ae8a824213ca2ae83f8ed",
+  "learned_at": "2026-10-26T13:16:56+00:00"
+}

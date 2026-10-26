@@ -1,5 +1,5 @@
 {
-  "count": 46,
+  "count": 48,
   "excluded": [
     {
       "source": "anthropic",
@@ -94,6 +94,14 @@
       "kind": "plugin",
       "name": "accessibility-kanban",
       "path": "plugins/accessibility-kanban",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "agent-radar",
+      "path": "plugins/agent-radar",
       "reason": "out-of-scope",
       "detail": "plugin has no admissible skill/agent members"
     },
@@ -214,6 +222,14 @@
       "kind": "plugin",
       "name": "git-worktree-explorer",
       "path": "plugins/git-worktree-explorer",
+      "reason": "out-of-scope",
+      "detail": "plugin has no admissible skill/agent members"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "plugin",
+      "name": "github-security",
+      "path": "plugins/github-security",
       "reason": "out-of-scope",
       "detail": "plugin has no admissible skill/agent members"
     },

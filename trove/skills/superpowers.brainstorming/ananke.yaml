@@ -1,7 +1,7 @@
 kind: skill
 namespace: superpowers
 name: brainstorming
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:superpowers:brainstorming
 summary: You MUST use this before any creative work - creating features, building components, adding functionality,
   modifying behavior, or planning anything new, in software or out of it (a talk, a business, a…
@@ -21,5 +21,5 @@ metadata:
   - executes-code
   - skill
   - superpowers
-  homepage: https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/brainstorming
+  homepage: https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming
   repository: https://github.com/obra/superpowers

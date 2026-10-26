@@ -9,16 +9,16 @@
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.java-refactoring-extract-method",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "skills/java-refactoring-extract-method",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-refactoring-extract-method",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-refactoring-extract-method",
     "author": null
   },
   "license": {
@@ -34,7 +34,7 @@
   "files": [
     "SKILL.md"
   ],
-  "entry_hash": "4f23304d1c3ea81035cae02381e6f6bf70d4652a46990cfd71620f384ad78a2b",
-  "content_hash": "0564dbf3b2015b028110ee46a421b2a31d9a37059fe5841c57173950215a4d0f",
-  "learned_at": "2026-10-20T03:28:54+00:00"
+  "entry_hash": "21e2c483f9db415184a99871105bf54c91da33ac8924ffeb4e87107f4dd605c0",
+  "content_hash": "f86185d10288d5b3cd44643bd940379d1c6ca9e2fd32c4c34ea200c3d917d9c7",
+  "learned_at": "2026-10-26T13:16:51+00:00"
 }

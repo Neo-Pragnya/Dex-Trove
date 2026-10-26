@@ -1,0 +1,29 @@
+kind: skill
+namespace: awesome-copilot
+name: foundry-agentic-loop
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:foundry-agentic-loop
+summary: 'Build agentic solutions on Microsoft Foundry, GitHub and Azure: hosted agents, toolbox tools and skills,
+  Foundry IQ grounding and a React/FastAPI app.'
+description: 'Build agentic solutions on Microsoft Foundry, GitHub and Azure: hosted agents, toolbox tools and skills,
+  Foundry IQ grounding and a React/FastAPI app. Three modes: rapid prototyping in an existing Foundry project; spec-driven
+  development (SDD), where the foundry-agentic-loop-workflow runs Specify, Implement, Verify and Deploy to create
+  the Foundry project and deploy with azd, or one phase runs alone; and Improve, which refines this skill and the
+  workflow from past runs. Use for Agentic Loop requests and canvas actions, or end-to-end agent solutions from
+  architecture to Azure deployment. Not for isolated Azure administration or unrelated UI edits.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/foundry-agentic-loop
+  repository: https://github.com/github/awesome-copilot

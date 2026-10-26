@@ -4,21 +4,21 @@
   "namespace": "awesome-copilot",
   "name": "commit-message-storyteller",
   "title": "Commit Message Storyteller",
-  "description": "Analyzes git diffs or staged changes and generates narrative commit messages that explain WHY a change was made, not just what changed — following Conventional Commits format. Use when asked to \"write a commit message\", \"generate a commit\", \"describe my changes\", \"what should I commit this as\", \"commit this\", \"summarize my diff\", or \"help me commit\". Works with git diff output, staged files, or plain descriptions of changes.",
+  "description": "Analyzes git diffs or staged changes and generates narrative commit messages that explain WHY a change was made, not just what changed — following Conventional Commits format. Use when asked to \"write a commit message\", \"describe my changes\", \"what should I commit this as\", or \"summarize my diff\". Works with git diff output, staged files, or plain descriptions of changes. Does not run git commit; to stage files and make the commit, use the git-commit skill.",
   "tags": [
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.commit-message-storyteller",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "skills/commit-message-storyteller",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/commit-message-storyteller",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/commit-message-storyteller",
     "author": null
   },
   "license": {
@@ -35,7 +35,7 @@
     "SKILL.md",
     "references/conventional-commits-guide.md"
   ],
-  "entry_hash": "9a351d6276d9c17c5e5ac0920efc1dfa054cf9e17c7db52a9fc2a0e38f39e65a",
-  "content_hash": "9447375e7a8ccc67275a8a872482a9affddc9cafee66a55199ffc13a99e254b6",
-  "learned_at": "2026-10-20T03:28:51+00:00"
+  "entry_hash": "a8c2f35089f1fbaf92ff8f2b1f1aafc228f16fee2d66004d8c066f2aee6a60f7",
+  "content_hash": "18adce47ea968b7c591a85f6a9ea5470d64dddeb5fe25040cd3decbdc2e96ba6",
+  "learned_at": "2026-10-26T13:16:50+00:00"
 }

@@ -23,5 +23,5 @@ metadata:
   - hook
   - license
   - session-end
-  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/hooks/dependency-license-checker
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/hooks/dependency-license-checker
   repository: https://github.com/github/awesome-copilot

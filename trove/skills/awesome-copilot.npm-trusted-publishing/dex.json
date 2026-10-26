@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/npm-trusted-publishing",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "npm-trusted-publishing",
+  "title": "npm Trusted Publishing",
+  "description": "Set up or fix npm trusted publishing (OIDC) in GitHub Actions and remove NPM_TOKEN. Use for ENEEDAUTH, E404 on PUT, E422 repository.url, or migrating off 2FA-bypass tokens before January 2027.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.npm-trusted-publishing",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+    "path": "skills/npm-trusted-publishing",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/npm-trusted-publishing",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "f28c78b18de0073f735bf30853807f2748c7288a436a3f1e30daea3ee6289ee1",
+  "content_hash": "691362d199ebe3a58d6883993bdfd3be43c5493c526e817bc2f42c6d0935c7ee",
+  "learned_at": "2026-10-26T13:16:52+00:00"
+}

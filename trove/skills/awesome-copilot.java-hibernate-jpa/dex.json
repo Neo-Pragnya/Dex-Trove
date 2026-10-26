@@ -1,0 +1,46 @@
+{
+  "id": "awesome-copilot/java-hibernate-jpa",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "java-hibernate-jpa",
+  "title": "Hibernate ORM and Jakarta Persistence",
+  "description": "Diagnose and fix Hibernate ORM / Jakarta Persistence problems in plain Java: N+1 queries, lazy loading errors, identifier generation, entity equals/hashCode, cascades, pagination, batching, locking, caching, Lombok on entities, and Hibernate 6/7 differences. Use when reviewing or writing JPA entities, mappings, and queries. Framework-neutral.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.java-hibernate-jpa",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+    "path": "skills/java-hibernate-jpa",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-hibernate-jpa",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/associations-and-cascade.md",
+    "references/fetching-and-n-plus-one.md",
+    "references/identifiers-and-entity-design.md",
+    "references/locking-transactions-caching.md",
+    "references/queries-pagination-batching.md",
+    "references/tooling-and-versions.md"
+  ],
+  "entry_hash": "249c9480cc235bfd1511acfcdd774be9f64f6e16331c99b96b6aac27e7e083bb",
+  "content_hash": "ca4625d3834da155b8aa001cb10269d7aaf7a7827dee43c0878935df05b60f72",
+  "learned_at": "2026-10-26T13:16:51+00:00"
+}

@@ -1,7 +1,7 @@
 kind: bundle
 namespace: awesome-copilot
 name: the-workshop
-version: 0.1.0
+version: 0.1.1
 ananke_id: urn:dex-trove:plugin:awesome-copilot:the-workshop
 summary: Stop being the switchboard between your AI agents — direct a team. The Workshop puts long-running AI agents
   (desks) in the same room, on the same work, each with its own memory and history, sharing on…
@@ -47,5 +47,5 @@ metadata:
   - multi-agent
   - persistent-memory
   - plugin
-  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/the-workshop
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/plugins/the-workshop
   repository: https://github.com/github/awesome-copilot

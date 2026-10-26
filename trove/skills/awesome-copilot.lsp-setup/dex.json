@@ -9,16 +9,16 @@
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.lsp-setup",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "skills/lsp-setup",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/lsp-setup",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/lsp-setup",
     "author": null
   },
   "license": {
@@ -33,9 +33,10 @@
   "members": [],
   "files": [
     "SKILL.md",
+    "references/java-jdtls.md",
     "references/lsp-servers.md"
   ],
-  "entry_hash": "7a49f98b82b66454ad66a0b8506a50028a16a5c91be73cb39669a18bfba3cb01",
-  "content_hash": "988992d3fc3b7588e6103daf544af0a1de3ae8f4f382fd0350c5f5f1a6783bac",
-  "learned_at": "2026-10-20T03:28:54+00:00"
+  "entry_hash": "f905990ab13b4d234d87c274e12d9d9c01841706b17ed05902361ecfd3dbe0ee",
+  "content_hash": "4f7bcf0c2c1274aab661c63c9e6a9d9978d03a2bb1d4e753e4c29f9557dbc17c",
+  "learned_at": "2026-10-26T13:16:51+00:00"
 }

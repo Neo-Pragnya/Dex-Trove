@@ -9,16 +9,16 @@
     "awesome-copilot",
     "instruction"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "java-mcp-server.instructions.md",
   "dir": "instructions/awesome-copilot.java-mcp-server",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "instructions/java-mcp-server.instructions.md",
-    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/java-mcp-server.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/instructions/java-mcp-server.instructions.md",
     "author": null
   },
   "license": {
@@ -34,8 +34,8 @@
   "files": [
     "java-mcp-server.instructions.md"
   ],
-  "entry_hash": "290ab732126dc4fd6f4e99a8248438461c6d4c1842582c67a84fff23e3c391c4",
-  "content_hash": "f85e7abb791ca55fe38cbfaae6218c1f7a3bba32189595c3de875d7663089493",
-  "learned_at": "2026-10-20T03:28:58+00:00",
+  "entry_hash": "7b0dd3dfd2cce85271d82a122b843e1334922340c825d5eb614776b7a16d95f6",
+  "content_hash": "8c83c91054b14b6de28965db28de115ef840b34d5cd8ecf09e539021b96f1ea0",
+  "learned_at": "2026-10-26T13:16:55+00:00",
   "apply_to": "**/*.java, **/pom.xml, **/build.gradle, **/build.gradle.kts"
 }

@@ -9,16 +9,16 @@
     "awesome-copilot",
     "instruction"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "java-junit5-assertions.instructions.md",
   "dir": "instructions/awesome-copilot.java-junit5-assertions",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "instructions/java-junit5-assertions.instructions.md",
-    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/java-junit5-assertions.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/instructions/java-junit5-assertions.instructions.md",
     "author": null
   },
   "license": {
@@ -34,8 +34,8 @@
   "files": [
     "java-junit5-assertions.instructions.md"
   ],
-  "entry_hash": "46c2956185440aff90c41040ba85dd28e0d51d9e5b2616a511add4bba9c9943e",
-  "content_hash": "5ba2eb39452856d268187ddb48d682f2327aab5e4bfbc60fa7ad4bee8f1cca33",
-  "learned_at": "2026-10-20T03:28:58+00:00",
+  "entry_hash": "186f565b8c6e7a7b37f7fa9c6c6495242deea2c4cb14354c85038b85493bad10",
+  "content_hash": "e0b26616b8f208b5fdceb946eed48b7719f44212b75ae0f8ed73ba3622f58a62",
+  "learned_at": "2026-10-26T13:16:55+00:00",
   "apply_to": "**/*Test.java, **/*IT.java, **/*Steps.java, **/*StepDefs.java"
 }

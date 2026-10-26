@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/pr-address-feedback",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "pr-address-feedback",
+  "title": "pr-address-feedback",
+  "description": "Walk through PR review comments one-by-one, deciding for each whether to act on the feedback or reply with reasoning, and build an approvable resolution plan before changing anything. Use when the user wants to address, respond to, or triage PR review feedback.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.pr-address-feedback",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+    "path": "skills/pr-address-feedback",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/pr-address-feedback",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ace61249f71fdb391a7c9c18088e911bdd5dbf5c83be88944d760c68c0051f4a",
+  "content_hash": "81411c23777372e05f65fb80a0fbdd9162b5251b29f203912bfa64f374dd0e54",
+  "learned_at": "2026-10-26T13:16:52+00:00"
+}

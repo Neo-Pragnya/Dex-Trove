@@ -1,7 +1,7 @@
 kind: prompt
 namespace: awesome-copilot
 name: convert-jpa-to-spring-data-cosmos
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:instruction:awesome-copilot:convert-jpa-to-spring-data-cosmos
 summary: Step-by-step guide for converting Spring Boot JPA applications to use Azure Cosmos DB with Spring Data
   Cosmos
@@ -29,5 +29,5 @@ metadata:
   tags:
   - awesome-copilot
   - instruction
-  homepage: https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/convert-jpa-to-spring-data-cosmos.instructions.md
+  homepage: https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/instructions/convert-jpa-to-spring-data-cosmos.instructions.md
   repository: https://github.com/github/awesome-copilot

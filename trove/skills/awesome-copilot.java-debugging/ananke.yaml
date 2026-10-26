@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: java-debugging
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:java-debugging
+summary: 'Debug Java applications systematically: JDWP remote debugging, jdb, VS Code and IntelliJ attach, debugging
+  Maven/Gradle tests, Spring Boot and Quarkus dev mode, containers, breakpoints/logpoints, and…'
+description: 'Debug Java applications systematically: JDWP remote debugging, jdb, VS Code and IntelliJ attach, debugging
+  Maven/Gradle tests, Spring Boot and Quarkus dev mode, containers, breakpoints/logpoints, and reading stack traces.
+  Use when the user needs to find the cause of a Java bug, exception, wrong behavior, or failing test, or asks how
+  to attach a debugger.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-debugging
+  repository: https://github.com/github/awesome-copilot

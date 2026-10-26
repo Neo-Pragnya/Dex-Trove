@@ -9,16 +9,16 @@
     "skill",
     "superpowers"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/superpowers.executing-plans",
   "source": {
     "id": "superpowers",
     "title": "Superpowers (obra)",
     "repo": "https://github.com/obra/superpowers",
-    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
     "path": "skills/executing-plans",
-    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/executing-plans",
+    "url": "https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/executing-plans",
     "author": null
   },
   "license": {
@@ -36,7 +36,7 @@
     "scripts/task-done",
     "scripts/task-start"
   ],
-  "entry_hash": "f38e8f2ddcf079f65493adc713c1fed78421dfaf5f4dbf6b3a6b2b1d95466e71",
-  "content_hash": "4fe46fa33e913124d7a12791c05114677d27bf2c7704f33c9b5a7a42c75b80c2",
-  "learned_at": "2026-10-20T03:29:01+00:00"
+  "entry_hash": "e4649e59880ef2643d1da128e3d607e87e3f969410d72095a5bf65811b6036dc",
+  "content_hash": "e175ed69b6964620fb3d6d1b68f6e3db9cafa5bcb34293c09f9d32bec76c7b1e",
+  "learned_at": "2026-10-26T13:16:59+00:00"
 }

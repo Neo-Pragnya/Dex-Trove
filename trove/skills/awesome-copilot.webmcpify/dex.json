@@ -4,22 +4,22 @@
   "namespace": "awesome-copilot",
   "name": "webmcpify",
   "title": "webmcpify — make any web app agent-ready, verifiably",
-  "description": "Make a web app agent-ready — propose a WebMCP tool manifest, integrate, verify in a real browser, heal; unrelated code stays untouched. Use for \"webmcpify\", \"add WebMCP\", or \"expose app actions to AI agents\".",
+  "description": "WebMCP agent skill for curated core coverage or route-by-route parity — inventory an existing web app, integrate approved tools, then inspect, verify and heal them in a real browser. Use for \"webmcpify\", \"add WebMCP\", or \"expose app actions to AI agents\".",
   "tags": [
     "awesome-copilot",
     "executes-code",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.webmcpify",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "skills/webmcpify",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/webmcpify",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/webmcpify",
     "author": null
   },
   "license": {
@@ -34,19 +34,32 @@
   "members": [],
   "files": [
     "SKILL.md",
+    "references/discovery.md",
     "references/heal.md",
     "references/integrate.md",
     "references/inventory.md",
+    "references/native-compatibility.md",
+    "references/reverify.md",
     "references/runtime.md",
     "references/security.md",
     "references/verify.md",
+    "references/workbench.md",
+    "scripts/workbench.mjs",
+    "templates/mutation-journal.js",
+    "templates/mutation-journal.ts",
+    "templates/webmcp-compat.js",
     "templates/webmcp-jsx.d.ts",
+    "templates/webmcp-workbench.js",
     "templates/webmcp.d.ts",
     "templates/webmcp.spec.ts",
     "templates/webmcpify.js",
-    "templates/webmcpify.ts"
+    "templates/webmcpify.ts",
+    "templates/well-known-webmcp.json",
+    "tests/README.md",
+    "tests/workbench-cli.test.mjs",
+    "tests/workbench.test.mjs"
   ],
-  "entry_hash": "4522e2f516a4b43a466f13113dbd15747a10acee6baae9c324df392884b1f071",
-  "content_hash": "33a81da5627e5d3a4ac828b3da68e82414702690439f3e9bb5e66cf20afa1373",
-  "learned_at": "2026-10-20T03:28:56+00:00"
+  "entry_hash": "3f0d372d3f8ff74919de0a471660782b04ddaf0f1e71cd035a6edb77c59bb6e1",
+  "content_hash": "86a2d2c8dc849f3b61349bda3b932e224df46f6c3147f6fa4069a52ada17372a",
+  "learned_at": "2026-10-26T13:16:53+00:00"
 }

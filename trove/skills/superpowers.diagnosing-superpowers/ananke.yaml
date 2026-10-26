@@ -1,7 +1,7 @@
 kind: skill
 namespace: superpowers
 name: diagnosing-superpowers
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:superpowers:diagnosing-superpowers
 summary: Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored
   plans, stumbles, poor results, a skill that didn't fire, "it took too long", "why is it so e…
@@ -29,5 +29,5 @@ metadata:
   tags:
   - skill
   - superpowers
-  homepage: https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/diagnosing-superpowers
+  homepage: https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/diagnosing-superpowers
   repository: https://github.com/obra/superpowers

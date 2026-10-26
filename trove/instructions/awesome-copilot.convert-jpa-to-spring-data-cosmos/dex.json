@@ -9,16 +9,16 @@
     "awesome-copilot",
     "instruction"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "convert-jpa-to-spring-data-cosmos.instructions.md",
   "dir": "instructions/awesome-copilot.convert-jpa-to-spring-data-cosmos",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "instructions/convert-jpa-to-spring-data-cosmos.instructions.md",
-    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/convert-jpa-to-spring-data-cosmos.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/instructions/convert-jpa-to-spring-data-cosmos.instructions.md",
     "author": null
   },
   "license": {
@@ -34,8 +34,8 @@
   "files": [
     "convert-jpa-to-spring-data-cosmos.instructions.md"
   ],
-  "entry_hash": "aafb23b2cb2fcedc30963b88b85ca720923e63ae5cbfb359ffc670447b3e9946",
-  "content_hash": "0f5d382d4e9ee623b4f1a0f94d84f0f4ee11d246db550ad4e6db6489c61479a4",
-  "learned_at": "2026-10-20T03:28:57+00:00",
+  "entry_hash": "9a19af41ed2d469bf050fecb2c3bf6e25eeb4e968cedf0eebe2904a5eb105a38",
+  "content_hash": "005d3e6855a9149ad413ddf4975d195bd30a5a6950abf78ec462d97daca572d2",
+  "learned_at": "2026-10-26T13:16:55+00:00",
   "apply_to": "**/*.java,**/pom.xml,**/build.gradle,**/application*.properties"
 }

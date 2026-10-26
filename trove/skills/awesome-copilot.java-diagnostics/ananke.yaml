@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: java-diagnostics
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:java-diagnostics
+summary: 'Symptom-first runtime diagnostics for JVM applications using JDK tools: jcmd, jstack, jmap, jstat, JFR,
+  GC logs, async-profiler, Native Memory Tracking, and Eclipse MAT.'
+description: 'Symptom-first runtime diagnostics for JVM applications using JDK tools: jcmd, jstack, jmap, jstat,
+  JFR, GC logs, async-profiler, Native Memory Tracking, and Eclipse MAT. Use when a Java app has high CPU, memory
+  leaks or OutOfMemoryError, slow startup, deadlocks or thread starvation, long GC pauses, native memory growth,
+  or slow requests. Includes permission tiers for safe use.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-diagnostics
+  repository: https://github.com/github/awesome-copilot

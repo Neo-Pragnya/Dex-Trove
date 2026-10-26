@@ -1,12 +1,13 @@
 kind: skill
 namespace: awesome-copilot
 name: java-add-graalvm-native-image-support
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:awesome-copilot:java-add-graalvm-native-image-support
-summary: GraalVM Native Image expert that adds native image support to Java applications, builds the project, analyzes
-  build errors, applies fixes, and iterates until successful compilation using Oracle best p…
-description: GraalVM Native Image expert that adds native image support to Java applications, builds the project,
-  analyzes build errors, applies fixes, and iterates until successful compilation using Oracle best practices.
+summary: 'GraalVM Native Image skill for Spring Boot, Micronaut and plain Java: detects the build tool and framework,
+  adds native image support, builds the executable, analyzes errors, and iterates until the na…'
+description: 'GraalVM Native Image skill for Spring Boot, Micronaut and plain Java: detects the build tool and framework,
+  adds native image support, builds the executable, analyzes errors, and iterates until the native build succeeds
+  and the binary runs correctly. For Quarkus projects it only dispatches to the quarkus-native-and-container skill.'
 runtime:
   supported:
   - claude-code
@@ -27,5 +28,5 @@ metadata:
   tags:
   - awesome-copilot
   - skill
-  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-add-graalvm-native-image-support
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-add-graalvm-native-image-support
   repository: https://github.com/github/awesome-copilot

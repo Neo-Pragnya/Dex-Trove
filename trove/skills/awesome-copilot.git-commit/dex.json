@@ -4,21 +4,21 @@
   "namespace": "awesome-copilot",
   "name": "git-commit",
   "title": "Git Commit with Conventional Commits",
-  "description": "Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when user asks to commit changes, create a git commit, or mentions \"/commit\". Supports: (1) Auto-detecting type and scope from changes, (2) Generating conventional commit messages from diff, (3) Interactive commit with optional type/scope/description overrides, (4) Intelligent file staging for logical grouping",
+  "description": "Use this skill when the user wants to make a Git commit or split changes into more than one commit. Also use it when the user types \"/commit\" or asks for a conventional commit. The skill examines the diff, stages the related files, writes a Conventional Commits message, and runs git commit. Do not use it when the user wants only a commit message and no commit. Do not use it to push, open a pull request, rebase, or change the commit history.",
   "tags": [
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.git-commit",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "skills/git-commit",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/git-commit",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/git-commit",
     "author": null
   },
   "license": {
@@ -34,7 +34,7 @@
   "files": [
     "SKILL.md"
   ],
-  "entry_hash": "554d1a3c6d95f15bc1170160659ecdc9a9958b64f377f3988941b672c249b13f",
-  "content_hash": "2ec73abbd7b35f5fd768dd2cf253625e75295d8de6bdf1ff84d8faf07afe11d5",
-  "learned_at": "2026-10-20T03:28:53+00:00"
+  "entry_hash": "2ba71a0d5ba0add9f8414567d2f54906def78ea843e3c05f3791e485a1e82e3b",
+  "content_hash": "2c995ab5d4496fe6605329025f93ba7c35d18cecc02668efafa986b80573bfc8",
+  "learned_at": "2026-10-26T13:16:51+00:00"
 }

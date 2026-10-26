@@ -1,0 +1,46 @@
+{
+  "id": "awesome-copilot/azure-logic-apps-standard-cli",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "azure-logic-apps-standard-cli",
+  "title": "Logic Apps Standard CLI",
+  "description": "Create, inspect, validate, test, run, debug, package, and deploy Azure Logic Apps Standard projects using the Azure CLI logicapp extension. Use for Standard workflow authoring, optional workspaces, connector discovery, identity-based connections, local runtimes, native workflow tests, and approved cloud lifecycle operations. Not for Consumption-only workflow development.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.azure-logic-apps-standard-cli",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+    "path": "skills/azure-logic-apps-standard-cli",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/azure-logic-apps-standard-cli",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "references/connections.md",
+    "references/live-operations.md",
+    "references/local-runtime.md",
+    "references/packaging-deployment.md",
+    "references/testing.md"
+  ],
+  "entry_hash": "8b46051f19a5f73fd8850816d9e62fd5fac36a8b246643ad8ff9d130fe05c187",
+  "content_hash": "4c3cd2faa082e1a123fa25e923af1acf1b8437984ed79da8cdf5b96efc275487",
+  "learned_at": "2026-10-26T13:16:49+00:00"
+}

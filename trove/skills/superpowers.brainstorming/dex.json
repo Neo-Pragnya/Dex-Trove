@@ -10,16 +10,16 @@
     "skill",
     "superpowers"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/superpowers.brainstorming",
   "source": {
     "id": "superpowers",
     "title": "Superpowers (obra)",
     "repo": "https://github.com/obra/superpowers",
-    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
     "path": "skills/brainstorming",
-    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/brainstorming",
+    "url": "https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/brainstorming",
     "author": null
   },
   "license": {
@@ -42,7 +42,7 @@
     "scripts/stop-server.sh",
     "visual-companion.md"
   ],
-  "entry_hash": "6ee10d1481b8a2580d5336ff66c5c08acc9d4b251b13bbc3bfd31be99c261d43",
-  "content_hash": "6e2c3dfe4c01c2f7ed0d7dc6ae42270580434aedab4e96f23b04bca53b4a0cae",
-  "learned_at": "2026-10-20T03:29:01+00:00"
+  "entry_hash": "61a7ef918652108c76a3fd01e02dd92d39996c6b46d4cb2819cbd03f6c45e46a",
+  "content_hash": "a6b4cb02fd0d93b98a0bbab15003477d6b77464d32fdf1dc70a18be82a47a09f",
+  "learned_at": "2026-10-26T13:16:59+00:00"
 }

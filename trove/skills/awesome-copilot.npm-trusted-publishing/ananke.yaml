@@ -1,0 +1,31 @@
+kind: skill
+namespace: awesome-copilot
+name: npm-trusted-publishing
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:npm-trusted-publishing
+summary: Set up or fix npm trusted publishing (OIDC) in GitHub Actions and remove NPM_TOKEN. Use for ENEEDAUTH,
+  E404 on PUT, E422 repository.url, or migrating off 2FA-bypass tokens before January 2027.
+description: Set up or fix npm trusted publishing (OIDC) in GitHub Actions and remove NPM_TOKEN. Use for ENEEDAUTH,
+  E404 on PUT, E422 repository.url, or migrating off 2FA-bypass tokens before January 2027.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/npm-trusted-publishing
+  repository: https://github.com/github/awesome-copilot

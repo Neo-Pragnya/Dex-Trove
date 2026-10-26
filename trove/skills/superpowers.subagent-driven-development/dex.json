@@ -9,16 +9,16 @@
     "skill",
     "superpowers"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/superpowers.subagent-driven-development",
   "source": {
     "id": "superpowers",
     "title": "Superpowers (obra)",
     "repo": "https://github.com/obra/superpowers",
-    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
     "path": "skills/subagent-driven-development",
-    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development",
+    "url": "https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/subagent-driven-development",
     "author": null
   },
   "license": {
@@ -35,12 +35,19 @@
     "SKILL.md",
     "implementer-prompt.md",
     "re-review-prompt.md",
+    "references/batching.md",
+    "references/cannot-verify.md",
+    "references/final-review.md",
+    "references/fix-loop.md",
+    "references/handling-reports.md",
+    "references/preflight.md",
+    "references/resuming.md",
     "scripts/review-package",
     "scripts/sdd-workspace",
     "scripts/task-brief",
     "task-reviewer-prompt.md"
   ],
-  "entry_hash": "8dde5589ee083fb4999106d116f01c8fdaf3116a8a9813fdedeb80329de49046",
-  "content_hash": "eb70937ea4ee79c3624f6ae63d485c78b709aff834587498f0538d9b8db3c395",
-  "learned_at": "2026-10-20T03:29:01+00:00"
+  "entry_hash": "ba41f697136cba88a7962d60c8e2f97488ba04a8688b1d0fbeb27f6953808e75",
+  "content_hash": "5aa87d54c34467b3516bde17f0c6d25563c52038ec8292324bdbf76a1a67483a",
+  "learned_at": "2026-10-26T13:16:59+00:00"
 }

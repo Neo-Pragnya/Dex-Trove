@@ -13,17 +13,17 @@
     "awesome-copilot": {
       "repo": "https://github.com/github/awesome-copilot",
       "ref": "main",
-      "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-      "learned_at": "2026-10-22T02:32:27+00:00",
+      "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+      "learned_at": "2026-10-26T13:16:59+00:00",
       "items": {
         "agent": 220,
         "hook": 7,
-        "instruction": 189,
-        "plugin": 72,
-        "skill": 432,
+        "instruction": 190,
+        "plugin": 74,
+        "skill": 443,
         "workflow": 8
       },
-      "excluded": 41
+      "excluded": 43
     },
     "neo-pragnya": {
       "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
@@ -38,8 +38,8 @@
     "superpowers": {
       "repo": "https://github.com/obra/superpowers",
       "ref": "main",
-      "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
-      "learned_at": "2026-10-20T04:06:53+00:00",
+      "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "learned_at": "2026-10-26T13:16:59+00:00",
       "items": {
         "skill": 15
       },

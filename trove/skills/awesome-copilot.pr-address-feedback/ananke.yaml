@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: pr-address-feedback
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:pr-address-feedback
+summary: Walk through PR review comments one-by-one, deciding for each whether to act on the feedback or reply with
+  reasoning, and build an approvable resolution plan before changing anything.
+description: Walk through PR review comments one-by-one, deciding for each whether to act on the feedback or reply
+  with reasoning, and build an approvable resolution plan before changing anything. Use when the user wants to address,
+  respond to, or triage PR review feedback.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/pr-address-feedback
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/java-testcontainers",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "java-testcontainers",
+  "title": "Java Testcontainers (2.x)",
+  "description": "Write reliable integration tests in plain Java with Testcontainers 2.x: JUnit Jupiter lifecycle, singleton containers, reuse, generic containers, wait strategies, networks, init scripts, Docker Compose, CI and Docker/Podman setup. Use when adding or fixing Testcontainers tests, or migrating from 1.x. Framework-neutral.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.java-testcontainers",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+    "path": "skills/java-testcontainers",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-testcontainers",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/containers-and-waiting.md",
+    "references/environment-ci-troubleshooting.md",
+    "references/lifecycle-and-reuse.md"
+  ],
+  "entry_hash": "24c1122661b2b0408770559b40fd7f847cbe83c3e82861c758bfe1cd3d24d5b9",
+  "content_hash": "50d5912b193f4d37e701cc8d7fe813e2ea1646e2bf159e0a70cacadf40078398",
+  "learned_at": "2026-10-26T13:16:51+00:00"
+}

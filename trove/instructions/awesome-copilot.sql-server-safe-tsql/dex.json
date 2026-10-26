@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/sql-server-safe-tsql",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "sql-server-safe-tsql",
+  "title": "SQL Server Production-Safe T-SQL",
+  "description": "SQL Server-specific write-safety rules for T-SQL: XACT_ABORT with THROW, @@TRANCOUNT-aware transactions, fail-closed dry runs, batched OUTPUT...INTO archiving, autocommit-only admin statements, and read-only DMV diagnostics.",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "sql-server-safe-tsql.instructions.md",
+  "dir": "instructions/awesome-copilot.sql-server-safe-tsql",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+    "path": "instructions/sql-server-safe-tsql.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/b1a00457c0b8794243883f387e7de71e88800e3e/instructions/sql-server-safe-tsql.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "sql-server-safe-tsql.instructions.md"
+  ],
+  "entry_hash": "797190e7d4b2bcdeb477f96aafc96764f0945ca4d1ccb3df81898785e85d41e5",
+  "content_hash": "4116e549e8b3e16504202359797ebdd79df80b3f9a61ebcbec223e6567f76859",
+  "learned_at": "2026-10-26T13:16:56+00:00",
+  "apply_to": "**/*.sql, **/*.ps1"
+}

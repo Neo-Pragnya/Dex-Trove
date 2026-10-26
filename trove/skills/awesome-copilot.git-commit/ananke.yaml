@@ -1,14 +1,15 @@
 kind: skill
 namespace: awesome-copilot
 name: git-commit
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:awesome-copilot:git-commit
-summary: Execute git commit with conventional commit message analysis, intelligent staging, and message generation.
-  Use when user asks to commit changes, create a git commit, or mentions "/commit".
-description: 'Execute git commit with conventional commit message analysis, intelligent staging, and message generation.
-  Use when user asks to commit changes, create a git commit, or mentions "/commit". Supports: (1) Auto-detecting
-  type and scope from changes, (2) Generating conventional commit messages from diff, (3) Interactive commit with
-  optional type/scope/description overrides, (4) Intelligent file staging for logical grouping'
+summary: Use this skill when the user wants to make a Git commit or split changes into more than one commit. Also
+  use it when the user types "/commit" or asks for a conventional commit.
+description: Use this skill when the user wants to make a Git commit or split changes into more than one commit.
+  Also use it when the user types "/commit" or asks for a conventional commit. The skill examines the diff, stages
+  the related files, writes a Conventional Commits message, and runs git commit. Do not use it when the user wants
+  only a commit message and no commit. Do not use it to push, open a pull request, rebase, or change the commit
+  history.
 runtime:
   supported:
   - claude-code
@@ -29,5 +30,5 @@ metadata:
   tags:
   - awesome-copilot
   - skill
-  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/git-commit
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/git-commit
   repository: https://github.com/github/awesome-copilot

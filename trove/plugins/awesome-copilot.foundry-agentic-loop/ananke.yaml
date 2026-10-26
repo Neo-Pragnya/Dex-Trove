@@ -1,0 +1,46 @@
+kind: bundle
+namespace: awesome-copilot
+name: foundry-agentic-loop
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:foundry-agentic-loop
+summary: 'Build agentic solutions on Microsoft Foundry, GitHub and Azure. Prototype in an existing Foundry project,
+  or run spec-driven development (SDD): a dynamic workflow that specifies, implements, verifies…'
+description: 'Build agentic solutions on Microsoft Foundry, GitHub and Azure. Prototype in an existing Foundry project,
+  or run spec-driven development (SDD): a dynamic workflow that specifies, implements, verifies and deploys with
+  azd behind evidence gates. Includes a canvas with a gallery of 61 industry prompt templates, a live workflow view
+  and Foundry enablement, plus an improve mode that learns from past runs.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/foundry-agentic-loop
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - agentic-loop
+  - awesome-copilot
+  - azd
+  - azure
+  - canvas
+  - copilot-sdk
+  - dynamic-workflow
+  - hosted-agents
+  - microsoft-foundry
+  - plugin
+  - rapid-prototyping
+  - spec-driven-development
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/plugins/foundry-agentic-loop
+  repository: https://github.com/github/awesome-copilot

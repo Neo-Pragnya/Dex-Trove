@@ -1,0 +1,48 @@
+{
+  "id": "awesome-copilot/java-diagnostics",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "java-diagnostics",
+  "title": "Java Diagnostics",
+  "description": "Symptom-first runtime diagnostics for JVM applications using JDK tools: jcmd, jstack, jmap, jstat, JFR, GC logs, async-profiler, Native Memory Tracking, and Eclipse MAT. Use when a Java app has high CPU, memory leaks or OutOfMemoryError, slow startup, deadlocks or thread starvation, long GC pauses, native memory growth, or slow requests. Includes permission tiers for safe use.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.java-diagnostics",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+    "path": "skills/java-diagnostics",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-diagnostics",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/async-profiler.md",
+    "references/containers.md",
+    "references/gc.md",
+    "references/heap.md",
+    "references/jcmd-basics.md",
+    "references/jfr.md",
+    "references/native-memory.md",
+    "references/thread-dumps.md"
+  ],
+  "entry_hash": "fd663676fb1d5fd86c6546052068af085a5a7e8eb2b09e15e94a103a3bce1b61",
+  "content_hash": "ffac40830c1b1586f263771a906d1ef7197043d2b16912ca1c9781f6b24acec9",
+  "learned_at": "2026-10-26T13:16:51+00:00"
+}

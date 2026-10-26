@@ -10,16 +10,16 @@
     "skill",
     "superpowers"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/superpowers.writing-skills",
   "source": {
     "id": "superpowers",
     "title": "Superpowers (obra)",
     "repo": "https://github.com/obra/superpowers",
-    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
     "path": "skills/writing-skills",
-    "url": "https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/writing-skills",
+    "url": "https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/writing-skills",
     "author": null
   },
   "license": {
@@ -34,14 +34,17 @@
   "members": [],
   "files": [
     "SKILL.md",
-    "anthropic-best-practices.md",
-    "examples/CLAUDE_MD_TESTING.md",
-    "graphviz-conventions.dot",
-    "persuasion-principles.md",
-    "render-graphs.js",
-    "testing-skills-with-subagents.md"
+    "references/CLAUDE_MD_TESTING.md",
+    "references/anthropic-best-practices.md",
+    "references/bulletproofing.md",
+    "references/discovery.md",
+    "references/flowcharts.md",
+    "references/graphviz-conventions.dot",
+    "references/persuasion-principles.md",
+    "references/testing-skills-with-subagents.md",
+    "render-graphs.js"
   ],
-  "entry_hash": "bbdfe742f853562e643a3d40d64476359d47881e39cef80a189283fa26d11ab9",
-  "content_hash": "e61e2e7d78416ec7dc9a438d1207388498030d0a7d6cd16e35779015ef368c6c",
-  "learned_at": "2026-10-20T03:29:01+00:00"
+  "entry_hash": "8cb3ac68c6d8c4bb46886b998b09af7989643cab8bd0e46ee86dd62e64546bbe",
+  "content_hash": "f7d63ea3b6dd8c253cce19e2ab59b1481e0eb50b6b526e189d7ac259e0074e12",
+  "learned_at": "2026-10-26T13:16:59+00:00"
 }

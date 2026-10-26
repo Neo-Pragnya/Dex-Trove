@@ -1,0 +1,36 @@
+kind: skill
+namespace: awesome-copilot
+name: globestudio
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:globestudio
+summary: Creates, edits and embeds dotted world maps and animated 3D globes with Globestudio (globestudio.app),
+  a free open source studio with 21 looks.
+description: Creates, edits and embeds dotted world maps and animated 3D globes with Globestudio (globestudio.app),
+  a free open source studio with 21 looks. Use when the user wants a dotted map, a dotted or 3D globe, a spinning
+  earth or a stylized world map for a website hero, background, slide, social post or video; when they paste a globestudio.app
+  link or a ?c= config; or when code uses @globestudio/react, @globestudio/element, the globe-studio web component
+  or globestudio.app/embed. Also use it to highlight a country, continent or region, plot points and arcs, match
+  brand colors, or prepare PNG, SVG, GLB, MP4, WebM or GIF exports. Not for interactive tiled maps, routing, geocoding
+  or GIS analysis (Mapbox, MapLibre, deck.gl), or for ordinary charts.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/globestudio
+  repository: https://github.com/github/awesome-copilot

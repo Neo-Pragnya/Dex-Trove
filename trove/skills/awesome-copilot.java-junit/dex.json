@@ -3,22 +3,22 @@
   "kind": "skill",
   "namespace": "awesome-copilot",
   "name": "java-junit",
-  "title": "JUnit 5+ Best Practices",
-  "description": "Get best practices for JUnit 5 unit testing, including data-driven tests",
+  "title": "Java Testing with JUnit 5/6, AssertJ and Mockito",
+  "description": "Write, review and fix Java unit tests with JUnit 5 and JUnit 6 (Jupiter), AssertJ and Mockito: assertions, parameterized and nested tests, mocking rules, deterministic time and randomness, Surefire vs Failsafe, JaCoCo coverage, optional PIT mutation testing, and guardrails for agents (never skip or delete failing tests). Use when adding, refactoring or debugging tests in Maven or Gradle projects. Framework-neutral.",
   "tags": [
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.java-junit",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "skills/java-junit",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-junit",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-junit",
     "author": null
   },
   "license": {
@@ -32,9 +32,11 @@
   "executes_code": false,
   "members": [],
   "files": [
-    "SKILL.md"
+    "SKILL.md",
+    "references/assertj-and-mockito.md",
+    "references/build-setup.md"
   ],
-  "entry_hash": "beeae246a2b1a8debffb53b005eba0e025f70923fa26a11f3c4bfefd99388fa3",
-  "content_hash": "b3ff2ffd03969b04b87db33a65cf6469357fa878a7eb99217a7513da33270552",
-  "learned_at": "2026-10-20T03:28:54+00:00"
+  "entry_hash": "836790283679a14b3e1c78ff2f5f596361f4b8155077355f4afa343a4355c537",
+  "content_hash": "c554f2d121267fe81ff89ca7150eb91d416759bf344d3b1f00f8dec57bcda41f",
+  "learned_at": "2026-10-26T13:16:51+00:00"
 }

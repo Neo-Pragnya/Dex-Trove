@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/java-debugging",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "java-debugging",
+  "title": "Java Debugging",
+  "description": "Debug Java applications systematically: JDWP remote debugging, jdb, VS Code and IntelliJ attach, debugging Maven/Gradle tests, Spring Boot and Quarkus dev mode, containers, breakpoints/logpoints, and reading stack traces. Use when the user needs to find the cause of a Java bug, exception, wrong behavior, or failing test, or asks how to attach a debugger.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.java-debugging",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
+    "path": "skills/java-debugging",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-debugging",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/stack-traces.md"
+  ],
+  "entry_hash": "8e560a340a759da9775db0971925260407471fa1646746057fe41137568d3968",
+  "content_hash": "f185b6bb4e6094b46b2c892683cdf2c66288525b85d40e8ec2640ab64fc84aab",
+  "learned_at": "2026-10-26T13:16:51+00:00"
+}

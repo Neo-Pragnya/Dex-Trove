@@ -1,15 +1,15 @@
 kind: skill
 namespace: awesome-copilot
 name: java-mcp-server-generator
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:awesome-copilot:java-mcp-server-generator
 summary: Use this skill when the user wants to create a Model Context Protocol (MCP) server in Java or in a Spring
   Boot app.
 description: Use this skill when the user wants to create a Model Context Protocol (MCP) server in Java or in a
   Spring Boot app. Also use it when the user wants AI agents, such as GitHub Copilot or Claude, to use Java code,
   an API, or a database. Use it even if the user does not say "MCP". The skill makes a Maven or Gradle project with
-  the MCP Java SDK 2.x, tools, JUnit tests, and client configuration. Do not use it for an MCP client or for a server
-  in another language.
+  the MCP Java SDK 2.x, tools, JUnit tests, and client configuration. Do not use it for Quarkus/Quarkiverse MCP
+  servers (use the `quarkus-mcp-server-sse` instruction), for an MCP client or for a server in another language.
 runtime:
   supported:
   - claude-code
@@ -30,5 +30,5 @@ metadata:
   tags:
   - awesome-copilot
   - skill
-  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-mcp-server-generator
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-mcp-server-generator
   repository: https://github.com/github/awesome-copilot

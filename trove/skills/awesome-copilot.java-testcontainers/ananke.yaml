@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: java-testcontainers
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:java-testcontainers
+summary: 'Write reliable integration tests in plain Java with Testcontainers 2.x: JUnit Jupiter lifecycle, singleton
+  containers, reuse, generic containers, wait strategies, networks, init scripts, Docker Compos…'
+description: 'Write reliable integration tests in plain Java with Testcontainers 2.x: JUnit Jupiter lifecycle, singleton
+  containers, reuse, generic containers, wait strategies, networks, init scripts, Docker Compose, CI and Docker/Podman
+  setup. Use when adding or fixing Testcontainers tests, or migrating from 1.x. Framework-neutral.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-testcontainers
+  repository: https://github.com/github/awesome-copilot

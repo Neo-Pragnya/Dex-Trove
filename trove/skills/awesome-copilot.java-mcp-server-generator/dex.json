@@ -4,21 +4,21 @@
   "namespace": "awesome-copilot",
   "name": "java-mcp-server-generator",
   "title": "Java MCP Server Generator",
-  "description": "Use this skill when the user wants to create a Model Context Protocol (MCP) server in Java or in a Spring Boot app. Also use it when the user wants AI agents, such as GitHub Copilot or Claude, to use Java code, an API, or a database. Use it even if the user does not say \"MCP\". The skill makes a Maven or Gradle project with the MCP Java SDK 2.x, tools, JUnit tests, and client configuration. Do not use it for an MCP client or for a server in another language.",
+  "description": "Use this skill when the user wants to create a Model Context Protocol (MCP) server in Java or in a Spring Boot app. Also use it when the user wants AI agents, such as GitHub Copilot or Claude, to use Java code, an API, or a database. Use it even if the user does not say \"MCP\". The skill makes a Maven or Gradle project with the MCP Java SDK 2.x, tools, JUnit tests, and client configuration. Do not use it for Quarkus/Quarkiverse MCP servers (use the `quarkus-mcp-server-sse` instruction), for an MCP client or for a server in another language.",
   "tags": [
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.java-mcp-server-generator",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "b1a00457c0b8794243883f387e7de71e88800e3e",
     "path": "skills/java-mcp-server-generator",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-mcp-server-generator",
+    "url": "https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/java-mcp-server-generator",
     "author": null
   },
   "license": {
@@ -36,7 +36,7 @@
     "references/gradle.md",
     "references/streamable-http.md"
   ],
-  "entry_hash": "20fa88231a723885af2bf3a65d38f6095bdbfa0b51641bb8df1d0cfd87c5c111",
-  "content_hash": "96178205980904a7cab456087ef8c434fed2c7602581459dcc09bfbdf09f41f7",
-  "learned_at": "2026-10-20T03:28:54+00:00"
+  "entry_hash": "e03e82404a0e5d7f3346cef59dac519acc24fdb5a30e7420845cc47c9a336e8b",
+  "content_hash": "9ae6dca9c7cbf2b6c261a93493f9c5892c13cd80c123b011f1ea029f88f8739e",
+  "learned_at": "2026-10-26T13:16:51+00:00"
 }

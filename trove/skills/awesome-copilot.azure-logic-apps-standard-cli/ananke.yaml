@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: azure-logic-apps-standard-cli
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:azure-logic-apps-standard-cli
+summary: Create, inspect, validate, test, run, debug, package, and deploy Azure Logic Apps Standard projects using
+  the Azure CLI logicapp extension.
+description: Create, inspect, validate, test, run, debug, package, and deploy Azure Logic Apps Standard projects
+  using the Azure CLI logicapp extension. Use for Standard workflow authoring, optional workspaces, connector discovery,
+  identity-based connections, local runtimes, native workflow tests, and approved cloud lifecycle operations. Not
+  for Consumption-only workflow development.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/b1a00457c0b8794243883f387e7de71e88800e3e/skills/azure-logic-apps-standard-cli
+  repository: https://github.com/github/awesome-copilot
