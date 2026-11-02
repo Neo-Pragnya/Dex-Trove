@@ -72,6 +72,11 @@ def validate(
     except releases.ReleaseError as exc:
         return [*problems, str(exc)]
     problems += _relation_problems(trove, on_disk, ledger)
+    from dex_trove import checks
+
+    checked = set(checks.load(trove)["items"])
+    if checked != {releases.key_of(it) for it in on_disk}:
+        problems.append("install-checks.json doesn't cover the current items — run `dex check-installs`")
     return problems
 
 

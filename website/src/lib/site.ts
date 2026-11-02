@@ -103,6 +103,7 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
       "concepts/related-items",
       "concepts/licence-policy",
       "concepts/provenance-and-versioning",
+      "concepts/capability-memory",
       "concepts/security-model",
     ],
   },

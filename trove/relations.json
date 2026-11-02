@@ -2682,6 +2682,12 @@
     ],
     "agent:awesome-copilot/implementation-plan": [
       {
+        "type": "alternative-to",
+        "target": "agent:awesome-copilot/planner",
+        "origin": "curated",
+        "evidence": "dex overlap: identical description 'Generate an implementation plan for new features or refactoring existing code.'"
+      },
+      {
         "type": "part-of",
         "target": "plugin:awesome-copilot/project-planning",
         "origin": "derived",
@@ -3519,6 +3525,12 @@
       }
     ],
     "agent:awesome-copilot/planner": [
+      {
+        "type": "alternative-to",
+        "target": "agent:awesome-copilot/implementation-plan",
+        "origin": "curated",
+        "evidence": "dex overlap: identical description 'Generate an implementation plan for new features or refactoring existing code.'"
+      },
       {
         "type": "part-of",
         "target": "plugin:awesome-copilot/project-planning",
@@ -14872,6 +14884,12 @@
     ],
     "skill:anthropic/webapp-testing": [
       {
+        "type": "alternative-to",
+        "target": "skill:awesome-copilot/webapp-testing",
+        "origin": "curated",
+        "evidence": "dex overlap similarity 1.0: same description; anthropic's bundles Python helpers (with_server.py), awesome-copilot's a JS test-helper"
+      },
+      {
         "type": "similar",
         "target": "agent:awesome-copilot/terratest-module-testing",
         "origin": "inferred",
@@ -14898,12 +14916,6 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/quarkus-dev-services-and-testing",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/webapp-testing",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -26804,6 +26816,12 @@
     ],
     "skill:awesome-copilot/webapp-testing": [
       {
+        "type": "alternative-to",
+        "target": "skill:anthropic/webapp-testing",
+        "origin": "curated",
+        "evidence": "dex overlap similarity 1.0: same description; anthropic's bundles Python helpers (with_server.py), awesome-copilot's a JS test-helper"
+      },
+      {
         "type": "similar",
         "target": "agent:awesome-copilot/terratest-module-testing",
         "origin": "inferred",
@@ -26818,12 +26836,6 @@
       {
         "type": "similar",
         "target": "plugin:awesome-copilot/testing-automation",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "skill:anthropic/webapp-testing",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },

@@ -41,6 +41,7 @@ Facets fix this with one question per dimension, a fixed list of values, a defin
 | `language` | Which language? | python, typescript, csharp, java, go, sql | Curation, tags, `applyTo` globs, text rules |
 | `framework` | Which technology? | pytest, playwright, react, terraform, mcp, azure | Curation, tags, text rules |
 | `platform` | Where can Dex install it? | claude-code, github-copilot, ananke | From the install layout |
+| `needs` | What must be installed for it to run? | text-only, python, node, shell, powershell | From the item's own files (a plugin: its members) |
 | `maturity` | How established? | stable, beta, experimental, deprecated, unknown | Curation (most upstream items: `unknown`) |
 
 Every value, its definition and its aliases are in the [taxonomy reference](../reference/taxonomy.md), or run
@@ -79,7 +80,8 @@ Dex never edits upstream files. Facets are a **sidecar**, `trove/facets.json`, r
    instruction for `**/*.py` is `language: python`).
 3. **Rules**: patterns in the taxonomy matched against the item's name, title, description and tags. Each hit records
    the text it matched. These are marked *review-pending*.
-4. **Derived**: facts Dex knows itself: `kind` from the catalog, `platform` from where `dex install` can put the item.
+4. **Derived**: facts Dex knows itself: `kind` from the catalog, `platform` from where `dex install` can put the item,
+   `needs` from the files the item bundles (`.py` → python, `package.json` → node, `.sh` → shell…).
 
 For each facet, the first source that has any value wins. The others are kept, so a reviewer can see what curation
 overrode. Today 25 items are curated and 939 are review-pending.

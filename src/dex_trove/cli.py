@@ -206,6 +206,9 @@ def search(
     language: FacetOpt = None,
     framework: FacetOpt = None,
     platform: FacetOpt = None,
+    needs: Annotated[
+        list[str] | None, typer.Option("--needs", help="What it needs installed: text-only, python, node…")
+    ] = None,
     maturity: FacetOpt = None,
     exclude: Annotated[
         list[str] | None, typer.Option("--not", help="Exclude facet=value (repeatable)")
@@ -233,6 +236,7 @@ def search(
         "language": language,
         "framework": framework,
         "platform": platform,
+        "needs": needs,
         "maturity": maturity,
     }
     faceted = any(chosen.values()) or exclude or strict or explain or cursor
@@ -937,3 +941,81 @@ def related_cmd(
     for r in rels:
         t.add_row(r["type"], r["target"], r["origin"], r["evidence"][:80])
     console.print(t)
+
+
+@ananke_app.command("handoff")
+def ananke_handoff(
+    lock_file: Annotated[Path, typer.Option("--lock-file", help="The Dex lock to hand to Ananke")] = Path(
+        "dex.lock.json"
+    ),
+) -> None:
+    """Print the [tool.ananke] requirements that pin a Dex lock's skills and agents exactly.
+
+    Resolve-only: nothing is installed, activated or run. Paste the block into pyproject.toml, then
+    `ananke sync` resolves the same versions under your policy and writes ananke.lock.
+    """
+    from dex_trove import releases
+    from dex_trove.ananke_bridge import handoff_toml
+
+    try:
+        entries = releases.read_lock(lock_file)
+    except releases.ReleaseError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    errors, warnings = releases.check_lock(releases.load(trove_root()), entries)
+    for w in warnings:
+        err.print(f"[yellow]![/yellow] {w}")
+    if errors:
+        for e in errors:
+            err.print(f"[red]✗[/red] {e}")
+        raise typer.Exit(1)
+    text, notes = handoff_toml(entries)
+    print(text, end="")
+    for n in notes:
+        err.print(f"[dim]note: {n}[/dim]")
+
+
+@app.command("check-installs")
+def check_installs(as_json: JsonOpt = False) -> None:
+    """Install every item into each tool layout in a scratch folder and check the tool can load it.
+
+    Writes trove/install-checks.json: what Dex verified itself, shown apart from what items claim about themselves.
+    """
+    from dex_trove import checks
+
+    trove = _need_checkout_here() / "trove"
+    data = checks.run(trove, generator=f"dex-trove {__version__}")
+    checks.write(trove, data)
+    if as_json:
+        console.print_json(json.dumps(data["summary"]))
+        return
+    for target, s in data["summary"].items():
+        console.print(f"{target}: {s['pass']} pass, {s['fail']} fail")
+    fails = [(k, t, v) for k, row in data["items"].items() for t, v in row.items() if v != "pass"]
+    for k, t, v in fails[:15]:
+        console.print(f"  [yellow]–[/yellow] {t} {k}: {v}")
+
+
+@app.command("overlap")
+def overlap_cmd(
+    threshold: Annotated[float, typer.Option("--threshold", help="Word overlap needed, 0–1")] = 0.45,
+    kind: KindOpt = None,
+    limit: Annotated[int, typer.Option("--limit", "-n")] = 20,
+    as_json: JsonOpt = False,
+) -> None:
+    """Groups of items that seem to do the same job, each member scored on evidence Dex can verify.
+
+    A candidate list for curation: confirm a real overlap as `alternative-to` in taxonomy/relations.yaml.
+    """
+    from dex_trove import overlap
+
+    found = overlap.groups(catalog.filter_items(catalog.load(), kind=kind), threshold=threshold)
+    if as_json:
+        console.print_json(json.dumps({"threshold": threshold, "groups": found}))
+        return
+    for g in found[:limit]:
+        console.print(f"[bold]similarity {g['similarity']}[/bold]")
+        for m in g["members"]:
+            mark = "★" if m.get("best") else " "
+            console.print(f"  {mark} {m['score']:.2f}  {m['key']}  [dim]{', '.join(m['why'])}[/dim]")
+    console.print(f"{len(found)} group(s) at threshold {threshold}")

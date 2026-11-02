@@ -1,0 +1,3667 @@
+{
+ "generator": "dex-trove 0.3.0",
+ "summary": {
+  "claude": {
+   "pass": 758,
+   "fail": 2
+  },
+  "copilot": {
+   "pass": 955,
+   "fail": 9
+  }
+ },
+ "items": {
+  "agent:awesome-copilot/accessibility": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/accessibility-runtime-tester": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/address-comments": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/adr-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/agent-governance-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/ai-readiness-reporter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/ai-team-dev": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/ai-team-producer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/ai-team-qa": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/amplitude-experiment-implementation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/api-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/apify-integration-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/arch": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/arch-linux-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/arm-migration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/atlassian-requirements-to-jira": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/aws-cloud-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/aws-incident-triage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/aws-principal-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/aws-serverless-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-iac-exporter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-iac-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-logic-apps-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-policy-analyzer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-principal-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-saas-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-smart-city-iot-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-verified-modules-bicep": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-verified-modules-owner-triage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/azure-verified-modules-terraform": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/bicep-implement": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/bicep-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/blueprint-mode": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/cast-imaging-impact-analysis": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/cast-imaging-software-discovery": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/cast-imaging-structural-quality-advisor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/caveman-mode": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/centos-linux-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/clojure-interactive-programming": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/cloud-saas-outage-triage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/code-tour": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/comet-opik": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/context-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/context7": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/critical-thinking": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/csharp-dotnet-janitor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/csharp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/csharp-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/custom-agent-foundry": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/debian-linux-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/debug": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/declarative-agents-architect": {
+   "claude": "fail: agent has no description, so Claude Code can't choose it",
+   "copilot": "fail: agent has no description"
+  },
+  "agent:awesome-copilot/defender-scout-kql": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/delphi-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/demonstrate-understanding": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/devils-advocate": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/devops-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/devtools-regression-investigator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/diffblue-cover": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/dotnet-fullstack-mentor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/dotnet-maui": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/dotnet-self-learning-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/dotnet-upgrade": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/doublecheck": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/droid": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/drupal-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/dynatrace-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/elasticsearch-observability": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/electron-angular-native": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/ember": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/expert-cpp-software-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/expert-dotnet-software-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/expert-embedded-c-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/expert-nextjs-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/expert-react-frontend-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/fedora-linux-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/frontend-performance-investigator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-browser-tester": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-code-simplifier": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-debugger": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-designer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-devops": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-documentation-writer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-implementer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-mobile-tester": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-orchestrator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-planner": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-researcher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gem-skill-creator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gilfoyle": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/github-actions-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/github-actions-node-upgrade": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/gitmoji-setup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/go-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/hlbpa": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/implementation-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/insiders-a11y-tracker": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/interview-prep": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/janitor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/java-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/jfrog-sec": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/kotlin-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/kubestellar-console": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/kusto-assistant": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/laravel-expert-agent": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/launchdarkly-flag-cleanup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/lingodotdev-i18n": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/linkedin-post-writer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/markdown-accessibility-assistant": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/mcp-m365-agent-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/mentor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/mentoring-juniors": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/meta-agentic-project-scaffold": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/microsoft-learn-contributor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/microsoft-study-mode": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/modernization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/monday-bug-fixer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/mongodb-performance-advisor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/ms-sql-dba": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/neo4j-docker-client-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/neon-migration-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/neon-optimization-analyzer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/new-relic-incident-response": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/nuxt-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/octopus-deploy-release-notes-mcp": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/one-shot-feature-issue-planner": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/openapi-to-application": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/oracle-to-postgres-migration-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/pagerduty-incident-responder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/php-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/pimcore-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/planner": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/platform-sre-kubernetes": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/playwright-tester": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/postgresql-dba": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/power-bi-data-modeling-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/power-bi-dax-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/power-bi-performance-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/power-bi-visualization-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/power-platform-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/power-platform-mcp-integration-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/prd": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/principal-software-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/project-architecture-planner": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/project-documenter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/prompt-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/prompt-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/python-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/python-notebook-sample-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/python-win-arm64-gha-wheel-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/qa-subagent": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/quality-playbook": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react18-auditor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react18-batching-fixer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react18-class-surgeon": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react18-commander": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react18-dep-surgeon": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react18-test-guardian": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react19-auditor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react19-commander": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react19-dep-surgeon": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react19-migrator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/react19-test-guardian": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/reepl-linkedin": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/refine-issue": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/repo-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/research-harness-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/research-technical-spike": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/ruby-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/rug-orchestrator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/rust-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/salesforce-apex-triggers": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/salesforce-aura-lwc": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/salesforce-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/salesforce-flow": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/salesforce-visualforce": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/sast-sca-security-analyzer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/scientific-paper-research": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/se-product-manager-advisor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/se-responsible-ai-code": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/se-security-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/se-system-architecture-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/se-technical-writer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/se-ux-ui-designer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/search-ai-optimization-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/shopify-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/simple-app-idea-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/software-engineer-agent-v1": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/spark-performance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/specification": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/stackhawk-security-onboarding": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/swe-subagent": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/swift-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/task-planner": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/task-researcher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/taxcore-technical-writer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/tdd-green": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/tdd-red": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/tdd-refactor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/tech-debt-remediation-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/technical-content-evaluator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/terminal-helper": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/terraform": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/terraform-aws-implement": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/terraform-aws-planning": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/terraform-azure-implement": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/terraform-azure-planning": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/terraform-iac-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/terratest-module-testing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/thinking-beast-mode": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/trojan-skill-hunter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/typescript-mcp-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/ultimate-transparent-thinking-beast-mode": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/vuejs-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/wg-code-alchemist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/wg-code-sentinel": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/win-forms-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:awesome-copilot/workshop-ta": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "hook:awesome-copilot/attester-import-check": {
+   "copilot": "pass"
+  },
+  "hook:awesome-copilot/dependency-license-checker": {
+   "copilot": "pass"
+  },
+  "hook:awesome-copilot/fix-broken-links": {
+   "copilot": "pass"
+  },
+  "hook:awesome-copilot/governance-audit": {
+   "copilot": "pass"
+  },
+  "hook:awesome-copilot/session-auto-commit": {
+   "copilot": "pass"
+  },
+  "hook:awesome-copilot/session-logger": {
+   "copilot": "pass"
+  },
+  "hook:awesome-copilot/tool-guardian": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/a11y": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/agent-safety": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/agent-skills": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/agents": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/ai-prompt-engineering-safety-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/ansible": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/apex": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/arch-linux": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/aspnet-rest-apis": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/astro": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/attester-verify-packages": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/aws-appsync": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-apim-ai-gateway": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-devops-pipelines": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-durable-functions-csharp": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-functions-csharp": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-functions-typescript": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-iot-edge-architecture": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-logic-apps-power-automate": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-naming": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-verified-modules-bicep": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/azure-verified-modules-terraform": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/bicep-code-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/blazor": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/caveman-mode": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/centos-linux": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/clojure": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/cmake-vcpkg": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/codexer": {
+   "copilot": "fail: instruction has no applyTo glob, so it never applies"
+  },
+  "instruction:awesome-copilot/coldfusion-cfc": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/coldfusion-cfm": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/containerization-docker-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/context-engineering": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/context7": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/convert-cassandra-to-spring-data-cosmos": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/convert-jpa-to-spring-data-cosmos": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/copilot-sdk-csharp": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/copilot-sdk-go": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/copilot-sdk-java": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/copilot-sdk-nodejs": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/copilot-sdk-python": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/copilot-thought-logging": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/cpp-language-service-tools": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/csharp": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/csharp-ja": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/csharp-ko": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/csharp-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/csharp-razorpages": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dart-n-flutter": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dataverse-python": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dataverse-python-advanced-features": {
+   "copilot": "fail: instruction has no applyTo glob, so it never applies"
+  },
+  "instruction:awesome-copilot/dataverse-python-agentic-workflows": {
+   "copilot": "fail: instruction has no applyTo glob, so it never applies"
+  },
+  "instruction:awesome-copilot/dataverse-python-api-reference": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dataverse-python-authentication-security": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dataverse-python-best-practices": {
+   "copilot": "fail: instruction has no applyTo glob, so it never applies"
+  },
+  "instruction:awesome-copilot/dataverse-python-error-handling": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dataverse-python-file-operations": {
+   "copilot": "fail: instruction has no applyTo glob, so it never applies"
+  },
+  "instruction:awesome-copilot/dataverse-python-modules": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dataverse-python-pandas-integration": {
+   "copilot": "fail: instruction has no applyTo glob, so it never applies"
+  },
+  "instruction:awesome-copilot/dataverse-python-performance-optimization": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dataverse-python-sdk": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dataverse-python-testing-debugging": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/debian-linux": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/declarative-agents-microsoft365": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/devbox-image-definition": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/devcontainers": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/devops-core-principles": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dotnet-architecture-good-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dotnet-framework": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dotnet-maui": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dotnet-maui-9-to-dotnet-maui-10-upgrade": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/dotnet-upgrade": {
+   "copilot": "fail: instruction has no applyTo glob, so it never applies"
+  },
+  "instruction:awesome-copilot/dotnet-wpf": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/draw-io": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/exclude-prompt-data": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/fedora-linux": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/genaiscript": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/generate-modern-terraform-code-for-azure": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/gilfoyle-code-review": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/github-actions-ci-cd-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/go": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/go-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/hooks": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/html-css-style-color-guide": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/instructions": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/intellij-java-kotlin": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/java-junit5-assertions": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/java-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/java-upgrade": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/joyride-user-project": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/joyride-workspace-automation": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/kotlin-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/kubernetes-deployment-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/kubernetes-manifests": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/langchain-python": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/localization": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/lwc": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/makefile": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/markdown": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/markdown-accessibility": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/markdown-content-creation": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/markdown-gfm": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/mcp-m365-copilot": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/memory-bank": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/microsoft-foundry": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/mongo-dba": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/moodle": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/ms-sql-dba": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/mvvm-toolkit": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/nestjs": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/nextjs": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/nextjs-tailwind": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/no-heredoc": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/nodejs-javascript-vitest": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/object-calisthenics": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/oop-design-patterns": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/oqtane": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-alm": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-api-reference": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-canvas-apps": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-code-components": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-community-resources": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-dependent-libraries": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-events": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-fluent-modern-theming": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-limitations": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-manifest-schema": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-model-driven-apps": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-overview": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-power-pages": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-react-platform-libraries": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-sample-components": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/pcf-tooling": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/performance-optimization": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/php-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/php-symfony": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/playwright-dotnet": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/playwright-python": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/playwright-typescript": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-apps-canvas-yaml": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-apps-code-apps": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-bi-custom-visuals-development": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-bi-data-modeling-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-bi-dax-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-bi-devops-alm-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-bi-report-design-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-bi-security-rls-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-platform-connector": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/power-platform-mcp-development": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/powershell": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/powershell-pester-6": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/prompt": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/python-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/qa-engineering-best-practices": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/quarkus": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/quarkus-mcp-server-sse": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/r": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/ruby-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/ruby-on-rails": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/rust": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/rust-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/scala-spark": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/scala2": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/self-explanatory-code-commenting": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/shell": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/spec-driven-workflow-v1": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/springboot": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/springboot-4-migration": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/sql-sp-generation": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/svelte": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/swift-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/tailwind-v4-vite": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/taming-copilot": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/tanstack-start-shadcn-tailwind": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/task-implementation": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/tasksync": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/terraform": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/terraform-azure": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/terraform-sap-btp": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/typescript-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/typespec-m365-copilot": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/update-code-from-shorthand": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/update-docs-on-code-change": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/use-cliche-data-in-docs": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/vsixtoolkit": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/vue": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/winui3": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/wordpress": {
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/acreadiness-cockpit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/ai-team-orchestration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/arch": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/arize-ax": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/automate-this": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/awesome-copilot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/aws-cloud-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/azure-cloud-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/cast-imaging": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/clojure-interactive-programming": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/cms-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/context-engineering": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/context-matic": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/convert-to-md": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/copilot-sdk": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/csharp-dotnet-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/database-data-management": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/dataverse-sdk-for-python": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/devops-oncall": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/doublecheck": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/edge-ai-tasks": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/ember": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/eyeball": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/fastah-ip-geo-tools": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/flowstudio-power-automate": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/fluentui-blazor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/foundry-hosted-agent-copilotkit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/frontend-web-dev": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/gem-team": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/go-mcp-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/java-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/java-mcp-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/kotlin-mcp-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/mcp-m365-copilot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/napkin": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/noob-mode": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/openapi-to-application-csharp-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/openapi-to-application-go": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/openapi-to-application-java-spring-boot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/openapi-to-application-nodejs-nestjs": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/openapi-to-application-python-fastapi": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/oracle-to-postgres-migration-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/ospo-sponsorship": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/partners": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/phoenix": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/php-mcp-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/power-apps-code-apps": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/power-bi-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/power-platform-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/power-platform-mcp-connector-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/project-documenter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/project-planning": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/python-mcp-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/react18-upgrade": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/react19-upgrade": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/roundup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/ruby-mcp-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/rug-agentic-workflow": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/rust-mcp-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/salesforce-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/security-best-practices": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/skill-image-gen": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/software-engineering-team": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/structured-autonomy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/swift-mcp-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/technical-spike": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/testing-automation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/the-workshop": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/typescript-mcp-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/typespec-m365-copilot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/uizze": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/visual-pr": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/academy-guide": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/algorithmic-art": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/brand-guidelines": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/canvas-design": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/claude-api": {
+   "claude": "fail: SKILL.md description is longer than 1024 characters",
+   "copilot": "fail: SKILL.md description is longer than 1024 characters"
+  },
+  "skill:anthropic/discernment-nudge": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/frontend-design": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/internal-comms": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/mcp-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/skill-creator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/slack-gif-creator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/theme-factory": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/web-artifacts-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:anthropic/webapp-testing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/acquire-codebase-knowledge": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/acreadiness-assess": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/acreadiness-generate-instructions": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/acreadiness-policy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/ad-campaign-analyzer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/add-educational-comments": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/adobe-illustrator-scripting": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/agent-architecture": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/agent-governance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/agent-owasp-compliance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/agent-skill-stack": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/agent-supply-chain": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/agentic-eval": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/ai-prompt-engineering-safety-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/ai-ready": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/ai-team-orchestration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/anti-ui-slop": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/api-breaking-change-detector": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/appinsights-instrumentation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/apple-appstore-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arch-linux-triage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/architecture-blueprint-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arduino-azure-iot-edge-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arize-ai-provider-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arize-annotation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arize-dataset": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arize-evaluator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arize-experiment": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arize-instrumentation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arize-link": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arize-prompt-optimization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/arize-trace": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/aspire": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/aspnet-minimal-api-openapi": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/audit-integrity": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/automate-this": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/autoresearch": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/aws-cdk-python-setup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/aws-cloudwatch-investigation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/aws-cost-optimize": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/aws-resource-health-diagnose": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/aws-resource-query": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/aws-well-architected-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/az-cost-optimize": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-architecture-autopilot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-container-registry-cli": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-deployment-preflight": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-developer-cli": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-devops-cli": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-pricing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-resource-health-diagnose": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-resource-visualizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-role-selector": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-smart-city-iot-solution-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-static-web-apps": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/azure-well-architected-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/batch-files": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/batch-script-progress": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/bench-read": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/bigquery-pipeline-audit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/boost-prompt": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/brag-sheet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/breakdown-epic-arch": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/breakdown-epic-pm": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/breakdown-feature-implementation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/breakdown-feature-prd": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/breakdown-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/breakdown-test": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/bug-receipt": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/bug-reproduction-brief": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/build-evidence-map": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/centos-linux-triage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/chrome-devtools": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/cli-mastery": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/cloud-design-patterns": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/code-exemplars-blueprint-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/code-tour": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/codebase-memory-mcp": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/codeql": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/comment-code-generate-a-tutorial": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/commit-message-storyteller": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/competitor-ad-intelligence": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/containerize-aspnet-framework": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/containerize-aspnetcore": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/content-management-systems": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/context-map": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/conventional-branch": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/conventional-commit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/convert-excel-to-md": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/convert-pdf-to-md": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/convert-plaintext-to-md": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/convert-word-to-md": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/copilot-cli-quickstart": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/copilot-instructions-blueprint-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/copilot-pr-autopilot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/copilot-sdk": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/copilot-spaces": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/copilot-usage-metrics": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/cosmosdb-datamodeling": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-agentsmd": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-architectural-decision-record": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-github-action-workflow-specification": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-github-issue-feature-from-specification": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-github-issues-feature-from-implementation-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-github-issues-for-unmet-specification-requirements": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-implementation-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-llms": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-quarkus-project": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-readme": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-specification": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-spring-boot-java-project": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-spring-boot-kotlin-project": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-technical-spike": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/create-tldr-page": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/creating-oracle-to-postgres-master-migration-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/creating-oracle-to-postgres-migration-bug-report": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/creating-oracle-to-postgres-migration-integration-tests": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/csharp-async": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/csharp-docs": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/csharp-mstest": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/csharp-nunit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/csharp-tunit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/csharp-xunit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/cypress-flake-fixer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/d365-solution-blueprint": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/daily-focus-board": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/daily-prep": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/data-breach-blast-radius": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/datanalysis-credit-risk": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dataverse-python-advanced-patterns": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dataverse-python-production-code": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dataverse-python-quickstart": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dataverse-python-usecase-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/debian-linux-triage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/declarative-agents": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dependabot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/desk-journal": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/desk-open": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/devops-rollout-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/diagnose": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/doc-and-modernize": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/docs-sync-audit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/documentation-writer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dotnet-best-practices": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dotnet-design-pattern-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dotnet-mcp-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dotnet-timezone": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/dotnet-upgrade": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/doublecheck": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/draw-io-diagram-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/drawio": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/editorconfig": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/ef-core": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/efcore-d2-db-diagram": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/em-dash": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/email-drafter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/entra-agent-user": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/eval-driven-dev": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/exam-ready": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/excalidraw-diagram-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/eyeball": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/fabric-lakehouse": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/fedora-linux-triage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/finalize-agent-prompt": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/finnish-humanizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/first-ask": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/flowstudio-power-automate-build": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/flowstudio-power-automate-debug": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/flowstudio-power-automate-governance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/flowstudio-power-automate-mcp": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/flowstudio-power-automate-monitoring": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/fluentui-blazor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/folder-structure-blueprint-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/foundry-agent-sync": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/foundry-hosted-agent-copilotkit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/freecad-scripts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/from-the-other-side-anitta": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/from-the-other-side-quinn": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/from-the-other-side-vega": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/from-the-other-side-wiggins": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/game-engine": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gdpr-compliant": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gem-devops-guidelines": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gen-specs-as-issues": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/generate-custom-instructions-from-codebase": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/generate-image": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/geofeed-tuner": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gh-attach": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/git-commit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/git-flow-branch-creator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/github-actions-efficiency": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/github-actions-hardening": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/github-actions-runtime-upgrade-conventions": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/github-codespaces-efficiency": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/github-copilot-starter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/github-issues": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/github-release": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gitmoji": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/go-mcp-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gsap-framer-scroll-animation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-0-to-1-launch": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-ai-gtm": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-board-and-investor-communication": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-developer-ecosystem": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-enterprise-account-planning": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-enterprise-onboarding": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-operating-cadence": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-partnership-architecture": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-positioning-strategy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-product-led-growth": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/gtm-technical-product-pricing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/harness-engineering": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/image-annotations": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/image-manipulation-image-magick": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/impediment-prioritization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/import-infrastructure-as-code": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/incident-postmortem": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/integrate-context-matic": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/issue-fields-migration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-add-graalvm-native-image-support": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-docs": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-helidon": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-junit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-mcp-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-refactoring-extract-method": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-refactoring-remove-parameter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-springboot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-upgrade": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/javascript-typescript-jest": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/javax-to-jakarta-migration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/kotlin-mcp-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/kotlin-springboot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/landing-page-conversion-audit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/latchshot-page-capture": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/lean-comments": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/legacy-circuit-mockups": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/linkedin-post-formatter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/lsp-setup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/macos-golden-gate-design": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/make-blog-post": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/make-repo-contribution": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/markdown-to-html": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/markstream-install": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mcp-cli": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mcp-copilot-studio-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mcp-create-adaptive-cards": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mcp-create-declarative-agent": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mcp-deploy-manage-agents": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mcp-implementation-security-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mcp-release-qa": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mcp-security-audit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/md-to-docx": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/meeting-minutes": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/memory-merger": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mentoring-juniors": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/microsoft-agent-framework": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/microsoft-code-reference": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/microsoft-docs": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/microsoft-skill-creator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/microsoft-store-publisher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/migrating-oracle-to-postgres-data-access-code": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/migrating-oracle-to-postgres-stored-procedures": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/minecraft-plugin-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mini-context-graph": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mkdocs-translations": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/msgraph-sdk": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/msstore-cli": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/multi-stage-dockerfile": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mvvm-toolkit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mvvm-toolkit-di": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/mvvm-toolkit-messenger": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/nano-banana-pro-openrouter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/napkin": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/next-intl-add-language": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/noob-mode": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/nuget-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/onboard-context-matic": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/oo-component-documentation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/openapi-to-application-code": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/optimize-simplicite-logs": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/pdftk-server": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/penpot-uiux-design": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/performance-review-writer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/pester-migration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/pester-should-migration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/phoenix-cli": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/phoenix-evals": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/phoenix-tracing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/php-mcp-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/planning-oracle-to-postgres-migration-integration-testing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/plantuml-ascii": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/playwright-automation-fill-in-form": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/playwright-explore-website": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/playwright-generate-test": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/poka-yoke": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/postgresql-code-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/postgresql-optimization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/power-apps-code-app-scaffold": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/power-bi-dax-optimization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/power-bi-model-design-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/power-bi-performance-troubleshooting": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/power-bi-report-design-consultation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/power-platform-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/power-platform-mcp-connector-suite": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/powerbi-modeling": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/pr-dashboard": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/pr-screenshots": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/prd": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/premium-frontend-ui": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/project-workflow-analysis-blueprint-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/prompt-optimizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/protobuf-grpc-api-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/publish-to-pages": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/pytest-coverage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/python-azure-iot-edge-modules": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/python-mcp-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/python-pypi-package-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/qdrant-clients-sdk": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/qdrant-deployment-options": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/qdrant-model-migration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/qdrant-monitoring": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/qdrant-performance-optimization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/qdrant-scaling": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/qdrant-search-quality": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/qdrant-version-upgrade": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/quality-playbook": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/quarkus-application-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/quarkus-dev-services-and-testing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/quarkus-native-and-container": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/quasi-coder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react-audit-grep-patterns": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react-container-presentation-component": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react18-batching-patterns": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react18-dep-compatibility": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react18-enzyme-to-rtl": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react18-legacy-context": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react18-lifecycle-patterns": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react18-string-refs": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react19-concurrent-patterns": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react19-source-patterns": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/react19-test-patterns": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/readme-blueprint-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/rebase-current-branch": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/refactor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/refactor-method-complexity-reduce": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/refactor-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/remember": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/remember-interactive-programming": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/repo-standardizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/repo-story-time": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/resemble-detect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/resx-source-generator-migration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/review-and-refactor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/reviewing-oracle-to-postgres-migration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/rhino3d-scripts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/roslyn-analyzers": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/roundup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/roundup-setup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/ruby-mcp-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/ruff-recursive-fix": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/rust-mcp-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/salesforce-apex-quality": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/salesforce-component-standards": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/salesforce-flow-design": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/sandbox-npm-install": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/scaffolding-oracle-to-postgres-migration-test-project": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/scoutqa-test": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/screen-recording": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/secret-scanning": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/semantic-kernel": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/server-side-conversion-tracking": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/setup-my-iq": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/shopify-review-triage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/shuffle-json-data": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/signal-write": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/slang-shader-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/snowflake-semanticview": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/speak-summary": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/sponsor-finder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/spring-boot-testing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/sql-code-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/sql-object-impact-analysis": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/sql-optimization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/sql-server-table-reconciliation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/ssma-console": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/steno-mode": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/structured-autonomy-generate": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/structured-autonomy-implement": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/structured-autonomy-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/suggest-awesome-github-copilot-agents": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/suggest-awesome-github-copilot-instructions": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/suggest-awesome-github-copilot-skills": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/swift-mcp-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/system-commandline-cli": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/technical-job-search": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/technology-stack-blueprint-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/terraform-azurerm-set-diff-analyzer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/test-gap-audit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/threat-model-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/tiny-stepping": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/tldr-prompt": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/tm7-threat-model": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/transloadit-media-processing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/tugboat": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/typescript-mcp-server-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/typespec-api-operations": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/typespec-create-agent": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/typespec-create-api-plugin": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/ui-screenshots": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/unit-test-vue-pinia": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/update-avm-modules-in-bicep": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/update-implementation-plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/update-llms": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/update-markdown-file-index": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/update-specification": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/upstash-redis": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/v-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/vardoger-analyze": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/vcpkg": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/verify-agent-action": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/vscode-ext-commands": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/vscode-ext-localization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/web-design-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/webapp-testing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/webmcpify": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/what-context-needed": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/winmd-api-search": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/winui3-migration-guide": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/workiq-copilot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/workshop-create": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/write-coding-standards-from-file": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/x-twitter-scraper": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/astro-docs-site": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/capability-acceptance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/interactive-web-motion": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/life-ikigai-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/living-diagrams": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/marvellous-aws-architecture-docs": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/package-security-scan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/brainstorming": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/diagnosing-superpowers": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/dispatching-parallel-agents": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/executing-plans": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/finishing-a-development-branch": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/receiving-code-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/requesting-code-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/subagent-driven-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/systematic-debugging": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/test-driven-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/using-git-worktrees": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/using-superpowers": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/verification-before-completion": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/writing-plans": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:superpowers/writing-skills": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "workflow:awesome-copilot/daily-issues-report": {
+   "copilot": "pass"
+  },
+  "workflow:awesome-copilot/ospo-contributors-report": {
+   "copilot": "pass"
+  },
+  "workflow:awesome-copilot/ospo-org-health": {
+   "copilot": "pass"
+  },
+  "workflow:awesome-copilot/ospo-release-compliance-checker": {
+   "copilot": "pass"
+  },
+  "workflow:awesome-copilot/ospo-stale-repos": {
+   "copilot": "pass"
+  },
+  "workflow:awesome-copilot/relevance-check": {
+   "copilot": "pass"
+  },
+  "workflow:awesome-copilot/relevance-summary": {
+   "copilot": "pass"
+  },
+  "workflow:awesome-copilot/weekly-comment-sync": {
+   "copilot": "pass"
+  }
+ }
+}

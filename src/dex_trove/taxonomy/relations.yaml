@@ -41,3 +41,8 @@ relations:
   # ── same job, different author ─────────────────────────────────────────────────────────────────────────────
   - { from: skill:anthropic/skill-creator, type: alternative-to, to: skill:superpowers/writing-skills,
       evidence: "both guide writing and testing a SKILL.md; skill-creator adds evals, writing-skills applies TDD" }
+  # ── found by `dex overlap`, confirmed by reading both ──────────────────────────────────────────────────────
+  - { from: skill:anthropic/webapp-testing, type: alternative-to, to: skill:awesome-copilot/webapp-testing,
+      evidence: "dex overlap similarity 1.0: same description; anthropic's bundles Python helpers (with_server.py), awesome-copilot's a JS test-helper" }
+  - { from: agent:awesome-copilot/implementation-plan, type: alternative-to, to: agent:awesome-copilot/planner,
+      evidence: "dex overlap: identical description 'Generate an implementation plan for new features or refactoring existing code.'" }

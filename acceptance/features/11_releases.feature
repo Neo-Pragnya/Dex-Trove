@@ -107,3 +107,35 @@ Feature: Every version is remembered, pinned installs are exact, and new memory 
     Then it succeeds
     And the JSON output at "ok" equals true
     And the JSON output at "name" equals "fix-flaky-tests"
+
+  @cap_releases
+  Scenario: A lock hands Ananke exact pins without running anything
+    When I run "dex lock superpowers/systematic-debugging agent:awesome-copilot/planner"
+    Then it succeeds
+    When I run "dex ananke handoff"
+    Then it succeeds
+    And the output contains each of:
+      """
+      [tool.ananke.skills]
+      "superpowers/systematic-debugging" = "1.0.0"
+      [[tool.ananke.agent]]
+      name = "awesome-copilot/planner"
+      """
+    And the file "pyproject.toml" does not exist
+
+  @cap_facets
+  Scenario: The needs facet says what must be installed to run an item
+    When I run "dex search --needs python --json -n 200"
+    Then it succeeds
+    And the JSON output at "results" has at least 5 items
+    And the output contains "neo-pragnya/living-diagrams"
+
+  @cap_relations
+  Scenario: Overlapping items are grouped and scored on verifiable evidence
+    When I run "dex overlap --json"
+    Then it succeeds
+    And the output contains each of:
+      """
+      skill:anthropic/webapp-testing
+      install checks pass
+      """

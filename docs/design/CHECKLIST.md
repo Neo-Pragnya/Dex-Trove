@@ -200,6 +200,14 @@ Backlog: `Ideation/Ananke-DexTrove-DevAcharya/Dev_Guru_Three_Repo_Implementation
       progressive disclosure, per-kind lifecycles, Ananke flow, safety).
 - [x] Fixed: maintainer commands that change the ledger or publish candidates need a checkout found from the
       current directory, not the dev-install fallback.
+- [x] CAP-catalog-discovery-01: derived `needs` facet (required runtimes) next to `platform` (supported clients).
+- [x] CAP-catalog-discovery-03: install checks verified by Dex, kept apart from self-reported metadata; no
+      telemetry.
+- [x] CAP-catalog-discovery-04 / ASM-D09: curation and feedback through GitHub issue forms (identity, moderation,
+      permanent record); Insights page for version and fork activity.
+- [x] CAP-skill-harvesting-04: `dex overlap` benchmark and two curated alternative-to pairs.
+- [x] ASM-D08: `dex ananke handoff`, resolve-only exact pins.
+- [x] DEX-EDUCATION-MEMORY: capability-memory concept page.
 - [ ] First-party releases have no upstream commit, so older ones can't be fetched. Move first-party skills into git.
 - [ ] Candidate kinds beyond skills (agents, instructions).
 - [ ] Curate more items; benchmark rule precision on a labelled sample.

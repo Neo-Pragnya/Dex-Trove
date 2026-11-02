@@ -27,8 +27,8 @@ from dex_trove.taxonomy import Taxonomy, TaxonomyError
 
 # Initial ranking weights from the taxonomy design (tuning knobs, not measured truths).
 WEIGHTS = {"task": 0.30, "methodology": 0.20, "phase": 0.15, "role": 0.10, "context": 0.10, "curated": 0.10}
-CONTEXT_DIMENSIONS = ("domain", "language", "framework", "platform")
-MULTI = ("task", "methodology", "phase", "role", "domain", "language", "framework", "platform")
+CONTEXT_DIMENSIONS = ("domain", "language", "framework", "platform", "needs")
+MULTI = ("task", "methodology", "phase", "role", "domain", "language", "framework", "platform", "needs")
 
 
 class QueryError(ValueError):

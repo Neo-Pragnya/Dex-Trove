@@ -4,7 +4,7 @@
 # to it in queries and upstream tags) and optional `match` rules: case-insensitive regexes over an item's name,
 # title, description and tags. A rule hit is recorded with its evidence and stays `review-pending`; only curation
 # (curation.yaml) is `approved`. Bump `taxonomy_version` when a term is added, renamed or deprecated.
-taxonomy_version: "1.0.0"
+taxonomy_version: "1.1.0"
 
 dimensions:
   kind:
@@ -340,6 +340,20 @@ dimensions:
       - {id: claude-code, label: Claude Code, definition: "Installs into .claude/ (skills, agents, commands)."}
       - {id: github-copilot, label: GitHub Copilot, definition: "Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows)."}
       - {id: ananke, label: Ananke Plexus, definition: "Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke)."}
+
+  needs:
+    label: Needs
+    question: What must be installed for it to run?
+    cardinality: many
+    derived: bundled-files
+    terms:
+      - {id: text-only, label: Nothing (text only), definition: "Only Markdown and data: the agent reads it; nothing runs."}
+      - {id: python, label: Python, definition: "Bundles Python scripts or a Python project file."}
+      - {id: node, label: Node.js, definition: "Bundles JavaScript or TypeScript, or a package.json."}
+      - {id: shell, label: POSIX shell, definition: "Bundles sh, bash or zsh scripts."}
+      - {id: powershell, label: PowerShell, definition: "Bundles PowerShell scripts."}
+      - {id: windows-cmd, label: Windows cmd, definition: "Bundles .bat or .cmd scripts."}
+      - {id: docker, label: Docker, definition: "Bundles a Dockerfile or a Compose file."}
 
   maturity:
     label: Maturity

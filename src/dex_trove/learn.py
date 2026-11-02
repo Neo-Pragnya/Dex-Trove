@@ -591,6 +591,9 @@ def finalize(trove: Path, results: list[SourceResult], sources: list[Source]) ->
     from dex_trove import docs_export, relations
 
     relations.write(trove, relations.build(items, ledger, docs_export.relations(items)[0]))
+    from dex_trove import checks
+
+    checks.write(trove, checks.run(trove, generator=f"dex-trove {__version__}"))
 
     excluded_path = trove / "EXCLUDED.json"
     prev = json.loads(excluded_path.read_text()).get("excluded", []) if excluded_path.is_file() else []

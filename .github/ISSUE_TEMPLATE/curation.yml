@@ -1,0 +1,42 @@
+name: Curation proposal
+description: Suggest facets, a relation between items, or a better reference among items that do the same job.
+title: "Curation: "
+labels: [curation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Curation is reviewed: a maintainer checks the evidence and applies it in `curation.yaml` or `relations.yaml`.
+        Upstream files are never edited. Proposals without evidence are closed.
+  - type: input
+    id: item
+    attributes:
+      label: Item
+      description: "kind:namespace/name, as shown on the item page (e.g. skill:superpowers/systematic-debugging)"
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What should change?
+      options:
+        - Facets (task, methodology, phase, role, …)
+        - A relation (requires, complements, alternative-to)
+        - Best reference among overlapping items
+        - Deprecate in favour of another item
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: The exact values or relation, e.g. "task: write-tests" or "complements skill:x/y".
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Quote the item's own text, or link the upstream file at a commit. This is what reviewers check.
+    validations:
+      required: true

@@ -198,6 +198,42 @@ The [reviewed candidate gate](../concepts/provenance-and-versioning.md#reviewed-
 `check` exits `1` when a gate fails. `publish` exits `1` and lists every failed gate. On success it copies the
 skill into the source's local folder; run `dex learn SOURCE_ID` to release it.
 
+## `dex check-installs`
+
+```text
+dex check-installs [--json]
+```
+
+Installs every item into each tool layout it supports, in a scratch folder, and checks the tool can load it:
+
+- skill names and description length;
+- agent descriptions, Claude tool names and models;
+- `applyTo` on instructions;
+- workflow triggers;
+- hook events.
+
+Writes `trove/install-checks.json`, which item pages show as **Checked by Dex**. `dex learn` runs it too. Needs a
+checkout.
+
+## `dex overlap`
+
+```text
+dex overlap [--threshold 0.45] [--kind KIND] [--limit/-n 20] [--json]
+```
+
+Groups items of the same kind, task and context whose titles and descriptions overlap. Each member is scored on
+signals Dex can verify (install checks, reviewed facets, runs code, description, licence evidence). A ★ marks a
+strictly better score. The result is a list of candidates to curate as `alternative-to` relations.
+
+## `dex ananke handoff`
+
+```text
+dex ananke handoff [--lock-file dex.lock.json]
+```
+
+Prints a `[tool.ananke]` block that pins the lock's skills and agents to their exact versions. Resolve-only:
+nothing is installed, activated or run. Exit `1` if the lock doesn't match the release ledger.
+
 ## `dex facets`
 
 ```text

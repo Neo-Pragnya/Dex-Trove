@@ -193,8 +193,70 @@ def relations(items: list[dict[str, Any]]) -> tuple[dict[str, list[str]], dict[s
     return related, part_of
 
 
+def insights(trove: Path, items: list[dict[str, Any]]) -> dict[str, Any]:
+    """Version, fork, relation, install-check and overlap figures for the site's Insights page."""
+    from collections import Counter
+
+    from dex_trove import checks, overlap, releases
+    from dex_trove import relations as typed_relations
+
+    ledger = releases.load(trove)
+    titles = {releases.key_of(i): i["title"] for i in items}
+    all_rel = [(k, r) for k, e in ledger["items"].items() for r in e["releases"]]
+    recent = sorted(all_rel, key=lambda kr: (kr[1]["released_at"], kr[0]), reverse=True)[:15]
+    most = sorted(ledger["items"].items(), key=lambda ke: (-len(ke[1]["releases"]), ke[0]))[:10]
+    typed = typed_relations.load(trove)["items"]
+    rel_counts = Counter((r["type"], r["origin"]) for rs in typed.values() for r in rs)
+    checked = checks.load(trove)
+    failing = [
+        {"key": k, "target": t, "reason": v.removeprefix("fail: ")}
+        for k, row in checked["items"].items()
+        for t, v in row.items()
+        if v != "pass"
+    ]
+    return {
+        "totals": {
+            "items": len(items),
+            "releases": len(all_rel),
+            "updated": sum(1 for e in ledger["items"].values() if len(e["releases"]) > 1),
+            "yanked": sum(1 for _, r in all_rel if r.get("yanked")),
+            "deprecated": sum(
+                1 for e in ledger["items"].values() if e["releases"] and e["releases"][-1].get("deprecated")
+            ),
+            "forks": sum(1 for e in ledger["items"].values() if any(r.get("parent") for r in e["releases"])),
+            "removed": sum(1 for e in ledger["items"].values() if e.get("removed")),
+        },
+        "recent": [
+            {"key": k, "title": titles.get(k, k), "version": r["version"], "at": r["released_at"][:10]}
+            for k, r in recent
+        ],
+        "most_versions": [
+            {"key": k, "title": titles.get(k, k), "count": len(e["releases"])} for k, e in most
+        ],
+        "relations": [
+            {"type": t, "origin": o, "count": n}
+            for (t, o), n in sorted(rel_counts.items(), key=lambda x: (-x[1], x[0]))
+        ],
+        "checks": {
+            "by": checked.get("generator", ""),
+            "summary": checked.get("summary", {}),
+            "failing": failing,
+        },
+        "overlap": [
+            {
+                "similarity": g["similarity"],
+                "members": [
+                    {"key": m["key"], "title": m["title"], "score": m["score"], "best": bool(m.get("best"))}
+                    for m in g["members"]
+                ],
+            }
+            for g in overlap.groups(items)[:15]
+        ],
+    }
+
+
 # Facets the site shows and filters by (kind has its own toggles; maturity is mostly "unknown" upstream).
-SITE_FACETS = ("task", "methodology", "phase", "role", "domain", "language", "framework", "platform")
+SITE_FACETS = ("task", "methodology", "phase", "role", "domain", "language", "framework", "platform", "needs")
 
 
 def taxonomy_data(tax: taxonomy.Taxonomy) -> dict[str, Any]:
@@ -229,6 +291,10 @@ def export(trove: Path, out: Path, sources: list[Source], candidates: list[Candi
     from dex_trove import relations as typed_relations
 
     typed = typed_relations.load(trove)["items"]
+    from dex_trove import checks
+
+    checked = checks.load(trove)
+    checked_by = str(checked.get("generator", ""))
     tax = taxonomy.load()
     records = facets.load(trove) or facets.build(items, tax, check_stale=False)["items"]
     for it in items:
@@ -256,6 +322,7 @@ def export(trove: Path, out: Path, sources: list[Source], candidates: list[Candi
             "hook_events": hook_events(trove, it),
             "file_rows": file_rows(trove, it),
             "related": related.get(key, []),
+            "install_checks": {"by": checked_by, "results": checked["items"].get(key, {})},
             "relations": [
                 {"type": r["type"], "target": r["target"], "origin": r["origin"], "evidence": r["evidence"]}
                 for r in typed.get(key, [])
@@ -314,4 +381,7 @@ def export(trove: Path, out: Path, sources: list[Source], candidates: list[Candi
         "total": len(items),
     }
     (data / "trove.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
+    (data / "insights.json").write_text(
+        json.dumps(insights(trove, items), ensure_ascii=False), encoding="utf-8"
+    )
     return len(items)

@@ -5,7 +5,7 @@ description: Every facet and value Dex Trove uses to classify items, with defini
 
 # Taxonomy reference
 
-Taxonomy version **1.0.0**. Generated from `src/dex_trove/taxonomy/ontology.yaml` by
+Taxonomy version **1.1.0**. Generated from `src/dex_trove/taxonomy/ontology.yaml` by
 `dex facets doc`; don't edit by hand. How the facets are filled and queried:
 [Finding capabilities](../guides/finding-capabilities.md).
 
@@ -192,6 +192,20 @@ Where can Dex install it natively? Any number of values. Set from where `dex ins
 | `claude-code` | 760 | Installs into .claude/ (skills, agents, commands). | — |
 | `github-copilot` | 964 | Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows). | — |
 | `ananke` | 964 | Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke). | — |
+
+## Needs (`needs`)
+
+What must be installed for it to run? Any number of values.
+
+| Value | Items | Definition | Aliases |
+| --- | --- | --- | --- |
+| `text-only` | 895 | Only Markdown and data: the agent reads it; nothing runs. | — |
+| `python` | 39 | Bundles Python scripts or a Python project file. | — |
+| `node` | 21 | Bundles JavaScript or TypeScript, or a package.json. | — |
+| `shell` | 14 | Bundles sh, bash or zsh scripts. | — |
+| `powershell` | 9 | Bundles PowerShell scripts. | — |
+| `windows-cmd` | 0 | Bundles .bat or .cmd scripts. | — |
+| `docker` | 0 | Bundles a Dockerfile or a Compose file. | — |
 
 ## Maturity (`maturity`)
 

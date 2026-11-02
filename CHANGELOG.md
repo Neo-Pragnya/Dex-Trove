@@ -40,10 +40,25 @@ Capability memory with releases: every version remembered, exact pins, and a rev
   - inferred `similar`;
   - dangling references and `requires` cycles fail `dex validate`;
   - item pages group them by type, and none claims compatibility.
+- **Install checks** (`dex check-installs`, `trove/install-checks.json`): Dex installs every item into each tool
+  layout and checks that the tool can load it. Item pages show the results as **Checked by Dex**, apart from the
+  item's self-reported metadata. Dex records no download or usage data.
+- **`needs` facet** (taxonomy 1.1.0): what must be installed to run an item (text-only, python, node, shell,
+  powershell…), derived from its own files. A plugin needs what its members need. Use it with
+  `dex search --needs` or the site rail.
+- **`dex overlap`**: groups items of the same kind, task and context that do the same job, and scores each one on
+  verifiable signals. Two confirmed overlaps were curated as `alternative-to`.
+- **`dex ananke handoff`**: turns a Dex lock into exact `[tool.ananke]` pins. It only resolves; nothing runs.
+- **Insights page**: recent releases, version counts, install-check failures, overlapping items and relation
+  counts, all from repository files.
+- **Moderated curation and feedback**: GitHub issue forms for curation proposals and item problems, linked from
+  every item page. Identity comes from GitHub, review from maintainers, and the record is permanent. No anonymous
+  comments or stars.
 - **Site:** kind, source and licence panels update their counts as filters change.
 - **Docs:** artifact kinds rewritten in depth, with the whole journey, what happens inside a harness, progressive
   disclosure, how kinds compose, per-kind lifecycle diagrams, the Ananke flow and safety by kind. New Related items
-  page. Provenance & versioning covers releases, locks, yank, forks and candidates.
+  page. Provenance & versioning covers releases, locks, yank, forks and candidates. New **Capability memory**
+  page: memory vs evidence, recipe vs executable plan, how a lesson becomes memory, and why sources are optional.
 
 ### Changed
 

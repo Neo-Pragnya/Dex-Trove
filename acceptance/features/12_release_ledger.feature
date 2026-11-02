@@ -7,6 +7,7 @@ Feature: Learning appends releases and never rewrites them
     When I run "dex learn"
     Then it succeeds
     And the file "trove/releases.json" contains "skill:good/csv-summary"
+    And the JSON file "trove/install-checks.json" at "items.skill:good/csv-summary.claude" equals "pass"
     When I run:
       """
       printf -- '---\nname: csv-summary\ndescription: Summarise a CSV file, now with medians.\n---\n\nMedians too.\n' > upstreams/good-up/skills/csv-summary/SKILL.md

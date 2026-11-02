@@ -720,3 +720,18 @@ ul.plain {
   border: 1px solid var(--line);
   color: var(--muted);
 }
+
+/* Install checks on item pages: verified by Dex, kept apart from self-reported metadata */
+.check-list li { padding: 2px 0; }
+.check-list li.pass strong { color: var(--ink); }
+.check-list li.fail { color: var(--muted); }
+
+/* Insights page */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 24px 0;
+}
+.stat-grid .stat { display: flex; flex-direction: column; gap: 2px; }
+.stat-grid .stat span { color: var(--muted); font-size: 0.85rem; }

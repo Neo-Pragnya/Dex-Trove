@@ -37,6 +37,30 @@ PLATFORMS = {
 }
 
 
+# File evidence for the derived `needs` facet: what an item bundles that something must run.
+NEEDS_SUFFIX = {
+    ".py": "python", ".js": "node", ".mjs": "node", ".cjs": "node", ".ts": "node",
+    ".sh": "shell", ".bash": "shell", ".zsh": "shell", ".ps1": "powershell", ".bat": "windows-cmd", ".cmd": "windows-cmd",
+}  # fmt: skip
+NEEDS_NAME = {
+    "package.json": "node", "pyproject.toml": "python", "requirements.txt": "python",
+    "dockerfile": "docker", "docker-compose.yml": "docker", "compose.yaml": "docker", "compose.yml": "docker",
+}  # fmt: skip
+
+
+def needs_of(item: dict[str, Any]) -> dict[str, list[str]]:
+    """``{term: [files…]}`` from an item's own files; ``text-only`` when nothing in it runs."""
+    out: dict[str, list[str]] = {}
+    for rel in item.get("files", []):
+        name = rel.rsplit("/", 1)[-1]
+        term = NEEDS_NAME.get(name.lower()) or NEEDS_SUFFIX.get(
+            "." + name.rsplit(".", 1)[-1].lower() if "." in name else ""
+        )
+        if term:
+            out.setdefault(term, []).append(rel)
+    return out
+
+
 def item_key(item: dict[str, Any]) -> str:
     return f"{item['kind']}:{item['id']}"
 
@@ -109,7 +133,12 @@ def _curated(tax: Taxonomy, entry: dict[str, Any], ref: str) -> dict[str, dict[s
     return out
 
 
-def classify(item: dict[str, Any], tax: Taxonomy, curation: dict[str, dict[str, Any]]) -> dict[str, Any]:
+def classify(
+    item: dict[str, Any],
+    tax: Taxonomy,
+    curation: dict[str, dict[str, Any]],
+    needs: dict[str, list[str]] | None = None,
+) -> dict[str, Any]:
     """The facet sidecar record for one catalog item."""
     sources: dict[str, dict[str, dict[str, list[str]]]] = {}
     entry = curation.get(item_key(item)) or curation.get(item["id"])
@@ -140,6 +169,13 @@ def classify(item: dict[str, Any], tax: Taxonomy, curation: dict[str, dict[str, 
     facets["kind"] = item["kind"]
     facets["platform"] = sorted(p for p, kinds in PLATFORMS.items() if item["kind"] in kinds)
     facets.setdefault("maturity", "unknown")
+    if "needs" in tax.dimensions:
+        found = needs_of(item) if needs is None else needs
+        facets["needs"] = sorted(found) or ["text-only"]
+        provenance["needs"] = {
+            "source": "derived",
+            "evidence": {k: v[:3] for k, v in sorted(found.items())} or {"text-only": ["no runnable files"]},
+        }
     for derived in ("kind", "platform"):
         provenance[derived] = {
             "source": "derived",
@@ -179,7 +215,21 @@ def build(
         raise taxonomy.TaxonomyError(
             f"curation.yaml names items that aren't in the trove: {', '.join(stale)}"
         )
-    records = {item_key(i): classify(i, tax, curation) for i in sorted(items, key=item_key)}
+    # A plugin needs what its members need; everything else, what its own files need.
+    by_key = {item_key(i): i for i in items}
+    own = {k: needs_of(i) for k, i in by_key.items()}
+    plugin_needs: dict[str, dict[str, list[str]]] = {}
+    for k, i in by_key.items():
+        if i["kind"] == "plugin":
+            merged: dict[str, list[str]] = {}
+            for member in i.get("members", []):
+                for term in own.get(member, {}):
+                    merged.setdefault(term, []).append(member)
+            plugin_needs[k] = merged
+    records = {
+        item_key(i): classify(i, tax, curation, plugin_needs.get(item_key(i)))
+        for i in sorted(items, key=item_key)
+    }
     return {
         "schema_version": SCHEMA_VERSION,
         "taxonomy_version": tax.version,

@@ -1,0 +1,99 @@
+---
+import Layout from "../components/Layout.astro";
+import insights from "../data/insights.json";
+import { itemHref, parseRef, site } from "../lib/site";
+
+const base = import.meta.env.BASE_URL;
+const link = (key: string) => {
+  const p = parseRef(key);
+  return itemHref(base, p.kind, p.ns, p.name);
+};
+const t = insights.totals;
+const stats = [
+  ["Items", t.items],
+  ["Releases recorded", t.releases],
+  ["Updated since first learned", t.updated],
+  ["Forks recorded", t.forks],
+  ["Deprecated", t.deprecated],
+  ["Yanked releases", t.yanked],
+] as const;
+const checks = insights.checks;
+---
+
+<Layout title="Insights" description="Versions, forks, relations, install checks and overlapping items across the trove.">
+  <p class="eyebrow">Insights</p>
+  <h1>How the trove changes</h1>
+  <p class="lede">
+    Every figure here comes from files in the repository: the release ledger, typed relations and Dex's own install
+    checks. None of it is self-reported, and Dex collects no download or usage data.
+  </p>
+
+  <div class="stat-grid">
+    {stats.map(([label, n]) => (<div class="stat"><strong>{n}</strong><span>{label}</span></div>))}
+  </div>
+
+  <section>
+    <h2>Recently released</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Item</th><th>Version</th><th>Released</th></tr></thead>
+      <tbody>{insights.recent.map((r) => (<tr><td><a href={link(r.key)}>{r.title}</a></td><td>{r.version}</td><td>{r.at}</td></tr>))}</tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Most versions</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Item</th><th>Releases</th></tr></thead>
+      <tbody>{insights.most_versions.map((r) => (<tr><td><a href={link(r.key)}>{r.title}</a></td><td>{r.count}</td></tr>))}</tbody>
+    </table></div>
+    <p class="hint">Each version is immutable; see an item's history with <code>dex release list &lt;item&gt;</code>.</p>
+  </section>
+
+  <section>
+    <h2>Install checks</h2>
+    <p>
+      {checks.by} installed every item into each tool layout and checked it loads:
+      {Object.entries(checks.summary).map(([target, s]) => (
+        <span class="chip">{target === "claude" ? "Claude Code" : "GitHub Copilot"} · {s.pass} pass · {s.fail} fail</span>
+      ))}
+    </p>
+    {checks.failing.length > 0 && (
+      <div class="table-wrap"><table>
+        <thead><tr><th>Item</th><th>Tool</th><th>What fails</th></tr></thead>
+        <tbody>{checks.failing.map((f) => (<tr><td><a href={link(f.key)}>{f.key}</a></td><td>{f.target}</td><td style="font-size:.85rem">{f.reason}</td></tr>))}</tbody>
+      </table></div>
+    )}
+  </section>
+
+  <section>
+    <h2>Items that do the same job</h2>
+    <p>
+      Found by word overlap among items of the same kind, task and context, then scored on what Dex can verify. A
+      <strong>★</strong> marks a strictly better score. These are candidates; confirmed pairs become
+      <a href={`${base}docs/concepts/related-items/`}>alternative-to relations</a>.
+    </p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Similarity</th><th>Items (score)</th></tr></thead>
+      <tbody>{insights.overlap.map((g) => (
+        <tr><td>{g.similarity}</td><td>{g.members.map((m, i) => (<span>{i > 0 && " · "}{m.best && "★ "}<a href={link(m.key)}>{m.title}</a> ({m.score})</span>))}</td></tr>
+      ))}</tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Relations</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Type</th><th>Origin</th><th>Count</th></tr></thead>
+      <tbody>{insights.relations.map((r) => (<tr><td>{r.type}</td><td>{r.origin}</td><td>{r.count}</td></tr>))}</tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Help curate</h2>
+    <p>
+      Proposals go through GitHub, so every change has an author, a review and a permanent record. Suggest facets,
+      relations or a better reference with the <a href={`${site.repo}/issues/new?template=curation.yml`}>curation form</a>,
+      or report a problem with an item from its page.
+    </p>
+  </section>
+</Layout>

@@ -128,3 +128,29 @@ def test_learning_writes_facets_without_touching_upstream_bytes(
     item_files = [p.name for p in trove.rglob("*") if p.is_file() and p.parent != trove]
     assert facets.FACETS_FILE not in item_files  # the sidecar lives beside catalog.json, never in an item
     assert facets.load(trove)
+
+
+def test_needs_is_derived_from_bundled_files_and_plugins_inherit_members() -> None:
+    from dex_trove import facets as f
+
+    skill = {
+        "kind": "skill",
+        "id": "x/run",
+        "files": ["SKILL.md", "scripts/a.py", "scripts/b.sh", "web/package.json"],
+    }
+    text = {"kind": "skill", "id": "x/text", "files": ["SKILL.md", "references/guide.md"]}
+    plugin = {
+        "kind": "plugin",
+        "id": "x/kit",
+        "files": ["plugin.json"],
+        "members": ["skill:x/run", "skill:x/text"],
+    }
+    for it in (skill, text, plugin):
+        it.update(
+            {"namespace": "x", "name": it["id"].split("/")[1], "title": "", "description": "", "tags": []}
+        )
+    assert sorted(f.needs_of(skill)) == ["node", "python", "shell"]
+    records = f.build([skill, text, plugin], check_stale=False)["items"]
+    assert records["skill:x/text"]["facets"]["needs"] == ["text-only"]
+    assert records["plugin:x/kit"]["facets"]["needs"] == ["node", "python", "shell"]
+    assert records["skill:x/run"]["provenance"]["needs"]["source"] == "derived"

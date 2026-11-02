@@ -187,9 +187,30 @@ const usage: Record<Kind, string> = {
       }
 
       {
+        Object.keys(it.install_checks.results).length > 0 && (
+          <section class="checks">
+            <h2>Checked by Dex</h2>
+            <p class="hint">
+              Verified, not self-reported: {it.install_checks.by} installed this item into each layout and checked that the
+              tool can load it. Dex collects no download or usage data.
+            </p>
+            <ul class="plain check-list">
+              {Object.entries(it.install_checks.results).map(([target, verdict]) => (
+                <li class={verdict === "pass" ? "pass" : "fail"}>
+                  <strong>{target === "claude" ? "Claude Code" : "GitHub Copilot"}</strong>{" "}
+                  {verdict === "pass" ? "✓ loads" : `✗ ${verdict.replace(/^fail: /, "")}`}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      {
         it.upstream_meta.length > 0 && (
           <section>
             <h2>Upstream metadata</h2>
+            <p class="hint">Self-reported by the item's author; Dex shows it as written.</p>
             <div class="table-wrap">
               <table>
                 <tbody>
@@ -358,6 +379,10 @@ const usage: Record<Kind, string> = {
         )
       }
       <p class="hint side-foot"><a href={`${site.repo}/tree/main/trove/${KINDS[it.kind].plural.toLowerCase()}/${it.namespace}.${it.name}`}>This item in the Dex-Trove repo ↗</a></p>
+      <p class="hint side-foot">
+        <a href={`${site.repo}/issues/new?template=item-feedback.yml&item=${encodeURIComponent(ref)}`}>Report a problem ↗</a> ·
+        <a href={`${site.repo}/issues/new?template=curation.yml&item=${encodeURIComponent(ref)}`}>Suggest curation ↗</a>
+      </p>
     </aside>
   </div>
 </Layout>

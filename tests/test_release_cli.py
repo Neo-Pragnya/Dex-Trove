@@ -134,3 +134,17 @@ def test_validate_since_catches_an_edited_release(checkout: Path) -> None:
     ledger_path.write_text(json.dumps(data))
     res = runner.invoke(app, ["validate", "--since", "HEAD"])
     assert res.exit_code == 1 and "releases are immutable" in res.output
+
+
+def test_ananke_handoff_pins_exactly_and_runs_nothing(checkout: Path) -> None:
+    import tomllib
+
+    ok("lock", "alpha", "agent:up/helper", "instruction:up/py")
+    res = runner.invoke(app, ["ananke", "handoff"])
+    assert res.exit_code == 0, res.output
+    toml_text = res.stdout.split("note:")[0]
+    data = tomllib.loads(toml_text)["tool"]["ananke"]
+    assert data["skills"] == {"up/alpha": "1.0.0"}
+    assert data["agent"] == [{"name": "up/helper", "version": "1.0.0"}]
+    assert "has no project requirement for instructions" in " ".join(res.output.split())
+    assert not Path("pyproject.toml").exists()

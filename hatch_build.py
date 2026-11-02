@@ -13,6 +13,7 @@ TROVE_FILES = (
     "facets.json",
     "releases.json",
     "relations.json",
+    "install-checks.json",
 )
 
 

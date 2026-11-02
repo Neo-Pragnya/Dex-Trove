@@ -46,6 +46,9 @@ const items = defineCollection({
       .default([]),
     file_rows: z.array(z.object({ path: z.string(), size: z.number(), url: z.string() })).default([]),
     related: z.array(z.string()).default([]),
+    install_checks: z
+      .object({ by: z.string(), results: z.record(z.string(), z.string()) })
+      .default({ by: "", results: {} }),
     relations: z
       .array(z.object({ type: z.string(), target: z.string(), origin: z.string(), evidence: z.string() }))
       .default([]),

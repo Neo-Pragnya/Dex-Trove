@@ -49,3 +49,6 @@ surface:
   - dex candidate check
   - dex candidate review
   - dex candidate publish
+  - dex ananke handoff
+  - dex overlap
+  - dex check-installs
