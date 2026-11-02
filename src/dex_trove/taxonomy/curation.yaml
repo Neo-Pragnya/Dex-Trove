@@ -5,6 +5,36 @@
 reviewed_by: Dex Trove maintainers
 items:
   # ── First-party (neo-pragnya) ──────────────────────────────────────────────────────────────────────────────
+  neo-pragnya/idea-developer:
+    task: [ideate, elicit-requirements, write-spec]
+    methodology: [sdd, adlc, sdlc]
+    phase: [discovery, requirements]
+    role: [product-manager, architect, developer]
+    maturity: beta
+    evidence: "SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+  neo-pragnya/tech-selection:
+    task: [design-architecture, security-review]
+    methodology: [sdlc, adlc]
+    phase: [design]
+    role: [architect, developer]
+    maturity: beta
+    evidence: "SKILL.md: options with cited evidence, licence/platform/cost constraints, owned exceptions, decision record"
+  neo-pragnya/research-questionnaire:
+    task: [elicit-requirements, ideate]
+    methodology: [sdlc]
+    phase: [discovery, requirements]
+    role: [product-manager, designer]
+    domain: [documentation]
+    maturity: beta
+    evidence: "SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+  neo-pragnya/scaffold-harvesting:
+    task: [implement, security-review]
+    methodology: [sdlc]
+    phase: [implementation]
+    role: [developer, architect]
+    domain: [developer-tooling]
+    maturity: beta
+    evidence: "SKILL.md: detect layout, structural-only templates with variables, secret/licence refusal, isolated test"
   neo-pragnya/capability-acceptance:
     task: [write-tests, plan-tests, verify]
     methodology: [bdd, atdd, sdlc, adlc]

@@ -19006,6 +19006,27 @@
         }
       ]
     },
+    "skill:neo-pragnya/idea-developer": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "ebe5748630afc25ac59d2043852a1ce5e99424e1626105016a136be306aba23c",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/questions.json",
+            "scripts/session.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "idea-developer"
+          },
+          "released_at": "2026-11-02T14:35:57+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:neo-pragnya/interactive-web-motion": {
       "releases": [
         {
@@ -19136,6 +19157,69 @@
             "path": "package-security-scan"
           },
           "released_at": "2026-10-23T02:25:36+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya/research-questionnaire": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "edeee9c08aba6d4d693dbf58820ee5a0d5e70fa142d2155dd207e5aa518624f2",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "scripts/questionnaire.py",
+            "templates/web-app.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "research-questionnaire"
+          },
+          "released_at": "2026-11-02T14:35:57+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya/scaffold-harvesting": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "5530fc88c48312a26ab904327d2677fb7d88a2e51445f5b2e2ea8f41707654d3",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "scripts/harvest.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "scaffold-harvesting"
+          },
+          "released_at": "2026-11-02T14:35:57+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya/tech-selection": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "a5ecf3d192a6417bf362094a9d36418b1fe9c5de6a4e7ef3ebfd3805b72a9598",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/architecture.md",
+            "references/request.example.json",
+            "scripts/decide.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "tech-selection"
+          },
+          "released_at": "2026-11-02T14:35:57+00:00",
           "channel": "stable"
         }
       ]

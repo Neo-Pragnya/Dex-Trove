@@ -1,0 +1,30 @@
+kind: skill
+namespace: neo-pragnya
+name: idea-developer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya:idea-developer
+summary: 'Turn a rough idea into an approved, traceable product requirement through a scoped interview: a question
+  bank per domain (web app, data platform, AI agent, CLI tool), recorded assumptions with risks,…'
+description: 'Turn a rough idea into an approved, traceable product requirement through a scoped interview: a question
+  bank per domain (web app, data platform, AI agent, CLI tool), recorded assumptions with risks, decisions that
+  must cite the answers they come from, competing options with evidence and cost, named approvals, a living PRD
+  (actors, outcomes, out of scope, open questions) and a handoff to the Ananke spec lifecycle that is refused while
+  anything is unapproved. Use whenever someone has an idea, a feature request or a vague brief and wants it scoped,
+  wants a PRD or requirements, asks what questions to ask stakeholders, wants to compare approaches before building,
+  or wants to start spec-driven development, even if they don''t say PRD.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - neo-pragnya
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.idea-developer
+  repository: https://github.com/Neo-Pragnya/Dex-Trove

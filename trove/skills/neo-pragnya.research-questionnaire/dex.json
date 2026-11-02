@@ -1,0 +1,43 @@
+{
+  "id": "neo-pragnya/research-questionnaire",
+  "kind": "skill",
+  "namespace": "neo-pragnya",
+  "name": "research-questionnaire",
+  "title": "Research questionnaire",
+  "description": "Run structured discovery research with a questionnaire people can fill in offline: generate a single self-contained HTML form from a question template (text, long text, choice, multi-select, number), where answers are saved only by an explicit download and restored by import (no browser storage, no network), then validate partial answers, turn them into Markdown with frontmatter and PRD source data that keeps unanswered questions as open questions, and merge later answer files without duplicating answers while recording where each came from. Use whenever someone wants a discovery questionnaire, stakeholder or requirements survey, intake form, research interview template, or wants questionnaire answers turned into a PRD or notes, even if they don't say questionnaire.",
+  "tags": [
+    "executes-code",
+    "neo-pragnya",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya.research-questionnaire",
+  "source": {
+    "id": "neo-pragnya",
+    "title": "Neo Pragnya (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+    "commit": null,
+    "path": "research-questionnaire",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.research-questionnaire",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/questionnaire.py",
+    "templates/web-app.json"
+  ],
+  "entry_hash": "486ea2dee7e4872002bd4e206b52b86f8764f828fe67466867cb8133c43700ca",
+  "content_hash": "edeee9c08aba6d4d693dbf58820ee5a0d5e70fa142d2155dd207e5aa518624f2",
+  "learned_at": "2026-11-02T14:35:57+00:00"
+}

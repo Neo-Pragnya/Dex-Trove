@@ -1,0 +1,43 @@
+{
+  "id": "neo-pragnya/idea-developer",
+  "kind": "skill",
+  "namespace": "neo-pragnya",
+  "name": "idea-developer",
+  "title": "Idea developer",
+  "description": "Turn a rough idea into an approved, traceable product requirement through a scoped interview: a question bank per domain (web app, data platform, AI agent, CLI tool), recorded assumptions with risks, decisions that must cite the answers they come from, competing options with evidence and cost, named approvals, a living PRD (actors, outcomes, out of scope, open questions) and a handoff to the Ananke spec lifecycle that is refused while anything is unapproved. Use whenever someone has an idea, a feature request or a vague brief and wants it scoped, wants a PRD or requirements, asks what questions to ask stakeholders, wants to compare approaches before building, or wants to start spec-driven development, even if they don't say PRD.",
+  "tags": [
+    "executes-code",
+    "neo-pragnya",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya.idea-developer",
+  "source": {
+    "id": "neo-pragnya",
+    "title": "Neo Pragnya (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+    "commit": null,
+    "path": "idea-developer",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.idea-developer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/questions.json",
+    "scripts/session.py"
+  ],
+  "entry_hash": "1547a94ac94d8b26ab7e543c80e546c24f6bfd76d0d5b4f410ae600681c8b476",
+  "content_hash": "ebe5748630afc25ac59d2043852a1ce5e99424e1626105016a136be306aba23c",
+  "learned_at": "2026-11-02T14:35:57+00:00"
+}

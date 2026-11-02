@@ -1,0 +1,38 @@
+{
+  "comment": "Question bank. priority 1 must be answered before handoff; 2 should be; 3 nice to have. Topics map to PRD sections.",
+  "core": [
+    {"id": "goal-1", "topic": "goal", "priority": 1, "text": "In one sentence, what should be possible that isn't today?"},
+    {"id": "users-1", "topic": "users", "priority": 1, "text": "Who uses it, and who else is affected (approvers, admins, support)?"},
+    {"id": "outcomes-1", "topic": "outcomes", "priority": 1, "text": "How will you know it worked? Name a measurable outcome."},
+    {"id": "scope-1", "topic": "scope", "priority": 1, "text": "What is explicitly out of scope for the first version?"},
+    {"id": "constraints-1", "topic": "constraints", "priority": 2, "text": "Hard constraints: deadline, budget, platforms, compliance, data residency?"},
+    {"id": "constraints-2", "topic": "constraints", "priority": 2, "text": "Which existing systems must it work with, and who owns them?"},
+    {"id": "risk-1", "topic": "constraints", "priority": 2, "text": "What would make this fail, or make people refuse to use it?"},
+    {"id": "outcomes-2", "topic": "outcomes", "priority": 3, "text": "What does a great first week look like for a new user?"}
+  ],
+  "domains": {
+    "web-app": [
+      {"id": "web-1", "topic": "users", "priority": 2, "text": "Which devices and browsers must it support?"},
+      {"id": "web-2", "topic": "constraints", "priority": 2, "text": "How do users sign in, and is there an identity provider to use?"},
+      {"id": "web-3", "topic": "constraints", "priority": 2, "text": "What data is stored, and how sensitive is it?"},
+      {"id": "web-4", "topic": "outcomes", "priority": 3, "text": "Expected users and peak requests per minute in year one?"}
+    ],
+    "data-platform": [
+      {"id": "data-1", "topic": "constraints", "priority": 1, "text": "Which sources feed it, at what volume and freshness?"},
+      {"id": "data-2", "topic": "users", "priority": 2, "text": "Who consumes the data: analysts, applications, models?"},
+      {"id": "data-3", "topic": "constraints", "priority": 2, "text": "What are the retention, lineage and privacy rules?"},
+      {"id": "data-4", "topic": "outcomes", "priority": 2, "text": "Which decisions or reports will it make faster or more reliable?"}
+    ],
+    "ai-agent": [
+      {"id": "agent-1", "topic": "scope", "priority": 1, "text": "What may the agent do on its own, and what must a person approve?"},
+      {"id": "agent-2", "topic": "constraints", "priority": 1, "text": "Which tools, data and systems may it touch, with what permissions?"},
+      {"id": "agent-3", "topic": "outcomes", "priority": 2, "text": "How will you evaluate it: test cases, success rate, cost per task?"},
+      {"id": "agent-4", "topic": "constraints", "priority": 2, "text": "What evidence must each run leave for audit?"}
+    ],
+    "cli-tool": [
+      {"id": "cli-1", "topic": "users", "priority": 2, "text": "Who runs it, where (laptop, CI), and how often?"},
+      {"id": "cli-2", "topic": "constraints", "priority": 2, "text": "How is it installed and upgraded, and on which operating systems?"},
+      {"id": "cli-3", "topic": "outcomes", "priority": 3, "text": "Which task should take one command instead of several?"}
+    ]
+  }
+}

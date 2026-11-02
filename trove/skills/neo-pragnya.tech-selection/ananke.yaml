@@ -1,0 +1,30 @@
+kind: skill
+namespace: neo-pragnya
+name: tech-selection
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya:tech-selection
+summary: 'Choose a framework, library, database or service from evidence instead of popularity, and record the decision:
+  compare two or more options against licence, platform and cost constraints, cite benchmar…'
+description: 'Choose a framework, library, database or service from evidence instead of popularity, and record the
+  decision: compare two or more options against licence, platform and cost constraints, cite benchmarks, docs, security
+  notes and team experience, check every citation resolves (including approved enterprise architecture documents),
+  flag licence mismatches, require a named owner for any policy exception, and write a deterministic technology
+  decision record with alternatives and trade-offs for human review. Use whenever someone asks which library, framework,
+  database, queue, cloud service or tool to use, wants to compare technologies, needs a technology decision record
+  or a policy exception, or asks whether a dependency''s licence fits, even if they don''t say decision record.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - neo-pragnya
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.tech-selection
+  repository: https://github.com/Neo-Pragnya/Dex-Trove

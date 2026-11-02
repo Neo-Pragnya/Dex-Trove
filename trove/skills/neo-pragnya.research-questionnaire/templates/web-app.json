@@ -1,0 +1,17 @@
+{
+  "schema": "research-questionnaire/template@1",
+  "id": "web-app-discovery",
+  "title": "Web app discovery",
+  "intro": "Answer what you can; skip what you don't know yet. Skipped questions become open questions, not guesses.",
+  "questions": [
+    {"id": "problem", "section": "Problem", "prd": "goal", "type": "long", "text": "What problem should this solve, and for whom?"},
+    {"id": "today", "section": "Problem", "prd": "goal", "type": "long", "text": "How is it handled today, and what goes wrong?"},
+    {"id": "users", "section": "People", "prd": "actors", "type": "multi", "text": "Who will use it?", "options": ["Staff", "Customers", "Partners", "Administrators"]},
+    {"id": "volume", "section": "People", "prd": "constraints", "type": "number", "text": "Roughly how many users in the first year?"},
+    {"id": "devices", "section": "Constraints", "prd": "constraints", "type": "multi", "text": "Which devices must it support?", "options": ["Desktop browser", "Phone browser", "Tablet", "Native app"]},
+    {"id": "signin", "section": "Constraints", "prd": "constraints", "type": "choice", "text": "How should people sign in?", "options": ["Company single sign-on", "Email and password", "Social login", "Not sure yet"]},
+    {"id": "data", "section": "Constraints", "prd": "constraints", "type": "long", "hint": "Personal, financial, health…", "text": "What data does it store, and how sensitive is it?"},
+    {"id": "success", "section": "Outcome", "prd": "outcomes", "type": "long", "text": "What would make you call it a success after three months?"},
+    {"id": "out-of-scope", "section": "Outcome", "prd": "out_of_scope", "type": "long", "text": "What should it explicitly not do in the first version?"}
+  ]
+}

@@ -134,6 +134,7 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
       "reference/trove-files",
       "reference/licence-identification",
       "reference/exclusion-reasons",
+      "reference/reuse-matrix",
       "reference/configuration",
       "reference/python-api",
     ],

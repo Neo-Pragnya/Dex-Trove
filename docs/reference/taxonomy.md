@@ -18,7 +18,7 @@ What is it? One value per item. Set from the catalog.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `skill` | 468 | A reusable procedure or body of know-how an agent loads on demand for one kind of task. | — |
+| `skill` | 472 | A reusable procedure or body of know-how an agent loads on demand for one kind of task. | — |
 | `agent` | 220 | A persona with its own objective and tool scope that a host can delegate work to. | — |
 | `instruction` | 189 | Persistent guidance (style, rules, conventions) applied broadly, often scoped to file globs. | — |
 | `prompt` | 0 | A reusable invocation: a slash command or prompt file run on request. | — |
@@ -32,12 +32,12 @@ What job does it do? Any number of values.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `ideate` | 4 | Generate, compare and shape ideas before committing to requirements. | `brainstorm`, `ideation` |
-| `elicit-requirements` | 28 | Interview stakeholders and capture needs, constraints and acceptance criteria. | `requirements`, `prd`, `user-stories` |
-| `write-spec` | 41 | Produce a spec or plan that later steps implement and verify against. | `spec`, `specification`, `write-plan`, `planning` |
-| `design-architecture` | 76 | Decide structure, boundaries, components and their trade-offs. | `architecture`, `system-design`, `adr` |
+| `ideate` | 6 | Generate, compare and shape ideas before committing to requirements. | `brainstorm`, `ideation` |
+| `elicit-requirements` | 30 | Interview stakeholders and capture needs, constraints and acceptance criteria. | `requirements`, `prd`, `user-stories` |
+| `write-spec` | 42 | Produce a spec or plan that later steps implement and verify against. | `spec`, `specification`, `write-plan`, `planning` |
+| `design-architecture` | 77 | Decide structure, boundaries, components and their trade-offs. | `architecture`, `system-design`, `adr` |
 | `design-api` | 18 | Define endpoints, schemas and contracts for an API. | `api-design`, `openapi` |
-| `implement` | 101 | Write production code for a feature or change. | `implementation`, `coding`, `code-generation` |
+| `implement` | 102 | Write production code for a feature or change. | `implementation`, `coding`, `code-generation` |
 | `refactor` | 95 | Restructure existing code without changing behaviour, or upgrade it to newer platforms. | `refactoring`, `modernize`, `modernise`, `migration`, `upgrade` |
 | `review-code` | 33 | Assess a change for correctness, quality and risk, and give actionable feedback. | `code-review`, `pr-review`, `reviewing` |
 | `write-tests` | 113 | Author unit, integration or end-to-end tests. | `testing`, `tests`, `unit-tests` |
@@ -45,7 +45,7 @@ What job does it do? Any number of values.
 | `generate-api-tests` | 0 | Create tests that exercise an API's contract and failure modes. | `api-tests`, `api-testing`, `contract-tests` |
 | `debug` | 64 | Find and fix the root cause of a failure. | `debugging`, `troubleshoot`, `root-cause` |
 | `debug-ci` | 12 | Diagnose failing builds, pipelines and deployments. | `ci-triage`, `pipeline-failure-analysis`, `jenkins-triage` |
-| `security-review` | 55 | Find vulnerabilities, threats and unsafe patterns, and propose mitigations. | `security-audit`, `threat-model`, `appsec` |
+| `security-review` | 57 | Find vulnerabilities, threats and unsafe patterns, and propose mitigations. | `security-audit`, `threat-model`, `appsec` |
 | `optimise-performance` | 80 | Measure and improve speed, memory or cost. | `performance`, `optimization`, `optimisation` |
 | `write-docs` | 32 | Produce READMEs, guides, API references or other written documentation. | `documentation`, `docs`, `technical-writing` |
 | `visualize` | 28 | Draw diagrams, graphs or visual explanations of a system. | `diagram`, `diagrams`, `visualise`, `visualize-graph` |
@@ -68,9 +68,9 @@ Which way of working does it support? Any number of values.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `sdlc` | 10 | Software Development Life Cycle: the human-driven requirements, design, build, test, release and operate loop. | `software-development-lifecycle` |
-| `adlc` | 18 | Agent Development Life Cycle (as in Ananke Plexus): software built by agents and humans together, driven by specs, policies, explicit context assembly, gates and execution evidence. Overlaps SDLC; not an alias of it. | `agent-development-lifecycle`, `agentic-development` |
-| `sdd` | 5 | Specifications are the source of truth; plans, code and tests trace back to them. | `spec-driven-development`, `spec-driven` |
+| `sdlc` | 14 | Software Development Life Cycle: the human-driven requirements, design, build, test, release and operate loop. | `software-development-lifecycle` |
+| `adlc` | 20 | Agent Development Life Cycle (as in Ananke Plexus): software built by agents and humans together, driven by specs, policies, explicit context assembly, gates and execution evidence. Overlaps SDLC; not an alias of it. | `agent-development-lifecycle`, `agentic-development` |
+| `sdd` | 6 | Specifications are the source of truth; plans, code and tests trace back to them. | `spec-driven-development`, `spec-driven` |
 | `tdd` | 10 | Write a failing test first, make it pass, then refactor. | `test-driven-development`, `red-green-refactor` |
 | `bdd` | 1 | Behaviour described as Given/When/Then scenarios shared by business and engineering. | `behavior-driven-development`, `behaviour-driven-development`, `gherkin` |
 | `atdd` | 1 | Acceptance tests agreed up front define done. | `acceptance-test-driven-development` |
@@ -86,10 +86,10 @@ Where in the lifecycle is it useful? Any number of values.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `discovery` | 40 | Understanding the problem, users and options. | `ideation`, `research` |
-| `requirements` | 54 | Capturing what must be built and how success is judged. | `specification` |
-| `design` | 136 | Architecture, API and UI design decisions. | `architecture` |
-| `implementation` | 253 | Writing and changing code. | `build`, `coding`, `development` |
+| `discovery` | 42 | Understanding the problem, users and options. | `ideation`, `research` |
+| `requirements` | 56 | Capturing what must be built and how success is judged. | `specification` |
+| `design` | 137 | Architecture, API and UI design decisions. | `architecture` |
+| `implementation` | 254 | Writing and changing code. | `build`, `coding`, `development` |
 | `testing` | 115 | Authoring and running tests. | `qa`, `test` |
 | `verification` | 161 | Reviewing and proving correctness before release. | `review`, `quality` |
 | `deployment` | 74 | Releasing and shipping. | `release`, `delivery` |
@@ -102,15 +102,15 @@ Who typically uses it? Any number of values.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `product-manager` | 12 | Owns the problem, requirements and priorities. | `pm`, `product-owner` |
-| `architect` | 79 | Owns structure, boundaries and technical direction. | `solution-architect`, `software-architect` |
-| `developer` | 301 | Writes and changes code. | `engineer`, `software-engineer`, `programmer` |
+| `product-manager` | 14 | Owns the problem, requirements and priorities. | `pm`, `product-owner` |
+| `architect` | 82 | Owns structure, boundaries and technical direction. | `solution-architect`, `software-architect` |
+| `developer` | 304 | Writes and changes code. | `engineer`, `software-engineer`, `programmer` |
 | `qa-engineer` | 117 | Plans and performs testing and quality assurance. | `test-engineer`, `quality-engineer`, `tester` |
 | `security-engineer` | 58 | Finds and fixes security risk. | `appsec`, `security` |
 | `devops-engineer` | 99 | Runs pipelines, infrastructure and production systems. | `sre`, `platform-engineer`, `ops` |
 | `data-scientist` | 26 | Builds analyses, models and ML or LLM systems. | `ml-engineer`, `data-analyst` |
 | `data-engineer` | 1 | Builds data pipelines and stores. | — |
-| `designer` | 41 | Shapes user experience and visual design. | `ux-designer`, `ui-designer` |
+| `designer` | 42 | Shapes user experience and visual design. | `ux-designer`, `ui-designer` |
 | `technical-writer` | 28 | Writes documentation and guides. | `writer`, `docs-author` |
 | `reviewer` | 90 | Reviews others' changes. | `code-reviewer` |
 | `release-manager` | 6 | Coordinates releases and their gates. | — |
@@ -123,16 +123,16 @@ Which area of a system does it concern? Any number of values.
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
 | `api` | 81 | Web and service APIs and their contracts. | `rest`, `graphql` |
-| `frontend` | 84 | Browser and UI code. | `web-ui`, `ui` |
-| `backend` | 22 | Server-side services and business logic. | `server` |
+| `frontend` | 85 | Browser and UI code. | `web-ui`, `ui` |
+| `backend` | 23 | Server-side services and business logic. | `server` |
 | `mobile` | 19 | iOS, Android and cross-platform apps. | `ios`, `android` |
-| `infrastructure` | 118 | Cloud resources, networks, containers and IaC. | `cloud`, `iac` |
-| `data` | 61 | Databases, data pipelines and analytics. | `database`, `data-engineering` |
-| `ml-ai` | 114 | Machine learning, LLMs, agents and AI systems. | `ai`, `ml`, `llm` |
-| `security` | 68 | Application, supply-chain and infrastructure security. | `appsec` |
+| `infrastructure` | 119 | Cloud resources, networks, containers and IaC. | `cloud`, `iac` |
+| `data` | 62 | Databases, data pipelines and analytics. | `database`, `data-engineering` |
+| `ml-ai` | 115 | Machine learning, LLMs, agents and AI systems. | `ai`, `ml`, `llm` |
+| `security` | 69 | Application, supply-chain and infrastructure security. | `appsec` |
 | `observability` | 26 | Logs, metrics, traces and monitoring. | `monitoring` |
-| `documentation` | 31 | Docs sites, READMEs and written knowledge. | `docs` |
-| `developer-tooling` | 66 | Editors, CLIs, build tools, Git and the agent harness itself. | `devtools`, `tooling` |
+| `documentation` | 32 | Docs sites, READMEs and written knowledge. | `docs` |
+| `developer-tooling` | 68 | Editors, CLIs, build tools, Git and the agent harness itself. | `devtools`, `tooling` |
 
 ## Language (`language`)
 
@@ -189,9 +189,9 @@ Where can Dex install it natively? Any number of values. Set from where `dex ins
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `claude-code` | 760 | Installs into .claude/ (skills, agents, commands). | — |
-| `github-copilot` | 964 | Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows). | — |
-| `ananke` | 964 | Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke). | — |
+| `claude-code` | 764 | Installs into .claude/ (skills, agents, commands). | — |
+| `github-copilot` | 968 | Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows). | — |
+| `ananke` | 968 | Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke). | — |
 
 ## Needs (`needs`)
 
@@ -200,7 +200,7 @@ What must be installed for it to run? Any number of values.
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
 | `text-only` | 895 | Only Markdown and data: the agent reads it; nothing runs. | — |
-| `python` | 39 | Bundles Python scripts or a Python project file. | — |
+| `python` | 43 | Bundles Python scripts or a Python project file. | — |
 | `node` | 21 | Bundles JavaScript or TypeScript, or a package.json. | — |
 | `shell` | 14 | Bundles sh, bash or zsh scripts. | — |
 | `powershell` | 9 | Bundles PowerShell scripts. | — |
@@ -214,7 +214,7 @@ How established is it? One value per item.
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
 | `stable` | 7 | Used and maintained; changes are versioned. | — |
-| `beta` | 0 | Usable; may still change. | — |
+| `beta` | 4 | Usable; may still change. | — |
 | `experimental` | 0 | Early; expect gaps. | — |
 | `deprecated` | 0 | Kept for existing users; prefer its replacement. | — |
 | `unknown` | 957 | The source doesn't say. Most upstream items. | — |

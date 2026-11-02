@@ -1035,3 +1035,14 @@ def overlap_cmd(
             mark = "★" if m.get("best") else " "
             console.print(f"  {mark} {m['score']:.2f}  {m['key']}  [dim]{', '.join(m['why'])}[/dim]")
     console.print(f"{len(found)} group(s) at threshold {threshold}")
+
+
+@docs_app.command("reuse")
+def docs_reuse() -> None:
+    """Regenerate docs/reference/reuse-matrix.md: per source, reused as-is, enriched, forked and excluded."""
+    from dex_trove import reuse
+
+    root = _need_checkout_here()
+    target = root / "docs" / "reference" / "reuse-matrix.md"
+    target.write_text(reuse.markdown(root / "trove"), encoding="utf-8")
+    console.print(str(target))

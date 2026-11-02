@@ -1,0 +1,31 @@
+kind: skill
+namespace: neo-pragnya
+name: scaffold-harvesting
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya:scaffold-harvesting
+summary: 'Harvest a reusable project template from a repository you''re allowed to reuse: detect its layout and
+  key technologies without copying anything, then build a versioned template from structural files on…'
+description: 'Harvest a reusable project template from a repository you''re allowed to reuse: detect its layout
+  and key technologies without copying anything, then build a versioned template from structural files only (build
+  and tool configs, CI workflows, ignore files, folder layout), with the project name turned into variables, refusing
+  secret-shaped text, .env files, proprietary or confidential files and non-permissive licences; render it into
+  a new project and run the template''s test in an isolated folder with no inherited secrets. Nothing is published
+  automatically; reviewed templates go to Dex Trove through its candidate gate. Use whenever someone wants to turn
+  a repo into a starter or template, extract a project skeleton or boilerplate, standardise new services on an existing
+  layout, or make a cookiecutter or Copier-style template, even if they don''t say scaffold.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - neo-pragnya
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.scaffold-harvesting
+  repository: https://github.com/Neo-Pragnya/Dex-Trove

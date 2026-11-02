@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
  "taxonomy_version": "1.1.0",
- "count": 964,
+ "count": 968,
  "items": {
   "agent:awesome-copilot/accessibility": {
    "schema_version": "1.0.0",
@@ -90701,6 +90701,174 @@
     }
    }
   },
+  "skill:neo-pragnya/idea-developer": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya/idea-developer@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "elicit-requirements",
+     "ideate",
+     "write-spec"
+    ],
+    "methodology": [
+     "adlc",
+     "sdd",
+     "sdlc"
+    ],
+    "phase": [
+     "discovery",
+     "requirements"
+    ],
+    "role": [
+     "architect",
+     "developer",
+     "product-manager"
+    ],
+    "domain": [
+     "developer-tooling",
+     "frontend",
+     "ml-ai"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "beta"
+   },
+   "classification": {
+    "source": "curated",
+    "review_status": "approved"
+   },
+   "provenance": {
+    "task": {
+     "source": "curated",
+     "evidence": {
+      "elicit-requirements": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ],
+      "ideate": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ],
+      "write-spec": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "elicit-requirements",
+       "write-spec"
+      ]
+     }
+    },
+    "methodology": {
+     "source": "curated",
+     "evidence": {
+      "adlc": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ],
+      "sdd": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ],
+      "sdlc": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "sdd"
+      ]
+     }
+    },
+    "phase": {
+     "source": "curated",
+     "evidence": {
+      "discovery": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ],
+      "requirements": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "requirements"
+      ]
+     }
+    },
+    "role": {
+     "source": "curated",
+     "evidence": {
+      "architect": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ],
+      "developer": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ],
+      "product-manager": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "developer",
+       "product-manager"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "developer-tooling": [
+       "description: 'CLI'"
+      ],
+      "frontend": [
+       "description: 'web app'"
+      ],
+      "ml-ai": [
+       "description: 'AI agent'"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "curated",
+     "evidence": {
+      "beta": [
+       "curated: SKILL.md: scoped interview, decisions citing answers, named approvals, PRD, ananke spec create handoff"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/session.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    }
+   }
+  },
   "skill:neo-pragnya/interactive-web-motion": {
    "schema_version": "1.0.0",
    "artifact_ref": "neo-pragnya/interactive-web-motion@1.0.1",
@@ -91535,6 +91703,445 @@
      "evidence": {
       "python": [
        "scripts/scan_dist.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya/research-questionnaire": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya/research-questionnaire@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "elicit-requirements",
+     "ideate"
+    ],
+    "methodology": [
+     "sdlc"
+    ],
+    "phase": [
+     "discovery",
+     "requirements"
+    ],
+    "role": [
+     "designer",
+     "product-manager"
+    ],
+    "domain": [
+     "documentation"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "beta"
+   },
+   "classification": {
+    "source": "curated",
+    "review_status": "approved"
+   },
+   "provenance": {
+    "task": {
+     "source": "curated",
+     "evidence": {
+      "elicit-requirements": [
+       "curated: SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+      ],
+      "ideate": [
+       "curated: SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "elicit-requirements"
+      ]
+     }
+    },
+    "methodology": {
+     "source": "curated",
+     "evidence": {
+      "sdlc": [
+       "curated: SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+      ]
+     }
+    },
+    "phase": {
+     "source": "curated",
+     "evidence": {
+      "discovery": [
+       "curated: SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+      ],
+      "requirements": [
+       "curated: SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "discovery",
+       "requirements"
+      ]
+     }
+    },
+    "role": {
+     "source": "curated",
+     "evidence": {
+      "designer": [
+       "curated: SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+      ],
+      "product-manager": [
+       "curated: SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "product-manager"
+      ]
+     }
+    },
+    "domain": {
+     "source": "curated",
+     "evidence": {
+      "documentation": [
+       "curated: SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "frontend"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "curated",
+     "evidence": {
+      "beta": [
+       "curated: SKILL.md: offline HTML form, explicit download/import, Markdown + PRD source data, provenance merge"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/questionnaire.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya/scaffold-harvesting": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya/scaffold-harvesting@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "implement",
+     "security-review"
+    ],
+    "methodology": [
+     "sdlc"
+    ],
+    "phase": [
+     "implementation"
+    ],
+    "role": [
+     "architect",
+     "developer"
+    ],
+    "domain": [
+     "developer-tooling"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "beta"
+   },
+   "classification": {
+    "source": "curated",
+    "review_status": "approved"
+   },
+   "provenance": {
+    "task": {
+     "source": "curated",
+     "evidence": {
+      "implement": [
+       "curated: SKILL.md: detect layout, structural-only templates with variables, secret/licence refusal, isolated test"
+      ],
+      "security-review": [
+       "curated: SKILL.md: detect layout, structural-only templates with variables, secret/licence refusal, isolated test"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "implement",
+       "write-tests"
+      ]
+     }
+    },
+    "methodology": {
+     "source": "curated",
+     "evidence": {
+      "sdlc": [
+       "curated: SKILL.md: detect layout, structural-only templates with variables, secret/licence refusal, isolated test"
+      ]
+     }
+    },
+    "phase": {
+     "source": "curated",
+     "evidence": {
+      "implementation": [
+       "curated: SKILL.md: detect layout, structural-only templates with variables, secret/licence refusal, isolated test"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "deployment",
+       "implementation",
+       "testing",
+       "verification"
+      ]
+     }
+    },
+    "role": {
+     "source": "curated",
+     "evidence": {
+      "architect": [
+       "curated: SKILL.md: detect layout, structural-only templates with variables, secret/licence refusal, isolated test"
+      ],
+      "developer": [
+       "curated: SKILL.md: detect layout, structural-only templates with variables, secret/licence refusal, isolated test"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "qa-engineer"
+      ]
+     }
+    },
+    "domain": {
+     "source": "curated",
+     "evidence": {
+      "developer-tooling": [
+       "curated: SKILL.md: detect layout, structural-only templates with variables, secret/licence refusal, isolated test"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "backend",
+       "security"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "curated",
+     "evidence": {
+      "beta": [
+       "curated: SKILL.md: detect layout, structural-only templates with variables, secret/licence refusal, isolated test"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/harvest.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya/tech-selection": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya/tech-selection@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "design-architecture",
+     "security-review"
+    ],
+    "methodology": [
+     "adlc",
+     "sdlc"
+    ],
+    "phase": [
+     "design"
+    ],
+    "role": [
+     "architect",
+     "developer"
+    ],
+    "domain": [
+     "backend",
+     "data",
+     "infrastructure",
+     "security"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "beta"
+   },
+   "classification": {
+    "source": "curated",
+    "review_status": "approved"
+   },
+   "provenance": {
+    "task": {
+     "source": "curated",
+     "evidence": {
+      "design-architecture": [
+       "curated: SKILL.md: options with cited evidence, licence/platform/cost constraints, owned exceptions, decision record"
+      ],
+      "security-review": [
+       "curated: SKILL.md: options with cited evidence, licence/platform/cost constraints, owned exceptions, decision record"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "design-architecture",
+       "security-review"
+      ]
+     }
+    },
+    "methodology": {
+     "source": "curated",
+     "evidence": {
+      "adlc": [
+       "curated: SKILL.md: options with cited evidence, licence/platform/cost constraints, owned exceptions, decision record"
+      ],
+      "sdlc": [
+       "curated: SKILL.md: options with cited evidence, licence/platform/cost constraints, owned exceptions, decision record"
+      ]
+     }
+    },
+    "phase": {
+     "source": "curated",
+     "evidence": {
+      "design": [
+       "curated: SKILL.md: options with cited evidence, licence/platform/cost constraints, owned exceptions, decision record"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "design",
+       "verification"
+      ]
+     }
+    },
+    "role": {
+     "source": "curated",
+     "evidence": {
+      "architect": [
+       "curated: SKILL.md: options with cited evidence, licence/platform/cost constraints, owned exceptions, decision record"
+      ],
+      "developer": [
+       "curated: SKILL.md: options with cited evidence, licence/platform/cost constraints, owned exceptions, decision record"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "architect",
+       "reviewer",
+       "security-engineer"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "backend": [
+       "description: 'service'"
+      ],
+      "data": [
+       "description: 'database'"
+      ],
+      "infrastructure": [
+       "description: 'cloud'"
+      ],
+      "security": [
+       "description: 'security'"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "curated",
+     "evidence": {
+      "beta": [
+       "curated: SKILL.md: options with cited evidence, licence/platform/cost constraints, owned exceptions, decision record"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/decide.py"
       ]
      }
     },

@@ -38,6 +38,12 @@ relations:
       evidence: "living-diagrams SKILL.md: 'Pair with the marvellous-aws-architecture-docs skill for numbered concept flows'" }
   - { from: skill:neo-pragnya/capability-acceptance, type: complements, to: skill:neo-pragnya/package-security-scan,
       evidence: "both are release gates: behaviour (acceptance) and the built wheel's security (dist-scan)" }
+  - { from: skill:neo-pragnya/research-questionnaire, type: complements, to: skill:neo-pragnya/idea-developer,
+      evidence: "research-questionnaire SKILL.md: 'Feed that to the idea-developer skill, or straight into a PRD'" }
+  - { from: skill:neo-pragnya/idea-developer, type: complements, to: skill:neo-pragnya/tech-selection,
+      evidence: "idea-developer records options with evidence; tech-selection turns a real technology choice into a checked decision record" }
+  - { from: skill:superpowers/brainstorming, type: alternative-to, to: skill:neo-pragnya/idea-developer,
+      evidence: "both turn a rough idea into a design; idea-developer adds a persisted interview, approvals and a PRD" }
   # ── same job, different author ─────────────────────────────────────────────────────────────────────────────
   - { from: skill:anthropic/skill-creator, type: alternative-to, to: skill:superpowers/writing-skills,
       evidence: "both guide writing and testing a SKILL.md; skill-creator adds evals, writing-skills applies TDD" }

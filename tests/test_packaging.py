@@ -47,3 +47,10 @@ def test_taxonomy_reference_page_is_current() -> None:
 
     page = (ROOT / "docs" / "reference" / "taxonomy.md").read_text()
     assert page == facets.taxonomy_markdown(records=facets.load(ROOT / "trove")), "run `dex facets doc`"
+
+
+def test_reuse_matrix_is_current() -> None:
+    from dex_trove import reuse
+
+    page = (ROOT / "docs" / "reference" / "reuse-matrix.md").read_text()
+    assert page == reuse.markdown(ROOT / "trove"), "run `dex docs reuse`"

@@ -2120,6 +2120,12 @@
         "target": "skill:awesome-copilot/gtm-developer-ecosystem",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya/idea-developer",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       }
     ],
     "agent:awesome-copilot/expert-react-frontend-engineer": [
@@ -5218,6 +5224,12 @@
         "target": "agent:awesome-copilot/research-technical-spike",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya/research-questionnaire",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       }
     ],
     "agent:awesome-copilot/se-product-manager-advisor": [
@@ -5454,6 +5466,14 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/shopify-review-triage",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "agent:awesome-copilot/simple-app-idea-generator": [
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya/idea-developer",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -20644,6 +20664,12 @@
         "target": "skill:awesome-copilot/azure-developer-cli",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya/idea-developer",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       }
     ],
     "skill:awesome-copilot/gtm-enterprise-account-planning": [
@@ -27120,6 +27146,50 @@
         "evidence": "both are release gates: behaviour (acceptance) and the built wheel's security (dist-scan)"
       }
     ],
+    "skill:neo-pragnya/idea-developer": [
+      {
+        "type": "complements",
+        "target": "skill:neo-pragnya/research-questionnaire",
+        "origin": "curated",
+        "evidence": "research-questionnaire SKILL.md: 'Feed that to the idea-developer skill, or straight into a PRD'"
+      },
+      {
+        "type": "complements",
+        "target": "skill:neo-pragnya/tech-selection",
+        "origin": "curated",
+        "evidence": "idea-developer records options with evidence; tech-selection turns a real technology choice into a checked decision record"
+      },
+      {
+        "type": "alternative-to",
+        "target": "skill:superpowers/brainstorming",
+        "origin": "curated",
+        "evidence": "both turn a rough idea into a design; idea-developer adds a persisted interview, approvals and a PRD"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/expert-nextjs-developer",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/simple-app-idea-generator",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/azure-developer-cli",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/gtm-developer-ecosystem",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
     "skill:neo-pragnya/interactive-web-motion": [
       {
         "type": "complements",
@@ -27298,12 +27368,72 @@
         "evidence": "shares tags or name words"
       }
     ],
+    "skill:neo-pragnya/research-questionnaire": [
+      {
+        "type": "complements",
+        "target": "skill:neo-pragnya/idea-developer",
+        "origin": "curated",
+        "evidence": "research-questionnaire SKILL.md: 'Feed that to the idea-developer skill, or straight into a PRD'"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/research-harness-engineer",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/research-technical-spike",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/scientific-paper-research",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:neo-pragnya/scaffold-harvesting": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/meta-agentic-project-scaffold",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/power-apps-code-app-scaffold",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:neo-pragnya/tech-selection": [
+      {
+        "type": "complements",
+        "target": "skill:neo-pragnya/idea-developer",
+        "origin": "curated",
+        "evidence": "idea-developer records options with evidence; tech-selection turns a real technology choice into a checked decision record"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/tech-debt-remediation-plan",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
     "skill:superpowers/brainstorming": [
       {
         "type": "complements",
         "target": "skill:superpowers/writing-plans",
         "origin": "curated",
         "evidence": "brainstorming SKILL.md: for software, a written design goes on to superpowers:writing-plans"
+      },
+      {
+        "type": "alternative-to",
+        "target": "skill:neo-pragnya/idea-developer",
+        "origin": "curated",
+        "evidence": "both turn a rough idea into a design; idea-developer adds a persisted interview, approvals and a PRD"
       }
     ],
     "skill:superpowers/diagnosing-superpowers": [

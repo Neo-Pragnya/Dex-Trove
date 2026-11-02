@@ -2,11 +2,11 @@
  "generator": "dex-trove 0.3.0",
  "summary": {
   "claude": {
-   "pass": 758,
+   "pass": 762,
    "fail": 2
   },
   "copilot": {
-   "pass": 955,
+   "pass": 959,
    "fail": 9
   }
  },
@@ -3559,6 +3559,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:neo-pragnya/idea-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:neo-pragnya/interactive-web-motion": {
    "claude": "pass",
    "copilot": "pass"
@@ -3576,6 +3580,18 @@
    "copilot": "pass"
   },
   "skill:neo-pragnya/package-security-scan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/research-questionnaire": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/scaffold-harvesting": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/tech-selection": {
    "claude": "pass",
    "copilot": "pass"
   },

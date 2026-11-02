@@ -63,6 +63,15 @@ Capability memory with releases: every version remembered, exact pins, and a rev
   page. Provenance & versioning covers releases, locks, yank, forks and candidates. New **Capability memory**
   page: memory vs evidence, recipe vs executable plan, how a lesson becomes memory, and why sources are optional.
 
+- **Four new first-party skills** (968 items), each with a standard-library script and curated facets:
+  - `idea-developer`: a scoped interview that becomes an approved PRD and an Ananke spec handoff;
+  - `tech-selection`: evidence-based technology decision records with licence checks and owned exceptions;
+  - `research-questionnaire`: offline HTML questionnaires with explicit download and import, PRD source data and a
+    provenance merge;
+  - `scaffold-harvesting`: safe, versioned templates from repos you may reuse.
+- **Reuse matrix** (`dex docs reuse`, `docs/reference/reuse-matrix.md`): per source, what is reused as-is, enriched,
+  forked and excluded, with licence evidence.
+
 ### Changed
 
 - When an upstream changes content without bumping its declared version, Dex now assigns the next free patch

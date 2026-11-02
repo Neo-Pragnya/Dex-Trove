@@ -1,0 +1,44 @@
+{
+  "id": "neo-pragnya/tech-selection",
+  "kind": "skill",
+  "namespace": "neo-pragnya",
+  "name": "tech-selection",
+  "title": "Tech selection",
+  "description": "Choose a framework, library, database or service from evidence instead of popularity, and record the decision: compare two or more options against licence, platform and cost constraints, cite benchmarks, docs, security notes and team experience, check every citation resolves (including approved enterprise architecture documents), flag licence mismatches, require a named owner for any policy exception, and write a deterministic technology decision record with alternatives and trade-offs for human review. Use whenever someone asks which library, framework, database, queue, cloud service or tool to use, wants to compare technologies, needs a technology decision record or a policy exception, or asks whether a dependency's licence fits, even if they don't say decision record.",
+  "tags": [
+    "executes-code",
+    "neo-pragnya",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya.tech-selection",
+  "source": {
+    "id": "neo-pragnya",
+    "title": "Neo Pragnya (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+    "commit": null,
+    "path": "tech-selection",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.tech-selection",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/architecture.md",
+    "references/request.example.json",
+    "scripts/decide.py"
+  ],
+  "entry_hash": "6445bdacd0e5df430878dfcd189b21cfab77b929e09c4ec5cc1cffd7b9ea0a31",
+  "content_hash": "a5ecf3d192a6417bf362094a9d36418b1fe9c5de6a4e7ef3ebfd3805b72a9598",
+  "learned_at": "2026-11-02T14:35:57+00:00"
+}

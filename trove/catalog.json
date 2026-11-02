@@ -1,6 +1,6 @@
 {
-  "generator": "dex-trove 0.1.5",
-  "count": 964,
+  "generator": "dex-trove 0.3.0",
+  "count": 968,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -39807,6 +39807,49 @@
       "learned_at": "2026-10-21T04:04:36+00:00"
     },
     {
+      "id": "neo-pragnya/idea-developer",
+      "kind": "skill",
+      "namespace": "neo-pragnya",
+      "name": "idea-developer",
+      "title": "Idea developer",
+      "description": "Turn a rough idea into an approved, traceable product requirement through a scoped interview: a question bank per domain (web app, data platform, AI agent, CLI tool), recorded assumptions with risks, decisions that must cite the answers they come from, competing options with evidence and cost, named approvals, a living PRD (actors, outcomes, out of scope, open questions) and a handoff to the Ananke spec lifecycle that is refused while anything is unapproved. Use whenever someone has an idea, a feature request or a vague brief and wants it scoped, wants a PRD or requirements, asks what questions to ask stakeholders, wants to compare approaches before building, or wants to start spec-driven development, even if they don't say PRD.",
+      "tags": [
+        "executes-code",
+        "neo-pragnya",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya.idea-developer",
+      "source": {
+        "id": "neo-pragnya",
+        "title": "Neo Pragnya (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+        "commit": null,
+        "path": "idea-developer",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.idea-developer",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "references/questions.json",
+        "scripts/session.py"
+      ],
+      "entry_hash": "1547a94ac94d8b26ab7e543c80e546c24f6bfd76d0d5b4f410ae600681c8b476",
+      "content_hash": "ebe5748630afc25ac59d2043852a1ce5e99424e1626105016a136be306aba23c",
+      "learned_at": "2026-11-02T14:35:57+00:00"
+    },
+    {
       "id": "neo-pragnya/interactive-web-motion",
       "kind": "skill",
       "namespace": "neo-pragnya",
@@ -40095,6 +40138,135 @@
       "entry_hash": "14f69a8dc6857b2645b7d304c20618ffaa1917d5c099fc68e5c0772e37d6e2cd",
       "content_hash": "171cb2193acd315ac969d5f59db9220331ff9b37bff1f5818a9f002f7f20e47b",
       "learned_at": "2026-10-23T02:25:36+00:00"
+    },
+    {
+      "id": "neo-pragnya/research-questionnaire",
+      "kind": "skill",
+      "namespace": "neo-pragnya",
+      "name": "research-questionnaire",
+      "title": "Research questionnaire",
+      "description": "Run structured discovery research with a questionnaire people can fill in offline: generate a single self-contained HTML form from a question template (text, long text, choice, multi-select, number), where answers are saved only by an explicit download and restored by import (no browser storage, no network), then validate partial answers, turn them into Markdown with frontmatter and PRD source data that keeps unanswered questions as open questions, and merge later answer files without duplicating answers while recording where each came from. Use whenever someone wants a discovery questionnaire, stakeholder or requirements survey, intake form, research interview template, or wants questionnaire answers turned into a PRD or notes, even if they don't say questionnaire.",
+      "tags": [
+        "executes-code",
+        "neo-pragnya",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya.research-questionnaire",
+      "source": {
+        "id": "neo-pragnya",
+        "title": "Neo Pragnya (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+        "commit": null,
+        "path": "research-questionnaire",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.research-questionnaire",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "scripts/questionnaire.py",
+        "templates/web-app.json"
+      ],
+      "entry_hash": "486ea2dee7e4872002bd4e206b52b86f8764f828fe67466867cb8133c43700ca",
+      "content_hash": "edeee9c08aba6d4d693dbf58820ee5a0d5e70fa142d2155dd207e5aa518624f2",
+      "learned_at": "2026-11-02T14:35:57+00:00"
+    },
+    {
+      "id": "neo-pragnya/scaffold-harvesting",
+      "kind": "skill",
+      "namespace": "neo-pragnya",
+      "name": "scaffold-harvesting",
+      "title": "Scaffold harvesting",
+      "description": "Harvest a reusable project template from a repository you're allowed to reuse: detect its layout and key technologies without copying anything, then build a versioned template from structural files only (build and tool configs, CI workflows, ignore files, folder layout), with the project name turned into variables, refusing secret-shaped text, .env files, proprietary or confidential files and non-permissive licences; render it into a new project and run the template's test in an isolated folder with no inherited secrets. Nothing is published automatically; reviewed templates go to Dex Trove through its candidate gate. Use whenever someone wants to turn a repo into a starter or template, extract a project skeleton or boilerplate, standardise new services on an existing layout, or make a cookiecutter or Copier-style template, even if they don't say scaffold.",
+      "tags": [
+        "executes-code",
+        "neo-pragnya",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya.scaffold-harvesting",
+      "source": {
+        "id": "neo-pragnya",
+        "title": "Neo Pragnya (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+        "commit": null,
+        "path": "scaffold-harvesting",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.scaffold-harvesting",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "scripts/harvest.py"
+      ],
+      "entry_hash": "c62b4fe74f7a92e7cb67030df4e9316776c5b6fb0d4ec0a3d451f26afb82f0b5",
+      "content_hash": "5530fc88c48312a26ab904327d2677fb7d88a2e51445f5b2e2ea8f41707654d3",
+      "learned_at": "2026-11-02T14:35:57+00:00"
+    },
+    {
+      "id": "neo-pragnya/tech-selection",
+      "kind": "skill",
+      "namespace": "neo-pragnya",
+      "name": "tech-selection",
+      "title": "Tech selection",
+      "description": "Choose a framework, library, database or service from evidence instead of popularity, and record the decision: compare two or more options against licence, platform and cost constraints, cite benchmarks, docs, security notes and team experience, check every citation resolves (including approved enterprise architecture documents), flag licence mismatches, require a named owner for any policy exception, and write a deterministic technology decision record with alternatives and trade-offs for human review. Use whenever someone asks which library, framework, database, queue, cloud service or tool to use, wants to compare technologies, needs a technology decision record or a policy exception, or asks whether a dependency's licence fits, even if they don't say decision record.",
+      "tags": [
+        "executes-code",
+        "neo-pragnya",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya.tech-selection",
+      "source": {
+        "id": "neo-pragnya",
+        "title": "Neo Pragnya (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+        "commit": null,
+        "path": "tech-selection",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.tech-selection",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "references/architecture.md",
+        "references/request.example.json",
+        "scripts/decide.py"
+      ],
+      "entry_hash": "6445bdacd0e5df430878dfcd189b21cfab77b929e09c4ec5cc1cffd7b9ea0a31",
+      "content_hash": "a5ecf3d192a6417bf362094a9d36418b1fe9c5de6a4e7ef3ebfd3805b72a9598",
+      "learned_at": "2026-11-02T14:35:57+00:00"
     },
     {
       "id": "superpowers/brainstorming",

@@ -1,0 +1,20 @@
+{
+  "schema": "tech-selection/request@1",
+  "question": "Which job queue for background work?",
+  "context": "The API must send emails and resize images without blocking requests. The team runs Python on Azure.",
+  "constraints": {"licences_allowed": ["MIT", "BSD-3-Clause", "Apache-2.0"], "platforms": ["linux"], "max_cost": "medium",
+                  "other": ["Must run in our existing Azure subscription"]},
+  "options": [
+    {"name": "Celery + Redis", "licence": "BSD-3-Clause", "platforms": ["linux", "macos"], "cost": "medium",
+     "evidence": [{"kind": "experience", "claim": "Two teams run it in production today", "cite": "architecture.md#queues"},
+                  {"kind": "popularity", "claim": "Most-used Python task queue", "cite": "https://docs.celeryq.dev/"}],
+     "pros": ["mature", "team knows it"], "cons": ["Redis to operate"]},
+    {"name": "Dramatiq + RabbitMQ", "licence": "LGPL-3.0", "platforms": ["linux"], "cost": "medium",
+     "evidence": [{"kind": "doc", "claim": "Simpler retry semantics", "cite": "https://dramatiq.io/"}],
+     "pros": ["simple API"], "cons": ["new to the team", "LGPL"]}
+  ],
+  "enterprise_docs": [{"title": "Platform architecture: queues", "cite": "architecture.md#queues"}],
+  "chosen": "Celery + Redis",
+  "decided_by": "Platform lead",
+  "exceptions": []
+}

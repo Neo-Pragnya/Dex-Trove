@@ -1,0 +1,42 @@
+{
+  "id": "neo-pragnya/scaffold-harvesting",
+  "kind": "skill",
+  "namespace": "neo-pragnya",
+  "name": "scaffold-harvesting",
+  "title": "Scaffold harvesting",
+  "description": "Harvest a reusable project template from a repository you're allowed to reuse: detect its layout and key technologies without copying anything, then build a versioned template from structural files only (build and tool configs, CI workflows, ignore files, folder layout), with the project name turned into variables, refusing secret-shaped text, .env files, proprietary or confidential files and non-permissive licences; render it into a new project and run the template's test in an isolated folder with no inherited secrets. Nothing is published automatically; reviewed templates go to Dex Trove through its candidate gate. Use whenever someone wants to turn a repo into a starter or template, extract a project skeleton or boilerplate, standardise new services on an existing layout, or make a cookiecutter or Copier-style template, even if they don't say scaffold.",
+  "tags": [
+    "executes-code",
+    "neo-pragnya",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya.scaffold-harvesting",
+  "source": {
+    "id": "neo-pragnya",
+    "title": "Neo Pragnya (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+    "commit": null,
+    "path": "scaffold-harvesting",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.scaffold-harvesting",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/harvest.py"
+  ],
+  "entry_hash": "c62b4fe74f7a92e7cb67030df4e9316776c5b6fb0d4ec0a3d451f26afb82f0b5",
+  "content_hash": "5530fc88c48312a26ab904327d2677fb7d88a2e51445f5b2e2ea8f41707654d3",
+  "learned_at": "2026-11-02T14:35:57+00:00"
+}
