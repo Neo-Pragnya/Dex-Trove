@@ -1,6 +1,6 @@
 ---
 title: Capability memory
-description: What it means that Dex Trove is "memory": reusable know-how versus run evidence, recipes versus executable plans, how new lessons get in, and why Dex is one optional source among many.
+description: 'What it means that Dex Trove is "memory": reusable know-how versus run evidence, recipes versus executable plans, how new lessons get in, and why Dex is one optional source among many.'
 ---
 
 # Capability memory

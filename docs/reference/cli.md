@@ -95,13 +95,15 @@ Lists items as a table (kind, id, licence, description) or JSON (`kind`, `id`, `
 ## `dex search`
 
 ```text
-dex search [QUERY...] [--kind/-k KIND] [--source/-s NAMESPACE] [--limit/-n 25] [--json]
+dex search [QUERY...] [--kind/-k KIND] [--source/-s NAMESPACE] [--limit/-n 25] [--rank words|semantic] [--json]
            [--task/-t T] [--methodology/-m M] [--phase/-p P] [--role/-r R] [--domain D] [--language L]
-           [--framework F] [--platform P] [--maturity M] [--not FACET=VALUE] [--strict] [--explain] [--cursor N]
+           [--framework F] [--platform P] [--needs N] [--maturity M] [--not FACET=VALUE] [--strict] [--explain] [--cursor N]
 ```
 
 **Words only:** every word must match the name, title, tags or description. Results are ranked with weights name 5,
-title 3, tags 2, description 1. Output and `--json` are unchanged from earlier releases.
+title 3, tags 2, description 1. Output and `--json` are unchanged from earlier releases. `--rank semantic` instead
+ranks partial matches with BM25 plus taxonomy expansion, for natural questions (see
+[Finding capabilities](../guides/finding-capabilities.md#asking-a-question---rank-semantic)).
 
 **With facet options** (each repeatable): any value within a facet matches, and all facets must match. `--strict`
 requires every value within a facet, and `--not` excludes. Items without a facet never match it. Values accept

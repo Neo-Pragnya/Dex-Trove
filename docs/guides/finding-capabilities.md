@@ -148,6 +148,24 @@ and a review-pending item 0.5. The score is normalised over the parts the query 
 (when you give words), then the id. These weights are starting points, not measured truths; `--explain` shows each
 item's contributions.
 
+### Asking a question: `--rank semantic`
+
+Plain `dex search <words>` requires every word to match, which is predictable but misses natural questions.
+`--rank semantic` scores partial matches instead:
+
+- BM25 over the name, title, tags and description, with light stemming (test, tests, testing);
+- **taxonomy expansion**: when a facet term's own rule matches your question ("root cause" → task `debug`),
+  items carrying that facet move up.
+
+```console
+$ dex search write the failing test before the code --rank semantic -n 3
+```
+
+It uses no model, no network and no new dependency. It only reorders and widens results; it never changes what an
+item may do. On a labelled set of 24 real questions (`tests/fixtures/search_eval.json`), the right item is in the
+top 10 for **67%** of questions with `--rank semantic`, against **4%** for word matching. The test suite keeps it
+above the baseline. Questions it still misses are in that file's history; add yours when a search disappoints.
+
 ## Using it
 
 ### In the CLI

@@ -1,0 +1,29 @@
+{
+  "comment": "Natural-language queries and the trove items a person would accept. Used to compare search rankers (tests/test_search_eval.py). Add a query when a real search disappoints.",
+  "queries": [
+    {"q": "find the root cause of a bug", "relevant": ["skill:superpowers/systematic-debugging"]},
+    {"q": "write the failing test before the code", "relevant": ["skill:superpowers/test-driven-development", "agent:awesome-copilot/tdd-red"]},
+    {"q": "documentation website for my repo on github pages", "relevant": ["skill:neo-pragnya/astro-docs-site"]},
+    {"q": "animate an architecture diagram", "relevant": ["skill:neo-pragnya/living-diagrams", "skill:neo-pragnya/marvellous-aws-architecture-docs"]},
+    {"q": "is my python package going to be quarantined by a scanner", "relevant": ["skill:neo-pragnya/package-security-scan"]},
+    {"q": "break a feature into a step by step plan", "relevant": ["skill:superpowers/writing-plans", "skill:awesome-copilot/create-implementation-plan", "agent:awesome-copilot/planner", "agent:awesome-copilot/implementation-plan"]},
+    {"q": "ask for a review of my changes", "relevant": ["skill:superpowers/requesting-code-review"]},
+    {"q": "test a local web app in a real browser", "relevant": ["skill:anthropic/webapp-testing", "skill:awesome-copilot/webapp-testing"]},
+    {"q": "build a model context protocol server", "relevant": ["skill:anthropic/mcp-builder"]},
+    {"q": "wcag audit of a page", "relevant": ["agent:awesome-copilot/accessibility"]},
+    {"q": "turn a rough idea into a design", "relevant": ["skill:superpowers/brainstorming"]},
+    {"q": "author a new skill for claude", "relevant": ["skill:anthropic/skill-creator", "skill:superpowers/writing-skills"]},
+    {"q": "behaviour driven acceptance tests and a release gate", "relevant": ["skill:neo-pragnya/capability-acceptance"]},
+    {"q": "work on two branches at once in separate folders", "relevant": ["skill:superpowers/using-git-worktrees"]},
+    {"q": "make my landing page feel alive with hover effects", "relevant": ["skill:neo-pragnya/interactive-web-motion"]},
+    {"q": "prove it works before saying done", "relevant": ["skill:superpowers/verification-before-completion"]},
+    {"q": "run independent tasks with several subagents in parallel", "relevant": ["skill:superpowers/dispatching-parallel-agents"]},
+    {"q": "write a good commit message", "relevant": ["skill:awesome-copilot/git-commit", "skill:awesome-copilot/conventional-commit", "skill:awesome-copilot/commit-message-storyteller"]},
+    {"q": "small docker image with build stages", "relevant": ["skill:awesome-copilot/multi-stage-dockerfile", "instruction:awesome-copilot/containerization-docker-best-practices"]},
+    {"q": "generate a readme for a project", "relevant": ["skill:awesome-copilot/create-readme", "skill:awesome-copilot/readme-blueprint-generator"]},
+    {"q": "postgres database administration", "relevant": ["agent:awesome-copilot/postgresql-dba"]},
+    {"q": "deploy to kubernetes safely", "relevant": ["instruction:awesome-copilot/kubernetes-deployment-best-practices", "agent:awesome-copilot/platform-sre-kubernetes", "instruction:awesome-copilot/kubernetes-manifests"]},
+    {"q": "find vulnerabilities in my code", "relevant": ["agent:awesome-copilot/sast-sca-security-analyzer", "agent:awesome-copilot/se-security-reviewer"]},
+    {"q": "clean up code without changing behaviour", "relevant": ["skill:awesome-copilot/refactor", "agent:awesome-copilot/tdd-refactor"]}
+  ]
+}

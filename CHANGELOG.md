@@ -48,6 +48,9 @@ Capability memory with releases: every version remembered, exact pins, and a rev
   `dex search --needs` or the site rail.
 - **`dex overlap`**: groups items of the same kind, task and context that do the same job, and scores each one on
   verifiable signals. Two confirmed overlaps were curated as `alternative-to`.
+- **`dex search --rank semantic`**: BM25 with stemming plus taxonomy expansion, for natural questions. It needs no
+  model and no network. On 24 labelled questions it reaches recall@10 0.67, against 0.04 for word matching, and
+  a test keeps it ahead.
 - **`dex ananke handoff`**: turns a Dex lock into exact `[tool.ananke]` pins. It only resolves; nothing runs.
 - **Insights page**: recent releases, version counts, install-check failures, overlapping items and relation
   counts, all from repository files.

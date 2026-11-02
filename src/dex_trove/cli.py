@@ -219,6 +219,13 @@ def search(
     explain: Annotated[bool, typer.Option("--explain", help="Show why each result matched")] = False,
     cursor: Annotated[str | None, typer.Option("--cursor", help="Continue from a previous page")] = None,
     limit: Annotated[int, typer.Option("--limit", "-n")] = 25,
+    rank: Annotated[
+        str,
+        typer.Option(
+            "--rank",
+            help="words: every word must match (default); semantic: BM25 + taxonomy expansion, for questions",
+        ),
+    ] = "words",
     as_json: JsonOpt = False,
 ) -> None:
     """Search names, titles, tags and descriptions, and filter by typed facets.
@@ -246,7 +253,16 @@ def search(
                 "give search words, a facet filter (e.g. --methodology adlc), or both — see `dex facets list`"
             )
             raise typer.Exit(2)
-        hits = catalog.search(catalog.filter_items(catalog.load(), kind=kind, source=source), text)[:limit]
+        pool = catalog.filter_items(catalog.load(), kind=kind, source=source)
+        if rank not in ("words", "semantic"):
+            err.print("--rank is words or semantic")
+            raise typer.Exit(2)
+        if rank == "semantic":
+            from dex_trove import semantic
+
+            hits = semantic.rank(pool, text)[:limit]
+        else:
+            hits = catalog.search(pool, text)[:limit]
         if as_json:
             console.print_json(
                 json.dumps([{k: i[k] for k in ("kind", "id", "title", "description")} for i in hits])

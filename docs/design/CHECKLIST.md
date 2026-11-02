@@ -208,6 +208,7 @@ Backlog: `Ideation/Ananke-DexTrove-DevAcharya/Dev_Guru_Three_Repo_Implementation
 - [x] CAP-skill-harvesting-04: `dex overlap` benchmark and two curated alternative-to pairs.
 - [x] ASM-D08: `dex ananke handoff`, resolve-only exact pins.
 - [x] DEX-EDUCATION-MEMORY: capability-memory concept page.
+- [x] ASM-D10: optional semantic-lite ranking (BM25 + taxonomy expansion); labelled eval; recall@10 0.04 → 0.67.
 - [ ] First-party releases have no upstream commit, so older ones can't be fetched. Move first-party skills into git.
 - [ ] Candidate kinds beyond skills (agents, instructions).
 - [ ] Curate more items; benchmark rule precision on a labelled sample.
