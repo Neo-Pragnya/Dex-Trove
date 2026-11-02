@@ -11,7 +11,7 @@ from typing import Any
 
 import yaml
 
-from dex_trove import catalog, frontmatter
+from dex_trove import catalog, facets, frontmatter, taxonomy
 from dex_trove.sources import Candidate, Source
 
 MAX_BODY = 60_000
@@ -193,6 +193,29 @@ def relations(items: list[dict[str, Any]]) -> tuple[dict[str, list[str]], dict[s
     return related, part_of
 
 
+# Facets the site shows and filters by (kind has its own toggles; maturity is mostly "unknown" upstream).
+SITE_FACETS = ("task", "methodology", "phase", "role", "domain", "language", "framework", "platform")
+
+
+def taxonomy_data(tax: taxonomy.Taxonomy) -> dict[str, Any]:
+    """Labels and definitions for the site's filter rail and the taxonomy reference page."""
+    return {
+        "version": tax.version,
+        "facets": [
+            {
+                "id": d.id,
+                "label": d.label,
+                "question": d.question,
+                "terms": [
+                    {"id": t.id, "label": t.label, "definition": t.definition} for t in d.terms.values()
+                ],
+            }
+            for d in tax.dimensions.values()
+            if d.id in SITE_FACETS
+        ],
+    }
+
+
 def export(trove: Path, out: Path, sources: list[Source], candidates: list[Candidate]) -> int:
     items = catalog.load(trove)
     content = out / "content" / "items"
@@ -203,8 +226,12 @@ def export(trove: Path, out: Path, sources: list[Source], candidates: list[Candi
     data.mkdir(parents=True, exist_ok=True)
     slim = []
     related, part_of = relations(items)
+    tax = taxonomy.load()
+    records = facets.load(trove) or facets.build(items, tax, check_stale=False)["items"]
     for it in items:
         key = f"{it['kind']}:{it['id']}"
+        rec = records.get(key, {})
+        shown = {d: v for d, v in rec.get("facets", {}).items() if d in SITE_FACETS and v}
         fm = {
             "id": it["id"],
             "kind": it["kind"],
@@ -228,6 +255,9 @@ def export(trove: Path, out: Path, sources: list[Source], candidates: list[Candi
             "related": related.get(key, []),
             "part_of": part_of.get(key, []),
             "secret_flags": len(it.get("secret_flags", [])),
+            "facets": shown,
+            "facet_sources": {d: rec.get("provenance", {}).get(d, {}).get("source", "") for d in shown},
+            "review_status": rec.get("classification", {}).get("review_status", "unknown"),
         }
         page = (
             "---\n" + yaml.safe_dump(fm, sort_keys=False, allow_unicode=True) + "---\n\n" + _body(trove, it)
@@ -243,9 +273,12 @@ def export(trove: Path, out: Path, sources: list[Source], candidates: list[Candi
                 "d": it["description"][:240],
                 "tags": it["tags"],
                 "lic": it["license"]["spdx"],
+                "f": {d: ([v] if isinstance(v, str) else v) for d, v in shown.items() if d != "kind"},
+                "rv": 1 if rec.get("classification", {}).get("review_status") == "approved" else 0,
             }
         )
     (data / "search.json").write_text(json.dumps(slim, ensure_ascii=False), encoding="utf-8")
+    (data / "taxonomy.json").write_text(json.dumps(taxonomy_data(tax), ensure_ascii=False), encoding="utf-8")
     excluded_path = trove / "EXCLUDED.json"
     excluded = json.loads(excluded_path.read_text())["excluded"] if excluded_path.is_file() else []
     lock_path = trove / "trove.lock.json"

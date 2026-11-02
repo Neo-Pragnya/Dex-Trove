@@ -571,3 +571,112 @@ ul.plain {
 .hero h1 .h1-lead {
   display: inline-block;
 }
+
+/* ---------------------------------------------------------------- facet filters */
+.facet-active {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  font-size: 0.84rem;
+}
+.facet-active-label {
+  color: var(--muted);
+}
+.chip.removable {
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  background: var(--lilac-soft);
+  color: var(--lilac-ink);
+  border-color: transparent;
+}
+.link-button {
+  font: inherit;
+  font-size: 0.82rem;
+  background: none;
+  border: 0;
+  color: var(--link);
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+.facet-rail {
+  margin: 0 0 18px;
+}
+.facet-heading {
+  font-size: 1.05rem;
+  margin: 0 0 4px;
+}
+.facet-help {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0 0 10px;
+}
+.facet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px;
+}
+.facet {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  padding: 8px 12px;
+}
+.facet summary {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 8px;
+  align-items: baseline;
+}
+.facet summary:focus-visible,
+.facet-chip:focus-visible,
+.chip.removable:focus-visible,
+.link-button:focus-visible {
+  outline: 3px solid var(--lilac);
+  outline-offset: 2px;
+}
+.facet-label {
+  font-weight: 700;
+}
+.facet-sel {
+  color: var(--lilac-ink);
+  font-size: 0.8rem;
+  font-weight: 650;
+}
+.facet-q {
+  flex-basis: 100%;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+.facet-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+.facet-chip {
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--ink);
+}
+.facet-chip .n {
+  color: var(--muted);
+  font-size: 0.74rem;
+  margin-left: 2px;
+}
+.facet-chip[aria-pressed="true"] {
+  background: var(--lilac-soft);
+  border-color: var(--lilac);
+  color: var(--lilac-ink);
+}
+.facet-chip[aria-pressed="true"] .n {
+  color: var(--lilac-ink);
+}

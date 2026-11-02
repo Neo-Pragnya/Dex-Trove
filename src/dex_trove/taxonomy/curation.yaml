@@ -1,0 +1,192 @@
+# Curated facets: reviewed by a person, so they are `approved` and take precedence over rule matches for every
+# dimension they set (dimensions they leave out still come from upstream metadata or rules). Values must be
+# taxonomy ids or aliases. This file changes no upstream bytes: it is a sidecar, applied when facets.json is built.
+# Keys are item ids (`ns/name`; use `kind:ns/name` if two kinds share a name).
+reviewed_by: Dex Trove maintainers
+items:
+  # ── First-party (neo-pragnya) ──────────────────────────────────────────────────────────────────────────────
+  neo-pragnya/capability-acceptance:
+    task: [write-tests, plan-tests, verify]
+    methodology: [bdd, atdd, sdlc, adlc]
+    phase: [testing, verification, deployment]
+    role: [developer, qa-engineer, release-manager]
+    domain: [developer-tooling]
+    language: [python]
+    framework: [pytest, playwright, github-actions]
+    maturity: stable
+    evidence: "SKILL.md: Gherkin scenarios, capability catalog, PROMOTE/CONDITIONAL/BLOCK gate, CI wiring"
+  neo-pragnya/package-security-scan:
+    task: [security-review, verify, deploy]
+    methodology: [devops, sdlc, adlc]
+    phase: [verification, deployment]
+    role: [security-engineer, release-manager, devops-engineer]
+    domain: [security, developer-tooling]
+    language: [python]
+    framework: [github-actions]
+    maturity: stable
+    evidence: "SKILL.md: gitleaks, pip-audit, GuardDog and Bandit over the built wheel; dist-scan release job"
+  neo-pragnya/living-diagrams:
+    task: [visualize, write-docs, design-ui]
+    methodology: [sdlc]
+    phase: [design, implementation]
+    role: [architect, developer, technical-writer, designer]
+    domain: [documentation, frontend]
+    language: [javascript, python]
+    maturity: stable
+    evidence: "SKILL.md: plexus canvas, diagram hover effects, animated terminal walkthrough SVGs"
+  neo-pragnya/astro-docs-site:
+    task: [write-docs, design-ui, deploy]
+    methodology: [sdlc]
+    phase: [implementation, deployment]
+    role: [developer, technical-writer]
+    domain: [documentation, frontend]
+    language: [typescript, javascript]
+    framework: [astro, github-actions]
+    maturity: stable
+    evidence: "SKILL.md: Astro docs from docs/, GitHub Pages workflow, link checker"
+  neo-pragnya/interactive-web-motion:
+    task: [design-ui]
+    phase: [implementation]
+    role: [designer, developer]
+    domain: [frontend]
+    language: [javascript]
+    maturity: stable
+    evidence: "SKILL.md: motion-kit.js and motion-kit.css driven by data attributes"
+  neo-pragnya/marvellous-aws-architecture-docs:
+    task: [design-architecture, visualize, write-docs]
+    methodology: [sdlc]
+    phase: [design]
+    role: [architect, technical-writer]
+    domain: [infrastructure, documentation]
+    language: [python]
+    framework: [aws]
+    maturity: stable
+    evidence: "SKILL.md: AWS reference-style diagrams as code, animated SVG, draw.io export"
+  neo-pragnya/life-ikigai-architect:
+    task: [reflect, visualize]
+    phase: [discovery]
+    role: [learner]
+    domain: [documentation]
+    maturity: stable
+    evidence: "SKILL.md: personal Ikigai, vision and roadmap as an animated HTML deck"
+
+  # ── obra/superpowers: the method skills ──────────────────────────────────────────────────────────────────
+  superpowers/brainstorming:
+    task: [ideate, elicit-requirements, design-architecture]
+    methodology: [sdd, adlc]
+    phase: [discovery, requirements, design]
+    role: [developer, product-manager, architect]
+    evidence: "SKILL.md: use before any creative work; explore intent, requirements and design first"
+  superpowers/writing-plans:
+    task: [write-spec]
+    methodology: [sdd, adlc]
+    phase: [requirements, design]
+    role: [developer, architect]
+    evidence: "SKILL.md: write a detailed implementation plan before touching code"
+  superpowers/executing-plans:
+    task: [implement]
+    methodology: [sdd, adlc]
+    phase: [implementation]
+    role: [developer]
+    evidence: "SKILL.md: execute a written plan in batches with review checkpoints"
+  superpowers/test-driven-development:
+    task: [write-tests, implement]
+    methodology: [tdd, sdlc, adlc]
+    phase: [testing, implementation]
+    role: [developer, qa-engineer]
+    evidence: "SKILL.md: red, green, refactor; no production code without a failing test"
+  superpowers/systematic-debugging:
+    task: [debug]
+    methodology: [sdlc, adlc]
+    phase: [implementation, testing, operations]
+    role: [developer, devops-engineer]
+    evidence: "SKILL.md: find the root cause before proposing fixes"
+  superpowers/verification-before-completion:
+    task: [verify]
+    methodology: [adlc]
+    phase: [verification]
+    role: [developer, reviewer]
+    evidence: "SKILL.md: run verification commands and confirm output before claiming success"
+  superpowers/requesting-code-review:
+    task: [review-code]
+    methodology: [sdlc, adlc]
+    phase: [verification]
+    role: [developer]
+    evidence: "SKILL.md: request review when work is complete, before merging"
+  superpowers/receiving-code-review:
+    task: [review-code]
+    methodology: [sdlc, adlc]
+    phase: [verification]
+    role: [developer]
+    evidence: "SKILL.md: evaluate review feedback technically before implementing it"
+  superpowers/subagent-driven-development:
+    task: [implement, build-agents]
+    methodology: [adlc, sdd]
+    phase: [implementation]
+    role: [developer]
+    evidence: "SKILL.md: dispatch a fresh subagent per task with review between tasks"
+  superpowers/dispatching-parallel-agents:
+    task: [implement, build-agents]
+    methodology: [adlc]
+    phase: [implementation]
+    role: [developer]
+    evidence: "SKILL.md: run independent tasks in parallel agents"
+  superpowers/using-git-worktrees:
+    task: [use-git]
+    phase: [implementation]
+    role: [developer]
+    domain: [developer-tooling]
+    evidence: "SKILL.md: isolated git worktrees for feature work"
+  superpowers/finishing-a-development-branch:
+    task: [use-git, deploy, verify]
+    phase: [verification, deployment]
+    role: [developer, release-manager]
+    domain: [developer-tooling]
+    evidence: "SKILL.md: verify tests, then merge, open a PR or clean up"
+  superpowers/writing-skills:
+    task: [build-agents, write-docs]
+    methodology: [tdd, adlc]
+    phase: [implementation]
+    role: [developer]
+    domain: [ml-ai]
+    evidence: "SKILL.md: create and test skills, TDD applied to process documentation"
+
+  # ── anthropic/skills ─────────────────────────────────────────────────────────────────────────────────────
+  anthropic/mcp-builder:
+    task: [build-agents, design-api]
+    methodology: [adlc]
+    phase: [design, implementation]
+    role: [developer]
+    domain: [ml-ai, api]
+    language: [python, typescript]
+    framework: [mcp]
+    evidence: "SKILL.md: guide for building MCP servers in Python or TypeScript"
+  anthropic/skill-creator:
+    task: [build-agents]
+    methodology: [adlc]
+    phase: [implementation, verification]
+    role: [developer]
+    domain: [ml-ai]
+    evidence: "SKILL.md: create skills and measure them with evals"
+  anthropic/webapp-testing:
+    task: [write-tests, debug]
+    methodology: [sdlc]
+    phase: [testing]
+    role: [developer, qa-engineer]
+    domain: [frontend]
+    language: [python]
+    framework: [playwright]
+    evidence: "SKILL.md: test local web apps with Playwright"
+  anthropic/frontend-design:
+    task: [design-ui, implement]
+    phase: [design, implementation]
+    role: [designer, developer]
+    domain: [frontend]
+    evidence: "SKILL.md: distinctive, production-grade front-end interfaces"
+  anthropic/claude-api:
+    task: [build-ml, build-agents]
+    methodology: [adlc]
+    phase: [implementation]
+    role: [developer]
+    domain: [ml-ai, api]
+    evidence: "SKILL.md: building apps with the Claude API and SDKs"

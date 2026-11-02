@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
+from typing import Any
 
 import yaml
 
@@ -58,4 +59,22 @@ def validate(trove: Path, *, notices_text: str | None = None, notices_file: Path
         and (not notices_file.is_file() or notices_file.read_text(encoding="utf-8") != notices_text)
     ):
         problems.append("THIRD_PARTY_NOTICES.md is stale — run `dex notices`")
+    problems += _facet_problems(trove, listed)
     return problems
+
+
+def _facet_problems(trove: Path, items: list[dict[str, Any]]) -> list[str]:
+    """facets.json must exist, match a rebuild, and use only known taxonomy terms."""
+    from dex_trove import facets, taxonomy
+
+    path = trove / facets.FACETS_FILE
+    if not path.is_file():
+        return ["facets.json is missing — run `dex facets build`"]
+    try:
+        expected = facets.build(items, check_stale=False)
+    except taxonomy.TaxonomyError as exc:
+        return [f"taxonomy or curation invalid: {exc}"]
+    on_disk = json.loads(path.read_text(encoding="utf-8"))
+    if on_disk != expected:
+        return ["facets.json is stale — run `dex facets build`"]
+    return []

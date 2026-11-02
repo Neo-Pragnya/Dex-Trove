@@ -1,0 +1,353 @@
+# Dex Trove capability taxonomy. Typed facets with controlled values, not one tag bag (docs/guides/finding-capabilities.md).
+#
+# Each dimension answers one question. Each term has an id, a definition, `aliases` (other spellings that normalise
+# to it in queries and upstream tags) and optional `match` rules: case-insensitive regexes over an item's name,
+# title, description and tags. A rule hit is recorded with its evidence and stays `review-pending`; only curation
+# (curation.yaml) is `approved`. Bump `taxonomy_version` when a term is added, renamed or deprecated.
+taxonomy_version: "1.0.0"
+
+dimensions:
+  kind:
+    label: Kind
+    question: What is it?
+    cardinality: one
+    derived: catalog
+    terms:
+      - {id: skill, label: Skill, definition: "A reusable procedure or body of know-how an agent loads on demand for one kind of task."}
+      - {id: agent, label: Agent, definition: "A persona with its own objective and tool scope that a host can delegate work to."}
+      - {id: instruction, label: Instruction, definition: "Persistent guidance (style, rules, conventions) applied broadly, often scoped to file globs."}
+      - {id: prompt, label: Prompt, definition: "A reusable invocation: a slash command or prompt file run on request."}
+      - {id: workflow, label: Workflow, definition: "An ordered, multi-step process with gates, inputs and outputs."}
+      - {id: hook, label: Hook, definition: "A handler that runs on a host lifecycle event (before a tool call, at session end)."}
+      - {id: plugin, label: Plugin, definition: "A distributable bundle of other artifacts that installs as a set."}
+
+  task:
+    label: Task
+    question: What job does it do?
+    cardinality: many
+    terms:
+      - id: ideate
+        label: Ideate and explore
+        definition: "Generate, compare and shape ideas before committing to requirements."
+        aliases: [brainstorm, ideation]
+        match: ['\bbrainstorm', '\bideat', '\bexplor(e|ing) (ideas|options|approaches)']
+      - id: elicit-requirements
+        label: Elicit requirements
+        definition: "Interview stakeholders and capture needs, constraints and acceptance criteria."
+        aliases: [requirements, prd, user-stories]
+        match: ['\brequirements?\b', '\buser stor(y|ies)', '\bprd\b', '\bacceptance criteria', '\bproduct requirements?']
+      - id: write-spec
+        label: Write a specification
+        definition: "Produce a spec or plan that later steps implement and verify against."
+        aliases: [spec, specification, write-plan, planning]
+        match: ['\bspec(ification)?s?\b', '\bimplementation plans?', '\bwriting plans', '\bwrite (a )?plan', '\btechnical design']
+      - id: design-architecture
+        label: Design architecture
+        definition: "Decide structure, boundaries, components and their trade-offs."
+        aliases: [architecture, system-design, adr]
+        match: ['\barchitect(ure|ural|ing)?\b', '\bsystem design', '\badrs?\b', '\bdecision records?']
+      - id: design-api
+        label: Design an API
+        definition: "Define endpoints, schemas and contracts for an API."
+        aliases: [api-design, openapi]
+        match: ['\bapi design', '\bopenapi\b', '\bswagger\b', '\brest(ful)? api', '\bgraphql\b', '\bapi contract']
+      - id: implement
+        label: Implement a feature
+        definition: "Write production code for a feature or change."
+        aliases: [implementation, coding, code-generation]
+        match: ['\bimplement(s|ing|ation)?\b(?! plans?)', '\bcode generation', '\bgenerat(e|es|ing) code', '\bscaffold']
+      - id: refactor
+        label: Refactor or modernise
+        definition: "Restructure existing code without changing behaviour, or upgrade it to newer platforms."
+        aliases: [refactoring, modernize, modernise, migration, upgrade]
+        match: ['\brefactor', '\bmoderni[sz]', '\bmigrat(e|ion|ing)', '\bupgrad(e|ing)\b', '\blegacy\b']
+      - id: review-code
+        label: Review code
+        definition: "Assess a change for correctness, quality and risk, and give actionable feedback."
+        aliases: [code-review, pr-review, reviewing]
+        match: ['\bcode[- ]review', '\breview(s|ing)? (of )?(pull requests?|prs?|code|changes|diffs?)', '\breviewer\b', '\bpr comments?']
+      - id: write-tests
+        label: Write tests
+        definition: "Author unit, integration or end-to-end tests."
+        aliases: [testing, tests, unit-tests]
+        match: ['\btests?\b', '\btesting\b', '\bunit tests?', '\bintegration tests?', '\be2e\b', '\bend-to-end']
+      - id: plan-tests
+        label: Plan tests
+        definition: "Decide what to test, at which level, and how coverage relates to risk."
+        aliases: [test-plan, test-strategy]
+        match: ['\btest (plans?|strateg(y|ies)|cases?)', '\bcoverage\b']
+      - id: generate-api-tests
+        label: Generate API tests
+        definition: "Create tests that exercise an API's contract and failure modes."
+        aliases: [api-tests, api-testing, contract-tests]
+        match: ['\bapi test', '\bcontract test', '\bpostman\b']
+      - id: debug
+        label: Debug
+        definition: "Find and fix the root cause of a failure."
+        aliases: [debugging, troubleshoot, root-cause]
+        match: ['\bdebug', '\btroubleshoot', '\broot[- ]cause', '\bdiagnos(e|is|ing)', '\bbug (fix|hunt)']
+      - id: debug-ci
+        label: Debug CI and pipelines
+        definition: "Diagnose failing builds, pipelines and deployments."
+        aliases: [ci-triage, pipeline-failure-analysis, jenkins-triage]
+        match: ['\bci\b.*\b(fail|debug|fix)', '\bpipeline (fail|debug|error)', '\bgithub actions?\b', '\bjenkins\b', '\bbuild failures?']
+      - id: security-review
+        label: Review security
+        definition: "Find vulnerabilities, threats and unsafe patterns, and propose mitigations."
+        aliases: [security-audit, threat-model, appsec]
+        match: ['\bsecurity\b', '\bvulnerab', '\bthreat model', '\bowasp\b', '\bsecrets? scan', '\bpenetration']
+      - id: optimise-performance
+        label: Optimise performance
+        definition: "Measure and improve speed, memory or cost."
+        aliases: [performance, optimization, optimisation]
+        match: ['\bperformance\b', '\boptimi[sz](e|ation|ing)', '\bprofil(e|ing)\b', '\blatency\b']
+      - id: write-docs
+        label: Write documentation
+        definition: "Produce READMEs, guides, API references or other written documentation."
+        aliases: [documentation, docs, technical-writing]
+        match: ['\b(writ|generat|creat|updat|improv|maintain|author|produc)\w*\b(\W+(?!(?:on|from|official|based|using|with|query|find)\b)\w+){0,4}?\W+(documentation|docs|readmes?|guides?|tutorials?|javadoc|docstrings?|xml comments)\b', '\bdocumented with\b', '\bjavadoc\b', '\bmkdocs\b', '\bdi[aá]taxis\b', '\bdocumentation (writer|expert|generator|stack)', '\breadme\b', '\btechnical writ', '\bdocs? (site|sites|generator|as code)', '\bdocstrings?', '\bdocumentation (site|sites|generat|tooling)']
+      - id: visualize
+        label: Visualise systems
+        definition: "Draw diagrams, graphs or visual explanations of a system."
+        aliases: [diagram, diagrams, visualise, visualize-graph]
+        match: ['\bdiagram', '\bmermaid\b', '\bvisuali[sz]', '\bdraw\.io\b', '\bflowchart', '\bgraph(s|ical)? of']
+      - id: design-ui
+        label: Design user interfaces
+        definition: "Design layouts, visual style, interaction and front-end look and feel."
+        aliases: [ui-design, ux, frontend-design]
+        match: ['\bui\b', '\bux\b', '\buser interface', '\bfrontend design', '\bvisual design', '\bdesign system', '\banimation']
+      - id: audit-accessibility
+        label: Audit accessibility
+        definition: "Check and improve accessibility against WCAG and assistive technology."
+        aliases: [accessibility, a11y, wcag]
+        match: ['\baccessib', '\ba11y\b', '\bwcag\b', '\bscreen reader']
+      - id: deploy
+        label: Deploy and release
+        definition: "Ship software: build, package, release and deploy."
+        aliases: [release, deployment, publish, ci-cd]
+        match: ['\bdeploy', '\brelease\b', '\bpublish(ing)? (to|a) ', '\bci/cd\b', '\bcontinuous (delivery|deployment)']
+      - id: provision-infrastructure
+        label: Provision infrastructure
+        definition: "Define and manage cloud or on-prem infrastructure, usually as code."
+        aliases: [iac, infrastructure-as-code, cloud]
+        match: ['\binfrastructure\b', '\bterraform\b', '\bbicep\b', '\bcloudformation\b', '\biac\b', '\bkubernetes\b', '\bhelm\b']
+      - id: operate
+        label: Operate and observe
+        definition: "Monitor, trace and respond to incidents in running systems."
+        aliases: [observability, monitoring, incident-response]
+        match: ['\bobservab', '\bmonitor(ing)?\b', '\btrac(e|es|ing)\b', '\bincident', '\blogging\b', '\btelemetry']
+      - id: analyse-data
+        label: Analyse data
+        definition: "Explore, query and explain data sets."
+        aliases: [data-analysis, analytics, sql-queries]
+        match: ['\bdata analy', '\banalytics\b', '\bdataframes?', '\bnotebooks?\b', '\bqueries\b']
+      - id: build-ml
+        label: Build ML or LLM systems
+        definition: "Train, evaluate or integrate machine-learning models, LLMs and RAG."
+        aliases: [machine-learning, ml, llm, rag]
+        match: ['\bmachine learning', '\bml\b', '\bllms?\b', '\brag\b', '\bembedding', '\bmodel (training|evaluation)', '\bfine[- ]tun']
+      - id: build-agents
+        label: Build agents and tools for agents
+        definition: "Create agents, skills, MCP servers or other capabilities for AI agents."
+        aliases: [agent-development, mcp, skill-authoring]
+        match: ['\b(build|building|create|creating|develop|developing|write|writing|author|authoring) (an? |new |custom |your own )?(ai )?(agents?|skills?|subagents?|mcp servers?|copilot extensions?)\b', '\bagent development', '\bmcp server development', '\bserver-development\b', '\bsubagent-driven']
+      - id: manage-work
+        label: Manage work
+        definition: "Plan, track and coordinate work items, tickets and projects."
+        aliases: [project-management, tickets, planning-work]
+        match: ['\bproject management', '\bjira\b', '\btickets?\b', '\bbacklog\b', '\bsprint', '\bissues? (triage|tracking)']
+      - id: use-git
+        label: Work with Git
+        definition: "Branch, commit, merge and manage repositories and pull requests."
+        aliases: [git, version-control]
+        match: ['\bgit\b', '\bcommits?\b', '\bbranch(es|ing)?\b', '\bworktrees?', '\bpull requests?']
+      - id: verify
+        label: Verify before shipping
+        definition: "Prove that work is complete and correct with evidence before claiming success."
+        aliases: [verification, quality-gate]
+        match: ['\bverif(y|ication)\b', '\bquality gates?', '\brelease gates?', '\bacceptance tests?']
+      - id: reflect
+        label: Reflect and capture knowledge
+        definition: "Retrospectives, lessons learned, knowledge capture and coaching."
+        aliases: [retrospective, learning, mentoring, onboarding]
+        match: ['\bretrospective', '\blessons? learned', '\bonboard', '\bmentor', '\bteach', '\blearning (path|guide)']
+
+  methodology:
+    label: Methodology
+    question: Which way of working does it support?
+    cardinality: many
+    terms:
+      - id: sdlc
+        label: SDLC
+        definition: "Software Development Life Cycle: the human-driven requirements, design, build, test, release and operate loop."
+        aliases: [software-development-lifecycle]
+        match: ['\bsdlc\b', '\bsoftware development life ?cycle']
+      - id: adlc
+        label: ADLC
+        definition: "Agent Development Life Cycle (as in Ananke Plexus): software built by agents and humans together, driven by specs, policies, explicit context assembly, gates and execution evidence. Overlaps SDLC; not an alias of it."
+        aliases: [agent-development-lifecycle, agentic-development]
+        match: ['\badlc\b', '\bagent(ic)? development life ?cycle', '\bgoverned (agentic|autonomous)', '\bagentic (coding|engineering|workflows?)']
+      - id: sdd
+        label: Spec-driven development
+        definition: "Specifications are the source of truth; plans, code and tests trace back to them."
+        aliases: [spec-driven-development, spec-driven]
+        match: ['\bspec[- ]driven', '\bsdd\b', '\bspec kit\b', '\bspec-kit\b']
+      - id: tdd
+        label: Test-driven development
+        definition: "Write a failing test first, make it pass, then refactor."
+        aliases: [test-driven-development, red-green-refactor]
+        match: ['\btest[- ]driven', '\btdd\b', '\bred[- ]green']
+      - id: bdd
+        label: Behaviour-driven development
+        definition: "Behaviour described as Given/When/Then scenarios shared by business and engineering."
+        aliases: [behavior-driven-development, behaviour-driven-development, gherkin]
+        match: ['\bbehaviou?r[- ]driven', '\bbdd\b', '\bgherkin\b', '\bcucumber\b', '\bbehave\b']
+      - id: atdd
+        label: Acceptance-test-driven development
+        definition: "Acceptance tests agreed up front define done."
+        aliases: [acceptance-test-driven-development]
+        match: ['\batdd\b', '\bacceptance[- ]test[- ]driven']
+      - id: ddd
+        label: Domain-driven design
+        definition: "Model software around the business domain: bounded contexts, aggregates, ubiquitous language."
+        aliases: [domain-driven-design]
+        match: ['\bdomain[- ]driven', '\bddd\b', '\bbounded contexts?']
+      - id: devops
+        label: DevOps
+        definition: "Development and operations as one loop: automation, CI/CD, shared ownership."
+        aliases: [ci-cd]
+        match: ['\bdevops\b', '\bci/cd\b', '\bgitops\b']
+      - id: sre
+        label: SRE
+        definition: "Site reliability engineering: SLOs, error budgets, incident response, toil reduction."
+        aliases: [site-reliability-engineering]
+        match: ['\bsre\b', '\bsite reliability', '\bslos?\b', '\berror budget']
+      - id: mlops
+        label: MLOps / LLMOps
+        definition: "Operating machine-learning and LLM systems: tracking, evaluation, deployment, monitoring."
+        aliases: [llmops]
+        match: ['\bmlops\b', '\bllmops\b', '\bmodel (registry|monitoring|deployment)', '\bexperiment tracking']
+      - id: dataops
+        label: DataOps
+        definition: "Automated, tested, observable data pipelines."
+        aliases: []
+        match: ['\bdataops\b', '\bdata pipelines?', '\bdata quality']
+
+  phase:
+    label: Lifecycle phase
+    question: Where in the lifecycle is it useful?
+    cardinality: many
+    terms:
+      - {id: discovery, label: Discovery, definition: "Understanding the problem, users and options.", aliases: [ideation, research], match: ['\bbrainstorm', '\bdiscovery\b', '\bresearch\b', '\bexplor(e|ation)']}
+      - {id: requirements, label: Requirements, definition: "Capturing what must be built and how success is judged.", aliases: [specification], match: ['\brequirements?\b', '\buser stor', '\bprd\b', '\bspec(ification)?s?\b']}
+      - {id: design, label: Design, definition: "Architecture, API and UI design decisions.", aliases: [architecture], match: ['\barchitect', '\bdesign\b', '\bdiagram', '\bapi contract', '\bopenapi\b']}
+      - {id: implementation, label: Implementation, definition: "Writing and changing code.", aliases: [build, coding, development], match: ['\bimplement(?!ation plans?)', '\brefactor', '\bcode generation', '\bscaffold', '\bbest practices', '\bconventions?\b', '\bcoding standards?']}
+      - {id: testing, label: Testing, definition: "Authoring and running tests.", aliases: [qa, test], match: ['\btests?\b', '\btesting\b', '\bplaywright\b', '\bpytest\b', '\bjest\b']}
+      - {id: verification, label: Verification, definition: "Reviewing and proving correctness before release.", aliases: [review, quality], match: ['\breview', '\bverif', '\baudit', '\bquality gates?', '\bacceptance']}
+      - {id: deployment, label: Deployment, definition: "Releasing and shipping.", aliases: [release, delivery], match: ['\bdeploy', '\brelease\b', '\bci/cd\b', '\bpublish']}
+      - {id: operations, label: Operations, definition: "Running, monitoring and supporting software in production.", aliases: [ops, production], match: ['\bobservab', '\bmonitor', '\bincident', '\bproduction\b', '\bon-?call']}
+      - {id: retrospective, label: Retrospective, definition: "Looking back: lessons, knowledge capture, improvement.", aliases: [retro, reflection], match: ['\bretrospective', '\blessons? learned', '\bpost-?mortem']}
+
+  role:
+    label: Role
+    question: Who typically uses it?
+    cardinality: many
+    terms:
+      - {id: product-manager, label: Product manager, definition: "Owns the problem, requirements and priorities.", aliases: [pm, product-owner], match: ['\bproduct (manager|owner)', '\bprd\b', '\broadmap', '\bstakeholders?']}
+      - {id: architect, label: Architect, definition: "Owns structure, boundaries and technical direction.", aliases: [solution-architect, software-architect], match: ['\barchitect']}
+      - {id: developer, label: Developer, definition: "Writes and changes code.", aliases: [engineer, software-engineer, programmer], match: ['\bdevelopers?\b', '\bcod(e|ing)\b', '\bimplement', '\brefactor']}
+      - {id: qa-engineer, label: QA engineer, definition: "Plans and performs testing and quality assurance.", aliases: [test-engineer, quality-engineer, tester], match: ['\bqa\b', '\bquality assurance', '\btest(ing|er|s)?\b']}
+      - {id: security-engineer, label: Security engineer, definition: "Finds and fixes security risk.", aliases: [appsec, security], match: ['\bsecurity\b', '\bvulnerab', '\bthreat']}
+      - {id: devops-engineer, label: DevOps / SRE engineer, definition: "Runs pipelines, infrastructure and production systems.", aliases: [sre, platform-engineer, ops], match: ['\bdevops\b', '\bsre\b', '\binfrastructure\b', '\bpipelines?\b', '\bdeploy', '\bkubernetes\b', '\bterraform\b']}
+      - {id: data-scientist, label: Data scientist / ML engineer, definition: "Builds analyses, models and ML or LLM systems.", aliases: [ml-engineer, data-analyst], match: ['\bdata scien', '\bmachine learning', '\bml\b', '\bnotebooks?\b', '\bllms?\b']}
+      - {id: data-engineer, label: Data engineer, definition: "Builds data pipelines and stores.", aliases: [], match: ['\bdata engineer', '\betl\b', '\bdata pipelines?', '\bwarehouse']}
+      - {id: designer, label: Designer, definition: "Shapes user experience and visual design.", aliases: [ux-designer, ui-designer], match: ['\bdesigners?\b', '\bux\b', '\bui\b', '\bvisual design']}
+      - {id: technical-writer, label: Technical writer, definition: "Writes documentation and guides.", aliases: [writer, docs-author], match: ['\btechnical writ', '\b(writ|generat|creat|updat|improv|maintain|author|produc)\w*\b(\W+(?!(?:on|from|official|based|using|with|query|find)\b)\w+){0,4}?\W+(documentation|docs|readmes?|guides?|tutorials?|javadoc|docstrings?|xml comments)\b', '\bdocumented with\b', '\bjavadoc\b', '\bmkdocs\b', '\bdi[aá]taxis\b', '\bdocumentation (writer|expert|generator|stack)']}
+      - {id: reviewer, label: Reviewer, definition: "Reviews others' changes.", aliases: [code-reviewer], match: ['\breview(er|ing)?\b']}
+      - {id: release-manager, label: Release manager, definition: "Coordinates releases and their gates.", aliases: [], match: ['\brelease (manag|notes|gates?)', '\bchangelog']}
+      - {id: learner, label: Learner, definition: "Someone learning a technology or practice.", aliases: [student, educator, mentor], match: ['\blearn(ing|er)\b', '\btutor', '\bteach', '\bcourse\b', '\bmentor']}
+
+  domain:
+    label: Domain
+    question: Which area of a system does it concern?
+    cardinality: many
+    terms:
+      - {id: api, label: APIs, definition: "Web and service APIs and their contracts.", aliases: [rest, graphql], match: ['\bapis?\b', '\bendpoints?', '\bopenapi\b', '\bgraphql\b', '\brest(ful)?\b']}
+      - {id: frontend, label: Front end, definition: "Browser and UI code.", aliases: [web-ui, ui], match: ['\bfront[- ]?end', '\breact\b', '\bangular\b', '\bvue\b', '\bcss\b', '\bhtml\b', '\bbrowser\b', '\bweb ?apps?']}
+      - {id: backend, label: Back end, definition: "Server-side services and business logic.", aliases: [server], match: ['\bback[- ]?end', '\bserver[- ]side', '\bmicroservices?', '\bservices?\b']}
+      - {id: mobile, label: Mobile, definition: "iOS, Android and cross-platform apps.", aliases: [ios, android], match: ['\bmobile\b', '\bios\b', '\bandroid\b', '\bflutter\b', '\breact native', '\bmaui\b']}
+      - {id: infrastructure, label: Infrastructure and cloud, definition: "Cloud resources, networks, containers and IaC.", aliases: [cloud, iac], match: ['\bcloud\b', '\binfrastructure\b', '\bazure\b', '\baws\b', '\bgcp\b', '\bkubernetes\b', '\bdocker\b', '\bterraform\b', '\bbicep\b']}
+      - {id: data, label: Data, definition: "Databases, data pipelines and analytics.", aliases: [database, data-engineering], match: ['\bdatabases?\b', '\bsql\b', '\bpostgres', '\bdata (pipelines?|engineering|models?)', '\bdataverse\b', '\bwarehouse']}
+      - {id: ml-ai, label: ML and AI, definition: "Machine learning, LLMs, agents and AI systems.", aliases: [ai, ml, llm], match: ['\bllms?\b', '\bmachine learning', '\bai (models?|agents?|apps?|applications|services?|systems?|sdks?|foundry)', '\b(build|building|create|creating) (ai )?agents', '\bmcp (servers?|clients?)', '\bembeddings?\b', '\brag\b', '\bgenerative ai', '\bopenai\b', '\banthropic\b', '\bclaude api']}
+      - {id: security, label: Security, definition: "Application, supply-chain and infrastructure security.", aliases: [appsec], match: ['\bsecurity\b', '\bvulnerab', '\bsecrets?\b', '\bauth(entication|orization)?\b', '\bowasp\b']}
+      - {id: observability, label: Observability, definition: "Logs, metrics, traces and monitoring.", aliases: [monitoring], match: ['\bobservab', '\btelemetry', '\btracing\b', '\bmonitoring\b', '\bopentelemetry']}
+      - {id: documentation, label: Documentation, definition: "Docs sites, READMEs and written knowledge.", aliases: [docs], match: ['\b(writ|generat|creat|updat|improv|maintain|author|produc)\w*\b(\W+(?!(?:on|from|official|based|using|with|query|find)\b)\w+){0,4}?\W+(documentation|docs|readmes?|guides?|tutorials?|javadoc|docstrings?|xml comments)\b', '\bdocumented with\b', '\bjavadoc\b', '\bmkdocs\b', '\bdi[aá]taxis\b', '\bdocumentation (writer|expert|generator|stack)', '\breadme\b', '\bdocs? (site|sites|as code)', '\bdocumentation (site|sites|generat|tooling)', '\btechnical writ']}
+      - {id: developer-tooling, label: Developer tooling, definition: "Editors, CLIs, build tools, Git and the agent harness itself.", aliases: [devtools, tooling], match: ['\bcli\b', '\bvs ?code\b', '\bgit\b', '\bbuild tools?', '\bcopilot cli', '\bclaude code']}
+
+  language:
+    label: Language
+    question: Which programming language does it apply to?
+    cardinality: many
+    terms:
+      - {id: python, label: Python, definition: "Python.", aliases: [py], match: ['\bpython\b', '\bpytest\b', '\bdjango\b', '\bfastapi\b', '\bflask\b', '\bpandas\b'], globs: ['*.py', '*.ipynb']}
+      - {id: typescript, label: TypeScript, definition: "TypeScript.", aliases: [ts], match: ['\btypescript\b', '\bts\b'], globs: ['*.ts', '*.tsx']}
+      - {id: javascript, label: JavaScript, definition: "JavaScript and Node.js.", aliases: [js, nodejs, node], match: ['\bjavascript\b', '\bnode(\.?js)?\b', '\bnpm\b'], globs: ['*.js', '*.jsx', '*.mjs', '*.cjs']}
+      - {id: java, label: Java, definition: "Java.", aliases: [], match: ['\bjava\b', '\bspring\b', '\bmaven\b', '\bgradle\b'], globs: ['*.java']}
+      - {id: kotlin, label: Kotlin, definition: "Kotlin.", aliases: [], match: ['\bkotlin\b'], globs: ['*.kt', '*.kts']}
+      - {id: csharp, label: C#, definition: "C# and .NET.", aliases: [c-sharp, dotnet, cs], match: ['\bc#', '\bcsharp\b', '\.net\b', '\bdotnet\b', '\basp\.?net', '\bblazor\b'], globs: ['*.cs', '*.csproj', '*.razor']}
+      - {id: go, label: Go, definition: "Go.", aliases: [golang], match: ['\bgolang\b', '\bgo (code|modules?|lang)\b'], globs: ['*.go']}
+      - {id: rust, label: Rust, definition: "Rust.", aliases: [], match: ['\brust\b', '\bcargo\b'], globs: ['*.rs']}
+      - {id: cpp, label: C / C++, definition: "C and C++.", aliases: [c, c++], match: ['\bc\+\+', '\bcpp\b'], globs: ['*.c', '*.cpp', '*.h', '*.hpp']}
+      - {id: php, label: PHP, definition: "PHP.", aliases: [], match: ['\bphp\b', '\blaravel\b'], globs: ['*.php']}
+      - {id: ruby, label: Ruby, definition: "Ruby.", aliases: [], match: ['\bruby\b', '\brails\b'], globs: ['*.rb']}
+      - {id: swift, label: Swift, definition: "Swift.", aliases: [], match: ['\bswift(ui)?\b'], globs: ['*.swift']}
+      - {id: sql, label: SQL, definition: "SQL.", aliases: [], match: ['\bsql\b', '\bpostgres', '\bt-sql\b', '\bpl/sql'], globs: ['*.sql']}
+      - {id: shell, label: Shell, definition: "Bash, zsh and PowerShell scripts.", aliases: [bash, powershell, zsh], match: ['\bbash\b', '\bshell scripts?', '\bpowershell\b'], globs: ['*.sh', '*.ps1', '*.bash']}
+
+  framework:
+    label: Framework or tool
+    question: Which technology does it target?
+    cardinality: many
+    terms:
+      - {id: fastapi, label: FastAPI, definition: "FastAPI.", aliases: [], match: ['\bfastapi\b']}
+      - {id: django, label: Django, definition: "Django.", aliases: [], match: ['\bdjango\b']}
+      - {id: pytest, label: pytest, definition: "pytest.", aliases: [], match: ['\bpytest\b']}
+      - {id: playwright, label: Playwright, definition: "Playwright browser testing.", aliases: [playwright-python, playwright-js], match: ['\bplaywright\b']}
+      - {id: react, label: React, definition: "React.", aliases: [reactjs], match: ['\breact\b']}
+      - {id: angular, label: Angular, definition: "Angular.", aliases: [], match: ['\bangular\b']}
+      - {id: vue, label: Vue, definition: "Vue.", aliases: [vuejs], match: ['\bvue(\.?js)?\b']}
+      - {id: nextjs, label: Next.js, definition: "Next.js.", aliases: [next], match: ['\bnext\.?js\b']}
+      - {id: astro, label: Astro, definition: "Astro.", aliases: [], match: ['\bastro\b']}
+      - {id: spring, label: Spring, definition: "Spring and Spring Boot.", aliases: [spring-boot], match: ['\bspring( boot)?\b']}
+      - {id: dotnet, label: .NET, definition: ".NET and ASP.NET.", aliases: [aspnet], match: ['\.net\b', '\bdotnet\b', '\basp\.?net']}
+      - {id: terraform, label: Terraform, definition: "Terraform.", aliases: [], match: ['\bterraform\b']}
+      - {id: bicep, label: Bicep, definition: "Azure Bicep.", aliases: [], match: ['\bbicep\b']}
+      - {id: kubernetes, label: Kubernetes, definition: "Kubernetes and Helm.", aliases: [k8s, helm], match: ['\bkubernetes\b', '\bk8s\b', '\bhelm\b']}
+      - {id: docker, label: Docker, definition: "Docker and containers.", aliases: [containers], match: ['\bdocker', '\bcontainers?\b']}
+      - {id: github-actions, label: GitHub Actions, definition: "GitHub Actions workflows.", aliases: [], match: ['\bgithub actions?\b']}
+      - {id: azure, label: Azure, definition: "Microsoft Azure services.", aliases: [], match: ['\bazure\b']}
+      - {id: aws, label: AWS, definition: "Amazon Web Services.", aliases: [amazon-web-services], match: ['\baws\b', '\bamazon web services', '\bbedrock\b', '\blambda\b']}
+      - {id: mcp, label: MCP, definition: "Model Context Protocol servers and clients.", aliases: [model-context-protocol], match: ['\bmcp\b', '\bmodel context protocol']}
+      - {id: dbt, label: dbt, definition: "dbt.", aliases: [], match: ['\bdbt\b']}
+      - {id: pyspark, label: Spark, definition: "Apache Spark and PySpark.", aliases: [spark], match: ['\bpyspark\b', '\bspark\b', '\bdatabricks\b']}
+
+  platform:
+    label: Platform
+    question: Where can Dex install it natively?
+    cardinality: many
+    derived: install-layout
+    terms:
+      - {id: claude-code, label: Claude Code, definition: "Installs into .claude/ (skills, agents, commands)."}
+      - {id: github-copilot, label: GitHub Copilot, definition: "Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows)."}
+      - {id: ananke, label: Ananke Plexus, definition: "Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke)."}
+
+  maturity:
+    label: Maturity
+    question: How established is it?
+    cardinality: one
+    terms:
+      - {id: stable, label: Stable, definition: "Used and maintained; changes are versioned."}
+      - {id: beta, label: Beta, definition: "Usable; may still change."}
+      - {id: experimental, label: Experimental, definition: "Early; expect gaps."}
+      - {id: deprecated, label: Deprecated, definition: "Kept for existing users; prefer its replacement."}
+      - {id: unknown, label: Unknown, definition: "The source doesn't say. Most upstream items."}

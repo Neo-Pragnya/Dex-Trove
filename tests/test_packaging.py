@@ -25,3 +25,25 @@ def test_license_expression_covers_every_bundled_licence() -> None:
 def test_trove_ships_no_secret_shaped_items() -> None:
     items = json.loads((ROOT / "trove" / "catalog.json").read_text())["items"]
     assert not [i["id"] for i in items if i.get("secret_flags")]
+
+
+def test_curation_only_names_items_in_the_trove() -> None:
+    from dex_trove import catalog, facets
+
+    facets.build(catalog.load(ROOT / "trove"))  # raises on a curated id that no longer exists
+
+
+def test_facets_sidecar_is_current_and_covers_every_item() -> None:
+    from dex_trove import catalog, facets
+
+    items = catalog.load(ROOT / "trove")
+    on_disk = json.loads((ROOT / "trove" / "facets.json").read_text())
+    assert on_disk == facets.build(items, check_stale=False), "run `dex facets build`"
+    assert on_disk["count"] == len(items)
+
+
+def test_taxonomy_reference_page_is_current() -> None:
+    from dex_trove import facets
+
+    page = (ROOT / "docs" / "reference" / "taxonomy.md").read_text()
+    assert page == facets.taxonomy_markdown(records=facets.load(ROOT / "trove")), "run `dex facets doc`"

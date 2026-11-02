@@ -160,6 +160,30 @@ Legend: `[x]` done · `[~]` in progress / partial · `[ ]` todo
 - [ ] Heuristic hits remain on third-party scripts in the trove (base64 icons, detached spawn, env-var keys).
       They're inherent to a skill library. Option: split the content into its own distribution.
 
+## Phase 11 — Three-repo plan: discovery facets and Claude installs (2026-11-01)
+Backlog: `Ideation/Ananke-DexTrove-DevAcharya/Dev_Guru_Three_Repo_Implementation/Planning/unified-backlog.json`.
+- [x] Claude Code install check:
+  - live: a skill installed by `dex install` appeared in the running session;
+  - all 468 skills load as is;
+  - 158 agents' Copilot `tools` couldn't launch, so they're now adapted at install;
+  - overwrite guard plus manifest.
+- [x] ASM-D01 taxonomy 1.0.0 with validators (unknown dimension, duplicate id, alias collision, deprecated
+      migration, SDLC/ADLC distinct).
+- [x] ASM-D02 facets.json sidecar with provenance:
+  - curated, native, rules and derived values;
+  - deterministic and idempotent;
+  - upstream bytes untouched;
+  - checked by `dex validate`.
+- [x] ASM-D03 faceted CLI search: OR within, AND across, `--not`, `--strict`, cursor, disjunctive counts, no silent
+      relaxation, golden tests.
+- [x] ASM-D04 (first cut) catalog facet rail + item "Where it fits"; browser journey for CLI parity, keyboard and
+      URL state, 390 px.
+- [x] ASM-D05 education: which-artifact-when (ten pairs, decision tree, real examples) and finding-capabilities.
+- [x] ASM-D07 (start) reuse through sidecars: 25 existing skills curated without forking.
+- [ ] ASM-D04 taxonomy landing pages (`/discover/by-task/` …), "why excluded" popovers.
+- [ ] ASM-D06 typed related/complementary edges (SIMILAR_TO, PRECEDES, CONSUMES/PRODUCES…).
+- [ ] Curate more items; benchmark rule precision on a labelled sample.
+
 ## Follow-ups / backlog
 - [ ] Move first-party skills into git (this repo's `first-party/` or their own repo) so CI can re-learn them
 - [x] Light-mode visual pass on the docs site (verified by screenshot)

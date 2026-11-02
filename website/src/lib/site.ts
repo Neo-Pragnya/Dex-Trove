@@ -99,6 +99,7 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
       "concepts/why-dex-trove",
       "concepts/architecture",
       "concepts/artifact-kinds",
+      "concepts/which-artifact-when",
       "concepts/licence-policy",
       "concepts/provenance-and-versioning",
       "concepts/security-model",
@@ -110,6 +111,7 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
     tint: "lilac",
     items: [
       "guides/getting-started",
+      "guides/finding-capabilities",
       "guides/installing-items",
       "guides/ananke-integration",
       "guides/adding-a-source",
@@ -124,6 +126,7 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
     tint: "lemon",
     items: [
       "reference/cli",
+      "reference/taxonomy",
       "reference/sources-yaml",
       "reference/item-format",
       "reference/trove-files",

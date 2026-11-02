@@ -60,8 +60,8 @@ optionally, a tool allow-list, a preferred model and MCP servers. Upstream front
 
 The item page shows all of these under **Upstream metadata**.
 
-- **Claude Code**: `agents/<name>.md` (a subagent). Tool names from Copilot agents may not match Claude Code's
-  tool names. Review the frontmatter after installing.
+- **Claude Code**: `agents/<name>.md` (a subagent). `dex install` translates Copilot `tools` and `model` values into
+  ones Claude Code can launch; see [Agents in Claude Code](../guides/installing-items.md#agents-in-claude-code).
 - **Copilot**: `.github/agents/<name>.agent.md`.
 - **Ananke**: kind `agent`; the manifest's `instructions.ref` points at the entry file.
 

@@ -3,6 +3,7 @@ import { getCollection, render } from "astro:content";
 import Glyph from "../../components/Glyph.astro";
 import Layout from "../../components/Layout.astro";
 import Mermaid from "../../components/Mermaid.astro";
+import taxonomy from "../../data/taxonomy.json";
 import { hasMermaid } from "../../lib/remark-mermaid";
 import {
   KIND_GLYPH,
@@ -28,6 +29,19 @@ const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 const it = entry.data;
 const base = import.meta.env.BASE_URL;
+const facetLabel = new Map(taxonomy.facets.map((f) => [f.id, f]));
+const facetRows = Object.entries(it.facets)
+  .filter(([d]) => facetLabel.has(d))
+  .map(([d, v]) => {
+    const f = facetLabel.get(d)!;
+    const values = (Array.isArray(v) ? v : [v]).map((id) => ({
+      id,
+      label: f.terms.find((t) => t.id === id)?.label ?? id,
+      def: f.terms.find((t) => t.id === id)?.definition ?? "",
+    }));
+    return { id: d, label: f.label, source: it.facet_sources[d] ?? "", values };
+  });
+const curated = it.review_status === "approved";
 const kind = KINDS[it.kind];
 const ref = `${it.kind}:${it.id}`;
 const targets = TARGETS[it.kind];
@@ -103,6 +117,33 @@ const usage: Record<Kind, string> = {
           <dd>{usage[it.kind]}</dd>
         </dl>
       </section>
+
+      {
+        facetRows.length > 0 && (
+          <section class="overview card where-it-fits">
+            <h2>Where it fits</h2>
+            <dl class="facts">
+              {facetRows.map((r) => (
+                <>
+                  <dt>{r.label}</dt>
+                  <dd class="chips">
+                    {r.values.map((v) => (
+                      <a class="chip" href={`${base}catalog/?${r.id}=${v.id}`} title={v.def}>{v.label}</a>
+                    ))}
+                  </dd>
+                </>
+              ))}
+            </dl>
+            <p class="hint">
+              {curated
+                ? "Facets reviewed by the Dex Trove maintainers."
+                : "Facets suggested from the item's own text and tags, not yet reviewed."}{" "}
+              Facets say where an item is relevant, not that it will run in your setup.{" "}
+              <a href={`${base}docs/guides/finding-capabilities/`}>How facets work</a>
+            </p>
+          </section>
+        )
+      }
 
       {
         it.notes.length > 0 && (

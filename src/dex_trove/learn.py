@@ -565,12 +565,13 @@ def write_json(path: Path, data: Any) -> None:
 
 
 def finalize(trove: Path, results: list[SourceResult], sources: list[Source]) -> dict[str, Any]:
-    from dex_trove import __version__
+    from dex_trove import __version__, facets
 
     items = rebuild_catalog(trove)
     write_json(
         trove / "catalog.json", {"generator": f"dex-trove {__version__}", "count": len(items), "items": items}
     )
+    facets.write(trove, items)  # derived sidecar: never touches upstream bytes
 
     excluded_path = trove / "EXCLUDED.json"
     prev = json.loads(excluded_path.read_text()).get("excluded", []) if excluded_path.is_file() else []

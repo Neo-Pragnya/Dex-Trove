@@ -2,6 +2,7 @@
 import Glyph from "../components/Glyph.astro";
 import Layout from "../components/Layout.astro";
 import search from "../data/search.json";
+import taxonomy from "../data/taxonomy.json";
 import trove from "../data/trove.json";
 import { KINDS, KIND_GLYPH, KIND_ORDER, itemHref, type Kind } from "../lib/site";
 
@@ -10,6 +11,15 @@ const items = [...search].sort((a, b) => a.title.localeCompare(b.title));
 const counts = trove.counts as Record<string, number>;
 const namespaces = [...new Set(items.map((i) => i.ns))].sort();
 const licences = [...new Set(items.map((i) => i.lic ?? "unknown"))].sort();
+// Facet tokens ("task:review-code") per item; only values some item carries get a chip.
+const facetTokens = (it: (typeof items)[number]) =>
+  Object.entries((it as { f?: Record<string, string[]> }).f ?? {})
+    .flatMap(([d, vs]) => vs.map((v) => `${d}:${v}`))
+    .join(" ");
+const present = new Set(items.flatMap((it) => facetTokens(it).split(" ").filter(Boolean)));
+const facetGroups = taxonomy.facets
+  .map((f) => ({ ...f, terms: f.terms.filter((t) => present.has(`${f.id}:${t.id}`)) }))
+  .filter((f) => f.terms.length);
 ---
 
 <Layout title="Catalog" description="Search every skill, agent, instruction, hook, workflow and plugin in Dex Trove.">
@@ -49,7 +59,41 @@ const licences = [...new Set(items.map((i) => i.lic ?? "unknown"))].sort();
       </label>
       <span class="count" id="count" aria-live="polite">{items.length} items</span>
     </div>
+    <div class="facet-active" id="active" hidden>
+      <span class="facet-active-label">Filtering by</span>
+      <span class="chips" id="active-chips"></span>
+      <button type="button" class="link-button" id="reset">Clear all</button>
+    </div>
   </div>
+
+  <section class="facet-rail" aria-labelledby="facet-heading">
+    <h2 id="facet-heading" class="facet-heading">Narrow by what you're doing</h2>
+    <p class="facet-help">
+      Pick <strong>any</strong> values within a facet and <strong>all</strong> chosen facets must match. The number
+      on each choice is how many items you'd see with it. Items without a facet never match it.{" "}
+      <a href={`${base}docs/guides/finding-capabilities/`}>How filtering works</a>
+    </p>
+    <div class="facet-grid">
+      {
+        facetGroups.map((f) => (
+          <details class="facet" data-facet={f.id}>
+            <summary>
+              <span class="facet-label">{f.label}</span>
+              <span class="facet-sel" data-sel={f.id}></span>
+              <span class="facet-q">{f.question}</span>
+            </summary>
+            <div class="facet-values" role="group" aria-label={`${f.label}: ${f.question}`}>
+              {f.terms.map((t) => (
+                <button type="button" class="facet-chip" data-facet={f.id} data-value={t.id} data-label={t.label} aria-pressed="false" title={t.definition}>
+                  {t.label} <span class="n" aria-hidden="true"></span>
+                </button>
+              ))}
+            </div>
+          </details>
+        ))
+      }
+    </div>
+  </section>
 
   <ul class="results" id="results">
     {
@@ -62,6 +106,7 @@ const licences = [...new Set(items.map((i) => i.lic ?? "unknown"))].sort();
           data-name={it.name}
           data-title={it.title.toLowerCase()}
           data-text={`${it.d} ${it.tags.join(" ")}`.toLowerCase()}
+          data-facets={facetTokens(it)}
         >
           <a class="card" href={itemHref(base, it.kind, it.ns, it.name)}>
             <span class="card-head">
@@ -90,6 +135,11 @@ const licences = [...new Set(items.map((i) => i.lic ?? "unknown"))].sort();
     const list = document.querySelector<HTMLElement>("#results")!;
     const toggles = Array.from(document.querySelectorAll<HTMLButtonElement>("button[data-kind]"));
     const cards = Array.from(list.querySelectorAll<HTMLElement>("li.result"));
+    const chips = Array.from(document.querySelectorAll<HTMLButtonElement>("button.facet-chip"));
+    const facetIds = [...new Set(chips.map((c) => c.dataset.facet!))];
+    const tokens = new Map(cards.map((el) => [el, new Set((el.dataset.facets ?? "").split(" ").filter(Boolean))]));
+    const active = document.querySelector<HTMLElement>("#active")!;
+    const activeChips = document.querySelector<HTMLElement>("#active-chips")!;
 
     const params = new URLSearchParams(location.search);
     q.value = params.get("q") ?? "";
@@ -97,6 +147,23 @@ const licences = [...new Set(items.map((i) => i.lic ?? "unknown"))].sort();
     lic.value = params.get("license") ?? "";
     const initialKinds = (params.get("kind") ?? "").split(",").filter(Boolean);
     toggles.forEach((t) => t.setAttribute("aria-pressed", String(initialKinds.includes(t.dataset.kind!))));
+    const selected = new Map<string, Set<string>>(
+      facetIds.map((f) => [f, new Set((params.get(f) ?? "").split(",").filter(Boolean))]),
+    );
+    chips.forEach((c) => c.setAttribute("aria-pressed", String(selected.get(c.dataset.facet!)!.has(c.dataset.value!))));
+    document.querySelectorAll<HTMLDetailsElement>("details.facet").forEach((d) => {
+      if (selected.get(d.dataset.facet!)?.size) d.open = true;
+    });
+
+    // OR within a facet, AND across facets; an item without the facet never matches it.
+    function facetsPass(el: HTMLElement, skip?: string): boolean {
+      const have = tokens.get(el)!;
+      for (const [f, values] of selected) {
+        if (f === skip || !values.size) continue;
+        if (![...values].some((v) => have.has(`${f}:${v}`))) return false;
+      }
+      return true;
+    }
 
     function score(el: HTMLElement, words: string[]): number {
       let total = 0;
@@ -115,15 +182,53 @@ const licences = [...new Set(items.map((i) => i.lic ?? "unknown"))].sort();
       const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
       const kinds = toggles.filter((t) => t.getAttribute("aria-pressed") === "true").map((t) => t.dataset.kind);
       const ranked: [number, HTMLElement][] = [];
+      const base: HTMLElement[] = []; // passes text, kind, source and licence; facet filters come next
       for (const el of cards) {
         const ok =
           (!kinds.length || kinds.includes(el.dataset.kind)) &&
           (!ns.value || el.dataset.ns === ns.value) &&
           (!lic.value || el.dataset.lic === lic.value);
-        const s = ok ? (words.length ? score(el, words) : 1) : 0;
+        const s0 = ok ? (words.length ? score(el, words) : 1) : 0;
+        if (s0) base.push(el);
+        const s = s0 && facetsPass(el) ? s0 : 0;
         el.hidden = s === 0;
         if (s) ranked.push([s, el]);
       }
+      // Disjunctive counts: a facet's numbers ignore its own selection, so they say what choosing a value gives.
+      for (const f of facetIds) {
+        const n = new Map<string, number>();
+        for (const el of base) {
+          if (!facetsPass(el, f)) continue;
+          for (const tok of tokens.get(el)!) if (tok.startsWith(`${f}:`)) n.set(tok, (n.get(tok) ?? 0) + 1);
+        }
+        for (const c of chips.filter((c) => c.dataset.facet === f)) {
+          const count = n.get(`${f}:${c.dataset.value}`) ?? 0;
+          const pressed = c.getAttribute("aria-pressed") === "true";
+          c.querySelector(".n")!.textContent = String(count);
+          c.hidden = count === 0 && !pressed;
+          c.setAttribute("aria-label", `${c.dataset.label}, ${count} item${count === 1 ? "" : "s"}`);
+        }
+        const sel = document.querySelector<HTMLElement>(`[data-sel="${f}"]`);
+        if (sel) sel.textContent = selected.get(f)!.size ? `· ${selected.get(f)!.size} chosen` : "";
+      }
+      activeChips.replaceChildren(
+        ...[...selected].flatMap(([f, values]) =>
+          [...values].map((v) => {
+            const b = document.createElement("button");
+            b.type = "button";
+            b.className = "chip removable";
+            b.textContent = `${f}: ${v} ×`;
+            b.setAttribute("aria-label", `Remove ${f} ${v}`);
+            b.addEventListener("click", () => {
+              values.delete(v);
+              chips.find((c) => c.dataset.facet === f && c.dataset.value === v)?.setAttribute("aria-pressed", "false");
+              apply();
+            });
+            return b;
+          }),
+        ),
+      );
+      active.hidden = activeChips.childElementCount === 0;
       if (words.length) ranked.sort((a, b) => b[0] - a[0]).forEach(([, el]) => list.append(el));
       count.textContent = `${ranked.length} of ${cards.length} items`;
       empty.hidden = ranked.length > 0;
@@ -132,6 +237,7 @@ const licences = [...new Set(items.map((i) => i.lic ?? "unknown"))].sort();
       if (kinds.length) next.set("kind", kinds.join(","));
       if (ns.value) next.set("source", ns.value);
       if (lic.value) next.set("license", lic.value);
+      for (const [f, values] of selected) if (values.size) next.set(f, [...values].join(","));
       history.replaceState(null, "", next.size ? `?${next}` : location.pathname);
     }
 
@@ -141,6 +247,21 @@ const licences = [...new Set(items.map((i) => i.lic ?? "unknown"))].sort();
         apply();
       }),
     );
+    chips.forEach((c) =>
+      c.addEventListener("click", () => {
+        const values = selected.get(c.dataset.facet!)!;
+        const on = c.getAttribute("aria-pressed") !== "true";
+        c.setAttribute("aria-pressed", String(on));
+        if (on) values.add(c.dataset.value!);
+        else values.delete(c.dataset.value!);
+        apply();
+      }),
+    );
+    document.querySelector("#reset")!.addEventListener("click", () => {
+      selected.forEach((v) => v.clear());
+      chips.forEach((c) => c.setAttribute("aria-pressed", "false"));
+      apply();
+    });
     q.addEventListener("input", apply);
     ns.addEventListener("change", apply);
     lic.addEventListener("change", apply);

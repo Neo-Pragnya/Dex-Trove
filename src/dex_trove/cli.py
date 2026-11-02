@@ -169,24 +169,110 @@ def list_cmd(kind: KindOpt = None, source: SourceOpt = None, as_json: JsonOpt = 
     console.print(f"{len(items)} items")
 
 
+FacetOpt = Annotated[list[str] | None, typer.Option(show_default=False)]
+
+
 @app.command()
 def search(
-    query: Annotated[list[str], typer.Argument()],
+    query: Annotated[
+        list[str] | None, typer.Argument(help="Words to match (optional with facet filters)")
+    ] = None,
     kind: KindOpt = None,
     source: SourceOpt = None,
+    task: Annotated[list[str] | None, typer.Option("--task", "-t", help="What job it does")] = None,
+    methodology: Annotated[
+        list[str] | None, typer.Option("--methodology", "-m", help="sdlc, adlc, tdd…")
+    ] = None,
+    phase: Annotated[list[str] | None, typer.Option("--phase", "-p", help="Lifecycle phase")] = None,
+    role: Annotated[list[str] | None, typer.Option("--role", "-r", help="Who uses it")] = None,
+    domain: FacetOpt = None,
+    language: FacetOpt = None,
+    framework: FacetOpt = None,
+    platform: FacetOpt = None,
+    maturity: FacetOpt = None,
+    exclude: Annotated[
+        list[str] | None, typer.Option("--not", help="Exclude facet=value (repeatable)")
+    ] = None,
+    strict: Annotated[
+        bool, typer.Option("--strict", help="Require every listed value within a facet")
+    ] = False,
+    explain: Annotated[bool, typer.Option("--explain", help="Show why each result matched")] = False,
+    cursor: Annotated[str | None, typer.Option("--cursor", help="Continue from a previous page")] = None,
     limit: Annotated[int, typer.Option("--limit", "-n")] = 25,
     as_json: JsonOpt = False,
 ) -> None:
-    """Search names, titles, tags and descriptions."""
-    hits = catalog.search(catalog.filter_items(catalog.load(), kind=kind, source=source), " ".join(query))[
-        :limit
-    ]
-    if as_json:
-        console.print_json(
-            json.dumps([{k: i[k] for k in ("kind", "id", "title", "description")} for i in hits])
-        )
+    """Search names, titles, tags and descriptions, and filter by typed facets.
+
+    OR within a facet, AND across facets: `--language python --language go --role qa-engineer`.
+    See `dex facets list` for every facet and value.
+    """
+    text = " ".join(query or [])
+    chosen = {
+        "task": task,
+        "methodology": methodology,
+        "phase": phase,
+        "role": role,
+        "domain": domain,
+        "language": language,
+        "framework": framework,
+        "platform": platform,
+        "maturity": maturity,
+    }
+    faceted = any(chosen.values()) or exclude or strict or explain or cursor
+    if not faceted:
+        if not text:
+            err.print(
+                "give search words, a facet filter (e.g. --methodology adlc), or both — see `dex facets list`"
+            )
+            raise typer.Exit(2)
+        hits = catalog.search(catalog.filter_items(catalog.load(), kind=kind, source=source), text)[:limit]
+        if as_json:
+            console.print_json(
+                json.dumps([{k: i[k] for k in ("kind", "id", "title", "description")} for i in hits])
+            )
+            return
+        console.print(_table(hits))
         return
-    console.print(_table(hits))
+
+    from dex_trove import query as q
+    from dex_trove import taxonomy
+
+    filters = {d: list(v) for d, v in chosen.items() if v}
+    if kind:
+        filters["kind"] = [kind]
+    try:
+        fq = q.FacetQuery(
+            text=text,
+            all=filters,
+            exclude=q.parse_exclusions(exclude or []),
+            strict=strict,
+            limit=limit,
+            cursor=cursor,
+        )
+        items = catalog.filter_items(catalog.load(), source=source)
+        result = q.run(fq, taxonomy.load(), items=items)
+    except q.QueryError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    if as_json:
+        console.print_json(json.dumps(q.to_json(result, explain=explain), ensure_ascii=False))
+        return
+    if not result.hits:
+        console.print("[yellow]No items match every filter.[/yellow]")
+        for dim, n in result.relaxations.items():
+            console.print(f"  without the {dim} filter: {n} item(s)")
+        return
+    table = Table(box=None, show_header=True, header_style="bold")
+    table.add_column("score", justify="right")
+    table.add_column("kind")
+    table.add_column("id")
+    table.add_column("why" if explain else "title")
+    for h in result.hits:
+        why = "; ".join(f"{d}={','.join(v)}" for d, v in h.matched.items()) + f" [{h.review_status}]"
+        table.add_row(f"{h.score:.2f}", h.item["kind"], h.item["id"], why if explain else h.item["title"])
+    console.print(table)
+    tail = f" — next page: --cursor {result.next_cursor}" if result.next_cursor else ""
+    console.print(f"{result.total} match(es){tail}")
 
 
 @app.command()
@@ -220,19 +306,28 @@ def install(
     scope: Annotated[str, typer.Option(help="user (~/.claude) or project (./.claude) for claude")] = "user",
     path: Annotated[Path | None, typer.Option(help="Base directory (required for --target dir)")] = None,
     allow_exec: Annotated[bool, typer.Option("--allow-exec", help="Allow hooks that run code")] = False,
+    force: Annotated[
+        bool, typer.Option("--force", help="Replace files Dex didn't install (or that you edited since)")
+    ] = False,
 ) -> None:
-    """Install items into Claude Code, GitHub Copilot or a directory."""
+    """Install items into Claude Code, GitHub Copilot or a directory.
+
+    Agents installed for Claude Code get Claude tool names and model values (Copilot ids can't launch there).
+    Existing files are replaced only when Dex wrote them and they're unedited, unless you pass --force.
+    """
     from dex_trove.install import InstallError
     from dex_trove.install import install as run
 
     try:
-        done = run(refs, target=target, scope=scope, path=path, allow_exec=allow_exec)
+        done = run(refs, target=target, scope=scope, path=path, allow_exec=allow_exec, force=force)
     except (InstallError, catalog.RefError) as exc:
         err.print(f"[red]{exc}[/red]")
         raise typer.Exit(2) from exc
     for d in done:
         if d.dest:
             console.print(f"[green]✓[/green] {d.kind}:{d.id} → {d.dest}")
+            for note in d.notes:
+                console.print(f"    [dim]adapted: {note}[/dim]")
         else:
             console.print(f"[yellow]–[/yellow] {d.kind}:{d.id}: {d.skipped}")
     if not any(d.dest for d in done):
@@ -329,3 +424,121 @@ def docs_export_cmd(
     srcs, cands = sources_mod.load(root / "sources.yaml")
     n = export(root / "trove", out, srcs, cands)
     console.print(f"exported {n} item pages → {out}")
+
+
+facets_app = typer.Typer(
+    help="Typed facets: the taxonomy, value counts and the facets.json sidecar.", no_args_is_help=True
+)
+app.add_typer(facets_app, name="facets")
+
+
+@facets_app.command("list")
+def facets_list(
+    dimension: Annotated[str | None, typer.Argument(help="One facet, e.g. methodology")] = None,
+    as_json: JsonOpt = False,
+) -> None:
+    """Every facet and value, with definitions and how many items carry it."""
+    from dex_trove import facets as fx
+    from dex_trove import taxonomy
+
+    tax = taxonomy.load()
+    if dimension and dimension not in tax.dimensions:
+        err.print(f"[red]unknown facet {dimension!r}; facets: {', '.join(tax.dimensions)}[/red]")
+        raise typer.Exit(2)
+    records = fx.load() or fx.build(catalog.load(), tax)["items"]
+    counts: dict[str, dict[str, int]] = {}
+    for rec in records.values():
+        for dim, value in rec["facets"].items():
+            for v in [value] if isinstance(value, str) else value:
+                counts.setdefault(dim, {}).setdefault(v, 0)
+                counts[dim][v] += 1
+    dims = [tax.dimensions[dimension]] if dimension else list(tax.dimensions.values())
+    if as_json:
+        out = {
+            "taxonomy_version": tax.version,
+            "facets": {
+                d.id: {
+                    "label": d.label,
+                    "question": d.question,
+                    "cardinality": d.cardinality,
+                    "terms": {
+                        t.id: {
+                            "label": t.label,
+                            "definition": t.definition,
+                            "aliases": list(t.aliases),
+                            "items": counts.get(d.id, {}).get(t.id, 0),
+                        }
+                        for t in d.terms.values()
+                    },
+                }
+                for d in dims
+            },
+        }
+        console.print_json(json.dumps(out, ensure_ascii=False))
+        return
+    for d in dims:
+        console.print(f"\n[bold]{d.id}[/bold] — {d.question}  [dim]({d.cardinality})[/dim]")
+        t = Table("value", "items", "definition", box=None, show_header=False)
+        for term in d.terms.values():
+            alias = f" [dim](also: {', '.join(term.aliases)})[/dim]" if term.aliases else ""
+            t.add_row(term.id, str(counts.get(d.id, {}).get(term.id, 0)), term.definition + alias)
+        console.print(t)
+    console.print(f"\n[dim]taxonomy {tax.version} · filter with `dex search --<facet> <value>`[/dim]")
+
+
+@facets_app.command("show")
+def facets_show(ref: str, as_json: JsonOpt = False) -> None:
+    """One item's facets, where each value came from, and its review status."""
+    from dex_trove import facets as fx
+    from dex_trove import taxonomy
+
+    try:
+        it = catalog.resolve(catalog.load(), ref)
+    except catalog.RefError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    rec = fx.load().get(fx.item_key(it)) or fx.classify(it, taxonomy.load(), taxonomy.load_curation())
+    if as_json:
+        console.print_json(json.dumps(rec, ensure_ascii=False))
+        return
+    cls = rec["classification"]
+    console.print(f"[bold]{it['kind']}:{it['id']}[/bold]  {cls['review_status']} ({cls['source']})")
+    for dim, value in rec["facets"].items():
+        prov = rec["provenance"].get(dim, {})
+        seen: list[str] = []  # curated evidence is one line for all values: print it once
+        for v, e in prov.get("evidence", {}).items():
+            line = e[0] if e and e[0].startswith("curated:") else f"{v}: {e[0] if e else ''}"
+            if line not in seen:
+                seen.append(line)
+        ev = "; ".join(seen[:3])
+        shown = value if isinstance(value, str) else ", ".join(value)
+        console.print(f"  {dim:<12} {shown}  [dim]← {prov.get('source', '?')}: {ev}[/dim]")
+    if rec.get("unmapped"):
+        console.print(f"  [dim]unmapped upstream tags: {', '.join(rec['unmapped']['tags'])}[/dim]")
+
+
+@facets_app.command("build")
+def facets_build() -> None:
+    """Rebuild trove/facets.json from catalog.json, the taxonomy and curation (no network; needs a checkout)."""
+    from dex_trove import facets as fx
+    from dex_trove.taxonomy import TaxonomyError
+
+    trove = _need_repo() / "trove"  # the trove inside an installed wheel is release data, never rewritten
+    try:
+        data = fx.write(trove, catalog.load(trove))
+    except TaxonomyError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(1) from exc
+    approved = sum(1 for r in data["items"].values() if r["classification"]["review_status"] == "approved")
+    console.print(f"facets: {data['count']} items ({approved} curated) → {trove / fx.FACETS_FILE}")
+
+
+@facets_app.command("doc")
+def facets_doc() -> None:
+    """Regenerate docs/reference/taxonomy.md from the taxonomy and the current trove."""
+    from dex_trove import facets as fx
+
+    root = _need_repo()
+    target = root / "docs" / "reference" / "taxonomy.md"
+    target.write_text(fx.taxonomy_markdown(records=fx.load(root / "trove")), encoding="utf-8")
+    console.print(f"wrote {target}")

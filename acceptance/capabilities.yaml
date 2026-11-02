@@ -8,6 +8,7 @@ surface_target: 0.8
 capabilities:
   - { id: packaging, title: "Installs cleanly: version, the whole trove inside the wheel, valid manifests", dimension: release, blocker: true }
   - { id: catalog, title: "Browse: list, search and show with kind and source filters", dimension: core, blocker: true }
+  - { id: facets, title: "Faceted discovery: task/methodology/phase/role facets, OR within + AND across, explained, CLI = site", dimension: core, blocker: true }
   - { id: install, title: "Install into Claude Code, Copilot or a folder; plugins expand to members", dimension: core, blocker: true }
   - { id: install-safety, title: "Install safety: code-running hooks need --allow-exec; nothing written outside the target", dimension: safety, blocker: true }
   - { id: licence, title: "Licence classification from licence text (allow, deny, bundled)", dimension: governance, blocker: true }
@@ -32,3 +33,7 @@ surface:
   - dex catalog
   - dex ananke sync
   - dex docs export
+  - dex facets list
+  - dex facets show
+  - dex facets build
+  - dex facets doc

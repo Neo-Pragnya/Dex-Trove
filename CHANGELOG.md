@@ -13,6 +13,52 @@ per-item history is the git history of `trove/` and each item's `version` in `de
 
 ---
 
+## [0.2.0] — 2026-11-01
+
+### Added
+
+- **Typed facets for every item.** The trove now records task, methodology (SDLC, ADLC, SDD, TDD, BDD…), lifecycle
+  phase, role, domain, language, framework, platform and maturity, instead of relying on one loose tag list.
+  - The vocabulary is versioned data (`src/dex_trove/taxonomy/ontology.yaml`, taxonomy 1.0.0). Every value has a
+    definition and aliases. Validation rejects duplicate ids, ambiguous aliases and merging SDLC with ADLC.
+  - `trove/facets.json` is a sidecar: upstream bytes are never edited. Each value records its source (curated,
+    upstream metadata, text rules, or derived) and its evidence.
+  - 25 items are curated (`curation.yaml`) and marked approved: the first-party skills and the core superpowers and
+    Anthropic method skills. Everything else is review-pending.
+- **Faceted search.** `dex search` takes `--task`, `--methodology`, `--phase`, `--role`, `--domain`, `--language`,
+  `--framework`, `--platform` and `--maturity` (each repeatable), plus `--not facet=value`, `--strict`, `--explain`
+  and `--cursor`.
+  - Values match OR within a facet and AND across facets. Missing metadata never matches.
+  - Counts are disjunctive. An empty result reports which filter to drop, and unknown values are errors.
+  - Plain `dex search <words>` output is unchanged.
+- **`dex facets list | show | build | doc`**: the taxonomy with counts, one item's facets and evidence, rebuilding the
+  sidecar, and generating `docs/reference/taxonomy.md`.
+- **Site: "Narrow by what you're doing".** The catalog has facet filters with live disjunctive counts, keyboard
+  operation and bookmarkable URLs. Item pages have a **Where it fits** section linking back into the catalog. A
+  browser journey checks that the site and `dex search` return the same items.
+- **Docs:**
+  - [Which artifact when](docs/concepts/which-artifact-when.md): ten pairs people confuse, a decision tree, and
+    worked examples from real trove items.
+  - [Finding capabilities](docs/guides/finding-capabilities.md): why facets instead of tags, and how filtering works.
+  - The generated [taxonomy reference](docs/reference/taxonomy.md).
+
+### Changed
+
+- **Agents installed for Claude Code now launch.** Copilot agents list VS Code tool ids (`codebase`,
+  `edit/editFiles`) and models like `GPT-4.1`. Claude Code can't launch a subagent whose tools resolve to nothing.
+  - `dex install --target claude` maps tool ids to Claude Code tools, falling back to read-only `Read, Grep, Glob`
+    when nothing maps. It keeps or normalises Claude model values and drops the rest.
+  - Each change is reported. Only the installed copy changes; the trove and the agent's body stay byte-for-byte.
+    Skills were already compatible and are copied as-is.
+
+### Fixed
+
+- **`dex install` no longer deletes your files.** It used to replace any destination with the same name, so a
+  skill you wrote yourself in `~/.claude/skills/<name>` could be deleted.
+  - It now replaces only copies it installed and you haven't edited (recorded in `.dex-trove-installed.json`), or
+    byte-identical copies from an older Dex.
+  - Anything else needs `--force`, and a symlink is never followed.
+
 ## [0.1.6] — 2026-10-22
 
 ### Added

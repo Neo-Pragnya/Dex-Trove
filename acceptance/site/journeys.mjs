@@ -7,7 +7,7 @@
 // render and respond to hover, switch theme, hit a 404, and check phone width for horizontal overflow. Every page
 // is also watched for console errors and uncaught exceptions. Prints one line per journey and a JSON summary;
 // exits 1 if any journey fails. Needs Node 22+ and Chrome (CHROME=… to override the path).
-import { spawn } from "node:child_process";
+import { execFileSync, spawn } from "node:child_process";
 import { createReadStream, existsSync, mkdtempSync, statSync } from "node:fs";
 import { createServer } from "node:http";
 import { tmpdir } from "node:os";
@@ -152,6 +152,42 @@ await journey("catalog search narrows results and kind filters apply", async () 
   return `${total} items → ${hits.length} for the query; hook filter OK`;
 });
 
+await journey("facet filters match the CLI, count disjunctively and work from the keyboard", async () => {
+  // Parity: the site and `dex search` must agree on the same query (DEX_BIN is the build under test).
+  const cli = JSON.parse(execFileSync(process.env.DEX_BIN || "dex", ["search", "--methodology", "tdd", "--phase", "testing", "--json", "-n", "1000"], { encoding: "utf8" }));
+  await go("catalog/?methodology=tdd&phase=testing");
+  const site = await evaluate(`Array.from(document.querySelectorAll("#results li:not([hidden])")).map(li => li.dataset.kind + ":" + li.querySelector(".meta").textContent.trim()).sort()`);
+  const expected = cli.results.map((r) => `${r.kind}:${r.id}`).sort();
+  expect(JSON.stringify(site) === JSON.stringify(expected), `site shows ${site.length}, CLI ${expected.length}: ${site.slice(0, 3)} vs ${expected.slice(0, 3)}`);
+  const state = await evaluate(`({ pressed: document.querySelector('.facet-chip[data-facet="methodology"][data-value="tdd"]').getAttribute("aria-pressed"), open: document.querySelector('details.facet[data-facet="methodology"]').open, chips: document.querySelectorAll("#active-chips .chip").length })`);
+  expect(state.pressed === "true" && state.open && state.chips === 2, `URL state not restored: ${JSON.stringify(state)}`);
+  // Disjunctive: the tdd chip's count ignores the methodology selection, so it equals the CLI total for phase=testing + tdd.
+  const tddCount = await evaluate(`Number(document.querySelector('.facet-chip[data-facet="methodology"][data-value="tdd"] .n').textContent)`);
+  expect(tddCount === expected.length, `tdd chip says ${tddCount}, expected ${expected.length}`);
+  // Keyboard: focus a chip in another facet and press Enter; results narrow and the URL records it.
+  await evaluate(`document.querySelector('details.facet[data-facet="role"]').open = true; document.querySelector('.facet-chip[data-facet="role"][data-value="developer"]').focus()`);
+  await send("Input.dispatchKeyEvent", { type: "keyDown", key: "Enter", code: "Enter", windowsVirtualKeyCode: 13, text: "\r" });
+  await send("Input.dispatchKeyEvent", { type: "keyUp", key: "Enter", code: "Enter", windowsVirtualKeyCode: 13 });
+  await sleep(400);
+  const after = await evaluate(`({ n: document.querySelectorAll("#results li:not([hidden])").length, url: location.search, live: document.querySelector("#count").textContent })`);
+  expect(after.url.includes("role=developer"), `URL is ${after.url}`);
+  expect(after.n <= expected.length && after.n > 0, `role filter shows ${after.n}`);
+  await evaluate(`document.querySelector("#reset").click()`);
+  await sleep(300);
+  const cleared = await evaluate(`location.search`);
+  expect(!/methodology|role|phase/.test(cleared), `reset left ${cleared}`);
+  return `${expected.length} items match CLI; keyboard → ${after.n}; "${after.live}"`;
+});
+
+await journey("item page shows where it fits, linked into the catalog", async () => {
+  await go("skill/superpowers.test-driven-development/");
+  const t = await evaluate(`({ text: document.querySelector(".where-it-fits")?.innerText || "", link: document.querySelector('.where-it-fits a[href*="methodology=tdd"]')?.getAttribute("href") || "" })`);
+  expect(/Where it fits/i.test(t.text) && /Test-driven development/i.test(t.text), "facets section missing");
+  expect(/reviewed by the Dex Trove maintainers/i.test(t.text), "review status missing");
+  expect(t.link.includes("catalog/?methodology=tdd"), `chip link is ${t.link}`);
+  return "facets, review status and catalog links present";
+});
+
 await journey("item page shows licence, provenance and install commands", async () => {
   await go("skill/neo-pragnya.living-diagrams/");
   const t = await evaluate(`document.body.innerText`);
@@ -206,13 +242,16 @@ await journey("unknown page shows the 404", async () => {
 await viewport(390, 844, true);
 await journey("phone width has no horizontal scroll", async () => {
   const bad = [];
-  for (const path of ["", "catalog/", "skill/neo-pragnya.living-diagrams/", "docs/concepts/architecture/"]) {
+  const pages = ["", "catalog/", "catalog/?methodology=tdd&phase=testing", "skill/neo-pragnya.living-diagrams/",
+    "skill/superpowers.test-driven-development/", "docs/concepts/architecture/", "docs/concepts/which-artifact-when/",
+    "docs/guides/finding-capabilities/"];
+  for (const path of pages) {
     await go(path, 1200);
     const w = await evaluate(`[document.documentElement.scrollWidth, window.innerWidth]`);
     if (w[0] > w[1] + 1) bad.push(`${path || "/"} ${w[0]}>${w[1]}`);
   }
   expect(!bad.length, bad.join(", "));
-  return "4 pages fit 390 px";
+  return `${pages.length} pages fit 390 px`;
 });
 
 ws.close();

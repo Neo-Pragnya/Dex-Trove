@@ -48,6 +48,10 @@ const items = defineCollection({
     related: z.array(z.string()).default([]),
     part_of: z.array(z.string()).default([]),
     secret_flags: z.number().default(0),
+    // Typed facets from trove/facets.json (docs/guides/finding-capabilities.md).
+    facets: z.record(z.string(), z.union([z.string(), z.array(z.string())])).default({}),
+    facet_sources: z.record(z.string(), z.string()).default({}),
+    review_status: z.string().default("unknown"),
   }),
 });
 

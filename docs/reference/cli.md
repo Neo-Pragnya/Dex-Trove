@@ -15,9 +15,11 @@ dex [--version] [--install-completion] [--show-completion] COMMAND [ARGS]...
 | [`learn`](#dex-learn) | fetch sources, admit items, rewrite the trove | **yes** |
 | [`validate`](#dex-validate) | CI gate: manifests, licences, hashes, catalog, notices | no (notices check only in a checkout) |
 | [`list`](#dex-list) | list items | no |
-| [`search`](#dex-search) | search items | no |
+| [`search`](#dex-search) | search items, and filter by typed facets | no |
 | [`show`](#dex-show) | one item's provenance, licence and files | no |
 | [`install`](#dex-install) | install into Claude Code, Copilot or a directory | no |
+| [`facets list` / `show`](#dex-facets) | the taxonomy, value counts, one item's facets and evidence | no |
+| [`facets build` / `doc`](#dex-facets) | rebuild `facets.json` / regenerate the taxonomy reference | **yes** |
 | [`license`](#dex-license) | classify a licence file or directory | no |
 | [`notices`](#dex-notices) | regenerate `THIRD_PARTY_NOTICES.md` | **yes** |
 | [`catalog`](#dex-catalog) | rebuild `catalog.json` from `dex.json` files | **yes** |
@@ -89,11 +91,20 @@ Lists items as a table (kind, id, licence, description) or JSON (`kind`, `id`, `
 ## `dex search`
 
 ```text
-dex search QUERY... [--kind/-k KIND] [--source/-s NAMESPACE] [--limit/-n 25] [--json]
+dex search [QUERY...] [--kind/-k KIND] [--source/-s NAMESPACE] [--limit/-n 25] [--json]
+           [--task/-t T] [--methodology/-m M] [--phase/-p P] [--role/-r R] [--domain D] [--language L]
+           [--framework F] [--platform P] [--maturity M] [--not FACET=VALUE] [--strict] [--explain] [--cursor N]
 ```
 
-Every word must match the name, title, tags or description. Results are ranked with weights name 5, title 3,
-tags 2, description 1.
+**Words only:** every word must match the name, title, tags or description. Results are ranked with weights name 5,
+title 3, tags 2, description 1. Output and `--json` are unchanged from earlier releases.
+
+**With facet options** (each repeatable): any value within a facet matches, and all facets must match. `--strict`
+requires every value within a facet, and `--not` excludes. Items without a facet never match it. Values accept
+aliases; an unknown value exits `2` and lists the valid ones. Results are ranked by how fully they match (see
+[Finding capabilities](../guides/finding-capabilities.md#ranking)). `--explain` adds why each matched, and `--cursor`
+continues from the `next page` offset. `--json` returns `query`, `total`, `next_cursor`, `results` (each with
+`facets`, `score` and, with `--explain`, `why`), `facet_counts` and, for an empty result, `relaxations`.
 
 ## `dex show`
 
@@ -108,7 +119,7 @@ Exit `2` if the ref is unknown or ambiguous.
 ## `dex install`
 
 ```text
-dex install REF... [--target/-t claude|copilot|dir] [--scope user|project] [--path DIR] [--allow-exec]
+dex install REF... [--target/-t claude|copilot|dir] [--scope user|project] [--path DIR] [--allow-exec] [--force]
 ```
 
 | Option | Default | Meaning |
@@ -117,10 +128,24 @@ dex install REF... [--target/-t claude|copilot|dir] [--scope user|project] [--pa
 | `--scope` | `user` | for `claude`: `user` → `~/.claude`, `project` → `./.claude` |
 | `--path` | — | base directory override; **required** for `--target dir` |
 | `--allow-exec` | off | allow installing hooks (they run code automatically) |
+| `--force` | off | replace a destination Dex didn't install, or that was edited since (a symlink is replaced, never followed) |
 
-Prints `✓ kind:id → destination` for each installed item, and `– kind:id: reason` for skipped ones (an
-unsupported kind for the target, or a hook without `--allow-exec`). Plugins expand to their members. See
-[Installing items](../guides/installing-items.md). Exit `2` on an unknown ref or target.
+Prints `✓ kind:id → destination` for each installed item, with `adapted: …` lines for agents translated for Claude
+Code, and `– kind:id: reason` for skipped ones: an unsupported kind for the target, a hook without `--allow-exec`, or
+an existing destination Dex won't replace. Plugins expand to their members. See
+[Installing items](../guides/installing-items.md). Exit `1` if nothing was installed, `2` on an unknown ref or target.
+
+## `dex facets`
+
+```text
+dex facets list [FACET] [--json]     # every facet and value: definition, aliases, item count
+dex facets show REF [--json]         # one item's facets, each value's source and evidence, review status
+dex facets build                     # rebuild trove/facets.json (checkout only, no network); dex learn does this too
+dex facets doc                       # regenerate docs/reference/taxonomy.md (checkout only)
+```
+
+The taxonomy is versioned data in `src/dex_trove/taxonomy/` (`ontology.yaml`, plus reviewed `curation.yaml`). See
+[Finding capabilities](../guides/finding-capabilities.md) and the [taxonomy reference](taxonomy.md).
 
 ## `dex license`
 

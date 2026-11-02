@@ -56,3 +56,30 @@ Feature: Items install where each agent looks for them
     When I run "dex install neo-pragnya/no-such-skill --target claude --scope project"
     Then it fails cleanly
     And the output contains "no item matches"
+
+  @cap_install
+  Scenario: A Copilot agent installed for Claude Code gets Claude tool names and model values
+    # Claude Code won't launch a subagent whose tools list resolves to nothing; Copilot ids never resolve.
+    When I run "dex install awesome-copilot/accessibility --target claude --scope project"
+    Then it succeeds
+    And the output contains "adapted: dropped"
+    And the file ".claude/agents/accessibility.md" contains "tools: Read, Grep, Glob, Edit, Write, WebFetch, Bash"
+    And the file ".claude/agents/accessibility.md" contains "You are a world-class expert in web accessibility"
+
+  @cap_install_safety @adversarial
+  Scenario: Installing never replaces a skill the user wrote
+    Given the file ".claude/skills/living-diagrams/SKILL.md" with content:
+      """
+      my own version
+      """
+    When I run "dex install neo-pragnya/living-diagrams --target claude --scope project"
+    Then the exit code is 1
+    And the output contains "--force"
+    And the file ".claude/skills/living-diagrams/SKILL.md" contains "my own version"
+
+  @cap_install_safety
+  Scenario: Its twin: re-installing Dex's own unedited copy replaces it, and --force replaces the user's
+    Given I have run "dex install neo-pragnya/living-diagrams --target claude --scope project"
+    When I run "dex install neo-pragnya/living-diagrams --target claude --scope project"
+    Then it succeeds
+    And the file ".claude/.dex-trove-installed.json" contains "skills/living-diagrams"
