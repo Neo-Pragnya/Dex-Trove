@@ -1,0 +1,33 @@
+kind: prompt
+namespace: awesome-copilot
+name: godot-4-gdscript
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:godot-4-gdscript
+summary: 'Prevent Godot 3 syntax in Godot 4 projects: GDScript 2.0 annotations, await, setters, @rpc, typed signals
+  and Callables'
+description: 'Prevent Godot 3 syntax in Godot 4 projects: GDScript 2.0 annotations, await, setters, @rpc, typed
+  signals and Callables'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: godot-4-gdscript.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/instructions/godot-4-gdscript.instructions.md
+  repository: https://github.com/github/awesome-copilot

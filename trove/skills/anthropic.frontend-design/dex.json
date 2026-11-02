@@ -16,9 +16,9 @@
     "id": "anthropic",
     "title": "Anthropic Agent Skills",
     "repo": "https://github.com/anthropics/skills",
-    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5",
     "path": "skills/frontend-design",
-    "url": "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design",
+    "url": "https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5/skills/frontend-design",
     "author": null
   },
   "license": {

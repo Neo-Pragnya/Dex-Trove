@@ -1,7 +1,7 @@
 kind: skill
 namespace: awesome-copilot
 name: mcp-security-audit
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:awesome-copilot:mcp-security-audit
 summary: 'Audit MCP (Model Context Protocol) server configurations for security issues. Use this skill when: - Reviewing
   .mcp.json files for security risks - Checking MCP server args for hardcoded secrets or sh…'
@@ -13,7 +13,8 @@ description: 'Audit MCP (Model Context Protocol) server configurations for secur
 
   - Validating that MCP package-runner dependencies use exact reviewed versions, not bare names, @latest, or ranges
 
-  - Detecting mutable npm/npx, bunx, pnpm dlx, yarn dlx, and npm exec references in MCP configurations
+  - Detecting mutable npm/npx, bunx, pnpm dlx, yarn dlx, npm exec, uvx, uv tool run, and pipx run references in
+  MCP configurations
 
   - Auditing which MCP servers a project registers and whether they''re on an approved list
 
@@ -42,5 +43,5 @@ metadata:
   tags:
   - awesome-copilot
   - skill
-  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mcp-security-audit
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/mcp-security-audit
   repository: https://github.com/github/awesome-copilot

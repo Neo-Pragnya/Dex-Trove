@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: spring-observability
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:spring-observability
+summary: 'Add and review observability in Spring Boot 3/4 apps: Actuator exposure and health probes, Micrometer
+  metrics, Observation API, OpenTelemetry tracing and OTLP/Prometheus export, structured logging wit…'
+description: 'Add and review observability in Spring Boot 3/4 apps: Actuator exposure and health probes, Micrometer
+  metrics, Observation API, OpenTelemetry tracing and OTLP/Prometheus export, structured logging with correlation
+  ids, and safe use of heapdump/threaddump. Use when instrumenting, monitoring or troubleshooting a Spring Boot
+  service.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/spring-observability
+  repository: https://github.com/github/awesome-copilot

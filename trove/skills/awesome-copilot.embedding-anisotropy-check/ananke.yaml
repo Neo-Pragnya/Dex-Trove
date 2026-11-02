@@ -1,0 +1,28 @@
+kind: skill
+namespace: awesome-copilot
+name: embedding-anisotropy-check
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:embedding-anisotropy-check
+summary: Use before reporting any cosine similarity computed over embeddings or transformer hidden states, whether
+  the agent computed the vectors or loaded them.
+description: Use before reporting any cosine similarity computed over embeddings or transformer hidden states, whether
+  the agent computed the vectors or loaded them. Measures the anisotropy of each side, centres by the population
+  mean, and scores matched pairs against a permuted floor taken from the same comparison. Use when comparing one
+  model's embeddings across precisions, runtimes or layers, when evaluating retrieval, probes or adapters, or before
+  calling a similarity high, two conditions in agreement, or a small gap a null.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - executes-code
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/embedding-anisotropy-check
+  repository: https://github.com/github/awesome-copilot

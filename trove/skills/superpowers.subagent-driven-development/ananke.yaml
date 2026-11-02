@@ -1,7 +1,7 @@
 kind: skill
 namespace: superpowers
 name: subagent-driven-development
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:superpowers:subagent-driven-development
 summary: Use when executing implementation plans with independent tasks in the current session
 description: Use when executing implementation plans with independent tasks in the current session
@@ -25,5 +25,5 @@ metadata:
   tags:
   - skill
   - superpowers
-  homepage: https://github.com/obra/superpowers/tree/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/subagent-driven-development
+  homepage: https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/subagent-driven-development
   repository: https://github.com/obra/superpowers

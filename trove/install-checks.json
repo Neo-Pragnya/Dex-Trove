@@ -2,11 +2,11 @@
  "generator": "dex-trove 0.3.0",
  "summary": {
   "claude": {
-   "pass": 762,
+   "pass": 786,
    "fail": 2
   },
   "copilot": {
-   "pass": 959,
+   "pass": 986,
    "fail": 9
   }
  },
@@ -523,6 +523,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "agent:awesome-copilot/openapi-to-application-java-spring-boot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "agent:awesome-copilot/oracle-to-postgres-migration-expert": {
    "claude": "pass",
    "copilot": "pass"
@@ -984,6 +988,9 @@
   "instruction:awesome-copilot/blazor": {
    "copilot": "pass"
   },
+  "instruction:awesome-copilot/bulma-v1": {
+   "copilot": "pass"
+  },
   "instruction:awesome-copilot/caveman-mode": {
    "copilot": "pass"
   },
@@ -1156,6 +1163,9 @@
    "copilot": "pass"
   },
   "instruction:awesome-copilot/go-mcp-server": {
+   "copilot": "pass"
+  },
+  "instruction:awesome-copilot/godot-4-gdscript": {
    "copilot": "pass"
   },
   "instruction:awesome-copilot/hooks": {
@@ -1419,6 +1429,9 @@
   "instruction:awesome-copilot/springboot-4-migration": {
    "copilot": "pass"
   },
+  "instruction:awesome-copilot/sql-server-safe-tsql": {
+   "copilot": "pass"
+  },
   "instruction:awesome-copilot/sql-sp-generation": {
    "copilot": "pass"
   },
@@ -1583,6 +1596,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "plugin:awesome-copilot/foundry-agentic-loop": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "plugin:awesome-copilot/foundry-hosted-agent-copilotkit": {
    "claude": "pass",
    "copilot": "pass"
@@ -1592,6 +1609,10 @@
    "copilot": "pass"
   },
   "plugin:awesome-copilot/gem-team": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/globestudio": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -1676,6 +1697,10 @@
    "copilot": "pass"
   },
   "plugin:awesome-copilot/power-platform-mcp-connector-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:awesome-copilot/pr-artifact-explorer": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -2019,6 +2044,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:awesome-copilot/azure-logic-apps-standard-cli": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:awesome-copilot/azure-pricing": {
    "claude": "pass",
    "copilot": "pass"
@@ -2104,6 +2133,10 @@
    "copilot": "pass"
   },
   "skill:awesome-copilot/build-evidence-map": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/caption-qa": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -2447,6 +2480,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:awesome-copilot/embedding-anisotropy-check": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:awesome-copilot/entra-agent-user": {
    "claude": "pass",
    "copilot": "pass"
@@ -2516,6 +2553,10 @@
    "copilot": "pass"
   },
   "skill:awesome-copilot/foundry-agent-sync": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/foundry-agentic-loop": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -2615,6 +2656,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:awesome-copilot/globestudio": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:awesome-copilot/go-mcp-server-generator": {
    "claude": "pass",
    "copilot": "pass"
@@ -2703,11 +2748,27 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:awesome-copilot/java-debugging": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-diagnostics": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:awesome-copilot/java-docs": {
    "claude": "pass",
    "copilot": "pass"
   },
   "skill:awesome-copilot/java-helidon": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-hibernate-jpa": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -2728,6 +2789,10 @@
    "copilot": "pass"
   },
   "skill:awesome-copilot/java-springboot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/java-testcontainers": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -2767,6 +2832,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:awesome-copilot/lightweight-charts-react-components": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:awesome-copilot/linkedin-post-formatter": {
    "claude": "pass",
    "copilot": "pass"
@@ -2788,6 +2857,10 @@
    "copilot": "pass"
   },
   "skill:awesome-copilot/markdown-to-html": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/markdown-to-word-mermaid": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -2923,6 +2996,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:awesome-copilot/npm-trusted-publishing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:awesome-copilot/nuget-manager": {
    "claude": "pass",
    "copilot": "pass"
@@ -2936,6 +3013,10 @@
    "copilot": "pass"
   },
   "skill:awesome-copilot/openapi-to-application-code": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/openapi-to-application-java-spring-boot": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -3003,6 +3084,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:awesome-copilot/ponder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:awesome-copilot/postgresql-code-review": {
    "claude": "pass",
    "copilot": "pass"
@@ -3040,6 +3125,14 @@
    "copilot": "pass"
   },
   "skill:awesome-copilot/powerbi-modeling": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/pr-address-feedback": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/pr-artifact-explorer": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -3339,7 +3432,19 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:awesome-copilot/spring-boot-4-migration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:awesome-copilot/spring-boot-testing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/spring-observability": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:awesome-copilot/spring-security": {
    "claude": "pass",
    "copilot": "pass"
   },

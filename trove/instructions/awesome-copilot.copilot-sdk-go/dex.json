@@ -3,22 +3,22 @@
   "kind": "instruction",
   "namespace": "awesome-copilot",
   "name": "copilot-sdk-go",
-  "title": "GitHub Copilot SDK Go Instructions",
-  "description": "This file provides guidance on building Go applications using GitHub Copilot SDK.",
+  "title": "Microsoft Copilot SDK Go Instructions",
+  "description": "This file provides guidance on building Go applications using the Microsoft Copilot SDK.",
   "tags": [
     "awesome-copilot",
     "instruction"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "copilot-sdk-go.instructions.md",
   "dir": "instructions/awesome-copilot.copilot-sdk-go",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
     "path": "instructions/copilot-sdk-go.instructions.md",
-    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/copilot-sdk-go.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/instructions/copilot-sdk-go.instructions.md",
     "author": null
   },
   "license": {
@@ -34,8 +34,8 @@
   "files": [
     "copilot-sdk-go.instructions.md"
   ],
-  "entry_hash": "7da948da5ddad3cceb7fe884ab4c213a480ca231b845035ab38bcb2253e08d65",
-  "content_hash": "1316150323605719d5fe03db6ef63550a902110bd8e27d0f41b9dad5b63a9d29",
-  "learned_at": "2026-10-20T03:28:57+00:00",
+  "entry_hash": "6985fc47d783b306ce418aad562abbf53406fdf99ba3937aed2452d10e252ef8",
+  "content_hash": "9003d0114223a00edd0c953f4e186f117bb6a632ee1dc1371fa5e8fd12c674a4",
+  "learned_at": "2026-11-02T16:14:06+00:00",
   "apply_to": "**.go, go.mod"
 }

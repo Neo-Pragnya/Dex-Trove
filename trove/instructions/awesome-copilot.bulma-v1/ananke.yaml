@@ -1,0 +1,31 @@
+kind: prompt
+namespace: awesome-copilot
+name: bulma-v1
+version: 1.0.0
+ananke_id: urn:dex-trove:instruction:awesome-copilot:bulma-v1
+summary: 'Bulma v1 conventions: Dart Sass modules, CSS variables, themes and dark mode, the smart grid and skeletons'
+description: 'Bulma v1 conventions: Dart Sass modules, CSS variables, themes and dark mode, the smart grid and skeletons'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: bulma-v1.instructions.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - instruction
+  homepage: https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/instructions/bulma-v1.instructions.md
+  repository: https://github.com/github/awesome-copilot

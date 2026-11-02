@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/bulma-v1",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "bulma-v1",
+  "title": "Bulma v1",
+  "description": "Bulma v1 conventions: Dart Sass modules, CSS variables, themes and dark mode, the smart grid and skeletons",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "bulma-v1.instructions.md",
+  "dir": "instructions/awesome-copilot.bulma-v1",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "instructions/bulma-v1.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/instructions/bulma-v1.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "bulma-v1.instructions.md"
+  ],
+  "entry_hash": "9ed2cb6fefbb735bf6598f6df161530a4820aef73c992582956a9ec55c8f2d9d",
+  "content_hash": "a699994237b1c70e2c10d2319323a6fd1c9320917b6bf55bf42d859834e6b8c2",
+  "learned_at": "2026-11-02T16:14:06+00:00",
+  "apply_to": "**/*.html, **/*.css, **/*.scss, **/*.sass, **/*.jsx, **/*.tsx, **/*.vue"
+}

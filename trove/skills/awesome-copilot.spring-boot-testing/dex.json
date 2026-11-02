@@ -4,21 +4,21 @@
   "namespace": "awesome-copilot",
   "name": "spring-boot-testing",
   "title": "Spring Boot Testing",
-  "description": "Expert Spring Boot 4 testing specialist that selects the best Spring Boot testing techniques for your situation with Junit 6 and AssertJ.",
+  "description": "Expert Spring Boot testing specialist that selects the best testing techniques for your situation: test slices, Testcontainers with @ServiceConnection, Failsafe integration tests, MockitoBean, JUnit and AssertJ. Written for Spring Boot 4 with notes for Boot 3.",
   "tags": [
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.spring-boot-testing",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
     "path": "skills/spring-boot-testing",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/spring-boot-testing",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/spring-boot-testing",
     "author": null
   },
   "license": {
@@ -37,6 +37,7 @@
     "references/assertj-collections.md",
     "references/context-caching.md",
     "references/datajpatest.md",
+    "references/failsafe-integration-tests.md",
     "references/instancio.md",
     "references/mockitobean.md",
     "references/mockmvc-classic.md",
@@ -48,7 +49,7 @@
     "references/testcontainers-jdbc.md",
     "references/webmvctest.md"
   ],
-  "entry_hash": "8161940340dc52766242ab30589369623b31089b41ebd7baa19a27f411648550",
-  "content_hash": "13f1dea242ba10c61ebc015422f91307fbca228eb8b1480b85cd45cdd402f2cf",
-  "learned_at": "2026-10-20T03:28:55+00:00"
+  "entry_hash": "ee611fc083e16ff402fc9ab221700e851dcd48973911824471b27061ee441489",
+  "content_hash": "259927048d3507bb80fe410b7036df8781b8146fd4af626b39294770591a4009",
+  "learned_at": "2026-11-02T16:14:03+00:00"
 }

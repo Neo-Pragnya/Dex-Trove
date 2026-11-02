@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/embedding-anisotropy-check",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "embedding-anisotropy-check",
+  "title": "Embedding anisotropy check",
+  "description": "Use before reporting any cosine similarity computed over embeddings or transformer hidden states, whether the agent computed the vectors or loaded them. Measures the anisotropy of each side, centres by the population mean, and scores matched pairs against a permuted floor taken from the same comparison. Use when comparing one model's embeddings across precisions, runtimes or layers, when evaluating retrieval, probes or adapters, or before calling a similarity high, two conditions in agreement, or a small gap a null.",
+  "tags": [
+    "awesome-copilot",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.embedding-anisotropy-check",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "skills/embedding-anisotropy-check",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/embedding-anisotropy-check",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/anisotropy_check.py",
+    "scripts/example_scifact_halves.py"
+  ],
+  "entry_hash": "c763f4bb1c239861b5707ada9e137a9f4c3be97e8fd03e071d554a4f9e7fa77c",
+  "content_hash": "423c5fcf85546eb9d804c5acee743dea9db4de6cfd9b0dcb54092545554543fc",
+  "learned_at": "2026-11-02T16:14:00+00:00"
+}

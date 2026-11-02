@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: pr-artifact-explorer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:pr-artifact-explorer
+summary: Open, share, and inspect GitHub PRs, issues, workflow runs (including scheduled, manual and other runs
+  with no PR), Actions artifacts, and local or HTTP(S) web previews in the Artifact Explorer canvas…
+description: Open, share, and inspect GitHub PRs, issues, workflow runs (including scheduled, manual and other runs
+  with no PR), Actions artifacts, and local or HTTP(S) web previews in the Artifact Explorer canvas, with viewport
+  presets, zoom, screenshots, and recoverable download jobs.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/pr-artifact-explorer
+  repository: https://github.com/github/awesome-copilot

@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: lightweight-charts-react-components
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:lightweight-charts-react-components
+summary: lightweight-charts-react-components recipes for TradingView lightweight-charts in React.
+description: lightweight-charts-react-components recipes for TradingView lightweight-charts in React. Candlestick,
+  line, and area series; volume and indicator panes; realtime WebSocket updates; infinite history on scroll; crosshair
+  OHLC legends and tooltips; trade markers and price lines; synchronized charts; numeric options and yield-curve
+  axes. Use when adding or fixing a financial or trading chart in a React app, or when the user mentions lightweight-charts,
+  TradingView charts in React, or this package.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/lightweight-charts-react-components
+  repository: https://github.com/github/awesome-copilot

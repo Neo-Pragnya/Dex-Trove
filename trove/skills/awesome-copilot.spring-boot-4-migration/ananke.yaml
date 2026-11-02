@@ -1,0 +1,33 @@
+kind: skill
+namespace: awesome-copilot
+name: spring-boot-4-migration
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:spring-boot-4-migration
+summary: Migrate a Spring Boot 3.x application to Spring Boot 4.0 (Spring Framework 7, Jackson 3, modular starters,
+  JSpecify).
+description: Migrate a Spring Boot 3.x application to Spring Boot 4.0 (Spring Framework 7, Jackson 3, modular starters,
+  JSpecify). Use only for an explicit Boot 3.x to 4 migration, or to fix build or test failures caused by it, or
+  to review one. Not for 3.x patch bumps or 4.0 to 4.1 upgrades; follow the target Boot version release notes and
+  upgrade guide for those. Covers Maven and Gradle (Kotlin DSL, version catalogs).
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/spring-boot-4-migration
+  repository: https://github.com/github/awesome-copilot

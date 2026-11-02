@@ -70,6 +70,12 @@
         "target": "skill:awesome-copilot/lean-comments",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/pr-address-feedback",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       }
     ],
     "agent:awesome-copilot/agent-governance-reviewer": [
@@ -735,13 +741,13 @@
       },
       {
         "type": "similar",
-        "target": "agent:awesome-copilot/azure-principal-architect",
+        "target": "instruction:awesome-copilot/azure-logic-apps-power-automate",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
-        "target": "instruction:awesome-copilot/azure-logic-apps-power-automate",
+        "target": "skill:awesome-copilot/azure-logic-apps-standard-cli",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -1591,6 +1597,12 @@
       },
       {
         "type": "similar",
+        "target": "plugin:awesome-copilot/foundry-agentic-loop",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "plugin:awesome-copilot/foundry-hosted-agent-copilotkit",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -1603,13 +1615,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/foundry-hosted-agent-copilotkit",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/generate-custom-instructions-from-codebase",
+        "target": "skill:awesome-copilot/foundry-agentic-loop",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -1946,6 +1952,12 @@
         "target": "plugin:awesome-copilot/partners",
         "origin": "derived",
         "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/spring-observability",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       }
     ],
     "agent:awesome-copilot/electron-angular-native": [
@@ -2769,6 +2781,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -2794,12 +2812,6 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/java-upgrade",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "plugin:awesome-copilot/java-development",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -3025,13 +3037,13 @@
       },
       {
         "type": "similar",
-        "target": "plugin:awesome-copilot/project-documenter",
+        "target": "plugin:awesome-copilot/foundry-agentic-loop",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
-        "target": "plugin:awesome-copilot/project-planning",
+        "target": "plugin:awesome-copilot/project-documenter",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -3409,7 +3421,45 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/openapi-to-application-code",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "agent:awesome-copilot/openapi-to-application-java-spring-boot": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/openapi-to-application-csharp-dotnet",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/openapi-to-application-go",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/create-spring-boot-java-project",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -6305,6 +6355,12 @@
       },
       {
         "type": "similar",
+        "target": "skill:awesome-copilot/embedding-anisotropy-check",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "skill:awesome-copilot/import-infrastructure-as-code",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -6889,7 +6945,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/azure-static-web-apps",
+        "target": "skill:awesome-copilot/azure-logic-apps-standard-cli",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -7195,6 +7251,12 @@
     "instruction:awesome-copilot/convert-cassandra-to-spring-data-cosmos": [
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "agent:awesome-copilot/power-bi-data-modeling-expert",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -7222,15 +7284,15 @@
         "target": "instruction:awesome-copilot/use-cliche-data-in-docs",
         "origin": "inferred",
         "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "plugin:awesome-copilot/convert-to-md",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
       }
     ],
     "instruction:awesome-copilot/convert-jpa-to-spring-data-cosmos": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
       {
         "type": "similar",
         "target": "agent:awesome-copilot/power-bi-data-modeling-expert",
@@ -7258,12 +7320,6 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/use-cliche-data-in-docs",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "plugin:awesome-copilot/convert-to-md",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -7353,6 +7409,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-csharp",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -7372,12 +7434,6 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-python",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/copilot-thought-logging",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -8827,6 +8883,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -8842,18 +8904,18 @@
         "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/java-upgrade",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
       }
     ],
     "instruction:awesome-copilot/java-junit5-assertions": [
       {
         "type": "similar",
         "target": "agent:awesome-copilot/java-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -8880,18 +8942,18 @@
         "target": "instruction:awesome-copilot/java-upgrade",
         "origin": "inferred",
         "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "plugin:awesome-copilot/java-development",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
       }
     ],
     "instruction:awesome-copilot/java-mcp-server": [
       {
         "type": "similar",
         "target": "agent:awesome-copilot/java-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -8910,12 +8972,6 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/go-mcp-server",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/intellij-java-kotlin",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -8947,13 +9003,13 @@
       },
       {
         "type": "similar",
-        "target": "instruction:awesome-copilot/copilot-sdk-java",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
-        "target": "instruction:awesome-copilot/dotnet-maui-9-to-dotnet-maui-10-upgrade",
+        "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -9179,7 +9235,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/update-markdown-file-index",
+        "target": "skill:awesome-copilot/markdown-to-word-mermaid",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -9293,7 +9349,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/update-markdown-file-index",
+        "target": "skill:awesome-copilot/markdown-to-word-mermaid",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -9371,6 +9427,12 @@
       },
       {
         "type": "similar",
+        "target": "plugin:awesome-copilot/foundry-agentic-loop",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "plugin:awesome-copilot/foundry-hosted-agent-copilotkit",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -9378,12 +9440,6 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/foundry-agent-sync",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/foundry-hosted-agent-copilotkit",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -9580,6 +9636,12 @@
         "target": "instruction:awesome-copilot/pcf-sample-components",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/lightweight-charts-react-components",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       }
     ],
     "instruction:awesome-copilot/pcf-dependent-libraries": [
@@ -9722,6 +9784,12 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/pcf-code-components",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/lightweight-charts-react-components",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -10744,6 +10812,44 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/creating-oracle-to-postgres-master-migration-plan",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "instruction:awesome-copilot/sql-server-safe-tsql": [
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/csharp-mcp-server",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/go-mcp-server",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/java-mcp-server",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/kotlin-mcp-server",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/php-mcp-server",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/python-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -12376,6 +12482,44 @@
         "evidence": "shares tags or name words"
       }
     ],
+    "plugin:awesome-copilot/foundry-agentic-loop": [
+      {
+        "type": "bundles",
+        "target": "skill:awesome-copilot/foundry-agentic-loop",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/custom-agent-foundry",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/meta-agentic-project-scaffold",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/dataverse-python-agentic-workflows",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/microsoft-foundry",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/foundry-hosted-agent-copilotkit",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
     "plugin:awesome-copilot/foundry-hosted-agent-copilotkit": [
       {
         "type": "bundles",
@@ -12397,7 +12541,19 @@
       },
       {
         "type": "similar",
+        "target": "plugin:awesome-copilot/foundry-agentic-loop",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "skill:awesome-copilot/foundry-agent-sync",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/foundry-agentic-loop",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -12580,6 +12736,14 @@
         "evidence": "shares tags or name words"
       }
     ],
+    "plugin:awesome-copilot/globestudio": [
+      {
+        "type": "bundles",
+        "target": "skill:awesome-copilot/globestudio",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      }
+    ],
     "plugin:awesome-copilot/go-mcp-development": [
       {
         "type": "bundles",
@@ -12663,6 +12827,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -12670,12 +12840,6 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/intellij-java-kotlin",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/java-junit5-assertions",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -12947,6 +13111,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "plugin:awesome-copilot/openapi-to-application-csharp-dotnet",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -12985,6 +13155,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "plugin:awesome-copilot/openapi-to-application-csharp-dotnet",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -13009,7 +13185,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/create-spring-boot-java-project",
+        "target": "skill:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -13026,6 +13202,12 @@
         "target": "skill:awesome-copilot/openapi-to-application-code",
         "origin": "derived",
         "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
@@ -13064,6 +13246,12 @@
         "target": "skill:awesome-copilot/openapi-to-application-code",
         "origin": "derived",
         "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
@@ -13606,6 +13794,14 @@
         "evidence": "shares tags or name words"
       }
     ],
+    "plugin:awesome-copilot/pr-artifact-explorer": [
+      {
+        "type": "bundles",
+        "target": "skill:awesome-copilot/pr-artifact-explorer",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      }
+    ],
     "plugin:awesome-copilot/project-documenter": [
       {
         "type": "bundles",
@@ -14109,6 +14305,12 @@
       },
       {
         "type": "similar",
+        "target": "plugin:awesome-copilot/foundry-agentic-loop",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "skill:awesome-copilot/agentic-eval",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -14116,12 +14318,6 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/create-github-action-workflow-specification",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/project-workflow-analysis-blueprint-generator",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -15167,6 +15363,12 @@
       },
       {
         "type": "similar",
+        "target": "plugin:awesome-copilot/foundry-agentic-loop",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "plugin:awesome-copilot/rug-agentic-workflow",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -15174,6 +15376,12 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/eval-driven-dev",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/foundry-agentic-loop",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -15813,6 +16021,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/aspnet-rest-apis",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -15832,12 +16046,6 @@
       {
         "type": "similar",
         "target": "plugin:awesome-copilot/openapi-to-application-java-spring-boot",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "plugin:awesome-copilot/openapi-to-application-nodejs-nestjs",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -16294,6 +16502,44 @@
         "evidence": "shares tags or name words"
       }
     ],
+    "skill:awesome-copilot/azure-logic-apps-standard-cli": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-iac-exporter",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-iac-generator",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-logic-apps-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-policy-analyzer",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/azure-logic-apps-power-automate",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/azure-static-web-apps",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
     "skill:awesome-copilot/azure-pricing": [
       {
         "type": "part-of",
@@ -16529,13 +16775,13 @@
       },
       {
         "type": "similar",
-        "target": "agent:awesome-copilot/azure-principal-architect",
+        "target": "instruction:awesome-copilot/azure-logic-apps-power-automate",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
-        "target": "instruction:awesome-copilot/azure-logic-apps-power-automate",
+        "target": "skill:awesome-copilot/azure-logic-apps-standard-cli",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -18127,13 +18373,7 @@
       },
       {
         "type": "similar",
-        "target": "agent:awesome-copilot/java-mcp-expert",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/meta-agentic-project-scaffold",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -18157,7 +18397,13 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/spring-boot-testing",
+        "target": "skill:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/spring-boot-4-migration",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -18165,13 +18411,7 @@
     "skill:awesome-copilot/create-spring-boot-kotlin-project": [
       {
         "type": "similar",
-        "target": "agent:awesome-copilot/kotlin-mcp-expert",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/meta-agentic-project-scaffold",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -18195,7 +18435,13 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/spring-boot-testing",
+        "target": "skill:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/spring-boot-4-migration",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -19478,6 +19724,20 @@
         "evidence": "shares tags or name words"
       }
     ],
+    "skill:awesome-copilot/embedding-anisotropy-check": [
+      {
+        "type": "similar",
+        "target": "hook:awesome-copilot/attester-import-check",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "workflow:awesome-copilot/relevance-check",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
     "skill:awesome-copilot/entra-agent-user": [
       {
         "type": "similar",
@@ -19881,6 +20141,12 @@
       },
       {
         "type": "similar",
+        "target": "plugin:awesome-copilot/foundry-agentic-loop",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "plugin:awesome-copilot/foundry-hosted-agent-copilotkit",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -19893,13 +20159,45 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/foundry-hosted-agent-copilotkit",
+        "target": "skill:awesome-copilot/foundry-agentic-loop",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/foundry-agentic-loop": [
+      {
+        "type": "part-of",
+        "target": "plugin:awesome-copilot/foundry-agentic-loop",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/custom-agent-foundry",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
-        "target": "workflow:awesome-copilot/weekly-comment-sync",
+        "target": "agent:awesome-copilot/meta-agentic-project-scaffold",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/dataverse-python-agentic-workflows",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/microsoft-foundry",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/foundry-hosted-agent-copilotkit",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -19925,7 +20223,19 @@
       },
       {
         "type": "similar",
+        "target": "plugin:awesome-copilot/foundry-agentic-loop",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "skill:awesome-copilot/foundry-agent-sync",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/foundry-agentic-loop",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -20600,6 +20910,14 @@
         "evidence": "shares tags or name words"
       }
     ],
+    "skill:awesome-copilot/globestudio": [
+      {
+        "type": "part-of",
+        "target": "plugin:awesome-copilot/globestudio",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      }
+    ],
     "skill:awesome-copilot/go-mcp-server-generator": [
       {
         "type": "part-of",
@@ -21041,6 +21359,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -21056,10 +21380,118 @@
         "target": "instruction:awesome-copilot/intellij-java-kotlin",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/java-debugging": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/java-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/copilot-sdk-java",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/dataverse-python-testing-debugging",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/intellij-java-kotlin",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/java-junit5-assertions",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/java-development": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/java-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/copilot-sdk-java",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/intellij-java-kotlin",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/java-junit5-assertions",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/java-mcp-server",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/java-diagnostics": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/java-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/copilot-sdk-java",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/intellij-java-kotlin",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/java-junit5-assertions",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -21079,6 +21511,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -21098,12 +21536,6 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/java-mcp-server",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/java-upgrade",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -21117,6 +21549,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -21138,10 +21576,42 @@
         "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/java-hibernate-jpa": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/java-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
-        "target": "instruction:awesome-copilot/java-upgrade",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/copilot-sdk-java",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/intellij-java-kotlin",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/java-junit5-assertions",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -21167,6 +21637,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -21188,12 +21664,6 @@
         "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/java-upgrade",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
       }
     ],
     "skill:awesome-copilot/java-mcp-server-generator": [
@@ -21206,6 +21676,12 @@
       {
         "type": "similar",
         "target": "agent:awesome-copilot/java-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -21229,12 +21705,6 @@
       },
       {
         "type": "similar",
-        "target": "instruction:awesome-copilot/intellij-java-kotlin",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
         "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -21244,6 +21714,12 @@
       {
         "type": "similar",
         "target": "agent:awesome-copilot/java-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -21262,12 +21738,6 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/java-junit5-assertions",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -21287,6 +21757,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -21300,12 +21776,6 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/java-junit5-assertions",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -21331,6 +21801,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -21352,10 +21828,42 @@
         "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/java-testcontainers": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/java-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
-        "target": "instruction:awesome-copilot/java-upgrade",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/copilot-sdk-java",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/intellij-java-kotlin",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/java-junit5-assertions",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/java-mcp-server",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -21381,13 +21889,13 @@
       },
       {
         "type": "similar",
-        "target": "instruction:awesome-copilot/copilot-sdk-java",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
-        "target": "instruction:awesome-copilot/dotnet-maui-9-to-dotnet-maui-10-upgrade",
+        "target": "instruction:awesome-copilot/copilot-sdk-java",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -21630,6 +22138,44 @@
         "evidence": "shares tags or name words"
       }
     ],
+    "skill:awesome-copilot/lightweight-charts-react-components": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/expert-react-frontend-engineer",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/pcf-code-components",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/pcf-react-platform-libraries",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/pcf-sample-components",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/react-audit-grep-patterns",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/react-container-presentation-component",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
     "skill:awesome-copilot/linkedin-post-formatter": [
       {
         "type": "similar",
@@ -21800,6 +22346,44 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/markdown-gfm",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/markdown-to-word-mermaid": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/markdown-accessibility-assistant",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/markdown",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/markdown-accessibility",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/markdown-content-creation",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/markdown-gfm",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/convert-word-to-md",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -22624,6 +23208,50 @@
       {
         "type": "similar",
         "target": "agent:awesome-copilot/openapi-to-application",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/openapi-to-application-java-spring-boot": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/openapi-to-application-csharp-dotnet",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/openapi-to-application-go",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/create-spring-boot-java-project",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -23504,6 +24132,22 @@
         "evidence": "shares tags or name words"
       }
     ],
+    "skill:awesome-copilot/pr-address-feedback": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/address-comments",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/pr-artifact-explorer": [
+      {
+        "type": "part-of",
+        "target": "plugin:awesome-copilot/pr-artifact-explorer",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      }
+    ],
     "skill:awesome-copilot/pr-screenshots": [
       {
         "type": "part-of",
@@ -24125,6 +24769,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/quarkus",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -24144,12 +24794,6 @@
       {
         "type": "similar",
         "target": "plugin:awesome-copilot/openapi-to-application-go",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "plugin:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -24303,6 +24947,12 @@
       },
       {
         "type": "similar",
+        "target": "skill:awesome-copilot/lightweight-charts-react-components",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
         "target": "skill:awesome-copilot/oo-component-documentation",
         "origin": "inferred",
         "evidence": "shares tags or name words"
@@ -24310,12 +24960,6 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/quarkus-native-and-container",
-        "origin": "inferred",
-        "evidence": "shares tags or name words"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/react-audit-grep-patterns",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -25644,10 +26288,92 @@
         "evidence": "plugin.json lists it as a member"
       }
     ],
+    "skill:awesome-copilot/spring-boot-4-migration": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/create-spring-boot-java-project",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/create-spring-boot-kotlin-project",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/spring-boot-testing",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
     "skill:awesome-copilot/spring-boot-testing": [
       {
         "type": "similar",
-        "target": "agent:awesome-copilot/terratest-module-testing",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/create-spring-boot-java-project",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/create-spring-boot-kotlin-project",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/spring-boot-4-migration",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/spring-observability": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/elasticsearch-observability",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },
@@ -25674,10 +26400,42 @@
         "target": "skill:awesome-copilot/create-spring-boot-java-project",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      }
+    ],
+    "skill:awesome-copilot/spring-security": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/openapi-to-application-java-spring-boot",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/create-spring-boot-kotlin-project",
+        "target": "agent:awesome-copilot/sast-sca-security-analyzer",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/se-security-reviewer",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/stackhawk-security-onboarding",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/convert-cassandra-to-spring-data-cosmos",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/convert-jpa-to-spring-data-cosmos",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       }
@@ -27678,6 +28436,12 @@
         "target": "instruction:awesome-copilot/dataverse-python-testing-debugging",
         "origin": "inferred",
         "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/java-debugging",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
       }
     ],
     "skill:superpowers/test-driven-development": [
@@ -28006,6 +28770,12 @@
       {
         "type": "similar",
         "target": "hook:awesome-copilot/attester-import-check",
+        "origin": "inferred",
+        "evidence": "shares tags or name words"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/embedding-anisotropy-check",
         "origin": "inferred",
         "evidence": "shares tags or name words"
       },

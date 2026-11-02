@@ -3,22 +3,22 @@
   "kind": "skill",
   "namespace": "awesome-copilot",
   "name": "create-spring-boot-java-project",
-  "title": "Create Spring Boot Java project prompt",
-  "description": "Create Spring Boot Java Project Skeleton",
+  "title": "Create a Spring Boot Java project",
+  "description": "Create a new Spring Boot Java project (Maven or Gradle) from start.spring.io with sensible defaults for configuration, PostgreSQL, logging, security, testing and Docker. Use when asked to scaffold, bootstrap or generate a Spring Boot application. Detects existing project versions and never upgrades implicitly.",
   "tags": [
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.create-spring-boot-java-project",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
     "path": "skills/create-spring-boot-java-project",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-spring-boot-java-project",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/create-spring-boot-java-project",
     "author": null
   },
   "license": {
@@ -32,9 +32,21 @@
   "executes_code": false,
   "members": [],
   "files": [
-    "SKILL.md"
+    "SKILL.md",
+    "assets/Dockerfile",
+    "assets/Dockerfile-gradle",
+    "assets/Dockerfile-native",
+    "assets/Dockerfile-native-gradle",
+    "references/PROVENANCE.md",
+    "references/configuration.md",
+    "references/database.md",
+    "references/docker.md",
+    "references/logging.md",
+    "references/security.md",
+    "references/spring-boot-4.md",
+    "references/versions.md"
   ],
-  "entry_hash": "353f26c4ff608b0e9a00e6f0d75916cae2fb5680358285e06f6c1862c4b459e4",
-  "content_hash": "19b6bb7ebd32c00fd03738ac8112e80a309958c7f44360095c83eb2aff3d9ea7",
-  "learned_at": "2026-10-20T03:28:52+00:00"
+  "entry_hash": "b4b65b93468685467e9a8e6f4c695a870c510a068a753be6d960f740c03a2b93",
+  "content_hash": "18ec520fafa05ecab02eb42a55ca0c98fad0c190d45abaa7e08c7ed4f90ae345",
+  "learned_at": "2026-11-02T16:14:00+00:00"
 }

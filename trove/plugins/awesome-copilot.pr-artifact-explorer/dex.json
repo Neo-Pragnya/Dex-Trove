@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/pr-artifact-explorer",
+  "kind": "plugin",
+  "namespace": "awesome-copilot",
+  "name": "pr-artifact-explorer",
+  "title": "Pr Artifact Explorer Plugin",
+  "description": "Navigate pull requests and workflow runs (including scheduled and manual runs without a PR) and securely explore GitHub Actions artifacts, including test results, static sites, terminal recordings, and source files.",
+  "tags": [
+    "actions-artifacts",
+    "artifact-browser",
+    "awesome-copilot",
+    "canvas",
+    "copilot-extension",
+    "github-actions",
+    "plugin",
+    "pull-requests",
+    "test-results"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/awesome-copilot.pr-artifact-explorer",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "plugins/pr-artifact-explorer",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/plugins/pr-artifact-explorer",
+    "author": "David Pine"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:awesome-copilot/pr-artifact-explorer"
+  ],
+  "files": [
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "ae2518c24da8bb78205bd910a558ab5384f93ceee705045ec9ebec53b80ac191",
+  "content_hash": "379c0380c4f5c6bfad4ca8b7e52b5322d4e3db750a06bc3c408e692fcdad676d",
+  "learned_at": "2026-11-02T16:14:08+00:00"
+}

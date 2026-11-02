@@ -1,10 +1,13 @@
 kind: skill
 namespace: awesome-copilot
 name: create-spring-boot-java-project
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:awesome-copilot:create-spring-boot-java-project
-summary: Create Spring Boot Java Project Skeleton
-description: Create Spring Boot Java Project Skeleton
+summary: Create a new Spring Boot Java project (Maven or Gradle) from start.spring.io with sensible defaults for
+  configuration, PostgreSQL, logging, security, testing and Docker.
+description: Create a new Spring Boot Java project (Maven or Gradle) from start.spring.io with sensible defaults
+  for configuration, PostgreSQL, logging, security, testing and Docker. Use when asked to scaffold, bootstrap or
+  generate a Spring Boot application. Detects existing project versions and never upgrades implicitly.
 runtime:
   supported:
   - claude-code
@@ -25,5 +28,5 @@ metadata:
   tags:
   - awesome-copilot
   - skill
-  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/create-spring-boot-java-project
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/create-spring-boot-java-project
   repository: https://github.com/github/awesome-copilot

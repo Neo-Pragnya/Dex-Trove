@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/openapi-to-application-java-spring-boot",
+  "kind": "agent",
+  "namespace": "awesome-copilot",
+  "name": "openapi-to-application-java-spring-boot",
+  "title": "OpenAPI to Application Generator (Spring Boot)",
+  "description": "Expert assistant for generating Spring Boot applications from OpenAPI specifications, spec-first with openapi-generator",
+  "tags": [
+    "agent",
+    "awesome-copilot"
+  ],
+  "version": "1.0.0",
+  "entry": "openapi-to-application-java-spring-boot.agent.md",
+  "dir": "agents/awesome-copilot.openapi-to-application-java-spring-boot",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "agents/openapi-to-application-java-spring-boot.agent.md",
+    "url": "https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/agents/openapi-to-application-java-spring-boot.agent.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "openapi-to-application-java-spring-boot.agent.md"
+  ],
+  "entry_hash": "e6c4cfa2cd9aae7cd8aa55f9d2b1f77a6c4be5836436254e1fa09838b14b6c2c",
+  "content_hash": "db4798275a50d0a217f71338ad35433c34de3464a94c0d346cd9b48a8296c503",
+  "learned_at": "2026-11-02T16:14:05+00:00"
+}

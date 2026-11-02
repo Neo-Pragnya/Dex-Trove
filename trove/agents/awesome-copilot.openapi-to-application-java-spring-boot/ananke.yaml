@@ -1,0 +1,32 @@
+kind: agent
+namespace: awesome-copilot
+name: openapi-to-application-java-spring-boot
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:awesome-copilot:openapi-to-application-java-spring-boot
+summary: Expert assistant for generating Spring Boot applications from OpenAPI specifications, spec-first with openapi-generator
+description: Expert assistant for generating Spring Boot applications from OpenAPI specifications, spec-first with
+  openapi-generator
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: openapi-to-application-java-spring-boot.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - awesome-copilot
+  homepage: https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/agents/openapi-to-application-java-spring-boot.agent.md
+  repository: https://github.com/github/awesome-copilot

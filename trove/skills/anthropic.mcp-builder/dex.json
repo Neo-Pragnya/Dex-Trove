@@ -10,16 +10,16 @@
     "executes-code",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/anthropic.mcp-builder",
   "source": {
     "id": "anthropic",
     "title": "Anthropic Agent Skills",
     "repo": "https://github.com/anthropics/skills",
-    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5",
     "path": "skills/mcp-builder",
-    "url": "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder",
+    "url": "https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5/skills/mcp-builder",
     "author": null
   },
   "license": {
@@ -38,13 +38,14 @@
     "reference/evaluation.md",
     "reference/mcp_best_practices.md",
     "reference/node_mcp_server.md",
+    "reference/node_mcp_server_v2.md",
     "reference/python_mcp_server.md",
     "scripts/connections.py",
     "scripts/evaluation.py",
     "scripts/example_evaluation.xml",
     "scripts/requirements.txt"
   ],
-  "entry_hash": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295",
-  "content_hash": "bcba4a055b0df914b1f8d45cb4fa59f2684b10fc33a443f73198cec5da78b15b",
-  "learned_at": "2026-10-20T03:29:00+00:00"
+  "entry_hash": "b483b56d6673134497e45489c317f26ae0f1429c194db0297e43073e17e6748c",
+  "content_hash": "02965c518954cd2e493b6099bd667e47b403747a73443cb5c2e5c8d506455ac3",
+  "learned_at": "2026-11-02T16:14:09+00:00"
 }

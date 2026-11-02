@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
  "taxonomy_version": "1.1.0",
- "count": 968,
+ "count": 995,
  "items": {
   "agent:awesome-copilot/accessibility": {
    "schema_version": "1.0.0",
@@ -12145,6 +12145,124 @@
     }
    }
   },
+  "agent:awesome-copilot/openapi-to-application-java-spring-boot": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/openapi-to-application-java-spring-boot@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "agent",
+    "task": [
+     "design-api",
+     "write-spec"
+    ],
+    "phase": [
+     "design",
+     "requirements"
+    ],
+    "domain": [
+     "api"
+    ],
+    "language": [
+     "java"
+    ],
+    "framework": [
+     "spring"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "design-api": [
+       "name: 'openapi'"
+      ],
+      "write-spec": [
+       "description: 'specifications'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "design": [
+       "name: 'openapi'"
+      ],
+      "requirements": [
+       "description: 'specifications'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "name: 'openapi'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'java'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "spring": [
+       "name: 'spring boot'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "agent:awesome-copilot/oracle-to-postgres-migration-expert": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/oracle-to-postgres-migration-expert@1.0.0",
@@ -23896,6 +24014,97 @@
     }
    }
   },
+  "instruction:awesome-copilot/bulma-v1": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/bulma-v1@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "instruction",
+    "phase": [
+     "implementation"
+    ],
+    "domain": [
+     "frontend"
+    ],
+    "language": [
+     "javascript",
+     "typescript"
+    ],
+    "platform": [
+     "ananke",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "implementation": [
+       "description: 'conventions'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "frontend": [
+       "description: 'CSS'"
+      ]
+     }
+    },
+    "language": {
+     "source": "native",
+     "evidence": {
+      "javascript": [
+       "applyTo: '**/*.jsx'"
+      ],
+      "typescript": [
+       "applyTo: '**/*.tsx'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "instruction:awesome-copilot/caveman-mode": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/caveman-mode@1.0.0",
@@ -24666,7 +24875,7 @@
   },
   "instruction:awesome-copilot/convert-cassandra-to-spring-data-cosmos": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/convert-cassandra-to-spring-data-cosmos@1.0.0",
+   "artifact_ref": "awesome-copilot/convert-cassandra-to-spring-data-cosmos@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -24762,7 +24971,7 @@
   },
   "instruction:awesome-copilot/convert-jpa-to-spring-data-cosmos": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/convert-jpa-to-spring-data-cosmos@1.0.0",
+   "artifact_ref": "awesome-copilot/convert-jpa-to-spring-data-cosmos@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -24858,7 +25067,7 @@
   },
   "instruction:awesome-copilot/copilot-sdk-csharp": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/copilot-sdk-csharp@1.0.0",
+   "artifact_ref": "awesome-copilot/copilot-sdk-csharp@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -24929,7 +25138,7 @@
   },
   "instruction:awesome-copilot/copilot-sdk-go": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/copilot-sdk-go@1.0.0",
+   "artifact_ref": "awesome-copilot/copilot-sdk-go@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -24994,7 +25203,7 @@
   },
   "instruction:awesome-copilot/copilot-sdk-java": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/copilot-sdk-java@1.0.0",
+   "artifact_ref": "awesome-copilot/copilot-sdk-java@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -25064,7 +25273,7 @@
   },
   "instruction:awesome-copilot/copilot-sdk-nodejs": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/copilot-sdk-nodejs@1.0.0",
+   "artifact_ref": "awesome-copilot/copilot-sdk-nodejs@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -25139,7 +25348,7 @@
   },
   "instruction:awesome-copilot/copilot-sdk-python": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/copilot-sdk-python@1.0.0",
+   "artifact_ref": "awesome-copilot/copilot-sdk-python@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -28875,6 +29084,60 @@
     }
    }
   },
+  "instruction:awesome-copilot/godot-4-gdscript": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/godot-4-gdscript@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "instruction",
+    "platform": [
+     "ananke",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "instruction:awesome-copilot/hooks": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/hooks@1.0.0",
@@ -29148,7 +29411,7 @@
   },
   "instruction:awesome-copilot/java-junit5-assertions": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/java-junit5-assertions@1.0.0",
+   "artifact_ref": "awesome-copilot/java-junit5-assertions@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -29243,7 +29506,7 @@
   },
   "instruction:awesome-copilot/java-mcp-server": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/java-mcp-server@1.0.0",
+   "artifact_ref": "awesome-copilot/java-mcp-server@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -36022,13 +36285,12 @@
   },
   "instruction:awesome-copilot/springboot": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/springboot@1.0.0",
+   "artifact_ref": "awesome-copilot/springboot@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
     "language": [
-     "java",
-     "kotlin"
+     "java"
     ],
     "framework": [
      "spring"
@@ -36052,9 +36314,6 @@
      "evidence": {
       "java": [
        "applyTo: '**/*.java'"
-      ],
-      "kotlin": [
-       "applyTo: '**/*.kt'"
       ]
      },
      "also_suggested": {
@@ -36107,7 +36366,7 @@
   },
   "instruction:awesome-copilot/springboot-4-migration": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/springboot-4-migration@1.0.0",
+   "artifact_ref": "awesome-copilot/springboot-4-migration@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "instruction",
@@ -36115,7 +36374,6 @@
      "refactor"
     ],
     "language": [
-     "java",
      "kotlin"
     ],
     "framework": [
@@ -36146,19 +36404,14 @@
     "language": {
      "source": "native",
      "evidence": {
-      "java": [
-       "applyTo: '**/*.java'"
-      ],
       "kotlin": [
-       "applyTo: '**/*.kt'",
        "applyTo: '**/build.gradle.kts'",
        "applyTo: '**/settings.gradle.kts'"
       ]
      },
      "also_suggested": {
       "rules": [
-       "java",
-       "kotlin"
+       "java"
       ]
      }
     },
@@ -36167,6 +36420,102 @@
      "evidence": {
       "spring": [
        "title: 'Spring Boot'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "instruction:awesome-copilot/sql-server-safe-tsql": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/sql-server-safe-tsql@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "instruction",
+    "phase": [
+     "operations"
+    ],
+    "domain": [
+     "data"
+    ],
+    "language": [
+     "shell",
+     "sql"
+    ],
+    "platform": [
+     "ananke",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "operations": [
+       "title: 'Production'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "data": [
+       "name: 'sql'"
+      ]
+     }
+    },
+    "language": {
+     "source": "native",
+     "evidence": {
+      "shell": [
+       "applyTo: '**/*.ps1'"
+      ],
+      "sql": [
+       "applyTo: '**/*.sql'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "sql"
       ]
      }
     },
@@ -39527,7 +39876,7 @@
   },
   "plugin:awesome-copilot/copilot-sdk": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/copilot-sdk@1.0.0",
+   "artifact_ref": "awesome-copilot/copilot-sdk@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "plugin",
@@ -40951,6 +41300,177 @@
     ]
    }
   },
+  "plugin:awesome-copilot/foundry-agentic-loop": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/foundry-agentic-loop@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "deploy",
+     "implement",
+     "write-spec"
+    ],
+    "methodology": [
+     "sdd"
+    ],
+    "phase": [
+     "deployment",
+     "implementation",
+     "requirements",
+     "verification"
+    ],
+    "role": [
+     "developer",
+     "devops-engineer"
+    ],
+    "domain": [
+     "infrastructure"
+    ],
+    "framework": [
+     "azure"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "node",
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "deploy": [
+       "description: 'deploy'"
+      ],
+      "implement": [
+       "description: 'implements'"
+      ],
+      "write-spec": [
+       "description: 'spec'"
+      ]
+     }
+    },
+    "methodology": {
+     "source": "native",
+     "evidence": {
+      "sdd": [
+       "tag: 'spec-driven-development'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "sdd"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "description: 'deploy'"
+      ],
+      "implementation": [
+       "description: 'implement'"
+      ],
+      "requirements": [
+       "description: 'spec'"
+      ],
+      "verification": [
+       "description: 'verif'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'implement'"
+      ],
+      "devops-engineer": [
+       "description: 'deploy'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "infrastructure": [
+       "description: 'Azure'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "azure": [
+       "tag: 'azure'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "azure"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "node": [
+       "skill:awesome-copilot/foundry-agentic-loop"
+      ],
+      "python": [
+       "skill:awesome-copilot/foundry-agentic-loop"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "agentic-loop",
+     "azd",
+     "canvas",
+     "copilot-sdk",
+     "dynamic-workflow",
+     "hosted-agents",
+     "microsoft-foundry",
+     "rapid-prototyping"
+    ]
+   }
+  },
   "plugin:awesome-copilot/foundry-hosted-agent-copilotkit": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/foundry-hosted-agent-copilotkit@1.0.0",
@@ -41410,6 +41930,151 @@
     ]
    }
   },
+  "plugin:awesome-copilot/globestudio": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/globestudio@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "build-agents"
+    ],
+    "phase": [
+     "design"
+    ],
+    "role": [
+     "developer"
+    ],
+    "domain": [
+     "api",
+     "frontend",
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp",
+     "react"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "native",
+     "evidence": {
+      "build-agents": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "visualize"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "design": [
+       "description: 'design'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'code'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "description: 'API'"
+      ],
+      "frontend": [
+       "description: 'React'"
+      ],
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "mcp": [
+       "tag: 'mcp'"
+      ],
+      "react": [
+       "tag: 'react'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "mcp",
+       "react"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "3d-globe",
+     "data-visualization",
+     "design",
+     "dotted-map",
+     "embed",
+     "globe",
+     "maps",
+     "web-component"
+    ]
+   }
+  },
   "plugin:awesome-copilot/go-mcp-development": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/go-mcp-development@1.0.0",
@@ -41576,7 +42241,7 @@
      "github-copilot"
     ],
     "needs": [
-     "text-only"
+     "docker"
     ],
     "maturity": "unknown"
    },
@@ -41650,8 +42315,8 @@
     "needs": {
      "source": "derived",
      "evidence": {
-      "text-only": [
-       "no runnable files"
+      "docker": [
+       "skill:awesome-copilot/create-spring-boot-java-project"
       ]
      }
     },
@@ -44202,6 +44867,143 @@
     ]
    }
   },
+  "plugin:awesome-copilot/pr-artifact-explorer": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/pr-artifact-explorer@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "debug-ci",
+     "use-git",
+     "write-tests"
+    ],
+    "phase": [
+     "discovery",
+     "testing"
+    ],
+    "role": [
+     "qa-engineer"
+    ],
+    "domain": [
+     "frontend"
+    ],
+    "framework": [
+     "github-actions"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug-ci": [
+       "description: 'GitHub Actions'"
+      ],
+      "use-git": [
+       "description: 'pull requests'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "discovery": [
+       "name: 'explore'"
+      ],
+      "testing": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "frontend": [
+       "tags: 'browser'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "github-actions": [
+       "tag: 'github-actions'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "github-actions"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "actions-artifacts",
+     "artifact-browser",
+     "canvas",
+     "copilot-extension",
+     "pull-requests",
+     "test-results"
+    ]
+   }
+  },
   "plugin:awesome-copilot/project-documenter": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/project-documenter@1.0.0",
@@ -46226,7 +47028,7 @@
   },
   "plugin:awesome-copilot/the-workshop": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/the-workshop@0.1.0",
+   "artifact_ref": "awesome-copilot/the-workshop@0.1.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "plugin",
@@ -47614,7 +48416,7 @@
   },
   "skill:anthropic/mcp-builder": {
    "schema_version": "1.0.0",
-   "artifact_ref": "anthropic/mcp-builder@1.0.0",
+   "artifact_ref": "anthropic/mcp-builder@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -53599,6 +54401,140 @@
     }
    }
   },
+  "skill:awesome-copilot/azure-logic-apps-standard-cli": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/azure-logic-apps-standard-cli@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "debug",
+     "deploy",
+     "write-tests"
+    ],
+    "phase": [
+     "deployment",
+     "discovery",
+     "testing"
+    ],
+    "role": [
+     "devops-engineer",
+     "qa-engineer"
+    ],
+    "domain": [
+     "developer-tooling",
+     "infrastructure"
+    ],
+    "framework": [
+     "azure"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug": [
+       "description: 'debug'"
+      ],
+      "deploy": [
+       "description: 'deploy'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "description: 'deploy'"
+      ],
+      "discovery": [
+       "description: 'discovery'"
+      ],
+      "testing": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "devops-engineer": [
+       "description: 'deploy'"
+      ],
+      "qa-engineer": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "developer-tooling": [
+       "name: 'cli'"
+      ],
+      "infrastructure": [
+       "description: 'cloud'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "azure": [
+       "name: 'azure'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:awesome-copilot/azure-pricing": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/azure-pricing@1.0.0",
@@ -55748,6 +56684,83 @@
     }
    }
   },
+  "skill:awesome-copilot/caption-qa": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/caption-qa@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "phase": [
+     "deployment"
+    ],
+    "role": [
+     "qa-engineer"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "description: 'publish'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "name: 'qa'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:awesome-copilot/centos-linux-triage": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/centos-linux-triage@1.0.0",
@@ -56746,7 +57759,7 @@
   },
   "skill:awesome-copilot/commit-message-storyteller": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/commit-message-storyteller@1.0.0",
+   "artifact_ref": "awesome-copilot/commit-message-storyteller@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -57183,7 +58196,7 @@
   },
   "skill:awesome-copilot/conventional-branch": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/conventional-branch@1.0.0",
+   "artifact_ref": "awesome-copilot/conventional-branch@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -57197,7 +58210,8 @@
      "requirements"
     ],
     "domain": [
-     "developer-tooling"
+     "developer-tooling",
+     "ml-ai"
     ],
     "platform": [
      "ananke",
@@ -57244,6 +58258,9 @@
      "evidence": {
       "developer-tooling": [
        "description: 'Git'"
+      ],
+      "ml-ai": [
+       "description: 'AI agent'"
       ]
      }
     },
@@ -58021,7 +59038,7 @@
   },
   "skill:awesome-copilot/copilot-sdk": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/copilot-sdk@1.0.0",
+   "artifact_ref": "awesome-copilot/copilot-sdk@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -59431,14 +60448,35 @@
   },
   "skill:awesome-copilot/create-spring-boot-java-project": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/create-spring-boot-java-project@1.0.0",
+   "artifact_ref": "awesome-copilot/create-spring-boot-java-project@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
+    "task": [
+     "implement",
+     "operate",
+     "security-review",
+     "write-tests"
+    ],
+    "phase": [
+     "implementation",
+     "testing"
+    ],
+    "role": [
+     "qa-engineer",
+     "security-engineer"
+    ],
+    "domain": [
+     "data",
+     "infrastructure",
+     "security"
+    ],
     "language": [
-     "java"
+     "java",
+     "sql"
     ],
     "framework": [
+     "docker",
      "spring"
     ],
     "platform": [
@@ -59447,7 +60485,7 @@
      "github-copilot"
     ],
     "needs": [
-     "text-only"
+     "docker"
     ],
     "maturity": "unknown"
    },
@@ -59456,17 +60494,76 @@
     "review_status": "review-pending"
    },
    "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "implement": [
+       "description: 'scaffold'"
+      ],
+      "operate": [
+       "description: 'logging'"
+      ],
+      "security-review": [
+       "description: 'security'"
+      ],
+      "write-tests": [
+       "description: 'testing'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "implementation": [
+       "description: 'scaffold'"
+      ],
+      "testing": [
+       "description: 'testing'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "description: 'testing'"
+      ],
+      "security-engineer": [
+       "description: 'security'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "data": [
+       "description: 'PostgreS'"
+      ],
+      "infrastructure": [
+       "description: 'Docker'"
+      ],
+      "security": [
+       "description: 'security'"
+      ]
+     }
+    },
     "language": {
      "source": "rules",
      "evidence": {
       "java": [
        "name: 'java'"
+      ],
+      "sql": [
+       "description: 'PostgreS'"
       ]
      }
     },
     "framework": {
      "source": "rules",
      "evidence": {
+      "docker": [
+       "description: 'Docker'"
+      ],
       "spring": [
        "name: 'spring boot'"
       ]
@@ -59475,8 +60572,8 @@
     "needs": {
      "source": "derived",
      "evidence": {
-      "text-only": [
-       "no runnable files"
+      "docker": [
+       "assets/Dockerfile"
       ]
      }
     },
@@ -63840,6 +64937,84 @@
     }
    }
   },
+  "skill:awesome-copilot/embedding-anisotropy-check": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/embedding-anisotropy-check@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "build-ml"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "build-ml": [
+       "name: 'embedding'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "name: 'embedding'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/anisotropy_check.py",
+       "scripts/example_scifact_halves.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:awesome-copilot/entra-agent-user": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/entra-agent-user@1.0.0",
@@ -65577,6 +66752,208 @@
     }
    }
   },
+  "skill:awesome-copilot/foundry-agentic-loop": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/foundry-agentic-loop@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "deploy",
+     "design-architecture",
+     "design-ui",
+     "implement",
+     "verify",
+     "write-spec",
+     "write-tests"
+    ],
+    "methodology": [
+     "sdd"
+    ],
+    "phase": [
+     "deployment",
+     "design",
+     "implementation",
+     "requirements",
+     "verification"
+    ],
+    "role": [
+     "architect",
+     "designer",
+     "developer",
+     "devops-engineer"
+    ],
+    "domain": [
+     "frontend",
+     "infrastructure"
+    ],
+    "language": [
+     "python"
+    ],
+    "framework": [
+     "azure",
+     "fastapi",
+     "react"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "node",
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "deploy": [
+       "description: 'Deploy'"
+      ],
+      "design-architecture": [
+       "description: 'architecture'"
+      ],
+      "design-ui": [
+       "description: 'UI'"
+      ],
+      "implement": [
+       "description: 'Implement'"
+      ],
+      "verify": [
+       "description: 'Verify'"
+      ],
+      "write-spec": [
+       "description: 'spec'"
+      ],
+      "write-tests": [
+       "description: 'end-to-end'"
+      ]
+     }
+    },
+    "methodology": {
+     "source": "rules",
+     "evidence": {
+      "sdd": [
+       "description: 'spec-driven'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "description: 'Deploy'"
+      ],
+      "design": [
+       "description: 'architect'"
+      ],
+      "implementation": [
+       "description: 'Implement'"
+      ],
+      "requirements": [
+       "description: 'spec'"
+      ],
+      "verification": [
+       "description: 'Verif'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "architect": [
+       "description: 'architect'"
+      ],
+      "designer": [
+       "description: 'UI'"
+      ],
+      "developer": [
+       "description: 'Implement'"
+      ],
+      "devops-engineer": [
+       "description: 'Deploy'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "frontend": [
+       "description: 'React'"
+      ],
+      "infrastructure": [
+       "description: 'Azure'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "python": [
+       "description: 'FastAPI'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "azure": [
+       "description: 'Azure'"
+      ],
+      "fastapi": [
+       "description: 'FastAPI'"
+      ],
+      "react": [
+       "description: 'React'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "node": [
+       "scripts/evals.mjs"
+      ],
+      "python": [
+       "evals/fixtures/sdd-paused/src/backend/routing.py",
+       "evals/fixtures/sdd-paused/tests/contract/test_routing.py",
+       "references/check_rbac_preflight.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:awesome-copilot/foundry-hosted-agent-copilotkit": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/foundry-hosted-agent-copilotkit@1.0.0",
@@ -66884,7 +68261,7 @@
   },
   "skill:awesome-copilot/git-commit": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/git-commit@1.0.0",
+   "artifact_ref": "awesome-copilot/git-commit@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -67683,6 +69060,94 @@
      "evidence": {
       "developer-tooling": [
        "description: 'git'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/globestudio": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/globestudio@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "role": [
+     "developer"
+    ],
+    "domain": [
+     "frontend"
+    ],
+    "framework": [
+     "react"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'code'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "frontend": [
+       "description: 'react'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "react": [
+       "description: 'react'"
       ]
      }
     },
@@ -69551,13 +71016,376 @@
   },
   "skill:awesome-copilot/java-add-graalvm-native-image-support": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/java-add-graalvm-native-image-support@1.0.0",
+   "artifact_ref": "awesome-copilot/java-add-graalvm-native-image-support@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
-    "phase": [
-     "implementation"
+    "domain": [
+     "developer-tooling"
     ],
+    "language": [
+     "java"
+    ],
+    "framework": [
+     "docker",
+     "spring"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "developer-tooling": [
+       "description: 'build tool'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'java'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "docker": [
+       "description: 'container'"
+      ],
+      "spring": [
+       "description: 'Spring Boot'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/java-debugging": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/java-debugging@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "debug",
+     "operate",
+     "write-tests"
+    ],
+    "phase": [
+     "testing"
+    ],
+    "role": [
+     "developer",
+     "qa-engineer"
+    ],
+    "domain": [
+     "developer-tooling"
+    ],
+    "language": [
+     "java"
+    ],
+    "framework": [
+     "docker",
+     "spring"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug": [
+       "name: 'debug'"
+      ],
+      "operate": [
+       "description: 'traces'"
+      ],
+      "write-tests": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "testing": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'Code'"
+      ],
+      "qa-engineer": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "developer-tooling": [
+       "description: 'VS Code'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'java'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "docker": [
+       "description: 'containers'"
+      ],
+      "spring": [
+       "description: 'Spring Boot'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/java-development": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/java-development@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "debug-ci",
+     "operate",
+     "security-review"
+    ],
+    "phase": [
+     "verification"
+    ],
+    "role": [
+     "developer",
+     "reviewer",
+     "security-engineer"
+    ],
+    "domain": [
+     "security"
+    ],
+    "language": [
+     "java"
+    ],
+    "framework": [
+     "github-actions"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug-ci": [
+       "description: 'GitHub Actions'"
+      ],
+      "operate": [
+       "description: 'logging'"
+      ],
+      "security-review": [
+       "description: 'vulnerab'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "verification": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'code'"
+      ],
+      "reviewer": [
+       "description: 'reviewing'"
+      ],
+      "security-engineer": [
+       "description: 'vulnerab'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "security": [
+       "description: 'vulnerab'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'java'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "github-actions": [
+       "description: 'GitHub Actions'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/java-diagnostics": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/java-diagnostics@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
     "language": [
      "java"
     ],
@@ -69576,14 +71404,6 @@
     "review_status": "review-pending"
    },
    "provenance": {
-    "phase": {
-     "source": "rules",
-     "evidence": {
-      "implementation": [
-       "description: 'best practices'"
-      ]
-     }
-    },
     "language": {
      "source": "rules",
      "evidence": {
@@ -69628,7 +71448,7 @@
   },
   "skill:awesome-copilot/java-docs": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/java-docs@1.0.0",
+   "artifact_ref": "awesome-copilot/java-docs@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -69858,21 +71678,21 @@
     }
    }
   },
-  "skill:awesome-copilot/java-junit": {
+  "skill:awesome-copilot/java-hibernate-jpa": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/java-junit@1.0.0",
+   "artifact_ref": "awesome-copilot/java-hibernate-jpa@1.0.0",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
     "task": [
-     "write-tests"
+     "analyse-data",
+     "debug"
     ],
     "phase": [
-     "implementation",
-     "testing"
+     "verification"
     ],
     "role": [
-     "qa-engineer"
+     "reviewer"
     ],
     "language": [
      "java"
@@ -69895,6 +71715,124 @@
     "task": {
      "source": "rules",
      "evidence": {
+      "analyse-data": [
+       "description: 'queries'"
+      ],
+      "debug": [
+       "description: 'Diagnose'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "verification": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "reviewer": [
+       "description: 'reviewing'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'java'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/java-junit": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/java-junit@1.0.1",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "debug",
+     "plan-tests",
+     "refactor",
+     "write-tests"
+    ],
+    "phase": [
+     "implementation",
+     "testing",
+     "verification"
+    ],
+    "role": [
+     "developer",
+     "qa-engineer",
+     "reviewer"
+    ],
+    "language": [
+     "java"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug": [
+       "description: 'debug'"
+      ],
+      "plan-tests": [
+       "description: 'coverage'"
+      ],
+      "refactor": [
+       "description: 'refactor'"
+      ],
       "write-tests": [
        "description: 'tests'"
       ]
@@ -69904,18 +71842,27 @@
      "source": "rules",
      "evidence": {
       "implementation": [
-       "title: 'Best Practices'"
+       "description: 'refactor'"
       ],
       "testing": [
        "description: 'tests'"
+      ],
+      "verification": [
+       "description: 'review'"
       ]
      }
     },
     "role": {
      "source": "rules",
      "evidence": {
+      "developer": [
+       "description: 'refactor'"
+      ],
       "qa-engineer": [
-       "description: 'testing'"
+       "title: 'Testing'"
+      ],
+      "reviewer": [
+       "description: 'review'"
       ]
      }
     },
@@ -69963,7 +71910,7 @@
   },
   "skill:awesome-copilot/java-mcp-server-generator": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/java-mcp-server-generator@1.0.0",
+   "artifact_ref": "awesome-copilot/java-mcp-server-generator@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -70100,7 +72047,7 @@
   },
   "skill:awesome-copilot/java-refactoring-extract-method": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/java-refactoring-extract-method@1.0.0",
+   "artifact_ref": "awesome-copilot/java-refactoring-extract-method@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -70199,7 +72146,7 @@
   },
   "skill:awesome-copilot/java-refactoring-remove-parameter": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/java-refactoring-remove-parameter@1.0.0",
+   "artifact_ref": "awesome-copilot/java-refactoring-remove-parameter@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -70298,12 +72245,20 @@
   },
   "skill:awesome-copilot/java-springboot": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/java-springboot@1.0.0",
+   "artifact_ref": "awesome-copilot/java-springboot@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
+    "task": [
+     "implement"
+    ],
     "phase": [
-     "implementation"
+     "implementation",
+     "verification"
+    ],
+    "role": [
+     "developer",
+     "reviewer"
     ],
     "language": [
      "java"
@@ -70326,11 +72281,33 @@
     "review_status": "review-pending"
    },
    "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "implement": [
+       "description: 'scaffold'"
+      ]
+     }
+    },
     "phase": {
      "source": "rules",
      "evidence": {
       "implementation": [
-       "title: 'Best Practices'"
+       "description: 'scaffold'"
+      ],
+      "verification": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'code'"
+      ],
+      "reviewer": [
+       "description: 'review'"
       ]
      }
     },
@@ -70347,6 +72324,135 @@
      "evidence": {
       "spring": [
        "title: 'Spring Boot'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/java-testcontainers": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/java-testcontainers@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "debug-ci",
+     "refactor",
+     "write-tests"
+    ],
+    "phase": [
+     "testing"
+    ],
+    "role": [
+     "qa-engineer"
+    ],
+    "domain": [
+     "infrastructure"
+    ],
+    "language": [
+     "java"
+    ],
+    "framework": [
+     "docker"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug-ci": [
+       "description: 'CI and Docker/Podman setup. Use when adding or fix'"
+      ],
+      "refactor": [
+       "description: 'migrating'"
+      ],
+      "write-tests": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "testing": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "infrastructure": [
+       "description: 'Docker'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'java'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "docker": [
+       "description: 'Docker'"
       ]
      }
     },
@@ -71222,6 +73328,83 @@
     }
    }
   },
+  "skill:awesome-copilot/lightweight-charts-react-components": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/lightweight-charts-react-components@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "domain": [
+     "frontend"
+    ],
+    "framework": [
+     "react"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "frontend": [
+       "name: 'react'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "react": [
+       "name: 'react'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:awesome-copilot/linkedin-post-formatter": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/linkedin-post-formatter@1.0.0",
@@ -71290,7 +73473,7 @@
   },
   "skill:awesome-copilot/lsp-setup": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/lsp-setup@1.0.0",
+   "artifact_ref": "awesome-copilot/lsp-setup@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -71691,6 +73874,96 @@
      "evidence": {
       "text-only": [
        "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/markdown-to-word-mermaid": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/markdown-to-word-mermaid@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "visualize"
+    ],
+    "phase": [
+     "design"
+    ],
+    "role": [
+     "developer"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "visualize": [
+       "description: 'diagram'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "design": [
+       "description: 'diagram'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'code'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/markdown_to_word.py",
+       "scripts/requirements.txt",
+       "tests/test_markdown_to_word.py"
       ]
      }
     },
@@ -72505,7 +74778,7 @@
   },
   "skill:awesome-copilot/mcp-security-audit": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/mcp-security-audit@1.0.0",
+   "artifact_ref": "awesome-copilot/mcp-security-audit@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -74908,6 +77181,109 @@
     }
    }
   },
+  "skill:awesome-copilot/npm-trusted-publishing": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/npm-trusted-publishing@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "debug-ci",
+     "refactor"
+    ],
+    "phase": [
+     "deployment"
+    ],
+    "language": [
+     "javascript"
+    ],
+    "framework": [
+     "github-actions"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug-ci": [
+       "description: 'GitHub Actions'"
+      ],
+      "refactor": [
+       "description: 'migrating'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "name: 'publish'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "javascript": [
+       "name: 'npm'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "github-actions": [
+       "description: 'GitHub Actions'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:awesome-copilot/nuget-manager": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/nuget-manager@1.0.0",
@@ -75265,6 +77641,171 @@
      "evidence": {
       "api": [
        "name: 'openapi'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/openapi-to-application-java-spring-boot": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/openapi-to-application-java-spring-boot@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "design-api",
+     "implement",
+     "security-review",
+     "write-spec",
+     "write-tests"
+    ],
+    "phase": [
+     "design",
+     "implementation",
+     "requirements",
+     "testing"
+    ],
+    "role": [
+     "developer",
+     "qa-engineer",
+     "security-engineer"
+    ],
+    "domain": [
+     "api",
+     "backend",
+     "security"
+    ],
+    "language": [
+     "java"
+    ],
+    "framework": [
+     "spring"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "design-api": [
+       "name: 'openapi'"
+      ],
+      "implement": [
+       "description: 'implement'"
+      ],
+      "security-review": [
+       "description: 'security'"
+      ],
+      "write-spec": [
+       "title: 'spec'"
+      ],
+      "write-tests": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "design": [
+       "name: 'openapi'"
+      ],
+      "implementation": [
+       "description: 'implement'"
+      ],
+      "requirements": [
+       "title: 'spec'"
+      ],
+      "testing": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'implement'"
+      ],
+      "qa-engineer": [
+       "description: 'tests'"
+      ],
+      "security-engineer": [
+       "description: 'security'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "description: 'API'"
+      ],
+      "backend": [
+       "description: 'services'"
+      ],
+      "security": [
+       "description: 'security'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'java'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "spring": [
+       "name: 'spring boot'"
       ]
      }
     },
@@ -76950,6 +79491,98 @@
     }
    }
   },
+  "skill:awesome-copilot/ponder": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/ponder@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "design-ui",
+     "plan-tests"
+    ],
+    "phase": [
+     "verification"
+    ],
+    "role": [
+     "designer"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "design-ui": [
+       "description: 'UI'"
+      ],
+      "plan-tests": [
+       "description: 'coverage'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "verification": [
+       "description: 'audit'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "designer": [
+       "description: 'UI'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:awesome-copilot/postgresql-code-review": {
    "schema_version": "1.0.0",
    "artifact_ref": "awesome-copilot/postgresql-code-review@1.0.0",
@@ -77884,6 +80517,149 @@
      "evidence": {
       "mcp": [
        "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/pr-address-feedback": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/pr-address-feedback@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "phase": [
+     "verification"
+    ],
+    "role": [
+     "reviewer"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "verification": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "reviewer": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/pr-artifact-explorer": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/pr-artifact-explorer@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "phase": [
+     "discovery"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "discovery": [
+       "name: 'explore'"
       ]
      }
     },
@@ -85327,9 +88103,147 @@
     }
    }
   },
+  "skill:awesome-copilot/spring-boot-4-migration": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/spring-boot-4-migration@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "deploy",
+     "refactor",
+     "write-tests"
+    ],
+    "phase": [
+     "deployment",
+     "testing",
+     "verification"
+    ],
+    "role": [
+     "qa-engineer",
+     "release-manager",
+     "reviewer"
+    ],
+    "language": [
+     "java",
+     "kotlin"
+    ],
+    "framework": [
+     "spring"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "deploy": [
+       "description: 'release'"
+      ],
+      "refactor": [
+       "name: 'migration'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "description: 'release'"
+      ],
+      "testing": [
+       "description: 'test'"
+      ],
+      "verification": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "description: 'test'"
+      ],
+      "release-manager": [
+       "description: 'release notes'"
+      ],
+      "reviewer": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'spring'"
+      ],
+      "kotlin": [
+       "description: 'Kotlin'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "spring": [
+       "name: 'spring boot'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:awesome-copilot/spring-boot-testing": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/spring-boot-testing@1.0.0",
+   "artifact_ref": "awesome-copilot/spring-boot-testing@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -85367,7 +88281,7 @@
      "source": "rules",
      "evidence": {
       "write-tests": [
-       "name: 'testing'"
+       "description: 'test'"
       ]
      }
     },
@@ -85375,7 +88289,7 @@
      "source": "rules",
      "evidence": {
       "testing": [
-       "name: 'testing'"
+       "description: 'test'"
       ]
      }
     },
@@ -85400,6 +88314,284 @@
      "evidence": {
       "spring": [
        "name: 'spring boot'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/spring-observability": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/spring-observability@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "debug",
+     "operate"
+    ],
+    "phase": [
+     "operations",
+     "verification"
+    ],
+    "role": [
+     "reviewer"
+    ],
+    "domain": [
+     "api",
+     "backend",
+     "observability"
+    ],
+    "language": [
+     "java"
+    ],
+    "framework": [
+     "spring"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug": [
+       "description: 'troubleshoot'"
+      ],
+      "operate": [
+       "name: 'observab'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "operations": [
+       "name: 'observab'"
+      ],
+      "verification": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "reviewer": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "description: 'API'"
+      ],
+      "backend": [
+       "description: 'service'"
+      ],
+      "observability": [
+       "name: 'observab'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'spring'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "spring": [
+       "name: 'spring'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:awesome-copilot/spring-security": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "awesome-copilot/spring-security@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "security-review",
+     "write-tests"
+    ],
+    "phase": [
+     "testing",
+     "verification"
+    ],
+    "role": [
+     "qa-engineer",
+     "reviewer",
+     "security-engineer"
+    ],
+    "domain": [
+     "security"
+    ],
+    "language": [
+     "java"
+    ],
+    "framework": [
+     "aws",
+     "spring"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "security-review": [
+       "name: 'security'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "testing": [
+       "description: 'test'"
+      ],
+      "verification": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "description: 'test'"
+      ],
+      "reviewer": [
+       "description: 'review'"
+      ],
+      "security-engineer": [
+       "name: 'security'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "security": [
+       "name: 'security'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "java": [
+       "name: 'spring'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "aws": [
+       "description: 'lambda'"
+      ],
+      "spring": [
+       "name: 'spring'"
       ]
      }
     },
@@ -89618,18 +92810,16 @@
   },
   "skill:awesome-copilot/webmcpify": {
    "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/webmcpify@1.0.0",
+   "artifact_ref": "awesome-copilot/webmcpify@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
     "task": [
+     "plan-tests",
      "verify"
     ],
     "phase": [
      "verification"
-    ],
-    "role": [
-     "developer"
     ],
     "domain": [
      "frontend",
@@ -89653,6 +92843,9 @@
     "task": {
      "source": "rules",
      "evidence": {
+      "plan-tests": [
+       "description: 'coverage'"
+      ],
       "verify": [
        "description: 'verify'"
       ]
@@ -89663,14 +92856,6 @@
      "evidence": {
       "verification": [
        "title: 'verif'"
-      ]
-     }
-    },
-    "role": {
-     "source": "rules",
-     "evidence": {
-      "developer": [
-       "description: 'code'"
       ]
      }
     },
@@ -89689,9 +92874,9 @@
      "source": "derived",
      "evidence": {
       "node": [
-       "templates/webmcp-jsx.d.ts",
-       "templates/webmcp.d.ts",
-       "templates/webmcp.spec.ts"
+       "scripts/workbench.mjs",
+       "templates/mutation-journal.js",
+       "templates/mutation-journal.ts"
       ]
      }
     },
@@ -92165,7 +95350,7 @@
   },
   "skill:superpowers/brainstorming": {
    "schema_version": "1.0.0",
-   "artifact_ref": "superpowers/brainstorming@1.0.0",
+   "artifact_ref": "superpowers/brainstorming@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -92308,7 +95493,7 @@
   },
   "skill:superpowers/diagnosing-superpowers": {
    "schema_version": "1.0.0",
-   "artifact_ref": "superpowers/diagnosing-superpowers@1.0.0",
+   "artifact_ref": "superpowers/diagnosing-superpowers@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -92477,7 +95662,7 @@
   },
   "skill:superpowers/executing-plans": {
    "schema_version": "1.0.0",
-   "artifact_ref": "superpowers/executing-plans@1.0.0",
+   "artifact_ref": "superpowers/executing-plans@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -92975,7 +96160,7 @@
   },
   "skill:superpowers/subagent-driven-development": {
    "schema_version": "1.0.0",
-   "artifact_ref": "superpowers/subagent-driven-development@1.0.0",
+   "artifact_ref": "superpowers/subagent-driven-development@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -93780,7 +96965,7 @@
   },
   "skill:superpowers/writing-skills": {
    "schema_version": "1.0.0",
-   "artifact_ref": "superpowers/writing-skills@1.0.0",
+   "artifact_ref": "superpowers/writing-skills@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",

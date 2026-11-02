@@ -54,5 +54,5 @@ metadata:
   - postgresql
   - sql
   - stored-procedures
-  homepage: https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/oracle-to-postgres-migration-expert
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/plugins/oracle-to-postgres-migration-expert
   repository: https://github.com/github/awesome-copilot

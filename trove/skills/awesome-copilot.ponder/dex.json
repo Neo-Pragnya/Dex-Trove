@@ -1,0 +1,43 @@
+{
+  "id": "awesome-copilot/ponder",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "ponder",
+  "title": "Ponder",
+  "description": "Convergent deliberation loop - repeated grading passes over one subject until the answer stops changing, with coverage enforced so no unit is silently skipped. Use when the user says \"ponder <anything>\" (\"ponder the UI\", \"ponder our error handling\"), \"think this over properly\", \"keep thinking until it converges\", \"keep looping until it converges\", \"loop on this until it stops changing\", \"go through all the screens and grade them\", \"audit/rate/grade every X\", or asks for any broad sweep-and-grade across many units where a single pass would miss things. Also use to resume or recover a ponder already in flight - \"where were we\", \"carry on pondering\", a lost thread mid-loop, or a .ponder/ directory in the project - where the move is to run ponder status rather than start over.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.ponder",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "skills/ponder",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/ponder",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/harness-notes.md",
+    "references/perspectives.md",
+    "references/protocol.md"
+  ],
+  "entry_hash": "e081eeac6ce4a2d22c41d02295ccfda840cb475bfca43d45db16f6e8664c7c63",
+  "content_hash": "0796e42e1af10fcd5cd820c1a218f6e75f1889b970357d75d82882a670ed6e65",
+  "learned_at": "2026-11-02T16:14:02+00:00"
+}

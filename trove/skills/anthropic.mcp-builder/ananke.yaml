@@ -1,7 +1,7 @@
 kind: skill
 namespace: anthropic
 name: mcp-builder
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:anthropic:mcp-builder
 summary: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with
   external services through well-designed tools.
@@ -22,5 +22,5 @@ metadata:
   - anthropic
   - executes-code
   - skill
-  homepage: https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/mcp-builder
+  homepage: https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5/skills/mcp-builder
   repository: https://github.com/anthropics/skills

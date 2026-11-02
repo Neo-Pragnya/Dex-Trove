@@ -1,0 +1,41 @@
+kind: bundle
+namespace: awesome-copilot
+name: pr-artifact-explorer
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:awesome-copilot:pr-artifact-explorer
+summary: Navigate pull requests and workflow runs (including scheduled and manual runs without a PR) and securely
+  explore GitHub Actions artifacts, including test results, static sites, terminal recordings, an…
+description: Navigate pull requests and workflow runs (including scheduled and manual runs without a PR) and securely
+  explore GitHub Actions artifacts, including test results, static sites, terminal recordings, and source files.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/awesome-copilot/pr-artifact-explorer
+  version: '*'
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - actions-artifacts
+  - artifact-browser
+  - awesome-copilot
+  - canvas
+  - copilot-extension
+  - github-actions
+  - plugin
+  - pull-requests
+  - test-results
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/plugins/pr-artifact-explorer
+  repository: https://github.com/github/awesome-copilot

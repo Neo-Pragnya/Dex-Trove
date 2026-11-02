@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: spring-security
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:spring-security
+summary: 'Configure, test and review Spring Security 6/7 in Spring Boot 3/4 apps: SecurityFilterChain lambda DSL,
+  method security, OAuth2 resource server with JWT, OIDC login, CSRF/CORS, password encoding, head…'
+description: 'Configure, test and review Spring Security 6/7 in Spring Boot 3/4 apps: SecurityFilterChain lambda
+  DSL, method security, OAuth2 resource server with JWT, OIDC login, CSRF/CORS, password encoding, headers, actuator
+  protection, and MockMvc security tests. Use when adding or auditing authentication and authorization.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/spring-security
+  repository: https://github.com/github/awesome-copilot

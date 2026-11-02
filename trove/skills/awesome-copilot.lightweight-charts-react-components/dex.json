@@ -1,0 +1,50 @@
+{
+  "id": "awesome-copilot/lightweight-charts-react-components",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "lightweight-charts-react-components",
+  "title": "lightweight-charts-react-components guide",
+  "description": "lightweight-charts-react-components recipes for TradingView lightweight-charts in React. Candlestick, line, and area series; volume and indicator panes; realtime WebSocket updates; infinite history on scroll; crosshair OHLC legends and tooltips; trade markers and price lines; synchronized charts; numeric options and yield-curve axes. Use when adding or fixing a financial or trading chart in a React app, or when the user mentions lightweight-charts, TradingView charts in React, or this package.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.lightweight-charts-react-components",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "skills/lightweight-charts-react-components",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/lightweight-charts-react-components",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "LICENSE",
+    "SKILL.md",
+    "references/history-and-range-selection.md",
+    "references/hover-legends-and-tooltips.md",
+    "references/market-data-and-live-updates.md",
+    "references/numeric-axes-and-chart-types.md",
+    "references/performance-comparison.md",
+    "references/price-volume-and-indicators.md",
+    "references/session-overlays-and-primitives.md",
+    "references/synchronized-charts.md",
+    "references/trade-markers-and-price-levels.md"
+  ],
+  "entry_hash": "12c170372a9e3d807ec33ba6c28da849b50d7019bcfbe7bf44a4a83dd223fa38",
+  "content_hash": "d71e29fb1bdbb5337a0f095dcd1aef9a0fe46bb1b57713bcc71c61fd42150fd8",
+  "learned_at": "2026-11-02T16:14:02+00:00"
+}

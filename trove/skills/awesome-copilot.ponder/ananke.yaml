@@ -1,0 +1,36 @@
+kind: skill
+namespace: awesome-copilot
+name: ponder
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:ponder
+summary: Convergent deliberation loop - repeated grading passes over one subject until the answer stops changing,
+  with coverage enforced so no unit is silently skipped.
+description: Convergent deliberation loop - repeated grading passes over one subject until the answer stops changing,
+  with coverage enforced so no unit is silently skipped. Use when the user says "ponder <anything>" ("ponder the
+  UI", "ponder our error handling"), "think this over properly", "keep thinking until it converges", "keep looping
+  until it converges", "loop on this until it stops changing", "go through all the screens and grade them", "audit/rate/grade
+  every X", or asks for any broad sweep-and-grade across many units where a single pass would miss things. Also
+  use to resume or recover a ponder already in flight - "where were we", "carry on pondering", a lost thread mid-loop,
+  or a .ponder/ directory in the project - where the move is to run ponder status rather than start over.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/ponder
+  repository: https://github.com/github/awesome-copilot

@@ -4,21 +4,21 @@
   "namespace": "awesome-copilot",
   "name": "mcp-security-audit",
   "title": "MCP Security Audit",
-  "description": "Audit MCP (Model Context Protocol) server configurations for security issues. Use this skill when:\n- Reviewing .mcp.json files for security risks\n- Checking MCP server args for hardcoded secrets or shell injection patterns\n- Validating that MCP package-runner dependencies use exact reviewed versions, not bare names, @latest, or ranges\n- Detecting mutable npm/npx, bunx, pnpm dlx, yarn dlx, and npm exec references in MCP configurations\n- Auditing which MCP servers a project registers and whether they're on an approved list\n- Checking for environment variable usage vs. hardcoded credentials in MCP configs\n- Any request like \"is my MCP config secure?\", \"audit my MCP servers\", or \"check .mcp.json\"\nkeywords: [mcp, security, audit, secrets, shell-injection, supply-chain, governance]",
+  "description": "Audit MCP (Model Context Protocol) server configurations for security issues. Use this skill when:\n- Reviewing .mcp.json files for security risks\n- Checking MCP server args for hardcoded secrets or shell injection patterns\n- Validating that MCP package-runner dependencies use exact reviewed versions, not bare names, @latest, or ranges\n- Detecting mutable npm/npx, bunx, pnpm dlx, yarn dlx, npm exec, uvx, uv tool run, and pipx run references in MCP configurations\n- Auditing which MCP servers a project registers and whether they're on an approved list\n- Checking for environment variable usage vs. hardcoded credentials in MCP configs\n- Any request like \"is my MCP config secure?\", \"audit my MCP servers\", or \"check .mcp.json\"\nkeywords: [mcp, security, audit, secrets, shell-injection, supply-chain, governance]",
   "tags": [
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.mcp-security-audit",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
     "path": "skills/mcp-security-audit",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/mcp-security-audit",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/mcp-security-audit",
     "author": null
   },
   "license": {
@@ -34,7 +34,7 @@
   "files": [
     "SKILL.md"
   ],
-  "entry_hash": "7bcc014d001f57ed4d96fcad2e75bdfa9004a33d65e9cecd598305a84427c700",
-  "content_hash": "49c33a2f40ad887632f56e3ac320212153c0beae5edb2ba373a7bf41ef9a2ad7",
-  "learned_at": "2026-10-20T03:28:54+00:00"
+  "entry_hash": "51b57a7da27b41d0003701b6f132be1785c34ff5824fe7af7f86934eecb898ae",
+  "content_hash": "7645b4a29b17feab32c7a09e5e38fef45e343dbe7259e5e1996be073e000ebfc",
+  "learned_at": "2026-11-02T16:14:02+00:00"
 }

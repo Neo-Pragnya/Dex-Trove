@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/openapi-to-application-java-spring-boot",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "openapi-to-application-java-spring-boot",
+  "title": "Spring Boot application from an OpenAPI spec",
+  "description": "Generate a Spring Boot (Java) application from an OpenAPI 3 specification using the spec-first approach: openapi-generator (Maven or Gradle) produces API interfaces and DTOs, you implement controllers, services, persistence, security and tests. Use when asked to build, scaffold or implement a Spring Boot API from an OpenAPI/Swagger file.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.openapi-to-application-java-spring-boot",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "skills/openapi-to-application-java-spring-boot",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/openapi-to-application-java-spring-boot",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0ed7415ef4cca70d520e9267aadab8f1de2fadc1e9c308c71caeaa0782c89ff6",
+  "content_hash": "43d4036827534569c229253da83c3ac01fea0268276f4271b2770b2d1a43c026",
+  "learned_at": "2026-11-02T16:14:02+00:00"
+}

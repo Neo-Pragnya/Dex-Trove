@@ -3,22 +3,22 @@
   "kind": "skill",
   "namespace": "awesome-copilot",
   "name": "java-springboot",
-  "title": "Spring Boot Best Practices",
-  "description": "Get best practices for developing applications with Spring Boot.",
+  "title": "Spring Boot application development",
+  "description": "Write and review application code in an existing Spring Boot 3/4 project: controllers, validation and ProblemDetail errors, Spring Data JPA/JDBC, RestClient and HTTP interfaces, configuration properties, Kafka/AMQP, caching, scheduling, virtual threads, AOT and startup tuning. Use when adding or changing features. To scaffold a new project use create-spring-boot-java-project instead.",
   "tags": [
     "awesome-copilot",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/awesome-copilot.java-springboot",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
     "path": "skills/java-springboot",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/skills/java-springboot",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/java-springboot",
     "author": null
   },
   "license": {
@@ -32,9 +32,14 @@
   "executes_code": false,
   "members": [],
   "files": [
-    "SKILL.md"
+    "SKILL.md",
+    "references/aot-and-startup.md",
+    "references/configuration.md",
+    "references/data.md",
+    "references/messaging-caching.md",
+    "references/rest-api.md"
   ],
-  "entry_hash": "574898202ce298557226c49d35036a6e9e66a1cb205ea15c44db298e6d74e3bd",
-  "content_hash": "e74abd73821e0bf31c36116b94a3e727f3f0ba3af372e5bbf54a6d7288f3f70f",
-  "learned_at": "2026-10-20T03:28:54+00:00"
+  "entry_hash": "c54d94da498251d79ae4bc34fcb824d7cd66fc72ad199637f1189e1df04e01c5",
+  "content_hash": "dfad25c496f8ba0c6325e470f0f88637f69a9b46a7b2965881dac6a4b7916d2a",
+  "learned_at": "2026-11-02T16:14:01+00:00"
 }

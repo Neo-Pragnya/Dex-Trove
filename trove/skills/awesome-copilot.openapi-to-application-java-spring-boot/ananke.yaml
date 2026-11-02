@@ -1,0 +1,32 @@
+kind: skill
+namespace: awesome-copilot
+name: openapi-to-application-java-spring-boot
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:awesome-copilot:openapi-to-application-java-spring-boot
+summary: 'Generate a Spring Boot (Java) application from an OpenAPI 3 specification using the spec-first approach:
+  openapi-generator (Maven or Gradle) produces API interfaces and DTOs, you implement controllers…'
+description: 'Generate a Spring Boot (Java) application from an OpenAPI 3 specification using the spec-first approach:
+  openapi-generator (Maven or Gradle) produces API interfaces and DTOs, you implement controllers, services, persistence,
+  security and tests. Use when asked to build, scaffold or implement a Spring Boot API from an OpenAPI/Swagger file.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - awesome-copilot
+  - skill
+  homepage: https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/openapi-to-application-java-spring-boot
+  repository: https://github.com/github/awesome-copilot

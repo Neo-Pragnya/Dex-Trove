@@ -3,22 +3,22 @@
   "kind": "instruction",
   "namespace": "awesome-copilot",
   "name": "copilot-sdk-csharp",
-  "title": "GitHub Copilot SDK C# Instructions",
-  "description": "This file provides guidance on building C# applications using GitHub Copilot SDK.",
+  "title": "Microsoft Copilot SDK C# Instructions",
+  "description": "This file provides guidance on building C# applications using the Microsoft Copilot SDK.",
   "tags": [
     "awesome-copilot",
     "instruction"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "copilot-sdk-csharp.instructions.md",
   "dir": "instructions/awesome-copilot.copilot-sdk-csharp",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
     "path": "instructions/copilot-sdk-csharp.instructions.md",
-    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/copilot-sdk-csharp.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/instructions/copilot-sdk-csharp.instructions.md",
     "author": null
   },
   "license": {
@@ -34,8 +34,8 @@
   "files": [
     "copilot-sdk-csharp.instructions.md"
   ],
-  "entry_hash": "abc8d011808490bb1c5900c0a99b580dbc393838f942bf494d6f26684b5f1770",
-  "content_hash": "5b162c567bb23768ec8544d950b5debd54d4f0e22180ba8786720aadd5f1abf5",
-  "learned_at": "2026-10-20T03:28:57+00:00",
+  "entry_hash": "f9a08e2ce04ec3ce69bfa76e093e8e72d28004084950540dd26c701a6c4c741b",
+  "content_hash": "679223d69f40bf5767b309ec1c847cd5acbcb906cff12ce65450724344579187",
+  "learned_at": "2026-11-02T16:14:06+00:00",
   "apply_to": "**.cs, **.csproj"
 }

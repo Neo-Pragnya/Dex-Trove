@@ -3,8 +3,8 @@
   "kind": "plugin",
   "namespace": "awesome-copilot",
   "name": "copilot-sdk",
-  "title": "Copilot SDK Plugin",
-  "description": "Build applications with the GitHub Copilot SDK across multiple programming languages. Includes comprehensive instructions for C#, Go, Node.js/TypeScript, and Python to help you create AI-powered applications.",
+  "title": "Microsoft Copilot SDK Plugin",
+  "description": "Build applications with the Microsoft Copilot SDK, transitioning from GitHub Copilot SDK, across multiple programming languages. Includes instructions for C#, Go, Node.js/TypeScript, and Python.",
   "tags": [
     "ai",
     "awesome-copilot",
@@ -18,16 +18,16 @@
     "sdk",
     "typescript"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "README.md",
   "dir": "plugins/awesome-copilot.copilot-sdk",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
     "path": "plugins/copilot-sdk",
-    "url": "https://github.com/github/awesome-copilot/tree/613efc8c21d9b3ce642dff361d17006cd9967e28/plugins/copilot-sdk",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/plugins/copilot-sdk",
     "author": "Awesome Copilot Community"
   },
   "license": {
@@ -46,7 +46,7 @@
     "README.md",
     "plugin.json"
   ],
-  "entry_hash": "461180b2ece05db3f239e4fa8906042f5ca45aa3cd5e0a981f1b05b4a17452d4",
-  "content_hash": "a87932b20d8fbd054dd233c04e60eed69c3403e3d78d9e89cde92f9e05c4306d",
-  "learned_at": "2026-10-20T04:06:50+00:00"
+  "entry_hash": "6da32bef2cab968f644708f74041c6bdf96c7b685589fd18a524e158fe1d7193",
+  "content_hash": "702638ddac066c34775b7589d98728b426aad50a7706381f19174234691ee034",
+  "learned_at": "2026-11-02T16:14:07+00:00"
 }

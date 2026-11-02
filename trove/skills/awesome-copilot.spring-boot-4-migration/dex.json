@@ -1,0 +1,51 @@
+{
+  "id": "awesome-copilot/spring-boot-4-migration",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "spring-boot-4-migration",
+  "title": "Spring Boot 3.x to 4.0 Migration",
+  "description": "Migrate a Spring Boot 3.x application to Spring Boot 4.0 (Spring Framework 7, Jackson 3, modular starters, JSpecify). Use only for an explicit Boot 3.x to 4 migration, or to fix build or test failures caused by it, or to review one. Not for 3.x patch bumps or 4.0 to 4.1 upgrades; follow the target Boot version release notes and upgrade guide for those. Covers Maven and Gradle (Kotlin DSL, version catalogs).",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.spring-boot-4-migration",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "skills/spring-boot-4-migration",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/spring-boot-4-migration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/01-prerequisites.md",
+    "references/02-starters-and-removed-features.md",
+    "references/03-jackson-3.md",
+    "references/04-core-framework.md",
+    "references/05-build-and-dependencies.md",
+    "references/06-configuration-properties.md",
+    "references/07-web-and-messaging.md",
+    "references/08-testing.md",
+    "references/09-actuator-and-observability.md",
+    "references/10-kotlin-and-java-build-config.md",
+    "references/11-checklist-pitfalls-resources.md"
+  ],
+  "entry_hash": "f4773b02825a785827df4107ff5a07c8bd51828c5190aaa2171b872b272e3c66",
+  "content_hash": "5451b05aca5f1a11888b519a74b49ea1cdc1a5c62c4b9f526db1c4bdc90a6dde",
+  "learned_at": "2026-11-02T16:14:03+00:00"
+}

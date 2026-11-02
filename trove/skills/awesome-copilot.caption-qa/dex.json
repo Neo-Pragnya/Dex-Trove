@@ -1,0 +1,40 @@
+{
+  "id": "awesome-copilot/caption-qa",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "caption-qa",
+  "title": "Caption QA",
+  "description": "Check SRT or WebVTT captions and subtitles against published standards (Netflix English, BBC subtitle guidelines, DCMP Captioning Key) for reading speed, line length, line count, time on screen, gaps and overlaps, then fix failures by retiming before rewording. Use when asked to QA, lint or validate captions, check whether subtitles read too fast, prepare captions for Netflix, broadcast or educational delivery, or add a caption check to CI.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.caption-qa",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "skills/caption-qa",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/caption-qa",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "bfeb304c8de9f756df16368943fdcf79af27b413b4196fe723c009fbc85a8665",
+  "content_hash": "38025024f5be3a99213f995b4a4840e8348d90597a1aed9fef1a3861746fa465",
+  "learned_at": "2026-11-02T16:13:59+00:00"
+}

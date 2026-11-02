@@ -9,16 +9,16 @@
     "awesome-copilot",
     "instruction"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "springboot.instructions.md",
   "dir": "instructions/awesome-copilot.springboot",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
     "path": "instructions/springboot.instructions.md",
-    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/springboot.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/instructions/springboot.instructions.md",
     "author": null
   },
   "license": {
@@ -34,8 +34,8 @@
   "files": [
     "springboot.instructions.md"
   ],
-  "entry_hash": "c98e5ff2ef76f4402fe4ad8f28da4f91b02aacc338a9f77147b66a95b105598c",
-  "content_hash": "e9cf72e3a52a1276bb7f7bca03a042025d9902c340d3801e38f55fb8a6895f6f",
-  "learned_at": "2026-10-20T03:28:58+00:00",
-  "apply_to": "**/*.java, **/*.kt"
+  "entry_hash": "ca6dfaa648494b0fef8447d5be873310d0663aaa4f581e25eeb36017eb2635e4",
+  "content_hash": "a136f6c000934abee73afd2231ff51d4e1f0b3b7dd1128e231d33cf1af1de86a",
+  "learned_at": "2026-11-02T16:14:07+00:00",
+  "apply_to": "**/*.java"
 }

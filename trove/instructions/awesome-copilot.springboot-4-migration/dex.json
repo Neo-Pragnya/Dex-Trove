@@ -3,22 +3,22 @@
   "kind": "instruction",
   "namespace": "awesome-copilot",
   "name": "springboot-4-migration",
-  "title": "Spring Boot 3.x to 4.0 Migration Guide",
-  "description": "Comprehensive guide for migrating Spring Boot applications from 3.x to 4.0, focusing on Gradle Kotlin DSL and version catalogs",
+  "title": "Spring Boot 4.0 Migration",
+  "description": "Pointer to the spring-boot-4-migration skill for upgrading Spring Boot 3.x projects to 4.0",
   "tags": [
     "awesome-copilot",
     "instruction"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "springboot-4-migration.instructions.md",
   "dir": "instructions/awesome-copilot.springboot-4-migration",
   "source": {
     "id": "awesome-copilot",
     "title": "Awesome GitHub Copilot",
     "repo": "https://github.com/github/awesome-copilot",
-    "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
     "path": "instructions/springboot-4-migration.instructions.md",
-    "url": "https://github.com/github/awesome-copilot/blob/613efc8c21d9b3ce642dff361d17006cd9967e28/instructions/springboot-4-migration.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/instructions/springboot-4-migration.instructions.md",
     "author": null
   },
   "license": {
@@ -34,8 +34,8 @@
   "files": [
     "springboot-4-migration.instructions.md"
   ],
-  "entry_hash": "993639ed03c81c15ed39b3f723c574ae64f997ea408d380553090a8fd2ad2771",
-  "content_hash": "60f6cb06321595eceb5d5c0ff5d2b9be2f7f68d18ffad0343b0dfcb124edf346",
-  "learned_at": "2026-10-20T03:28:58+00:00",
-  "apply_to": "**/*.java, **/*.kt, **/build.gradle.kts, **/build.gradle, **/settings.gradle.kts, **/gradle/libs.versions.toml, **/*.properties, **/*.yml, **/*.yaml"
+  "entry_hash": "3735c08bec00e2c87d39624403f23af3feb3157773691bf157eae0d101d3587f",
+  "content_hash": "3b5cf18ca617ce3da99cfb240761e807aa4f8e9f4653543b8dcd9895e0fc112b",
+  "learned_at": "2026-11-02T16:14:07+00:00",
+  "apply_to": "**/pom.xml, **/build.gradle, **/build.gradle.kts, **/settings.gradle.kts, **/gradle/libs.versions.toml"
 }

@@ -1,0 +1,41 @@
+{
+  "id": "awesome-copilot/godot-4-gdscript",
+  "kind": "instruction",
+  "namespace": "awesome-copilot",
+  "name": "godot-4-gdscript",
+  "title": "Godot 4 GDScript 2.0 (no Godot 3 syntax)",
+  "description": "Prevent Godot 3 syntax in Godot 4 projects: GDScript 2.0 annotations, await, setters, @rpc, typed signals and Callables",
+  "tags": [
+    "awesome-copilot",
+    "instruction"
+  ],
+  "version": "1.0.0",
+  "entry": "godot-4-gdscript.instructions.md",
+  "dir": "instructions/awesome-copilot.godot-4-gdscript",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "instructions/godot-4-gdscript.instructions.md",
+    "url": "https://github.com/github/awesome-copilot/blob/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/instructions/godot-4-gdscript.instructions.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "godot-4-gdscript.instructions.md"
+  ],
+  "entry_hash": "bcbd31799ced57ae10e5453b0910948d6cd96b158c3adbaa338f3591926662f5",
+  "content_hash": "1ee00ae4e50887de763abfa142d4662675728d281dee147037e23e911996d26d",
+  "learned_at": "2026-11-02T16:14:06+00:00",
+  "apply_to": "**/*.gd"
+}

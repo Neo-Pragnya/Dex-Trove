@@ -1,0 +1,45 @@
+{
+  "id": "awesome-copilot/spring-observability",
+  "kind": "skill",
+  "namespace": "awesome-copilot",
+  "name": "spring-observability",
+  "title": "Spring Boot observability",
+  "description": "Add and review observability in Spring Boot 3/4 apps: Actuator exposure and health probes, Micrometer metrics, Observation API, OpenTelemetry tracing and OTLP/Prometheus export, structured logging with correlation ids, and safe use of heapdump/threaddump. Use when instrumenting, monitoring or troubleshooting a Spring Boot service.",
+  "tags": [
+    "awesome-copilot",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/awesome-copilot.spring-observability",
+  "source": {
+    "id": "awesome-copilot",
+    "title": "Awesome GitHub Copilot",
+    "repo": "https://github.com/github/awesome-copilot",
+    "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+    "path": "skills/spring-observability",
+    "url": "https://github.com/github/awesome-copilot/tree/61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb/skills/spring-observability",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/actuator.md",
+    "references/dumps-and-diagnostics.md",
+    "references/logging.md",
+    "references/metrics.md",
+    "references/tracing-observation.md"
+  ],
+  "entry_hash": "1bbce3437e58b111ebd0dc2556068c6b1f49e8ce95e4571252774b0e699f86b3",
+  "content_hash": "009997ac11d7efe8e43fea76f6dbc002ad9cb32a724e8853dab641341cd51be8",
+  "learned_at": "2026-11-02T16:14:03+00:00"
+}

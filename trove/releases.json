@@ -2433,6 +2433,25 @@
         }
       ]
     },
+    "agent:awesome-copilot/openapi-to-application-java-spring-boot": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "db4798275a50d0a217f71338ad35433c34de3464a94c0d346cd9b48a8296c503",
+          "entry": "openapi-to-application-java-spring-boot.agent.md",
+          "files": [
+            "openapi-to-application-java-spring-boot.agent.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "agents/openapi-to-application-java-spring-boot.agent.md"
+          },
+          "released_at": "2026-11-02T16:14:05+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "agent:awesome-copilot/oracle-to-postgres-migration-expert": {
       "releases": [
         {
@@ -4789,6 +4808,25 @@
         }
       ]
     },
+    "instruction:awesome-copilot/bulma-v1": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "a699994237b1c70e2c10d2319323a6fd1c9320917b6bf55bf42d859834e6b8c2",
+          "entry": "bulma-v1.instructions.md",
+          "files": [
+            "bulma-v1.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/bulma-v1.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "instruction:awesome-copilot/caveman-mode": {
       "releases": [
         {
@@ -4995,6 +5033,21 @@
           },
           "released_at": "2026-10-20T03:28:57+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "5d943bd10cf76b142baceb71c3740eb0a518f14e35168c02a0714ac36ad8dd14",
+          "entry": "convert-cassandra-to-spring-data-cosmos.instructions.md",
+          "files": [
+            "convert-cassandra-to-spring-data-cosmos.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/convert-cassandra-to-spring-data-cosmos.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -5013,6 +5066,21 @@
             "path": "instructions/convert-jpa-to-spring-data-cosmos.instructions.md"
           },
           "released_at": "2026-10-20T03:28:57+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "005d3e6855a9149ad413ddf4975d195bd30a5a6950abf78ec462d97daca572d2",
+          "entry": "convert-jpa-to-spring-data-cosmos.instructions.md",
+          "files": [
+            "convert-jpa-to-spring-data-cosmos.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/convert-jpa-to-spring-data-cosmos.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
           "channel": "stable"
         }
       ]
@@ -5033,6 +5101,21 @@
           },
           "released_at": "2026-10-20T03:28:57+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "679223d69f40bf5767b309ec1c847cd5acbcb906cff12ce65450724344579187",
+          "entry": "copilot-sdk-csharp.instructions.md",
+          "files": [
+            "copilot-sdk-csharp.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/copilot-sdk-csharp.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -5051,6 +5134,21 @@
             "path": "instructions/copilot-sdk-go.instructions.md"
           },
           "released_at": "2026-10-20T03:28:57+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "9003d0114223a00edd0c953f4e186f117bb6a632ee1dc1371fa5e8fd12c674a4",
+          "entry": "copilot-sdk-go.instructions.md",
+          "files": [
+            "copilot-sdk-go.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/copilot-sdk-go.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
           "channel": "stable"
         }
       ]
@@ -5071,6 +5169,21 @@
           },
           "released_at": "2026-10-20T03:28:57+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "98f1b1664c5d304839b82ecbdf68625cb668ec67fbabb8d6d2390f16a3b144b7",
+          "entry": "copilot-sdk-java.instructions.md",
+          "files": [
+            "copilot-sdk-java.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/copilot-sdk-java.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -5090,6 +5203,21 @@
           },
           "released_at": "2026-10-20T03:28:58+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "8c48a2b81fef78f76f2000d1269a634fcd0a7764c3abb524127433a296ed7390",
+          "entry": "copilot-sdk-nodejs.instructions.md",
+          "files": [
+            "copilot-sdk-nodejs.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/copilot-sdk-nodejs.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -5108,6 +5236,21 @@
             "path": "instructions/copilot-sdk-python.instructions.md"
           },
           "released_at": "2026-10-20T03:28:58+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "4a2a06e8dd8ade982d48a31540594d8d75636c72c2e3590a40295c0a20f03435",
+          "entry": "copilot-sdk-python.instructions.md",
+          "files": [
+            "copilot-sdk-python.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/copilot-sdk-python.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
           "channel": "stable"
         }
       ]
@@ -5891,6 +6034,25 @@
         }
       ]
     },
+    "instruction:awesome-copilot/godot-4-gdscript": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "1ee00ae4e50887de763abfa142d4662675728d281dee147037e23e911996d26d",
+          "entry": "godot-4-gdscript.instructions.md",
+          "files": [
+            "godot-4-gdscript.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/godot-4-gdscript.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "instruction:awesome-copilot/hooks": {
       "releases": [
         {
@@ -5983,6 +6145,21 @@
           },
           "released_at": "2026-10-20T03:28:58+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "e0b26616b8f208b5fdceb946eed48b7719f44212b75ae0f8ed73ba3622f58a62",
+          "entry": "java-junit5-assertions.instructions.md",
+          "files": [
+            "java-junit5-assertions.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/java-junit5-assertions.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -6001,6 +6178,21 @@
             "path": "instructions/java-mcp-server.instructions.md"
           },
           "released_at": "2026-10-20T03:28:58+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "8c83c91054b14b6de28965db28de115ef840b34d5cd8ecf09e539021b96f1ea0",
+          "entry": "java-mcp-server.instructions.md",
+          "files": [
+            "java-mcp-server.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/java-mcp-server.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:06+00:00",
           "channel": "stable"
         }
       ]
@@ -7522,6 +7714,21 @@
           },
           "released_at": "2026-10-20T03:28:58+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "a136f6c000934abee73afd2231ff51d4e1f0b3b7dd1128e231d33cf1af1de86a",
+          "entry": "springboot.instructions.md",
+          "files": [
+            "springboot.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/springboot.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:07+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -7540,6 +7747,40 @@
             "path": "instructions/springboot-4-migration.instructions.md"
           },
           "released_at": "2026-10-20T03:28:58+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "3b5cf18ca617ce3da99cfb240761e807aa4f8e9f4653543b8dcd9895e0fc112b",
+          "entry": "springboot-4-migration.instructions.md",
+          "files": [
+            "springboot-4-migration.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/springboot-4-migration.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:07+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "instruction:awesome-copilot/sql-server-safe-tsql": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "4116e549e8b3e16504202359797ebdd79df80b3f9a61ebcbec223e6567f76859",
+          "entry": "sql-server-safe-tsql.instructions.md",
+          "files": [
+            "sql-server-safe-tsql.instructions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "instructions/sql-server-safe-tsql.instructions.md"
+          },
+          "released_at": "2026-11-02T16:14:07+00:00",
           "channel": "stable"
         }
       ]
@@ -8223,6 +8464,22 @@
           },
           "released_at": "2026-10-20T04:06:50+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "702638ddac066c34775b7589d98728b426aad50a7706381f19174234691ee034",
+          "entry": "README.md",
+          "files": [
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "plugins/copilot-sdk"
+          },
+          "released_at": "2026-11-02T16:14:07+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -8447,6 +8704,26 @@
         }
       ]
     },
+    "plugin:awesome-copilot/foundry-agentic-loop": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "99ee5362be4f62dc8ceff73f62e5ef25978d169add8ae8a824213ca2ae83f8ed",
+          "entry": "README.md",
+          "files": [
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "plugins/foundry-agentic-loop"
+          },
+          "released_at": "2026-11-02T16:14:07+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "plugin:awesome-copilot/foundry-hosted-agent-copilotkit": {
       "releases": [
         {
@@ -8504,6 +8781,27 @@
             "path": "plugins/gem-team"
           },
           "released_at": "2026-10-20T03:28:59+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "plugin:awesome-copilot/globestudio": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "355e76d8093e62cef40f79121a9b9d1e028757e707487de6f678e5bac6b82034",
+          "entry": "README.md",
+          "files": [
+            "README.md",
+            "mcp.json",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "plugins/globestudio"
+          },
+          "released_at": "2026-11-02T16:14:07+00:00",
           "channel": "stable"
         }
       ]
@@ -8928,6 +9226,26 @@
         }
       ]
     },
+    "plugin:awesome-copilot/pr-artifact-explorer": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "379c0380c4f5c6bfad4ca8b7e52b5322d4e3db750a06bc3c408e692fcdad676d",
+          "entry": "README.md",
+          "files": [
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "plugins/pr-artifact-explorer"
+          },
+          "released_at": "2026-11-02T16:14:08+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "plugin:awesome-copilot/project-documenter": {
       "releases": [
         {
@@ -9284,6 +9602,22 @@
             "path": "plugins/the-workshop"
           },
           "released_at": "2026-10-20T03:28:59+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "0.1.1",
+          "content_hash": "5561914339913ed722cb86e91f59bae19b080d5370923cd7bd6fb5cbf26dbf42",
+          "entry": "README.md",
+          "files": [
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "plugins/the-workshop"
+          },
+          "released_at": "2026-11-02T16:14:08+00:00",
           "channel": "stable"
         }
       ]
@@ -9737,6 +10071,31 @@
             "path": "skills/mcp-builder"
           },
           "released_at": "2026-10-20T03:29:00+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "02965c518954cd2e493b6099bd667e47b403747a73443cb5c2e5c8d506455ac3",
+          "entry": "SKILL.md",
+          "files": [
+            "LICENSE.txt",
+            "SKILL.md",
+            "reference/evaluation.md",
+            "reference/mcp_best_practices.md",
+            "reference/node_mcp_server.md",
+            "reference/node_mcp_server_v2.md",
+            "reference/python_mcp_server.md",
+            "scripts/connections.py",
+            "scripts/evaluation.py",
+            "scripts/example_evaluation.xml",
+            "scripts/requirements.txt"
+          ],
+          "source": {
+            "repo": "https://github.com/anthropics/skills",
+            "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+            "path": "skills/mcp-builder"
+          },
+          "released_at": "2026-11-02T16:14:09+00:00",
           "channel": "stable"
         }
       ]
@@ -10946,6 +11305,31 @@
         }
       ]
     },
+    "skill:awesome-copilot/azure-logic-apps-standard-cli": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "4c3cd2faa082e1a123fa25e923af1acf1b8437984ed79da8cdf5b96efc275487",
+          "entry": "SKILL.md",
+          "files": [
+            "README.md",
+            "SKILL.md",
+            "references/connections.md",
+            "references/live-operations.md",
+            "references/local-runtime.md",
+            "references/packaging-deployment.md",
+            "references/testing.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/azure-logic-apps-standard-cli"
+          },
+          "released_at": "2026-11-02T16:13:59+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:awesome-copilot/azure-pricing": {
       "releases": [
         {
@@ -11395,6 +11779,25 @@
         }
       ]
     },
+    "skill:awesome-copilot/caption-qa": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "38025024f5be3a99213f995b4a4840e8348d90597a1aed9fef1a3861746fa465",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/caption-qa"
+          },
+          "released_at": "2026-11-02T16:13:59+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:awesome-copilot/centos-linux-triage": {
       "releases": [
         {
@@ -11612,6 +12015,22 @@
           },
           "released_at": "2026-10-20T03:28:51+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "18adce47ea968b7c591a85f6a9ea5470d64dddeb5fe25040cd3decbdc2e96ba6",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/conventional-commits-guide.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/commit-message-storyteller"
+          },
+          "released_at": "2026-11-02T16:13:59+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -11726,6 +12145,21 @@
             "path": "skills/conventional-branch"
           },
           "released_at": "2026-10-20T03:28:51+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "cf8766a78934107eb5aeec7dd05a0cb818d22849ba51653896301b1c6b4364f1",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/conventional-branch"
+          },
+          "released_at": "2026-11-02T16:13:59+00:00",
           "channel": "stable"
         }
       ]
@@ -11929,6 +12363,21 @@
             "path": "skills/copilot-sdk"
           },
           "released_at": "2026-10-20T03:28:52+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "83817dc330131ebe4ab5a8ba5f24573411c882a5e749d3d12c2781795eed53f3",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/copilot-sdk"
+          },
+          "released_at": "2026-11-02T16:14:00+00:00",
           "channel": "stable"
         }
       ]
@@ -12223,6 +12672,33 @@
             "path": "skills/create-spring-boot-java-project"
           },
           "released_at": "2026-10-20T03:28:52+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "18ec520fafa05ecab02eb42a55ca0c98fad0c190d45abaa7e08c7ed4f90ae345",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "assets/Dockerfile",
+            "assets/Dockerfile-gradle",
+            "assets/Dockerfile-native",
+            "assets/Dockerfile-native-gradle",
+            "references/PROVENANCE.md",
+            "references/configuration.md",
+            "references/database.md",
+            "references/docker.md",
+            "references/logging.md",
+            "references/security.md",
+            "references/spring-boot-4.md",
+            "references/versions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/create-spring-boot-java-project"
+          },
+          "released_at": "2026-11-02T16:14:00+00:00",
           "channel": "stable"
         }
       ]
@@ -13144,6 +13620,27 @@
         }
       ]
     },
+    "skill:awesome-copilot/embedding-anisotropy-check": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "423c5fcf85546eb9d804c5acee743dea9db4de6cfd9b0dcb54092545554543fc",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "scripts/anisotropy_check.py",
+            "scripts/example_scifact_halves.py"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/embedding-anisotropy-check"
+          },
+          "released_at": "2026-11-02T16:14:00+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:awesome-copilot/entra-agent-user": {
       "releases": [
         {
@@ -13539,6 +14036,79 @@
         }
       ]
     },
+    "skill:awesome-copilot/foundry-agentic-loop": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "9bf95e9ae20ce435f677a80ce31000f32847d018959fd278e1126b4a5b8bf47a",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "assets/agents-md-rapid.md",
+            "assets/agents-md-sdd.md",
+            "assets/deployment-plan-template.md",
+            "assets/devcontainer.json",
+            "assets/loop-template.md",
+            "assets/spec-template.md",
+            "evals/evals.json",
+            "evals/fixtures/improve-history/.agentic-loop/runs/wr_101.json",
+            "evals/fixtures/improve-history/.agentic-loop/runs/wr_117.json",
+            "evals/fixtures/improve-history/.agentic-loop/runs/wr_123.json",
+            "evals/fixtures/improve-history/AGENTS.md",
+            "evals/fixtures/improve-history/docs/LOOP.md",
+            "evals/fixtures/rapid-locked/.azure/deployment-plan.md",
+            "evals/fixtures/rapid-locked/.env",
+            "evals/fixtures/rapid-locked/AGENTS.md",
+            "evals/fixtures/rapid-locked/README.md",
+            "evals/fixtures/rapid-locked/gitignore",
+            "evals/fixtures/sdd-deployed/.agentic-loop/runs/wr_88.json",
+            "evals/fixtures/sdd-deployed/.azure/deployment-plan.md",
+            "evals/fixtures/sdd-deployed/AGENTS.md",
+            "evals/fixtures/sdd-deployed/docs/spec.md",
+            "evals/fixtures/sdd-deployed/docs/verify.md",
+            "evals/fixtures/sdd-paused/.agentic-loop/runs/wr_42.json",
+            "evals/fixtures/sdd-paused/AGENTS.md",
+            "evals/fixtures/sdd-paused/docs/LOOP.md",
+            "evals/fixtures/sdd-paused/docs/spec.md",
+            "evals/fixtures/sdd-paused/docs/verify.md",
+            "evals/fixtures/sdd-paused/src/backend/routing.py",
+            "evals/fixtures/sdd-paused/tests/contract/test_routing.py",
+            "evals/fixtures/team-conventions/AGENTS.md",
+            "references/azd-layout.md",
+            "references/build-skills-catalog.md",
+            "references/check_rbac_preflight.py",
+            "references/copilot-sdk-foundry.md",
+            "references/copilot-sdk-with-toolbox.py",
+            "references/deploy.md",
+            "references/foundry-hosted-agent.md",
+            "references/foundry-iq-grounding.md",
+            "references/foundry-models.md",
+            "references/foundry-toolbox.md",
+            "references/hosted-integration-checkpoint.md",
+            "references/implement.md",
+            "references/implementation-contract.md",
+            "references/improve.md",
+            "references/observability.md",
+            "references/rapid.md",
+            "references/rbac-contract.md",
+            "references/rbac-preflight.md",
+            "references/reference-architecture.md",
+            "references/run-skills-catalog.md",
+            "references/sdd.md",
+            "references/specify.md",
+            "references/verify.md",
+            "scripts/evals.mjs"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/foundry-agentic-loop"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:awesome-copilot/foundry-hosted-agent-copilotkit": {
       "releases": [
         {
@@ -13852,6 +14422,21 @@
           },
           "released_at": "2026-10-20T03:28:53+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "2c995ab5d4496fe6605329025f93ba7c35d18cecc02668efafa986b80573bfc8",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/git-commit"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -14046,6 +14631,28 @@
             "path": "skills/gitmoji"
           },
           "released_at": "2026-10-20T03:28:54+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/globestudio": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "9d819ee3d32a5cd2d9cb0531d81134d12eb1628437044cb4d379c9c1e19241a0",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/config.md",
+            "references/embedding.md",
+            "references/looks.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/globestudio"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
           "channel": "stable"
         }
       ]
@@ -14471,6 +15078,96 @@
           },
           "released_at": "2026-10-20T03:28:54+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "3addd4ecbb9f76813388ebbfbbb8cb1b784bb993c6cbb93762f246760b1c6ea9",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/build-tools.md",
+            "references/micronaut.md",
+            "references/quarkus.md",
+            "references/reachability-metadata.md",
+            "references/spring-boot.md",
+            "references/troubleshooting.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-add-graalvm-native-image-support"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/java-debugging": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "f185b6bb4e6094b46b2c892683cdf2c66288525b85d40e8ec2640ab64fc84aab",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/stack-traces.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-debugging"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/java-development": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "a044313c8ea173105b3642248a5a586de8a03419d3b23a4b723aff12589ccfc3",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/build-and-dependencies.md",
+            "references/modern-java.md",
+            "references/quality-and-packaging.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-development"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/java-diagnostics": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "ffac40830c1b1586f263771a906d1ef7197043d2b16912ca1c9781f6b24acec9",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/async-profiler.md",
+            "references/containers.md",
+            "references/gc.md",
+            "references/heap.md",
+            "references/jcmd-basics.md",
+            "references/jfr.md",
+            "references/native-memory.md",
+            "references/thread-dumps.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-diagnostics"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -14489,6 +15186,21 @@
             "path": "skills/java-docs"
           },
           "released_at": "2026-10-20T03:28:54+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "883ea0ec2fcff8e2e92521c8f8e4ebfd2971ca98112224059441a735d4eef4b3",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-docs"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
           "channel": "stable"
         }
       ]
@@ -14512,6 +15224,31 @@
         }
       ]
     },
+    "skill:awesome-copilot/java-hibernate-jpa": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "ca4625d3834da155b8aa001cb10269d7aaf7a7827dee43c0878935df05b60f72",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/associations-and-cascade.md",
+            "references/fetching-and-n-plus-one.md",
+            "references/identifiers-and-entity-design.md",
+            "references/locking-transactions-caching.md",
+            "references/queries-pagination-batching.md",
+            "references/tooling-and-versions.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-hibernate-jpa"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:awesome-copilot/java-junit": {
       "releases": [
         {
@@ -14527,6 +15264,23 @@
             "path": "skills/java-junit"
           },
           "released_at": "2026-10-20T03:28:54+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "c554f2d121267fe81ff89ca7150eb91d416759bf344d3b1f00f8dec57bcda41f",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/assertj-and-mockito.md",
+            "references/build-setup.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-junit"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
           "channel": "stable"
         }
       ]
@@ -14549,6 +15303,23 @@
           },
           "released_at": "2026-10-20T03:28:54+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "9ae6dca9c7cbf2b6c261a93493f9c5892c13cd80c123b011f1ea029f88f8739e",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/gradle.md",
+            "references/streamable-http.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-mcp-server-generator"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -14567,6 +15338,21 @@
             "path": "skills/java-refactoring-extract-method"
           },
           "released_at": "2026-10-20T03:28:54+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "f86185d10288d5b3cd44643bd940379d1c6ca9e2fd32c4c34ea200c3d917d9c7",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-refactoring-extract-method"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
           "channel": "stable"
         }
       ]
@@ -14587,6 +15373,21 @@
           },
           "released_at": "2026-10-20T03:28:54+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "edc575c0c0b054f044e32b16f7e05f097bd9712a76cd991c3b5ae0c49fb0c376",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-refactoring-remove-parameter"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -14605,6 +15406,48 @@
             "path": "skills/java-springboot"
           },
           "released_at": "2026-10-20T03:28:54+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "dfad25c496f8ba0c6325e470f0f88637f69a9b46a7b2965881dac6a4b7916d2a",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/aot-and-startup.md",
+            "references/configuration.md",
+            "references/data.md",
+            "references/messaging-caching.md",
+            "references/rest-api.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-springboot"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/java-testcontainers": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "50d5912b193f4d37e701cc8d7fe813e2ea1646e2bf159e0a70cacadf40078398",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/containers-and-waiting.md",
+            "references/environment-ci-troubleshooting.md",
+            "references/lifecycle-and-reuse.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/java-testcontainers"
+          },
+          "released_at": "2026-11-02T16:14:01+00:00",
           "channel": "stable"
         }
       ]
@@ -14805,6 +15648,35 @@
         }
       ]
     },
+    "skill:awesome-copilot/lightweight-charts-react-components": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "d71e29fb1bdbb5337a0f095dcd1aef9a0fe46bb1b57713bcc71c61fd42150fd8",
+          "entry": "SKILL.md",
+          "files": [
+            "LICENSE",
+            "SKILL.md",
+            "references/history-and-range-selection.md",
+            "references/hover-legends-and-tooltips.md",
+            "references/market-data-and-live-updates.md",
+            "references/numeric-axes-and-chart-types.md",
+            "references/performance-comparison.md",
+            "references/price-volume-and-indicators.md",
+            "references/session-overlays-and-primitives.md",
+            "references/synchronized-charts.md",
+            "references/trade-markers-and-price-levels.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/lightweight-charts-react-components"
+          },
+          "released_at": "2026-11-02T16:14:02+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:awesome-copilot/linkedin-post-formatter": {
       "releases": [
         {
@@ -14841,6 +15713,23 @@
             "path": "skills/lsp-setup"
           },
           "released_at": "2026-10-20T03:28:54+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "4f7bcf0c2c1274aab661c63c9e6a9d9978d03a2bb1d4e753e4c29f9557dbc17c",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/java-jdtls.md",
+            "references/lsp-servers.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/lsp-setup"
+          },
+          "released_at": "2026-11-02T16:14:02+00:00",
           "channel": "stable"
         }
       ]
@@ -14942,6 +15831,30 @@
             "path": "skills/markdown-to-html"
           },
           "released_at": "2026-10-20T03:28:54+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/markdown-to-word-mermaid": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "967d31894d9bdba6c44419c809ea6b9f7ed432fb5696df247ebd29b79270a670",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "assets/example.md",
+            "references/publication.md",
+            "scripts/markdown_to_word.py",
+            "scripts/requirements.txt",
+            "tests/test_markdown_to_word.py"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/markdown-to-word-mermaid"
+          },
+          "released_at": "2026-11-02T16:14:02+00:00",
           "channel": "stable"
         }
       ]
@@ -15114,6 +16027,21 @@
             "path": "skills/mcp-security-audit"
           },
           "released_at": "2026-10-20T03:28:54+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "7645b4a29b17feab32c7a09e5e38fef45e343dbe7259e5e1996be073e000ebfc",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/mcp-security-audit"
+          },
+          "released_at": "2026-11-02T16:14:02+00:00",
           "channel": "stable"
         }
       ]
@@ -15633,6 +16561,25 @@
         }
       ]
     },
+    "skill:awesome-copilot/npm-trusted-publishing": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "691362d199ebe3a58d6883993bdfd3be43c5493c526e817bc2f42c6d0935c7ee",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/npm-trusted-publishing"
+          },
+          "released_at": "2026-11-02T16:14:02+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:awesome-copilot/nuget-manager": {
       "releases": [
         {
@@ -15708,6 +16655,25 @@
             "path": "skills/openapi-to-application-code"
           },
           "released_at": "2026-10-20T03:28:54+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/openapi-to-application-java-spring-boot": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "43d4036827534569c229253da83c3ac01fea0268276f4271b2770b2d1a43c026",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/openapi-to-application-java-spring-boot"
+          },
+          "released_at": "2026-11-02T16:14:02+00:00",
           "channel": "stable"
         }
       ]
@@ -16103,6 +17069,28 @@
         }
       ]
     },
+    "skill:awesome-copilot/ponder": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "0796e42e1af10fcd5cd820c1a218f6e75f1889b970357d75d82882a670ed6e65",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/harness-notes.md",
+            "references/perspectives.md",
+            "references/protocol.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/ponder"
+          },
+          "released_at": "2026-11-02T16:14:02+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:awesome-copilot/postgresql-code-review": {
       "releases": [
         {
@@ -16294,6 +17282,44 @@
             "path": "skills/powerbi-modeling"
           },
           "released_at": "2026-10-20T03:28:55+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/pr-address-feedback": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "81411c23777372e05f65fb80a0fbdd9162b5251b29f203912bfa64f374dd0e54",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/pr-address-feedback"
+          },
+          "released_at": "2026-11-02T16:14:02+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/pr-artifact-explorer": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "1a759515d22e7c07037eea4b355ee4af6fda9021d9e51e7ed3a978fcfad0f93c",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/pr-artifact-explorer"
+          },
+          "released_at": "2026-11-02T16:14:02+00:00",
           "channel": "stable"
         }
       ]
@@ -17861,6 +18887,36 @@
         }
       ]
     },
+    "skill:awesome-copilot/spring-boot-4-migration": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "5451b05aca5f1a11888b519a74b49ea1cdc1a5c62c4b9f526db1c4bdc90a6dde",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/01-prerequisites.md",
+            "references/02-starters-and-removed-features.md",
+            "references/03-jackson-3.md",
+            "references/04-core-framework.md",
+            "references/05-build-and-dependencies.md",
+            "references/06-configuration-properties.md",
+            "references/07-web-and-messaging.md",
+            "references/08-testing.md",
+            "references/09-actuator-and-observability.md",
+            "references/10-kotlin-and-java-build-config.md",
+            "references/11-checklist-pitfalls-resources.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/spring-boot-4-migration"
+          },
+          "released_at": "2026-11-02T16:14:03+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:awesome-copilot/spring-boot-testing": {
       "releases": [
         {
@@ -17890,6 +18946,87 @@
             "path": "skills/spring-boot-testing"
           },
           "released_at": "2026-10-20T03:28:55+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "259927048d3507bb80fe410b7036df8781b8146fd4af626b39294770591a4009",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/assertj-basics.md",
+            "references/assertj-collections.md",
+            "references/context-caching.md",
+            "references/datajpatest.md",
+            "references/failsafe-integration-tests.md",
+            "references/instancio.md",
+            "references/mockitobean.md",
+            "references/mockmvc-classic.md",
+            "references/mockmvc-tester.md",
+            "references/restclienttest.md",
+            "references/resttestclient.md",
+            "references/sb4-migration.md",
+            "references/test-slices-overview.md",
+            "references/testcontainers-jdbc.md",
+            "references/webmvctest.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/spring-boot-testing"
+          },
+          "released_at": "2026-11-02T16:14:03+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/spring-observability": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "009997ac11d7efe8e43fea76f6dbc002ad9cb32a724e8853dab641341cd51be8",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/actuator.md",
+            "references/dumps-and-diagnostics.md",
+            "references/logging.md",
+            "references/metrics.md",
+            "references/tracing-observation.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/spring-observability"
+          },
+          "released_at": "2026-11-02T16:14:03+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:awesome-copilot/spring-security": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "d5b1bc262cc751f26ac03f3d29de549ef1f191c3260abaae0115fbaa89e318f7",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/actuator-protection.md",
+            "references/csrf-cors-sessions-headers.md",
+            "references/method-security.md",
+            "references/oauth2-resource-server-jwt.md",
+            "references/oidc-login-oauth2-client.md",
+            "references/password-encoding.md",
+            "references/review-checklist.md",
+            "references/testing-security.md"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/spring-security"
+          },
+          "released_at": "2026-11-02T16:14:03+00:00",
           "channel": "stable"
         }
       ]
@@ -18788,6 +19925,45 @@
           },
           "released_at": "2026-10-20T03:28:56+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "86a2d2c8dc849f3b61349bda3b932e224df46f6c3147f6fa4069a52ada17372a",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/discovery.md",
+            "references/heal.md",
+            "references/integrate.md",
+            "references/inventory.md",
+            "references/native-compatibility.md",
+            "references/reverify.md",
+            "references/runtime.md",
+            "references/security.md",
+            "references/verify.md",
+            "references/workbench.md",
+            "scripts/workbench.mjs",
+            "templates/mutation-journal.js",
+            "templates/mutation-journal.ts",
+            "templates/webmcp-compat.js",
+            "templates/webmcp-jsx.d.ts",
+            "templates/webmcp-workbench.js",
+            "templates/webmcp.d.ts",
+            "templates/webmcp.spec.ts",
+            "templates/webmcpify.js",
+            "templates/webmcpify.ts",
+            "templates/well-known-webmcp.json",
+            "tests/README.md",
+            "tests/workbench-cli.test.mjs",
+            "tests/workbench.test.mjs"
+          ],
+          "source": {
+            "repo": "https://github.com/github/awesome-copilot",
+            "commit": "61fa1fa8fcc63d6dbd2f07a75aeb8e214df5acfb",
+            "path": "skills/webmcpify"
+          },
+          "released_at": "2026-11-02T16:14:04+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -19247,6 +20423,28 @@
           },
           "released_at": "2026-10-20T03:29:01+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "a6b4cb02fd0d93b98a0bbab15003477d6b77464d32fdf1dc70a18be82a47a09f",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "builder-check-prompt.md",
+            "scripts/frame-template.html",
+            "scripts/helper.js",
+            "scripts/server.cjs",
+            "scripts/start-server.sh",
+            "scripts/stop-server.sh",
+            "visual-companion.md"
+          ],
+          "source": {
+            "repo": "https://github.com/obra/superpowers",
+            "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+            "path": "skills/brainstorming"
+          },
+          "released_at": "2026-11-02T16:14:09+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -19284,6 +20482,40 @@
             "path": "skills/diagnosing-superpowers"
           },
           "released_at": "2026-10-20T03:29:01+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "ba349e2bd3cc94b27002ac01cdffe1a8bf207cd6cd4030942f5338d4b66fb227",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "prompts/analyst-common.md",
+            "prompts/cost-and-time.md",
+            "prompts/plan-adherence.md",
+            "prompts/quality-evidence.md",
+            "prompts/repeated-work.md",
+            "prompts/request-conflicts.md",
+            "prompts/scrub-audit.md",
+            "prompts/scrub.md",
+            "prompts/similar-session.md",
+            "prompts/skill-timeline.md",
+            "prompts/stumbles.md",
+            "references/context-safety.md",
+            "references/github-issues.md",
+            "references/redaction-policy.md",
+            "references/session-discovery.md",
+            "templates/bundle-README.md",
+            "templates/case.md",
+            "templates/issue.md",
+            "templates/report.md"
+          ],
+          "source": {
+            "repo": "https://github.com/obra/superpowers",
+            "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+            "path": "skills/diagnosing-superpowers"
+          },
+          "released_at": "2026-11-02T16:14:09+00:00",
           "channel": "stable"
         }
       ]
@@ -19324,6 +20556,23 @@
             "path": "skills/executing-plans"
           },
           "released_at": "2026-10-20T03:29:01+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "e175ed69b6964620fb3d6d1b68f6e3db9cafa5bcb34293c09f9d32bec76c7b1e",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "scripts/task-done",
+            "scripts/task-start"
+          ],
+          "source": {
+            "repo": "https://github.com/obra/superpowers",
+            "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+            "path": "skills/executing-plans"
+          },
+          "released_at": "2026-11-02T16:14:09+00:00",
           "channel": "stable"
         }
       ]
@@ -19407,6 +20656,34 @@
             "path": "skills/subagent-driven-development"
           },
           "released_at": "2026-10-20T03:29:01+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "5aa87d54c34467b3516bde17f0c6d25563c52038ec8292324bdbf76a1a67483a",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "implementer-prompt.md",
+            "re-review-prompt.md",
+            "references/batching.md",
+            "references/cannot-verify.md",
+            "references/final-review.md",
+            "references/fix-loop.md",
+            "references/handling-reports.md",
+            "references/preflight.md",
+            "references/resuming.md",
+            "scripts/review-package",
+            "scripts/sdd-workspace",
+            "scripts/task-brief",
+            "task-reviewer-prompt.md"
+          ],
+          "source": {
+            "repo": "https://github.com/obra/superpowers",
+            "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+            "path": "skills/subagent-driven-development"
+          },
+          "released_at": "2026-11-02T16:14:09+00:00",
           "channel": "stable"
         }
       ]
@@ -19564,6 +20841,30 @@
             "path": "skills/writing-skills"
           },
           "released_at": "2026-10-20T03:29:01+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "f7d63ea3b6dd8c253cce19e2ab59b1481e0eb50b6b526e189d7ac259e0074e12",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "references/CLAUDE_MD_TESTING.md",
+            "references/anthropic-best-practices.md",
+            "references/bulletproofing.md",
+            "references/discovery.md",
+            "references/flowcharts.md",
+            "references/graphviz-conventions.dot",
+            "references/persuasion-principles.md",
+            "references/testing-skills-with-subagents.md",
+            "render-graphs.js"
+          ],
+          "source": {
+            "repo": "https://github.com/obra/superpowers",
+            "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+            "path": "skills/writing-skills"
+          },
+          "released_at": "2026-11-02T16:14:09+00:00",
           "channel": "stable"
         }
       ]
