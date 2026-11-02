@@ -52,7 +52,8 @@ jobs:
       # A visitor's journeys in real (headless) Chrome: catalog search and filters, item install commands,
       # Mermaid rendering + hover, theme, 404, phone width, and no console errors. A failure blocks the deploy.
       - name: Browser journeys
-        run: node acceptance/site/journeys.mjs website/dist --base /Dex-Trove/
+        # DEX_BIN: the parity journey compares the site's filters with `dex search` from this checkout.
+        run: DEX_BIN="$(uv run --frozen which dex)" node acceptance/site/journeys.mjs website/dist --base /Dex-Trove/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
