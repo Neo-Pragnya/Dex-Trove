@@ -37,7 +37,7 @@ const facetGroups = taxonomy.facets
         KIND_ORDER.filter((k) => counts[k]).map((k) => (
           <button type="button" class={`toggle k-${k}`} data-kind={k} aria-pressed="false">
             <Glyph shapes={KIND_GLYPH[k]} class="" />
-            {KINDS[k].plural} · {counts[k]}
+            {KINDS[k].plural} · <span class="kn" data-total={counts[k]}>{counts[k]}</span>
           </button>
         ))
       }
@@ -47,14 +47,14 @@ const facetGroups = taxonomy.facets
         Source
         <select id="ns">
           <option value="">All sources</option>
-          {namespaces.map((n) => <option value={n}>{n}</option>)}
+          {namespaces.map((n) => <option value={n} data-label={n}>{n}</option>)}
         </select>
       </label>
       <label>
         Licence
         <select id="lic">
           <option value="">Any licence</option>
-          {licences.map((l) => <option value={l}>{l}</option>)}
+          {licences.map((l) => <option value={l} data-label={l}>{l}</option>)}
         </select>
       </label>
       <span class="count" id="count" aria-live="polite">{items.length} items</span>
@@ -178,23 +178,55 @@ const facetGroups = taxonomy.facets
       return total;
     }
 
+    const nsOptions = Array.from(ns.querySelectorAll<HTMLOptionElement>("option[data-label]"));
+    const licOptions = Array.from(lic.querySelectorAll<HTMLOptionElement>("option[data-label]"));
+    const kindCounts = toggles.map((t) => t.querySelector<HTMLElement>(".kn")!);
+
+    // Numbers that change pulse briefly, so a filter visibly moves every panel it affects.
+    function setNumber(el: HTMLElement, n: number): void {
+      const text = String(n);
+      if (el.textContent === text) return;
+      el.textContent = text;
+      el.classList.remove("bump");
+      void el.offsetWidth;
+      el.classList.add("bump");
+    }
+
     function apply(): void {
       const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
       const kinds = toggles.filter((t) => t.getAttribute("aria-pressed") === "true").map((t) => t.dataset.kind);
       const ranked: [number, HTMLElement][] = [];
       const base: HTMLElement[] = []; // passes text, kind, source and licence; facet filters come next
+      // Disjunctive counts for kind, source and licence: each ignores its own selection and honours every other filter.
+      const byKind = new Map<string, number>(), byNs = new Map<string, number>(), byLic = new Map<string, number>();
+      const bump = (m: Map<string, number>, k: string) => m.set(k, (m.get(k) ?? 0) + 1);
       for (const el of cards) {
-        const ok =
-          (!kinds.length || kinds.includes(el.dataset.kind)) &&
-          (!ns.value || el.dataset.ns === ns.value) &&
-          (!lic.value || el.dataset.lic === lic.value);
-        const s0 = ok ? (words.length ? score(el, words) : 1) : 0;
-        if (s0) base.push(el);
-        const s = s0 && facetsPass(el) ? s0 : 0;
+        const s0 = words.length ? score(el, words) : 1;
+        const kindOk = !kinds.length || kinds.includes(el.dataset.kind);
+        const nsOk = !ns.value || el.dataset.ns === ns.value;
+        const licOk = !lic.value || el.dataset.lic === lic.value;
+        const facetOk = s0 > 0 && facetsPass(el);
+        if (facetOk && nsOk && licOk) bump(byKind, el.dataset.kind!);
+        if (facetOk && kindOk && licOk) bump(byNs, el.dataset.ns!);
+        if (facetOk && kindOk && nsOk) bump(byLic, el.dataset.lic!);
+        const ok = s0 > 0 && kindOk && nsOk && licOk;
+        if (ok) base.push(el);
+        const s = ok && facetOk ? s0 : 0;
         el.hidden = s === 0;
         if (s) ranked.push([s, el]);
       }
-      // Disjunctive counts: a facet's numbers ignore its own selection, so they say what choosing a value gives.
+      toggles.forEach((t, i) => {
+        const n = byKind.get(t.dataset.kind!) ?? 0;
+        setNumber(kindCounts[i], n);
+        t.classList.toggle("zero", n === 0);
+        t.setAttribute("aria-label", `${t.textContent!.split("·")[0].trim()}, ${n} item${n === 1 ? "" : "s"}`);
+      });
+      for (const [opts, m] of [[nsOptions, byNs], [licOptions, byLic]] as const)
+        for (const o of opts) {
+          const n = m.get(o.value) ?? 0;
+          o.textContent = `${o.dataset.label} (${n})`;
+          o.disabled = n === 0 && !o.selected;
+        }
       for (const f of facetIds) {
         const n = new Map<string, number>();
         for (const el of base) {
@@ -204,7 +236,7 @@ const facetGroups = taxonomy.facets
         for (const c of chips.filter((c) => c.dataset.facet === f)) {
           const count = n.get(`${f}:${c.dataset.value}`) ?? 0;
           const pressed = c.getAttribute("aria-pressed") === "true";
-          c.querySelector(".n")!.textContent = String(count);
+          setNumber(c.querySelector<HTMLElement>(".n")!, count);
           c.hidden = count === 0 && !pressed;
           c.setAttribute("aria-label", `${c.dataset.label}, ${count} item${count === 1 ? "" : "s"}`);
         }
@@ -231,6 +263,9 @@ const facetGroups = taxonomy.facets
       active.hidden = activeChips.childElementCount === 0;
       if (words.length) ranked.sort((a, b) => b[0] - a[0]).forEach(([, el]) => list.append(el));
       count.textContent = `${ranked.length} of ${cards.length} items`;
+      count.classList.remove("bump");
+      void count.offsetWidth;
+      count.classList.add("bump");
       empty.hidden = ranked.length > 0;
       const next = new URLSearchParams();
       if (q.value) next.set("q", q.value);

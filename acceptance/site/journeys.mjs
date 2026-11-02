@@ -179,6 +179,26 @@ await journey("facet filters match the CLI, count disjunctively and work from th
   return `${expected.length} items match CLI; keyboard → ${after.n}; "${after.live}"`;
 });
 
+await journey("kind, source and licence panels count live as filters change", async () => {
+  await go("catalog/");
+  const read = `({ kinds: Object.fromEntries(Array.from(document.querySelectorAll("button[data-kind]")).map(b => [b.dataset.kind, Number(b.querySelector(".kn").textContent)])), lic: Array.from(document.querySelectorAll("#lic option[data-label]")).map(o => o.textContent), shown: document.querySelectorAll("#results li:not([hidden])").length })`;
+  const before = await evaluate(read);
+  await evaluate(`document.querySelector('button.facet-chip[data-facet="task"][data-value="write-tests"]').click()`);
+  await sleep(300);
+  const after = await evaluate(read);
+  const sum = (o) => Object.values(o).reduce((a, b) => a + b, 0);
+  expect(sum(before.kinds) === before.shown, `kind counts ${sum(before.kinds)} ≠ ${before.shown} items shown`);
+  expect(sum(after.kinds) === after.shown && after.shown < before.shown, `after a facet: kinds ${JSON.stringify(after.kinds)}, ${after.shown} shown`);
+  expect(after.kinds.skill < before.kinds.skill, "the skills count did not change");
+  expect(after.lic.every((t) => /\(\d+\)$/.test(t)), `licence options without counts: ${after.lic.slice(0, 3)}`);
+  // A kind's own count ignores its own selection: picking skills keeps the other kinds' numbers.
+  await evaluate(`document.querySelector('button[data-kind="skill"]').click()`);
+  await sleep(300);
+  const picked = await evaluate(read);
+  expect(picked.kinds.agent === after.kinds.agent && picked.shown === after.kinds.skill, `kind counts not disjunctive: ${JSON.stringify(picked)}`);
+  return `skills ${before.kinds.skill} → ${after.kinds.skill}, agents ${before.kinds.agent} → ${after.kinds.agent}`;
+});
+
 await journey("item page shows where it fits, linked into the catalog", async () => {
   await go("skill/superpowers.test-driven-development/");
   const t = await evaluate(`({ text: document.querySelector(".where-it-fits")?.innerText || "", link: document.querySelector('.where-it-fits a[href*="methodology=tdd"]')?.getAttribute("href") || "" })`);

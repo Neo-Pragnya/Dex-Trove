@@ -680,3 +680,25 @@ ul.plain {
 .facet-chip[aria-pressed="true"] .n {
   color: var(--lilac-ink);
 }
+
+/* Live counts: every panel's number updates as filters change, and a changed number pulses once. */
+.toggle .kn,
+.facet-chip .n,
+.count {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+}
+.bump {
+  animation: count-bump 0.45s ease-out;
+}
+@keyframes count-bump {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.28); color: var(--accent, currentColor); }
+  100% { transform: scale(1); }
+}
+.toggle.zero {
+  opacity: 0.45;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bump { animation: none; }
+}
