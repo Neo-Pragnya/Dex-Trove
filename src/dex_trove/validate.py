@@ -9,12 +9,18 @@ from typing import Any
 
 import yaml
 
-from dex_trove import catalog
+from dex_trove import catalog, releases
 from dex_trove.learn import _NAME_RE, KIND_TO_ANANKE, rebuild_catalog
 from dex_trove.licenses import ALLOW_V
 
 
-def validate(trove: Path, *, notices_text: str | None = None, notices_file: Path | None = None) -> list[str]:
+def validate(
+    trove: Path,
+    *,
+    notices_text: str | None = None,
+    notices_file: Path | None = None,
+    previous_ledger: dict[str, Any] | None = None,
+) -> list[str]:
     problems: list[str] = []
     try:
         from ananke.plexus.registry.models import ArtifactManifest  # optional, strongest check
@@ -60,7 +66,26 @@ def validate(trove: Path, *, notices_text: str | None = None, notices_file: Path
     ):
         problems.append("THIRD_PARTY_NOTICES.md is stale — run `dex notices`")
     problems += _facet_problems(trove, listed)
+    try:
+        ledger = releases.load(trove)
+        problems += releases.problems(ledger, on_disk, previous_ledger)
+    except releases.ReleaseError as exc:
+        return [*problems, str(exc)]
+    problems += _relation_problems(trove, on_disk, ledger)
     return problems
+
+
+def _relation_problems(trove: Path, items: list[dict[str, Any]], ledger: dict[str, Any]) -> list[str]:
+    """relations.json must match a rebuild; curated relations must point at real items (never dangling)."""
+    from dex_trove import docs_export, relations
+
+    try:
+        expected = relations.build(items, ledger, docs_export.relations(items)[0])
+    except relations.RelationError as exc:
+        return [f"relations.yaml invalid: {exc}"]
+    if relations.load(trove) != expected:
+        return ["relations.json is stale — run `dex learn` or `dex release record`"]
+    return []
 
 
 def _facet_problems(trove: Path, items: list[dict[str, Any]]) -> list[str]:

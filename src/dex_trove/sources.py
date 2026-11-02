@@ -33,6 +33,7 @@ class Source:
     exclude: list[str] = field(default_factory=list)
     items: dict[str, dict[str, Any]] = field(default_factory=dict)  # per-item overrides (inspired_by…)
     notes: str = ""
+    visibility: str = "public"  # "internal": a private source that internal-only candidates may publish into
 
     @property
     def web_url(self) -> str | None:
@@ -83,6 +84,7 @@ def load(path: Path | None = None) -> tuple[list[Source], list[Candidate]]:
                 exclude=raw.get("exclude", []) or [],
                 items=raw.get("items", {}) or {},
                 notes=raw.get("notes", ""),
+                visibility=raw.get("visibility", "public"),
             )
         )
     candidates = [Candidate(**c) for c in data.get("candidates", [])]

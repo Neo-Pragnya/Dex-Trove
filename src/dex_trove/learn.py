@@ -15,7 +15,7 @@ from typing import Any
 
 import yaml
 
-from dex_trove import ignore, licenses
+from dex_trove import ignore, licenses, releases
 from dex_trove.adapters import ADAPTERS, JUNK_DIRS, RawItem
 from dex_trove.licenses import ALLOW_V, DENY_V, REVIEW_V, Classification
 from dex_trove.paths import DIR_KINDS, KIND_DIRS
@@ -275,6 +275,8 @@ class Learner:
         self.dry_run = dry_run
         # Keyed by (kind, id): an agent and a skill may share a name, and each keeps its own version history.
         self.catalog_before = {(r["kind"], r["id"]): r for r in read_catalog(trove)}
+        # Every version ever released: a new version number never reuses one already given to other bytes.
+        self.ledger = releases.load(trove)
         # entry hash → (item id, source priority) for everything admitted during *this* run, so a duplicate is
         # caught on the first learn, not only once a previous run's catalog knows the original.
         self.run_hashes: dict[str, tuple[str, int]] = {}
@@ -329,6 +331,14 @@ class Learner:
                         result.removed.append(f"{DIR_KINDS[kind_dir]}:{ns}/{d.name[len(ns) + 1 :]}")
                         shutil.rmtree(d)
         return result
+
+    def _parent(self, ref: str) -> dict[str, str]:
+        """A fork's parent as ``{key, version, content_hash}``: ``kind:ns/name`` or ``kind:ns/name@version``."""
+        key, _, version = ref.partition("@")
+        if ":" not in key:
+            raise ValueError(f"forked_from {ref!r} must be kind:namespace/name[@version]")
+        parent = releases.resolve(self.ledger, key, version or None)
+        return {"key": key, "version": parent["version"], "content_hash": parent["content_hash"]}
 
     def _exclude(self, result: SourceResult, raw: RawItem, root: Path, reason: str, detail: str = "") -> None:
         result.excluded.append(
@@ -423,6 +433,7 @@ class Learner:
                 version = _bump_patch(prior["version"])
             else:
                 version = "1.0.0"
+            version = releases.unique_version(self.ledger, f"{raw.kind}:{ns}/{slug}", version, content_hash)
         rel_path = raw.path.relative_to(root).as_posix()
         url = source.upstream_url(commit, rel_path, raw.is_dir)
         if url is None and source.first_party and source.homepage:
@@ -468,6 +479,8 @@ class Learner:
         }
         if raw.meta.get("applyTo"):
             record["apply_to"] = str(raw.meta["applyTo"])
+        if overrides.get("forked_from"):
+            record["forked_from"] = self._parent(str(overrides["forked_from"]))
         if notes:
             record["notes"] = notes
         seen[entry_hash] = record["id"]
@@ -572,6 +585,12 @@ def finalize(trove: Path, results: list[SourceResult], sources: list[Source]) ->
         trove / "catalog.json", {"generator": f"dex-trove {__version__}", "count": len(items), "items": items}
     )
     facets.write(trove, items)  # derived sidecar: never touches upstream bytes
+    ledger = releases.load(trove)
+    releases.record(ledger, items)  # append-only: a release is never rewritten
+    releases.save(trove, ledger)
+    from dex_trove import docs_export, relations
+
+    relations.write(trove, relations.build(items, ledger, docs_export.relations(items)[0]))
 
     excluded_path = trove / "EXCLUDED.json"
     prev = json.loads(excluded_path.read_text()).get("excluded", []) if excluded_path.is_file() else []

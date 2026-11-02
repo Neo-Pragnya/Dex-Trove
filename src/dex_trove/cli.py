@@ -131,8 +131,15 @@ def learn(
 
 
 @app.command()
-def validate() -> None:
-    """CI gate: manifests, licences, hashes, catalog and notices."""
+def validate(
+    since: Annotated[
+        str | None,
+        typer.Option("--since", help="Git ref whose releases.json must still hold (releases are immutable)"),
+    ] = None,
+) -> None:
+    """CI gate: manifests, licences, hashes, catalog, notices and the release ledger."""
+    import subprocess
+
     from dex_trove import notices
     from dex_trove.validate import validate as run
 
@@ -143,7 +150,17 @@ def validate() -> None:
     if root is not None:
         srcs, _ = sources_mod.load(root / "sources.yaml")
         notices_text, notices_file = notices.render(trove, srcs), root / "THIRD_PARTY_NOTICES.md"
-    problems = run(trove, notices_text=notices_text, notices_file=notices_file)
+    previous = None
+    if since:
+        if root is None:
+            err.print("[red]--since needs a Dex-Trove checkout[/red]")
+            raise typer.Exit(2)
+        rel = (trove / "releases.json").resolve().relative_to(root.resolve()).as_posix()
+        shown = subprocess.run(["git", "show", f"{since}:{rel}"], cwd=root, capture_output=True, text=True)
+        previous = (
+            json.loads(shown.stdout) if shown.returncode == 0 else None
+        )  # no ledger then: nothing to keep
+    problems = run(trove, notices_text=notices_text, notices_file=notices_file, previous_ledger=previous)
     for p in problems:
         err.print(f"[red]✗[/red] {p}")
     if problems:
@@ -301,7 +318,7 @@ def show(ref: str, as_json: JsonOpt = False) -> None:
 
 @app.command()
 def install(
-    refs: Annotated[list[str], typer.Argument(help="kind:ns/name, ns/name or bare name")],
+    refs: Annotated[list[str] | None, typer.Argument(help="kind:ns/name, ns/name or bare name")] = None,
     target: Annotated[str, typer.Option("--target", "-t", help="claude | copilot | dir")] = "claude",
     scope: Annotated[str, typer.Option(help="user (~/.claude) or project (./.claude) for claude")] = "user",
     path: Annotated[Path | None, typer.Option(help="Base directory (required for --target dir)")] = None,
@@ -309,18 +326,40 @@ def install(
     force: Annotated[
         bool, typer.Option("--force", help="Replace files Dex didn't install (or that you edited since)")
     ] = False,
+    locked: Annotated[
+        bool, typer.Option("--locked", help="Install exactly the versions pinned in the lock file")
+    ] = False,
+    lock_file: Annotated[Path, typer.Option("--lock-file", help="Lock to read with --locked")] = Path(
+        "dex.lock.json"
+    ),
 ) -> None:
     """Install items into Claude Code, GitHub Copilot or a directory.
 
     Agents installed for Claude Code get Claude tool names and model values (Copilot ids can't launch there).
     Existing files are replaced only when Dex wrote them and they're unedited, unless you pass --force.
     """
-    from dex_trove.install import InstallError
+    from dex_trove import releases
+    from dex_trove.install import InstallError, install_locked
     from dex_trove.install import install as run
 
     try:
-        done = run(refs, target=target, scope=scope, path=path, allow_exec=allow_exec, force=force)
-    except (InstallError, catalog.RefError) as exc:
+        if locked:
+            if refs:
+                raise InstallError("--locked installs the whole lock; don't name items too")
+            entries = releases.read_lock(lock_file)
+            errors, warnings = releases.check_lock(releases.load(trove_root()), entries)
+            for w in warnings:
+                err.print(f"[yellow]![/yellow] {w}")
+            if errors:
+                raise InstallError("; ".join(errors))
+            done = install_locked(
+                entries, target=target, scope=scope, path=path, allow_exec=allow_exec, force=force
+            )
+        else:
+            if not refs:
+                raise InstallError("name at least one item, or pass --locked")
+            done = run(refs, target=target, scope=scope, path=path, allow_exec=allow_exec, force=force)
+    except (InstallError, catalog.RefError, releases.ReleaseError) as exc:
         err.print(f"[red]{exc}[/red]")
         raise typer.Exit(2) from exc
     for d in done:
@@ -542,3 +581,359 @@ def facets_doc() -> None:
     target = root / "docs" / "reference" / "taxonomy.md"
     target.write_text(fx.taxonomy_markdown(records=fx.load(root / "trove")), encoding="utf-8")
     console.print(f"wrote {target}")
+
+
+# --------------------------------------------------------------------------- releases and locks
+release_app = typer.Typer(
+    help="Release history: every version an item ever shipped, with yank, deprecation and fork lineage.",
+    no_args_is_help=True,
+)
+app.add_typer(release_app, name="release")
+
+
+def _key(ref: str) -> tuple[str, str | None]:
+    """``ref[@version]`` → (``kind:ns/name``, version). The item must be in the trove or in its release history."""
+    from dex_trove import releases
+
+    base, _, version = ref.partition("@")
+    ledger = releases.load(trove_root())
+    if ":" in base and base in ledger["items"]:
+        return base, version or None
+    try:
+        it = catalog.resolve(catalog.load(), base)
+    except catalog.RefError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    return releases.key_of(it), version or None
+
+
+def _now() -> str:
+    from dex_trove.learn import now_iso
+
+    return now_iso()
+
+
+@release_app.command("list")
+def release_list(ref: str, as_json: JsonOpt = False) -> None:
+    """Every release of an item, oldest first."""
+    from dex_trove import releases
+
+    key, _ = _key(ref)
+    rels = releases.history(releases.load(trove_root()), key)
+    if as_json:
+        console.print_json(json.dumps({"key": key, "releases": rels}))
+        return
+    t = Table("version", "digest", "released", "upstream commit", "status", title=key)
+    for r in rels:
+        status = []
+        if r.get("yanked"):
+            status.append(f"yanked: {r['yanked']['reason']}")
+        if r.get("deprecated"):
+            status.append(
+                "deprecated"
+                + (f" → {r['deprecated']['replaced_by']}" if r["deprecated"].get("replaced_by") else "")
+            )
+        if r.get("parent"):
+            status.append(f"fork of {r['parent']['key']}@{r['parent']['version']}")
+        t.add_row(
+            r["version"],
+            r["content_hash"][:12],
+            r["released_at"][:10],
+            str(r["source"].get("commit") or "first-party")[:12],
+            "; ".join(status) or r.get("channel", "stable"),
+        )
+    console.print(t)
+
+
+def _need_checkout_here() -> Path:
+    """The Dex-Trove checkout containing the current directory: the only place the ledger may be changed.
+
+    Unlike ``_need_repo`` there is no fallback to the development checkout dex was installed from, so running a
+    maintainer command from some other project can never edit that checkout's trove.
+    """
+    here = Path.cwd().resolve()
+    for candidate in (here, *here.parents):
+        if (candidate / "sources.yaml").is_file() and (candidate / "src" / "dex_trove").is_dir():
+            return candidate
+    err.print("[red]Run this inside a Dex-Trove checkout: it changes trove/releases.json.[/red]")
+    raise typer.Exit(2)
+
+
+def _edit_ledger(action: Any) -> None:
+    from dex_trove import releases
+
+    trove = _need_checkout_here() / "trove"
+    ledger = releases.load(trove)
+    try:
+        action(ledger)
+    except releases.ReleaseError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    releases.save(trove, ledger)
+
+
+@release_app.command("yank")
+def release_yank(
+    ref: Annotated[str, typer.Argument(help="kind:ns/name@version")],
+    reason: Annotated[str, typer.Option("--reason", help="Why (shown to everyone who has it locked)")],
+) -> None:
+    """Mark a release as not to be chosen again. Locks that pin it keep working, with a warning."""
+    from dex_trove import releases
+
+    key, version = _key(ref)
+    if not version:
+        err.print("[red]name the version: kind:ns/name@version[/red]")
+        raise typer.Exit(2)
+    _edit_ledger(lambda ledger: releases.yank(ledger, key, version, reason, at=_now()))
+    console.print(f"[yellow]yanked[/yellow] {key}@{version}")
+
+
+@release_app.command("unyank")
+def release_unyank(ref: Annotated[str, typer.Argument(help="kind:ns/name@version")]) -> None:
+    """Reverse a yank."""
+    from dex_trove import releases
+
+    key, version = _key(ref)
+    if not version:
+        err.print("[red]name the version: kind:ns/name@version[/red]")
+        raise typer.Exit(2)
+    _edit_ledger(lambda ledger: releases.unyank(ledger, key, version))
+    console.print(f"unyanked {key}@{version}")
+
+
+@release_app.command("deprecate")
+def release_deprecate(
+    ref: Annotated[str, typer.Argument(help="kind:ns/name, or kind:ns/name@version for one release")],
+    reason: Annotated[str, typer.Option("--reason")],
+    replaced_by: Annotated[
+        str | None, typer.Option("--replaced-by", help="kind:ns/name to use instead")
+    ] = None,
+) -> None:
+    """Deprecate an item (every release) or one release, optionally naming its replacement."""
+    from dex_trove import releases
+
+    key, version = _key(ref)
+    rep = _key(replaced_by)[0] if replaced_by else None
+    _edit_ledger(
+        lambda ledger: releases.deprecate(ledger, key, reason, at=_now(), replaced_by=rep, version=version)
+    )
+    console.print(f"deprecated {key}{'@' + version if version else ''}" + (f" → {rep}" if rep else ""))
+
+
+@release_app.command("lineage")
+def release_lineage(ref: str, as_json: JsonOpt = False) -> None:
+    """Fork ancestry: the parents an item was forked from, and the items forked from it."""
+    from dex_trove import releases
+
+    key, _ = _key(ref)
+    info = releases.lineage(releases.load(trove_root()), key)
+    if as_json:
+        console.print_json(json.dumps(info))
+        return
+    console.print(f"[bold]{key}[/bold]")
+    for p in info["parents"]:
+        console.print(f"  forked from {p['key']}@{p['version']} ({p['content_hash'][:12]})")
+    for c in info["children"]:
+        console.print(f"  forked as   {c}")
+    if not info["parents"] and not info["children"]:
+        console.print("  no forks recorded")
+
+
+@release_app.command("record")
+def release_record() -> None:
+    """Append releases for items whose current digest isn't released yet (``dex learn`` does this itself)."""
+    from dex_trove import releases
+
+    trove = _need_checkout_here() / "trove"
+    ledger = releases.load(trove)
+    items = catalog.load(trove)
+    changed = releases.record(ledger, items)
+    releases.save(trove, ledger)
+    from dex_trove import docs_export, relations
+
+    relations.write(trove, relations.build(items, ledger, docs_export.relations(items)[0]))
+    console.print(f"{len(changed)} change(s) recorded" + (": " + ", ".join(changed[:10]) if changed else ""))
+
+
+@app.command("lock")
+def lock_cmd(
+    refs: Annotated[
+        list[str], typer.Argument(help="Items to pin: kind:ns/name[@version] (a plugin pins its members)")
+    ],
+    lock_file: Annotated[Path, typer.Option("--lock-file", help="Lock to write or update")] = Path(
+        "dex.lock.json"
+    ),
+) -> None:
+    """Pin items to an exact version and digest in a project lock (dex.lock.json)."""
+    from dex_trove import releases
+
+    ledger = releases.load(trove_root())
+    items = catalog.load()
+    entries = {e.key: e for e in (releases.read_lock(lock_file) if lock_file.is_file() else [])}
+    try:
+        for ref in refs:
+            key, version = _key(ref)
+            kind = key.split(":", 1)[0]
+            if kind == "plugin":
+                plugin = catalog.resolve(items, key)
+                for member in plugin.get("members", []):
+                    mk = releases.key_of(catalog.resolve(items, member))
+                    entries[mk] = releases.lock_entry(mk, releases.resolve(ledger, mk))
+                continue
+            entries[key] = releases.lock_entry(key, releases.resolve(ledger, key, version))
+    except (releases.ReleaseError, catalog.RefError) as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    releases.write_lock(lock_file, list(entries.values()), generator=f"dex-trove {__version__}")
+    for e in sorted(entries.values(), key=lambda e: e.key):
+        console.print(f"[green]✓[/green] {e.key}@{e.version} {e.content_hash[:12]}")
+    console.print(f"{len(entries)} pinned in {lock_file}")
+
+
+@app.command("verify-lock")
+def verify_lock(
+    lock_file: Annotated[Path, typer.Option("--lock-file")] = Path("dex.lock.json"),
+    fetch: Annotated[
+        bool, typer.Option("--fetch", help="Also fetch non-current pins from Git and check their bytes")
+    ] = False,
+) -> None:
+    """Check a lock against the release ledger: every pin exists with its digest; yanked or deprecated pins warn."""
+    import tempfile
+
+    from dex_trove import releases
+
+    try:
+        entries = releases.read_lock(lock_file)
+    except releases.ReleaseError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    errors, warnings = releases.check_lock(releases.load(trove_root()), entries)
+    current = {releases.key_of(it): it["content_hash"] for it in catalog.load()}
+    if fetch and not errors:
+        with tempfile.TemporaryDirectory() as tmp:
+            for e in entries:
+                if current.get(e.key) == e.content_hash:
+                    continue
+                try:
+                    releases.fetch(e, Path(tmp) / e.key.replace(":", "-").replace("/", "."))
+                except releases.ReleaseError as exc:
+                    errors.append(str(exc))
+    for w in warnings:
+        err.print(f"[yellow]![/yellow] {w}")
+    for problem in errors:
+        err.print(f"[red]✗[/red] {problem}")
+    if errors:
+        raise typer.Exit(1)
+    stale = sum(1 for e in entries if current.get(e.key) != e.content_hash)
+    console.print(
+        f"[green]✓[/green] {len(entries)} pin(s) valid"
+        + (f"; {stale} not the current release" if stale else "")
+    )
+
+
+# --------------------------------------------------------------------------- reviewed learning candidates
+candidate_app = typer.Typer(
+    help="Reviewed learning candidates: evaluate, review, then publish into a source. Nothing publishes on its own.",
+    no_args_is_help=True,
+)
+app.add_typer(candidate_app, name="candidate")
+VisibilityOpt = Annotated[
+    str, typer.Option("--visibility", help="public, or internal (never to a public source)")
+]
+
+
+def _print_report(rep: Any, as_json: bool) -> None:
+    if as_json:
+        console.print_json(json.dumps(rep.as_dict()))
+        return
+    for p in rep.passed:
+        console.print(f"[green]✓[/green] {p}")
+    for f in rep.failed:
+        err.print(f"[red]✗[/red] {f}")
+
+
+@candidate_app.command("check")
+def candidate_check(path: Path, visibility: VisibilityOpt = "public", as_json: JsonOpt = False) -> None:
+    """Run the skill, licence, secret and evaluation gates on a candidate folder."""
+    from dex_trove import candidates
+
+    try:
+        rep = candidates.check(path, visibility=visibility)
+    except candidates.CandidateError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    _print_report(rep, as_json)
+    if not rep.ok:
+        raise typer.Exit(1)
+
+
+@candidate_app.command("review")
+def candidate_review(
+    path: Path,
+    reviewer: Annotated[str, typer.Option("--reviewer", help="Who reviewed it")],
+    reason: Annotated[str, typer.Option("--reason", help="Why approved or rejected")],
+    approve: Annotated[bool, typer.Option("--approve/--reject", help="The decision")] = False,
+) -> None:
+    """Record a review decision beside the candidate (review.json). Publishing needs an approval."""
+    from dex_trove import candidates
+
+    try:
+        d = candidates.review(path, approve=approve, reviewer=reviewer, reason=reason)
+    except candidates.CandidateError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    console.print(f"{d['decision']} by {d['reviewer']}")
+
+
+@candidate_app.command("publish")
+def candidate_publish(
+    path: Path,
+    to: Annotated[str, typer.Option("--to", help="Source id from sources.yaml (a local folder source)")],
+    visibility: VisibilityOpt = "public",
+) -> None:
+    """Copy an approved, passing candidate into a source. Run `dex learn` afterwards to release it."""
+    from dex_trove import candidates
+
+    srcs, _ = sources_mod.load(_need_checkout_here() / "sources.yaml")
+    source = next((s for s in srcs if s.id == to), None)
+    if source is None:
+        err.print(f"[red]no source {to!r} in sources.yaml[/red]")
+        raise typer.Exit(2)
+    try:
+        dest = candidates.publish(path, source, visibility=visibility)
+    except candidates.CandidateError as exc:
+        for reason in str(exc).split("; "):
+            err.print(f"[red]✗[/red] {reason}")
+        raise typer.Exit(1) from exc
+    console.print(f"[green]✓[/green] published to {dest}; run `dex learn --source {to}` to release it")
+
+
+@app.command("related")
+def related_cmd(
+    ref: str,
+    rel_type: Annotated[
+        str | None, typer.Option("--type", help="Only this relation type, e.g. requires")
+    ] = None,
+    as_json: JsonOpt = False,
+) -> None:
+    """Typed relations of an item: requires, complements, alternatives, plugin membership, forks, replacements.
+
+    Curated and derived relations are facts with evidence; `similar` is an inferred hint. None of them says two
+    items are compatible.
+    """
+    from dex_trove import relations
+
+    key, _ = _key(ref)
+    rels = [
+        r for r in relations.load(trove_root())["items"].get(key, []) if not rel_type or r["type"] == rel_type
+    ]
+    if as_json:
+        console.print_json(json.dumps({"key": key, "relations": rels}))
+        return
+    if not rels:
+        console.print(f"{key}: no relations" + (f" of type {rel_type}" if rel_type else ""))
+        return
+    t = Table("type", "item", "origin", "evidence", title=key)
+    for r in rels:
+        t.add_row(r["type"], r["target"], r["origin"], r["evidence"][:80])
+    console.print(t)

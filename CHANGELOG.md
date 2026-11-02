@@ -5,13 +5,50 @@ All notable changes to Dex Trove are documented here.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) — [SemVer](https://semver.org/).
 
 Trove content changes (items learned, updated or excluded) are summarised per release. The authoritative
-per-item history is the git history of `trove/` and each item's `version` in `dex.json`.
+per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
 ## [Unreleased]
 
 ---
+
+## [0.3.0] — 2026-11-02
+
+Capability memory with releases: every version remembered, exact pins, and a reviewed way for new memory to get in.
+
+### Added
+
+- **Release ledger** (`trove/releases.json`):
+  - every version of every item, with digest, files, upstream commit and path, and fork parent;
+  - append-only and immutable, except for yank and deprecation markers;
+  - `dex learn` appends; `dex validate --since <ref>` fails on any edit or deletion, and CI checks against the
+    previous commit;
+  - items removed from the trove keep their history.
+- **Locks and pinned installs:**
+  - `dex lock` pins exact versions and digests in `dex.lock.json`, and `dex verify-lock [--fetch]` checks them;
+  - `dex install --locked` installs exactly the pinned versions. A pin that isn't the current release is fetched
+    from its upstream Git commit, and nothing is written unless the digest matches.
+- **`dex release`:** `list`, `yank`, `unyank`, `deprecate --replaced-by`, `lineage` and `record`. Forks are
+  declared with `forked_from:` in `sources.yaml`.
+- **Reviewed learning candidates:** `dex candidate check`, `review` and `publish`. A candidate can't publish
+  without a passing evaluation (positive and regression cases) and an approving review newer than the evaluation.
+  Internal-only candidates can't go to a public source.
+- **Typed relations** (`trove/relations.json`, `dex related`):
+  - curated `requires`, `complements` and `alternative-to`, with quoted evidence (15 to start);
+  - derived plugin membership, forks and replacements;
+  - inferred `similar`;
+  - dangling references and `requires` cycles fail `dex validate`;
+  - item pages group them by type, and none claims compatibility.
+- **Site:** kind, source and licence panels update their counts as filters change.
+- **Docs:** artifact kinds rewritten in depth, with the whole journey, what happens inside a harness, progressive
+  disclosure, how kinds compose, per-kind lifecycle diagrams, the Ananke flow and safety by kind. New Related items
+  page. Provenance & versioning covers releases, locks, yank, forks and candidates.
+
+### Changed
+
+- When an upstream changes content without bumping its declared version, Dex now assigns the next free patch
+  version, so one version never names two contents.
 
 ## [0.2.0] — 2026-11-01
 

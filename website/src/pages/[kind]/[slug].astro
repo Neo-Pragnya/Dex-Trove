@@ -56,7 +56,25 @@ const describe = (r: string) => {
   const p = parseRef(r);
   return { href: itemHref(base, p.kind, p.ns, p.name), title: titleByRef.get(r) ?? p.name, kind: p.kind as Kind, id: `${p.ns}/${p.name}` };
 };
-const related = it.related.map(describe);
+// Typed relations, grouped in a fixed order; "similar" is an inferred hint and comes last.
+const RELATION_LABELS: Record<string, string> = {
+  requires: "Requires",
+  "required-by": "Required by",
+  complements: "Works well with",
+  "alternative-to": "Alternatives",
+  "forked-from": "Forked from",
+  "forked-as": "Forked as",
+  "replaced-by": "Replaced by",
+  replaces: "Replaces",
+  similar: "Similar (inferred)",
+};
+const relationGroups = Object.keys(RELATION_LABELS)
+  .map((type) => ({
+    type,
+    label: RELATION_LABELS[type],
+    items: it.relations.filter((r) => r.type === type).map((r) => ({ ...describe(r.target), origin: r.origin, evidence: r.evidence })),
+  }))
+  .filter((g) => g.items.length);
 const partOf = it.part_of.map(describe);
 const members = it.members.map(describe);
 const totalSize = it.file_rows.reduce((a, f) => a + f.size, 0);
@@ -318,14 +336,24 @@ const usage: Record<Kind, string> = {
       </section>
 
       {
-        related.length > 0 && (
-          <section class="card">
+        relationGroups.length > 0 && (
+          <section class="card relations">
             <h2>Related</h2>
-            <ul class="plain related">
-              {related.map((r) => (
-                <li class={`k-${r.kind}`}><Glyph shapes={KIND_GLYPH[r.kind]} class="" /><a href={r.href}>{r.title}</a></li>
-              ))}
-            </ul>
+            {relationGroups.map((g) => (
+              <div class="relation-group" data-type={g.type}>
+                <h3 class="relation-label">{g.label}</h3>
+                <ul class="plain related">
+                  {g.items.map((r) => (
+                    <li class={`k-${r.kind}`} title={r.evidence}>
+                      <Glyph shapes={KIND_GLYPH[r.kind]} class="" />
+                      <a href={r.href}>{r.title}</a>
+                      {r.origin === "curated" && <span class="badge reviewed" aria-label="reviewed relation">reviewed</span>}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+            <p class="hint">Related means useful together or instead, never "compatible": check requirements before installing. <a href={`${base}docs/concepts/related-items/`}>How relations work</a></p>
           </section>
         )
       }

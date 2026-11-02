@@ -18,6 +18,9 @@ capabilities:
   - { id: ananke, title: "Ananke integration: wheel learnable by Ananke; dex ananke sync", dimension: ecosystem, blocker: true }
   - { id: docs-export, title: "Docs export feeds the website", dimension: docs, blocker: false }
   - { id: site, title: "Website journeys: search, item pages, Mermaid + hover, theme, 404, phone width", dimension: docs, blocker: false }
+  - { id: releases, title: "Release ledger: append-only, immutable; locks pin version + digest; tampered pins refused", dimension: core, blocker: true }
+  - { id: relations, title: "Typed related items with origin and evidence; never claims compatibility", dimension: core, blocker: false }
+  - { id: candidates, title: "Reviewed learning candidates: failed evaluation, rejection or internal-to-public cannot publish", dimension: safety, blocker: true }
   - { id: cli-ux, title: "Errors are clean; refusals exit non-zero", dimension: usability, blocker: false }
 
 surface:
@@ -37,3 +40,12 @@ surface:
   - dex facets show
   - dex facets build
   - dex facets doc
+  - dex lock
+  - dex verify-lock
+  - dex release list
+  - dex release lineage
+  - dex release yank
+  - dex related
+  - dex candidate check
+  - dex candidate review
+  - dex candidate publish

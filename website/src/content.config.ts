@@ -46,6 +46,9 @@ const items = defineCollection({
       .default([]),
     file_rows: z.array(z.object({ path: z.string(), size: z.number(), url: z.string() })).default([]),
     related: z.array(z.string()).default([]),
+    relations: z
+      .array(z.object({ type: z.string(), target: z.string(), origin: z.string(), evidence: z.string() }))
+      .default([]),
     part_of: z.array(z.string()).default([]),
     secret_flags: z.number().default(0),
     // Typed facets from trove/facets.json (docs/guides/finding-capabilities.md).

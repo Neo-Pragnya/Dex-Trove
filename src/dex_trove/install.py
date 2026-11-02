@@ -5,12 +5,14 @@ from __future__ import annotations
 import hashlib
 import json
 import shutil
+import tempfile
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from dex_trove import catalog, claude_compat
-from dex_trove.learn import GENERATED
+from dex_trove import catalog, claude_compat, releases
+from dex_trove.learn import EXEC_SUFFIXES, GENERATED
+from dex_trove.paths import KIND_DIRS
 
 TARGETS = ("claude", "copilot", "dir")
 # What Dex installed under a base directory, so a re-install may replace its own unmodified copies but never a
@@ -124,9 +126,10 @@ def install_one(
     items: list[dict[str, Any]],
     manifest: _Manifest | None = None,
     force: bool = False,
+    src: Path | None = None,
 ) -> list[Installed]:
     manifest = manifest or _Manifest(base)
-    src = catalog.item_path(item)
+    src = src or catalog.item_path(item)
     kind, name = item["kind"], item["name"]
     if kind == "plugin":
         out: list[Installed] = []
@@ -219,4 +222,77 @@ def install(
     return out
 
 
-__all__ = ["GENERATED", "MANIFEST", "InstallError", "Installed", "install"]
+def install_locked(
+    entries: list[releases.Locked],
+    *,
+    target: str,
+    scope: str = "user",
+    path: Path | None = None,
+    allow_exec: bool = False,
+    force: bool = False,
+) -> list[Installed]:
+    """Install exactly what a lock pins: the trove's copy when its digest matches, else the release fetched from Git."""
+    if target not in TARGETS:
+        raise InstallError(f"unknown target {target!r}; choose from {', '.join(TARGETS)}")
+    items = catalog.load()
+    current = {releases.key_of(it): it for it in items}
+    base = _base(target, scope, path)
+    manifest = _Manifest(base)
+    out: list[Installed] = []
+    try:
+        with tempfile.TemporaryDirectory(prefix="dex-locked-") as tmp:
+            for e in entries:
+                kind, _, item_id = e.key.partition(":")
+                it = current.get(e.key)
+                if it is not None and it["content_hash"] == e.content_hash:
+                    out += install_one(
+                        it,
+                        target=target,
+                        base=base,
+                        allow_exec=allow_exec,
+                        items=items,
+                        manifest=manifest,
+                        force=force,
+                    )
+                    continue
+                try:
+                    src = releases.fetch(e, Path(tmp) / e.key.replace(":", "-").replace("/", "."))
+                except releases.ReleaseError as exc:
+                    out.append(Installed(item_id, kind, None, str(exc)))
+                    continue
+                ns, _, name = item_id.partition("/")
+                pinned = {
+                    **(it or {}),
+                    "id": item_id,
+                    "kind": kind,
+                    "namespace": ns,
+                    "name": name,
+                    "entry": e.entry,
+                    "files": e.files,
+                    "version": e.version,
+                    "content_hash": e.content_hash,
+                    "executes_code": any(Path(r).suffix in EXEC_SUFFIXES for r in e.files)
+                    or "hooks.json" in e.files,
+                    "dir": f"{KIND_DIRS[kind]}/{ns}.{name}",
+                }
+                done = install_one(
+                    pinned,
+                    target=target,
+                    base=base,
+                    allow_exec=allow_exec,
+                    items=items,
+                    manifest=manifest,
+                    force=force,
+                    src=src,
+                )
+                for d in done:
+                    d.notes.append(
+                        f"pinned {e.version} fetched from {str(e.source.get('commit'))[:12]} and verified"
+                    )
+                out += done
+    finally:
+        manifest.save()
+    return out
+
+
+__all__ = ["GENERATED", "MANIFEST", "InstallError", "Installed", "install", "install_locked"]

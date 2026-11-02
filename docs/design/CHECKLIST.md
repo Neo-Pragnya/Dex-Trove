@@ -181,7 +181,27 @@ Backlog: `Ideation/Ananke-DexTrove-DevAcharya/Dev_Guru_Three_Repo_Implementation
 - [x] ASM-D05 education: which-artifact-when (ten pairs, decision tree, real examples) and finding-capabilities.
 - [x] ASM-D07 (start) reuse through sidecars: 25 existing skills curated without forking.
 - [ ] ASM-D04 taxonomy landing pages (`/discover/by-task/` …), "why excluded" popovers.
-- [ ] ASM-D06 typed related/complementary edges (SIMILAR_TO, PRECEDES, CONSUMES/PRODUCES…).
+- [x] ASM-D06 typed relations: curated requires/complements/alternative-to with evidence; derived part-of,
+      forked-from, replaced-by; inferred similar. Dangling refs and requires cycles fail validate; no type claims
+      compatibility. Shown grouped on item pages and in `dex related`.
+
+## Phase 12 — Capability memory releases (2026-11-02)
+- [x] DEX-MEMORY-RELEASES / CAP-versioned-registry-01..04:
+  - append-only, immutable release ledger, checked in CI with `validate --since HEAD~1`;
+  - version uniqueness;
+  - yank and deprecate with a replacement;
+  - fork lineage;
+  - project locks;
+  - pinned installs fetched from upstream Git and verified against the digest;
+  - v1/v2 coexistence tested.
+- [x] Reviewed candidate gate: failed or thin evaluation, missing or rejected review, re-evaluation after review,
+      and internal-to-public publishing are all refused.
+- [x] Site: live counts on the kind, source and licence panels; artifact kinds in depth (journey, harness sequence,
+      progressive disclosure, per-kind lifecycles, Ananke flow, safety).
+- [x] Fixed: maintainer commands that change the ledger or publish candidates need a checkout found from the
+      current directory, not the dev-install fallback.
+- [ ] First-party releases have no upstream commit, so older ones can't be fetched. Move first-party skills into git.
+- [ ] Candidate kinds beyond skills (agents, instructions).
 - [ ] Curate more items; benchmark rule precision on a labelled sample.
 
 ## Follow-ups / backlog

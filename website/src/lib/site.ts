@@ -100,6 +100,7 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
       "concepts/architecture",
       "concepts/artifact-kinds",
       "concepts/which-artifact-when",
+      "concepts/related-items",
       "concepts/licence-policy",
       "concepts/provenance-and-versioning",
       "concepts/security-model",

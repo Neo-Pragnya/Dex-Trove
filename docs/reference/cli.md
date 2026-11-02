@@ -66,7 +66,7 @@ Exit codes: `0` success, `2` unknown source id or not in a checkout.
 ## `dex validate`
 
 ```text
-dex validate
+dex validate [--since GIT_REF]
 ```
 
 Checks the trove in use (the checkout's `trove/`, or the installed package):
@@ -77,6 +77,10 @@ Checks the trove in use (the checkout's `trove/`, or the installed package):
 - `ananke.yaml` exists and agrees with `dex.json` (kind, version)
 - if `ananke-plexus` is importable, every manifest validates against Ananke's strict `ArtifactManifest` model
 - in a checkout, `THIRD_PARTY_NOTICES.md` is current
+- the [release ledger](../concepts/provenance-and-versioning.md#the-release-ledger) is consistent: every item's
+  current digest is its latest release, versions are unique and in order, fork parents and replacements exist
+- `relations.json` matches a rebuild, and curated relations point at real items with evidence (no `requires` cycles)
+- with `--since REF`: no release in the ledger at `REF` was edited or deleted (CI uses `--since HEAD~1`)
 
 Prints `✓ N items valid`, or one `✗` line per problem and exits `1`.
 
@@ -120,6 +124,7 @@ Exit `2` if the ref is unknown or ambiguous.
 
 ```text
 dex install REF... [--target/-t claude|copilot|dir] [--scope user|project] [--path DIR] [--allow-exec] [--force]
+dex install --locked [--lock-file dex.lock.json] [--target …] [--scope …] [--path …] [--allow-exec] [--force]
 ```
 
 | Option | Default | Meaning |
@@ -129,11 +134,69 @@ dex install REF... [--target/-t claude|copilot|dir] [--scope user|project] [--pa
 | `--path` | — | base directory override; **required** for `--target dir` |
 | `--allow-exec` | off | allow installing hooks (they run code automatically) |
 | `--force` | off | replace a destination Dex didn't install, or that was edited since (a symlink is replaced, never followed) |
+| `--locked` | off | install exactly the versions in the lock; a pin that isn't current is fetched from its upstream commit and its digest checked |
+| `--lock-file` | `dex.lock.json` | the lock to read with `--locked` |
 
 Prints `✓ kind:id → destination` for each installed item, with `adapted: …` lines for agents translated for Claude
 Code, and `– kind:id: reason` for skipped ones: an unsupported kind for the target, a hook without `--allow-exec`, or
 an existing destination Dex won't replace. Plugins expand to their members. See
 [Installing items](../guides/installing-items.md). Exit `1` if nothing was installed, `2` on an unknown ref or target.
+
+## `dex lock`
+
+```text
+dex lock REF[@VERSION|@sha256:DIGEST]... [--lock-file dex.lock.json]
+```
+
+Pins each item to an exact version and digest, adding to or updating the lock. Without a version, the newest
+stable, non-yanked release. A plugin pins each member. Exit `2` on an unknown ref or version.
+
+## `dex verify-lock`
+
+```text
+dex verify-lock [--lock-file dex.lock.json] [--fetch]
+```
+
+Checks every pin against the release ledger: the version exists with the same digest. Yanked or deprecated pins
+print a warning. `--fetch` also fetches each pin that isn't the current release from Git and verifies its bytes.
+Exit `1` on any error, `2` if the lock can't be read.
+
+## `dex release`
+
+```text
+dex release list REF [--json]
+dex release yank REF@VERSION --reason TEXT
+dex release unyank REF@VERSION
+dex release deprecate REF[@VERSION] --reason TEXT [--replaced-by REF]
+dex release lineage REF [--json]
+dex release record
+```
+
+The [release ledger](../concepts/provenance-and-versioning.md#the-release-ledger): history, yank and deprecation
+markers, and fork lineage. `yank`, `unyank`, `deprecate` and `record` change `trove/releases.json`, so they need a
+Dex-Trove checkout. `record` appends releases for changed items and rebuilds `relations.json` (`dex learn` does this
+itself).
+
+## `dex related`
+
+```text
+dex related REF [--type TYPE] [--json]
+```
+
+[Typed relations](../concepts/related-items.md): requires, complements, alternatives, plugin membership, forks and
+replacements, each with its origin and evidence.
+
+## `dex candidate`
+
+```text
+dex candidate check PATH [--visibility public|internal] [--json]
+dex candidate review PATH --approve|--reject --reviewer NAME --reason TEXT
+dex candidate publish PATH --to SOURCE_ID [--visibility public|internal]
+```
+
+The [reviewed candidate gate](../concepts/provenance-and-versioning.md#reviewed-candidates-how-new-memory-gets-in).
+`check` exits `1` when a gate fails. `publish` exits `1` and lists every failed gate. On success it copies the
+skill into the source's local folder; run `dex learn SOURCE_ID` to release it.
 
 ## `dex facets`
 

@@ -6,7 +6,14 @@ from pathlib import Path
 
 from hatchling.builders.hooks.plugin.interface import BuildHookInterface
 
-TROVE_FILES = ("catalog.json", "EXCLUDED.json", "trove.lock.json", "facets.json")
+TROVE_FILES = (
+    "catalog.json",
+    "EXCLUDED.json",
+    "trove.lock.json",
+    "facets.json",
+    "releases.json",
+    "relations.json",
+)
 
 
 class TroveBuildHook(BuildHookInterface):

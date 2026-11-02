@@ -1,0 +1,43 @@
+# Curated, typed relations between trove items. A sidecar like curation.yaml: it changes no upstream bytes.
+#
+# Types (every one is a statement about *use*, never about compatibility; see docs/concepts/related-items.md):
+#   requires        the source tells you to load or understand the target first
+#   complements     they do different jobs that work well one after the other (shown on both items)
+#   alternative-to  they do the same job a different way; pick one (shown on both items)
+#
+# Every entry needs `evidence`: where a reader can check the claim. Endpoints use `kind:ns/name` and must exist.
+reviewed_by: Dex Trove maintainers
+relations:
+  # ── superpowers: the skills name each other as required sub-skills ─────────────────────────────────────────
+  - { from: skill:superpowers/writing-skills, type: requires, to: skill:superpowers/test-driven-development,
+      evidence: "writing-skills SKILL.md: 'REQUIRED BACKGROUND: You MUST understand superpowers:test-driven-development'" }
+  - { from: skill:superpowers/executing-plans, type: requires, to: skill:superpowers/writing-plans,
+      evidence: "executing-plans SKILL.md: 'You have a plan from superpowers:writing-plans'" }
+  - { from: skill:superpowers/executing-plans, type: requires, to: skill:superpowers/test-driven-development,
+      evidence: "executing-plans SKILL.md: 'REQUIRED SUB-SKILL: load superpowers:test-driven-development'" }
+  - { from: skill:superpowers/executing-plans, type: requires, to: skill:superpowers/verification-before-completion,
+      evidence: "executing-plans SKILL.md: 'REQUIRED SUB-SKILL: superpowers:verification-before-completion'" }
+  - { from: skill:superpowers/brainstorming, type: complements, to: skill:superpowers/writing-plans,
+      evidence: "brainstorming SKILL.md: for software, a written design goes on to superpowers:writing-plans" }
+  - { from: skill:superpowers/writing-plans, type: complements, to: skill:superpowers/executing-plans,
+      evidence: "writing-plans SKILL.md: 'REQUIRED SUB-SKILL: Use superpowers:executing-plans' to implement the plan" }
+  - { from: skill:superpowers/subagent-driven-development, type: alternative-to, to: skill:superpowers/executing-plans,
+      evidence: "writing-plans SKILL.md: use subagent-driven-development (recommended) or executing-plans" }
+  - { from: skill:superpowers/systematic-debugging, type: complements, to: skill:superpowers/test-driven-development,
+      evidence: "systematic-debugging SKILL.md: 'Use the superpowers:test-driven-development skill for writing proper failing tests'" }
+  - { from: skill:superpowers/requesting-code-review, type: complements, to: skill:superpowers/receiving-code-review,
+      evidence: "the two halves of a review: asking for one, and acting on the feedback" }
+  # ── first-party: the web and docs skills are built to stack ────────────────────────────────────────────────
+  - { from: skill:neo-pragnya/astro-docs-site, type: complements, to: skill:neo-pragnya/interactive-web-motion,
+      evidence: "astro-docs-site SKILL.md: motion comes from public/motion-kit/ of the interactive-web-motion skill" }
+  - { from: skill:neo-pragnya/living-diagrams, type: complements, to: skill:neo-pragnya/astro-docs-site,
+      evidence: "living-diagrams SKILL.md: 'Pair with ... astro-docs-site'; its template already handles diagram:rendered" }
+  - { from: skill:neo-pragnya/living-diagrams, type: complements, to: skill:neo-pragnya/interactive-web-motion,
+      evidence: "living-diagrams SKILL.md: 'Pair with interactive-web-motion for text and shape effects'" }
+  - { from: skill:neo-pragnya/living-diagrams, type: complements, to: skill:neo-pragnya/marvellous-aws-architecture-docs,
+      evidence: "living-diagrams SKILL.md: 'Pair with the marvellous-aws-architecture-docs skill for numbered concept flows'" }
+  - { from: skill:neo-pragnya/capability-acceptance, type: complements, to: skill:neo-pragnya/package-security-scan,
+      evidence: "both are release gates: behaviour (acceptance) and the built wheel's security (dist-scan)" }
+  # ── same job, different author ─────────────────────────────────────────────────────────────────────────────
+  - { from: skill:anthropic/skill-creator, type: alternative-to, to: skill:superpowers/writing-skills,
+      evidence: "both guide writing and testing a SKILL.md; skill-creator adds evals, writing-skills applies TDD" }

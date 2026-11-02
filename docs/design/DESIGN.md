@@ -214,6 +214,18 @@ Upstream content stays **untrusted**. Dex never executes it, and the docs site r
   content hash, the patch is bumped; an upstream-declared version (e.g. `plugin.json.version`) wins when present.
   So `ananke registry learn` registers a new immutable version only when content actually changed.
 * **Sources**: `trove.lock.json` pins the commit each source was learned at. A release is fully reproducible.
+* **Release ledger** (`trove/releases.json`, 0.3.0): every version of every item, append-only and immutable except
+  for yank and deprecation markers. Each release records digest, files and upstream `{repo, commit, path}`, plus
+  `parent` for forks. `dex validate --since HEAD~1` fails on any edit or deletion. A version number never names two
+  contents: an upstream that changes bytes without bumping gets the next free patch.
+* **Project locks** (`dex.lock.json`): exact version + digest. `dex install --locked` copies a current pin from the
+  trove and fetches an older one from its upstream commit, verifying the digest. That is a decentralised Git index,
+  with no hosted backend. It never falls back to another version or name.
+* **Candidates**: new or improved memory enters a source only through `dex candidate publish`. That needs a passing
+  evaluation (positive and regression cases), an approving review newer than the evaluation, and visibility that
+  matches the destination.
+* **Relations** (`trove/relations.json`): typed edges with origin and evidence. Curated ones are in
+  `taxonomy/relations.yaml`. None claims compatibility.
 
 ## 8. CLI (`dex`)
 
@@ -228,6 +240,10 @@ Upstream content stays **untrusted**. Dex never executes it, and the docs site r
 | `dex ananke sync [--project P] [--kind K] [--source S] [--dry-run]` | Register trove items into an Ananke registry |
 | `dex notices` | Regenerate `THIRD_PARTY_NOTICES.md` |
 | `dex docs export --out DIR` | Write Astro content (one Markdown file per item plus JSON indexes) |
+| `dex lock REF[@V]…` / `dex verify-lock [--fetch]` / `dex install --locked` | Pin, check and install exact versions |
+| `dex release list\|yank\|unyank\|deprecate\|lineage\|record` | Release ledger: history, markers, fork lineage |
+| `dex related REF [--type T]` | Typed relations with origin and evidence |
+| `dex candidate check\|review\|publish` | The reviewed learning-candidate gate |
 
 `REF` is `namespace/name`, `kind:namespace/name` or a unique bare `name`.
 

@@ -702,3 +702,21 @@ ul.plain {
 @media (prefers-reduced-motion: reduce) {
   .bump { animation: none; }
 }
+
+/* Typed relations on item pages */
+.relation-group + .relation-group { margin-top: 10px; }
+.relation-label {
+  margin: 0 0 4px;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.badge.reviewed {
+  margin-left: 6px;
+  font-size: 0.68rem;
+  padding: 1px 6px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+}

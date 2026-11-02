@@ -226,6 +226,9 @@ def export(trove: Path, out: Path, sources: list[Source], candidates: list[Candi
     data.mkdir(parents=True, exist_ok=True)
     slim = []
     related, part_of = relations(items)
+    from dex_trove import relations as typed_relations
+
+    typed = typed_relations.load(trove)["items"]
     tax = taxonomy.load()
     records = facets.load(trove) or facets.build(items, tax, check_stale=False)["items"]
     for it in items:
@@ -253,6 +256,11 @@ def export(trove: Path, out: Path, sources: list[Source], candidates: list[Candi
             "hook_events": hook_events(trove, it),
             "file_rows": file_rows(trove, it),
             "related": related.get(key, []),
+            "relations": [
+                {"type": r["type"], "target": r["target"], "origin": r["origin"], "evidence": r["evidence"]}
+                for r in typed.get(key, [])
+                if r["type"] not in ("part-of", "bundles")  # shown as "Part of" and "Members" already
+            ],
             "part_of": part_of.get(key, []),
             "secret_flags": len(it.get("secret_flags", [])),
             "facets": shown,

@@ -21,6 +21,7 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           persist-credentials: false
+          fetch-depth: 2  # the previous commit's releases.json: released versions must not change
 
       - name: Install uv
         uses: astral-sh/setup-uv@e58605a9b6da7c637471fab8847a5e5a6b8df081
@@ -46,8 +47,8 @@ jobs:
       - name: Tests with coverage
         run: uv run pytest --cov=dex_trove --cov-report=xml --cov-report=term --cov-fail-under=80
 
-      - name: Validate trove (licences, hashes, Ananke manifests, notices)
-        run: uv run dex validate
+      - name: Validate trove (licences, hashes, Ananke manifests, notices, release ledger)
+        run: uv run dex validate --since HEAD~1
 
       - name: Upload coverage report
         if: matrix.python-version == '3.11'
