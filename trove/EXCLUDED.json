@@ -1,5 +1,5 @@
 {
-  "count": 137,
+  "count": 138,
   "excluded": [
     {
       "source": "anthropic",
@@ -392,6 +392,14 @@
       "path": "plugins/skill-creator/skills/skill-creator",
       "reason": "duplicate",
       "detail": "same content as anthropic/skill-creator"
+    },
+    {
+      "source": "huggingface",
+      "kind": "skill",
+      "name": "hf-cloud-sagemaker-iam-preflight",
+      "path": "skills/hf-cloud-sagemaker-iam-preflight",
+      "reason": "withheld",
+      "detail": "its trust check can pass a role SageMaker can't assume; use skill:patched/hf-cloud-sagemaker-iam-preflight"
     },
     {
       "source": "microsoft",

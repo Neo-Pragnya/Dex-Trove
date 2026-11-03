@@ -13,6 +13,24 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.3] — 2026-11-03
+
+### Security
+
+- **`skill:patched/hf-cloud-sagemaker-iam-preflight` replaces `skill:huggingface/hf-cloud-sagemaker-iam-preflight`.** The
+  original's trust check searched the policy for text, so it passed roles SageMaker can't assume: `Deny` statements,
+  other actions and lookalike services. If you use it, switch to the fork; `dex release list` shows the deprecation.
+- **Known issue in `skill:bmad-method/bmad`:** a version regex in `scripts/setup.py` can hang on a crafted version string,
+  for example from an edited lockfile. It isn't fixed here: the other BMAD modules require a skill with that name, and its
+  trademark terms ask forks to use a different one.
+
+### Added
+
+- `forks/` and the `patched` source: upstream items with a security fix, recorded as forks with their licence and a
+  `CHANGES.md`. The first is the fork above.
+
+---
+
 ## [0.3.2] — 2026-11-03
 
 ### Added

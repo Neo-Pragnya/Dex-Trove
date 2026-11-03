@@ -1,31 +1,31 @@
 {
-  "id": "huggingface/hf-cloud-sagemaker-iam-preflight",
+  "id": "patched/hf-cloud-sagemaker-iam-preflight",
   "kind": "skill",
-  "namespace": "huggingface",
+  "namespace": "patched",
   "name": "hf-cloud-sagemaker-iam-preflight",
   "title": "SageMaker IAM Preflight",
   "description": "Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about to create a SageMaker endpoint, model, training job, or any resource that requires an execution role. Use it especially when the user has not provided a role ARN explicitly, when scripts are about to call `iam:CreateRole`, or when an AccessDenied error mentions an IAM action. Never blindly call `iam:CreateRole` — always check for existing roles first. This skill prevents the most common SageMaker deployment failure: trying to create IAM resources from an SSO principal that has no IAM write permissions.",
   "tags": [
     "executes-code",
-    "huggingface",
+    "patched",
     "skill"
   ],
   "version": "1.0.0",
   "entry": "SKILL.md",
-  "dir": "skills/huggingface.hf-cloud-sagemaker-iam-preflight",
+  "dir": "skills/patched.hf-cloud-sagemaker-iam-preflight",
   "source": {
-    "id": "huggingface",
-    "title": "Hugging Face Skills",
-    "repo": "https://github.com/huggingface/skills",
-    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
-    "path": "skills/hf-cloud-sagemaker-iam-preflight",
-    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/hf-cloud-sagemaker-iam-preflight",
+    "id": "patched",
+    "title": "Patched forks",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+    "commit": "9f7305160ec4f4cb46bd002b8c05d364dbbaee10",
+    "path": "hf-cloud-sagemaker-iam-preflight",
+    "url": null,
     "author": null
   },
   "license": {
     "spdx": "Apache-2.0",
     "verdict": "allow",
-    "evidence": "LICENSE: Apache-2.0 text",
+    "evidence": "hf-cloud-sagemaker-iam-preflight/LICENSE: Apache-2.0 text",
     "notice": "",
     "components": []
   },
@@ -33,6 +33,8 @@
   "executes_code": true,
   "members": [],
   "files": [
+    "CHANGES.md",
+    "LICENSE",
     "SKILL.md",
     "references/minimum-permissions.json",
     "references/trust-policy.json",
@@ -40,6 +42,11 @@
     "scripts/create_role.py"
   ],
   "entry_hash": "a4ff26c2af2c0ce82a4ab34c5cf5eadce5db4573ed2525745c4ee7b21f1773e4",
-  "content_hash": "08901f13e87d224e15ef134170832b9166e9a854f818846d4c84a2688d03351a",
-  "learned_at": "2026-11-03T06:18:57+00:00"
+  "content_hash": "1e7473702df738a3e845ebcae1013c3785b5b137552047a7559f165ce11c7027",
+  "learned_at": "2026-11-03T10:55:22+00:00",
+  "forked_from": {
+    "key": "skill:huggingface/hf-cloud-sagemaker-iam-preflight",
+    "version": "1.0.0",
+    "content_hash": "08901f13e87d224e15ef134170832b9166e9a854f818846d4c84a2688d03351a"
+  }
 }

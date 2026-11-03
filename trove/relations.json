@@ -39967,51 +39967,13 @@
       },
       {
         "type": "similar",
-        "target": "skill:huggingface/hf-cloud-sagemaker-iam-preflight",
-        "origin": "inferred",
-        "evidence": "shares name words: cloud, hf, sagemaker"
-      },
-      {
-        "type": "similar",
         "target": "skill:huggingface/hf-cloud-sagemaker-production-defaults",
         "origin": "inferred",
         "evidence": "shares name words: cloud, hf, sagemaker"
-      }
-    ],
-    "skill:huggingface/hf-cloud-sagemaker-iam-preflight": [
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/aws-cloud-expert",
-        "origin": "inferred",
-        "evidence": "shares name words: cloud"
       },
       {
         "type": "similar",
-        "target": "agent:awesome-copilot/cloud-saas-outage-triage",
-        "origin": "inferred",
-        "evidence": "shares name words: cloud"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/cloud-architect",
-        "origin": "inferred",
-        "evidence": "shares name words: cloud"
-      },
-      {
-        "type": "similar",
-        "target": "agent:wshobson/cloud-architect",
-        "origin": "inferred",
-        "evidence": "shares name words: cloud"
-      },
-      {
-        "type": "similar",
-        "target": "skill:huggingface/hf-cloud-sagemaker-deployment-planner",
-        "origin": "inferred",
-        "evidence": "shares name words: cloud, hf, sagemaker"
-      },
-      {
-        "type": "similar",
-        "target": "skill:huggingface/hf-cloud-sagemaker-production-defaults",
+        "target": "skill:patched/hf-cloud-sagemaker-iam-preflight",
         "origin": "inferred",
         "evidence": "shares name words: cloud, hf, sagemaker"
       }
@@ -40049,7 +40011,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:huggingface/hf-cloud-sagemaker-iam-preflight",
+        "target": "skill:patched/hf-cloud-sagemaker-iam-preflight",
         "origin": "inferred",
         "evidence": "shares name words: cloud, hf, sagemaker"
       }
@@ -47586,6 +47548,44 @@
         "target": "skill:huggingface/hf-cloud-serving-image-selection",
         "origin": "inferred",
         "evidence": "shares name words: selection"
+      }
+    ],
+    "skill:patched/hf-cloud-sagemaker-iam-preflight": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/aws-cloud-expert",
+        "origin": "inferred",
+        "evidence": "shares name words: cloud"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/cloud-saas-outage-triage",
+        "origin": "inferred",
+        "evidence": "shares name words: cloud"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/cloud-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: cloud"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/cloud-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: cloud"
+      },
+      {
+        "type": "similar",
+        "target": "skill:huggingface/hf-cloud-sagemaker-deployment-planner",
+        "origin": "inferred",
+        "evidence": "shares name words: cloud, hf, sagemaker"
+      },
+      {
+        "type": "similar",
+        "target": "skill:huggingface/hf-cloud-sagemaker-production-defaults",
+        "origin": "inferred",
+        "evidence": "shares name words: cloud, hf, sagemaker"
       }
     ],
     "skill:scientific/analytical-method-validation": [

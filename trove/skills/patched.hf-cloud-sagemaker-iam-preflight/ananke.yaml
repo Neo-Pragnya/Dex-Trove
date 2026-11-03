@@ -1,8 +1,8 @@
 kind: skill
-namespace: huggingface
+namespace: patched
 name: hf-cloud-sagemaker-iam-preflight
 version: 1.0.0
-ananke_id: urn:dex-trove:skill:huggingface:hf-cloud-sagemaker-iam-preflight
+ananke_id: urn:dex-trove:skill:patched:hf-cloud-sagemaker-iam-preflight
 summary: Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about
   to create a SageMaker endpoint, model, training job, or any resource that requires an execut…
 description: 'Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever
@@ -18,12 +18,11 @@ runtime:
   - generic
 license:
   expression: Apache-2.0
-  source: 'LICENSE: Apache-2.0 text'
+  source: 'hf-cloud-sagemaker-iam-preflight/LICENSE: Apache-2.0 text'
   approval: approved
 metadata:
   tags:
   - executes-code
-  - huggingface
+  - patched
   - skill
-  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/hf-cloud-sagemaker-iam-preflight
-  repository: https://github.com/huggingface/skills
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks

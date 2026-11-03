@@ -1,5 +1,5 @@
 {
- "generator": "dex-trove 0.3.2",
+ "generator": "dex-trove 0.3.3",
  "summary": {
   "claude": {
    "pass": 1501,
@@ -5039,10 +5039,6 @@
    "claude": "pass",
    "copilot": "pass"
   },
-  "skill:huggingface/hf-cloud-sagemaker-iam-preflight": {
-   "claude": "pass",
-   "copilot": "pass"
-  },
   "skill:huggingface/hf-cloud-sagemaker-production-defaults": {
    "claude": "pass",
    "copilot": "pass"
@@ -5892,6 +5888,10 @@
    "copilot": "pass"
   },
   "skill:neo-pragnya/tech-selection": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:patched/hf-cloud-sagemaker-iam-preflight": {
    "claude": "pass",
    "copilot": "pass"
   },
