@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/mlops-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "mlops-engineer",
+  "title": "mlops-engineer",
+  "description": "Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools. Implements automated training, deployment, and monitoring across cloud platforms. Use PROACTIVELY for ML infrastructure, experiment management, or pipeline automation.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "mlops-engineer.md",
+  "dir": "agents/wshobson.mlops-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/machine-learning-ops/agents/mlops-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/machine-learning-ops/agents/mlops-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mlops-engineer.md"
+  ],
+  "entry_hash": "8663d1f3865097cfa987ae46c8e229b5df41defe580e6eec1e481268cb8292dc",
+  "content_hash": "bbb8e2902acec5894a1f6343fdc9012e66870d1fd3482f7c987dd741a4dd9187",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

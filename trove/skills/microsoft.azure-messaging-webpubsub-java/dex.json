@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-messaging-webpubsub-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-messaging-webpubsub-java",
+  "title": "Azure Web PubSub SDK for Java",
+  "description": "Build real-time web applications with Azure Web PubSub SDK for Java. Use when implementing WebSocket-based messaging, live updates, chat applications, or server-to-client push notifications.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-messaging-webpubsub-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-messaging-webpubsub-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-messaging-webpubsub-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "9bb62a43834be7a0095dc995fa5f703329114aa47f9ccdebe227a8a8c48bd374",
+  "content_hash": "f451421ce8bcba1761e23e4a5c24b4270bfa1c1be20435a5ffe4df4ba87e614b",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

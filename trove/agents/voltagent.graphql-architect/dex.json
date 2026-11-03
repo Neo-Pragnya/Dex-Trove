@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/graphql-architect",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "graphql-architect",
+  "title": "graphql-architect",
+  "description": "Use this agent when designing or evolving GraphQL schemas across microservices, implementing federation architectures, or optimizing query performance in distributed graphs.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "graphql-architect.md",
+  "dir": "agents/voltagent.graphql-architect",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/graphql-architect.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/graphql-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "graphql-architect.md"
+  ],
+  "entry_hash": "a1faa57cd4e509ff6fb3d6545fb298c144b6c49107ceae71e9a28feed76b003f",
+  "content_hash": "e6e71ce33074f98adb93ea6636a3f1a70155b33300fc6a924ed2acc7a61bc03e",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

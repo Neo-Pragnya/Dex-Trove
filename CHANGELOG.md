@@ -13,6 +13,48 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.2] — 2026-11-03
+
+### Added
+
+- **Nine new sources, 739 more items** (1707 in all), checked item by item at the pinned commit. Nearly all are MIT or
+  Apache-2.0; 3 are BSD-3-Clause and 1 is CC-BY-4.0:
+  BMAD Method (33 skills), Impeccable (1), Spec Kit (9 prompts), Hugging Face (26), Microsoft (180), Scientific skills from
+  K-Dense (164), wshobson agents (137), VoltAgent subagents (165) and official Claude Code plugins (24).
+- The first items of kind `prompt`: Spec Kit's commands. They install as commands, and expect a project set up with
+  `specify init`.
+- Licence terms for items declaring BSD-3-Clause or CC-BY-4.0 with no licence file now travel beside the item, as Apache-2.0
+  terms already did.
+- `withhold:` in `sources.yaml` leaves an item out, with its reason recorded in `EXCLUDED.json`.
+- Curated relations for the Spec Kit hand-offs and three same-job pairs across sources.
+
+### Know before using
+
+- **Impeccable** downloads a platform binary from upstream on first use and checks it against the bundled checksums. Set
+  `IMPECCABLE_BIN` to use one you installed yourself.
+- **BMAD Method** is redistributed under its MIT licence. The BMad names and marks belong to BMad Code, LLC, which doesn't
+  endorse Dex Trove.
+
+### Left out
+
+- By licence: 1 official plugin that reserves all rights, and 6 scientific skills (non-commercial, GPL, proprietary or
+  undeclared).
+- Withheld: 3 skills whose placeholder credentials trip package scanners, and 1 agent that pipes a third-party install
+  script into bash.
+- Secret-shaped: 13 items.
+
+### Fixed
+
+- A Markdown item named like a licence (`license-engineer.md`) was read as the licence for its whole folder. It wrongly
+  excluded 19 VoltAgent agents, which are now admitted.
+
+### Capability matrix
+
+- The six missing capabilities are still missing: no new source covers multi-repository topology, SAS, Jenkins triage,
+  Jenkins trigger, Kibana or BPMN. GST and Acuta remain unidentified.
+
+---
+
 ## [0.3.1] — 2026-11-03
 
 ### Added

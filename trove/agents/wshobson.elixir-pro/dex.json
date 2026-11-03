@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/elixir-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "elixir-pro",
+  "title": "elixir-pro",
+  "description": "Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems. Use PROACTIVELY for Elixir refactoring, OTP design, or complex BEAM optimizations.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "elixir-pro.md",
+  "dir": "agents/wshobson.elixir-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/functional-programming/agents/elixir-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/functional-programming/agents/elixir-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "elixir-pro.md"
+  ],
+  "entry_hash": "b71d632762557ab2e65c061f0af23eea0655369d3068647ae56966f119533a08",
+  "content_hash": "4fff8660017f3806717ec8dff72ee46e72ce546c0e52ac14015249320c0a597b",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

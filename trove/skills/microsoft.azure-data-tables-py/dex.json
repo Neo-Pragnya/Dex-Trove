@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-data-tables-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-data-tables-py",
+  "title": "Azure Tables SDK for Python",
+  "description": "Azure Tables SDK for Python (Storage and Cosmos DB). Use for NoSQL key-value storage, entity CRUD, and batch operations.\nTriggers: \"table storage\", \"TableServiceClient\", \"TableClient\", \"entities\", \"PartitionKey\", \"RowKey\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-data-tables-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-data-tables-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-data-tables-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "e28e8908e2a19511abab4ede57bfb967e75dba99b92b242c97c0eb23d729cc7a",
+  "content_hash": "83b1b613d59789bf42e9f47e1507a8bce007a3cff058914c2a22204026ce2c2d",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

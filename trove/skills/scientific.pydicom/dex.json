@@ -1,0 +1,53 @@
+{
+  "id": "scientific/pydicom",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pydicom",
+  "title": "pydicom",
+  "description": "Reads, inspects, writes, transforms, and preflights local DICOM datasets and pixel data. Applies to DICOM metadata, transfer syntaxes, compression plugins, frames, private elements, JSON, and bounded de-identification review.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pydicom",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pydicom",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pydicom",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/common_tags.md",
+    "references/transfer_syntaxes.md",
+    "scripts/__init__.py",
+    "scripts/_common.py",
+    "scripts/anonymize_dicom.py",
+    "scripts/deidentification_audit.py",
+    "scripts/dicom_inventory.py",
+    "scripts/dicom_to_image.py",
+    "scripts/extract_metadata.py",
+    "scripts/pixel_frame_planner.py",
+    "scripts/transfer_syntax_inspector.py",
+    "scripts/uid_mapping_validator.py"
+  ],
+  "entry_hash": "e42c35688a3dc7e0faaf1d1e88c8883eabc60ad291d348bfe5aee89a64c95b01",
+  "content_hash": "1cc70abc966e18b82fe3b0c1d225509566d15538f8f5475e131c88121872ec61",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

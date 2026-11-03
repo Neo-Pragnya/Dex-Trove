@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/cli-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "cli-developer",
+  "title": "cli-developer",
+  "description": "Use this agent when building command-line tools and terminal applications that require intuitive command design, cross-platform compatibility, and optimized developer experience.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "cli-developer.md",
+  "dir": "agents/voltagent.cli-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/cli-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/cli-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cli-developer.md"
+  ],
+  "entry_hash": "50039283bacd5d35b05596446e917337e111c1e8e6d90d7c5dfddbad7a2f38ca",
+  "content_hash": "a1793651f2410ce03772108da70a8775a4a16166050d2ffedd446e011933ab21",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

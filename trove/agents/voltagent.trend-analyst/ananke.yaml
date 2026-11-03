@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: trend-analyst
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:trend-analyst
+summary: Use when analyzing emerging patterns, predicting industry shifts, or developing future scenarios to inform
+  strategic planning and competitive positioning.
+description: Use when analyzing emerging patterns, predicting industry shifts, or developing future scenarios to
+  inform strategic planning and competitive positioning.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: trend-analyst.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/trend-analyst.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

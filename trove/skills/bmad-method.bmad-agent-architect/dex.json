@@ -1,0 +1,42 @@
+{
+  "id": "bmad-method/bmad-agent-architect",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-agent-architect",
+  "title": "Winston — System Architect",
+  "description": "System architect and technical design leader. Use when the user asks to talk to Winston or requests the architect",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-agent-architect",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-agent-architect",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-agent-architect",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml"
+  ],
+  "entry_hash": "be0d1cf51640058eb46bc15ff11e09ef298c16874beedcc2a2e723c8108ad070",
+  "content_hash": "030d79f87c1036827ac41b5bb9d29cfcb76285546b399cc6e136e4e304ee2f90",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

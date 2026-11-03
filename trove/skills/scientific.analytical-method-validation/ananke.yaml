@@ -1,0 +1,32 @@
+kind: skill
+namespace: scientific
+name: analytical-method-validation
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:analytical-method-validation
+summary: Plans, executes, and documents validation, verification, and transfer of analytical procedures under the
+  governing framework - ICH Q2(R2) and Q14, USP <1220>/<1225>/<1226>, ICH M10 bioanalytical, CLSI…
+description: Plans, executes, and documents validation, verification, and transfer of analytical procedures under
+  the governing framework - ICH Q2(R2) and Q14, USP <1220>/<1225>/<1226>, ICH M10 bioanalytical, CLSI EP, or ISO/IEC
+  17025. Use for HPLC, LC-MS/MS, GC, CE, ICP-MS, dissolution, qNMR, qPCR, NIR, and ligand binding or cell-based
+  assays whenever the question is whether a procedure is fit for its intended purpose. Triggers include "method
+  validation", "analytical method validation", "AMV", "validation protocol", "acceptance criteria", "linearity",
+  "reportable range", "accuracy and precision", "repeatability", "intermediate precision", "recovery", "LOD", "LOQ",
+  "detection limit", "quantitation limit", "specificity", "robustness", "method transfer", "method comparison",
+  "Deming", "Passing-Bablok", "Bland-Altman", "equivalence testing", "OOS investigation", "ICH Q2", "Q2(R2)", "Q14",
+  "USP 1225", "ICH M10", "incurred sample reanalysis", "ISR", "CLSI EP", and any request to show that an assay works.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/analytical-method-validation
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

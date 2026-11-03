@@ -1,0 +1,29 @@
+kind: skill
+namespace: bmad-method
+name: bmad-walkthrough
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-walkthrough
+summary: Guide a human review of a commit, PR, file, or directory. Use when invoked by name
+description: Guide a human review of a commit, PR, file, or directory. Use when invoked by name
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-walkthrough
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

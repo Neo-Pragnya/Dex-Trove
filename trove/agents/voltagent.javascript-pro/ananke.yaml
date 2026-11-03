@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: javascript-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:javascript-pro
+summary: Use this agent when you need to build, optimize, or refactor modern JavaScript code for browser, Node.js,
+  or full-stack applications requiring ES2023+ features, async patterns, or performance-critical…
+description: Use this agent when you need to build, optimize, or refactor modern JavaScript code for browser, Node.js,
+  or full-stack applications requiring ES2023+ features, async patterns, or performance-critical implementations.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: javascript-pro.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/javascript-pro.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/java-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "java-pro",
+  "title": "java-pro",
+  "description": "Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns. Use PROACTIVELY for Java development, microservices architecture, or performance optimization.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "java-pro.md",
+  "dir": "agents/wshobson.java-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/jvm-languages/agents/java-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/jvm-languages/agents/java-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "java-pro.md"
+  ],
+  "entry_hash": "fa2b3d439c5da476adcb61b4fae1aa816ce9748a428f7c594cdc2907a3b244c9",
+  "content_hash": "bacde1c38ba1df0ab3a2ab62b197b5732044dd2dca49d822c5d134d02a91fca8",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,27 @@
+kind: skill
+namespace: microsoft
+name: azure-eventhub-py
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-eventhub-py
+summary: Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers,
+  and checkpointing.
+description: 'Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers,
+  and checkpointing.
+
+  Triggers: "event hubs", "EventHubProducerClient", "EventHubConsumerClient", "streaming", "partitions".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-eventhub-py
+  repository: https://github.com/microsoft/skills

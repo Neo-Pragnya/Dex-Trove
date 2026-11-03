@@ -1,0 +1,40 @@
+{
+  "id": "spec-kit/tasks",
+  "kind": "prompt",
+  "namespace": "spec-kit",
+  "name": "tasks",
+  "title": "tasks",
+  "description": "Generate an actionable, dependency-ordered tasks.md for the feature based on available design artifacts.",
+  "tags": [
+    "prompt",
+    "spec-kit"
+  ],
+  "version": "1.0.0",
+  "entry": "tasks.md",
+  "dir": "prompts/spec-kit.tasks",
+  "source": {
+    "id": "spec-kit",
+    "title": "Spec Kit",
+    "repo": "https://github.com/github/spec-kit",
+    "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+    "path": "templates/commands/tasks.md",
+    "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/tasks.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "tasks.md"
+  ],
+  "entry_hash": "2f9176c6e7c23d2a83d2bd018ffa1e67aee977389a57f2a3fe35fe987b425944",
+  "content_hash": "a1f47985c187a2b3ace3c871e13bd757a2db4590315060bf873d5aa17b576c57",
+  "learned_at": "2026-11-03T06:37:49+00:00"
+}

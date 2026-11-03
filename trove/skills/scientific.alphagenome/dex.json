@@ -1,0 +1,48 @@
+{
+  "id": "scientific/alphagenome",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "alphagenome",
+  "title": "AlphaGenome and the AlphaGenome Atlas",
+  "description": "Looks up precomputed AlphaGenome Atlas effects for any GRCh38 single-nucleotide variant (AVI score with Phred and 18 SHAP feature attributions, plus raw and quantile scores for RNA-seq, DNase, ATAC, ChIP-TF, ChIP-histone, CAGE, PRO-cap, splicing, polyadenylation and contact-map tracks), scores variants or scans windows on demand with the AlphaGenome model for human and mouse (variant scoring, in silico mutagenesis, REF-versus-ALT track prediction), and builds Atlas website deep links. Use when the user mentions AlphaGenome, AlphaGenome Atlas, AVI or AlphaGenome Variant Impact, DeepMind variant effect prediction, or wants to prioritise or mechanistically interpret non-coding, regulatory, splicing, enhancer, promoter, or chromatin-accessibility effects of SNVs from a VCF, credible set, or region. Research use only; not a clinical tool.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.alphagenome",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/alphagenome",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/alphagenome",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/atlas.md",
+    "references/interpretation.md",
+    "references/model-api.md",
+    "scripts/_common.py",
+    "scripts/atlas_link.py",
+    "scripts/atlas_query.py",
+    "scripts/score_variants.py"
+  ],
+  "entry_hash": "b133d2a9ff99652b439e0a6f00f93bad49f388be207f7e0241837e001a964947",
+  "content_hash": "789049c9f69fb8a8b0f7d13ac2ec2dbb1e92f4df71d7597467dbcf53f9eccbd9",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

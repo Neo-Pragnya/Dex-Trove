@@ -1,0 +1,52 @@
+{
+  "id": "scientific/ontology-term-resolution",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "ontology-term-resolution",
+  "title": "Ontology Term Resolution",
+  "description": "Resolves free-text scientific labels to ontology term IDs and validates existing CURIEs against the EBI Ontology Lookup Service (OLS4). Also looks up prefixes in Bioregistry, resolves compact identifiers via Identifiers.org, maps lab shorthand with ZOOMA, and builds Ontobee term pages. Use whenever an ontology identifier must be produced or checked - annotating tissue, cell type, disease, phenotype, assay, chemical, organism, sex, or developmental stage fields; preparing metadata for GEO, ENA, BioSamples, CELLxGENE, HCA, or ISA-Tab submission; auditing a metadata table of term IDs; checking whether a term is obsolete and what replaced it; or deciding HPO vs HP. Triggers include \"ontology term\", \"ontology ID\", \"CURIE\", \"controlled vocabulary\", \"UBERON\", \"CL:\", \"MONDO\", \"HPO\", \"EFO\", \"ChEBI\", \"NCBITaxon\", \"GO term\", \"PATO\", \"Zooma\", \"Bioregistry\", \"Identifiers.org\", \"Ontobee\", \"annotate this tissue/cell type/disease\", and any request to emit or verify an identifier shaped like PREFIX:0001234.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.ontology-term-resolution",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/ontology-term-resolution",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/ontology-term-resolution",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/companion-apis.md",
+    "references/curation-rules.md",
+    "references/ols4-api.md",
+    "references/ontology-registry.md",
+    "scripts/id_client.py",
+    "scripts/lookup_prefix.py",
+    "scripts/map_terms.py",
+    "scripts/ols_client.py",
+    "scripts/resolve_terms.py",
+    "scripts/validate_terms.py",
+    "scripts/zooma_client.py"
+  ],
+  "entry_hash": "db310515a230a47023169be207f654458789377c98b30fa593ee420738e4eefb",
+  "content_hash": "d2cd1be54b7970b6b283650d368d4cddd6aaebcdfb7bc8e080923f2a4df56fc1",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

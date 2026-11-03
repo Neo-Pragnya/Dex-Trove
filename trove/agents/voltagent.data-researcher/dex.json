@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/data-researcher",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "data-researcher",
+  "title": "data-researcher",
+  "description": "Use this agent when you need to discover, collect, and validate data from multiple sources to fuel analysis and decision-making. Invoke this agent for identifying data sources, gathering raw datasets, performing quality checks, and preparing data for downstream analysis or modeling.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "data-researcher.md",
+  "dir": "agents/voltagent.data-researcher",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/data-researcher.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/data-researcher.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "data-researcher.md"
+  ],
+  "entry_hash": "de0381dfca455934361cc6fa397081970e841d5deb346dc19ac11802d8dbaefe",
+  "content_hash": "9d346bb85caa2f0b3d1c83105b74ef88887c64d8482cb7970dc20e4497a46d31",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

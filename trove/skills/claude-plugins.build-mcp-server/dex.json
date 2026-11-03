@@ -1,0 +1,48 @@
+{
+  "id": "claude-plugins/build-mcp-server",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "build-mcp-server",
+  "title": "Build an MCP Server",
+  "description": "This skill should be used when the user asks to \"build an MCP server\", \"create an MCP\", \"make an MCP integration\", \"wrap an API for Claude\", \"expose tools to Claude\", \"make an MCP app\", or discusses building something with the Model Context Protocol. It is the entry point for MCP server development — it interrogates the user about their use case, determines the right deployment model (remote HTTP, MCPB, local stdio), picks a tool-design pattern, and hands off to specialized skills.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.build-mcp-server",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/mcp-server-dev/skills/build-mcp-server",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/mcp-server-dev/skills/build-mcp-server",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/mcp-server-dev/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/auth.md",
+    "references/deploy-cloudflare-workers.md",
+    "references/elicitation.md",
+    "references/remote-http-scaffold.md",
+    "references/resources-and-prompts.md",
+    "references/server-capabilities.md",
+    "references/tool-design.md",
+    "references/versions.md"
+  ],
+  "entry_hash": "088cd04be7f03ebbdfd24973cbcbf93c7a2e09117c4bba7b2b06bcc3e0a556f6",
+  "content_hash": "2619417d73b547814c4b53f92d4a3db2a080746c0fe8fe761f7397ae1e3968e1",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/error-coordinator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "error-coordinator",
+  "title": "error-coordinator",
+  "description": "Use when you need to mine error logs and agent output for recurring failure and cascade patterns, then document grounded recovery and cascade-prevention strategies (as Markdown specs) that other agents or humans can act on.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "error-coordinator.md",
+  "dir": "agents/voltagent.error-coordinator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/error-coordinator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/error-coordinator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "error-coordinator.md"
+  ],
+  "entry_hash": "e106ff0bf4408c9cfd912debbf28e108e13d35e3284673e98152a4c958acec6d",
+  "content_hash": "332bc5f82f1d0ac4ecb5b738c2d6496b7f6f6e842b236e6e85dd83a4ac2e9194",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

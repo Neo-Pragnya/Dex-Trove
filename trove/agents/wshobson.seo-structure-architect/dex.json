@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-structure-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-structure-architect",
+  "title": "seo-structure-architect",
+  "description": "Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal linking opportunities. Creates search-friendly content organization. Use PROACTIVELY for content structuring.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-structure-architect.md",
+  "dir": "agents/wshobson.seo-structure-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-technical-optimization/agents/seo-structure-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-technical-optimization/agents/seo-structure-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-structure-architect.md"
+  ],
+  "entry_hash": "5a203dca71c4a56c2236d6221531437cf18bf7085bacfcc3a02c7ec1ce89546c",
+  "content_hash": "c4b0791249a85d0671e9c2b3f248b488e65bd5f8de58f4bdad619076380b8485",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

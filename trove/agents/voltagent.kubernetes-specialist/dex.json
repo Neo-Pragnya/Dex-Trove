@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/kubernetes-specialist",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "kubernetes-specialist",
+  "title": "kubernetes-specialist",
+  "description": "Use this agent when you need to design, deploy, configure, or troubleshoot Kubernetes clusters and workloads in production environments.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "kubernetes-specialist.md",
+  "dir": "agents/voltagent.kubernetes-specialist",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/kubernetes-specialist.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/kubernetes-specialist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "kubernetes-specialist.md"
+  ],
+  "entry_hash": "516f32371c52c60664036901530f31c40b24e4f6acac96917ee28ecaf02f93c6",
+  "content_hash": "440c482e944f9eba2d30917939e56f6e3c2ef3598a176ec267b603fde7584b53",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/receipt-verifier",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "receipt-verifier",
+  "title": "receipt-verifier",
+  "description": "Expert in Ed25519 signed receipts, JCS canonicalization, and offline verification. Use when you need to verify receipt authenticity, audit a receipts file, detect tampering, or explain why verification failed.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "receipt-verifier.md",
+  "dir": "agents/wshobson.receipt-verifier",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/protect-mcp/agents/receipt-verifier.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/protect-mcp/agents/receipt-verifier.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "receipt-verifier.md"
+  ],
+  "entry_hash": "5fb9f0996f71f8a7170dd2909ff68da63e2b8d4da2be1d217aaaa840dc82a393",
+  "content_hash": "c29e81fc7ba92063b37b5d10dffd49d110e0e5fb321ddcaaa2b6177b67e047de",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

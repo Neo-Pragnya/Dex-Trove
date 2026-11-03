@@ -1,0 +1,34 @@
+kind: agent
+namespace: voltagent
+name: visual-asset-generator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:visual-asset-generator
+summary: Use this agent when you need to generate production-ready visual assets for a project — app icons, favicons,
+  OG images, logos, wordmarks, or social media images.
+description: Use this agent when you need to generate production-ready visual assets for a project — app icons,
+  favicons, OG images, logos, wordmarks, or social media images. Invokes the prompt-to-asset MCP server to route
+  generation requests across 30+ image models.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: visual-asset-generator.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/visual-asset-generator.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

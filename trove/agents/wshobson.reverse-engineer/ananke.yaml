@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: reverse-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:reverse-engineer
+summary: Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis.
+  Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains.
+description: Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis.
+  Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains. Handles executable analysis, library inspection,
+  protocol extraction, and vulnerability research. Use PROACTIVELY for binary analysis, CTF challenges, security
+  research, or understanding undocumented software.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: reverse-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/reverse-engineering/agents/reverse-engineer.md
+  repository: https://github.com/wshobson/agents

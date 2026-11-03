@@ -1,0 +1,40 @@
+{
+  "id": "spec-kit/implement",
+  "kind": "prompt",
+  "namespace": "spec-kit",
+  "name": "implement",
+  "title": "implement",
+  "description": "Execute the implementation plan by processing and executing all tasks defined in tasks.md",
+  "tags": [
+    "prompt",
+    "spec-kit"
+  ],
+  "version": "1.0.0",
+  "entry": "implement.md",
+  "dir": "prompts/spec-kit.implement",
+  "source": {
+    "id": "spec-kit",
+    "title": "Spec Kit",
+    "repo": "https://github.com/github/spec-kit",
+    "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+    "path": "templates/commands/implement.md",
+    "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/implement.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "implement.md"
+  ],
+  "entry_hash": "feab334232940cfd4ecbcdae41cf63ccb7d581a60380230837385f296f7b49bd",
+  "content_hash": "c7c9e56da2b837421433a5e11132b04ccec384cd424dee01ba074ab242fa871b",
+  "learned_at": "2026-11-03T06:37:49+00:00"
+}

@@ -1,0 +1,31 @@
+kind: skill
+namespace: huggingface
+name: trl-training
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:trl-training
+summary: Post-train LLMs with TRL (Transformers Reinforcement Learning) — SFT, DPO, GRPO, KTO, and reward-model
+  training. Use when writing or debugging training code with the TRL Python API or the trl CLI.
+description: Post-train LLMs with TRL (Transformers Reinforcement Learning) — SFT, DPO, GRPO, KTO, and reward-model
+  training. Use when writing or debugging training code with the TRL Python API or the trl CLI.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'frontmatter license: ''Apache-2.0'''
+  approval: approved
+metadata:
+  tags:
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/trl-training
+  repository: https://github.com/huggingface/skills

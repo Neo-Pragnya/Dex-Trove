@@ -1,5 +1,5 @@
 {
-  "count": 46,
+  "count": 137,
   "excluded": [
     {
       "source": "anthropic",
@@ -368,6 +368,734 @@
       "path": "skills/security-review",
       "reason": "secret-shaped",
       "detail": "generic-credential references/secret-patterns.md:142; generic-credential references/secret-patterns.md:160; aws-access-key references/secret-patterns.md:161"
+    },
+    {
+      "source": "claude-plugins",
+      "kind": "skill",
+      "name": "claude-security",
+      "path": "plugins/claude-security/skills/claude-security",
+      "reason": "license-denied",
+      "detail": "LicenseRef-Proprietary — plugins/claude-security/LICENSE: 'all rights reserved' with no recognised grant"
+    },
+    {
+      "source": "claude-plugins",
+      "kind": "skill",
+      "name": "frontend-design",
+      "path": "plugins/frontend-design/skills/frontend-design",
+      "reason": "duplicate",
+      "detail": "same content as anthropic/frontend-design"
+    },
+    {
+      "source": "claude-plugins",
+      "kind": "skill",
+      "name": "skill-creator",
+      "path": "plugins/skill-creator/skills/skill-creator",
+      "reason": "duplicate",
+      "detail": "same content as anthropic/skill-creator"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "azure-app-onboard",
+      "path": ".github/plugins/azure-skills/skills/azure-app-onboard",
+      "reason": "secret-shaped",
+      "detail": "generic-credential scaffold/scripts/scaffold-conformance.ps1:75; generic-credential scaffold/scripts/scaffold-conformance.sh:71"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "azure-cosmos-db-py",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-cosmos-db-py",
+      "reason": "withheld",
+      "detail": "placeholder credentials in its examples trip package scanners"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "azure-mgmt-apimanagement-dotnet",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-apimanagement-dotnet",
+      "reason": "secret-shaped",
+      "detail": "generic-credential references/products-subscriptions.md:134"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "azure-resource-manager-mysql-dotnet",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-mysql-dotnet",
+      "reason": "secret-shaped",
+      "detail": "generic-credential SKILL.md:374"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "azure-resource-manager-postgresql-dotnet",
+      "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-postgresql-dotnet",
+      "reason": "secret-shaped",
+      "detail": "generic-credential SKILL.md:413"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "azure-security-keyvault-secrets-java",
+      "path": ".github/plugins/azure-sdk-java/skills/azure-security-keyvault-secrets-java",
+      "reason": "withheld",
+      "detail": "placeholder credentials in its examples trip package scanners"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "azure-speech-to-text-rest-py",
+      "path": ".github/plugins/azure-sdk-python/skills/azure-speech-to-text-rest-py",
+      "reason": "secret-shaped",
+      "detail": "generic-credential SKILL.md:228"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "foundry-iq",
+      "path": ".github/plugins/foundry-iq-skills/skills/foundry-iq",
+      "reason": "secret-shaped",
+      "detail": "generic-credential helpers/search_reconcile.py:884; generic-credential references/bootstrap-azure.md:117"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "teams-app-developer",
+      "path": ".github/plugins/microsoft-365-agents-toolkit/skills/teams-app-developer",
+      "reason": "secret-shaped",
+      "detail": "slack-token experts/bridge/rest-only-integration-ts.md:73; slack-token experts/deploy/aws-bot-deploy-ts.md:151; slack-token experts/deploy/aws-bot-deploy-ts.md:220"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "autoskill",
+      "path": "skills/autoskill",
+      "reason": "secret-shaped",
+      "detail": "generic-credential scripts/run.py:74"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "database-lookup",
+      "path": "skills/database-lookup",
+      "reason": "withheld",
+      "detail": "placeholder credentials in its examples trip package scanners"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "deepspot-m",
+      "path": "skills/deepspot-m",
+      "reason": "license-denied",
+      "detail": "PolyForm-Noncommercial-1.0.0 — frontmatter license: 'PolyForm-Noncommercial-1.0.0'"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "etetoolkit",
+      "path": "skills/etetoolkit",
+      "reason": "license-denied",
+      "detail": "GPL-3.0-or-later — frontmatter license: 'GPL-3.0-or-later'"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "glycoengineering",
+      "path": "skills/glycoengineering",
+      "reason": "license-denied",
+      "detail": "Unknown — frontmatter license: 'Unknown'"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "infographics",
+      "path": "skills/infographics",
+      "reason": "secret-shaped",
+      "detail": "generic-credential scripts/generate_infographic_ai.py:417; generic-credential scripts/generate_infographic_ai.py:1323"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "latex-posters",
+      "path": "skills/latex-posters",
+      "reason": "secret-shaped",
+      "detail": "generic-credential scripts/generate_schematic_ai.py:227; generic-credential scripts/generate_schematic_ai.py:811"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "literature-review",
+      "path": "skills/literature-review",
+      "reason": "secret-shaped",
+      "detail": "generic-credential scripts/generate_schematic_ai.py:227; generic-credential scripts/generate_schematic_ai.py:811"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "phylogenetics",
+      "path": "skills/phylogenetics",
+      "reason": "license-denied",
+      "detail": "Unknown — frontmatter license: 'Unknown'"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "primekg",
+      "path": "skills/primekg",
+      "reason": "license-denied",
+      "detail": "Unknown — frontmatter license: 'Unknown'"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "rowan",
+      "path": "skills/rowan",
+      "reason": "license-denied",
+      "detail": "LicenseRef-Proprietary — frontmatter license: 'Proprietary (API key required)'"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "scientific-schematics",
+      "path": "skills/scientific-schematics",
+      "reason": "secret-shaped",
+      "detail": "generic-credential scripts/generate_schematic_ai.py:227; generic-credential scripts/generate_schematic_ai.py:811"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "scientific-slides",
+      "path": "skills/scientific-slides",
+      "reason": "secret-shaped",
+      "detail": "generic-credential scripts/generate_schematic_ai.py:227; generic-credential scripts/generate_schematic_ai.py:811; generic-credential scripts/generate_slide_image_ai.py:255"
+    },
+    {
+      "source": "voltagent",
+      "kind": "agent",
+      "name": "healthcare-admin",
+      "path": "categories/07-specialized-domains/healthcare-admin.md",
+      "reason": "withheld",
+      "detail": "tells the agent to pipe a third-party install script into bash"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "api-documenter",
+      "path": "plugins/documentation-generation/agents/api-documenter.md",
+      "reason": "name-collision",
+      "detail": "wshobson/api-documenter already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "architect-review",
+      "path": "plugins/framework-migration/agents/architect-review.md",
+      "reason": "name-collision",
+      "detail": "wshobson/architect-review already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "backend-architect",
+      "path": "plugins/backend-api-security/agents/backend-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/backend-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "backend-architect",
+      "path": "plugins/backend-development/agents/backend-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/backend-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "backend-architect",
+      "path": "plugins/data-engineering/agents/backend-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/backend-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "backend-architect",
+      "path": "plugins/database-cloud-optimization/agents/backend-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/backend-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "backend-architect",
+      "path": "plugins/multi-platform-apps/agents/backend-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/backend-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "backend-security-coder",
+      "path": "plugins/data-validation-suite/agents/backend-security-coder.md",
+      "reason": "name-collision",
+      "detail": "wshobson/backend-security-coder already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "cloud-architect",
+      "path": "plugins/cloud-infrastructure/agents/cloud-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/cloud-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "cloud-architect",
+      "path": "plugins/database-cloud-optimization/agents/cloud-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/cloud-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "cloud-architect",
+      "path": "plugins/deployment-validation/agents/cloud-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/cloud-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "code-reviewer",
+      "path": "plugins/code-refactoring/agents/code-reviewer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/code-reviewer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "code-reviewer",
+      "path": "plugins/codebase-cleanup/agents/code-reviewer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/code-reviewer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "code-reviewer",
+      "path": "plugins/comprehensive-review/agents/code-reviewer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/code-reviewer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "code-reviewer",
+      "path": "plugins/git-pr-workflows/agents/code-reviewer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/code-reviewer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "code-reviewer",
+      "path": "plugins/incident-response/agents/code-reviewer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/code-reviewer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "code-reviewer",
+      "path": "plugins/tdd-workflows/agents/code-reviewer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/code-reviewer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "context-manager",
+      "path": "plugins/context-management/agents/context-manager.md",
+      "reason": "name-collision",
+      "detail": "wshobson/context-manager already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "database-architect",
+      "path": "plugins/database-design/agents/database-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/database-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "database-optimizer",
+      "path": "plugins/database-migrations/agents/database-optimizer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/database-optimizer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "database-optimizer",
+      "path": "plugins/observability-monitoring/agents/database-optimizer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/database-optimizer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "debugger",
+      "path": "plugins/error-debugging/agents/debugger.md",
+      "reason": "name-collision",
+      "detail": "wshobson/debugger already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "debugger",
+      "path": "plugins/error-diagnostics/agents/debugger.md",
+      "reason": "name-collision",
+      "detail": "wshobson/debugger already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "debugger",
+      "path": "plugins/incident-response/agents/debugger.md",
+      "reason": "name-collision",
+      "detail": "wshobson/debugger already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "debugger",
+      "path": "plugins/unit-testing/agents/debugger.md",
+      "reason": "name-collision",
+      "detail": "wshobson/debugger already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "deployment-engineer",
+      "path": "plugins/cloud-infrastructure/agents/deployment-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/deployment-engineer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "deployment-engineer",
+      "path": "plugins/deployment-strategies/agents/deployment-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/deployment-engineer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "deployment-engineer",
+      "path": "plugins/full-stack-orchestration/agents/deployment-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/deployment-engineer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "devops-troubleshooter",
+      "path": "plugins/distributed-debugging/agents/devops-troubleshooter.md",
+      "reason": "name-collision",
+      "detail": "wshobson/devops-troubleshooter already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "devops-troubleshooter",
+      "path": "plugins/incident-response/agents/devops-troubleshooter.md",
+      "reason": "name-collision",
+      "detail": "wshobson/devops-troubleshooter already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "django-pro",
+      "path": "plugins/python-development/agents/django-pro.md",
+      "reason": "name-collision",
+      "detail": "wshobson/django-pro already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "docs-architect",
+      "path": "plugins/documentation-generation/agents/docs-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/docs-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "dx-optimizer",
+      "path": "plugins/team-collaboration/agents/dx-optimizer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/dx-optimizer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "error-detective",
+      "path": "plugins/error-debugging/agents/error-detective.md",
+      "reason": "name-collision",
+      "detail": "wshobson/error-detective already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "error-detective",
+      "path": "plugins/error-diagnostics/agents/error-detective.md",
+      "reason": "name-collision",
+      "detail": "wshobson/error-detective already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "error-detective",
+      "path": "plugins/incident-response/agents/error-detective.md",
+      "reason": "name-collision",
+      "detail": "wshobson/error-detective already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "fastapi-pro",
+      "path": "plugins/python-development/agents/fastapi-pro.md",
+      "reason": "name-collision",
+      "detail": "wshobson/fastapi-pro already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "frontend-developer",
+      "path": "plugins/frontend-mobile-development/agents/frontend-developer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/frontend-developer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "frontend-developer",
+      "path": "plugins/frontend-mobile-security/agents/frontend-developer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/frontend-developer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "frontend-developer",
+      "path": "plugins/multi-platform-apps/agents/frontend-developer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/frontend-developer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "graphql-architect",
+      "path": "plugins/backend-development/agents/graphql-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/graphql-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "kubernetes-architect",
+      "path": "plugins/cloud-infrastructure/agents/kubernetes-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/kubernetes-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "kubernetes-architect",
+      "path": "plugins/kubernetes-operations/agents/kubernetes-architect.md",
+      "reason": "name-collision",
+      "detail": "wshobson/kubernetes-architect already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "legacy-modernizer",
+      "path": "plugins/dependency-management/agents/legacy-modernizer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/legacy-modernizer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "legacy-modernizer",
+      "path": "plugins/framework-migration/agents/legacy-modernizer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/legacy-modernizer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "mobile-developer",
+      "path": "plugins/multi-platform-apps/agents/mobile-developer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/mobile-developer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "network-engineer",
+      "path": "plugins/observability-monitoring/agents/network-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/network-engineer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "observability-engineer",
+      "path": "plugins/observability-monitoring/agents/observability-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/observability-engineer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "performance-engineer",
+      "path": "plugins/backend-development/agents/performance-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/performance-engineer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "performance-engineer",
+      "path": "plugins/full-stack-orchestration/agents/performance-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/performance-engineer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "performance-engineer",
+      "path": "plugins/observability-monitoring/agents/performance-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/performance-engineer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "performance-engineer",
+      "path": "plugins/performance-testing-review/agents/performance-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/performance-engineer already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "security-auditor",
+      "path": "plugins/comprehensive-review/agents/security-auditor.md",
+      "reason": "name-collision",
+      "detail": "wshobson/security-auditor already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "security-auditor",
+      "path": "plugins/full-stack-orchestration/agents/security-auditor.md",
+      "reason": "name-collision",
+      "detail": "wshobson/security-auditor already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "security-auditor",
+      "path": "plugins/security-compliance/agents/security-auditor.md",
+      "reason": "name-collision",
+      "detail": "wshobson/security-auditor already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "security-auditor",
+      "path": "plugins/security-scanning/agents/security-auditor.md",
+      "reason": "name-collision",
+      "detail": "wshobson/security-auditor already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "tdd-orchestrator",
+      "path": "plugins/tdd-workflows/agents/tdd-orchestrator.md",
+      "reason": "name-collision",
+      "detail": "wshobson/tdd-orchestrator already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "terraform-specialist",
+      "path": "plugins/cloud-infrastructure/agents/terraform-specialist.md",
+      "reason": "name-collision",
+      "detail": "wshobson/terraform-specialist already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "terraform-specialist",
+      "path": "plugins/deployment-strategies/agents/terraform-specialist.md",
+      "reason": "name-collision",
+      "detail": "wshobson/terraform-specialist already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "test-automator",
+      "path": "plugins/codebase-cleanup/agents/test-automator.md",
+      "reason": "name-collision",
+      "detail": "wshobson/test-automator already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "test-automator",
+      "path": "plugins/full-stack-orchestration/agents/test-automator.md",
+      "reason": "name-collision",
+      "detail": "wshobson/test-automator already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "test-automator",
+      "path": "plugins/incident-response/agents/test-automator.md",
+      "reason": "name-collision",
+      "detail": "wshobson/test-automator already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "test-automator",
+      "path": "plugins/performance-testing-review/agents/test-automator.md",
+      "reason": "name-collision",
+      "detail": "wshobson/test-automator already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "test-automator",
+      "path": "plugins/unit-testing/agents/test-automator.md",
+      "reason": "name-collision",
+      "detail": "wshobson/test-automator already learned"
+    },
+    {
+      "source": "wshobson",
+      "kind": "agent",
+      "name": "tutorial-engineer",
+      "path": "plugins/documentation-generation/agents/tutorial-engineer.md",
+      "reason": "name-collision",
+      "detail": "wshobson/tutorial-engineer already learned"
     }
   ]
 }

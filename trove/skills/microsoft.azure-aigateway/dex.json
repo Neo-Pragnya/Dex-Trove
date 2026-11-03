@@ -1,0 +1,48 @@
+{
+  "id": "microsoft/azure-aigateway",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-aigateway",
+  "title": "Azure AI Gateway",
+  "description": "Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP rate limiting, jailbreak detection, add Azure OpenAI backend, add AI Foundry model, test AI gateway, LLM policies, configure AI backend, token metrics, AI cost control, convert API to MCP, import OpenAPI to gateway.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-aigateway",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/azure-aigateway",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-aigateway",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/auth-best-practices.md",
+    "references/patterns.md",
+    "references/policies.md",
+    "references/sdk/azure-ai-contentsafety-py.md",
+    "references/sdk/azure-ai-contentsafety-ts.md",
+    "references/sdk/azure-mgmt-apimanagement-dotnet.md",
+    "references/sdk/azure-mgmt-apimanagement-py.md",
+    "references/troubleshooting.md"
+  ],
+  "entry_hash": "05acd88e75ab23776d2876a1f91f6cfe2fd666c48f4f45176e7ea9d3d873b9be",
+  "content_hash": "ffb2d491ec9612d154cbecff68cebf8a1995fac3dc061ed2428274285dbd33df",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

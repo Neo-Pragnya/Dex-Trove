@@ -1,0 +1,34 @@
+kind: skill
+namespace: scientific
+name: optimize-for-gpu
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:optimize-for-gpu
+summary: GPU-accelerates scientific Python on NVIDIA hardware and verifies that the result is correct and faster.
+description: GPU-accelerates scientific Python on NVIDIA hardware and verifies that the result is correct and faster.
+  Use for CUDA/GPU optimization; CPU-bound NumPy, SciPy, pandas, scikit-learn, NetworkX, scikit-image, vector-search,
+  image-processing, graph, simulation, or file-I/O workloads; CuPy, cuDF, cuML, cuGraph, cuVS, cuCIM, KvikIO, Warp,
+  Newton, Numba-CUDA, or RAFT questions; and profiling, memory-transfer, kernel, or multi-GPU bottlenecks. Also
+  use when large data-parallel Python code is slow and GPU acceleration is a plausible option, even if the user
+  does not name CUDA.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/optimize-for-gpu
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

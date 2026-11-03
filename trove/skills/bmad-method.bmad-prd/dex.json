@@ -1,0 +1,48 @@
+{
+  "id": "bmad-method/bmad-prd",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-prd",
+  "title": "BMad PRD",
+  "description": "Create, update, or validate a PRD. Use when the user wants help producing, editing, or validating a PRD",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-prd",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-prd",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-prd",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/headless-schemas.md",
+    "assets/prd-template.md",
+    "assets/prd-validation-checklist.md",
+    "assets/validation-report-template.html",
+    "bmod.toml",
+    "customize.toml",
+    "references/headless.md",
+    "references/validate.md"
+  ],
+  "entry_hash": "df1c8433aacd9f341da0cadd35d1d647ce7298a5070ccbd4c0c285085551faea",
+  "content_hash": "83d4bcfa6a2757a31cdb1582a60c2205d1426ac33d343f9632f5fe578a14d672",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

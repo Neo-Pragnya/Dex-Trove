@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-identity-rust",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-identity-rust",
+  "title": "Azure Identity library for Rust",
+  "description": "Azure Identity library for Rust. Microsoft Entra ID authentication for all Azure SDK clients.\nTriggers: \"azure identity rust\", \"DeveloperToolsCredential\", \"authentication rust\", \"managed identity rust\", \"credential rust\", \"Entra ID rust\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-identity-rust",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-rust/skills/azure-identity-rust",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-rust/skills/azure-identity-rust",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "a8012a1c4324eee8b38daf43ce1f6400ecb3fa8c64763399f4247155627024ac",
+  "content_hash": "b726907b15f6f217db32304d73989c9c7bf051520cd7a8c749928ba813c575b8",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

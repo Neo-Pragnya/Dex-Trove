@@ -1,0 +1,26 @@
+kind: skill
+namespace: huggingface
+name: huggingface-tool-builder
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:huggingface-tool-builder
+summary: Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging
+  Face API would help.
+description: Use this skill when the user wants to build tool/scripts or achieve a task where using data from the
+  Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be
+  repeated/automated. This Skill creates a reusable script to fetch, enrich or process data.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-tool-builder
+  repository: https://github.com/huggingface/skills

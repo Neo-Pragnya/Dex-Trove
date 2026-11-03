@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: image-generator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:image-generator
+summary: Image generation executor agent. Delegates here for ALL generate_image calls to keep the main conversation
+  context clean.
+description: Image generation executor agent. Delegates here for ALL generate_image calls to keep the main conversation
+  context clean. Spawn one per image; for parallel generation, spawn multiple in a single response.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: image-generator.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/meigen-ai-design/agents/image-generator.md
+  repository: https://github.com/wshobson/agents

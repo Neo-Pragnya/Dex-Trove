@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: imaging-data-commons
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:imaging-data-commons
+summary: Queries and downloads public cancer imaging data from NCI Imaging Data Commons. Supports IDC collection
+  discovery, DICOM access, radiology (CT, MR, PET) and pathology AI datasets, metadata SQL, visual…
+description: Queries and downloads public cancer imaging data from NCI Imaging Data Commons. Supports IDC collection
+  discovery, DICOM access, radiology (CT, MR, PET) and pathology AI datasets, metadata SQL, visualization, licensing,
+  and citations. Uses public metadata and download routes without authentication; optional BigQuery and Google Healthcare
+  routes require Google credentials.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/imaging-data-commons
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

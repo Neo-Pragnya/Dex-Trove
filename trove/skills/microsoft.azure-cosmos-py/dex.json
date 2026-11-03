@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-cosmos-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-cosmos-py",
+  "title": "Azure Cosmos DB SDK for Python",
+  "description": "Azure Cosmos DB SDK for Python (NoSQL API). Use for document CRUD, queries, containers, and globally distributed data.\nTriggers: \"cosmos db\", \"CosmosClient\", \"container\", \"document\", \"NoSQL\", \"partition key\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-cosmos-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-cosmos-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-cosmos-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/partitioning.md",
+    "references/query-patterns.md"
+  ],
+  "entry_hash": "7b3c8cbbee11c4900cec94db00927a60f69d002385194df953af665768281925",
+  "content_hash": "62edce82c9a8d50c5bc8795ab09d2fc1de5bdea66f4ea728de04e56bd50c2388",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

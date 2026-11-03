@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/php-pro",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "php-pro",
+  "title": "php-pro",
+  "description": "Use this agent when working with PHP 8.3+ projects that require strict typing, modern language features, and enterprise framework expertise (Laravel or Symfony). Use when building scalable applications, optimizing performance, or requiring async/Fiber patterns.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "php-pro.md",
+  "dir": "agents/voltagent.php-pro",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/php-pro.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/php-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "php-pro.md"
+  ],
+  "entry_hash": "ef94e49952e026429c25ed0f0707df7e5f3b6fbb2a5c5dfdadf87e856585572b",
+  "content_hash": "299d7ca9c492a59a96a40b5434298972be3cd093ae615f5770e63f0c28ff9624",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "scientific/pymatgen",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pymatgen",
+  "title": "pymatgen",
+  "description": "Analyzes, validates, converts, and transforms materials structures and computed materials data with pymatgen. Use for local phase diagrams, symmetry sensitivity, electronic-structure I/O, and bounded Materials Project queries.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pymatgen",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pymatgen",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pymatgen",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/analysis_modules.md",
+    "references/core_classes.md",
+    "references/io_formats.md",
+    "references/materials_project_api.md",
+    "references/transformations_workflows.md",
+    "scripts/_common.py",
+    "scripts/artifact_manifest.py",
+    "scripts/composition_structure_validator.py",
+    "scripts/io_conversion_plan.py",
+    "scripts/mp_query.py",
+    "scripts/phase_diagram_generator.py",
+    "scripts/structure_analyzer.py",
+    "scripts/structure_converter.py",
+    "scripts/symmetry_sensitivity_report.py"
+  ],
+  "entry_hash": "4a106d7682cd9881765700d534cb419458ba407935a59168547da1ae6ea4b6b1",
+  "content_hash": "0972189cb91e4c9d5ebe28e1b24d12a8874c3af89587b25fbb74dfcedf07cf54",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

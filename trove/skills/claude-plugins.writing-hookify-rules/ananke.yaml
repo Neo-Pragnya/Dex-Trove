@@ -1,0 +1,31 @@
+kind: skill
+namespace: claude-plugins
+name: writing-hookify-rules
+version: 0.1.0
+ananke_id: urn:dex-trove:skill:claude-plugins:writing-hookify-rules
+summary: This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure
+  hookify", "add a hookify rule", or needs guidance on hookify rule syntax and patterns.
+description: This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure
+  hookify", "add a hookify rule", or needs guidance on hookify rule syntax and patterns.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'plugins/hookify/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/hookify/skills/writing-rules
+  repository: https://github.com/anthropics/claude-plugins-official

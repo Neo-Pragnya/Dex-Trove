@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/sre-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "sre-engineer",
+  "title": "sre-engineer",
+  "description": "Use this agent when you need to establish or improve system reliability through SLO definition, error budget management, and automation. Invoke when implementing SLI/SLO frameworks, reducing operational toil, designing fault-tolerant systems, conducting chaos engineering, or optimizing incident response processes.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "sre-engineer.md",
+  "dir": "agents/voltagent.sre-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/sre-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/sre-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "sre-engineer.md"
+  ],
+  "entry_hash": "8ab8567c2b07920e43175fea10e99436cb32a58fffd0812b821014a6a3235213",
+  "content_hash": "56d2188a9b31c6d979ed00e7a431f7179b97750554677e4f9b10e53d6866bb6c",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,33 @@
+kind: prompt
+namespace: spec-kit
+name: clarify
+version: 1.0.0
+ananke_id: urn:dex-trove:prompt:spec-kit:clarify
+summary: Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification
+  questions and encoding answers back into the spec.
+description: Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification
+  questions and encoding answers back into the spec.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: clarify.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - prompt
+  - spec-kit
+  homepage: https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/clarify.md
+  repository: https://github.com/github/spec-kit

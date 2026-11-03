@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-eventhub-rust",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-eventhub-rust",
+  "title": "Azure Event Hubs library for Rust",
+  "description": "Azure Event Hubs library for Rust. Send and receive events for streaming data ingestion and batch processing.\nTriggers: \"event hubs rust\", \"ProducerClient rust\", \"ConsumerClient rust\", \"send event rust\", \"streaming rust\", \"eventhub rust\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-eventhub-rust",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-rust/skills/azure-eventhub-rust",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-rust/skills/azure-eventhub-rust",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ebfc903a96b4aa25c2ef83021ef90e02306ce56cf01943244f4bc3f4f3980278",
+  "content_hash": "ead79115df54e8c6541b0dc64a99004d34361a9d398d39010b454aada4090462",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

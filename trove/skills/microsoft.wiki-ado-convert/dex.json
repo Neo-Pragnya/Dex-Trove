@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-ado-convert",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-ado-convert",
+  "title": "ADO Wiki Converter",
+  "description": "Converts VitePress/GFM wiki markdown to Azure DevOps Wiki-compatible format. Generates a Node.js build script that transforms Mermaid syntax, strips front matter, fixes links, and outputs ADO-compatible copies to dist/ado-wiki/.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-ado-convert",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-ado-convert",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-ado-convert",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "afb330d4d5b43c470e83693ef73caee21f99c149dd5011f8543c424a751cebc3",
+  "content_hash": "7b3c51de9cf4a7e10e93843290b102fe93bffe8b70afe477e9c35f30060f6bb8",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

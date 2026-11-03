@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/compliance-auditor",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "compliance-auditor",
+  "title": "compliance-auditor",
+  "description": "Use this agent when you need to achieve regulatory compliance, implement compliance controls, or prepare for audits across frameworks like GDPR, HIPAA, PCI DSS, SOC 2, and ISO standards.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "compliance-auditor.md",
+  "dir": "agents/voltagent.compliance-auditor",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/compliance-auditor.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/compliance-auditor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "compliance-auditor.md"
+  ],
+  "entry_hash": "65ac82b84b9b5e6d43ebdc62c274e892b2f59f15cb5536e7f774b9ac3742fd98",
+  "content_hash": "dce0185510de3a591b7b8bd6674fc265b40888eb6ceff3afbaeaaaae07200443",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

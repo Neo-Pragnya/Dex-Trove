@@ -1,0 +1,43 @@
+{
+  "id": "bmad-method/bmad-ingest",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-ingest",
+  "title": "Ingest",
+  "description": "Turns a transcript, thread, voice memo or long document into a cited note agents can act on. Use when the user says \"ingest this\", \"process this transcript\", \"make notes from this thread or recording\" or \"what came out of this meeting\".",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-ingest",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-ingest",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-ingest",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml",
+    "evals/triggers.json"
+  ],
+  "entry_hash": "5544f163278a3fcad811e86216d5ebdb29866045e9c84930c14d69e4ad67c49b",
+  "content_hash": "93aa457682068eaf026c12034650be732a17b2efa4a4429215534f1a7b82bd05",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

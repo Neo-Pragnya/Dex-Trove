@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: minecraft-bukkit-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:minecraft-bukkit-pro
+summary: Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. Specializes in event-driven
+  architecture, command systems, world manipulation, player management, and performance optimi…
+description: Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. Specializes in event-driven
+  architecture, command systems, world manipulation, player management, and performance optimization. Use PROACTIVELY
+  for plugin architecture, gameplay mechanics, server-side features, or cross-version compatibility.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: minecraft-bukkit-pro.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/game-development/agents/minecraft-bukkit-pro.md
+  repository: https://github.com/wshobson/agents

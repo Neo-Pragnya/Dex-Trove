@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/qa",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "qa",
+  "title": "qa",
+  "description": "QA Agent. Tests all acceptance criteria and edge cases from orchestrator-output.md. Generates a structured qa-report.md with pass/fail per criterion and bug triage. Loops back to implement if bugs found (max 2 iterations).",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "qa.md",
+  "dir": "agents/wshobson.qa",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/ship-mate/agents/qa.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/qa.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "qa.md"
+  ],
+  "entry_hash": "77948c459d48f5d81241a2898a0090a52f847f3f66908df8a90014d80548d62a",
+  "content_hash": "ed006560939fb1555ebedb9e71b2fcaa8887799dee8b4acdbaaa45e452e237ea",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

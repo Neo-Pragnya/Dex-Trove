@@ -1,0 +1,40 @@
+{
+  "id": "scientific/bgpt-paper-search",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "bgpt-paper-search",
+  "title": "BGPT Paper Search",
+  "description": "Searches BGPT scientific papers by topic or DOI and retrieves claim-level evidence extracted from full text, including experiments, reported statistics, scope, limitations, and provenance. Use for literature reviews, evidence synthesis, and finding experimental details beyond abstracts.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.bgpt-paper-search",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/bgpt-paper-search",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/bgpt-paper-search",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "3b7db6956c13ccf24df151f0905ae579ed58230708a4ba19e6d6fb3bf9d4d6b7",
+  "content_hash": "24816a11ea4786c09dbfb2b4437489b7c9e26659e0239769c46e0b711f8a5420",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

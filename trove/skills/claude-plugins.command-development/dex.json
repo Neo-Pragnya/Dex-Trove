@@ -1,0 +1,50 @@
+{
+  "id": "claude-plugins/command-development",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "command-development",
+  "title": "Command Development for Claude Code",
+  "description": "This skill should be used when the user asks to \"create a slash command\", \"add a command\", \"write a custom command\", \"define command arguments\", \"use command frontmatter\", \"organize commands\", \"create command with file references\", \"interactive command\", \"use AskUserQuestion in command\", or needs guidance on slash command structure, YAML frontmatter fields, dynamic arguments, bash execution in commands, user interaction patterns, or command development best practices for Claude Code.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "0.2.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.command-development",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/plugin-dev/skills/command-development",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/command-development",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/plugin-dev/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "examples/plugin-commands.md",
+    "examples/simple-commands.md",
+    "references/advanced-workflows.md",
+    "references/documentation-patterns.md",
+    "references/frontmatter-reference.md",
+    "references/interactive-commands.md",
+    "references/marketplace-considerations.md",
+    "references/plugin-features-reference.md",
+    "references/testing-strategies.md"
+  ],
+  "entry_hash": "c55ad02cfe4cbb2a947eea3b1ed5fa1871e722d627c3c6792c3ed87c10c4d7a8",
+  "content_hash": "d88257c683a8c41d404210ff9c16968a8a5b540224ba884d0bc1f8f5d297f982",
+  "learned_at": "2026-11-03T06:21:40+00:00"
+}

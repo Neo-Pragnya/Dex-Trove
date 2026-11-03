@@ -1,0 +1,40 @@
+{
+  "id": "claude-plugins/m5-onboard",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "m5-onboard",
+  "title": "M5Stack Onboarding",
+  "description": "End-to-end onboarding for a freshly-plugged-in M5Stack ESP32 device (Cardputer, Cardputer-Adv, Core, CoreS3, Stick) — detect on USB, flash UIFlow 2.0 firmware, and install the Claude Buddy MicroPython app bundle. Use whenever the user plugs in or wants to flash/provision/reset an M5Stack or ESP32 board, or says \"m5-onboard go\".",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.m5-onboard",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/cwc-makers/skills/m5-onboard",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/cwc-makers/skills/m5-onboard",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/cwc-makers/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "c6ba88fd06f59a3e902fead2bb863b6834f189672cfcc75248941c23ae39bd2d",
+  "content_hash": "6715e9f0a34e43f2dd3daf769600205b74050c883c4ca871cf8659fc8125f858",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

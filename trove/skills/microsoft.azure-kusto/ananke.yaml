@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: azure-kusto
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-kusto
+summary: Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time
+  series analysis.
+description: 'Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry,
+  and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics,
+  time series data, IoT telemetry, anomaly detection.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-kusto
+  repository: https://github.com/microsoft/skills

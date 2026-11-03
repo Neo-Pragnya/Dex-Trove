@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-ai-agents-persistent-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-agents-persistent-dotnet",
+  "title": "Azure.AI.Agents.Persistent (.NET)",
+  "description": "Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. Use for agent CRUD, conversation threads, streaming responses, function calling, file search, and code interpreter. Triggers: \"PersistentAgentsClient\", \"persistent agents\", \"agent threads\", \"agent runs\", \"streaming agents\", \"function calling agents .NET\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-agents-persistent-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-agents-persistent-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-ai-agents-persistent-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "108f198e45b9cd7029768e149f0cd58b0ef5b58efd66ce61c0b2698f69860c26",
+  "content_hash": "d5377b1713f2d0127cb992082b730e3665203525bc9530c8cdf9d80844f8f15e",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

@@ -1,0 +1,31 @@
+kind: skill
+namespace: huggingface
+name: huggingface-gradio
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:huggingface-gradio
+summary: Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners,
+  layouts, or chatbots.
+description: Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event
+  listeners, layouts, or chatbots.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-gradio
+  repository: https://github.com/huggingface/skills

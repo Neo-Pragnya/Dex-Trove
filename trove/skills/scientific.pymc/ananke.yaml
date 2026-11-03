@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: pymc
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:pymc
+summary: Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS MCMC, variational inference,
+  mutable-data predictions, posterior predictive checks, diagnostics, and PSIS-LOO model com…
+description: Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS MCMC, variational
+  inference, mutable-data predictions, posterior predictive checks, diagnostics, and PSIS-LOO model comparison.
+  Use for probabilistic modeling and uncertainty inference in PyMC.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'frontmatter license: ''Apache License, Version 2.0'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pymc
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

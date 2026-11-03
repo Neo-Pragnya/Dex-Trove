@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: code-review-preshipment
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:code-review-preshipment
+summary: Comprehensive pre-ship review of all changes since the last deploy or a specified commit.
+description: Comprehensive pre-ship review of all changes since the last deploy or a specified commit. Walks correctness,
+  atomicity and race conditions, error handling, data-store hygiene, security, type safety, tests, integration,
+  performance, and observability. Use after any sprint and always before deploying. Ends with a SHIP / SHIP WITH
+  FIXES / DO NOT SHIP verdict.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: code-review-preshipment.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/code-review-preshipment.md
+  repository: https://github.com/wshobson/agents

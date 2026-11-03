@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/typescript-pro",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "typescript-pro",
+  "title": "typescript-pro",
+  "description": "Use when implementing TypeScript code requiring advanced type system patterns, complex generics, type-level programming, or end-to-end type safety across full-stack applications.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "typescript-pro.md",
+  "dir": "agents/voltagent.typescript-pro",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/typescript-pro.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/typescript-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "typescript-pro.md"
+  ],
+  "entry_hash": "c0a7334e2bf049edb7114ac4ac345c253e72dd9d0135464a9dec8f029aa15f31",
+  "content_hash": "edaedd62c927c147e863bcc20deebb058e788e78b5a9778714c45af40849e374",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/project-manager",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "project-manager",
+  "title": "project-manager",
+  "description": "Use this agent when you need to establish project plans, track execution progress, manage risks, control budget/schedule, and coordinate stakeholders across complex initiatives.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "project-manager.md",
+  "dir": "agents/voltagent.project-manager",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/project-manager.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/project-manager.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "project-manager.md"
+  ],
+  "entry_hash": "dcba1095b8ca7f5a09aaf106637ab021da5639a6aee0ab73756ac37ec37be3f4",
+  "content_hash": "3d22bcc68c48470577d597023f933b36a5103a4476c70da970670b4a04abab58",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

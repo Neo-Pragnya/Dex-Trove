@@ -1,0 +1,48 @@
+{
+  "id": "scientific/esm",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "esm",
+  "title": "ESM: protein generation, embeddings, and folding",
+  "description": "Uses the Biohub esm Python SDK for ESM3 protein generation, ESMC embeddings, and ESMFold2 all-atom folding. Applies to local model inference and Biohub hosted clients, including former Forge workflows; distinguishes the separate legacy fair-esm distribution.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.esm",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/esm",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/esm",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/biohub-platform.md",
+    "references/esm-c-api.md",
+    "references/esm3-api.md",
+    "references/forge-api.md",
+    "references/review.md",
+    "references/workflows.md",
+    "scripts/esm_embeddings.py"
+  ],
+  "entry_hash": "49da3c6f5c81359d48b7c0b4416a212e7106f777b4c7174b2b42ce0c02bd95f6",
+  "content_hash": "7f25cc94474564f37ddaaee1f35ead7d3a1181de00d235b28c99aab6dc05c961",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

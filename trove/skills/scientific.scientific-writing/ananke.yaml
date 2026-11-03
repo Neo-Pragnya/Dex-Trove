@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: scientific-writing
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:scientific-writing
+summary: Drafts, revises, and audits scientific manuscripts or reports with explicit evidence provenance, reporting-guideline
+  coverage, authorship accountability, confidentiality controls, and local consistenc…
+description: Drafts, revises, and audits scientific manuscripts or reports with explicit evidence provenance, reporting-guideline
+  coverage, authorship accountability, confidentiality controls, and local consistency checks. Use for manuscript
+  sections, references, declarations, tables, figures, or submission preparation when scientific accuracy and traceability
+  matter.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-writing
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

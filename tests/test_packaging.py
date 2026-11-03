@@ -101,3 +101,8 @@ def test_every_first_party_skill_is_named_on_the_sources_page() -> None:
     }
     first_party = {i["name"] for i in catalog.load(ROOT / "trove") if i["namespace"] == "neo-pragnya"}
     assert set(words) <= first_party and all(w in description for w in words.values())
+
+
+def test_git_never_rewrites_trove_bytes() -> None:
+    """With core.autocrlf, a CRLF upstream file would otherwise change on commit and fail its recorded digest."""
+    assert "trove/** -text" in (ROOT / ".gitattributes").read_text()

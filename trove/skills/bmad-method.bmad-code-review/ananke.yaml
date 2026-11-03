@@ -1,0 +1,31 @@
+kind: skill
+namespace: bmad-method
+name: bmad-code-review
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-code-review
+summary: Review code changes with several independent reviewers in parallel, then triage and present the findings.
+  Use when the user says "run code review" or "review this code"
+description: Review code changes with several independent reviewers in parallel, then triage and present the findings.
+  Use when the user says "run code review" or "review this code"
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-code-review
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

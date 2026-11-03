@@ -1,0 +1,53 @@
+{
+  "id": "microsoft/appinsights-instrumentation",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "appinsights-instrumentation",
+  "title": "AppInsights Instrumentation Guide",
+  "description": "Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices.",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.appinsights-instrumentation",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/appinsights-instrumentation",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/appinsights-instrumentation",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "examples/appinsights.bicep",
+    "references/aspnetcore.md",
+    "references/auto.md",
+    "references/container-apps.md",
+    "references/nodejs.md",
+    "references/python.md",
+    "references/sdk/azure-monitor-opentelemetry-exporter-java.md",
+    "references/sdk/azure-monitor-opentelemetry-exporter-py.md",
+    "references/sdk/azure-monitor-opentelemetry-py.md",
+    "references/sdk/azure-monitor-opentelemetry-ts.md",
+    "scripts/appinsights.ps1"
+  ],
+  "entry_hash": "8865590c029e53142edc56634914625fe23869baf7828a8181aed67e096a9e31",
+  "content_hash": "eb4495b3152741d6bd145f8870331dc112ec1a3d67256c80fad52e86b0c68ab0",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

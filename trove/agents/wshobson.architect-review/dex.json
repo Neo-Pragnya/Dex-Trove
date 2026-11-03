@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/architect-review",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "architect-review",
+  "title": "comprehensive-review-architect-review",
+  "description": "Master software architect specializing in modern architecture patterns, clean architecture, microservices, event-driven systems, and DDD. Reviews system designs and code changes for architectural integrity, scalability, and maintainability. Use PROACTIVELY for architectural decisions.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "architect-review.md",
+  "dir": "agents/wshobson.architect-review",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/comprehensive-review/agents/architect-review.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/comprehensive-review/agents/architect-review.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "architect-review.md"
+  ],
+  "entry_hash": "09c9710a4d7f23acea644091cd757d391eb7f0be99210a51eb05bbc1c98c0c3b",
+  "content_hash": "98c17bf98a05dedcc1cb479e87e99a91a5be784f218a3ef39b26d11a3b48a33c",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

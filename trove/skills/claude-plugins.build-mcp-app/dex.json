@@ -1,0 +1,46 @@
+{
+  "id": "claude-plugins/build-mcp-app",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "build-mcp-app",
+  "title": "Build an MCP App (Interactive UI Widgets)",
+  "description": "This skill should be used when the user wants to build an \"MCP app\", add \"interactive UI\" or \"widgets\" to an MCP server, \"render components in chat\", build \"MCP UI resources\", make a tool that shows a \"form\", \"picker\", \"dashboard\" or \"confirmation dialog\" inline in the conversation, or mentions \"apps SDK\" in the context of MCP. Use AFTER the build-mcp-server skill has settled the deployment model, or when the user already knows they want UI widgets.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.build-mcp-app",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/mcp-server-dev/skills/build-mcp-app",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/mcp-server-dev/skills/build-mcp-app",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/mcp-server-dev/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/abuse-protection.md",
+    "references/apps-sdk-messages.md",
+    "references/directory-checklist.md",
+    "references/iframe-sandbox.md",
+    "references/payload-budgeting.md",
+    "references/widget-templates.md"
+  ],
+  "entry_hash": "d2fd94f0096506469ec855c581e48293d35480e58e6405b2bfcdba0486a0c218",
+  "content_hash": "b30303bd468a6efb9319b539b863d4620cada4f59f17db8de577d3ac04798235",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

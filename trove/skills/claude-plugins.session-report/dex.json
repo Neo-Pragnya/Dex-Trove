@@ -1,0 +1,43 @@
+{
+  "id": "claude-plugins/session-report",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "session-report",
+  "title": "Session Report",
+  "description": "Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive prompts) from ~/.claude/projects transcripts.",
+  "tags": [
+    "claude-plugins",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.session-report",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/session-report/skills/session-report",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/session-report/skills/session-report",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/session-report/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "analyze-sessions.mjs",
+    "template.html"
+  ],
+  "entry_hash": "ef0fbc4259a41b7fd61b517fb1c9a95f02b83ea3c79ba0b3afbeee4942570397",
+  "content_hash": "20a845cc365d128bfc4cbbbf20fa7a7d660ec23ef1224e1465a4ac9d410e08fc",
+  "learned_at": "2026-11-03T06:21:40+00:00"
+}

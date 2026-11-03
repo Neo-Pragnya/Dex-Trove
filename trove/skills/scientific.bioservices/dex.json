@@ -1,0 +1,48 @@
+{
+  "id": "scientific/bioservices",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "bioservices",
+  "title": "BioServices",
+  "description": "Provides a Python interface to bioinformatics services including UniProt, KEGG, ChEMBL, Reactome, QuickGO, and UniChem. Used for cross-database protein annotation, pathway retrieval, chemical identifier mapping, and integrated biological data workflows with BioServices.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.bioservices",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/bioservices",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/bioservices",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/identifier_mapping.md",
+    "references/services_reference.md",
+    "references/workflow_patterns.md",
+    "scripts/batch_id_converter.py",
+    "scripts/compound_cross_reference.py",
+    "scripts/pathway_analysis.py",
+    "scripts/protein_analysis_workflow.py"
+  ],
+  "entry_hash": "9edc884f0fe216d510417d565ae74cc61608824b52eeb53ed0cdea3dcda5bda3",
+  "content_hash": "9e652c9b213d0766d703d46c61fe19239fe98f61ce19c59ce067e98a58f4ffe7",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

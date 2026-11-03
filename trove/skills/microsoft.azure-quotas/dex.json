@@ -1,0 +1,45 @@
+{
+  "id": "microsoft/azure-quotas",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-quotas",
+  "title": "Azure Quotas - Service Limits & Capacity Management",
+  "description": "Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region selection. WHEN: \"check quotas\", \"service limits\", \"current usage\", \"request quota increase\", \"quota exceeded\", \"validate capacity\", \"regional availability\", \"provisioning limits\", \"vCPU limit\", \"how many vCPUs available in my subscription\".",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-quotas",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/azure-quotas",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-quotas",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced-commands.md",
+    "references/commands.md",
+    "scripts/check-quota.ps1",
+    "scripts/check-quota.sh"
+  ],
+  "entry_hash": "82ac42524b655f947bdd6bbd6b86a670145d296a3447555f510e37ea2d377733",
+  "content_hash": "e807fd91aaf3160dc8e0e65b80cf8a4bae57a45ff097838e91bfc2dc0142de71",
+  "learned_at": "2026-11-03T06:19:31+00:00"
+}

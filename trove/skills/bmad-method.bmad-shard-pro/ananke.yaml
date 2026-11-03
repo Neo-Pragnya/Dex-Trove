@@ -1,0 +1,26 @@
+kind: skill
+namespace: bmad-method
+name: bmad-shard-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-shard-pro
+summary: Makes long documents easy for agents to navigate. Use when the user says "shard this document", "this file
+  is too long for agents", "turn this document into a wiki", "add a table of contents so agents…
+description: Makes long documents easy for agents to navigate. Use when the user says "shard this document", "this
+  file is too long for agents", "turn this document into a wiki", "add a table of contents so agents can find things",
+  or "update the sharded document".
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - executes-code
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-shard-pro
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

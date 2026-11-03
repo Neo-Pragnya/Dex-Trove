@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/backend-security-coder",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "backend-security-coder",
+  "title": "backend-api-security-backend-security-coder",
+  "description": "Expert in secure backend coding practices specializing in input validation, authentication, and API security. Use PROACTIVELY for backend security implementations or security code reviews.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "backend-security-coder.md",
+  "dir": "agents/wshobson.backend-security-coder",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/backend-api-security/agents/backend-security-coder.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/backend-api-security/agents/backend-security-coder.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "backend-security-coder.md"
+  ],
+  "entry_hash": "6cb40057bea051720e32abcef6680299c17ef648c4ec6f89f6c0dbc70750ba92",
+  "content_hash": "fc048fbc406a5ee2cccfc220e5e0228fcd33fecc95506276623f183de14c5e88",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

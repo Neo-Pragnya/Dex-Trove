@@ -1,0 +1,33 @@
+kind: skill
+namespace: claude-plugins
+name: mcp-integration
+version: 0.1.0
+ananke_id: urn:dex-trove:skill:claude-plugins:mcp-integration
+summary: This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin",
+  "use .mcp.json", "set up Model Context Protocol", "connect external service", mentions "${…
+description: This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in
+  plugin", "use .mcp.json", "set up Model Context Protocol", "connect external service", mentions "${CLAUDE_PLUGIN_ROOT}
+  with MCP", or discusses MCP server types (SSE, stdio, HTTP, WebSocket). Provides comprehensive guidance for integrating
+  Model Context Protocol servers into Claude Code plugins for external tool and service integration.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'plugins/plugin-dev/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/mcp-integration
+  repository: https://github.com/anthropics/claude-plugins-official

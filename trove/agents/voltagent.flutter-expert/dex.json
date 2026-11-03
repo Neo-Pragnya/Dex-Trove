@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/flutter-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "flutter-expert",
+  "title": "flutter-expert",
+  "description": "Use when building cross-platform mobile applications with Flutter 3+ that require custom UI implementation, complex state management, native platform integrations, or performance optimization across iOS/Android/Web.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "flutter-expert.md",
+  "dir": "agents/voltagent.flutter-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/flutter-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/flutter-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "flutter-expert.md"
+  ],
+  "entry_hash": "43ba411bdeca94b33ca66f1c7bba590ee853bb5c0e367a0f04fcb99e62c251d4",
+  "content_hash": "f762232a71f913fb9a73181efcd78a225bf8a26e39e97535ef23ae3b8ea68601",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

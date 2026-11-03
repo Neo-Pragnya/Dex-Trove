@@ -1,0 +1,31 @@
+kind: prompt
+namespace: spec-kit
+name: implement
+version: 1.0.0
+ananke_id: urn:dex-trove:prompt:spec-kit:implement
+summary: Execute the implementation plan by processing and executing all tasks defined in tasks.md
+description: Execute the implementation plan by processing and executing all tasks defined in tasks.md
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: implement.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - prompt
+  - spec-kit
+  homepage: https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/implement.md
+  repository: https://github.com/github/spec-kit

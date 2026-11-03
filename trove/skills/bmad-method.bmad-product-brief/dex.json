@@ -1,0 +1,43 @@
+{
+  "id": "bmad-method/bmad-product-brief",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-product-brief",
+  "title": "Overview",
+  "description": "Create, update, or validate a product brief. Use when the user wants help producing, editing, or validating a brief",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-product-brief",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-product-brief",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-product-brief",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/brief-template.md",
+    "bmod.toml",
+    "customize.toml"
+  ],
+  "entry_hash": "d447aec7a68571e6c1d0fe36c28348e18db9b513837880bb271d6b504babc246",
+  "content_hash": "0ce090eed2f08dbb9244711585df9672b988e6d0d5f5b5ed3a83a1388c86ee4c",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

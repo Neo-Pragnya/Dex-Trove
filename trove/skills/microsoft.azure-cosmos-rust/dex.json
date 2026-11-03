@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-cosmos-rust",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-cosmos-rust",
+  "title": "Azure Cosmos DB library for Rust",
+  "description": "Azure Cosmos DB library for Rust (NoSQL API). Document CRUD, containers, and globally distributed data.\nTriggers: \"cosmos db rust\", \"CosmosClient rust\", \"document crud rust\", \"NoSQL rust\", \"partition key rust\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-cosmos-rust",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-rust/skills/azure-cosmos-rust",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-rust/skills/azure-cosmos-rust",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "1e50ff1d6b290ba30644fb6c501802d0c689b2df0e8ed8aaab14f4f57fa5e4cd",
+  "content_hash": "8daf766e6cf14e533eb564fa804370a0b19f0551e64ceb76fcb4e7dea32c9abb",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

@@ -1,0 +1,35 @@
+kind: agent
+namespace: voltagent
+name: quant-analyst
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:quant-analyst
+summary: Use this agent when you need to develop quantitative trading strategies, build financial models with rigorous
+  mathematical foundations, or conduct advanced risk analytics for derivatives and portfolio…
+description: Use this agent when you need to develop quantitative trading strategies, build financial models with
+  rigorous mathematical foundations, or conduct advanced risk analytics for derivatives and portfolios. Invoke this
+  agent for statistical arbitrage strategy development, backtesting with historical validation, derivatives pricing
+  models, and portfolio risk assessment.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: quant-analyst.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/quant-analyst.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

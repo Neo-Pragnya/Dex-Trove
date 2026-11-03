@@ -1,0 +1,46 @@
+{
+  "id": "scientific/networkx",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "networkx",
+  "title": "NetworkX",
+  "description": "Creates, analyzes, and visualizes complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.networkx",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/networkx",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/networkx",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/algorithms.md",
+    "references/generators.md",
+    "references/graph-basics.md",
+    "references/io.md",
+    "references/review.md",
+    "references/visualization.md"
+  ],
+  "entry_hash": "981a213f33ddca21ec327ecee13e8ef8b85b7986274b84a10268ee73310df5be",
+  "content_hash": "a6d4329be71247a32b192fc6b36733e1e234a392351bfdf4fd3a241f7004d522",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

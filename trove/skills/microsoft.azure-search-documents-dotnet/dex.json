@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-search-documents-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-search-documents-dotnet",
+  "title": "Azure.Search.Documents (.NET)",
+  "description": "Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text, vector, semantic, and hybrid search. Covers SearchClient (queries, document CRUD), SearchIndexClient (index management), and SearchIndexerClient (indexers, skillsets). Triggers: \"Azure Search .NET\", \"SearchClient\", \"SearchIndexClient\", \"vector search C#\", \"semantic search .NET\", \"hybrid search\", \"Azure.Search.Documents\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-search-documents-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-search-documents-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-search-documents-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/semantic-search.md",
+    "references/vector-search.md"
+  ],
+  "entry_hash": "16933eb5a595834dfe70c40c0b60b20aac61e6ace1c68a741a61858ccd543cd9",
+  "content_hash": "d3fc7e9a576708748946a71686afdd79fedaf1e84e51bb6784305813082d863d",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

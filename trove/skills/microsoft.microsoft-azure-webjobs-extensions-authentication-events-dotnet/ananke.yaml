@@ -1,0 +1,33 @@
+kind: skill
+namespace: microsoft
+name: microsoft-azure-webjobs-extensions-authentication-events-dotnet
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:microsoft-azure-webjobs-extensions-authentication-events-dotnet
+summary: Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication
+  extensions.
+description: 'Microsoft Entra Authentication Events SDK for .NET. Azure Functions triggers for custom authentication
+  extensions. Use for token enrichment, custom claims, attribute collection, and OTP customization in Entra ID.
+  Triggers: "Authentication Events", "WebJobsAuthenticationEventsTrigger", "OnTokenIssuanceStart", "OnAttributeCollectionStart",
+  "custom claims", "token enrichment", "Entra custom extension", "authentication extension".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/microsoft-azure-webjobs-extensions-authentication-events-dotnet
+  repository: https://github.com/microsoft/skills

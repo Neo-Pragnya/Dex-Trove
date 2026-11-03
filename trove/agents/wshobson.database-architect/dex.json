@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/database-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "database-architect",
+  "title": "database-cloud-optimization-database-architect",
+  "description": "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. Masters SQL/NoSQL/TimeSeries database selection, normalization strategies, migration planning, and performance-first design. Handles both greenfield architectures and re-architecture of existing systems. Use PROACTIVELY for database architecture, technology selection, or data modeling decisions.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "database-architect.md",
+  "dir": "agents/wshobson.database-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/database-cloud-optimization/agents/database-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/database-cloud-optimization/agents/database-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "database-architect.md"
+  ],
+  "entry_hash": "8918aa93c34473f906251497ee5907a4ef81abe1a1fb2bbd87637906936af3b7",
+  "content_hash": "0455ce44a58a30a81c5e2044e52fa03cd4c574fa7e5c7fa1d5a41f9db0f7b8f9",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

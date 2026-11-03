@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/javascript-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "javascript-pro",
+  "title": "javascript-pro",
+  "description": "Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility. Use PROACTIVELY for JavaScript optimization, async debugging, or complex JS patterns.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "javascript-pro.md",
+  "dir": "agents/wshobson.javascript-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/javascript-typescript/agents/javascript-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/javascript-typescript/agents/javascript-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "javascript-pro.md"
+  ],
+  "entry_hash": "9d68e8ec541cb142ca5c0b786d6bfbe5663b7c69b6761e4bc4a1f31beb7a3785",
+  "content_hash": "018b39922b83d9a7a2a96155ee661c05f84327ccfe252411d8551c5ca770be4e",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

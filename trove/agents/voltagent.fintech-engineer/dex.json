@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/fintech-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "fintech-engineer",
+  "title": "fintech-engineer",
+  "description": "Use when building payment systems, financial integrations, or compliance-heavy financial applications that require secure transaction processing, regulatory adherence, and high transaction accuracy.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "fintech-engineer.md",
+  "dir": "agents/voltagent.fintech-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/fintech-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/fintech-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "fintech-engineer.md"
+  ],
+  "entry_hash": "fddccdf007328565db49633a6476fca2846a61c93f98ca7fbfb3c3635e14e56a",
+  "content_hash": "9e96a31d44c1a1a444b473143635035a9d6307217ba777e8bf488d612c4e873a",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

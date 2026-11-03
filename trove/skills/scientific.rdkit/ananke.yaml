@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: rdkit
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:rdkit
+summary: Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP,
+  TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions.
+description: Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP,
+  TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with
+  simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized
+  algorithms.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/rdkit
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-identity-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-identity-dotnet",
+  "title": "Azure Identity library for .NET",
+  "description": "Azure Identity library for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use for DefaultAzureCredential, managed identity, service principals, and developer credentials. Triggers: \"Azure Identity\", \"DefaultAzureCredential\", \"ManagedIdentityCredential\", \"ClientSecretCredential\", \"authentication .NET\", \"Azure auth\", \"credential chain\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-identity-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-identity-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-identity-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "34946fe159707d9ba75e040b654d89a2bede4b408945e476f4f88432dbc0cbfb",
+  "content_hash": "d0360c43c652259080381f2f8cafdaf822560046968efb967e7babe992ac4477",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

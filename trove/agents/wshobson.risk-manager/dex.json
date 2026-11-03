@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/risk-manager",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "risk-manager",
+  "title": "risk-manager",
+  "description": "Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy, and implements stop-losses. Use PROACTIVELY for risk assessment, trade tracking, or portfolio protection.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "risk-manager.md",
+  "dir": "agents/wshobson.risk-manager",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/quantitative-trading/agents/risk-manager.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/quantitative-trading/agents/risk-manager.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "risk-manager.md"
+  ],
+  "entry_hash": "d49de27acde3d03bb350d1c2b6795829172b0954a29d46bc69b466d9c586dd1c",
+  "content_hash": "32e44403c7d5df45858f851d16f5c8cc1751ba35e403bf12e81dc76eb6c03e83",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

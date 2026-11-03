@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/react-specialist",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "react-specialist",
+  "title": "react-specialist",
+  "description": "Use when optimizing existing React applications for performance, implementing advanced React 18+ features, or solving complex state management and architectural challenges within React codebases.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "react-specialist.md",
+  "dir": "agents/voltagent.react-specialist",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/react-specialist.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/react-specialist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "react-specialist.md"
+  ],
+  "entry_hash": "dc65bfdaf4f4f8d6c796cf17e3c52bade3f055ba0eb7bd83cbb6f5fa86e8ede2",
+  "content_hash": "33057521bb1ad6e01d3f12a391947604afc5a0e13d1cd74bf0d0fd50c1704bff",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

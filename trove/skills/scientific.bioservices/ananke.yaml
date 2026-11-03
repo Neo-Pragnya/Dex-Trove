@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: bioservices
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:bioservices
+summary: Provides a Python interface to bioinformatics services including UniProt, KEGG, ChEMBL, Reactome, QuickGO,
+  and UniChem.
+description: Provides a Python interface to bioinformatics services including UniProt, KEGG, ChEMBL, Reactome, QuickGO,
+  and UniChem. Used for cross-database protein annotation, pathway retrieval, chemical identifier mapping, and integrated
+  biological data workflows with BioServices.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/bioservices
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

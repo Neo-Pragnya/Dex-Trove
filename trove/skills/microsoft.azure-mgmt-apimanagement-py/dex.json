@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-mgmt-apimanagement-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-mgmt-apimanagement-py",
+  "title": "Azure API Management SDK for Python",
+  "description": "Azure API Management SDK for Python. Use for managing APIM services, APIs, products, subscriptions, and policies.\nTriggers: \"azure-mgmt-apimanagement\", \"ApiManagementClient\", \"APIM\", \"API gateway\", \"API Management\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-mgmt-apimanagement-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-apimanagement-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-mgmt-apimanagement-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "f81c64f9313e75483ab37a657556eb9a9dfaa5c82d733e96bab7289ab78c4860",
+  "content_hash": "dab451e043508a29e0daac1ce1344b25068ae75a6bcbc83c9d4aa4f8b8a0b16d",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

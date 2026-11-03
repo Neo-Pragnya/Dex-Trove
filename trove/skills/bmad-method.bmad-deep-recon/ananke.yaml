@@ -1,0 +1,28 @@
+kind: skill
+namespace: bmad-method
+name: bmad-deep-recon
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-deep-recon
+summary: Decision-grade research on a topic or this repository. Use when the user says "deep recon", "research this",
+  "draft a research prompt", "process this research report", "market research", "domain resea…
+description: Decision-grade research on a topic or this repository. Use when the user says "deep recon", "research
+  this", "draft a research prompt", "process this research report", "market research", "domain research", "technical
+  research", "competitor research", "what users say about X", "literature review", "help me choose between", "research
+  the codebase", "research how X works here" or "why is X built this way". Not for a quick code question answered
+  in chat.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - executes-code
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-deep-recon
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

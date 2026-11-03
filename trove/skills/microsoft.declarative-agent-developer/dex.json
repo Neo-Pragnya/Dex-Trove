@@ -1,0 +1,53 @@
+{
+  "id": "microsoft/declarative-agent-developer",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "declarative-agent-developer",
+  "title": "M365 Agent Developer",
+  "description": "Create, build, deploy, and localize declarative agents for M365 Copilot and Teams. USE THIS SKILL for ANY task involving a declarative agent — including localization, scaffolding, editing manifests, adding capabilities, and deploying. Localization requires tokenized manifests and language files that only this skill knows how to produce. Triggers: \"create agent\", \"create a declarative agent\", \"new declarative agent\", \"scaffold an agent\", \"new agent project\", \"add a capability\", \"add a plugin\", \"configure my agent\", \"deploy my agent\", \"fix my agent manifest\", \"edit my agent\", \"localize my agent\", \"add localization\", \"translate my agent\", \"multi-language agent\", \"add an API plugin\", \"add an MCP plugin\", \"add OAuth to my plugin\", \"review instructions\", \"improve instructions\", \"fix my instructions\"",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.declarative-agent-developer",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api-plugins.md",
+    "references/authentication.md",
+    "references/best-practices.md",
+    "references/conversation-design.md",
+    "references/deployment.md",
+    "references/editing-workflow.md",
+    "references/examples.md",
+    "references/instruction-review.md",
+    "references/localization.md",
+    "references/mcp-plugin.md",
+    "references/scaffolding-workflow.md",
+    "references/schema.md",
+    "references/workspace-gates.md"
+  ],
+  "entry_hash": "13d2af8dd44cca049c8ebf8a8880cca304fc3dc419c926ef146dba35b14df412",
+  "content_hash": "8e308e97a86000b2c93b1fd28fc986ef10f9ec2868e58e258fd483a7974b3505",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

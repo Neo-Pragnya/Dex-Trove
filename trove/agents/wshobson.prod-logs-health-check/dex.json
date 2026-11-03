@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/prod-logs-health-check",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "prod-logs-health-check",
+  "title": "prod-logs-health-check",
+  "description": "Pulls recent production logs filtered for errors, warnings, and anomalies. Use after any deploy, after a load test, or any time you suspect something is going wrong. Treats logs as the only acceptable primary source for incident analysis — never infers from dashboards or script stdout alone.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "prod-logs-health-check.md",
+  "dir": "agents/wshobson.prod-logs-health-check",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/operating-kit/agents/prod-logs-health-check.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/prod-logs-health-check.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "prod-logs-health-check.md"
+  ],
+  "entry_hash": "3ecb76b643dadd8e0a84efc598c3ce7bf55694ea4864e4400920eb2b98af547f",
+  "content_hash": "9b669b839ea8aef3c6b31fbdbe73a31e3c3a1e35587c5db013e6c4f9ddd6d011",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

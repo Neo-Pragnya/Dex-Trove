@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/docs-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "docs-architect",
+  "title": "code-documentation-docs-architect",
+  "description": "Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns, and implementation details to produce long-form technical manuals and ebooks. Use PROACTIVELY for system documentation, architecture guides, or technical deep-dives.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "docs-architect.md",
+  "dir": "agents/wshobson.docs-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/code-documentation/agents/docs-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/code-documentation/agents/docs-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "docs-architect.md"
+  ],
+  "entry_hash": "cafadb5c85b45eaff0ec9d16808774b5e0c81034f1e06d0fbacb3a6c12f60dad",
+  "content_hash": "3b39a39010d8fdfabd1208d7d49f57a6231ae8f51a60c141c3590db846c710c0",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

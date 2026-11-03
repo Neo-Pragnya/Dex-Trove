@@ -1,0 +1,44 @@
+{
+  "id": "huggingface/huggingface-zerogpu",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-zerogpu",
+  "title": "Hugging Face ZeroGPU",
+  "description": "AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. Use when writing or reviewing code that uses `@spaces.GPU`, configuring `python_version` or `requirements.txt` for a ZeroGPU Space, or handling ZeroGPU-specific code constraints — pickle-based process isolation, `gr.State` semantics across the worker boundary, no `torch.compile` (use AoTI instead), CUDA wheel-only builds (no `nvcc` at build or runtime), large vs xlarge sizing, and dynamic duration callables. Make sure to use this skill whenever the user mentions ZeroGPU, `@spaces.GPU`, or the `spaces` Python package, or hits ZeroGPU-specific code errors like `PicklingError` across the worker boundary, `illegal duration`, or `flash-attn` wheel-build failures — even when the user does not explicitly ask for ZeroGPU coding guidance. Trigger on `import spaces` or `@spaces.GPU` in code.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-zerogpu",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-zerogpu",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-zerogpu",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/concurrency.md",
+    "references/cuda-and-deps.md",
+    "references/how-quota-works.md",
+    "references/how-zerogpu-works.md"
+  ],
+  "entry_hash": "829659aec34224970fe7ed619729fdc7849fc5dd696e2000256c3ee0b517eff7",
+  "content_hash": "68793a735ba568c37b29873d693ea0721036b094aa07fa20a3272c3228390def",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

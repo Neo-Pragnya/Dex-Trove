@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/sql-pro",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "sql-pro",
+  "title": "sql-pro",
+  "description": "Use this agent when you need to optimize complex SQL queries, design efficient database schemas, or solve performance issues across PostgreSQL, MySQL, SQL Server, and Oracle requiring advanced query optimization, index strategies, or data warehouse patterns.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "sql-pro.md",
+  "dir": "agents/voltagent.sql-pro",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/sql-pro.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/sql-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "sql-pro.md"
+  ],
+  "entry_hash": "58e44f20f89eef3a14ad94ccdb13b9aaeff4ae5d5895afea0a8220508b384fa1",
+  "content_hash": "1e4d5ec2d0709f18dbed96b9694869183a04a77e835ceaf68ea5fc3c56fa44a4",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

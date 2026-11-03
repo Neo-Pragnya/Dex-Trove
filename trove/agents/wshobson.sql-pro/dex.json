@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/sql-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "sql-pro",
+  "title": "sql-pro",
+  "description": "Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid analytical systems. Use PROACTIVELY for database optimization or complex analysis.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "sql-pro.md",
+  "dir": "agents/wshobson.sql-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/database-design/agents/sql-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/database-design/agents/sql-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "sql-pro.md"
+  ],
+  "entry_hash": "6eb2fdb139b7971ae98b604ad7d22f6710f904ca74cf00e8961dbe81159513d7",
+  "content_hash": "a505245a0d973da96dab77560284f84d1dacf1e1337c5a52d0669da48fb2c87d",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

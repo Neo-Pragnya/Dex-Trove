@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/hipaa-compliance",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "hipaa-compliance",
+  "title": "hipaa-compliance",
+  "description": "Use when the user is building a healthcare product and needs to understand HIPAA compliance. Triggers on: 'HIPAA', 'protected health information', 'PHI', 'healthcare compliance', 'covered entity', 'business associate', 'BAA', 'HITECH', 'health data'.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "hipaa-compliance.md",
+  "dir": "agents/voltagent.hipaa-compliance",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/hipaa-compliance.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/hipaa-compliance.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "hipaa-compliance.md"
+  ],
+  "entry_hash": "cfa5f9a98aae0e8b076d0e398d6d61ca4b2c9b41bde1eb5514474a1ac64d6014",
+  "content_hash": "f131b3098032c91cfb53aee4b47fa253f99636f5c4041e8123a40cada4ab347f",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

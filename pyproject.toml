@@ -8,7 +8,7 @@ dynamic = ["version"]
 description = "Dex Trove — a trove of dexterities for your agents: licence-clean skills, agents, instructions, hooks and plugins learned from open repos, packaged for Ananke, Claude Code and GitHub Copilot."
 readme = "README.md"
 requires-python = ">=3.11"
-license = "MIT AND Apache-2.0 AND OFL-1.1"  # Dex code is MIT; the bundled trove adds the rest (test_packaging)
+license = "MIT AND Apache-2.0 AND BSD-3-Clause AND CC-BY-4.0 AND OFL-1.1"  # Dex code is MIT; the bundled trove adds the rest (test_packaging)
 license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
 authors = [{ name = "Neo Pragnya" }]
 keywords = ["agent-skills", "claude-code", "github-copilot", "ananke", "skills", "agents", "prompts", "mcp"]

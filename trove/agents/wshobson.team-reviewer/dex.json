@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/team-reviewer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "team-reviewer",
+  "title": "team-reviewer",
+  "description": "Multi-dimensional code reviewer that operates on one assigned review dimension (security, performance, architecture, testing, or accessibility) with structured finding format. Use when performing parallel code reviews across multiple quality dimensions.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "team-reviewer.md",
+  "dir": "agents/wshobson.team-reviewer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/agent-teams/agents/team-reviewer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/agent-teams/agents/team-reviewer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "team-reviewer.md"
+  ],
+  "entry_hash": "d2ad99a3711a4045ed32d7501715e37aa574ef5a9de4640dbb9ded1a9b76151b",
+  "content_hash": "00767cb783e790b054749c00daac8d975dda4d2c9d6aaa9be443f758b06f08cb",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/network-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "network-engineer",
+  "title": "network-engineer",
+  "description": "Use this agent when designing, optimizing, or troubleshooting cloud and hybrid network infrastructures, or when addressing network security, performance, or reliability challenges.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "network-engineer.md",
+  "dir": "agents/voltagent.network-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/network-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/network-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "network-engineer.md"
+  ],
+  "entry_hash": "b7a84bf95e3d3df37a8c3136780587e008ca37c9079ce1ca2037572be25a66fc",
+  "content_hash": "dfd2cb36a35897ea89ab5d04aa60d114a7e6be8ddf9a9147b7b6c2f22091b5c0",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-page-writer",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-page-writer",
+  "title": "Wiki Page Writer",
+  "description": "Generates rich technical documentation pages with dark-mode Mermaid diagrams, source code citations, and first-principles depth. Use when writing documentation, generating wiki pages, creating technical deep-dives, or documenting specific components or systems.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-page-writer",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-page-writer",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-page-writer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "f1270ea4123116e846bf2dc7a53a9e396ed43d694cdb7be22b9a35da9a40feb6",
+  "content_hash": "3aeb9b8aafcf0bbaf4897c51237731da17e44138a67f43a5509e0e1be4287d7f",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

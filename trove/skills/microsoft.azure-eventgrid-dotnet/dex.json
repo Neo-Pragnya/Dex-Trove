@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-eventgrid-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-eventgrid-dotnet",
+  "title": "Azure.Messaging.EventGrid (.NET)",
+  "description": "Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents. Triggers: \"Event Grid\", \"EventGridPublisherClient\", \"CloudEvent\", \"EventGridEvent\", \"publish events .NET\", \"event-driven\", \"pub/sub\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-eventgrid-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-eventgrid-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-eventgrid-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "898e9dd9acece95418989c09e3e9824fbe81c8ecb3bb4279003edff334f63e24",
+  "content_hash": "9189c31e1ef1b283d5b0366979d34265d3c9594d1e1cff95ebe406d694282ce8",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

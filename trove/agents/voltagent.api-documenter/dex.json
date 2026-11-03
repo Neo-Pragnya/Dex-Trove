@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/api-documenter",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "api-documenter",
+  "title": "api-documenter",
+  "description": "Use this agent when creating or improving API documentation, writing OpenAPI specifications, building interactive documentation portals, or generating code examples for APIs.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "api-documenter.md",
+  "dir": "agents/voltagent.api-documenter",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/api-documenter.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/api-documenter.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "api-documenter.md"
+  ],
+  "entry_hash": "7644ec4a1b4515c1de1d6939447f3ea0a876ac83d85da4713bdc33628c11bb2f",
+  "content_hash": "7f8c9a61a7dd4204fedfe840884fe23d0fa350ab7a0caff6941b47eca1f826c3",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

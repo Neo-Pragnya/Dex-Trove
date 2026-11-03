@@ -1,0 +1,47 @@
+{
+  "id": "scientific/sympy",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "sympy",
+  "title": "SymPy - Symbolic Mathematics in Python",
+  "description": "Performs exact symbolic mathematics with SymPy for algebra, calculus, equation solving, symbolic linear algebra, physics, and lambdify or LaTeX code generation. Use when a task needs symbolic results, explicit assumptions, or exact arithmetic; use NumPy or SciPy for purely numerical workloads.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.sympy",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/sympy",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/sympy",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced-topics.md",
+    "references/code-generation-printing.md",
+    "references/core-capabilities.md",
+    "references/core_capabilities.md",
+    "references/matrices-linear-algebra.md",
+    "references/physics-mechanics.md",
+    "references/review.md"
+  ],
+  "entry_hash": "bb97087bdddccc845401737ddc7f7a8da1c14ced5e8d40da01271c991ac46e23",
+  "content_hash": "34219d9327d7dd0d5780f03f47d4e8c8d7fac1631f4bcfbee6c3fb923c1beb54",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

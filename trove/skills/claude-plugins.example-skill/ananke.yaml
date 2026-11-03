@@ -1,0 +1,32 @@
+kind: skill
+namespace: claude-plugins
+name: example-skill
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:claude-plugins:example-skill
+summary: This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill
+  template", or discusses skill development patterns.
+description: This skill should be used when the user asks to "demonstrate skills", "show skill format", "create
+  a skill template", or discusses skill development patterns. Provides a reference template for creating Claude
+  Code plugin skills.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'plugins/example-plugin/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/example-plugin/skills/example-skill
+  repository: https://github.com/anthropics/claude-plugins-official

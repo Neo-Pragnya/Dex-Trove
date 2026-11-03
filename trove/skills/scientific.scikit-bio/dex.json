@@ -1,0 +1,42 @@
+{
+  "id": "scientific/scikit-bio",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "scikit-bio",
+  "title": "scikit-bio",
+  "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.scikit-bio",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/scikit-bio",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-bio",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/review.md"
+  ],
+  "entry_hash": "4a7a5760adadf32782dc4694028371df13b25472ff8ffe4cef2b2fc564226f6c",
+  "content_hash": "14a9272370ccd790a5ed96c78e2df77915b8effdcedcbb924c6e2e5057465f5b",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

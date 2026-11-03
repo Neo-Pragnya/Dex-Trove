@@ -1,0 +1,44 @@
+{
+  "id": "scientific/tamarind",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "tamarind",
+  "title": "Tamarind Bio",
+  "description": "Provides access to a collection of open-source molecular design and structural biology tools on the Tamarind Bio platform, via its REST API or MCP server — no local GPUs required. Tamarind bundles popular open-source models for structure prediction (AlphaFold, Boltz, Chai, ESMFold), protein, binder, and de novo design (RFdiffusion, ProteinMPNN, BoltzGen), antibody and nanobody design and developability, protein-ligand docking (DiffDock, Autodock Vina), binding-affinity prediction, MSA generation, and molecular dynamics. Use when the user mentions Tamarind or tamarind.bio, wants to run any of these open-source tools in the cloud, references app.tamarind.bio/api or the x-api-key header, or needs to submit batches of sequences for structural or biophysical characterization.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.tamarind",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/tamarind",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/tamarind",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/examples.md",
+    "references/tool_catalog.md",
+    "references/workflows.md"
+  ],
+  "entry_hash": "aa9bb0aa10acefa52621acd9ba06604997ed2f3d20533359f47d4b24dfdc9494",
+  "content_hash": "8d1f4537819567447a7f823d2d7ee683ec7a8608b85a9319b9354d1a7fb3b109",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

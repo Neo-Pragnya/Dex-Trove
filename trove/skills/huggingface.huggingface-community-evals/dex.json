@@ -1,0 +1,46 @@
+{
+  "id": "huggingface/huggingface-community-evals",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-community-evals",
+  "title": "Overview",
+  "description": "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation.",
+  "tags": [
+    "executes-code",
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-community-evals",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-community-evals",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-community-evals",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "examples/.env.example",
+    "examples/USAGE_EXAMPLES.md",
+    "scripts/inspect_eval_uv.py",
+    "scripts/inspect_vllm_uv.py",
+    "scripts/lighteval_vllm_uv.py"
+  ],
+  "entry_hash": "a97f1c703f55b72427453a76af858237e6392a447fcafa9eeb85f7ac67f0155d",
+  "content_hash": "9d5a0127ba783dfffb4f3e911b8057f6f76738c3102ee20d7ec0d759b09889dc",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

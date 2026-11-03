@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/wordpress-master",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "wordpress-master",
+  "title": "wordpress-master",
+  "description": "Use this agent when you need to architect, optimize, or troubleshoot WordPress implementations ranging from custom theme/plugin development to enterprise-scale multisite platforms. Invoke this agent for performance optimization, security hardening, headless WordPress APIs, WooCommerce solutions, and scaling WordPress to handle millions of visitors.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "wordpress-master.md",
+  "dir": "agents/voltagent.wordpress-master",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/wordpress-master.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/wordpress-master.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "wordpress-master.md"
+  ],
+  "entry_hash": "ba940576cba1cd9e624b9c5a593acd4fa87b3ac475ee44271abe05fbb0dee928",
+  "content_hash": "9c48dd122245b5a0bede5c2a99f57a459b996a356628c95bb15f479def96e87b",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

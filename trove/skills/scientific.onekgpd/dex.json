@@ -1,0 +1,46 @@
+{
+  "id": "scientific/onekgpd",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "onekgpd",
+  "title": "OneKGPd: Individual-Level Queries over the 1000 Genomes Project",
+  "description": "Queries the 1000 Genomes Project dataset (3,202 whole-genome-sequenced individuals, GRCh38) at the level of individual participants. Use when a question is about individuals or variants in the 1000 Genomes Project cohort: which individuals carry variants matching specific criteria in a gene or region, which individuals are homozygous-reference at a position, which variants exist in the dataset or carried by specified individuals in a gene or region, the relatedness between two specified individuals. Variants are returned with 1000 Genomes allele frequencies (AF), gnomAD v4.1 exome and genome AF, AlphaMissense score, and HGVSp annotations.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.onekgpd",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/onekgpd",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/onekgpd",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/kgpe.json",
+    "references/annotation_vocabularies.md",
+    "references/onekgpd_commands.md",
+    "scripts/onekgpd_api.py",
+    "scripts/onekgpd_meta.py"
+  ],
+  "entry_hash": "6a7c0a90c42e899e818de866e843cf60d5434422fa69b910a7db9a06f25240e9",
+  "content_hash": "148d30083e7c082aabba1e37bf203600341b1252dbe1574ab88f9b8a7cd1abef",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

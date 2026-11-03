@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: azure-infra-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:azure-infra-engineer
+summary: Use when designing, deploying, or managing Azure infrastructure with focus on network architecture, Entra
+  ID integration, PowerShell automation, and Bicep IaC.
+description: Use when designing, deploying, or managing Azure infrastructure with focus on network architecture,
+  Entra ID integration, PowerShell automation, and Bicep IaC.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: azure-infra-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/azure-infra-engineer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

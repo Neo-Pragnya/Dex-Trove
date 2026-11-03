@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/threat-modeling-expert",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "threat-modeling-expert",
+  "title": "threat-modeling-expert",
+  "description": "Expert in threat modeling methodologies, security architecture review, and risk assessment. Masters STRIDE, PASTA, attack trees, and security requirement extraction. Use PROACTIVELY for security architecture reviews, threat identification, or building secure-by-design systems.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "threat-modeling-expert.md",
+  "dir": "agents/wshobson.threat-modeling-expert",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/security-scanning/agents/threat-modeling-expert.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/security-scanning/agents/threat-modeling-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "threat-modeling-expert.md"
+  ],
+  "entry_hash": "43996cc279e63aeae24a036f8670d7d7c589d80176ee133adc9dc5d9a8561386",
+  "content_hash": "407c9a7f99fb0360460289d4ddbb16d9a9ef59e1a91d9cd89156607e5eda9dc9",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

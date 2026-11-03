@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/ui-ux-designer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "ui-ux-designer",
+  "title": "ui-ux-designer",
+  "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools. Specializes in design tokens, component libraries, and inclusive design. Use PROACTIVELY for design systems, user flows, or interface optimization.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "ui-ux-designer.md",
+  "dir": "agents/wshobson.ui-ux-designer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/multi-platform-apps/agents/ui-ux-designer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/multi-platform-apps/agents/ui-ux-designer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ui-ux-designer.md"
+  ],
+  "entry_hash": "902063189075032ad2c0e7850b7e1c8de9b24782705e65dcc95c44abae767104",
+  "content_hash": "a95f8715a318fc78af222d78ef6e5d38cc993ca38db6ceaf91f6a46530b43aa9",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

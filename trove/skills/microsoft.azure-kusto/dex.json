@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-kusto",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-kusto",
+  "title": "Azure Data Explorer (Kusto) Query & Analytics",
+  "description": "Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-kusto",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/azure-kusto",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-kusto",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "f0920e96ac8a4b8941e0bc29591d53bcfdd3a3a61e713249d3d489c55f6d98c8",
+  "content_hash": "35123ddfdde98fc1ae7fce327a92cae06c14e4ed3965dd4377651a4909b54375",
+  "learned_at": "2026-11-03T06:19:31+00:00"
+}

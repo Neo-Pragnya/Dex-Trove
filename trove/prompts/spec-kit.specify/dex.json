@@ -1,0 +1,40 @@
+{
+  "id": "spec-kit/specify",
+  "kind": "prompt",
+  "namespace": "spec-kit",
+  "name": "specify",
+  "title": "specify",
+  "description": "Create or update the feature specification from a natural language feature description.",
+  "tags": [
+    "prompt",
+    "spec-kit"
+  ],
+  "version": "1.0.0",
+  "entry": "specify.md",
+  "dir": "prompts/spec-kit.specify",
+  "source": {
+    "id": "spec-kit",
+    "title": "Spec Kit",
+    "repo": "https://github.com/github/spec-kit",
+    "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+    "path": "templates/commands/specify.md",
+    "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/specify.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "specify.md"
+  ],
+  "entry_hash": "e3e7595ef13e1f05fd8dd72f794f1f46fe6074beb6abb0602c6ab036312c5a02",
+  "content_hash": "b5af3923db26b173de9a240ea6590a4a84261ca16dc66a1b85a1e65a8d1a9ede",
+  "learned_at": "2026-11-03T06:37:49+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "bmad-method/bmod-core-tools",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmod-core-tools",
+  "title": "bmod-core-tools",
+  "description": "Required bmod metadata. Never invoke this skill.",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmod-core-tools",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmod-core-tools",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmod-core-tools",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "help/advanced-elicitation.md",
+    "help/customization.md",
+    "help/help.md",
+    "help/ingest.md",
+    "help/modules.md",
+    "help/party-mode.md",
+    "help/research.md",
+    "help/shard-pro.md",
+    "help/team-adoption.md",
+    "ingest-templates/template-document.md",
+    "ingest-templates/template-meeting.md",
+    "ingest-templates/template-one-on-one.md",
+    "ingest-templates/template-thread.md",
+    "ingest-templates/template-voice-memo.md",
+    "retired.toml"
+  ],
+  "entry_hash": "9392dc6f150da22ba00c7ecbb25a109073128a63f218d720edb44074ec2a7109",
+  "content_hash": "9c1ced9f12234300f59dfe736eaac69df0e25ed890d8ab4c3b3062ca3a95aaef",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

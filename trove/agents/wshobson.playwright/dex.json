@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/playwright",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "playwright",
+  "title": "playwright",
+  "description": "Playwright testing agent. Only runs for FRONTEND tasks. Verifies acceptance criteria in a real browser using the page object pattern. Passes on success, routes back to developer on failure.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "playwright.md",
+  "dir": "agents/wshobson.playwright",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/ship-mate/agents/playwright.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/playwright.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "playwright.md"
+  ],
+  "entry_hash": "1f02f385d8d7377cf21549763769f3d07d474b3a8beb58c10fe5e85a505762df",
+  "content_hash": "439cef89211c11c90e793e031f4ac6e1739ebc1ceb3c6a33f27dd5ae7a5a4401",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

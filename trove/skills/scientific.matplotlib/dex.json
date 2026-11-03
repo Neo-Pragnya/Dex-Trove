@@ -1,0 +1,47 @@
+{
+  "id": "scientific/matplotlib",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "matplotlib",
+  "title": "Matplotlib",
+  "description": "Creates and customizes scientific plots with Matplotlib. Used for fine-grained control over plot elements, novel plot types, and scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.matplotlib",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/matplotlib",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/matplotlib",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/common_issues.md",
+    "references/plot_types.md",
+    "references/styling_guide.md",
+    "scripts/plot_template.py",
+    "scripts/style_configurator.py"
+  ],
+  "entry_hash": "60b80aaa802e1a88db30729611789bf5ee92b3f2a7bb695502bac10dd255ee86",
+  "content_hash": "7836253ed404428b9ac05382aa704402dab195a2d2f11f6da7d625db64fe5759",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "scientific/qutip",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "qutip",
+  "title": "QuTiP 5",
+  "description": "Simulate and audit closed and open quantum-system models with QuTiP 5, including deterministic, trajectory, steady-state, spectral, and phase-space workflows. Use for local quantum-dynamics work where physical assumptions, dimensions, and numerical convergence must be explicit.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.qutip",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/qutip",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/qutip",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced.md",
+    "references/analysis.md",
+    "references/core_concepts.md",
+    "references/time_evolution.md",
+    "references/visualization.md",
+    "scripts/_common.py",
+    "scripts/convergence_sweep.py",
+    "scripts/qobj_model_validator.py",
+    "scripts/result_audit.py",
+    "scripts/solver_config_planner.py",
+    "scripts/steady_state_spectrum_planner.py",
+    "scripts/two_level_simulation.py"
+  ],
+  "entry_hash": "6b93a95eb586147b2f1639f7e669dece3182ab4ddd70b1200291073cfd533902",
+  "content_hash": "3ca8158ed42a9f718576452e9ec116fe89c1c6c56afc422b1958d5d8a6fc11ce",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

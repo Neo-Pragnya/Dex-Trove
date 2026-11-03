@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/prompt-crafter",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "prompt-crafter",
+  "title": "prompt-crafter",
+  "description": "Batch prompt writing agent. Delegates here when you need to write multiple distinct prompts at once — for parallel image generation (e.g., \"5 logo concepts\"), serial-to-parallel workflows (e.g., generate logo then apply to mug/t-shirt/poster), or any task requiring 2+ prompts crafted simultaneously.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "prompt-crafter.md",
+  "dir": "agents/wshobson.prompt-crafter",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/meigen-ai-design/agents/prompt-crafter.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/meigen-ai-design/agents/prompt-crafter.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "prompt-crafter.md"
+  ],
+  "entry_hash": "2275911e41e2878a25a45142ffbf91d799521df018c51249fd657787d579961f",
+  "content_hash": "89be6ffe7abca119edf5869871dd8e855c726c232c475aa5635d0b3e37c03568",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

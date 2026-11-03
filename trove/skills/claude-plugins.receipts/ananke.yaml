@@ -1,0 +1,29 @@
+kind: skill
+namespace: claude-plugins
+name: receipts
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:claude-plugins:receipts
+summary: Generate a personal Claude Code usage & impact report ("receipts") from this machine's local session transcripts
+  — for justifying Claude Code usage/spend to a manager, self-review, or "what have I bee…
+description: Generate a personal Claude Code usage & impact report ("receipts") from this machine's local session
+  transcripts — for justifying Claude Code usage/spend to a manager, self-review, or "what have I been using this
+  for" check-ins. Mines ~/.claude/projects locally (no extra API calls beyond one final write-up), cross-references
+  local git history, and writes a markdown report plus a self-contained HTML receipt to your home directory. Use
+  when the user asks for "receipts", an "impact report", "usage report", wants to "show my Claude Code activity",
+  "prove the value of Claude Code", or runs `/receipts`.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'plugins/receipts/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - executes-code
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/receipts/skills/receipts
+  repository: https://github.com/anthropics/claude-plugins-official

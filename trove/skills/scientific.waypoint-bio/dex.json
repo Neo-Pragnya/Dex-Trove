@@ -1,0 +1,48 @@
+{
+  "id": "scientific/waypoint-bio",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "waypoint-bio",
+  "title": "Waypoint: Outpost Bio's Open Microbiome Foundation Models",
+  "description": "Supports work with Outpost Bio's open microbiome foundation models - the Waypoint checkpoints (Waypoint-6m, Waypoint-45m, Waypoint-170m), the Atlas pretraining corpus, the Compass eight-task benchmark, or the `waypoint` CLI from the `waypoint-bio` package. Covers embedding microbiome samples, fine-tuning on taxonomic abundance data, benchmarking a checkpoint on Compass, pretraining a GPT-2 model on taxonomic abundance profiles, and converting MetaPhlAn, Kraken2, QIIME 2, or MGnify abundance tables into waypoint format.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.waypoint-bio",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/waypoint-bio",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/waypoint-bio",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/cli-reference.md",
+    "references/compass-benchmark.md",
+    "references/data-preparation.md",
+    "references/python-api.md",
+    "references/upstream-review.md",
+    "scripts/profiler_to_waypoint.py",
+    "scripts/vocab_coverage.py"
+  ],
+  "entry_hash": "132d1f33d5d99bd6288a4cb432b277fcbc0f8bc4315e333dcecb840e7adc87a5",
+  "content_hash": "2237d11717148ec3abe30d11ad232fd81af636a9c78b824c6be3e9ad05c749d3",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

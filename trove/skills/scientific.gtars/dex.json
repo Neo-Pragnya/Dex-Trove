@@ -1,0 +1,55 @@
+{
+  "id": "scientific/gtars",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "gtars",
+  "title": "Gtars",
+  "description": "Supports Gtars for local genomic interval models and set algebra, overlaps and counts, consensus and coverage, tokenization, fragment processing, and refget/BEDbase planning across Python, Rust, and the CLI.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.gtars",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/gtars",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/gtars",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/cli.md",
+    "references/coverage.md",
+    "references/overlap.md",
+    "references/python-api.md",
+    "references/refget.md",
+    "references/tokenizers.md",
+    "scripts/__init__.py",
+    "scripts/_common.py",
+    "scripts/artifact_inspector.py",
+    "scripts/bed_validator.py",
+    "scripts/coverage_preflight.py",
+    "scripts/execution_plan.py",
+    "scripts/refget_digest_plan.py",
+    "scripts/tokenizer_manifest.py"
+  ],
+  "entry_hash": "c3586bcfa1e8d89a2abb23d74496d41e68daec5e7a8af6cefb9080a0ed469161",
+  "content_hash": "3117c76b0064a12ee0f280c8ede8fc46abb2b239d37386b5bf7835da956ba35b",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

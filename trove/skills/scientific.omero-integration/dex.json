@@ -1,0 +1,55 @@
+{
+  "id": "scientific/omero-integration",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "omero-integration",
+  "title": "OMERO Integration",
+  "description": "Inspects and automates microscopy data workflows against OMERO.server with omero-py, BlitzGateway, OMERO CLI, tables, annotations, ROIs, rendering, and documented OMERO.web APIs. Use this skill for scoped OMERO inventory, metadata export, import/export planning, or reviewed write workflows.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.omero-integration",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/omero-integration",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/omero-integration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced.md",
+    "references/connection.md",
+    "references/data_access.md",
+    "references/image_processing.md",
+    "references/metadata.md",
+    "references/rois.md",
+    "references/scripts.md",
+    "references/sources.md",
+    "references/tables.md",
+    "scripts/export_image_metadata.py",
+    "scripts/inventory.py",
+    "scripts/omero_common.py",
+    "scripts/plan_transfer.py",
+    "scripts/validate_config.py"
+  ],
+  "entry_hash": "c75e73ba447bbf9530f6d3df4ba6224185f3c7728460b37938c8626dab664ad2",
+  "content_hash": "7bd719cbf45af618c5157c0806813a836f89d5f8b9881d66f63d70d1baf9e1b8",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

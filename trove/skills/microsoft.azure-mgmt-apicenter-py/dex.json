@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-mgmt-apicenter-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-mgmt-apicenter-py",
+  "title": "Azure API Center Management SDK for Python",
+  "description": "Azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.\nTriggers: \"azure-mgmt-apicenter\", \"ApiCenterMgmtClient\", \"API Center\", \"API inventory\", \"API governance\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-mgmt-apicenter-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-apicenter-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-mgmt-apicenter-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "1f6aa252243b60aad3dd879b24e9fcba51b6833861baa5ee97b74ff2f0b3a726",
+  "content_hash": "1d710a2a9f378c13484611c8a94cad00ff303597049bf65421eaf19b793614b7",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

@@ -1,0 +1,33 @@
+kind: skill
+namespace: microsoft
+name: azure-search-documents-dotnet
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-search-documents-dotnet
+summary: Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text,
+  vector, semantic, and hybrid search.
+description: 'Azure AI Search SDK for .NET (Azure.Search.Documents). Use for building search applications with full-text,
+  vector, semantic, and hybrid search. Covers SearchClient (queries, document CRUD), SearchIndexClient (index management),
+  and SearchIndexerClient (indexers, skillsets). Triggers: "Azure Search .NET", "SearchClient", "SearchIndexClient",
+  "vector search C#", "semantic search .NET", "hybrid search", "Azure.Search.Documents".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-search-documents-dotnet
+  repository: https://github.com/microsoft/skills

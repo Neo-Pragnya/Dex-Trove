@@ -1,0 +1,33 @@
+kind: skill
+namespace: microsoft
+name: m365-agent-evaluator
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:m365-agent-evaluator
+summary: Use this skill when a user wants to create, run, or analyze evaluation suites for Microsoft 365 Copilot
+  declarative agents with the public @microsoft/m365-copilot-eval CLI.
+description: Use this skill when a user wants to create, run, or analyze evaluation suites for Microsoft 365 Copilot
+  declarative agents with the public @microsoft/m365-copilot-eval CLI. Trigger on intents such as "evaluate my agent",
+  "test my agent", "run my evals", "create eval prompts", "add multi-turn tests", "tune evaluator thresholds", "why
+  is my agent failing", or "set up eval environment variables".
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator
+  repository: https://github.com/microsoft/skills

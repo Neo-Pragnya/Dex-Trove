@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: matchms
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:matchms
+summary: Processes, cleans, compares, and searches tandem mass spectra with matchms. Use for MS/MS file I/O, metadata
+  harmonization, peak filtering, spectral similarity, library matching, score matrices, and m…
+description: Processes, cleans, compares, and searches tandem mass spectra with matchms. Use for MS/MS file I/O,
+  metadata harmonization, peak filtering, spectral similarity, library matching, score matrices, and molecular-similarity
+  networks. Use pyopenms instead for LC-MS feature detection or proteomics pipelines.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'frontmatter license: ''Apache-2.0'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/matchms
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

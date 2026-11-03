@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-mgmt-fabric-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-mgmt-fabric-dotnet",
+  "title": "Azure.ResourceManager.Fabric (.NET)",
+  "description": "Azure Resource Manager SDK for Fabric in .NET. Use for MANAGEMENT PLANE operations: provisioning, scaling, suspending/resuming Microsoft Fabric capacities, checking name availability, and listing SKUs via Azure Resource Manager. Triggers: \"Fabric capacity\", \"create capacity\", \"suspend capacity\", \"resume capacity\", \"Fabric SKU\", \"provision Fabric\", \"ARM Fabric\", \"FabricCapacityResource\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-mgmt-fabric-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-fabric-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-mgmt-fabric-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "88fcd541f96a973d546da7f0d06db97df5cc9b8e1a99a4790458a6ef2abbf74d",
+  "content_hash": "5828e5cd1fb778f67bead238e543713060dc56d3712ab9b26d9462768b2c32fb",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

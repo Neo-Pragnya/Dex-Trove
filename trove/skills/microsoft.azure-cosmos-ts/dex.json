@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-cosmos-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-cosmos-ts",
+  "title": "@azure/cosmos (TypeScript/JavaScript)",
+  "description": "Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations. Use for CRUD operations on documents, queries, bulk operations, and container management. Triggers: \"Cosmos DB\", \"@azure/cosmos\", \"CosmosClient\", \"document CRUD\", \"NoSQL queries\", \"bulk operations\", \"partition key\", \"container.items\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-cosmos-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-cosmos-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-cosmos-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/bulk-operations.md",
+    "references/query-patterns.md"
+  ],
+  "entry_hash": "352aefc8d088cdc851baf3a38d60124bbf77bc0f273c2522500967d5bd515da2",
+  "content_hash": "96ecaf75d3919ec348178c14f33331491e2cd35e6fdbf5092b737f1da16299bd",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

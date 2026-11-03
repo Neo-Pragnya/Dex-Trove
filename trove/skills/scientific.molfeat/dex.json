@@ -1,0 +1,44 @@
+{
+  "id": "scientific/molfeat",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "molfeat",
+  "title": "Molfeat — Small-molecule featurization",
+  "description": "Featurizes small molecules with Molfeat for QSAR/QSPR, chemical similarity, virtual screening, and molecular ML. Covers ECFP/MACCS fingerprints, RDKit descriptors, pharmacophores, pretrained embeddings, configuration persistence, and molecule-to-label alignment.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.molfeat",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/molfeat",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/molfeat",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/available_featurizers.md",
+    "references/choosing_a_featurizer.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "6bc3c336b58c8c7214042c5679cd793e655c15e703fa5d5ac34e09250d11df5e",
+  "content_hash": "10e6f78b84905d8bb997a46130e75486691d5f7989869f359043a488b56a2f81",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

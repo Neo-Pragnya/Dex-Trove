@@ -1,0 +1,36 @@
+kind: skill
+namespace: microsoft
+name: azure-ai-formrecognizer-java
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-ai-formrecognizer-java
+summary: Azure AI Document Intelligence SDK for Java (com.azure:azure-ai-documentintelligence).
+description: 'Azure AI Document Intelligence SDK for Java (com.azure:azure-ai-documentintelligence).
+
+  Use for extracting text, tables, key-value pairs from documents, receipts, invoices, IDs, or building custom document
+  models.
+
+  Triggers: "document intelligence java", "form recognizer java", "extract text from PDF java", "OCR document java",
+
+  "analyze invoice receipt java", "custom document model java", "document classification java".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-ai-formrecognizer-java
+  repository: https://github.com/microsoft/skills

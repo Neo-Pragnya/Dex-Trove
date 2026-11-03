@@ -1,0 +1,51 @@
+{
+  "id": "scientific/pytorch-lightning",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pytorch-lightning",
+  "title": "PyTorch Lightning",
+  "description": "Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard, MLflow), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pytorch-lightning",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pytorch-lightning",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/best_practices.md",
+    "references/callbacks.md",
+    "references/data_module.md",
+    "references/distributed_training.md",
+    "references/lightning_module.md",
+    "references/logging.md",
+    "references/trainer.md",
+    "scripts/quick_trainer_setup.py",
+    "scripts/template_datamodule.py",
+    "scripts/template_lightning_module.py"
+  ],
+  "entry_hash": "d8829e74e8a1d908f923cf0c0a850ecfdd9edcb004d2fa90ec32fb1ed0006ce8",
+  "content_hash": "c89fa690410c66cc1be5b46e563ec38746abb34c4146f3c3f838fc9db9122345",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

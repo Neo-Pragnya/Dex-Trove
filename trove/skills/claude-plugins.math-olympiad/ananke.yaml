@@ -1,0 +1,30 @@
+kind: skill
+namespace: claude-plugins
+name: math-olympiad
+version: 0.1.0
+ananke_id: urn:dex-trove:skill:claude-plugins:math-olympiad
+summary: Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the
+  errors self-verification misses.
+description: Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches
+  the errors self-verification misses. Activates when asked to 'solve this IMO problem', 'prove this olympiad inequality',
+  'verify this competition proof', 'find a counterexample', 'is this proof correct', or for any problem with 'IMO',
+  'Putnam', 'USAMO', 'olympiad', or 'competition math' in it. Uses pure reasoning (no tools) — then a fresh-context
+  adversarial verifier attacks the proof using specific failure patterns, not generic 'check logic'. Outputs calibrated
+  confidence — will say 'no confident solution' rather than bluff. If LaTeX is available, produces a clean PDF after
+  verification passes.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'plugins/math-olympiad/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - executes-code
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/math-olympiad/skills/math-olympiad
+  repository: https://github.com/anthropics/claude-plugins-official

@@ -1,0 +1,45 @@
+{
+  "id": "scientific/anndata",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "anndata",
+  "title": "AnnData",
+  "description": "Handles annotated matrices in single-cell analysis, .h5ad and Zarr files, and integration with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.anndata",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/anndata",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/anndata",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/best_practices.md",
+    "references/concatenation.md",
+    "references/data_structure.md",
+    "references/io_operations.md",
+    "references/manipulation.md"
+  ],
+  "entry_hash": "a619c4088e1be6f6feaa5838c63ff8c4381fa21b4adee2a9276aa61464f3a034",
+  "content_hash": "72e6a6e6c47e10051b8fda9c40e74aca92bcd963730b7c16972b9f6508b8c223",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

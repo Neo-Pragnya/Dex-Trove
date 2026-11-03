@@ -1,0 +1,31 @@
+kind: skill
+namespace: bmad-method
+name: bmad-qa-generate-e2e-tests
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-qa-generate-e2e-tests
+summary: Add end-to-end and API tests for features that already work, following the project's existing test harness.
+description: Add end-to-end and API tests for features that already work, following the project's existing test
+  harness. Use when the user asks for e2e tests, API tests, or automated coverage of an existing feature, or says
+  "create qa automated tests for [feature]". Not for unit tests on work in flight, which the build writes.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-qa-generate-e2e-tests
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

@@ -1,0 +1,32 @@
+kind: skill
+namespace: scientific
+name: experimental-design
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:experimental-design
+summary: Designs experiments and studies BEFORE data is collected — choosing a design, randomizing, blocking, and
+  laying out treatment combinations so results are interpretable.
+description: Designs experiments and studies BEFORE data is collected — choosing a design, randomizing, blocking,
+  and laying out treatment combinations so results are interpretable. Use whenever someone is planning a study,
+  asks how to assign subjects/samples to groups, mentions randomization, blocking, stratification, controls, factorial
+  or fractional-factorial designs, design of experiments (DOE), screening many factors, response-surface optimization,
+  crossover or repeated-measures or split-plot designs, cluster/group randomization, Latin squares, plate layouts,
+  batch/run-order effects, replication vs. pseudoreplication, or sequential/adaptive/group-sequential designs. Trigger
+  even for informal phrasings like "how should I set up this experiment", "how do I avoid confounding", "what's
+  the best way to test these 6 factors", or "assign these mice to conditions". For computing the sample size or
+  power once the design is chosen, use statistical-power; for analyzing data already collected, use statistical-analysis.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT license'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/experimental-design
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

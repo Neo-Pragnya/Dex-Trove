@@ -1,0 +1,48 @@
+{
+  "id": "bmad-method/bmad-architecture",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-architecture",
+  "title": "BMad Architecture",
+  "description": "Work out and record the architecture decisions that keep separately built parts of a system consistent, in a short architecture document. Creates, updates, or validates one; works from a ticket file, with an existing codebase or architecture document beside it. Use when the user says \"create the architecture\", \"create technical architecture\", \"architecture spine\", or \"create a solution design\"",
+  "tags": [
+    "bmad-method",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-architecture",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-architecture",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-architecture",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/spine-template.md",
+    "bmod.toml",
+    "customize.toml",
+    "references/headless.md",
+    "references/reviewer-gate.md",
+    "scripts/lint_spine.py",
+    "scripts/tests/test_lint_spine.py"
+  ],
+  "entry_hash": "9cad6accefa67f9cb67a365f7882b36ee2d7b4c70c9c1f201c370d795636dbf2",
+  "content_hash": "7a03d5b73d01ab493973702524962d6ca99909c44a9e2b7b7ac0cd716030708e",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

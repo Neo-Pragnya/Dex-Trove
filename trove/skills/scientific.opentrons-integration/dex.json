@@ -1,0 +1,56 @@
+{
+  "id": "scientific/opentrons-integration",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "opentrons-integration",
+  "title": "Opentrons Integration",
+  "description": "Authors, reviews, migrates, simulates, and troubleshoots official Opentrons Python Protocol API v2 protocols for Flex and OT-2 robots. Use for robot-specific liquid handling, deck and labware setup, pipettes, modules, runtime parameters, liquid classes, and Opentrons App analysis. Use pylabrobot instead when one workflow must support multiple robot vendors.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.opentrons-integration",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/opentrons-integration",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/opentrons-integration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/liquid_handling.md",
+    "references/migration-api-2-19-to-2-29.md",
+    "references/modules_and_deck.md",
+    "references/protocol_authoring.md",
+    "references/sources.md",
+    "references/validation_and_operations.md",
+    "requirements-flex.txt",
+    "requirements-ot2.txt",
+    "scripts/absorbance_reader_template.py",
+    "scripts/basic_protocol_template.py",
+    "scripts/ot2_basic_protocol_template.py",
+    "scripts/pcr_setup_template.py",
+    "scripts/runtime_parameters_template.py",
+    "scripts/serial_dilution_template.py"
+  ],
+  "entry_hash": "3600fece96f89e7cedc23d13e48ce7eb25a90698d7ae3d8bae65035d89f392ff",
+  "content_hash": "d2c1b417a99ed0aee8984fe5f04edfecdef4ab9a175185c66bb7b6d8cf51cd10",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

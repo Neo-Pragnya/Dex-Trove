@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/rust-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "rust-pro",
+  "title": "rust-pro",
+  "description": "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming. Expert in the latest Rust ecosystem including Tokio, axum, and cutting-edge crates. Use PROACTIVELY for Rust development, performance optimization, or systems programming.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "rust-pro.md",
+  "dir": "agents/wshobson.rust-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/systems-programming/agents/rust-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/systems-programming/agents/rust-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "rust-pro.md"
+  ],
+  "entry_hash": "a327490f71278df0276b4e7dcc3991d45ace4a09cc068cf1632f5ec6fec11b52",
+  "content_hash": "81d801ae8afe4972f00f225c7b1b9c7b83224f19e1d9e9baf3e1adc61ceaac8b",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

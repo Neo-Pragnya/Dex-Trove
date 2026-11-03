@@ -1,0 +1,49 @@
+{
+  "id": "scientific/get-available-resources",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "get-available-resources",
+  "title": "Get Available Resources",
+  "description": "Detects host inventory and effective CPU, memory, disk, scheduler, container, and accelerator limits when a user asks for resource-aware planning or before a clearly resource-sensitive local workload. Produces a redacted JSON snapshot and conservative planning helpers without stress tests or assuming visible host hardware is usable.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.get-available-resources",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/get-available-resources",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/get-available-resources",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/resource_semantics.md",
+    "references/snapshot_schema.md",
+    "references/sources.md",
+    "scripts/_common.py",
+    "scripts/accelerator_diagnostics.py",
+    "scripts/detect_resources.py",
+    "scripts/plan_workload.py",
+    "scripts/snapshot_tools.py"
+  ],
+  "entry_hash": "54044d598fce28fca2ce50e7895f44423b070493db2f9c96ff0445bee4d3689d",
+  "content_hash": "0154baf3fae1a1292adf33572ea272c4ded83cba592abea03033df5cb06ae38b",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/content-quality-editor",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "content-quality-editor",
+  "title": "content-quality-editor",
+  "description": "Use this agent before publishing any AI-generated content — blog posts, READMEs, release notes, commit messages, PR descriptions, documentation, or social posts. Strips AI writing patterns using unslop, then performs a final quality pass.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "content-quality-editor.md",
+  "dir": "agents/voltagent.content-quality-editor",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/content-quality-editor.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/content-quality-editor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "content-quality-editor.md"
+  ],
+  "entry_hash": "10eb9fe771d5b6de315baa1cb25b129c8d6ba58bb28ed6a1b4496817259efc1f",
+  "content_hash": "38cf07452c4ec931ac710a09333c66eedc9aaa14063b467c6f331fb0a2a4f94c",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

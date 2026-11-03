@@ -1,0 +1,30 @@
+kind: skill
+namespace: microsoft
+name: azure-ai-document-intelligence-ts
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-ai-document-intelligence-ts
+summary: Extract text, tables, and structured data from documents using Azure Document Intelligence (@azure-rest/ai-document-intelligence).
+description: Extract text, tables, and structured data from documents using Azure Document Intelligence (@azure-rest/ai-document-intelligence).
+  Use when processing invoices, receipts, IDs, forms, or building custom document models.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-ai-document-intelligence-ts
+  repository: https://github.com/microsoft/skills

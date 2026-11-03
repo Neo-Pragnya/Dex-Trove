@@ -1,0 +1,47 @@
+{
+  "id": "scientific/pennylane",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pennylane",
+  "title": "PennyLane",
+  "description": "Builds and differentiates PennyLane quantum circuits, hybrid PyTorch or JAX models, molecular VQE and QAOA workflows. Use for variational quantum algorithms, quantum machine learning, simulator validation, and moving validated circuits to provider plugins. For hardware-specific compilation use qiskit or cirq; for open-system dynamics use qutip.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pennylane",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pennylane",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pennylane",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced_features.md",
+    "references/devices_backends.md",
+    "references/getting_started.md",
+    "references/optimization.md",
+    "references/quantum_chemistry.md",
+    "references/quantum_circuits.md",
+    "references/quantum_ml.md"
+  ],
+  "entry_hash": "7908ee374ed9bef310bd7071a175d97e0428cec184cce3e36db9fe3ae8e77c52",
+  "content_hash": "ab5bf6b9a9f7de900c87dd4f2a0dab99c8ba8780c32b17c5d22af569aaebf9cb",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

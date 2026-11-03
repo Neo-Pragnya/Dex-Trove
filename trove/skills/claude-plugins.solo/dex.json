@@ -1,0 +1,40 @@
+{
+  "id": "claude-plugins/solo",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "solo",
+  "title": "math-proof: solo",
+  "description": "Work on one hard mathematics problem in this session yourself, with no sub-agents: reason in stages, record each settled step in a notes file so that nothing written is lost if a response is cut off, and end with a self-contained proof.md. Usage: /math-proof:solo <the problem, stated in full, or the path of a file holding it>.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.solo",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/math-proof/skills/solo",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/math-proof/skills/solo",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/math-proof/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "2b6ecb93b01471142f928dd0fa4abd7e35782ed8f1058d498521039564387305",
+  "content_hash": "bd090e9b7bb235f765355cc70a27ab0eb2c19c55edbab91a2ff4b40ece182b4a",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

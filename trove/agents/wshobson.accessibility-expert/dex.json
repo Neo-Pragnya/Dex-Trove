@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/accessibility-expert",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "accessibility-expert",
+  "title": "accessibility-expert",
+  "description": "Expert accessibility specialist ensuring WCAG compliance, inclusive design, and assistive technology compatibility. Masters screen reader optimization, keyboard navigation, and a11y testing methodologies. Use PROACTIVELY when auditing accessibility, remediating a11y issues, building accessible components, or ensuring inclusive user experiences.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "accessibility-expert.md",
+  "dir": "agents/wshobson.accessibility-expert",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/ui-design/agents/accessibility-expert.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ui-design/agents/accessibility-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "accessibility-expert.md"
+  ],
+  "entry_hash": "b3aa7a39667be536a9624108635d0f04858cf069b932dfdcf7c7719f42514267",
+  "content_hash": "72b06a88a0973a1e322a29a1983466b08ee47aec3fc99ed0b4ba590818ae28ee",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

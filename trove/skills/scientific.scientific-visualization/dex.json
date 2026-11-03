@@ -1,0 +1,58 @@
+{
+  "id": "scientific/scientific-visualization",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "scientific-visualization",
+  "title": "Scientific Visualization",
+  "description": "Creates and audits truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. Use it for figure design, multi-panel layouts, uncertainty and missing-data displays, color/contrast review, image metadata validation, and journal export planning.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.scientific-visualization",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/scientific-visualization",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-visualization",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/color_palettes.py",
+    "assets/nature.mplstyle",
+    "assets/presentation.mplstyle",
+    "assets/publication.mplstyle",
+    "assets/publisher_profiles.json",
+    "references/color_palettes.md",
+    "references/journal_requirements.md",
+    "references/matplotlib_examples.md",
+    "references/publication_guidelines.md",
+    "references/sources.md",
+    "scripts/_common.py",
+    "scripts/export_plan.py",
+    "scripts/figure_export.py",
+    "scripts/image_metadata.py",
+    "scripts/palette_audit.py",
+    "scripts/style_presets.py",
+    "scripts/style_preview.py"
+  ],
+  "entry_hash": "8cbde7cdc10d959cf72cfd08335cc8ce996247eee6ebdb900eb64a4cb0ff34a3",
+  "content_hash": "9fc49af7d0312055e297f8d4e92b7dbb5ab8a2880c8f51184db3926883ea288c",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

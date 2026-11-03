@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/django-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "django-developer",
+  "title": "django-developer",
+  "description": "Use when building Django 4+ web applications, REST APIs, or modernizing existing Django projects with async views and enterprise patterns.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "django-developer.md",
+  "dir": "agents/voltagent.django-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/django-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/django-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "django-developer.md"
+  ],
+  "entry_hash": "cf287d2fa4308f8088f8d17bd131c1b161d2fe2915e687df51d6bfbfefa1f1bb",
+  "content_hash": "88a4554d32dc9ff54ff7a643392c05aed11a46a1526e0dfc7839a03d9f6e2117",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/frontend-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "frontend-developer",
+  "title": "frontend-developer",
+  "description": "Use when building complete frontend applications across React, Vue, and Angular frameworks requiring multi-framework expertise and full-stack integration.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "frontend-developer.md",
+  "dir": "agents/voltagent.frontend-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/frontend-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/frontend-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "frontend-developer.md"
+  ],
+  "entry_hash": "f0d9e9c05f3ed75afa6d72dce6803d59eb0410c8af01e74ef1c9931dc21ec122",
+  "content_hash": "86830939f0a33004d7d44b8f66b20ec58b899b75a8acc62c0a5abcaec9bc2eda",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

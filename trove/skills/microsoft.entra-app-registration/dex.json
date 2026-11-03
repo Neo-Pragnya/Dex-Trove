@@ -1,0 +1,56 @@
+{
+  "id": "microsoft/entra-app-registration",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "entra-app-registration",
+  "title": "entra-app-registration",
+  "description": "Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication. DO NOT USE FOR: Key Vault secrets (use azure-keyvault-expiration-audit), general Azure resource security guidance.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.entra-app-registration",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/entra-app-registration",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/entra-app-registration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/BICEP-EXAMPLE.bicep",
+    "references/api-permissions.md",
+    "references/auth-best-practices.md",
+    "references/cli-commands.md",
+    "references/console-app-example.md",
+    "references/first-app-registration.md",
+    "references/oauth-flows.md",
+    "references/sdk/azure-identity-dotnet.md",
+    "references/sdk/azure-identity-java.md",
+    "references/sdk/azure-identity-py.md",
+    "references/sdk/azure-identity-rust.md",
+    "references/sdk/azure-identity-ts.md",
+    "references/sdk/azure-keyvault-py.md",
+    "references/sdk/azure-keyvault-secrets-ts.md",
+    "references/sdk/microsoft-azure-webjobs-extensions-authentication-events-dotnet.md",
+    "references/troubleshooting.md"
+  ],
+  "entry_hash": "8f8e7b7429b04c3150c7393997d6ccd433defd497ad22a7e43979cc43e309c32",
+  "content_hash": "6552d4900214a7b3b4a7c45a8940482ea8eb3dc0b66a8831d37af5b0517abe98",
+  "learned_at": "2026-11-03T06:19:31+00:00"
+}

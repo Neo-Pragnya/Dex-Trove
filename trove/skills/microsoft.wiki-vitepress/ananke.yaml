@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: wiki-vitepress
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:wiki-vitepress
+summary: Packages generated wiki Markdown into a VitePress static site with dark theme, dark-mode Mermaid diagrams
+  with click-to-zoom, and production build output.
+description: Packages generated wiki Markdown into a VitePress static site with dark theme, dark-mode Mermaid diagrams
+  with click-to-zoom, and production build output. Use when the user wants to create a browsable website from generated
+  wiki pages.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-vitepress
+  repository: https://github.com/microsoft/skills

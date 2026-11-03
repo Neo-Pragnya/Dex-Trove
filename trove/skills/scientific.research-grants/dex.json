@@ -1,0 +1,55 @@
+{
+  "id": "scientific/research-grants",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "research-grants",
+  "title": "Research Grant Writing",
+  "description": "Supports research proposal preparation and review for NSF, NIH, DOE, DARPA, and Taiwan NSTC, including opportunity-specific requirements, aims, review criteria, budgets, broader impacts, forms, and resubmissions. Use for investigator-authored grant development, compliance matrices, and proposal critiques.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.research-grants",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/research-grants",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/research-grants",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/budget_justification_template.md",
+    "assets/nih_specific_aims_template.md",
+    "assets/nsf_project_summary_template.md",
+    "references/README.md",
+    "references/broader_impacts.md",
+    "references/core_components.md",
+    "references/darpa_guidelines.md",
+    "references/doe_guidelines.md",
+    "references/nih_guidelines.md",
+    "references/nsf_guidelines.md",
+    "references/nstc_guidelines.md",
+    "references/proposal_types_and_resubmission.md",
+    "references/review_criteria.md",
+    "references/specific_aims_guide.md",
+    "references/writing_principles.md"
+  ],
+  "entry_hash": "3ca7ea8075bbe8008389660cc4a5769d66ac9ec638f3f61a955a5d7b20aeba85",
+  "content_hash": "f865d6e33b508aed3c72db1d44f737b5e2bff67090e2f8c6f2039e452f0efe50",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

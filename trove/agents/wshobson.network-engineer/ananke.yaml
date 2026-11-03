@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: network-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:network-engineer
+summary: Expert network engineer specializing in modern cloud networking, security architectures, and performance
+  optimization.
+description: Expert network engineer specializing in modern cloud networking, security architectures, and performance
+  optimization. Masters multi-cloud connectivity, service mesh, zero-trust networking, SSL/TLS, global load balancing,
+  and advanced troubleshooting. Handles CDN optimization, network automation, and compliance. Use PROACTIVELY for
+  network design, connectivity issues, or performance optimization.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: network-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cloud-infrastructure/agents/network-engineer.md
+  repository: https://github.com/wshobson/agents

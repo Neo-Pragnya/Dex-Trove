@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: powershell-security-hardening
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:powershell-security-hardening
+summary: Use this agent when you need to harden PowerShell automation, secure remoting configuration, enforce least-privilege
+  design, or align scripts with enterprise security baselines and compliance framewor…
+description: Use this agent when you need to harden PowerShell automation, secure remoting configuration, enforce
+  least-privilege design, or align scripts with enterprise security baselines and compliance frameworks.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: powershell-security-hardening.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/powershell-security-hardening.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

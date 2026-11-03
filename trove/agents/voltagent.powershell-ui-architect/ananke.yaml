@@ -1,0 +1,34 @@
+kind: agent
+namespace: voltagent
+name: powershell-ui-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:powershell-ui-architect
+summary: Use when designing or building desktop graphical interfaces (WinForms, WPF, Metro-style dashboards) or
+  terminal user interfaces (TUIs) for PowerShell automation tools that need clean separation betwee…
+description: Use when designing or building desktop graphical interfaces (WinForms, WPF, Metro-style dashboards)
+  or terminal user interfaces (TUIs) for PowerShell automation tools that need clean separation between UI and business
+  logic.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: powershell-ui-architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/powershell-ui-architect.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

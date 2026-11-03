@@ -1,0 +1,40 @@
+{
+  "id": "spec-kit/analyze",
+  "kind": "prompt",
+  "namespace": "spec-kit",
+  "name": "analyze",
+  "title": "analyze",
+  "description": "Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation.",
+  "tags": [
+    "prompt",
+    "spec-kit"
+  ],
+  "version": "1.0.0",
+  "entry": "analyze.md",
+  "dir": "prompts/spec-kit.analyze",
+  "source": {
+    "id": "spec-kit",
+    "title": "Spec Kit",
+    "repo": "https://github.com/github/spec-kit",
+    "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+    "path": "templates/commands/analyze.md",
+    "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/analyze.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "analyze.md"
+  ],
+  "entry_hash": "ffe0640ebe778795737937f2d4ec6f0149d7d55b72692e25369a668f985d1dfe",
+  "content_hash": "d6cb1c32c8ed88a7bb615cb3b387ea78143198eec716d96e666793e1014abf9d",
+  "learned_at": "2026-11-03T06:37:49+00:00"
+}

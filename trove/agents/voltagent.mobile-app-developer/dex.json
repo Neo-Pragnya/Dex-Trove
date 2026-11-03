@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/mobile-app-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "mobile-app-developer",
+  "title": "mobile-app-developer",
+  "description": "Use this agent when developing iOS and Android mobile applications with focus on native or cross-platform implementation, performance optimization, and platform-specific user experience.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "mobile-app-developer.md",
+  "dir": "agents/voltagent.mobile-app-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/mobile-app-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/mobile-app-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mobile-app-developer.md"
+  ],
+  "entry_hash": "8030e0fa945ec339002aac917368a9630c34cd8220b269ae6c3b303d14323831",
+  "content_hash": "9440bd17f189429881599b5a4c413a1a6eb52ffb0720d45881313f7449bede98",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "scientific/primer-design",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "primer-design",
+  "title": "Primer design and specificity",
+  "description": "Designs and audits PCR and RT-qPCR primers with Primer3, explicit thermodynamic conditions, reference-based off-target amplification searches, and traceable sequence coordinates. Use for designing primer pairs, checking existing primers, exon-junction or isoform-specific assays, variant masking, cloning tails, multiplex compatibility, and interpreting Primer-BLAST results. Includes bounded local in-silico PCR and BLAST screening; distinguishes computational candidates from experimentally validated assays.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.primer-design",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/primer-design",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/primer-design",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/assay-report-template.md",
+    "assets/demo-template.fasta",
+    "assets/qpcr-config.json",
+    "assets/requirements.txt",
+    "references/design-workflows.md",
+    "references/input-contract.md",
+    "references/sources.md",
+    "references/specificity.md",
+    "references/thermodynamics.md",
+    "scripts/_common.py",
+    "scripts/_specificity.py",
+    "scripts/check_thermodynamics.py",
+    "scripts/design_primers.py",
+    "scripts/screen_specificity.py"
+  ],
+  "entry_hash": "ea8bed0aa340a5f6538c206bb3d9fe503da6759e68a944a2bce564fa115d25e4",
+  "content_hash": "948452bfdcf1621d72b765fcc13b27473f8d0eb709e07212b0850b8a4c0e296e",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

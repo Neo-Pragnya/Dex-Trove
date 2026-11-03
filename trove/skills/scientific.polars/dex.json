@@ -1,0 +1,47 @@
+{
+  "id": "scientific/polars",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "polars",
+  "title": "Polars",
+  "description": "High-performance DataFrame library for Python ETL, analytics, and pandas migration. It supports expression-based data manipulation with lazy query optimization, parallel execution, streaming out-of-core processing, Arrow interoperability, and optional GPU execution.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.polars",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/polars",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/polars",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/best_practices.md",
+    "references/core_concepts.md",
+    "references/io_guide.md",
+    "references/operations.md",
+    "references/pandas_migration.md",
+    "references/review.md",
+    "references/transformations.md"
+  ],
+  "entry_hash": "05d64a001190b516bc922bac616483c3109a6d29c3e9950e3e2d6c31b9415e79",
+  "content_hash": "e11e6b3b3dbcb63c16e55ffe74db6d177a6359a81e1091483202f36c58f967bd",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

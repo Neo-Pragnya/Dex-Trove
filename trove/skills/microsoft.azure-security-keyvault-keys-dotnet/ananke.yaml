@@ -1,0 +1,33 @@
+kind: skill
+namespace: microsoft
+name: azure-security-keyvault-keys-dotnet
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-security-keyvault-keys-dotnet
+summary: Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and
+  Managed HSM.
+description: 'Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault
+  and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification. Triggers:
+  "Key Vault keys", "KeyClient", "CryptographyClient", "RSA key", "EC key", "encrypt decrypt .NET", "key rotation",
+  "HSM".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-security-keyvault-keys-dotnet
+  repository: https://github.com/microsoft/skills

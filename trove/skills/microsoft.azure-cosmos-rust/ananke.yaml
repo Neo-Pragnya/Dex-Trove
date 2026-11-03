@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: azure-cosmos-rust
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-cosmos-rust
+summary: Azure Cosmos DB library for Rust (NoSQL API). Document CRUD, containers, and globally distributed data.
+description: 'Azure Cosmos DB library for Rust (NoSQL API). Document CRUD, containers, and globally distributed
+  data.
+
+  Triggers: "cosmos db rust", "CosmosClient rust", "document crud rust", "NoSQL rust", "partition key rust".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-rust/skills/azure-cosmos-rust
+  repository: https://github.com/microsoft/skills

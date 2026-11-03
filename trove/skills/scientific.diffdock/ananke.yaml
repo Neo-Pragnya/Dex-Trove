@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: diffdock
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:diffdock
+summary: Predicts protein-small-molecule binding poses with DiffDock and DiffDock-L from PDB or sequence plus SMILES/SDF/MOL2.
+  Covers batch docking, pose triage, confidence interpretation, and validation.
+description: Predicts protein-small-molecule binding poses with DiffDock and DiffDock-L from PDB or sequence plus
+  SMILES/SDF/MOL2. Covers batch docking, pose triage, confidence interpretation, and validation. Use for molecular
+  docking and virtual-screening pose generation, not binding-affinity prediction.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT license'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/diffdock
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

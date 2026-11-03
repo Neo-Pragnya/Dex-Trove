@@ -1,0 +1,51 @@
+{
+  "id": "claude-plugins/hook-development",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "hook-development",
+  "title": "Hook Development for Claude Code Plugins",
+  "description": "This skill should be used when the user asks to \"create a hook\", \"add a PreToolUse/PostToolUse/Stop hook\", \"validate tool use\", \"implement prompt-based hooks\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"set up event-driven automation\", \"block dangerous commands\", or mentions hook events (PreToolUse, PostToolUse, Stop, SubagentStop, SessionStart, SessionEnd, UserPromptSubmit, PreCompact, Notification). Provides comprehensive guidance for creating and implementing Claude Code plugin hooks with focus on advanced prompt-based hooks API.",
+  "tags": [
+    "claude-plugins",
+    "executes-code",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.hook-development",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/plugin-dev/skills/hook-development",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/hook-development",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/plugin-dev/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "examples/load-context.sh",
+    "examples/validate-bash.sh",
+    "examples/validate-write.sh",
+    "references/advanced.md",
+    "references/migration.md",
+    "references/patterns.md",
+    "scripts/README.md",
+    "scripts/hook-linter.sh",
+    "scripts/test-hook.sh",
+    "scripts/validate-hook-schema.sh"
+  ],
+  "entry_hash": "f47e2d42f6360294216a859ae0c30b93caafdd2b2e5ffc007489ba4ca447fa5c",
+  "content_hash": "d0926ee216bb0d2c6d0938e64615eed11d13f3b9b18ad2903c5f9ffa063eb4ee",
+  "learned_at": "2026-11-03T06:21:40+00:00"
+}

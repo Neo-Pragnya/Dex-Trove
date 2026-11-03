@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/research-analyst",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "research-analyst",
+  "title": "research-analyst",
+  "description": "Use this agent when you need comprehensive research across multiple sources with synthesis of findings into actionable insights, trend identification, and detailed reporting.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "research-analyst.md",
+  "dir": "agents/voltagent.research-analyst",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/research-analyst.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/research-analyst.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "research-analyst.md"
+  ],
+  "entry_hash": "027369ebe4e23962c514ffc5d284d482f0b346cc2965315a9075e513ad4562a5",
+  "content_hash": "c1ea9cd6a9905a9210e42d4dd71063d7f7ec38f8fb6c2541a7a24791f8f02f61",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

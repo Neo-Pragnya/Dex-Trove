@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/tutorial-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "tutorial-engineer",
+  "title": "code-documentation-tutorial-engineer",
+  "description": "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples. Use PROACTIVELY for onboarding guides, feature tutorials, or concept explanations.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "tutorial-engineer.md",
+  "dir": "agents/wshobson.tutorial-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/code-documentation/agents/tutorial-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/code-documentation/agents/tutorial-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "tutorial-engineer.md"
+  ],
+  "entry_hash": "c207e1a58016ddad11d41d66b9d876576464a04385dbcd9c826c0a797ead278b",
+  "content_hash": "536b9e10e4a4c70f4913908b190e847877525cbc2ec8a636bcbed962f8336360",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

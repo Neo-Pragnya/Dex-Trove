@@ -1,0 +1,48 @@
+{
+  "id": "huggingface/huggingface-tool-builder",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-tool-builder",
+  "title": "Hugging Face API Tool Builder",
+  "description": "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich or process data.",
+  "tags": [
+    "executes-code",
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-tool-builder",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-tool-builder",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-tool-builder",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/baseline_hf_api.py",
+    "references/baseline_hf_api.sh",
+    "references/baseline_hf_api.tsx",
+    "references/find_models_by_paper.sh",
+    "references/hf_enrich_models.sh",
+    "references/hf_model_card_frontmatter.sh",
+    "references/hf_model_papers_auth.sh"
+  ],
+  "entry_hash": "2846b591259b134a5978073e4da477a06275d7a10893ce1383a0a3920c3ff1e1",
+  "content_hash": "52f1a7e8e7757db8d9fed413b4031f3e3a29c1864e98e48d067d51fc6365eb72",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-ai-agents-persistent-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-agents-persistent-java",
+  "title": "Azure AI Agents Persistent SDK for Java",
+  "description": "Azure AI Agents Persistent SDK for Java. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools.\nTriggers: \"PersistentAgentsClient\", \"persistent agents java\", \"agent threads java\", \"agent runs java\", \"streaming agents java\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-agents-persistent-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-ai-agents-persistent-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-ai-agents-persistent-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "02ddb9920cf6432b1bac4ff90564365878a1b7341cda4afa989e795458e6978c",
+  "content_hash": "3bd79403f41345e8872ade42cbeb0fe760dffbf1174e02f36e25bfcb7ce419d0",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "scientific/folklore-variant-evidence",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "folklore-variant-evidence",
+  "title": "Folklore Variant Evidence",
+  "description": "Retrieves ClinGen gene-disease validity assertions for a public gene or disease, and reviews source-linked public evidence and literature for one supported GRCh38 germline nuclear SNV or simple indel through Folklore Clinical Variant Interpretation MCP. Used when a scientific agent must branch deterministically on resolved, ambiguous, not-found, invalid, unsupported, or unavailable variant outcomes; chain a resolved public variant into related literature or publication details; or preserve evidence provenance without accepting patient, phenotype, family, segregation, or private case data.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.folklore-variant-evidence",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/folklore-variant-evidence",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/folklore-variant-evidence",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/mcp-contract.md"
+  ],
+  "entry_hash": "134b5ea684815b99c56fadf92a1cb42d37eaca4245515278e404b8876b7acfe0",
+  "content_hash": "a4ae89d0c19771f9f0753ba4fad73be188b3008436e6bc38de497353cf477c6c",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

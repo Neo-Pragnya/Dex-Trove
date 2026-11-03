@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/ruby-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "ruby-pro",
+  "title": "ruby-pro",
+  "description": "Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization. Specializes in Ruby on Rails, gem development, and testing frameworks. Use PROACTIVELY for Ruby refactoring, optimization, or complex Ruby features.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "ruby-pro.md",
+  "dir": "agents/wshobson.ruby-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/web-scripting/agents/ruby-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/web-scripting/agents/ruby-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ruby-pro.md"
+  ],
+  "entry_hash": "aefcaf26b743922974462f2e0dc6885b06f9ae790a5a274f958f6e40cc5f0298",
+  "content_hash": "3d40a79d3dadf5042c9db233897579ae70561de2b14ba1ca2d9ea36338a9471a",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

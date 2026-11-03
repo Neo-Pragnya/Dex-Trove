@@ -1,0 +1,53 @@
+{
+  "id": "microsoft/aks-cost-optimization",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "aks-cost-optimization",
+  "title": "AKS Cost Optimization",
+  "description": "Analyze advanced AKS cost efficiency. WHEN: \"AKS NAP readiness\", \"AKS bin packing\", \"AKS node scaling bottleneck\", \"AKS blocked scale-down\", \"AKS storage cost\". DO NOT USE AS DIRECT ENTRY FOR: overall AKS cost assessments or rightsizing/VPA/CAS/Spot (azure-kubernetes); spend/anomalies/commitments (cost-analysis/cost-optimization); incidents (aks-troubleshooting).",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.aks-cost-optimization",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/aks-skills/skills/aks-cost-optimization",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/aks-skills/skills/aks-cost-optimization",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/aks-bin-packing.md",
+    "references/aks-nap.md",
+    "references/aks-savings-plans-reservations.md",
+    "references/aks-storage-optimization.md",
+    "references/bin-packing-evidence.md",
+    "references/nap-decisions.md",
+    "references/nap-enablement-and-rollback.md",
+    "references/nap-evidence-collection.md",
+    "references/node-scaling-bottlenecks.md",
+    "references/self-hosted-karpenter-migration.md",
+    "references/storage-container-insights.md",
+    "references/storage-decisions.md",
+    "references/storage-metrics.md"
+  ],
+  "entry_hash": "ea9fe2e1883532a1e8d9a8a33d174a00498363733b0ea74fdc8f8eae1303f4c7",
+  "content_hash": "58f589f5fcdd965fa3fe27b37458ef27c4a5ddf1fd60f6d4e43d8ff4c8ac7b9e",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: eval-orchestrator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:eval-orchestrator
+summary: Orchestrates plugin quality evaluation. Use PROACTIVELY when evaluating, scoring, or certifying plugin
+  quality.
+description: Orchestrates plugin quality evaluation. Use PROACTIVELY when evaluating, scoring, or certifying plugin
+  quality.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: eval-orchestrator.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/plugin-eval/agents/eval-orchestrator.md
+  repository: https://github.com/wshobson/agents

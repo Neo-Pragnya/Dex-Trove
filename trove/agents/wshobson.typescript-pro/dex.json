@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/typescript-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "typescript-pro",
+  "title": "typescript-pro",
+  "description": "Master TypeScript with advanced types, generics, and strict type safety. Handles complex type systems, decorators, and enterprise-grade patterns. Use PROACTIVELY for TypeScript architecture, type inference optimization, or advanced typing patterns.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "typescript-pro.md",
+  "dir": "agents/wshobson.typescript-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/javascript-typescript/agents/typescript-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/javascript-typescript/agents/typescript-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "typescript-pro.md"
+  ],
+  "entry_hash": "d7dd97fbc3fed73c8feb63ca5071b561660d150d94ecb2c1fa009c7cfba2d404",
+  "content_hash": "828ec4778c289af82199612dd34c3a8415ca8251bcc0f8064afbba49866c78f5",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

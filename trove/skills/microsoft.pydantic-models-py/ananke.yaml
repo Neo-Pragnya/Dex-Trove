@@ -1,0 +1,26 @@
+kind: skill
+namespace: microsoft
+name: pydantic-models-py
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:pydantic-models-py
+summary: Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB
+  variants.
+description: Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB
+  variants. Use when defining API request/response schemas, database models, or data validation in Python applications
+  using Pydantic v2.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/pydantic-models-py
+  repository: https://github.com/microsoft/skills

@@ -1,0 +1,54 @@
+{
+  "id": "scientific/pysam",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pysam",
+  "title": "pysam",
+  "description": "Provides Python/HTSlib workflows for genomic files. Used when reading, querying, filtering, or writing SAM/BAM/CRAM, VCF/BCF, FASTA/FASTQ, or tabix data with pysam, including pileup, coverage, indexing, and CRAM references.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pysam",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pysam",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pysam",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/alignment_files.md",
+    "references/api_reference.md",
+    "references/common_workflows.md",
+    "references/coordinates_and_indexing.md",
+    "references/cram_and_performance.md",
+    "references/migration_to_0_24.md",
+    "references/sequence_files.md",
+    "references/sources.md",
+    "references/variant_files.md",
+    "scripts/alignment_qc.py",
+    "scripts/filter_alignments.py",
+    "scripts/inspect_hts.py",
+    "scripts/variant_summary.py"
+  ],
+  "entry_hash": "afc275bbeb084553cd6507c4ffee848c46bef94dcd24c3b8a58d8b14d021ea09",
+  "content_hash": "1f0e8b83f433ec8b6a2dfc2c133d61df7164f759aaac2b1d88a25a1d0cb78a19",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "claude-plugins/receipts",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "receipts",
+  "title": "/receipts — personal Claude Code impact report",
+  "description": "Generate a personal Claude Code usage & impact report (\"receipts\") from this machine's local session transcripts — for justifying Claude Code usage/spend to a manager, self-review, or \"what have I been using this for\" check-ins. Mines ~/.claude/projects locally (no extra API calls beyond one final write-up), cross-references local git history, and writes a markdown report plus a self-contained HTML receipt to your home directory. Use when the user asks for \"receipts\", an \"impact report\", \"usage report\", wants to \"show my Claude Code activity\", \"prove the value of Claude Code\", or runs `/receipts`.",
+  "tags": [
+    "claude-plugins",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.receipts",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/receipts/skills/receipts",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/receipts/skills/receipts",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/receipts/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/mine-transcripts.mjs"
+  ],
+  "entry_hash": "5b2f407ff40639727310236f4b34986cacd4bf616c07d2e4198846726842e346",
+  "content_hash": "0b7a0541c17fd36327621f107e6596b93ede038aa86dc297f720252312c35e44",
+  "learned_at": "2026-11-03T06:21:40+00:00"
+}

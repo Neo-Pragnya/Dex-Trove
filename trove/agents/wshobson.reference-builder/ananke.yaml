@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: reference-builder
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:reference-builder
+summary: Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings,
+  configuration guides, and searchable reference materials.
+description: Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings,
+  configuration guides, and searchable reference materials. Use PROACTIVELY for API docs, configuration references,
+  or complete technical specifications.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: reference-builder.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/documentation-generation/agents/reference-builder.md
+  repository: https://github.com/wshobson/agents

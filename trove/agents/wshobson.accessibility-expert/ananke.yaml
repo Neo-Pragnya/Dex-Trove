@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: accessibility-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:accessibility-expert
+summary: Expert accessibility specialist ensuring WCAG compliance, inclusive design, and assistive technology compatibility.
+description: Expert accessibility specialist ensuring WCAG compliance, inclusive design, and assistive technology
+  compatibility. Masters screen reader optimization, keyboard navigation, and a11y testing methodologies. Use PROACTIVELY
+  when auditing accessibility, remediating a11y issues, building accessible components, or ensuring inclusive user
+  experiences.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: accessibility-expert.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ui-design/agents/accessibility-expert.md
+  repository: https://github.com/wshobson/agents

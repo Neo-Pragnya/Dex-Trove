@@ -1,0 +1,47 @@
+{
+  "id": "scientific/cirq",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "cirq",
+  "title": "Cirq - Quantum Computing with Python",
+  "description": "Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level circuit design. For IBM hardware use qiskit; for quantum ML with autodiff use pennylane; for physics simulations use qutip.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.cirq",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/cirq",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/cirq",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/building.md",
+    "references/experiments.md",
+    "references/hardware.md",
+    "references/noise.md",
+    "references/review.md",
+    "references/simulation.md",
+    "references/transformation.md"
+  ],
+  "entry_hash": "6ab4c57fd133d21013ac0a8cfdbb2235dcc461d6fc82445693ea475c3d5d6bc1",
+  "content_hash": "e77e771271b615b022fbe6608c98d6ec02b038b503ebf253bcf283b7ff47ec94",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

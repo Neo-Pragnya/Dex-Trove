@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-ai-contentsafety-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-contentsafety-py",
+  "title": "Azure AI Content Safety SDK for Python",
+  "description": "Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.\nTriggers: \"azure-ai-contentsafety\", \"ContentSafetyClient\", \"content moderation\", \"harmful content\", \"text analysis\", \"image analysis\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-contentsafety-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-ai-contentsafety-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-ai-contentsafety-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "a87b5c2b469ddb77776770d12b7a3a1a481c72af6300b6aac96887825df063fb",
+  "content_hash": "a200cddc96f16b0f4a5d87462971f37eb6edbd9733ccfaa1b0c5a5ab52285f40",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

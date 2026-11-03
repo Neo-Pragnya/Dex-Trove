@@ -1,0 +1,54 @@
+{
+  "id": "scientific/pymoo",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pymoo",
+  "title": "Pymoo - Multi-Objective Optimization in Python",
+  "description": "Solves and validates single-, multi-, and many-objective optimization with pymoo, including NSGA-II, NSGA-III, MOEA/D, constraints, Pareto approximations, reference directions, and ZDT/DTLZ benchmarks for engineering and research problems.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pymoo",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pymoo",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pymoo",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/algorithms.md",
+    "references/constraints_mcdm.md",
+    "references/lifecycle.md",
+    "references/operators.md",
+    "references/parallelization.md",
+    "references/problems.md",
+    "references/quick_start_workflows.md",
+    "references/visualization.md",
+    "scripts/custom_problem_example.py",
+    "scripts/decision_making_example.py",
+    "scripts/many_objective_example.py",
+    "scripts/multi_objective_example.py",
+    "scripts/single_objective_example.py"
+  ],
+  "entry_hash": "942573e5b8099717487b45cf84798348fb2128516791dcafe2d76aa1bdfed117",
+  "content_hash": "d3a1c8333e056d482874657d5e713b420093dd5eab99a3aa435ed67a30b8b9ab",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

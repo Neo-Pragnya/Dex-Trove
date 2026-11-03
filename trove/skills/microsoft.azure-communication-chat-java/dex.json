@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-communication-chat-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-communication-chat-java",
+  "title": "Azure Communication Chat (Java)",
+  "description": "Build real-time chat applications with Azure Communication Services Chat Java SDK. Use when implementing chat threads, messaging, participants, read receipts, typing notifications, or real-time chat features.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-communication-chat-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-communication-chat-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-communication-chat-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "6b4cf495990c027f146f4dab11b17a2d04c21e67fcf96af26ad56260f7a764fd",
+  "content_hash": "4ebeda4948e1fc74dceebe50d8a2b11a11b80942f2260e14e84b34ef1b0f49ac",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

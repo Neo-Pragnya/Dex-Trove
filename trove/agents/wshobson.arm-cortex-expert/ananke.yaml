@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: arm-cortex-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:arm-cortex-expert
+summary: Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers
+  (Teensy, STM32, nRF52, SAMD).
+description: Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M
+  microcontrollers (Teensy, STM32, nRF52, SAMD). Decades of experience writing reliable, optimized, and maintainable
+  embedded code with deep expertise in memory barriers, DMA/cache coherency, interrupt-driven I/O, and peripheral
+  drivers.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: arm-cortex-expert.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/arm-cortex-microcontrollers/agents/arm-cortex-expert.md
+  repository: https://github.com/wshobson/agents

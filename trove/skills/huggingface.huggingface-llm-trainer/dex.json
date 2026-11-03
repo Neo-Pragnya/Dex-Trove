@@ -1,0 +1,59 @@
+{
+  "id": "huggingface/huggingface-llm-trainer",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-llm-trainer",
+  "title": "TRL Training on Hugging Face Jobs",
+  "description": "Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, model selection/leaderboards and model persistence. Use for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.",
+  "tags": [
+    "executes-code",
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-llm-trainer",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-llm-trainer",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-llm-trainer",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/gguf_conversion.md",
+    "references/hardware_guide.md",
+    "references/hub_saving.md",
+    "references/local_training_macos.md",
+    "references/reliability_principles.md",
+    "references/trackio_guide.md",
+    "references/training_methods.md",
+    "references/training_patterns.md",
+    "references/troubleshooting.md",
+    "references/unsloth.md",
+    "scripts/convert_to_gguf.py",
+    "scripts/dataset_inspector.py",
+    "scripts/estimate_cost.py",
+    "scripts/hf_benchmarks.py",
+    "scripts/train_dpo_example.py",
+    "scripts/train_grpo_example.py",
+    "scripts/train_sft_example.py",
+    "scripts/unsloth_sft_example.py"
+  ],
+  "entry_hash": "fb5c5e25103e38226e4d8ae28db84a01de42a11da4be1918fa72f833699f9d0d",
+  "content_hash": "058f908c87f5a9ee1b1c7556d7dbcdbd9bce1827c859cc8d5ac1e864cdb25e19",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

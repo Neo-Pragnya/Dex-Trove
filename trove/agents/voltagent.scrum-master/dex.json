@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/scrum-master",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "scrum-master",
+  "title": "scrum-master",
+  "description": "Use when teams need facilitation, process optimization, velocity improvement, or agile ceremony management—especially for sprint planning, retrospectives, impediment removal, and scaling agile practices across multiple teams.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "scrum-master.md",
+  "dir": "agents/voltagent.scrum-master",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/scrum-master.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/scrum-master.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "scrum-master.md"
+  ],
+  "entry_hash": "3d01b0d355b7532ac08d0884cadc3d5346c01b6c937a4a5a537ffd944b2fe0da",
+  "content_hash": "bb22bcab4538a835b6ba1dd20f4857c6653db55e4d3ce4d4285df735a74675cc",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

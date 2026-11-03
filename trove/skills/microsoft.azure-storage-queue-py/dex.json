@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-storage-queue-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage-queue-py",
+  "title": "Azure Queue Storage SDK for Python",
+  "description": "Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchronous processing.\nTriggers: \"queue storage\", \"QueueServiceClient\", \"QueueClient\", \"message queue\", \"dequeue\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage-queue-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-storage-queue-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-storage-queue-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "7a348472e13aaafa5d631b39dc9198d5b90123ea00b4cac4d359cbcaf886bc45",
+  "content_hash": "64e4f1eb72f3afdfd85901809ea56c542a76e259406aa773b43bdac9257629e9",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

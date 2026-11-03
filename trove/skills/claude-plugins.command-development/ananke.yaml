@@ -1,0 +1,34 @@
+kind: skill
+namespace: claude-plugins
+name: command-development
+version: 0.2.0
+ananke_id: urn:dex-trove:skill:claude-plugins:command-development
+summary: This skill should be used when the user asks to "create a slash command", "add a command", "write a custom
+  command", "define command arguments", "use command frontmatter", "organize commands", "create…
+description: This skill should be used when the user asks to "create a slash command", "add a command", "write a
+  custom command", "define command arguments", "use command frontmatter", "organize commands", "create command with
+  file references", "interactive command", "use AskUserQuestion in command", or needs guidance on slash command
+  structure, YAML frontmatter fields, dynamic arguments, bash execution in commands, user interaction patterns,
+  or command development best practices for Claude Code.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'plugins/plugin-dev/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/command-development
+  repository: https://github.com/anthropics/claude-plugins-official

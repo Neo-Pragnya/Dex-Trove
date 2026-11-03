@@ -1,0 +1,45 @@
+{
+  "id": "scientific/tellurium",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "tellurium",
+  "title": "Tellurium kinetic experiments",
+  "description": "Simulates biochemical kinetic models from SBML or Antimony with Tellurium and libRoadRunner, checks model units, compares deterministic parameter perturbations, and exports and replays SBML plus SED-ML COMBINE archives. Use for reaction-network time courses, kinetic parameters, concentration dynamics and reproducible simulation experiments; steady-state constraint-based metabolic flux analysis belongs to cobrapy.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.tellurium",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/tellurium",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/tellurium",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/experiment.json",
+    "assets/first-order.ant",
+    "references/experiments.md",
+    "scripts/kinetic_experiment.py"
+  ],
+  "entry_hash": "69faa97aa45e7ad46515acd3e6497b044b7b44624ffd28c74fb40d97c74513a7",
+  "content_hash": "50c699cbc1357c71c925e494e52c7d1ecda5ddd4854c3b37b024e5845adf6493",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

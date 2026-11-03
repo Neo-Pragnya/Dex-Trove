@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-architect",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-architect",
+  "title": "Wiki Architect",
+  "description": "Analyzes code repositories and generates hierarchical documentation structures with onboarding guides. Use when the user wants to create a wiki, generate documentation, map a codebase structure, or understand a project's architecture at a high level.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-architect",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-architect",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-architect",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e439354d8a650cf147ef008222b80e28414c1e295381616639890f901a653226",
+  "content_hash": "f2bd3475fd281ef01813bc3648b672f7ba766c5ef09ece1e83af9a5e5d22d2d5",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

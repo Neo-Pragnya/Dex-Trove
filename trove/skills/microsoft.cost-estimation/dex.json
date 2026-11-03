@@ -1,0 +1,47 @@
+{
+  "id": "microsoft/cost-estimation",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "cost-estimation",
+  "title": "Azure Cost Estimation",
+  "description": "Forecast Azure spend and price planned resources or workloads. WHEN: \"forecast Azure spending\", \"project next month cost\", \"compare forecast to my planning target\", \"how much will Azure cost\", \"estimate VM cost\", \"compare storage tiers\", \"compare Azure regions\", \"retail price\", \"EA rate card\", \"negotiated pricesheet\". DO NOT USE FOR: configured budget health or alerts, bill analysis, cost spikes, rightsizing, or commitments.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.cost-estimation",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-cost/skills/cost-estimation",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-cost/skills/cost-estimation",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/cost-forecast/error-handling.md",
+    "references/cost-forecast/examples.md",
+    "references/cost-forecast/guardrails.md",
+    "references/cost-forecast/request-body-schema.md",
+    "references/cost-forecast/workflow.md",
+    "references/pricing-estimate.md",
+    "references/tool-fallback.md"
+  ],
+  "entry_hash": "17f6d77d27ede847ce910183a232d4fdcd999a7501d9a5a13391e51a91231f16",
+  "content_hash": "bbee0aeafc76265447d3190ee5658ffb6a663a6f226a69b76672c6a712b59232",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

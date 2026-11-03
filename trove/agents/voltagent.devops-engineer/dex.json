@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/devops-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "devops-engineer",
+  "title": "devops-engineer",
+  "description": "Use this agent when building or optimizing infrastructure automation, CI/CD pipelines, containerization strategies, and deployment workflows to accelerate software delivery while maintaining reliability and security.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "devops-engineer.md",
+  "dir": "agents/voltagent.devops-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/devops-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/devops-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "devops-engineer.md"
+  ],
+  "entry_hash": "0d62477d005660f1e43691a35bb5a94b40195cbe0c7e8da42de29a61c536b309",
+  "content_hash": "fa89163ba080a97bfe977ed032360edbfca191f5f12d9b366e9e040a87fc066c",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

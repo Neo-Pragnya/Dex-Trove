@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/graphql-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "graphql-architect",
+  "title": "api-scaffolding-graphql-architect",
+  "description": "Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching, and design real-time systems. Use PROACTIVELY for GraphQL architecture or performance optimization.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "graphql-architect.md",
+  "dir": "agents/wshobson.graphql-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/api-scaffolding/agents/graphql-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/api-scaffolding/agents/graphql-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "graphql-architect.md"
+  ],
+  "entry_hash": "0d6df4a5738a07459ba8471c5d242a71c81ea62ba0e1a8d95b2773bb052490de",
+  "content_hash": "033ec14d91336e453be5c77a795b97301c78a52f7dd3e8e5b54fd4c42912a87b",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

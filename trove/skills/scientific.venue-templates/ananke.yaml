@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: venue-templates
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:venue-templates
+summary: Prepares journal manuscripts, conference papers, research posters, and grant documents using venue-specific
+  formatting guidance and bundled LaTeX scaffolds.
+description: Prepares journal manuscripts, conference papers, research posters, and grant documents using venue-specific
+  formatting guidance and bundled LaTeX scaffolds. Supports selecting an official template, checking current page
+  or anonymity rules, adapting academic writing to a venue, or inspecting a submission PDF.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT license'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/venue-templates
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

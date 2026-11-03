@@ -1,0 +1,46 @@
+{
+  "id": "scientific/paperclip",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "paperclip",
+  "title": "Paperclip CLI",
+  "description": "Searches and reads biomedical papers, FDA/PMDA/EMA documents, clinical trials, and protein records with the GXL Paperclip CLI and Python SDK. Supports source-scoped search, full-text grep, metadata SQL, map/reduce extraction, figure analysis, optional repositories and claim verification, and line-pinned citations. Use when a task names GXL paperclip, asks to install or authenticate it, or requests literature retrieval and evidence extraction through Paperclip.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.paperclip",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/paperclip",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/paperclip",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/cli-reference.md",
+    "references/installation.md",
+    "references/map-reduce.md",
+    "references/python-sdk.md",
+    "references/repos-and-workspace.md",
+    "references/search-and-retrieval.md"
+  ],
+  "entry_hash": "4f6fc05346aefdf5685b11d6d34fbe5b9782fc5156d69702c00dd8c71bf63473",
+  "content_hash": "cdb4155e06b00853de38ef20f28db7fc14a8bd689c98c6689387085a34cbc227",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

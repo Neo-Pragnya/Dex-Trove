@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: cloud-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:cloud-architect
+summary: Expert cloud architect specializing in AWS/Azure/GCP/OCI multi-cloud infrastructure design, advanced IaC
+  (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns.
+description: Expert cloud architect specializing in AWS/Azure/GCP/OCI multi-cloud infrastructure design, advanced
+  IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. Masters serverless,
+  microservices, security, compliance, and disaster recovery. Use PROACTIVELY for cloud architecture, cost optimization,
+  migration planning, or multi-cloud strategies.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: cloud-architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cicd-automation/agents/cloud-architect.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,44 @@
+{
+  "id": "microsoft/cost-governance",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "cost-governance",
+  "title": "Cost Governance",
+  "description": "Govern Azure costs with budgets, alerts, tags, and policy restrictions. WHEN: \"Azure budget health\", \"configured budget overrun\", \"list Azure budgets\", \"create Azure budget\", \"budget alerts\", \"budget coverage\", \"missing CostCenter tags\", \"allowed VM SKUs\", \"allowed Azure regions\", \"would this SKU be denied\", \"cost guardrails\". DO NOT USE FOR: planning-target forecasts, bill investigations, pricing, rightsizing, or commitments.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.cost-governance",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-cost/skills/cost-governance",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-cost/skills/cost-governance",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/budget-health.md",
+    "references/budget-setup.md",
+    "references/guardrails.md",
+    "references/tool-fallback.md"
+  ],
+  "entry_hash": "4241add12fefc5e51afc1a925426dd5f7d3494e642753fedb03273a3f2fcd30a",
+  "content_hash": "bd3414bcae05b9a730611b597d26ba28df79d6ca116cb30a5e3e4b1ff0e18203",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

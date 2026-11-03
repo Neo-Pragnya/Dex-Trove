@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: service-mesh-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:service-mesh-expert
+summary: Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns.
+description: Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns.
+  Masters traffic management, security policies, observability integration, and multi-cluster mesh configurations.
+  Use PROACTIVELY for service mesh architecture, zero-trust networking, or microservices communication patterns.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: service-mesh-expert.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cloud-infrastructure/agents/service-mesh-expert.md
+  repository: https://github.com/wshobson/agents

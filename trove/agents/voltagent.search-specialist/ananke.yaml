@@ -1,0 +1,34 @@
+kind: agent
+namespace: voltagent
+name: search-specialist
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:search-specialist
+summary: Use when you need to find specific information across multiple sources using advanced search strategies,
+  query optimization, and targeted information retrieval.
+description: Use when you need to find specific information across multiple sources using advanced search strategies,
+  query optimization, and targeted information retrieval. Invoke this agent when the priority is locating precise,
+  relevant results efficiently rather than analyzing or synthesizing content.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: search-specialist.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/search-specialist.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

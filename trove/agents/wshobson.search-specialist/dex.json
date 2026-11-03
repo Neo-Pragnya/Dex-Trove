@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/search-specialist",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "search-specialist",
+  "title": "search-specialist",
+  "description": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Handles competitive analysis and fact-checking. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "search-specialist.md",
+  "dir": "agents/wshobson.search-specialist",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/content-marketing/agents/search-specialist.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/content-marketing/agents/search-specialist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "search-specialist.md"
+  ],
+  "entry_hash": "d74f9e7d3368d74672a24968e6e0e11e7ef050c88214554ef9fefec7cb3a999c",
+  "content_hash": "55861f03a1042c0afb70bc879664ccb2e1720233823648f0fe8add53ec677a1b",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

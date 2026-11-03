@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-keyvault-secrets-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-keyvault-secrets-ts",
+  "title": "Azure Key Vault Secrets SDK for TypeScript",
+  "description": "Manage secrets using Azure Key Vault Secrets SDK for JavaScript (@azure/keyvault-secrets). Use when storing and retrieving application secrets or configuration values.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-keyvault-secrets-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-keyvault-secrets-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-keyvault-secrets-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/keys.md",
+    "references/secrets.md"
+  ],
+  "entry_hash": "ca54524438e60e0cbb4465acf8f42169b83df157c7b38a4c2bdd817a03a5da06",
+  "content_hash": "83eb749bad09f9fa012c2df97d39b86179f024ab060584681c69992d0dfe25c8",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

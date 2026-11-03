@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-ai-projects-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-projects-ts",
+  "title": "Azure AI Projects SDK for TypeScript",
+  "description": "Build AI applications using Azure AI Projects SDK for JavaScript (@azure/ai-projects). Use when working with Foundry project clients, agents, connections, deployments, datasets, indexes, evaluations, or getting OpenAI clients.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-projects-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-projects-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-ai-projects-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/connections.md",
+    "references/evaluations.md"
+  ],
+  "entry_hash": "d8b87cebdb290487cc2720b2a8a2f5c1888234f7e09e4fec679b0035d776b931",
+  "content_hash": "e566abe686102292d264c15182ba2b2875169c053a1f563b5a0cbef3f9af2b27",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

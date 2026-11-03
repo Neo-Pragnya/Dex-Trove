@@ -1,0 +1,46 @@
+{
+  "id": "microsoft/ui-widget-developer",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "ui-widget-developer",
+  "title": "Copilot MCP Server Development",
+  "description": "Build MCP servers for Copilot Chat using the OpenAI Apps SDK or MCP Apps SDK widget rendering support (any language). Use this skill when:\n- Creating MCP servers that integrate with M365 Copilot declarative agents\n- Building rich interactive widgets (React + Fluent UI) that render in Copilot Chat\n- Implementing tools that return structuredContent for widget rendering\n- Adapting an existing MCP server to support Copilot widget rendering\n- Setting up devtunnels for localhost MCP server exposure\n- Configuring mcpPlugin.json manifests with RemoteMCPServer runtime\nDo NOT use this skill for general agent development (scaffolding, manifests, deployment) — use declarative-agent-developer instead. This skill is ONLY for MCP server + widget development.\nTriggers: \"MCP server for Copilot\", \"OpenAI Apps SDK\", \"Copilot widget\", \"structuredContent\", \"MCP plugin\", \"devtunnels MCP\", \"OAI app\", \"widget rendering\", \"UI widget\"",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.ui-widget-developer",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/microsoft-365-agents-toolkit/skills/ui-widget-developer",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/microsoft-365-agents-toolkit/skills/ui-widget-developer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/best-practices.md",
+    "references/copilot-widget-protocol.md",
+    "references/devtunnels.md",
+    "references/mcp-server-pattern.md",
+    "references/plugin-schema.md",
+    "references/widget-patterns.md"
+  ],
+  "entry_hash": "b24d0babae9e85054d30765abca0043a2c310ba7dc980d1da258c39b87f8cd12",
+  "content_hash": "27c3912712727eb659a2c07c191e5eb276d37fa2ace2d88d02f52a8787c9e958",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

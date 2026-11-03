@@ -1,0 +1,58 @@
+{
+  "id": "scientific/ginkgo-cloud-lab",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "ginkgo-cloud-lab",
+  "title": "Ginkgo Cloud Lab",
+  "description": "Guides protocol selection, input preparation, pricing checks, and browser ordering on Ginkgo Bioworks Cloud Lab (cloud.ginkgo.bio). Applies to cell-free, E. coli, and Pichia protein expression; HiBiT, A280, and LabChip readouts; IVT mRNA/circRNA synthesis; thermal shift assays; Echo-MS methods; SPR target onboarding; plate-reader assay onboarding; and fluorescent pixel art.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.ginkgo-cloud-lab",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/ginkgo-cloud-lab",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/ginkgo-cloud-lab",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/cell-free-protein-expression-hibit.md",
+    "references/cell-free-protein-expression-optimization.md",
+    "references/cell-free-protein-expression-validation.md",
+    "references/cfps-expression-purification-quantification.md",
+    "references/cfps-strep-purification-thermal-shift.md",
+    "references/cfps-strep-tag-purification-a280.md",
+    "references/echo-ms-cfps-detection.md",
+    "references/echo-ms-method-onboarding.md",
+    "references/ecoli-expression-purification-quantification.md",
+    "references/ecoli-minibinder-expression-histag-a280.md",
+    "references/ecoli-protein-expression-hibit.md",
+    "references/ecoli-protein-expression-histag-a280.md",
+    "references/fluorescent-pixel-art-generation.md",
+    "references/ivt-rna-synthesis-qpcr.md",
+    "references/minibinder-strep-tag-a280.md",
+    "references/pichia-protein-expression-labchip.md",
+    "references/plate-reader-assay-onboarding.md",
+    "references/spr-target-onboarding.md"
+  ],
+  "entry_hash": "b3675d3ad36070fd598642fd2b58c36d3cfd09a08eef3f52d77629856e2e845b",
+  "content_hash": "9f9e4da2cb4437cb805da7180dcedaa82b5070200e4b2bcb2ffbef284c331861",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

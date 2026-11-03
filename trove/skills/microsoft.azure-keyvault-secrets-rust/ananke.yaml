@@ -1,0 +1,31 @@
+kind: skill
+namespace: microsoft
+name: azure-keyvault-secrets-rust
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-keyvault-secrets-rust
+summary: Azure Key Vault Secrets library for Rust. Store and retrieve secrets, passwords, and API keys.
+description: 'Azure Key Vault Secrets library for Rust. Store and retrieve secrets, passwords, and API keys.
+
+  Triggers: "keyvault secrets rust", "SecretClient rust", "get secret rust", "set secret rust", "list secrets rust".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-rust/skills/azure-keyvault-secrets-rust
+  repository: https://github.com/microsoft/skills

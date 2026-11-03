@@ -1,0 +1,36 @@
+kind: skill
+namespace: huggingface
+name: huggingface-lora-space-builder
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:huggingface-lora-space-builder
+summary: Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. Use when someone asks
+  to create, generate, ship, or publish a Space, demo, Gradio app, or playground for a LoRA — inclu…
+description: Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. Use when someone asks
+  to create, generate, ship, or publish a Space, demo, Gradio app, or playground for a LoRA — including LoRAs for
+  Qwen-Image, Qwen-Image-Edit, LTX-Video, Wan, FLUX, SDXL, or other diffusion base models. Also triggers when someone
+  describes a LoRA they trained or hosts on the Hub and wants to share it. Covers picking the right base pipeline
+  and `diffusers` inference recipe, designing a UI tailored to the LoRA's task and inputs (Union/multi-task control,
+  edit, video, image, etc.), respecting model-card recommendations (trigger words, steps, guidance, LoRA scale,
+  example inputs), and shipping to ZeroGPU hardware as a private Space by default.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-lora-space-builder
+  repository: https://github.com/huggingface/skills

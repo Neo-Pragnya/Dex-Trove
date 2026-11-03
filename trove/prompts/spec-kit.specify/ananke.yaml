@@ -1,0 +1,31 @@
+kind: prompt
+namespace: spec-kit
+name: specify
+version: 1.0.0
+ananke_id: urn:dex-trove:prompt:spec-kit:specify
+summary: Create or update the feature specification from a natural language feature description.
+description: Create or update the feature specification from a natural language feature description.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: specify.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - prompt
+  - spec-kit
+  homepage: https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/specify.md
+  repository: https://github.com/github/spec-kit

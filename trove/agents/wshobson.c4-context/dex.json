@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/c4-context",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "c4-context",
+  "title": "c4-context",
+  "description": "Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents personas, user journeys, system features, and external dependencies. Synthesizes container and component documentation with system documentation to create comprehensive context-level architecture. Use when creating the highest-level C4 system context documentation.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "c4-context.md",
+  "dir": "agents/wshobson.c4-context",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/c4-architecture/agents/c4-context.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/c4-architecture/agents/c4-context.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "c4-context.md"
+  ],
+  "entry_hash": "b36731a520300bfd4878d117555feafaa84ddbc418a050c4561a2c96420b12d3",
+  "content_hash": "50143ea91dee6fd573ed85275f51916d49aac28bdc2050fe999a98b09a2d0e23",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

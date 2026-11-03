@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-ai-projects-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-projects-java",
+  "title": "Azure AI Projects SDK for Java",
+  "description": "Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.\nTriggers: \"AIProjectClient java\", \"azure ai projects java\", \"Foundry project java\", \"ConnectionsClient\", \"DatasetsClient\", \"IndexesClient\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-projects-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-ai-projects-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-ai-projects-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "43679ee1835646c49366ded8024246d57478a1591f75e08933ef7702c5e2a16d",
+  "content_hash": "30f8961b5c498ab1f920c9fee80b9a5ade62d1f586349abdfa0512562b6d4652",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

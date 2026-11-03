@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: stable-baselines3
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:stable-baselines3
+summary: Trains and evaluates single-agent reinforcement learning with Stable Baselines3 (PPO, SAC, DQN, TD3, DDPG,
+  A2C), Gymnasium custom environments, vectorized rollouts, callbacks, and checkpoint normaliza…
+description: Trains and evaluates single-agent reinforcement learning with Stable Baselines3 (PPO, SAC, DQN, TD3,
+  DDPG, A2C), Gymnasium custom environments, vectorized rollouts, callbacks, and checkpoint normalization. Applies
+  to reproducible RL experiments, continuous control, discrete actions, and SB3-Contrib recurrent or masked policies.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT license'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/stable-baselines3
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

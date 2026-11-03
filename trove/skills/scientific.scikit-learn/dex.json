@@ -1,0 +1,51 @@
+{
+  "id": "scientific/scikit-learn",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "scikit-learn",
+  "title": "Scikit-learn",
+  "description": "Supports machine learning in Python with scikit-learn. Applies when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.scikit-learn",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/scikit-learn",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-learn",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/common_workflows.md",
+    "references/core_capabilities.md",
+    "references/model_evaluation.md",
+    "references/pipelines_and_composition.md",
+    "references/preprocessing.md",
+    "references/quick_reference.md",
+    "references/supervised_learning.md",
+    "references/unsupervised_learning.md",
+    "scripts/classification_pipeline.py",
+    "scripts/clustering_analysis.py"
+  ],
+  "entry_hash": "a1765797d072ab40094522abe68fb04505d0881f66b7dfceeb8582422dbe488d",
+  "content_hash": "8b1e1376a1d3dc28f92bb82e1a41eb9dfe91317a65ef838c3793e1caa76ec880",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

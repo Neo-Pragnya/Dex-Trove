@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/kotlin-specialist",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "kotlin-specialist",
+  "title": "kotlin-specialist",
+  "description": "Use when building Kotlin applications requiring advanced coroutine patterns, multiplatform code sharing, or Android/server-side development with functional programming principles.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "kotlin-specialist.md",
+  "dir": "agents/voltagent.kotlin-specialist",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/kotlin-specialist.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/kotlin-specialist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "kotlin-specialist.md"
+  ],
+  "entry_hash": "554c9af506dde32794c631d2db72ca85a097c943d41122efb83430c08d18efb4",
+  "content_hash": "e0b2fa0d06ce373da0f03546feacef94e0d4559a950b8ea1da528bec42044faa",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

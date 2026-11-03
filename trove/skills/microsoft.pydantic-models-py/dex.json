@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/pydantic-models-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "pydantic-models-py",
+  "title": "Pydantic Models",
+  "description": "Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants. Use when defining API request/response schemas, database models, or data validation in Python applications using Pydantic v2.",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.pydantic-models-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/pydantic-models-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/pydantic-models-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/template.py",
+    "references/capabilities.md"
+  ],
+  "entry_hash": "a0d914a4de405961e793895e027c43f34ef9306dc544de14ed5d17570c01a315",
+  "content_hash": "7568c05afabd58c04cfcb0ad7d0443a8bee08dc2962380c0b90f54a3a970d4eb",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

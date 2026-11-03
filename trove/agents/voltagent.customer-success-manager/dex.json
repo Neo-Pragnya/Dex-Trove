@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/customer-success-manager",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "customer-success-manager",
+  "title": "customer-success-manager",
+  "description": "Use this agent when you need to assess customer health, develop retention strategies, identify upsell opportunities, or maximize customer lifetime value. Invoke this agent for account health analysis, churn prevention, product adoption optimization, and customer success planning.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "customer-success-manager.md",
+  "dir": "agents/voltagent.customer-success-manager",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/customer-success-manager.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/customer-success-manager.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "customer-success-manager.md"
+  ],
+  "entry_hash": "d37cbaed5c9e77394389d96bc16e1598036676fa588497b957aeae8e3b5ec759",
+  "content_hash": "248332f6768a60a31b6f3c135cfbeb32870fda94e28bd04733bb44b600e0e060",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

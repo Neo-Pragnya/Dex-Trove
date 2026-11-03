@@ -1,0 +1,43 @@
+{
+  "id": "huggingface/huggingface-trackio",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-trackio",
+  "title": "Trackio - Experiment Tracking for ML Training",
+  "description": "Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-trackio",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-trackio",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-trackio",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/alerts.md",
+    "references/logging_metrics.md",
+    "references/retrieving_metrics.md"
+  ],
+  "entry_hash": "540f52974f4f77c2455a7b37ed983da0dbfb0f5af3d2c482e4736f14f1cc8724",
+  "content_hash": "28b9e8eb822b5e672392485d30c947e69e4116da8a3e4a154ce5f6ce59a43179",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

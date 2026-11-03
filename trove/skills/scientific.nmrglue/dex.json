@@ -1,0 +1,44 @@
+{
+  "id": "scientific/nmrglue",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "nmrglue",
+  "title": "nmrglue: calibrated 1D FID processing",
+  "description": "Processes calibrated one-dimensional complex NMR free-induction decays with nmrglue into phased spectra, peak candidates, and signed integration regions. Use for raw 1D NMR processing, ppm-axis verification, apodization, Fourier transformation, manual phasing, baseline correction, or reproducible spectral integration.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.nmrglue",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/nmrglue",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/nmrglue",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/processing.json",
+    "references/acquisition-and-validation.md",
+    "scripts/process_1d.py"
+  ],
+  "entry_hash": "358b5a5d64d20092e8631aeb8f4a06f11634a9fdeb8c594a93e6c1282b04b10b",
+  "content_hash": "d4e51ee2ff6a16662f4b7482d3add3e87b669876967cd163fbd3d15832e20d36",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

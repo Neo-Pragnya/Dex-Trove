@@ -1,0 +1,32 @@
+kind: skill
+namespace: bmad-method
+name: bmad-prfaq
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-prfaq
+summary: 'Test a product concept with Amazon''s Working Backwards method: write the press release for the finished
+  product first, then answer hard customer and stakeholder questions, ending in a complete PRFAQ d…'
+description: 'Test a product concept with Amazon''s Working Backwards method: write the press release for the finished
+  product first, then answer hard customer and stakeholder questions, ending in a complete PRFAQ document. Use when
+  the user requests to ''create a PRFAQ'', ''work backwards'', or ''run the PRFAQ challenge'''
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-prfaq
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

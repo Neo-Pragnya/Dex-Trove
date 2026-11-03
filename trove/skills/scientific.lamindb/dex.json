@@ -1,0 +1,47 @@
+{
+  "id": "scientific/lamindb",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "lamindb",
+  "title": "LaminDB",
+  "description": "Manages biological datasets and models with LaminDB, including artifact registration, lineage tracking, schema validation, Bionty ontology annotation, query/search, collections, branches, storage, and workflow integrations. Use for reproducible biological data curation or a LaminDB lakehouse.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.lamindb",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/lamindb",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/lamindb",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/annotation-validation.md",
+    "references/core-concepts.md",
+    "references/data-management.md",
+    "references/integrations.md",
+    "references/ontologies.md",
+    "references/setup-deployment.md",
+    "references/sources.md"
+  ],
+  "entry_hash": "00f1246a7f59b6ec11ca119687ccc3ff384547f40d44f2140f557ac3ddd01b35",
+  "content_hash": "32d26cd4126d5c963ce275efe94cce1a19a95b79abb240d83a8fbe0804adbcfd",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

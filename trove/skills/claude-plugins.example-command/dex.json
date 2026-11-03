@@ -1,0 +1,40 @@
+{
+  "id": "claude-plugins/example-command",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "example-command",
+  "title": "Example Command (Skill Format)",
+  "description": "An example user-invoked skill that demonstrates frontmatter options and the skills/<name>/SKILL.md layout",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.example-command",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/example-plugin/skills/example-command",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/example-plugin/skills/example-command",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/example-plugin/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "d561981660827f3818b0daec456ae5b31894f68c22407d8c495a77b3105ba96d",
+  "content_hash": "6b197d61b5de9872114cbea9ebb1438ad4b3f773d6d76506771076d18a66434e",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

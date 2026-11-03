@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: elixir-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:elixir-pro
+summary: Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency,
+  fault tolerance, and distributed systems.
+description: Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency,
+  fault tolerance, and distributed systems. Use PROACTIVELY for Elixir refactoring, OTP design, or complex BEAM
+  optimizations.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: elixir-pro.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/functional-programming/agents/elixir-pro.md
+  repository: https://github.com/wshobson/agents

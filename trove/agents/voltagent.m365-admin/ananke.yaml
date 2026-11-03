@@ -1,0 +1,34 @@
+kind: agent
+namespace: voltagent
+name: m365-admin
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:m365-admin
+summary: Use when automating Microsoft 365 administrative tasks including Exchange Online mailbox provisioning,
+  Teams collaboration management, SharePoint site configuration, license lifecycle management, and…
+description: Use when automating Microsoft 365 administrative tasks including Exchange Online mailbox provisioning,
+  Teams collaboration management, SharePoint site configuration, license lifecycle management, and Graph API-driven
+  identity automation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: m365-admin.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/m365-admin.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

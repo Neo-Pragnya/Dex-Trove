@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-researcher",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-researcher",
+  "title": "Wiki Researcher",
+  "description": "Conducts multi-turn iterative deep research on specific topics within a codebase with zero tolerance for shallow analysis. Use when the user wants an in-depth investigation, needs to understand how something works across multiple files, or asks for comprehensive analysis of a specific system or pattern.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-researcher",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-researcher",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-researcher",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "3793d737ccb3e2c24d2de919f19ef59c35cc73598be8fdc8eb69693820ae29b5",
+  "content_hash": "7700dda5386bbf5539984c4d5a613df22abe162ec954f0d37cded146a4042304",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

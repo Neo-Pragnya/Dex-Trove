@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-storage-blob-rust",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage-blob-rust",
+  "title": "Azure Blob Storage library for Rust",
+  "description": "Azure Blob Storage library for Rust. Upload, download, and manage blobs and containers.\nTriggers: \"blob storage rust\", \"BlobClient rust\", \"upload blob rust\", \"download blob rust\", \"storage container rust\", \"BlobServiceClient rust\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage-blob-rust",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-rust/skills/azure-storage-blob-rust",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-rust/skills/azure-storage-blob-rust",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "6750e050df436fe23223dfe4cacaf9067f3d16ed10f6b9137453b0cb7bcd0b9b",
+  "content_hash": "9bf5ff72dd12b0bec94146e42ebdcadee3d240c99b62119d620f4cbd224b496f",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

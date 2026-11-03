@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/blockchain-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "blockchain-developer",
+  "title": "blockchain-developer",
+  "description": "Use this agent when building smart contracts, DApps, and blockchain protocols that require expertise in Solidity, gas optimization, security auditing, and Web3 integration.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "blockchain-developer.md",
+  "dir": "agents/voltagent.blockchain-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/blockchain-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/blockchain-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "blockchain-developer.md"
+  ],
+  "entry_hash": "63e0e8cde238b7584fe0b8b6eb64a7e4c160c1446e4c6ce7cd822aa1a9a49cda",
+  "content_hash": "7edf28b5ae0a808e704c662577d978be2a7c33145032134b7eadd2e0e08399f4",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

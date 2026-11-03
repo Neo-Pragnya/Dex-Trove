@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/payment-integration",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "payment-integration",
+  "title": "payment-integration",
+  "description": "Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "payment-integration.md",
+  "dir": "agents/wshobson.payment-integration",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/payment-processing/agents/payment-integration.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/payment-processing/agents/payment-integration.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "payment-integration.md"
+  ],
+  "entry_hash": "59d17b7c994db0579c46f286731880e2a16da59edde58fb4237915c05ab798fe",
+  "content_hash": "8e5bfc196cce9452f4d0a8bd3cf62359517e9081e89e918542256e7dacd542ed",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

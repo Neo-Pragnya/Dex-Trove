@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/kubernetes-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "kubernetes-architect",
+  "title": "cicd-automation-kubernetes-architect",
+  "description": "Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. Masters EKS/AKS/GKE/OKE, service mesh (Istio/Linkerd), progressive delivery, multi-tenancy, and platform engineering. Handles security, observability, cost optimization, and developer experience. Use PROACTIVELY for K8s architecture, GitOps implementation, or cloud-native platform design.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "kubernetes-architect.md",
+  "dir": "agents/wshobson.kubernetes-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/cicd-automation/agents/kubernetes-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cicd-automation/agents/kubernetes-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "kubernetes-architect.md"
+  ],
+  "entry_hash": "0ce6d50c97eb7b413676b5a0ec0e27c73955f3ae7e03439f32894ffc83c614bf",
+  "content_hash": "8acaf586def72a5c4e887ab800e8055a02796ed40b7859093e27c2d243a93743",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

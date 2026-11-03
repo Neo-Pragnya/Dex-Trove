@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-messaging-webpubsubservice-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-messaging-webpubsubservice-py",
+  "title": "Azure Web PubSub Service SDK for Python",
+  "description": "Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.\nTriggers: \"azure-messaging-webpubsubservice\", \"WebPubSubServiceClient\", \"real-time\", \"WebSocket\", \"pub/sub\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-messaging-webpubsubservice-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-messaging-webpubsubservice-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-messaging-webpubsubservice-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "c44dffb388765c125899343027db5276366a5c11b5993b11b07acb06ce235527",
+  "content_hash": "2ed7736d92048f099ddcfa908cad8821cfc246bca01f5606512fbbe04f77b84c",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

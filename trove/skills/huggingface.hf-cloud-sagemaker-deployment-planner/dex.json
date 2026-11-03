@@ -1,0 +1,40 @@
+{
+  "id": "huggingface/hf-cloud-sagemaker-deployment-planner",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "hf-cloud-sagemaker-deployment-planner",
+  "title": "SageMaker Deployment Planner",
+  "description": "Plan and coordinate the deployment of a model to Amazon SageMaker AI. Use this skill whenever the user wants to deploy, host, serve, or expose a model on SageMaker or AWS — including phrases like \"deploy a model\", \"host this LLM on AWS\", \"serve this embedding model\", \"deploy a reranker\", \"deploy a text-to-image / diffusion model\", \"host this for async inference\", \"create an endpoint\", \"serve my fine-tuned model\", or any request that involves making a model available for inference on AWS. Use this even when the user is vague (e.g. \"I just want to get this running on AWS, you figure it out\"). Works for text-generation LLMs, embedding models, rerankers, classifiers, text-to-image / diffusion models — picks the right serving stack and chooses between real-time and async inference. This is the entry-point skill for SageMaker deployment work — it asks clarifying questions, picks a deployment pathway, and coordinates the other deployment skills.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.hf-cloud-sagemaker-deployment-planner",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/hf-cloud-sagemaker-deployment-planner",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/hf-cloud-sagemaker-deployment-planner",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "2538e5f705466ef2912c07eb4311befc29940f026dfd17720242e4c976a8d8e9",
+  "content_hash": "104d7f3a4deaca41a8ac8f184178f3b10e81f32ce217eab5f113900c563a735f",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

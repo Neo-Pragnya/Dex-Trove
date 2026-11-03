@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: prompt-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:prompt-engineer
+summary: Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design.
+  Masters chain-of-thought, constitutional AI, and production prompt strategies.
+description: Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system
+  design. Masters chain-of-thought, constitutional AI, and production prompt strategies. Use when building AI features,
+  improving agent performance, or crafting system prompts.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: prompt-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/llm-application-dev/agents/prompt-engineer.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,48 @@
+{
+  "id": "scientific/scvi-tools",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "scvi-tools",
+  "title": "scvi-tools",
+  "description": "Fits probabilistic models for single-cell omics, including scVI batch integration, scANVI annotation, totalVI CITE-seq, MultiVI RNA/ATAC integration, and posterior differential expression. Use for generative modeling, reference mapping, multimodal analysis, or model-based uncertainty; use scanpy for standard preprocessing and exploratory analysis.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.scvi-tools",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/scvi-tools",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scvi-tools",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/differential-expression.md",
+    "references/models-atac-seq.md",
+    "references/models-multimodal.md",
+    "references/models-scrna-seq.md",
+    "references/models-spatial.md",
+    "references/models-specialized.md",
+    "references/theoretical-foundations.md",
+    "references/workflows.md"
+  ],
+  "entry_hash": "b22633470d40ddaf31451fbbf811941fc89c3174c404ca359f25378691267e73",
+  "content_hash": "14a4f3af7e704420a1b12d410ad9fa0039181439add82a819f0c57a2d12a061d",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

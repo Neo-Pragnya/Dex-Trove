@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/nlp-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "nlp-engineer",
+  "title": "nlp-engineer",
+  "description": "Use when building production NLP systems, implementing text processing pipelines, developing language models, or solving domain-specific NLP tasks like named entity recognition, sentiment analysis, or machine translation.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "nlp-engineer.md",
+  "dir": "agents/voltagent.nlp-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/nlp-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/nlp-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "nlp-engineer.md"
+  ],
+  "entry_hash": "2eb4f75904b4132ad92ebcfe4d755e956442015b9e99a8a0daf9bd0e70029721",
+  "content_hash": "ded4be297677a8f93750487c6a2f0e215936ae32662d4b5fd7e85d267e0cc734",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

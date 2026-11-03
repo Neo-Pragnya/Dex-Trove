@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/eval-orchestrator",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "eval-orchestrator",
+  "title": "eval-orchestrator",
+  "description": "Orchestrates plugin quality evaluation. Use PROACTIVELY when evaluating, scoring, or certifying plugin quality.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "eval-orchestrator.md",
+  "dir": "agents/wshobson.eval-orchestrator",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/plugin-eval/agents/eval-orchestrator.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/plugin-eval/agents/eval-orchestrator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "eval-orchestrator.md"
+  ],
+  "entry_hash": "3d9ddfbcd3da4d0b3fc8d71e9dd15be31683e5ccb77d59dd1bb8e67f2e2bd75d",
+  "content_hash": "7f709746b0c544ba23dcc305328a911e76dd1120164d7ec9f5aa0535c33a502c",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

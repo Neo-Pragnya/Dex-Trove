@@ -1,0 +1,32 @@
+kind: skill
+namespace: claude-plugins
+name: playground
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:claude-plugins:playground
+summary: Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something
+  visually through controls, see a live preview, and copy out a prompt.
+description: Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure
+  something visually through controls, see a live preview, and copy out a prompt. Use when the user asks to make
+  a playground, explorer, or interactive tool for a topic.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'plugins/playground/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/playground/skills/playground
+  repository: https://github.com/anthropics/claude-plugins-official

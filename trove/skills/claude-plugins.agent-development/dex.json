@@ -1,0 +1,47 @@
+{
+  "id": "claude-plugins/agent-development",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "agent-development",
+  "title": "Agent Development for Claude Code Plugins",
+  "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins.",
+  "tags": [
+    "claude-plugins",
+    "executes-code",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.agent-development",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/plugin-dev/skills/agent-development",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/agent-development",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/plugin-dev/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "examples/agent-creation-prompt.md",
+    "examples/complete-agent-examples.md",
+    "references/agent-creation-system-prompt.md",
+    "references/system-prompt-design.md",
+    "references/triggering-examples.md",
+    "scripts/validate-agent.sh"
+  ],
+  "entry_hash": "6a2826571320828cc6f8f21ccd8e6eefd2bced62000c8c5e43a712c12e2d83a1",
+  "content_hash": "6cd8f2515c8dab68306ab7bb9637214d1d02fc6976bbf5a2a8f171ce1c237562",
+  "learned_at": "2026-11-03T06:21:40+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/dotnet-framework-4",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "dotnet-framework-4",
+  "title": "dotnet-framework-4.8-expert",
+  "description": "Use this agent when working on legacy .NET Framework 4.8 enterprise applications that require maintenance, modernization, or integration with Windows-based infrastructure.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "dotnet-framework-4.8-expert.md",
+  "dir": "agents/voltagent.dotnet-framework-4",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/dotnet-framework-4.8-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/dotnet-framework-4.8-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dotnet-framework-4.8-expert.md"
+  ],
+  "entry_hash": "2da0ccc817ad16268e935cb5394a10e6d9c276904ef2fed754ec2d7005d9e776",
+  "content_hash": "508464d0e2c216e0342bc424b373749e0c1913b05420cac1565e74764c2b615b",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

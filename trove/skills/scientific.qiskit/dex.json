@@ -1,0 +1,55 @@
+{
+  "id": "scientific/qiskit",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "qiskit",
+  "title": "Qiskit",
+  "description": "Builds, simulates, transpiles, and executes quantum circuits with Qiskit and IBM Quantum Runtime. Use for Qiskit 2.x circuits and operators, V2 Sampler or Estimator primitives, target-aware transpilation, local or noisy simulation, IBM QPU execution, Runtime sessions or batches, error mitigation, and Qiskit ecosystem packages.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.qiskit",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/qiskit",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/qiskit",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/algorithms.md",
+    "references/backends.md",
+    "references/circuits.md",
+    "references/migration.md",
+    "references/patterns.md",
+    "references/primitives.md",
+    "references/setup.md",
+    "references/sources.md",
+    "references/testing.md",
+    "references/transpilation.md",
+    "references/visualization.md",
+    "scripts/check_environment.py",
+    "scripts/inspect_runtime.py",
+    "scripts/run_local_primitives.py"
+  ],
+  "entry_hash": "538e5db262e7c237cff2bac191480f81688b8679167740af7405fcda1340511e",
+  "content_hash": "4d1e58293b4540702fb9ea0a32d0facdab8c1cc6c62ea1711bb8ad9fe7fee2c6",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-storage-file-share-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage-file-share-ts",
+  "title": "@azure/storage-file-share (TypeScript/JavaScript)",
+  "description": "Azure File Share JavaScript/TypeScript SDK (@azure/storage-file-share) for SMB file share operations. Use for creating shares, managing directories, uploading/downloading files, and handling file metadata. Supports Azure Files SMB protocol scenarios. Triggers: \"file share\", \"@azure/storage-file-share\", \"ShareServiceClient\", \"ShareClient\", \"SMB\", \"Azure Files\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage-file-share-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-storage-file-share-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-storage-file-share-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9a0e4d4a1940c40420d292b311bf23c62e7b855506459984382d9dfcae3f140f",
+  "content_hash": "419761d9fddf798380dbe58243ff5039bef26959345bbf4d03576f281260efee",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

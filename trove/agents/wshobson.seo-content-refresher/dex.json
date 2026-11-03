@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-content-refresher",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-content-refresher",
+  "title": "seo-content-refresher",
+  "description": "Identifies outdated elements in provided content and suggests updates to maintain freshness. Finds statistics, dates, and examples that need updating. Use PROACTIVELY for older content.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-content-refresher.md",
+  "dir": "agents/wshobson.seo-content-refresher",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-analysis-monitoring/agents/seo-content-refresher.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-analysis-monitoring/agents/seo-content-refresher.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-content-refresher.md"
+  ],
+  "entry_hash": "721e513dcd010bbd95e785efd954f5be742643ef6e56aab36f1f7e1c01d0daea",
+  "content_hash": "64441a1b967b44f7c9a2740816143bf146373aaa8f533cdbe42fb4e2a9419307",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

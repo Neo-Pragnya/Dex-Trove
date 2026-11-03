@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/data-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "data-engineer",
+  "title": "data-engineer",
+  "description": "Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements Apache Spark, dbt, Airflow, and cloud-native data platforms. Use PROACTIVELY for data pipeline design, analytics infrastructure, or modern data stack implementation.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "data-engineer.md",
+  "dir": "agents/wshobson.data-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/data-engineering/agents/data-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/data-engineering/agents/data-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "data-engineer.md"
+  ],
+  "entry_hash": "c88021cb4b2e2e432cb5df36d90db46e872fa7d28c64d10aad7b4c4334683ab6",
+  "content_hash": "a3ddee3006672b103cf686d3f0605ea26b03e2fe1bdc38f0ead5f1788add8862",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

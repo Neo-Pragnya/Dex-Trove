@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/data-analyst",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "data-analyst",
+  "title": "data-analyst",
+  "description": "Use when you need to extract insights from business data, create dashboards and reports, or perform statistical analysis to support decision-making.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "data-analyst.md",
+  "dir": "agents/voltagent.data-analyst",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/data-analyst.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/data-analyst.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "data-analyst.md"
+  ],
+  "entry_hash": "ca0937b865f852a4af68e538b601d47d4462c978b6d0a46383a460a60b7c36e2",
+  "content_hash": "0b20bcd1a14df4db182874622e6531723c2fb5a4b85a7e7078f0171ca0f624fa",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

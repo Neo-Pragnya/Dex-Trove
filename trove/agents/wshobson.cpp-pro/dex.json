@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/cpp-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "cpp-pro",
+  "title": "cpp-pro",
+  "description": "Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. Use PROACTIVELY for C++ refactoring, memory safety, or complex C++ patterns.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "cpp-pro.md",
+  "dir": "agents/wshobson.cpp-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/systems-programming/agents/cpp-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/systems-programming/agents/cpp-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cpp-pro.md"
+  ],
+  "entry_hash": "0fe221390dce11b69caa128475d305f0dbff8854bcfaaaa19bcca5fa74c29b10",
+  "content_hash": "30aef6e6e46f9acee8af4c8d1f380eea23aedcc46af3d93d505184f708aa2fd0",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

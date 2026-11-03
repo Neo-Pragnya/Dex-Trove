@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/elixir-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "elixir-expert",
+  "title": "elixir-expert",
+  "description": "Use this agent when you need to build fault-tolerant, concurrent systems leveraging OTP patterns, GenServer architectures, and Phoenix framework for real-time applications.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "elixir-expert.md",
+  "dir": "agents/voltagent.elixir-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/elixir-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/elixir-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "elixir-expert.md"
+  ],
+  "entry_hash": "f765f3c9b30d612967475b8ff733d13759238a93d7a961680c52ff243edb5f16",
+  "content_hash": "5670a67a61324263c0504e0f96a9ecaa27cdfe2a41accf4bda7abdca3c9af06d",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

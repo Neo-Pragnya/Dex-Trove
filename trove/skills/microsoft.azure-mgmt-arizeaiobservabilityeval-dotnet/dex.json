@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-mgmt-arizeaiobservabilityeval-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-mgmt-arizeaiobservabilityeval-dotnet",
+  "title": "Azure.ResourceManager.ArizeAIObservabilityEval",
+  "description": "Azure Resource Manager SDK for Arize AI Observability and Evaluation (.NET). Use when managing Arize AI organizations \non Azure via Azure Marketplace, creating/updating/deleting Arize resources, or integrating Arize ML observability \ninto .NET applications. Triggers: \"Arize AI\", \"ML observability\", \"ArizeAIObservabilityEval\", \"Arize organization\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-mgmt-arizeaiobservabilityeval-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-arizeaiobservabilityeval-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-mgmt-arizeaiobservabilityeval-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "511734ed1e019e27b301693309e426985f15ae71d1d14697c6eadbaf7416ddf9",
+  "content_hash": "3fc08578786db5248c472715dbe30ac1d340aee8e55c71268d836bb2f8a6f168",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

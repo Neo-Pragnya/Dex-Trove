@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/aks-known-issues",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "aks-known-issues",
+  "title": "AKS Known Issues",
+  "description": "Lookup documented AKS fixes only when the prompt includes an exact catalog signature and all of its qualifiers: VMCannotFitEphemeralOSDisk; NodePoolMcVersionIncompatible; 'NodeImageVersion is not accepted'; AKS SkuNotAvailable with size, location, and zone; ZonalAllocationFailed with insufficient zone capacity; OverconstrainedAllocationRequest with listed constraints; nested AKS vmssCSE/CSE VMExtensionError_OutboundConnFail, VMExtensionError_K8SAPIServerConnFail, or VMExtensionError_K8SAPIServerDNSLookupFail; or AllocationFailed with the full cataloged internal-error or insufficient-regional-capacity message. Never use for quota errors, code-only or bare wrappers, generic symptoms, incomplete signatures, or failures outside AKS; use aks-troubleshooting or azure-diagnostics.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.aks-known-issues",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/aks-skills/skills/aks-known-issues",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/aks-skills/skills/aks-known-issues",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/error-code-map.md"
+  ],
+  "entry_hash": "cb8520de767456a29e99e4321903e501946b3b8de06c0cc79fa0f2b938521791",
+  "content_hash": "87bfc51b42d5f186634c18a45d7484e4f24ad85fd0a096a6ed3147e748766aa3",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

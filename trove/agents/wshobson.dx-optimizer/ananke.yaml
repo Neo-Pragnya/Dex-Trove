@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: dx-optimizer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:dx-optimizer
+summary: Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up
+  new projects, after team feedback, or when development friction is noticed.
+description: Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting
+  up new projects, after team feedback, or when development friction is noticed.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dx-optimizer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/debugging-toolkit/agents/dx-optimizer.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,52 @@
+{
+  "id": "scientific/modal",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "modal",
+  "title": "Modal",
+  "description": "Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs. Use when deploying or serving AI/ML models, running GPU-accelerated workloads (training, fine-tuning, inference), serving web endpoints, scheduling batch jobs, or scaling Python code to cloud containers with the Modal SDK.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.modal",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/modal",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/modal",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/examples.md",
+    "references/functions.md",
+    "references/getting-started.md",
+    "references/gpu.md",
+    "references/images.md",
+    "references/resources.md",
+    "references/scaling.md",
+    "references/scheduled-jobs.md",
+    "references/secrets.md",
+    "references/volumes.md",
+    "references/web-endpoints.md"
+  ],
+  "entry_hash": "5da5d0a39db4ea5f429ffc40772bbce87e26f778fac363c42873ca6bb84fecd9",
+  "content_hash": "c9b59bdaeccb92c43cace98d3666225e46bb3b0564f278c844522e1a5fc50b27",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

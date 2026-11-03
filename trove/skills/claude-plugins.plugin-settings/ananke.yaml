@@ -1,0 +1,27 @@
+kind: skill
+namespace: claude-plugins
+name: plugin-settings
+version: 0.1.0
+ananke_id: urn:dex-trove:skill:claude-plugins:plugin-settings
+summary: This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-configurable
+  plugin", ".local.md files", "plugin state files", "read YAML frontmatter", "per-p…
+description: This skill should be used when the user asks about "plugin settings", "store plugin configuration",
+  "user-configurable plugin", ".local.md files", "plugin state files", "read YAML frontmatter", "per-project plugin
+  settings", or wants to make plugin behavior configurable. Documents the .claude/plugin-name.local.md pattern for
+  storing plugin-specific configuration with YAML frontmatter and markdown content.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'plugins/plugin-dev/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - executes-code
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/plugin-settings
+  repository: https://github.com/anthropics/claude-plugins-official

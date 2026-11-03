@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/docs-drift-editor",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "docs-drift-editor",
+  "title": "docs-drift-editor",
+  "description": "Use this agent to update Markdown documentation pages that have drifted out of sync with a code change, inside an isolated git worktree, without inventing commands, URLs, or features not present in the diff.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "docs-drift-editor.md",
+  "dir": "agents/voltagent.docs-drift-editor",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/docs-drift-editor.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/docs-drift-editor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "docs-drift-editor.md"
+  ],
+  "entry_hash": "8313595fcd5ae73902a58d81887f0b209cf2ef7ee3785f005cb10b46e563a168",
+  "content_hash": "da3d7171d67b4ff457a66ae5ef37537a8c7e32d10cc573bfece6db968db188b7",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

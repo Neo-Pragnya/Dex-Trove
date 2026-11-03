@@ -1,12 +1,12 @@
 {
- "generator": "dex-trove 0.3.0",
+ "generator": "dex-trove 0.3.2",
  "summary": {
   "claude": {
-   "pass": 762,
+   "pass": 1501,
    "fail": 2
   },
   "copilot": {
-   "pass": 959,
+   "pass": 1698,
    "fail": 9
   }
  },
@@ -891,6 +891,1214 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "agent:voltagent/ab-test-analysis": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/accessibility-tester": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/ad-security-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/agent-installer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/agent-organizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/ai-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/ai-writing-auditor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/angular-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/api-designer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/api-documenter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/architect-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/assumption-mapping": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/auth-integration-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/azure-infra-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/backend-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/backlog-grooming": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/blockchain-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/build-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/business-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/chaos-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/cli-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/cloud-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/code-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/codebase-orchestrator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/cohort-analysis": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/competitive-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/compliance-auditor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/content-marketer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/content-quality-editor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/context-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/cpp-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/csharp-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/customer-success-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/data-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/data-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/data-researcher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/data-scientist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/database-administrator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/database-optimizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/debugger": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/dependency-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/deployment-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/design-bridge": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/devops-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/devops-incident-responder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/django-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/docker-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/docs-drift-editor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/documentation-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/dotnet-core-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/dotnet-framework-4": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/dx-optimizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/electron-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/elixir-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/email-deliverability-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/embedded-systems": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/error-coordinator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/error-detective": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/expo-react-native-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/fastapi-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/fintech-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/first-principles-thinking": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/flutter-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/frontend-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/fullstack-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/game-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/gdpr-ccpa-compliance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/git-workflow-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/golang-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/graphql-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/growth-loops": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/hipaa-compliance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/incident-responder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/iot-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/it-ops-orchestrator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/java-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/javascript-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/knowledge-synthesizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/kotlin-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/kubernetes-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/landing-page-copywriter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/laravel-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/legacy-modernizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/legal-advisor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/license-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/llm-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/m365-admin": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/machine-learning-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/market-researcher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/mcp-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/memory-curator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/microservices-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/ml-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/mlops-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/mobile-app-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/mobile-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/motion-director": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/multi-agent-coordinator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/network-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/nextjs-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/nlp-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/node-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/payment-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/penetration-tester": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/performance-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/performance-monitor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/php-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/platform-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/ponder-auditor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/postgres-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/powershell-5": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/powershell-7-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/powershell-module-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/powershell-security-hardening": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/powershell-ui-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/product-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/project-idea-validator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/project-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/prompt-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/python-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/qa-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/quant-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/rails-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/react-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/readme-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/refactoring-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/reinforcement-learning-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/research-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/risk-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/rust-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/sales-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/scientific-literature-researcher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/scrum-master": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/search-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/security-auditor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/security-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/seo-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/slack-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/spring-boot-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/sql-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/sre-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/surgeon-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/swift-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/symfony-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/task-distributor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/technical-writer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/telegram-ads-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/terraform-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/terragrunt-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/test-automator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/tooling-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/trend-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/typescript-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/ui-designer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/ui-ux-tester": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/ux-microcopy-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/ux-researcher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/visual-asset-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/vue-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/webhook-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/websocket-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/windows-infra-admin": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/wordpress-master": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/workflow-orchestrator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:voltagent/x-api-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/accessibility-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/ai-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/api-documenter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/architect-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/arm-cortex-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/backend-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/backend-security-coder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/bash-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/blockchain-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/business-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/c-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/c4-code": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/c4-component": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/c4-container": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/c4-context": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/cloud-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/code-review-preshipment": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/code-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/conductor-validator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/content-marketer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/context-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/cpp-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/csharp-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/customer-support": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/data-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/data-scientist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/database-admin": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/database-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/database-optimizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/debugger": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/deploy-with-verification": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/deployment-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/design-system-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/devops-troubleshooter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/dgx-spark-ops-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/django-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/docs-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/dotnet-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/dx-optimizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/elixir-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/error-detective": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/eval-judge": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/eval-orchestrator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/event-sourcing-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/fastapi-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/firmware-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/flutter-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/frontend-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/frontend-security-coder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/gallery-researcher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/golang-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/graphql-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/haskell-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/hr-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/hybrid-cloud-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/image-generator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/implement": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/incident-responder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/ios-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/java-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/javascript-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/julia-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/kubernetes-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/legacy-modernizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/legal-advisor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/llm-finetuning-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/llm-finetuning-eval-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/llm-finetuning-training-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/malware-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/mermaid-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/minecraft-bukkit-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/ml-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/mlops-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/mobile-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/mobile-security-coder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/monorepo-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/network-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/observability-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/orchestrate": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/payment-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/performance-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/php-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/playwright": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/policy-enforcer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/posix-shell-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/pptx-deck-creation-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/prod-logs-health-check": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/prompt-crafter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/prompt-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/python-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/qa": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/quant-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/receipt-verifier": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/reference-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/reverse-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/review-policy-author": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/risk-manager": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/ruby-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/rust-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/sales-automator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/scala-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/search-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/security-auditor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-authority-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-cannibalization-detector": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-content-auditor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-content-planner": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-content-refresher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-content-writer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-keyword-strategist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-meta-optimizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-snippet-hunter": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/seo-structure-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/service-mesh-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/session-end": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/session-start": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/social-publishing-publisher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/sql-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/startup-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/tdd-orchestrator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/team-debugger": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/team-implementer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/team-lead": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/team-reviewer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/temporal-python-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/terraform-specialist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/test-automator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/threat-modeling-expert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/tutorial-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/typescript-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/ui-designer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/ui-ux-designer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/ui-visual-validator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/unity-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:wshobson/vector-database-engineer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "hook:awesome-copilot/attester-import-check": {
    "copilot": "pass"
   },
@@ -1764,6 +2972,42 @@
    "copilot": "pass"
   },
   "plugin:awesome-copilot/visual-pr": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "prompt:spec-kit/analyze": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "prompt:spec-kit/checklist": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "prompt:spec-kit/clarify": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "prompt:spec-kit/constitution": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "prompt:spec-kit/converge": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "prompt:spec-kit/implement": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "prompt:spec-kit/plan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "prompt:spec-kit/specify": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "prompt:spec-kit/tasks": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -3551,6 +4795,1062 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:bmad-method/bmad": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-advanced-elicitation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-agent-analyst": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-agent-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-agent-dev": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-agent-pm": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-agent-po": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-agent-ux-designer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-architecture": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-brainstorming": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-build": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-build-auto": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-code-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-customize": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-deep-recon": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-eval": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-forge-idea": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-ingest": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-party-mode": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-prd": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-prfaq": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-product-brief": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-project-context": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-qa-generate-e2e-tests": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-retrospective": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-shard-pro": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-toolsmith": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-ux": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmad-walkthrough": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmod-core-tools": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmod-method": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:bmad-method/bmod-toolsmith": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/agent-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/build-mcp-app": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/build-mcp-server": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/build-mcpb": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/cardputer-buddy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/claude-automation-recommender": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/claude-md-improver": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/command-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/example-command": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/example-skill": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/hook-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/m5-onboard": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/math-olympiad": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/mcp-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/playground": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/plugin-settings": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/plugin-structure": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/project-artifact": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/receipts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/session-report": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/siege": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/skill-development": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/solo": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:claude-plugins/writing-hookify-rules": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/hf-cli": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/hf-cloud-aws-context-discovery": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/hf-cloud-python-env-setup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/hf-cloud-sagemaker-deployment-planner": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/hf-cloud-sagemaker-iam-preflight": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/hf-cloud-sagemaker-production-defaults": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/hf-cloud-serving-image-selection": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/hf-mcp": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/hf-mem": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-best": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-community-evals": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-datasets": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-gradio": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-llm-trainer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-local-models": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-lora-space-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-paper-publisher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-papers": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-spaces": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-tool-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-trackio": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-vision-trainer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/huggingface-zerogpu": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/train-sentence-transformers": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/transformers-js": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:huggingface/trl-training": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:impeccable/impeccable": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/agent-framework-azure-ai-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/airunway-aks-setup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/aks-cost-optimization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/aks-gpu-inference": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/aks-known-issues": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/aks-network-capture": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/aks-troubleshooting": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/appinsights-instrumentation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/applicationinsights-web-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-advisor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-advisor-actionability": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-agents-persistent-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-agents-persistent-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-anomalydetector-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-contentsafety-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-contentsafety-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-contentsafety-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-contentunderstanding-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-document-intelligence-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-document-intelligence-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-formrecognizer-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-language-conversations-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-ml-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-openai-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-projects-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-projects-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-projects-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-projects-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-textanalytics-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-transcription-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-translation-document-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-translation-text-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-translation-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-vision-imageanalysis-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-vision-imageanalysis-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-voicelive-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-voicelive-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-voicelive-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-ai-voicelive-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-aigateway": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-app-onboard-prereq": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-appconfiguration-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-appconfiguration-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-appconfiguration-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-cloud-migrate": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-communication-callautomation-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-communication-callingserver-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-communication-chat-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-communication-common-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-communication-sms-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-compliance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-compute": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-compute-batch-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-containerregistry-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-cosmos-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-cosmos-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-cosmos-rust": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-cosmos-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-data-tables-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-data-tables-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-deploy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-diagnostics": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-enterprise-infra-planner": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-eventgrid-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-eventgrid-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-eventgrid-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-eventhub-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-eventhub-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-eventhub-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-eventhub-rust": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-eventhub-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-identity-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-identity-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-identity-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-identity-rust": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-identity-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-keyvault-certificates-rust": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-keyvault-keys-rust": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-keyvault-keys-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-keyvault-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-keyvault-secrets-rust": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-keyvault-secrets-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-kubernetes": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-kusto": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-kusto-graph": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-kusto-irql": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-kusto-irql-graph": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-local": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-local-multi-rack": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-maps-search-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-messaging": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-messaging-webpubsub-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-messaging-webpubsubservice-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-apicenter-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-apicenter-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-apimanagement-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-applicationinsights-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-arizeaiobservabilityeval-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-botservice-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-botservice-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-fabric-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-fabric-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-mongodbatlas-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-mgmt-weightsandbiases-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-microsoft-playwright-testing-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-monitor-ingestion-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-monitor-ingestion-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-monitor-opentelemetry-exporter-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-monitor-opentelemetry-exporter-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-monitor-opentelemetry-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-monitor-opentelemetry-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-monitor-query-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-monitor-query-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-postgres-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-prepare": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-quotas": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-reliability": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-resource-lookup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-resource-manager-cosmosdb-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-resource-manager-durabletask-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-resource-manager-playwright-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-resource-manager-redis-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-resource-manager-sql-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-resource-visualizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-search-documents-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-search-documents-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-search-documents-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-search-nav": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-security-keyvault-keys-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-security-keyvault-keys-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-servicebus-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-servicebus-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-servicebus-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-blob-java": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-blob-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-blob-rust": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-blob-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-file-datalake-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-file-share-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-file-share-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-queue-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-queue-rust": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-storage-queue-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-upgrade": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-validate": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/azure-web-pubsub-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/cost-analysis": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/cost-estimation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/cost-governance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/cost-optimization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/declarative-agent-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/discover-azure-skills": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/entra-agent-id": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/entra-app-registration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/fastapi-router-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/frontend-ui-dark-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/install-atk": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/m365-agent-evaluator": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/m365-agents-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/m365-agents-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/m365-agents-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/microsoft-azure-webjobs-extensions-authentication-events-dotnet": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/microsoft-foundry": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/pydantic-models-py": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/python-appservice-deploy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/react-flow-node-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/ui-widget-developer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-ado-convert": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-agents-md": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-architect": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-changelog": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-llms-txt": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-onboarding": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-page-writer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-qa": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-researcher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/wiki-vitepress": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:microsoft/zustand-store-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:neo-pragnya/astro-docs-site": {
    "claude": "pass",
    "copilot": "pass"
@@ -3592,6 +5892,662 @@
    "copilot": "pass"
   },
   "skill:neo-pragnya/tech-selection": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/13c-metabolic-flux": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/adaptyv": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/aeon": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/alphagenome": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/analytical-method-validation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/anndata": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/arbor": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/arboreto": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/astropy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/benchling-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/bgpt-paper-search": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/bids": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/biopython": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/bioservices": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/bulk-rnaseq": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/cantera": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/cellprofiler": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/cellxgene-census": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/cirq": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/citation-management": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/clinical-decision-support": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/clinical-reports": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/cobrapy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/consciousness-council": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/dask": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/datalad": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/datamol": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/deepchem": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/deeptools": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/depmap": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/dhdna-profiler": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/diffdock": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/dnanexus-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/esm": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/exa-search": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/experimental-design": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/exploratory-data-analysis": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/fictiv": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/flowio": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/flowkit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/fluidsim": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/folklore-variant-evidence": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/generate-image": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/geniml": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/genomic-coordinates": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/genomic-intelligence": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/geomaster": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/geopandas": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/get-available-resources": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/gget": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/ginkgo-cloud-lab": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/gtars": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/histolab": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/hugging-science": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/hypogenic": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/hypothesis-generation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/imaging-data-commons": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/iso-standards-readiness": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/lab-hardware-cad": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/labarchive-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/lamindb": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/latchbio-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/liteparse": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/mageck": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/marine-carbonate-chemistry": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/markdown-mermaid-writing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/market-research-reports": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/markitdown": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/matchms": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/matlab": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/matplotlib": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/medchem": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/modal": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/molecular-dynamics": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/molfeat": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/ncats-arax": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/networkx": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/neurokit2": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/neuropixels-analysis": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/nextflow": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/nmrglue": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/nwb-conversion": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/omero-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/onekgpd": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/ontology-term-resolution": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/open-notebook": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/openpiv": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/opentrons-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/optimize-for-gpu": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pacsomatic": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/paper-lookup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/paperclip": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/paperzilla": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/parallel-web": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pathml": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pathogen-variant-surveillance": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pathway-enrichment": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/peer-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pennylane": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pi-agent": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pkpd-modeling": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/polars": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/polars-bio": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pptx-posters": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/primer-design": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/protocolsio-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pufferlib": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pybamm": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pycalphad": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pydeseq2": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pydicom": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pyhealth": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pylabrobot": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pymatgen": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pymc": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pymoo": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pyopenms": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pysam": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pytdc": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pytorch-lightning": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/pyzotero": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/qiime2-amplicon": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/qiskit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/qutip": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/rdkit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/relion": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/relsa-severity-assessment": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/research-grants": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/research-lookup": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scanpy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scholar-evaluation": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scientific-brainstorming": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scientific-critical-thinking": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scientific-visualization": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scientific-writing": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scikit-bio": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scikit-learn": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scikit-survival": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scvelo": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scvi-tools": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/seaborn": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/shap": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/simpy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/stable-baselines3": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/statistical-analysis": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/statistical-power": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/statsmodels": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/sympy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/tamarind": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/tellurium": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/tiledbvcf": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/timesfm-forecasting": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/torch-geometric": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/torchdrug": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/transformers": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/treatment-plans": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/umap-learn": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/uncertainty-and-units": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/usfiscaldata": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/vaex": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/venue-templates": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/waypoint-bio": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/what-if-oracle": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/zarr-python": {
    "claude": "pass",
    "copilot": "pass"
   },

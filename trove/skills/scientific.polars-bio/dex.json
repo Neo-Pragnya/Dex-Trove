@@ -1,0 +1,46 @@
+{
+  "id": "scientific/polars-bio",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "polars-bio",
+  "title": "polars-bio",
+  "description": "Performs genomic interval overlap, nearest, merge, coverage, complement and subtraction on Polars DataFrames, and reads or writes BED, VCF, BCF, BAM, CRAM, GFF, GTF, FASTA and FASTQ data. Use for coordinate-aware genomic joins, read-depth analysis, lazy bioinformatics I/O, SQL queries or migration from bioframe.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.polars-bio",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/polars-bio",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/polars-bio",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/bioframe_migration.md",
+    "references/configuration.md",
+    "references/file_io.md",
+    "references/interval_operations.md",
+    "references/pileup_operations.md",
+    "references/sql_processing.md"
+  ],
+  "entry_hash": "b9dbf93b5d8dbaa3de4541449b828cd6199625c54956e8598f7552eefc30116f",
+  "content_hash": "803817f2414c1637aaaef22e1d14ddb091cf255c3f7b35f1fc4b1d65377c375e",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

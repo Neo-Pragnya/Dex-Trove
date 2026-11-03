@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/api-documenter",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "api-documenter",
+  "title": "api-testing-observability-api-documenter",
+  "description": "Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices. Create interactive docs, generate SDKs, and build comprehensive developer portals. Use PROACTIVELY for API documentation or developer portal creation.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "api-documenter.md",
+  "dir": "agents/wshobson.api-documenter",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/api-testing-observability/agents/api-documenter.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/api-testing-observability/agents/api-documenter.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "api-documenter.md"
+  ],
+  "entry_hash": "e54868d57a8ea8252920aecaf07c760ba4ff743e7e01d3ee60abdd38b73a56cb",
+  "content_hash": "58371abe374258957e345f389b607e3111d49246f245c9093e47c7d77cdf9b50",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "microsoft/m365-agent-evaluator",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "m365-agent-evaluator",
+  "title": "M365 Agent Evaluator",
+  "description": "Use this skill when a user wants to create, run, or analyze evaluation suites for Microsoft 365 Copilot declarative agents with the public @microsoft/m365-copilot-eval CLI. Trigger on intents such as \"evaluate my agent\", \"test my agent\", \"run my evals\", \"create eval prompts\", \"add multi-turn tests\", \"tune evaluator thresholds\", \"why is my agent failing\", or \"set up eval environment variables\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.m365-agent-evaluator",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "examples/analyze-failures.md",
+    "examples/basic-generation.md",
+    "examples/iterate-on-changes.md",
+    "examples/missing-instructions.md",
+    "examples/not-atk-project.md",
+    "examples/run-and-analyze.md",
+    "references/azure-setup.md",
+    "references/eval-templates.md",
+    "references/guardrails.md",
+    "references/output-schema.json",
+    "references/output-schema.md",
+    "references/pra-framework.md",
+    "references/prompts-schema.json",
+    "references/remediation-patterns.md",
+    "references/result-analysis.md",
+    "references/workflow.md"
+  ],
+  "entry_hash": "5a1da9a62088eb7518937e1cba1d66e5a644083d82a22aa51f242f5915ca21ee",
+  "content_hash": "69608df159f1d3cd27ea1aea228436f8ff9eea5eaaf025597087c5f4edfbb929",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

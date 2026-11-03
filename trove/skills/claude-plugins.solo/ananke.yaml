@@ -1,0 +1,33 @@
+kind: skill
+namespace: claude-plugins
+name: solo
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:claude-plugins:solo
+summary: 'Work on one hard mathematics problem in this session yourself, with no sub-agents: reason in stages, record
+  each settled step in a notes file so that nothing written is lost if a response is cut off,…'
+description: 'Work on one hard mathematics problem in this session yourself, with no sub-agents: reason in stages,
+  record each settled step in a notes file so that nothing written is lost if a response is cut off, and end with
+  a self-contained proof.md. Usage: /math-proof:solo <the problem, stated in full, or the path of a file holding
+  it>.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'plugins/math-proof/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/math-proof/skills/solo
+  repository: https://github.com/anthropics/claude-plugins-official

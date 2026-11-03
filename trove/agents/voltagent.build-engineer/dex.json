@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/build-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "build-engineer",
+  "title": "build-engineer",
+  "description": "Use this agent when you need to optimize build performance, reduce compilation times, or scale build systems across growing teams.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "build-engineer.md",
+  "dir": "agents/voltagent.build-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/build-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/build-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "build-engineer.md"
+  ],
+  "entry_hash": "7c9d01c5ee4947e86a701788248cdc2429e1e995d56086ae7af22368378801d9",
+  "content_hash": "4d10e4f08877edce90e313ef30d76662c4b8ce230aa78777536a94b40157dae9",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

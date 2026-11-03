@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/event-sourcing-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "event-sourcing-architect",
+  "title": "event-sourcing-architect",
+  "description": "Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced systems, audit trail requirements, or complex domain modeling with temporal queries.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "event-sourcing-architect.md",
+  "dir": "agents/wshobson.event-sourcing-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/backend-development/agents/event-sourcing-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/backend-development/agents/event-sourcing-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "event-sourcing-architect.md"
+  ],
+  "entry_hash": "907c1f38973cf90e8492b767f6b05d797f55229c1539798fee2b552e3c6fdc5b",
+  "content_hash": "073390a34269d1b58e97825bdd228b2f9fab7a179a2d54e9174f497b5c371a3d",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

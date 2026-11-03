@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-ai-vision-imageanalysis-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-vision-imageanalysis-java",
+  "title": "Azure AI Vision Image Analysis SDK for Java",
+  "description": "Build image analysis applications with Azure AI Vision SDK for Java. Use when implementing image captioning, OCR text extraction, object detection, tagging, or smart cropping.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-vision-imageanalysis-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-ai-vision-imageanalysis-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-ai-vision-imageanalysis-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "ea209e06fc0dc906227ed226f6ea7a73c2352ae0aac251c9e1f30bbc0455ae37",
+  "content_hash": "dcd7ae0585cddbc49f08ef01f403ed91bbf36fe71b9eefa0613fbed9ebf28778",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

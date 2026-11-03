@@ -1,0 +1,48 @@
+{
+  "id": "scientific/bids",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "bids",
+  "title": "Brain Imaging Data Structure (BIDS)",
+  "description": "Organizes, queries, validates, and converts Brain Imaging Data Structure (BIDS) datasets. Supports organizing neuroscience and biomedical data (MRI, EEG, MEG, iEEG, PET, microscopy, NIRS, motion capture, EMG, MR spectroscopy, behavioral), querying BIDS layouts, validating compliance, converting DICOM to BIDS, writing metadata sidecars, or creating BIDS derivatives.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.bids",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/bids",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/bids",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/beps.yml",
+    "references/bids_schema.json",
+    "references/bids_specification.md",
+    "references/conversion_tools.md",
+    "references/core_workflows.md",
+    "references/metadata_fields.md",
+    "scripts/update_schema.py"
+  ],
+  "entry_hash": "e1ae63105ccc2e4da7c40e8a2f40d031dd8f2a77270be626df780f0c39eb0b1b",
+  "content_hash": "9511c5d33c3aaea0c3909a08658362f9033f1fda006adfe71c95cdd72ed5a077",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

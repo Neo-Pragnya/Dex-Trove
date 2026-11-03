@@ -1,0 +1,53 @@
+{
+  "id": "scientific/scikit-survival",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "scikit-survival",
+  "title": "scikit-survival",
+  "description": "Builds, evaluates, and audits right-censored or competing-risk survival workflows with scikit-survival, including leakage-safe preprocessing, model selection, probability prediction, and censoring-aware metrics.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.scikit-survival",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/scikit-survival",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scikit-survival",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/competing-risks.md",
+    "references/cox-models.md",
+    "references/data-handling.md",
+    "references/ensemble-models.md",
+    "references/evaluation-metrics.md",
+    "references/svm-models.md",
+    "scripts/_common.py",
+    "scripts/competing_risk_cif.py",
+    "scripts/evaluate_survival_metrics.py",
+    "scripts/model_report.py",
+    "scripts/train_survival_model.py",
+    "scripts/validate_survival_csv.py"
+  ],
+  "entry_hash": "8f99860440f23312d9803d3ac65ae9eb65274597d59499f1021d59378adef2fb",
+  "content_hash": "0c2378c986684a924ebe36f5cdc0f9bca3741281ba0281ca3f3726222e727205",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

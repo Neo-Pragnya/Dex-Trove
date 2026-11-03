@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-servicebus-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-servicebus-dotnet",
+  "title": "Azure.Messaging.ServiceBus (.NET)",
+  "description": "Azure Service Bus SDK for .NET. Enterprise messaging with queues, topics, subscriptions, and sessions. Use for reliable message delivery, pub/sub patterns, dead letter handling, and background processing. Triggers: \"Service Bus\", \"ServiceBusClient\", \"ServiceBusSender\", \"ServiceBusReceiver\", \"ServiceBusProcessor\", \"message queue\", \"pub/sub .NET\", \"dead letter queue\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-servicebus-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-servicebus-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-servicebus-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "6a16e0ef96cb683daaf6787e488fc65fbfd69d9b220fdb1b4ef5ecee9d36e9ba",
+  "content_hash": "1b131c4df6f6148a3643cd6450e119c1ae0b42c9597a8b585b2dc556b713303e",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

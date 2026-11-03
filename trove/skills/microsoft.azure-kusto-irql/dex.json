@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-kusto-irql",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-kusto-irql",
+  "title": "IRQL -- Incident Response Query Language",
+  "description": "Compose IRQL (Incident Response Query Language) queries for Kusto cybersecurity investigations. Translates natural language hunting questions into composable IRQL pipelines using Get_*, Extract_*, and Enrich_* functions. WHEN: IRQL query, security hunt, threat hunting KQL, incident response query, compose hunting pipeline, failed logins, phishing investigation, lateral movement, process execution, file creation events.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-kusto-irql",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/EXAMPLES.md",
+    "references/KUSTO_EXPLORER_LAUNCH.md"
+  ],
+  "entry_hash": "3708f24ab3a0754dbd862efbd94740e01f619590567c9ff45243435ac8394e96",
+  "content_hash": "de224260f13eef054c5eb7a6609a95f5bea93fbcbae3f6f9ab33455b656a5483",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

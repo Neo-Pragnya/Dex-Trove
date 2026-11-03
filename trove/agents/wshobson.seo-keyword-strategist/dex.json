@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-keyword-strategist",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-keyword-strategist",
+  "title": "seo-keyword-strategist",
+  "description": "Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-keyword-strategist.md",
+  "dir": "agents/wshobson.seo-keyword-strategist",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-technical-optimization/agents/seo-keyword-strategist.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-technical-optimization/agents/seo-keyword-strategist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-keyword-strategist.md"
+  ],
+  "entry_hash": "28e10514e489bba7abed8b746a6ae3bc043c903002bcb555339ce864a8bbf938",
+  "content_hash": "a457fec50d44c5b33e10e9a84b8cacbd1198a0f2b656b1bd4727ef98397b8c43",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

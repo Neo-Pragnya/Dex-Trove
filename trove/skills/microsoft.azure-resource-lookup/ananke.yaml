@@ -1,0 +1,36 @@
+kind: skill
+namespace: microsoft
+name: azure-resource-lookup
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-resource-lookup
+summary: List, find, and show Azure resources across subscriptions or resource groups. Handles prompts like "list
+  the websites in my subscription", "list my web apps", "show my app services", "list virtual mac…
+description: 'List, find, and show Azure resources across subscriptions or resource groups. Handles prompts like
+  "list the websites in my subscription", "list my web apps", "show my app services", "list virtual machines", "list
+  my VMs", "show storage accounts", "find container apps", and "what resources do I have". USE FOR: list websites,
+  list web apps, list app services, show websites in subscription, resource inventory, find resources by tag, tag
+  analysis, orphaned resource discovery (not for cost analysis), unattached disks, count resources by type, cross-subscription
+  lookup, and Azure Resource Graph queries. DO NOT USE FOR: deploying/changing resources (use azure-deploy), cost
+  optimization (use cost-optimization from the optional azure-cost plugin), or non-Azure clouds.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-resource-lookup
+  repository: https://github.com/microsoft/skills

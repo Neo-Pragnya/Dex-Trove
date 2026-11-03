@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: research-lookup
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:research-lookup
+summary: Compiles current scholarly evidence for a scientific manuscript or research brief when the user explicitly
+  asks to gather literature, references, background evidence, competing findings, or a manuscri…
+description: Compiles current scholarly evidence for a scientific manuscript or research brief when the user explicitly
+  asks to gather literature, references, background evidence, competing findings, or a manuscript research packet.
+  Uses Parallel Search by default, Parallel Extract for source retrieval, Parallel Research for explicitly deep/exhaustive
+  work, optional explicit Parallel Chat, and optional Perplexity only when requested or allowed as a failure fallback.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT license'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/research-lookup
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

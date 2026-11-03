@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-ai-language-conversations-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-language-conversations-py",
+  "title": "Azure AI Language Conversations for Python",
+  "description": "Implement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK. Use when working with ConversationAnalysisClient to analyze conversation intent and entities, building NLP features, or integrating language understanding into applications.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-language-conversations-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-ai-language-conversations-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-ai-language-conversations-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "4b51c68f15f6155f4621be975bdbb9f41ce79097c9a7cd1784669d8f87cae665",
+  "content_hash": "a9a8c7d74c9a9b4547202e9d5e66356befca7fc7cf0d5c99c66717eef1ffc43d",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

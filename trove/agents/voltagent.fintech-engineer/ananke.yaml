@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: fintech-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:fintech-engineer
+summary: Use when building payment systems, financial integrations, or compliance-heavy financial applications that
+  require secure transaction processing, regulatory adherence, and high transaction accuracy.
+description: Use when building payment systems, financial integrations, or compliance-heavy financial applications
+  that require secure transaction processing, regulatory adherence, and high transaction accuracy.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: fintech-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/fintech-engineer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

@@ -1,0 +1,44 @@
+{
+  "id": "scientific/marine-carbonate-chemistry",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "marine-carbonate-chemistry",
+  "title": "Marine Carbonate Chemistry",
+  "description": "Solves seawater carbonate chemistry with PyCO2SYS for chemical oceanography, ocean acidification, and marine carbon-cycle research. Use for paired total alkalinity, dissolved inorganic carbon, pH, or seawater pCO2/fCO2 measurements; carbonate speciation; aragonite and calcite saturation; Revelle factors; lab-to-in-situ temperature and pressure corrections; and measurement uncertainty propagation. Applies to carbonate-system calculations, not general aqueous speciation or air-sea gas-flux estimation.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.marine-carbonate-chemistry",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/marine-carbonate-chemistry",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/marine-carbonate-chemistry",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/chemistry-decisions.md",
+    "references/input-and-results.md",
+    "scripts/solve_carbonate.py"
+  ],
+  "entry_hash": "03e58c7f9d7df75a323a6a8cf29ec18ae524cc308e5002c27fb5c65e1230f174",
+  "content_hash": "2199f2a675a46a26e15f789f1e9fc573397a1d97f96d4923abaca271e63b8211",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

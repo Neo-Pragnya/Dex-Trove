@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: c4-container
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:c4-container
+summary: Expert C4 Container-level documentation specialist. Synthesizes Component-level documentation into Container-level
+  architecture, mapping components to deployment units, documenting container interface…
+description: Expert C4 Container-level documentation specialist. Synthesizes Component-level documentation into
+  Container-level architecture, mapping components to deployment units, documenting container interfaces as APIs,
+  and creating container diagrams. Use when synthesizing components into deployment containers and documenting system
+  deployment architecture.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: c4-container.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/c4-architecture/agents/c4-container.md
+  repository: https://github.com/wshobson/agents

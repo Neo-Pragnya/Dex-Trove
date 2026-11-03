@@ -1,0 +1,55 @@
+{
+  "id": "scientific/uncertainty-and-units",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "uncertainty-and-units",
+  "title": "Uncertainty and units",
+  "description": "Tracks physical units and propagates measurement uncertainty in scientific calculations using pint and uncertainties. Use for unit conversion and dimensional checking, GUM uncertainty budgets, Type A and Type B evaluation, coverage factors and expanded uncertainty, Monte Carlo propagation, significant-figure and plus-minus reporting, error propagation through curve fits, CODATA constants, auditing Python code for stripped units or broken uncertainty propagation, and order-of-magnitude plausibility checks using dimensionless groups (Reynolds, Peclet, Damkohler, Knudsen, Biot, Womersley), characteristic scales such as diffusion time or Debye length, and observed magnitude ranges. Trigger on \"is this number physically reasonable\", \"sanity check these units\", \"what regime is this flow in\", or a result that looks off by orders of magnitude.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.uncertainty-and-units",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/uncertainty-and-units",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/uncertainty-and-units",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/domain-conversions.md",
+    "references/gum-methodology.md",
+    "references/pint-recipes.md",
+    "references/plausibility-scales.md",
+    "references/reporting-rules.md",
+    "references/review.md",
+    "references/uncertainties-recipes.md",
+    "scripts/_common.py",
+    "scripts/audit_units.py",
+    "scripts/check_plausibility.py",
+    "scripts/convert_units.py",
+    "scripts/format_result.py",
+    "scripts/propagate_uncertainty.py",
+    "scripts/uncertainty_budget.py"
+  ],
+  "entry_hash": "caaafa079a4eaac6012717bcf705dec0417b5434f5dbd1af934a3a36ad375722",
+  "content_hash": "a3b360753245e2d8a84e082085e88cc2e4349bb430be581e339f272b3d511dfb",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

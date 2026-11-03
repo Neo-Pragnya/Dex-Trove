@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/prompt-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "prompt-engineer",
+  "title": "prompt-engineer",
+  "description": "Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design. Masters chain-of-thought, constitutional AI, and production prompt strategies. Use when building AI features, improving agent performance, or crafting system prompts.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "prompt-engineer.md",
+  "dir": "agents/wshobson.prompt-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/llm-application-dev/agents/prompt-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/llm-application-dev/agents/prompt-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "prompt-engineer.md"
+  ],
+  "entry_hash": "d9e8033c62fac5d2abd93845c6163b9a37bbf547b9e4ceb74edba3d469597313",
+  "content_hash": "124a9428bde162c6d459dfb57182c06bd99786e9be4d7be758a797800b2d591d",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

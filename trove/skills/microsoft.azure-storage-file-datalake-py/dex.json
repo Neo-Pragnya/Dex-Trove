@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-storage-file-datalake-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage-file-datalake-py",
+  "title": "Azure Data Lake Storage Gen2 SDK for Python",
+  "description": "Azure Data Lake Storage Gen2 SDK for Python. Use for hierarchical file systems, big data analytics, and file/directory operations.\nTriggers: \"data lake\", \"DataLakeServiceClient\", \"FileSystemClient\", \"ADLS Gen2\", \"hierarchical namespace\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage-file-datalake-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-storage-file-datalake-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-storage-file-datalake-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "a8a7321f17a1097d0c418cf1e57b3c8758f25e986fb4f35f8de408f6d8c43d95",
+  "content_hash": "236d790cb7d967609445732217e76514f3cc6c28b7aa46db2efcb414086a36c1",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

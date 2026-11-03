@@ -1,0 +1,41 @@
+{
+  "id": "scientific/consciousness-council",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "consciousness-council",
+  "title": "Consciousness Council",
+  "description": "Structures a multi-perspective council exercise for decisions, research trade-offs, and creative challenges. Simulates thinking archetypes, separates evidence from assumptions and values, and synthesizes a conditional recommendation. Use when the user requests a council, panel, devil's advocate analysis, \"mind council\", or deliberate comparison of perspectives on a difficult choice.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.consciousness-council",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/consciousness-council",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/consciousness-council",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced-configurations.md"
+  ],
+  "entry_hash": "84b5eb07e5459cc110d7d6f63be48a7a01d374ec618da8e293a88b1d037c0c8c",
+  "content_hash": "e8648c08311db03b6a9c36270c8fea7ab36021b418c812750714b4ca5fc824e5",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

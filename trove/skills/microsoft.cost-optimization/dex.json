@@ -1,0 +1,48 @@
+{
+  "id": "microsoft/cost-optimization",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "cost-optimization",
+  "title": "Azure Cost Optimization",
+  "description": "Optimize existing Azure resources and analyze Reservations or Savings Plans. WHEN: \"optimize Azure costs\", \"reduce cloud spending\", \"rightsize resources\", \"find idle resources\", \"orphaned disk\", \"deleted VM still charged\", \"public IP still charging\", \"reservation utilization\", \"Savings Plan coverage\", \"commitment recommendation\", \"why is pay-as-you-go still charged\". DO NOT USE FOR: cost spikes, forecasts, pricing estimates, budgets, or governance.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.cost-optimization",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-cost/skills/cost-optimization",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-cost/skills/cost-optimization",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/commitments.md",
+    "references/optimization.md",
+    "references/report-template.md",
+    "references/resource-graph.md",
+    "references/services/redis.md",
+    "references/services/storage-lifecycle.md",
+    "references/services/storage.md",
+    "references/tool-fallback.md"
+  ],
+  "entry_hash": "daa95985eb65fade1c5bfd4de8280c864da06f56d9ce7633e032c1e7ae3717b5",
+  "content_hash": "89c68cf965c97e1d2a4ed5c8e0e611e18d65fb78b3b1bb62f1cbda30c3c1119d",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

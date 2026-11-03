@@ -1,0 +1,40 @@
+{
+  "id": "huggingface/trl-training",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "trl-training",
+  "title": "TRL",
+  "description": "Post-train LLMs with TRL (Transformers Reinforcement Learning) — SFT, DPO, GRPO, KTO, and reward-model training. Use when writing or debugging training code with the TRL Python API or the trl CLI.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.trl-training",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/trl-training",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/trl-training",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "42c855bdc6171390abc7413cdb19bd4fd8dddfb31094d519a874427de08ddc2a",
+  "content_hash": "9bb9f6c11394ee487113bc06a9de75c7b428443f7007512380cadc4e60c6cdb9",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

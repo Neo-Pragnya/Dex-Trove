@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: aks-gpu-inference
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:aks-gpu-inference
+summary: Diagnose Day-2 AKS GPU and KAITO incidents using profile-aware, read-only evidence.
+description: 'Diagnose Day-2 AKS GPU and KAITO incidents using profile-aware, read-only evidence. WHEN: ''Insufficient
+  nvidia.com/gpu'', GPU pod Pending, model-load OOM, DCGM/VRAM, KAITO Workspace not ready, or GPU autoscaling. DO
+  NOT USE FOR: setup (airunway-aks-setup), non-GPU incidents (aks-troubleshooting), standalone VM quota (azure-quotas),
+  or generic cost (cost-analysis or cost-optimization from the optional azure-cost plugin).'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/aks-skills/skills/aks-gpu-inference
+  repository: https://github.com/microsoft/skills

@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: java-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:java-pro
+summary: Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert
+  in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.
+description: Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert
+  in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns. Use PROACTIVELY for Java
+  development, microservices architecture, or performance optimization.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: java-pro.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/jvm-languages/agents/java-pro.md
+  repository: https://github.com/wshobson/agents

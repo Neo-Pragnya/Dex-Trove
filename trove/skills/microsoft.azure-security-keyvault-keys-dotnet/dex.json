@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-security-keyvault-keys-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-security-keyvault-keys-dotnet",
+  "title": "Azure.Security.KeyVault.Keys (.NET)",
+  "description": "Azure Key Vault Keys SDK for .NET. Client library for managing cryptographic keys in Azure Key Vault and Managed HSM. Use for key creation, rotation, encryption, decryption, signing, and verification. Triggers: \"Key Vault keys\", \"KeyClient\", \"CryptographyClient\", \"RSA key\", \"EC key\", \"encrypt decrypt .NET\", \"key rotation\", \"HSM\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-security-keyvault-keys-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-security-keyvault-keys-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-security-keyvault-keys-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "68d52c6b0b786508071895979907eab932b92bfd55eee35ac30f018acafe23e5",
+  "content_hash": "2d444c95dfe2ac7d9878d2b7f66920b6755d7d23b35c4bf3e24dc19c0e784452",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

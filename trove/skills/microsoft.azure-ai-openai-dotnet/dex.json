@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-ai-openai-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-openai-dotnet",
+  "title": "Azure.AI.OpenAI (.NET)",
+  "description": "Azure OpenAI SDK for .NET. Client library for Azure OpenAI and OpenAI services. Use for chat completions, embeddings, image generation, audio transcription, and assistants. Triggers: \"Azure OpenAI\", \"AzureOpenAIClient\", \"ChatClient\", \"chat completions .NET\", \"GPT-4\", \"embeddings\", \"DALL-E\", \"Whisper\", \"OpenAI .NET\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-openai-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-openai-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-ai-openai-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "bc1147d6376fa147d04dc218a2b65062d03880502fccda146d26c5d7e951b16b",
+  "content_hash": "14253d239d7829747195e2c2cb6b9f08279fadfd2610eb86ded36e330243799d",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

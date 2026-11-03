@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/visual-asset-generator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "visual-asset-generator",
+  "title": "visual-asset-generator",
+  "description": "Use this agent when you need to generate production-ready visual assets for a project — app icons, favicons, OG images, logos, wordmarks, or social media images. Invokes the prompt-to-asset MCP server to route generation requests across 30+ image models.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "visual-asset-generator.md",
+  "dir": "agents/voltagent.visual-asset-generator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/visual-asset-generator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/visual-asset-generator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "visual-asset-generator.md"
+  ],
+  "entry_hash": "c47bde19bbf61cc144e329842c1179b6484c80805f52598610151d488407a332",
+  "content_hash": "b96120eeb2a8858ba36444d06efe3f0d1244cab5c46d79aa524171aaeebbc066",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

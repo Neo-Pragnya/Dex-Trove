@@ -1,0 +1,43 @@
+{
+  "id": "scientific/qiime2-amplicon",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "qiime2-amplicon",
+  "title": "QIIME 2 paired-end 16S amplicons",
+  "description": "Processes paired-end 16S amplicon reads into QIIME 2 ASVs and taxonomy with retained artifact provenance. Checks paired FASTQ manifests, primer orientation diagnostics, predicted post-trimming overlap, sample IDs, runtime versions and read retention, and guides selection of compatible taxonomic classifiers.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.qiime2-amplicon",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/qiime2-amplicon",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/qiime2-amplicon",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/runtime-and-interpretation.md",
+    "scripts/amplicon_workflow.py"
+  ],
+  "entry_hash": "605ae0581620f654ca9e12122a2bdb1d62a813841c5fea61b0eacb2031377cf7",
+  "content_hash": "427d8270a6d7c81ebb37518a0490d81580934901530c6a1d92ee752c6eedb6de",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

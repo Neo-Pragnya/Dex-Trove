@@ -1,0 +1,48 @@
+{
+  "id": "scientific/bulk-rnaseq",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "bulk-rnaseq",
+  "title": "Bulk RNA-seq",
+  "description": "Prepares bulk RNA-seq FASTQ, Salmon, STAR or featureCounts output for gene-level differential expression. Covers nf-core/rnaseq and standalone quantification, biological replication, strandedness, reference provenance, validated count assembly and a PyDESeq2 handoff. Use for FASTQ-to-counts analysis, nf-core/rnaseq configuration, STAR/Salmon quantification, or building a counts matrix for DESeq2. For single-cell data use scanpy; for statistical fitting alone use pydeseq2.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.bulk-rnaseq",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/bulk-rnaseq",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/bulk-rnaseq",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/counts-and-handoff.md",
+    "references/design-and-qc.md",
+    "references/upstream-manual.md",
+    "references/upstream-nfcore.md",
+    "scripts/_tabular.py",
+    "scripts/build_counts_matrix.py",
+    "scripts/validate_samplesheet.py"
+  ],
+  "entry_hash": "e945e970268505368e20d9ddc0c135de469e86626d67565ae9047fb05f70cdbf",
+  "content_hash": "a8e235a4c99e9d3e176499dacdd44e7b6e343d600f7422e8ca03840f5464f0c2",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

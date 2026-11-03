@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: llm-finetuning-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:llm-finetuning-architect
+summary: Fine-tuning strategist who owns the eval gate and method/model selection. Refuses to plan training without
+  a baselined eval harness.
+description: Fine-tuning strategist who owns the eval gate and method/model selection. Refuses to plan training
+  without a baselined eval harness. Use PROACTIVELY when a user wants to fine-tune a model, before any training
+  configuration exists.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: llm-finetuning-architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/llm-finetuning/agents/llm-finetuning-architect.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,30 @@
+kind: skill
+namespace: huggingface
+name: huggingface-vision-trainer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:huggingface-vision-trainer
+summary: Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification
+  (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers class…
+description: Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification
+  (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation
+  using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations
+  augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware
+  selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection,
+  image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet,
+  bounding box models, or fine-tuning vision models on Hugging Face Jobs.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer
+  repository: https://github.com/huggingface/skills

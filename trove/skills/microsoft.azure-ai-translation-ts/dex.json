@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-ai-translation-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-translation-ts",
+  "title": "Azure Translation SDKs for TypeScript",
+  "description": "Build translation applications using Azure Translation SDKs for JavaScript (@azure-rest/ai-translation-text, @azure-rest/ai-translation-document). Use when implementing text translation, transliteration, language detection, or batch document translation.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-translation-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-translation-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-ai-translation-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "cc67e765bcbdc359e61d43f5d02b76110f0880f5058f3118e76deaacd53c0ba0",
+  "content_hash": "6c5401e5056d38f9e84e6ded32ec9bc4d374ea6f044217c8070b9ea7a38f64fd",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/security-auditor",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "security-auditor",
+  "title": "backend-development-security-auditor",
+  "description": "Review code and architecture for security vulnerabilities, OWASP Top 10, auth flaws, and compliance issues. Use for security review during feature development.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "security-auditor.md",
+  "dir": "agents/wshobson.security-auditor",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/backend-development/agents/security-auditor.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/backend-development/agents/security-auditor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "security-auditor.md"
+  ],
+  "entry_hash": "2f99b7bc863b221d0b38e4dd6976be854bf843fbddcc88145e97573e10e70e32",
+  "content_hash": "07b06950c781837da6fcb69f5a2c5938ab84889589f882bd9fae8bedffb87cec",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

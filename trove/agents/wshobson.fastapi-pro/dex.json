@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/fastapi-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "fastapi-pro",
+  "title": "api-scaffolding-fastapi-pro",
+  "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns. Use PROACTIVELY for FastAPI development, async optimization, or API architecture.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "fastapi-pro.md",
+  "dir": "agents/wshobson.fastapi-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/api-scaffolding/agents/fastapi-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/api-scaffolding/agents/fastapi-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "fastapi-pro.md"
+  ],
+  "entry_hash": "f89b4ec100ccba056c98c633239cdbca8f5348e1ddd96c7409a48f58be734efa",
+  "content_hash": "d765bef56ae8589f500f4401595f2f4b6e852ebb3d117ef32d9fee941ac1115c",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

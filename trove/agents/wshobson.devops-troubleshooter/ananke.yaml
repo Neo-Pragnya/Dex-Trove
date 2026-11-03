@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: devops-troubleshooter
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:devops-troubleshooter
+summary: Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability.
+description: Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern
+  observability. Masters log analysis, distributed tracing, Kubernetes debugging, performance optimization, and
+  root cause analysis. Handles production outages, system reliability, and preventive monitoring. Use PROACTIVELY
+  for debugging, incident response, or system troubleshooting.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: devops-troubleshooter.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cicd-automation/agents/devops-troubleshooter.md
+  repository: https://github.com/wshobson/agents

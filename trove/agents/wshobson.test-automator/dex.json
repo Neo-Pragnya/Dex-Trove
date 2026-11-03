@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/test-automator",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "test-automator",
+  "title": "backend-development-test-automator",
+  "description": "Create comprehensive test suites including unit, integration, and E2E tests. Supports TDD/BDD workflows. Use for test creation during feature development.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "test-automator.md",
+  "dir": "agents/wshobson.test-automator",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/backend-development/agents/test-automator.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/backend-development/agents/test-automator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "test-automator.md"
+  ],
+  "entry_hash": "317e434b4164805dae27bdfca4ab20cd75cc167e5c1a163dd31d127561a72077",
+  "content_hash": "475883b69e88fdfaf65d7cfa527e910c8540a16372ad80cd97322df4bc02a0af",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

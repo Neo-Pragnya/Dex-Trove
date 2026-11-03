@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/security-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "security-engineer",
+  "title": "security-engineer",
+  "description": "Use this agent when implementing comprehensive security solutions across infrastructure, building automated security controls into CI/CD pipelines, or establishing compliance and vulnerability management programs. Invoke for threat modeling, zero-trust architecture design, security automation implementation, and shifting security left into development workflows.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "security-engineer.md",
+  "dir": "agents/voltagent.security-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/security-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/security-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "security-engineer.md"
+  ],
+  "entry_hash": "2fd3bc9413b944da3ab05ca70b669437357b0217c92e24fb93d235fd41d0f854",
+  "content_hash": "777634538fdbd94e4d522314412a191dded58c38d02e60fc302559fd9c4e2cc9",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

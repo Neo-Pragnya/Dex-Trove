@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: firmware-analyst
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:firmware-analyst
+summary: Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
+description: Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering.
+  Masters firmware extraction, analysis, and vulnerability research for routers, IoT devices, automotive systems,
+  and industrial controllers. Use PROACTIVELY for firmware security audits, IoT penetration testing, or embedded
+  systems research.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: firmware-analyst.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/reverse-engineering/agents/firmware-analyst.md
+  repository: https://github.com/wshobson/agents

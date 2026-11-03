@@ -1,0 +1,46 @@
+{
+  "id": "claude-plugins/mcp-integration",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "mcp-integration",
+  "title": "MCP Integration for Claude Code Plugins",
+  "description": "This skill should be used when the user asks to \"add MCP server\", \"integrate MCP\", \"configure MCP in plugin\", \"use .mcp.json\", \"set up Model Context Protocol\", \"connect external service\", mentions \"${CLAUDE_PLUGIN_ROOT} with MCP\", or discusses MCP server types (SSE, stdio, HTTP, WebSocket). Provides comprehensive guidance for integrating Model Context Protocol servers into Claude Code plugins for external tool and service integration.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.mcp-integration",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/plugin-dev/skills/mcp-integration",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/mcp-integration",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/plugin-dev/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "examples/http-server.json",
+    "examples/sse-server.json",
+    "examples/stdio-server.json",
+    "references/authentication.md",
+    "references/server-types.md",
+    "references/tool-usage.md"
+  ],
+  "entry_hash": "b9319d8e44c8f058c1c4f003168295ab2582567fd6329c8b933409116e938bc6",
+  "content_hash": "cc7f3eb578b8829679f86dc75bd3f249c15a435dc496cdb41ec20c4a4d105fc6",
+  "learned_at": "2026-11-03T06:21:40+00:00"
+}

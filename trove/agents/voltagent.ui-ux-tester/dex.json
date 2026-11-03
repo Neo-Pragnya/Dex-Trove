@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/ui-ux-tester",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "ui-ux-tester",
+  "title": "ui-ux-tester",
+  "description": "Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "ui-ux-tester.md",
+  "dir": "agents/voltagent.ui-ux-tester",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/ui-ux-tester.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/ui-ux-tester.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ui-ux-tester.md"
+  ],
+  "entry_hash": "58c29365c55c717d558d115510d9ef6c448957fa1ad11b2341699ad000b2aa1e",
+  "content_hash": "73ce91f12c53a6968781f095d5e6896bd640e28d5a5c525907efab8d7c0ea8a7",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

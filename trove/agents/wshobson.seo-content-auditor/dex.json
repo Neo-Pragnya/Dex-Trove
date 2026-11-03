@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-content-auditor",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-content-auditor",
+  "title": "seo-content-auditor",
+  "description": "Analyzes provided content for quality, E-E-A-T signals, and SEO best practices. Scores content and provides improvement recommendations based on established guidelines. Use PROACTIVELY for content review.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-content-auditor.md",
+  "dir": "agents/wshobson.seo-content-auditor",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-content-creation/agents/seo-content-auditor.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-content-creation/agents/seo-content-auditor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-content-auditor.md"
+  ],
+  "entry_hash": "87e39db5d1d29e1d225640b99b6fa4c6e3eb83111201ff947440ed740fbe2d5e",
+  "content_hash": "ac157fb551c745926ed412bdb583b6781923dba46104a64e31f99d2e274e4811",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

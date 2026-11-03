@@ -1,0 +1,57 @@
+{
+  "id": "scientific/fluidsim",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "fluidsim",
+  "title": "FluidSim",
+  "description": "Plans, configures, inspects, restarts, and analyzes bounded FluidSim computational-fluid-dynamics simulations with explicit numerical-validity and HPC safety checks. Use for FluidSim solver selection, parameter review, FFT/MPI setup, output diagnostics, or restart compatibility.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.fluidsim",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/fluidsim",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/fluidsim",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced_features.md",
+    "references/installation.md",
+    "references/output_analysis.md",
+    "references/parameters.md",
+    "references/simulation_workflow.md",
+    "references/solvers.md",
+    "scripts/__init__.py",
+    "scripts/_common.py",
+    "scripts/_profiles.py",
+    "scripts/_schema.py",
+    "scripts/budget_summary.py",
+    "scripts/grid_resource_estimator.py",
+    "scripts/output_inventory.py",
+    "scripts/restart_compatibility.py",
+    "scripts/simulation_dry_run.py",
+    "scripts/solver_config_validator.py"
+  ],
+  "entry_hash": "7784bbf33615014f5965ff1db3d11bcc42e1bc4bb1f18f26208c62892b66df28",
+  "content_hash": "3019bc4535f2ee2ecb80bd73c9d044b267b6cfe29eeba04adcf600a4345a413a",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

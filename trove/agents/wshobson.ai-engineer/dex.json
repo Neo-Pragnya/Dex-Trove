@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/ai-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "ai-engineer",
+  "title": "ai-engineer",
+  "description": "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations. Use PROACTIVELY for LLM features, chatbots, AI agents, or AI-powered applications.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "ai-engineer.md",
+  "dir": "agents/wshobson.ai-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/llm-application-dev/agents/ai-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/llm-application-dev/agents/ai-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ai-engineer.md"
+  ],
+  "entry_hash": "3e337acbc20749df4cad66a968960f3aaec4c437b17d6ef2b2ea17cd63cd004c",
+  "content_hash": "1edde490d13e6945713616b01cfe7cf682bec5fff2d2e81abdb0e4abd12f5c1c",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

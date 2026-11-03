@@ -1,0 +1,59 @@
+{
+  "id": "scientific/neuropixels-analysis",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "neuropixels-analysis",
+  "title": "Neuropixels Data Analysis",
+  "description": "Analyzes Neuropixels extracellular recordings end-to-end with SpikeInterface. Covers loading SpikeGLX/Open Ephys/NWB data, preprocessing, drift/motion correction, Kilosort4 (and CPU) spike sorting, quality metrics, and unit curation (threshold-based, model-based UnitRefine, and AI-assisted visual review). Use when working with Neuropixels 1.0/2.0 recordings, spike sorting, or extracellular electrophysiology analysis.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.neuropixels-analysis",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/neuropixels-analysis",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/neuropixels-analysis",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/analysis_template.py",
+    "references/AI_CURATION.md",
+    "references/ANALYSIS.md",
+    "references/AUTOMATED_CURATION.md",
+    "references/MOTION_CORRECTION.md",
+    "references/PREPROCESSING.md",
+    "references/QUALITY_METRICS.md",
+    "references/SPIKE_SORTING.md",
+    "references/api_reference.md",
+    "references/plotting_guide.md",
+    "references/standard_workflow.md",
+    "scripts/_common.py",
+    "scripts/compute_metrics.py",
+    "scripts/explore_recording.py",
+    "scripts/export_to_phy.py",
+    "scripts/neuropixels_pipeline.py",
+    "scripts/preprocess_recording.py",
+    "scripts/run_sorting.py"
+  ],
+  "entry_hash": "65985e85e9ac2206c92291446f543505b2b568bf1d622448e162ae6255e154dc",
+  "content_hash": "2a1588332aaeb0ad94e6a756dc6ead7c333d445928e5dc626dd6b8e00b0a1db0",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

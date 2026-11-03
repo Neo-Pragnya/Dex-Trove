@@ -1,0 +1,51 @@
+{
+  "id": "scientific/latchbio-integration",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "latchbio-integration",
+  "title": "LatchBio Integration",
+  "description": "Builds, registers, debugs, and operates bioinformatics workflows on Latch using the Python SDK, CLI, Latch Data and Registry, Nextflow, Snakemake, programmatic execution, and Latch MCP. Use when authoring or deploying Latch workflows, configuring resources or interfaces, moving data, integrating Registry, or launching and monitoring runs.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.latchbio-integration",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/latchbio-integration",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/latchbio-integration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/data-management.md",
+    "references/latch-mcp.md",
+    "references/nextflow-snakemake.md",
+    "references/operations-and-debugging.md",
+    "references/registry.md",
+    "references/resource-configuration.md",
+    "references/ui-and-automation.md",
+    "references/verified-workflows.md",
+    "references/workflow-creation.md",
+    "scripts/inspect_latch_sdk.py"
+  ],
+  "entry_hash": "0f01df45ed4aecb81d672a5576820aee37c32864b4fe84bb4d049471a14d3e5c",
+  "content_hash": "8d930ba73c7620d801f6a1daf61fb48326cd3d48ceaba80197924922276a7e97",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

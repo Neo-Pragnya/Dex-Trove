@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/tooling-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "tooling-engineer",
+  "title": "tooling-engineer",
+  "description": "Use this agent when you need to build or enhance developer tools including CLIs, code generators, build tools, and IDE extensions.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "tooling-engineer.md",
+  "dir": "agents/voltagent.tooling-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/tooling-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/tooling-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "tooling-engineer.md"
+  ],
+  "entry_hash": "99e5d54b89fce2b80e066e8bea75ae12f22210a7e32f23de7fa54a949fb58200",
+  "content_hash": "1ddc33b26d6cd97f688d15da496c78354a95f77ba4356bf0af43ee884e330a10",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

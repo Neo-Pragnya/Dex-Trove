@@ -86,7 +86,6 @@ sources:
     adapter: agent-skills
     repo: https://github.com/huggingface/skills
     ref: main
-    enabled: false
     license: { expected: Apache-2.0 }
 
   - id: microsoft
@@ -94,19 +93,85 @@ sources:
     adapter: agent-skills
     repo: https://github.com/microsoft/skills
     ref: main
-    enabled: false
+    options: { roots: [.github/plugins] }
+    items:
+      azure-cosmos-db-py: { withhold: "placeholder credentials in its examples trip package scanners" }
+      azure-security-keyvault-secrets-java: { withhold: "placeholder credentials in its examples trip package scanners" }
     license: { expected: MIT }
+
+  - id: bmad-method
+    title: BMAD Method (unofficial copy)
+    description: >-
+      Agile delivery skills from the BMAD Method: analysis, product briefs, PRDs, architecture, UX, reviews and
+      retrospectives. Redistributed under its MIT licence. Dex Trove isn't affiliated with or endorsed by BMad Code, LLC,
+      which owns the BMad names and marks; see the upstream TRADEMARK.md.
+    adapter: agent-skills
+    repo: https://github.com/bmad-code-org/BMAD-METHOD
+    ref: main
+    options: { roots: [skills] }
+    license: { expected: MIT }
+
+  - id: impeccable
+    title: Impeccable
+    description: >-
+      Frontend design skill and reference library from pbakaus/impeccable. Its launcher runs a platform binary that isn't
+      in the skill: on first use it downloads one from upstream and checks it against the bundled checksums. Set
+      IMPECCABLE_BIN to use a binary you installed yourself.
+    adapter: agent-skills
+    repo: https://github.com/pbakaus/impeccable
+    ref: main
+    options: { roots: [plugin/skills] }
+    license: { expected: Apache-2.0 }
+
+  - id: spec-kit
+    title: Spec Kit
+    description: >-
+      Spec-driven development commands from github/spec-kit. They expect the scripts and templates that
+      `specify init` puts in `.specify/`, so set a project up with Spec Kit first.
+    adapter: md-agents
+    repo: https://github.com/github/spec-kit
+    ref: main
+    options: { kind: prompt, globs: ["templates/commands/*.md"] }
+    license: { expected: MIT }
+
+  - id: scientific
+    title: Scientific skills (K-Dense)
+    adapter: agent-skills
+    repo: https://github.com/K-Dense-AI/claude-scientific-skills
+    ref: main
+    items:
+      database-lookup: { withhold: "placeholder credentials in its examples trip package scanners" }
+    license: { expected: MIT }
+
+  - id: wshobson
+    title: Agents and plugins (wshobson)
+    adapter: md-agents
+    repo: https://github.com/wshobson/agents
+    ref: main
+    options: { globs: ["plugins/*/agents/*.md"] }
+    license: { expected: MIT }
+
+  - id: voltagent
+    title: Claude Code subagents (VoltAgent)
+    adapter: md-agents
+    repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+    ref: main
+    items:
+      healthcare-admin: { withhold: "tells the agent to pipe a third-party install script into bash" }
+    options: { globs: ["categories/*/*.md"] }
+    license: { expected: MIT }
+
+  - id: claude-plugins
+    title: Official Claude Code plugins
+    adapter: agent-skills
+    repo: https://github.com/anthropics/claude-plugins-official
+    ref: main
+    options: { roots: [plugins] }
+    license: { expected: Apache-2.0 }
 
 # Evaluated but not enabled (licences checked via GitHub API on 2026-10-19). Rendered on the docs Sources page.
 candidates:
-  - { repo: pbakaus/impeccable, license: Apache-2.0, decision: "Named in the plan — needs an owner decision", offers: "Frontend design skills" }
-  - { repo: bmad-code-org/BMAD-METHOD, license: "MIT (LICENSE file; API reports NOASSERTION)", decision: "Named in the plan — needs an owner decision and an adapter check", offers: "Agile agent method" }
-  - { repo: github/spec-kit, license: MIT, decision: "Named in the plan — needs an owner decision", offers: "Spec-driven development toolkit" }
-  - { repo: K-Dense-AI/claude-scientific-skills, license: MIT, decision: "Mapped — enable after size review", offers: "Large scientific / research skill set" }
-  - { repo: wshobson/agents, license: MIT, decision: "Mapped — needs md-agents tuning", offers: "Claude Code subagents and plugins" }
-  - { repo: VoltAgent/awesome-claude-code-subagents, license: MIT, decision: "Mapped — needs md-agents tuning", offers: "Categorised subagents" }
   - { repo: davila7/claude-code-templates, license: MIT, decision: "Mapped — later", offers: "Agents, commands, hooks, MCP configs" }
-  - { repo: anthropics/claude-plugins-official, license: Apache-2.0, decision: "Mapped — later (plugin adapter)", offers: "Official Claude Code plugins" }
   - { repo: PatrickJS/awesome-cursorrules, license: CC0-1.0, decision: "Mapped — later (rules adapter)", offers: "Cursor rules → instructions" }
   - { repo: openai/skills, license: "None at repo level (per-item LICENSE.txt)", decision: "Per-item only — later", offers: "Curated Codex skills" }
   - { repo: ComposioHQ/awesome-claude-skills, license: "None at repo level", decision: "Per-item only; redistributes proprietary Anthropic skills", offers: "Mixed community skills" }

@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: api-documenter
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:api-documenter
+summary: Use this agent when creating or improving API documentation, writing OpenAPI specifications, building interactive
+  documentation portals, or generating code examples for APIs.
+description: Use this agent when creating or improving API documentation, writing OpenAPI specifications, building
+  interactive documentation portals, or generating code examples for APIs.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: api-documenter.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/api-documenter.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

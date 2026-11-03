@@ -1,0 +1,25 @@
+kind: skill
+namespace: microsoft
+name: fastapi-router-py
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:fastapi-router-py
+summary: Create FastAPI routers with CRUD operations, authentication dependencies, and proper response models.
+description: Create FastAPI routers with CRUD operations, authentication dependencies, and proper response models.
+  Use when building REST API endpoints, creating new routes, implementing CRUD operations, or adding authenticated
+  endpoints in FastAPI applications.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/fastapi-router-py
+  repository: https://github.com/microsoft/skills

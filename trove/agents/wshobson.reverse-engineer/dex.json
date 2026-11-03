@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/reverse-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "reverse-engineer",
+  "title": "reverse-engineer",
+  "description": "Expert reverse engineer specializing in binary analysis, disassembly, decompilation, and software analysis. Masters IDA Pro, Ghidra, radare2, x64dbg, and modern RE toolchains. Handles executable analysis, library inspection, protocol extraction, and vulnerability research. Use PROACTIVELY for binary analysis, CTF challenges, security research, or understanding undocumented software.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "reverse-engineer.md",
+  "dir": "agents/wshobson.reverse-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/reverse-engineering/agents/reverse-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/reverse-engineering/agents/reverse-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "reverse-engineer.md"
+  ],
+  "entry_hash": "67e8ab7855d7b845405b2f26d09af3da296db968aec127494b1cc5ec1127f709",
+  "content_hash": "aa6534614fdbd08145eb70dc8ccfd9a13960cba064073b627076c51698b6d3ab",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

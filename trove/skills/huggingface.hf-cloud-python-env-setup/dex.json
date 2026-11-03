@@ -1,0 +1,44 @@
+{
+  "id": "huggingface/hf-cloud-python-env-setup",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "hf-cloud-python-env-setup",
+  "title": "Python Environment Setup for SageMaker",
+  "description": "Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for a SageMaker deployment, training job, or any AWS automation — including when about to run `pip install`, when about to invoke `boto3`, when creating or activating a virtualenv, or when the user asks to \"set up the environment\". Never use system Python and never `pip install` into it. Always isolate. This skill prevents the most common failure modes: wrong Python version, dependency conflicts, and stale SDKs.",
+  "tags": [
+    "executes-code",
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.hf-cloud-python-env-setup",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/hf-cloud-python-env-setup",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/hf-cloud-python-env-setup",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "requirements.txt",
+    "scripts/check_versions.py",
+    "scripts/setup_env.py"
+  ],
+  "entry_hash": "c5d108b134dc5237ec63fbbb3200717853f2c5281ab33b7a2f1576b46a4d0fe8",
+  "content_hash": "fa255751bf721ce9587c93678543669efbbc311140c2c67560f4e15d93975d54",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

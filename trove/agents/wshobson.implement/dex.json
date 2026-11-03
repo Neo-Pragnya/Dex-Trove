@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/implement",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "implement",
+  "title": "implement",
+  "description": "Developer agent. Implements the architect plan step-by-step, guided by AGENTS.md guardrails. Writes tests, leaves no TODOs, and flags plan deviations rather than silently skipping them.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "implement.md",
+  "dir": "agents/wshobson.implement",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/ship-mate/agents/implement.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/implement.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "implement.md"
+  ],
+  "entry_hash": "ce7f6b3bac5389eb8abdefbcf9be487dc1190decb7403b559c048ee763a02031",
+  "content_hash": "a94573662533ca8811cde8d858dcb0599b1518799f033e38ad046f71cade7a36",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

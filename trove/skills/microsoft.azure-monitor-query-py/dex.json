@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-monitor-query-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-monitor-query-py",
+  "title": "Azure Monitor Query SDK for Python",
+  "description": "Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.\nTriggers: \"azure-monitor-query\", \"LogsQueryClient\", \"MetricsQueryClient\", \"Log Analytics\", \"Kusto queries\", \"Azure metrics\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-monitor-query-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-query-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-monitor-query-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "02a36d349fa9ce1b194f032975ad82cd04d95598059f6d14902872162688edbd",
+  "content_hash": "8e8a59d2c47e16fce25db3dc3d9296840b85b6af0454dd78444d0b0a92c98008",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

@@ -218,11 +218,25 @@ def classify_file(path: Path, label: str | None = None) -> Classification:
     )
 
 
+def _is_described_item(path: Path) -> bool:
+    """``license-engineer.md`` with name and description frontmatter is an agent about licences, not a licence."""
+    if path.suffix.lower() != ".md":
+        return False
+    with path.open(encoding="utf-8", errors="replace") as fh:
+        head = fh.read(4096)
+    if not head.startswith("---"):
+        return False
+    front = head.split("---", 2)[1] if head.count("---") >= 2 else ""
+    return bool(re.search(r"^name\s*:", front, re.M) and re.search(r"^description\s*:", front, re.M))
+
+
 def license_files(directory: Path) -> list[Path]:
     if not directory.is_dir():
         return []
     return sorted(
-        p for p in directory.iterdir() if p.is_file() and not p.is_symlink() and LICENSE_FILE_RE.match(p.name)
+        p
+        for p in directory.iterdir()
+        if p.is_file() and not p.is_symlink() and LICENSE_FILE_RE.match(p.name) and not _is_described_item(p)
     )
 
 

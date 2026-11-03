@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/legal-advisor",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "legal-advisor",
+  "title": "legal-advisor",
+  "description": "Use this agent when you need to draft contracts, review compliance requirements, develop IP protection strategies, or assess legal risks for technology businesses.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "legal-advisor.md",
+  "dir": "agents/voltagent.legal-advisor",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/legal-advisor.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/legal-advisor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "legal-advisor.md"
+  ],
+  "entry_hash": "d7e34fabac4c24ae22948de53e01b3a7e53067bfb41dec8c6bd844e6b2722bcf",
+  "content_hash": "07bec2db2d6ea0b4f201eaca2176fd7cf509202b3de9f3e71f8d6ef9579e268b",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

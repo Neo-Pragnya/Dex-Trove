@@ -1,0 +1,44 @@
+{
+  "id": "scientific/cellxgene-census",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "cellxgene-census",
+  "title": "CZ CELLxGENE Census",
+  "description": "Queries the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data. Use when you need population-scale cell metadata, gene expression slices, Census summary counts, source H5AD URIs/downloads, embeddings, spatial Census data, or reference atlas comparisons across organisms, tissues, diseases, assays, and cell types. For analyzing your own local single-cell data use scanpy, anndata, or scvi-tools.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.cellxgene-census",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/cellxgene-census",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/cellxgene-census",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_access.md",
+    "references/census_schema.md",
+    "references/common_patterns.md",
+    "references/core_workflow_patterns.md"
+  ],
+  "entry_hash": "123b66d6701c7c0587d0a615a2394caee52e62745b3fd31176381ea64aaa794a",
+  "content_hash": "db5e695886f632a94f12d1705a73531f1324b2ed50aff82f6653b4757356b4b6",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

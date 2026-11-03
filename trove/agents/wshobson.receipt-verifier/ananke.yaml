@@ -1,0 +1,32 @@
+kind: agent
+namespace: wshobson
+name: receipt-verifier
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:receipt-verifier
+summary: Expert in Ed25519 signed receipts, JCS canonicalization, and offline verification.
+description: Expert in Ed25519 signed receipts, JCS canonicalization, and offline verification. Use when you need
+  to verify receipt authenticity, audit a receipts file, detect tampering, or explain why verification failed.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: receipt-verifier.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/protect-mcp/agents/receipt-verifier.md
+  repository: https://github.com/wshobson/agents

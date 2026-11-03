@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-eventgrid-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-eventgrid-java",
+  "title": "Azure Event Grid SDK for Java",
+  "description": "Build event-driven applications with Azure Event Grid SDK for Java. Use when publishing events, implementing pub/sub patterns, or integrating with Azure services via events.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-eventgrid-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-eventgrid-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-eventgrid-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "55f7bee669c8c15e804990b6a5c8a31a8063db0c22e594cba802f4c0e274e792",
+  "content_hash": "e5fc7ae05aef6aa75250e5f497473d75c0b2c302d5fb15ec1d92fcaf42b6977c",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

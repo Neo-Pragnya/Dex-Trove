@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: project-idea-validator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:project-idea-validator
+summary: Use this agent when you need an idea pressure-tested with brutal honesty, competitor teardown, market validation,
+  and clear go/no-go guidance before building.
+description: Use this agent when you need an idea pressure-tested with brutal honesty, competitor teardown, market
+  validation, and clear go/no-go guidance before building.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: project-idea-validator.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/project-idea-validator.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

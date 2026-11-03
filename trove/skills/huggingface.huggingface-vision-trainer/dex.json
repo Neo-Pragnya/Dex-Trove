@@ -1,0 +1,52 @@
+{
+  "id": "huggingface/huggingface-vision-trainer",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-vision-trainer",
+  "title": "Vision Model Training on Hugging Face Jobs",
+  "description": "Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection, image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet, bounding box models, or fine-tuning vision models on Hugging Face Jobs.",
+  "tags": [
+    "executes-code",
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-vision-trainer",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-vision-trainer",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-vision-trainer",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/finetune_sam2_trainer.md",
+    "references/hub_saving.md",
+    "references/image_classification_training_notebook.md",
+    "references/object_detection_training_notebook.md",
+    "references/reliability_principles.md",
+    "references/timm_trainer.md",
+    "scripts/dataset_inspector.py",
+    "scripts/estimate_cost.py",
+    "scripts/image_classification_training.py",
+    "scripts/object_detection_training.py",
+    "scripts/sam_segmentation_training.py"
+  ],
+  "entry_hash": "c7aba4de75fa6595ffdaf5c50136786e8346aba0c9ff0261eaee656af4a3b0d9",
+  "content_hash": "1b3c2c5ce95fa3683885258af448b7c943b6e7c72517f7ccda992a88865a7569",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

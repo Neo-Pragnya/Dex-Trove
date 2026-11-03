@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/error-detective",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "error-detective",
+  "title": "error-detective",
+  "description": "Use this agent when you need to diagnose why errors are occurring in your system, correlate errors across services, identify root causes, and prevent future failures.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "error-detective.md",
+  "dir": "agents/voltagent.error-detective",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/error-detective.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/error-detective.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "error-detective.md"
+  ],
+  "entry_hash": "41d8a798f9c367103e99adb40471060ff1fb9aa2c9b2783c0ad690b68ddd6a46",
+  "content_hash": "859ff7b58e87bb6833fd9b0ae2fc6e98f54bb8f439fefbd2bc855d793209c176",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

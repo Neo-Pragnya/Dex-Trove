@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-ai-translation-text-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-translation-text-py",
+  "title": "Azure AI Text Translation SDK for Python",
+  "description": "Azure AI Text Translation SDK for real-time text translation, transliteration, language detection, and dictionary lookup. Use for translating text content in applications.\nTriggers: \"text translation\", \"translator\", \"translate text\", \"transliterate\", \"TextTranslationClient\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-translation-text-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-ai-translation-text-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-ai-translation-text-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "d0560012981e8e97f68c2eb69a1ad0875ec87a4d9e1f5c59fc6366b1d78dae06",
+  "content_hash": "37240482ffc3eeba3767d82fb920c0e92631ad2f20c56c5d5d114ac74d5bc011",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

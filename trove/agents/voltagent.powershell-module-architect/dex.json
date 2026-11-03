@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/powershell-module-architect",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "powershell-module-architect",
+  "title": "powershell-module-architect",
+  "description": "Use this agent when architecting and refactoring PowerShell modules, designing profile systems, or creating cross-version compatible automation libraries. Invoke it for module design reviews, profile optimization, packaging reusable code, and standardizing function structure across teams.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "powershell-module-architect.md",
+  "dir": "agents/voltagent.powershell-module-architect",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/powershell-module-architect.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/powershell-module-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "powershell-module-architect.md"
+  ],
+  "entry_hash": "c302b56cfaf29eeed3b93c3cc94e8f745478f391d81f8fcd04aba8364cadb44b",
+  "content_hash": "9e187497f89dc97477b8b3281484d0e5187f77919565be1225c5778979569224",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

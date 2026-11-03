@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/data-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "data-engineer",
+  "title": "data-engineer",
+  "description": "Use this agent when you need to design, build, or optimize data pipelines, ETL/ELT processes, and data infrastructure. Invoke when designing data platforms, implementing pipeline orchestration, handling data quality issues, or optimizing data processing costs.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "data-engineer.md",
+  "dir": "agents/voltagent.data-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/data-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/data-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "data-engineer.md"
+  ],
+  "entry_hash": "4337bd149e471a58c54e7d182564fa195753b54f76c9b3040dc2219f8a18af26",
+  "content_hash": "290527ff496870fa3dacd303be3a58fef97755a7bbc536fa455f53c7f2fa2e5a",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/firmware-analyst",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "firmware-analyst",
+  "title": "firmware-analyst",
+  "description": "Expert firmware analyst specializing in embedded systems, IoT security, and hardware reverse engineering. Masters firmware extraction, analysis, and vulnerability research for routers, IoT devices, automotive systems, and industrial controllers. Use PROACTIVELY for firmware security audits, IoT penetration testing, or embedded systems research.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "firmware-analyst.md",
+  "dir": "agents/wshobson.firmware-analyst",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/reverse-engineering/agents/firmware-analyst.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/reverse-engineering/agents/firmware-analyst.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "firmware-analyst.md"
+  ],
+  "entry_hash": "c6f29b5396a5fe24896bf7046e6044a1888ce9028f24eba3d8011bd3b3382ede",
+  "content_hash": "a3f2940d79eb359677b74d5624800dbbd43690e92ade49fe803de2dc2789af25",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

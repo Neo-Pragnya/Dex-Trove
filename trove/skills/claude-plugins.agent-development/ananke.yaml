@@ -1,0 +1,27 @@
+kind: skill
+namespace: claude-plugins
+name: agent-development
+version: 0.1.0
+ananke_id: urn:dex-trove:skill:claude-plugins:agent-development
+summary: This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent",
+  "agent frontmatter", "when to use description", "agent examples", "agent tools", "agent colors",…
+description: This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent",
+  "agent frontmatter", "when to use description", "agent examples", "agent tools", "agent colors", "autonomous agent",
+  or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices
+  for Claude Code plugins.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'plugins/plugin-dev/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - executes-code
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/agent-development
+  repository: https://github.com/anthropics/claude-plugins-official

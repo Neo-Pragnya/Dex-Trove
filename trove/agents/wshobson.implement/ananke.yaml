@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: implement
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:implement
+summary: Developer agent. Implements the architect plan step-by-step, guided by AGENTS.md guardrails. Writes tests,
+  leaves no TODOs, and flags plan deviations rather than silently skipping them.
+description: Developer agent. Implements the architect plan step-by-step, guided by AGENTS.md guardrails. Writes
+  tests, leaves no TODOs, and flags plan deviations rather than silently skipping them.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: implement.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/implement.md
+  repository: https://github.com/wshobson/agents

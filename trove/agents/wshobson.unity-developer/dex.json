@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/unity-developer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "unity-developer",
+  "title": "unity-developer",
+  "description": "Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Masters Unity 6 LTS, URP/HDRP pipelines, and cross-platform deployment. Handles gameplay systems, UI implementation, and platform optimization. Use PROACTIVELY for Unity performance issues, game mechanics, or cross-platform builds.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "unity-developer.md",
+  "dir": "agents/wshobson.unity-developer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/game-development/agents/unity-developer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/game-development/agents/unity-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "unity-developer.md"
+  ],
+  "entry_hash": "39a8322deb5e6690d243ca1a67ce1db5b3292b12e9da54cfee5f3fcb5fb28cc1",
+  "content_hash": "e855193f513e13434c451cc95456a17930d20dfbade6326fb5150e0cab4d71ea",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "scientific/flowio",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "flowio",
+  "title": "FlowIO",
+  "description": "Reads, inspects, and writes Flow Cytometry Standard (FCS) 2.0, 3.0, and 3.1 files with FlowIO. Use for low-level FCS metadata and channel inspection, NumPy event extraction, multi-dataset files, table export, and FCS 3.1 creation; use FlowKit for compensation, cytometry transforms, gating, or FlowJo workspaces.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.flowio",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/flowio",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/flowio",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/fcs_semantics.md",
+    "references/sources.md",
+    "references/troubleshooting.md",
+    "references/workflows.md",
+    "scripts/inspect_fcs.py"
+  ],
+  "entry_hash": "24247696d4e9455f4b5509b7bee1856c251fa59181d80aa8de22d54ecd685b62",
+  "content_hash": "8efef1a07e5b66252f938652917c6e404626844b7ae66dc2424b6865e889944f",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

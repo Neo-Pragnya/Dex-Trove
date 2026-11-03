@@ -1,0 +1,44 @@
+{
+  "id": "microsoft/agent-framework-azure-ai-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "agent-framework-azure-ai-py",
+  "title": "Agent Framework Azure Hosted Agents",
+  "description": "Build Azure AI Foundry agents using the Microsoft Agent Framework Python SDK (agent-framework-azure-ai). Use when creating persistent agents with AzureAIAgentsProvider, using hosted tools (code interpreter, file search, web search), integrating MCP servers, managing conversation threads, or implementing streaming responses. Covers function tools, structured outputs, and multi-tool agents.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.agent-framework-azure-ai-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/agent-framework-azure-ai-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/agent-framework-azure-ai-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced.md",
+    "references/mcp.md",
+    "references/threads.md",
+    "references/tools.md"
+  ],
+  "entry_hash": "d79a8fefd6753474846e72b926437d7bbcddef5cd3f4fb89fb7c03f38ac4434e",
+  "content_hash": "70fa55e874918637ca8d65181259aa8928aa7c3b488094f1bd66085c9e1a3af8",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

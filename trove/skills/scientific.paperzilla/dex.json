@@ -1,0 +1,41 @@
+{
+  "id": "scientific/paperzilla",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "paperzilla",
+  "title": "Paperzilla",
+  "description": "Reads projects, searches project feeds, and retrieves recommendations and canonical papers in Paperzilla through the pz CLI. Supports recent recommendations, paper details, markdown-based summaries, recommendation feedback, JSON export, and Atom feed URLs.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.paperzilla",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/paperzilla",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/paperzilla",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/cli-contracts.md"
+  ],
+  "entry_hash": "f1b5feb3c76ce064803e5d44757f0fc468bf670499015b9c6a9d487fca699771",
+  "content_hash": "23c127d15513bc8ca862d7ed08c5fce78fd59fa981fef260ce74c805d6d7c596",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

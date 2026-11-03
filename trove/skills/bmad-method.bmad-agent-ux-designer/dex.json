@@ -1,0 +1,42 @@
+{
+  "id": "bmad-method/bmad-agent-ux-designer",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-agent-ux-designer",
+  "title": "Sally — UX Designer",
+  "description": "UX designer and UI specialist. Use when the user asks to talk to Sally or requests the UX designer",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-agent-ux-designer",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-agent-ux-designer",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-agent-ux-designer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml"
+  ],
+  "entry_hash": "b6710457a00119eb8ec14988aee6ac221a7f730234b8bc1899950fb432da2405",
+  "content_hash": "2db12038e78cb15a4da058c9384641f6f084b809d6e51a24a65963019cc0c744",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

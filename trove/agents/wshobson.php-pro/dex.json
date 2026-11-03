@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/php-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "php-pro",
+  "title": "php-pro",
+  "description": "Write idiomatic PHP code with generators, iterators, SPL data structures, and modern OOP features. Use PROACTIVELY for high-performance PHP applications.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "php-pro.md",
+  "dir": "agents/wshobson.php-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/web-scripting/agents/php-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/web-scripting/agents/php-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "php-pro.md"
+  ],
+  "entry_hash": "03ba878aa425a3bf955bfd4b0652e4e6528e0a5f23947cdbcc9a5cdddf1a7ec3",
+  "content_hash": "a3faa46ab2b195d3cf0cb85dad91a5f65dc7b9edf9cc0e4538bacbd4de5c845b",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

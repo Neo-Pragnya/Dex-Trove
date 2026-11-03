@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-cannibalization-detector",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-cannibalization-detector",
+  "title": "seo-cannibalization-detector",
+  "description": "Analyzes multiple provided pages to identify keyword overlap and potential cannibalization issues. Suggests differentiation strategies. Use PROACTIVELY when reviewing similar content.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-cannibalization-detector.md",
+  "dir": "agents/wshobson.seo-cannibalization-detector",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-analysis-monitoring/agents/seo-cannibalization-detector.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-analysis-monitoring/agents/seo-cannibalization-detector.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-cannibalization-detector.md"
+  ],
+  "entry_hash": "4d8e306865552076cbe17ffad9e043fd10d8767e73e12e99ea1445b53b896477",
+  "content_hash": "bb511930e44c9e91de20ebfb3590d1c0b4bd7d3124f32690f7da4b3f6ed2f744",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

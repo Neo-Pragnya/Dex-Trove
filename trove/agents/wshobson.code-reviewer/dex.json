@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/code-reviewer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "code-reviewer",
+  "title": "code-documentation-code-reviewer",
+  "description": "Elite code review expert specializing in modern AI-powered code analysis, security vulnerabilities, performance optimization, and production reliability. Masters static analysis tools, security scanning, and configuration review with 2024/2025 best practices. Use PROACTIVELY for code quality assurance.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "code-reviewer.md",
+  "dir": "agents/wshobson.code-reviewer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/code-documentation/agents/code-reviewer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/code-documentation/agents/code-reviewer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "code-reviewer.md"
+  ],
+  "entry_hash": "7d3eb3cf36f5dc156bf4d39e59b8869af5ae506f16c75d87b79420ad82e01064",
+  "content_hash": "e1794cf871716e0323013b3e36de2169a82e393a7f9c7218fc09fe9d8c4008ed",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

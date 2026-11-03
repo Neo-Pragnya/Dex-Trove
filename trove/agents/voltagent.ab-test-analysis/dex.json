@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/ab-test-analysis",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "ab-test-analysis",
+  "title": "ab-test-analysis",
+  "description": "Use when the user wants to analyze A/B test results, interpret p-values, determine statistical significance, or make a ship/no-ship decision. Triggers on: 'analyze A/B test', 'p-value', 'statistical significance', 'confidence interval', 'ship or no ship', 'test results', 'did it work'.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "ab-test-analysis.md",
+  "dir": "agents/voltagent.ab-test-analysis",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/ab-test-analysis.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/ab-test-analysis.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ab-test-analysis.md"
+  ],
+  "entry_hash": "dc358a219ca7ec57c961308ae961d542f442c330096d45b495609bc6843f9151",
+  "content_hash": "8be734df9d1bc4f086642eeeab1fa557d386439d6ec41a8266eeb43af0671a01",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

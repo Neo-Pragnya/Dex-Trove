@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/performance-monitor",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "performance-monitor",
+  "title": "performance-monitor",
+  "description": "Use when you need to analyze existing metric, log, and output files to spot performance patterns and anomalies, then write a grounded, evidence-cited observability plan (what to measure, thresholds, dashboards) as Markdown.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "performance-monitor.md",
+  "dir": "agents/voltagent.performance-monitor",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/performance-monitor.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/performance-monitor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "performance-monitor.md"
+  ],
+  "entry_hash": "51083411d328d1b5d650a1ce6889202c3ac803266c297ca9a091b83c2a5e74f9",
+  "content_hash": "2738f578250cf3d574b4a689bec39e8425968d1bc8153e187c595d26ffa38afd",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

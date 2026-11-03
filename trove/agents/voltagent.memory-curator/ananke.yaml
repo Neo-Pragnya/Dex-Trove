@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: memory-curator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:memory-curator
+summary: Use to maintain an agent's long-term memory across sessions — deciding what is worth saving, recalling
+  relevant context before acting, recording corrections without erasing history, and pruning what n…
+description: Use to maintain an agent's long-term memory across sessions — deciding what is worth saving, recalling
+  relevant context before acting, recording corrections without erasing history, and pruning what no longer helps.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: memory-curator.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/memory-curator.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

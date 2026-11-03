@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/conductor-validator",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "conductor-validator",
+  "title": "conductor-validator",
+  "description": "Validates Conductor project artifacts for completeness, consistency, and correctness. Use after setup, when diagnosing issues, or before implementation to verify project context.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "conductor-validator.md",
+  "dir": "agents/wshobson.conductor-validator",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/conductor/agents/conductor-validator.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/conductor/agents/conductor-validator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "conductor-validator.md"
+  ],
+  "entry_hash": "f7957d977522813b6d3f5ad4ecf3636b6fe7878c94d1a7d14665b7cbd411ced6",
+  "content_hash": "3149ef1ee69b323283f1ac4db22875addbc48a7aa2f72617567ca340debc79be",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,38 @@
+kind: skill
+namespace: microsoft
+name: azure-messaging
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-messaging
+summary: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection
+  failures, authentication errors, message processing issues, and SDK configuration problems.
+description: 'Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection
+  failures, authentication errors, message processing issues, and SDK configuration problems. WHEN: event hub SDK
+  error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock
+  lost, message lock expired, lock renewal, lock renewal batch, send timeout, receiver disconnected, SDK troubleshooting,
+  azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event
+  hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub
+  checkpoint, event hub not receiving messages, service bus dead letter, batch processing lock, session lock expired,
+  idle timeout, connection inactive, link detach, slow reconnect, session error, duplicate events, offset reset,
+  receive batch.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-messaging
+  repository: https://github.com/microsoft/skills

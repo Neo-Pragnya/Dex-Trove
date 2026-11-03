@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-postgres-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-postgres-ts",
+  "title": "Azure PostgreSQL for TypeScript (node-postgres)",
+  "description": "Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package. Use for PostgreSQL queries, connection pooling, transactions, and Microsoft Entra ID (passwordless) authentication. Triggers: \"PostgreSQL\", \"postgres\", \"pg client\", \"node-postgres\", \"Azure PostgreSQL connection\", \"PostgreSQL TypeScript\", \"pg Pool\", \"passwordless postgres\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-postgres-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-postgres-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-postgres-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "b2098d835acf3cf6cee62ae79044c0180aee037231ef0afa1589fed1fc9c4ab3",
+  "content_hash": "59d2d63dde3d65845038e6c6b1c34d14455f40053edc9c242d0951a96b869e8c",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

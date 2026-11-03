@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-mgmt-botservice-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-mgmt-botservice-py",
+  "title": "Azure Bot Service Management SDK for Python",
+  "description": "Azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources.\nTriggers: \"azure-mgmt-botservice\", \"AzureBotService\", \"bot management\", \"conversational AI\", \"bot channels\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-mgmt-botservice-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-botservice-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-mgmt-botservice-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "39f0df196360a96e17b32f32481c696943e1176f19e8ec1f8de4942299db82c2",
+  "content_hash": "33c4cd8f5b2e54402aa75fb9e668082de06819e951f534431073aa8bec3ce4df",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

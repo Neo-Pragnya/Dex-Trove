@@ -1,0 +1,29 @@
+kind: skill
+namespace: huggingface
+name: train-sentence-transformers
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:train-sentence-transformers
+summary: Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder, dense or static
+  embedding model for retrieval, similarity, clustering, classification, paraphrase mining, dedu…
+description: Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder, dense or
+  static embedding model for retrieval, similarity, clustering, classification, paraphrase mining, dedup, multimodal),
+  `CrossEncoder` (reranker, pair scoring for two-stage retrieval / pair classification), `SparseEncoder` (SPLADE,
+  sparse embedding model for learned-sparse retrieval), and `MultiVectorEncoder` (ColBERT / late-interaction, per-token
+  embeddings scored with MaxSim). Covers loss selection, hard-negative mining, evaluators, distillation, LoRA, Matryoshka,
+  and Hugging Face Hub publishing. Use for any sentence-transformers training task.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/train-sentence-transformers
+  repository: https://github.com/huggingface/skills

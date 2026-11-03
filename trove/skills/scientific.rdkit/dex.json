@@ -1,0 +1,51 @@
+{
+  "id": "scientific/rdkit",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "rdkit",
+  "title": "RDKit Cheminformatics Toolkit",
+  "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.rdkit",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/rdkit",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/rdkit",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/core_capabilities.md",
+    "references/descriptors_reference.md",
+    "references/review.md",
+    "references/smarts_patterns.md",
+    "references/workflows_and_best_practices.md",
+    "scripts/_common.py",
+    "scripts/molecular_properties.py",
+    "scripts/similarity_search.py",
+    "scripts/substructure_filter.py"
+  ],
+  "entry_hash": "9f32d5d229bc1a5bac3e57de5fb87895cdb85dcc99132c57373905db0e1a941e",
+  "content_hash": "e9bd6620b60fcb6c8e21a099facd8e5e6e3c55a7e1b437e4f66d8b91f8db70d5",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

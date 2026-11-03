@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/error-detective",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "error-detective",
+  "title": "distributed-debugging-error-detective",
+  "description": "Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes. Use PROACTIVELY when debugging issues, analyzing logs, or investigating production errors.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "error-detective.md",
+  "dir": "agents/wshobson.error-detective",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/distributed-debugging/agents/error-detective.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/distributed-debugging/agents/error-detective.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "error-detective.md"
+  ],
+  "entry_hash": "00cbc167f550f8a421039aa7fc0e460498f8cd9d80e26bb77524067a49535296",
+  "content_hash": "b6cc67c3a323278d7e24524c1e27c1df9babf7b2a103a7eec6843fd4dd4f29ea",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

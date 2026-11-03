@@ -1,0 +1,49 @@
+{
+  "id": "scientific/open-notebook",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "open-notebook",
+  "title": "Open Notebook",
+  "description": "Organizes research with the self-hosted Open Notebook alternative to NotebookLM. Supports source ingestion (PDFs, web pages, audio, video, and Office documents), cited document chat, text and vector search, notes, custom transformations, and multi-speaker podcasts. Use when automating Open Notebook through its REST API or configuring its local or cloud AI providers, including OpenAI, Anthropic, Google, Ollama, Groq, and Mistral.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.open-notebook",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/open-notebook",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/open-notebook",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/architecture.md",
+    "references/configuration.md",
+    "references/examples.md",
+    "scripts/_common.py",
+    "scripts/chat_interaction.py",
+    "scripts/notebook_management.py",
+    "scripts/source_ingestion.py"
+  ],
+  "entry_hash": "39f3bb01946218b53c02e3aedde025e6f8b786307e5ba0c4698c5aed02f9fdd6",
+  "content_hash": "498be7cb707bcec37b43d74ccf9a8a034d0ab69e360356f10598182997ca3b8b",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

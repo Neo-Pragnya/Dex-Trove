@@ -1,0 +1,47 @@
+{
+  "id": "bmad-method/bmad-walkthrough",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-walkthrough",
+  "title": "bmad-walkthrough",
+  "description": "Guide a human review of a commit, PR, file, or directory. Use when invoked by name",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-walkthrough",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-walkthrough",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-walkthrough",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml",
+    "step-01-orientation.md",
+    "step-02-narrative.md",
+    "step-03-walkthrough.md",
+    "templates/log-template.md",
+    "workflow.md"
+  ],
+  "entry_hash": "c28fad6ab0ca63cb6b0b00e326dbfd49540d5dd7154ea21216bda66a73a3aacb",
+  "content_hash": "2f5a8e9470aa17ab8713c56670bc9338babaed1f7fff2af9edca505d4d0b68e5",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

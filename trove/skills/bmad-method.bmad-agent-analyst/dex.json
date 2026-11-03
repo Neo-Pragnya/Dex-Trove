@@ -1,0 +1,42 @@
+{
+  "id": "bmad-method/bmad-agent-analyst",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-agent-analyst",
+  "title": "Mary — Business Analyst",
+  "description": "Business analyst for market research, competitive analysis, and requirements. Use when the user asks to talk to Mary or requests the business analyst",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-agent-analyst",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-agent-analyst",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-agent-analyst",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml"
+  ],
+  "entry_hash": "5eca068f41f649585102e71326cc899c0f7b14c5fc7abf619a41b026b18d595a",
+  "content_hash": "ec6ccc18055196de1a5816ab7ee640c512d95414ab26639f9afb9c3c4dfbce4e",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

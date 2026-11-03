@@ -1,0 +1,49 @@
+{
+  "id": "microsoft/azure-local",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-local",
+  "title": "Azure Local",
+  "description": "Plan, deploy, operate, and troubleshoot Azure Local (formerly Azure Stack HCI): sizing and prerequisites, Arc registration, lifecycle updates, workloads (Azure Local VMs, AKS on Azure Local, images, disks, logical networks), SDN and network security, and failure triage — starting read-only and confirming before risky changes. WHEN: Azure Local, Azure Stack HCI, Arc resource bridge, custom location, Azure Local VM, Arc VM, AKS on Azure Local, AKS hybrid, SDN, Lifecycle Manager, Azure Local update, disconnected site.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-local",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-local-skills/skills/azure-local",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-local-skills/skills/azure-local",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/docs-map.md",
+    "references/mcp-and-cli-tools.md",
+    "references/resource-types.md",
+    "references/safety-rules.md",
+    "workflows/networking-and-security/networking-and-security.md",
+    "workflows/operate-and-update/operate-and-update.md",
+    "workflows/plan-and-deploy/plan-and-deploy.md",
+    "workflows/troubleshooting/troubleshooting.md",
+    "workflows/workload-management/workload-management.md"
+  ],
+  "entry_hash": "f921b771ccbad9938d0bc4984fc54a6878d4c5cb253542ef676d740060bc67ca",
+  "content_hash": "126e2cd3215d59f10ec47fb06aeda90da6d755d36712c0a585aaae877c2fd145",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

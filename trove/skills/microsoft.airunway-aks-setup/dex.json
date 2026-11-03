@@ -1,0 +1,51 @@
+{
+  "id": "microsoft/airunway-aks-setup",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "airunway-aks-setup",
+  "title": "AI Runway AKS Setup",
+  "description": "Set up AI Runway on AKS — from bare cluster to running model. Covers cluster verification, controller install, GPU assessment, provider setup, and first deployment. WHEN: \"setup AI Runway\", \"onboard AKS cluster\", \"install AI Runway\", \"airunway setup\", \"deploy model to AKS\", \"GPU inference on AKS\", \"KAITO setup on AKS\", \"run LLM on AKS\", \"vLLM on AKS\", \"set up model serving on AKS\", \"AI Runway controller\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.airunway-aks-setup",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/airunway-aks-setup",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/airunway-aks-setup",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/gpu-profiles.md",
+    "references/model-sizing.md",
+    "references/optional-gpu-day2.md",
+    "references/powershell-notes.md",
+    "references/steps/step-1-verify.md",
+    "references/steps/step-2-controller.md",
+    "references/steps/step-3-gpu.md",
+    "references/steps/step-4-provider.md",
+    "references/steps/step-5-deploy.md",
+    "references/steps/step-6-summary.md",
+    "references/troubleshooting.md"
+  ],
+  "entry_hash": "cb076706a81bef96568a0f71fdda9e44ab67bc76a3c40541d20046ae129f29df",
+  "content_hash": "b143e49c0dbc5f714d45a677af73225c8c3a3d4660e74c2e9364c8d08e78ce05",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

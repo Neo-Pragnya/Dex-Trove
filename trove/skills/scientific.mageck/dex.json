@@ -1,0 +1,44 @@
+{
+  "id": "scientific/mageck",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "mageck",
+  "title": "MAGeCK pooled-screen analysis",
+  "description": "Analyzes pooled CRISPR screen FASTQ reads and guide-count matrices with MAGeCK, validates guide libraries and contrasts, measures replicate and library QC, and produces gene hit rankings with effect sizes and FDR. Use for new knockout, CRISPRi, or CRISPRa screen analysis, enrichment or depletion contrasts, and MAGeCK count/test workflows; existing public dependency-score lookup belongs to DepMap.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.mageck",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/mageck",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/mageck",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/design.md",
+    "references/runtime.md",
+    "scripts/screen_analysis.py"
+  ],
+  "entry_hash": "562d7e2cb2febef14ab722bc29cd33983b523da287fb02b64eadf18702d4a9d1",
+  "content_hash": "10e1264498e20aa4b5f55877491182fc099f182d73f45a2686219729f6c84780",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

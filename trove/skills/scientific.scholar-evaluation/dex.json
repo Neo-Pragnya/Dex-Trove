@@ -1,0 +1,59 @@
+{
+  "id": "scientific/scholar-evaluation",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "scholar-evaluation",
+  "title": "Scholar Evaluation",
+  "description": "Provides qualitative-first, evidence-traceable developmental review of scholarly works and audit low-stakes research-assessment rubrics with optional local quality controls. Never use for ranking people or consequential decisions.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.scholar-evaluation",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/scholar-evaluation",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scholar-evaluation",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/evaluation_template.json",
+    "assets/evidence_manifest_template.json",
+    "assets/process_checklist_template.json",
+    "assets/ratings_template.csv",
+    "assets/rubric_template.json",
+    "references/evaluation_framework.md",
+    "references/local_tooling.md",
+    "references/responsible_assessment.md",
+    "references/security_validation.md",
+    "references/source_ledger.md",
+    "scripts/_common.py",
+    "scripts/calculate_scores.py",
+    "scripts/check_process.py",
+    "scripts/check_traceability.py",
+    "scripts/generate_report_scaffold.py",
+    "scripts/summarize_agreement.py",
+    "scripts/validate_rubric.py",
+    "scripts/weight_sensitivity.py"
+  ],
+  "entry_hash": "9abc66a9ba13f6cf0f61614ddfff17822b5be2cc7118f52ef2631323dac8c94e",
+  "content_hash": "4388afd44703098c4bc87a063d220227867df09f304a00f7fb6b4d4c07e951c1",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

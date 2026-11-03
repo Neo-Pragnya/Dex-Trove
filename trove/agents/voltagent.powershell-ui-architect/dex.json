@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/powershell-ui-architect",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "powershell-ui-architect",
+  "title": "powershell-ui-architect",
+  "description": "Use when designing or building desktop graphical interfaces (WinForms, WPF, Metro-style dashboards) or terminal user interfaces (TUIs) for PowerShell automation tools that need clean separation between UI and business logic.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "powershell-ui-architect.md",
+  "dir": "agents/voltagent.powershell-ui-architect",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/powershell-ui-architect.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/powershell-ui-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "powershell-ui-architect.md"
+  ],
+  "entry_hash": "f19d468c9ca14865d339ff15e1583bbfabe46ee6b3701f98d4a9abc2fb13f5f2",
+  "content_hash": "cd8901867d46d5188f42ab7faeeb1ceb83df0032602557b3ebf1f022c9aa7430",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

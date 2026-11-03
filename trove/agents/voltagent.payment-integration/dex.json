@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/payment-integration",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "payment-integration",
+  "title": "payment-integration",
+  "description": "Use this agent when implementing payment systems, integrating payment gateways, or handling financial transactions that require PCI compliance, fraud prevention, and secure transaction processing.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "payment-integration.md",
+  "dir": "agents/voltagent.payment-integration",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/payment-integration.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/payment-integration.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "payment-integration.md"
+  ],
+  "entry_hash": "3fa4113f10e97e4e3e5772e481600cf2112382c8694f0648aeffe5ecd2473c5c",
+  "content_hash": "8e0ce452e72f4e9a06cd4c1ee7a555e1ce74d75f91657a9eb4cdc7cf857563af",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

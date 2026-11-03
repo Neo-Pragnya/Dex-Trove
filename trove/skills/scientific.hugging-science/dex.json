@@ -1,0 +1,48 @@
+{
+  "id": "scientific/hugging-science",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "hugging-science",
+  "title": "Hugging Science",
+  "description": "Discovers and evaluates scientific datasets, models, methodology posts, and Spaces through the Hugging Science catalog. Used when selecting scientific ML resources in biology, chemistry, genomics, materials, climate, physics, astronomy, medicine, mathematics, protein design, single-cell analysis, or PDE modeling, and when checking their actual datasets, Transformers, native-runtime, Inference Providers, or Gradio interfaces.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.hugging-science",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/hugging-science",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/hugging-science",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/flagship-resources.md",
+    "references/review.md",
+    "references/topics-and-slugs.md",
+    "references/using-datasets.md",
+    "references/using-models.md",
+    "references/using-spaces.md",
+    "scripts/fetch_catalog.py"
+  ],
+  "entry_hash": "cff6c7e67d7f1925f008e11f5d0428f08391c35f4294d2c4c70350667b2decb2",
+  "content_hash": "9ab5c3eba2e6af7698d772520aa4a617e8ff350d872fa58f22ec165a1df6d9c5",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

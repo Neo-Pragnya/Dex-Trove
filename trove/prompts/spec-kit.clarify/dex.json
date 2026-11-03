@@ -1,0 +1,40 @@
+{
+  "id": "spec-kit/clarify",
+  "kind": "prompt",
+  "namespace": "spec-kit",
+  "name": "clarify",
+  "title": "clarify",
+  "description": "Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec.",
+  "tags": [
+    "prompt",
+    "spec-kit"
+  ],
+  "version": "1.0.0",
+  "entry": "clarify.md",
+  "dir": "prompts/spec-kit.clarify",
+  "source": {
+    "id": "spec-kit",
+    "title": "Spec Kit",
+    "repo": "https://github.com/github/spec-kit",
+    "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+    "path": "templates/commands/clarify.md",
+    "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/clarify.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "clarify.md"
+  ],
+  "entry_hash": "5260d798c5671deb9ac7e59d6ffdb69b30c26fb28878d3cc25e30fb71cacc734",
+  "content_hash": "7726f3db42e189b3ca2ccf96ccd7593cad36b6e2d090a56d3292fb7e3b9bffb0",
+  "learned_at": "2026-11-03T06:37:49+00:00"
+}

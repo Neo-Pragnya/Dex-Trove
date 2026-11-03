@@ -1,0 +1,58 @@
+{
+  "id": "scientific/geomaster",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "geomaster",
+  "title": "GeoMaster",
+  "description": "Supports geospatial research workflows for remote sensing, vector and raster GIS, spatial statistics, terrain and network analysis, and machine learning for Earth observation. Use when processing satellite imagery, aligning coordinate systems and raster grids, accessing STAC catalogs, analyzing geospatial time series, or implementing scientific GIS workflows in Python, R, Julia, JavaScript, C++, Java, Go, or Rust.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.geomaster",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/geomaster",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/geomaster",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT License'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "references/advanced-gis.md",
+    "references/big-data.md",
+    "references/code-examples.md",
+    "references/coordinate-systems.md",
+    "references/core-libraries.md",
+    "references/data-sources.md",
+    "references/gis-software.md",
+    "references/industry-applications.md",
+    "references/machine-learning.md",
+    "references/programming-languages.md",
+    "references/remote-sensing.md",
+    "references/review.md",
+    "references/scientific-domains.md",
+    "references/specialized-topics.md",
+    "references/troubleshooting.md",
+    "scripts/raster_workflows.py"
+  ],
+  "entry_hash": "7b3b88f13f0094285372dfcc25a000fb7e74e5fc4b67c1b6999543fff3cadde8",
+  "content_hash": "d15adb127b534e5f04d3612701a520aa91dc8a26aae7ae35980a63d6cfe0a808",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

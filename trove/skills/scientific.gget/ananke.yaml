@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: gget
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:gget
+summary: Queries 20+ bioinformatics resources through CLI/Python. Supports quick lookups of gene info, BLAST/BLAT,
+  viral sequence downloads, PDB/mmCIF structures, G2P residue annotations, enrichment analysis,…
+description: Queries 20+ bioinformatics resources through CLI/Python. Supports quick lookups of gene info, BLAST/BLAT,
+  viral sequence downloads, PDB/mmCIF structures, G2P residue annotations, enrichment analysis, OpenTargets, COSMIC,
+  CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple queries. For
+  batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/gget
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

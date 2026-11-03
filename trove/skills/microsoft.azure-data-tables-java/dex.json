@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-data-tables-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-data-tables-java",
+  "title": "Azure Tables SDK for Java",
+  "description": "Build table storage applications with Azure Tables SDK for Java. Use when working with Azure Table Storage or Cosmos DB Table API for NoSQL key-value data, schemaless storage, or structured data at scale.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-data-tables-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-data-tables-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-data-tables-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "257cca211f25374b4cfa2662c667659cbe54e9422656b990aad623aa242d8782",
+  "content_hash": "35c1bd89ca04366293c818ef20743b926bc12fbf8c3646e5146600039570cfde",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

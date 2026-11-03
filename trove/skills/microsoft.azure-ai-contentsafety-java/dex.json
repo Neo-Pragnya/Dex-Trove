@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-ai-contentsafety-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-contentsafety-java",
+  "title": "Azure AI Content Safety SDK for Java",
+  "description": "Build content moderation applications with Azure AI Content Safety SDK for Java. Use when implementing text/image analysis, blocklist management, or harm detection for hate, violence, sexual content, and self-harm.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-contentsafety-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-ai-contentsafety-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-ai-contentsafety-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "43822acf1e76afe9daaa6ecdba222cfe8dee0cce0c4ffc3405cad38991e1a0a5",
+  "content_hash": "a2693bea46f6a435e9d771bb318973506ccfc6f8193b682b2c69ecbc2fc18cd0",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

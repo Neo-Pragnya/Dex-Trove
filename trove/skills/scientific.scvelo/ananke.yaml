@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: scvelo
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:scvelo
+summary: Performs RNA velocity analysis with scVelo from spliced and unspliced single-cell RNA counts.
+description: Performs RNA velocity analysis with scVelo from spliced and unspliced single-cell RNA counts. Fits
+  deterministic or dynamical models, examines gene phase portraits, builds velocity graphs, estimates relative latent
+  time, and ranks velocity-associated genes. Use for directional trajectory hypotheses and kinetic-model diagnostics
+  alongside Scanpy; velocity alone does not establish cell fate or causal drivers.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: BSD-3-Clause
+  source: 'frontmatter license: ''BSD-3-Clause'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scvelo
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

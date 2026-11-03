@@ -1,0 +1,31 @@
+kind: skill
+namespace: huggingface
+name: huggingface-local-models
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:huggingface-local-models
+summary: Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm.
+description: Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers
+  finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local
+  serving.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-local-models
+  repository: https://github.com/huggingface/skills

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/blockchain-developer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "blockchain-developer",
+  "title": "blockchain-developer",
+  "description": "Build production-ready Web3 applications, smart contracts, and decentralized systems. Implements DeFi protocols, NFT platforms, DAOs, and enterprise blockchain integrations. Use PROACTIVELY for smart contracts, Web3 apps, DeFi protocols, or blockchain infrastructure.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "blockchain-developer.md",
+  "dir": "agents/wshobson.blockchain-developer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/blockchain-web3/agents/blockchain-developer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/blockchain-web3/agents/blockchain-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "blockchain-developer.md"
+  ],
+  "entry_hash": "6235ada569e9fe5d22982a2edc2f18bdce22191465cc2111d7206ebd1ffe30ad",
+  "content_hash": "31b4300634b3e12329b5ad29605e7a9ce977d548f7fb27a0510996bfa17ef235",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-resource-manager-playwright-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-resource-manager-playwright-dotnet",
+  "title": "Azure.ResourceManager.Playwright (.NET)",
+  "description": "Azure Resource Manager SDK for Microsoft Playwright Testing in .NET. Use for MANAGEMENT PLANE operations: creating/managing Playwright Testing workspaces, checking name availability, and managing workspace quotas via Azure Resource Manager. NOT for running Playwright tests - use Azure.Developer.MicrosoftPlaywrightTesting.NUnit for that. Triggers: \"Playwright workspace\", \"create Playwright Testing workspace\", \"manage Playwright resources\", \"ARM Playwright\", \"PlaywrightWorkspaceResource\", \"provision Playwright Testing\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-resource-manager-playwright-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-playwright-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-playwright-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "019b205f338274a141a25801d9d4320a9d2e65e44f175a2012ede29d58c374d2",
+  "content_hash": "f629ed8c0ddfed331cc6a9a526b41e35a584aafe5ad404c2ed51076f08a3421c",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

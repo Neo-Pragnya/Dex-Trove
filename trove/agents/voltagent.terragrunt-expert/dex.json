@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/terragrunt-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "terragrunt-expert",
+  "title": "terragrunt-expert",
+  "description": "Expert Terragrunt specialist mastering infrastructure orchestration, DRY configurations, and multi-environment deployments. Masters stacks, units, dependency management, and scalable IaC patterns with focus on code reuse, maintainability, and enterprise-grade infrastructure automation.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "terragrunt-expert.md",
+  "dir": "agents/voltagent.terragrunt-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/terragrunt-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/terragrunt-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "terragrunt-expert.md"
+  ],
+  "entry_hash": "2be6aa489efd8b2aaddf8c81e28060995e5797bb0d1cd69a501ac065c87e7d44",
+  "content_hash": "c9ffa6e4f48504df285a1261882c5c2e1a7578578aa94b7f6481af9e37b55739",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

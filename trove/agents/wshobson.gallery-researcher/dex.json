@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/gallery-researcher",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "gallery-researcher",
+  "title": "gallery-researcher",
+  "description": "Gallery search and inspiration agent. Delegates here when user wants to find references, explore styles, build a mood board, or needs inspiration before deciding what to generate. Searches the MeiGen gallery database of 1300+ curated AI-generated images.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "gallery-researcher.md",
+  "dir": "agents/wshobson.gallery-researcher",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/meigen-ai-design/agents/gallery-researcher.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/meigen-ai-design/agents/gallery-researcher.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gallery-researcher.md"
+  ],
+  "entry_hash": "77d150262cec9d902a7bf8dd2453447d8fd419b91901ca00a11364fb457d57ae",
+  "content_hash": "d1e0b3fab1eee598c1c8dbe633680989d026a71c87dbd1e46f6be5bba9d1c195",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

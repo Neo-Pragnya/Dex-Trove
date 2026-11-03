@@ -1,0 +1,50 @@
+{
+  "id": "scientific/genomic-coordinates",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "genomic-coordinates",
+  "title": "Genomic Coordinates",
+  "description": "Converts genomic intervals between coordinate conventions, normalises and compares variant representations, and detects assembly or contig-naming mismatches before they corrupt an analysis. Used whenever coordinates cross a format, tool, or assembly boundary - converting between BED, GFF/GTF, VCF, SAM/BAM, WIG, PSL, genePred, Picard interval_list, or region strings; reconciling 0-based half-open with 1-based inclusive; left-aligning or trimming indels; checking whether two variant records describe the same change; mapping genomic to transcript, CDS, or protein positions; auditing a BED/GTF/VCF for convention violations; or diagnosing GRCh37 vs hg19 vs GRCh38 vs T2T, chr-prefix, and liftover problems. Triggers include \"off by one\", \"0-based\", \"1-based\", \"half-open\", \"coordinate system\", \"left-align\", \"normalize variant\", \"bcftools norm\", \"chr prefix\", \"wrong genome build\", \"liftover\", \"REF mismatch\", and \"HGVS\".",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.genomic-coordinates",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/genomic-coordinates",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/genomic-coordinates",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/format-conventions.md",
+    "references/reference-builds.md",
+    "references/transcript-coordinates.md",
+    "references/variant-representation.md",
+    "scripts/_common.py",
+    "scripts/audit_intervals.py",
+    "scripts/check_contigs.py",
+    "scripts/convert_coords.py",
+    "scripts/normalize_variant.py"
+  ],
+  "entry_hash": "da3eee43dfee06ee632388ddda0c38bb0bc57ec33420cbf26b14ce86be3c28a0",
+  "content_hash": "ff936471edbb7fcab1321d64f10773541b174997359b3322b6b1dfc85b831660",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

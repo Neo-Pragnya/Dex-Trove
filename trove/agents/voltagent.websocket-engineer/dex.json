@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/websocket-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "websocket-engineer",
+  "title": "websocket-engineer",
+  "description": "Use this agent when implementing real-time bidirectional communication features using WebSockets, Socket.IO, or similar technologies at scale.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "websocket-engineer.md",
+  "dir": "agents/voltagent.websocket-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/websocket-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/websocket-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "websocket-engineer.md"
+  ],
+  "entry_hash": "c0d4ac6f3f87b70a717250d1d462dfa3f313bb8eb24a27ab34075b862fac964b",
+  "content_hash": "a749cc0f5a24db83438c8575b8c2438d9597b303d85ba75583415acf77fdc6df",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/temporal-python-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "temporal-python-pro",
+  "title": "temporal-python-pro",
+  "description": "Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testing strategies, and production deployment. Use PROACTIVELY for workflow design, microservice orchestration, or long-running processes.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "temporal-python-pro.md",
+  "dir": "agents/wshobson.temporal-python-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/backend-development/agents/temporal-python-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/backend-development/agents/temporal-python-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "temporal-python-pro.md"
+  ],
+  "entry_hash": "b6fdb652017d5ada64c32768c4e58d3b440468144748eba0404f817cac0c92cc",
+  "content_hash": "d20eb5de29711414cd9d90f3e9fe1fb6133528386aeb5b81e3e7a9e26065e9e5",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

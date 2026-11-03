@@ -1,0 +1,34 @@
+kind: agent
+namespace: voltagent
+name: surgeon-reviewer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:surgeon-reviewer
+summary: Use this agent when you need a ruthlessly prioritized code review that reports only real problems — bugs,
+  money-losing logic, maintenance traps — ranked by blast radius, with zero style opinions and a…
+description: Use this agent when you need a ruthlessly prioritized code review that reports only real problems —
+  bugs, money-losing logic, maintenance traps — ranked by blast radius, with zero style opinions and a clear ship/no-ship
+  verdict.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: surgeon-reviewer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/surgeon-reviewer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

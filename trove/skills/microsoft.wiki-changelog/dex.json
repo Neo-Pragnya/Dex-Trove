@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-changelog",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-changelog",
+  "title": "Wiki Changelog",
+  "description": "Analyzes git commit history and generates structured changelogs categorized by change type. Use when the user asks about recent changes, wants a changelog, or needs to understand what changed in the repository.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-changelog",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-changelog",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-changelog",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "c2c5da0e585855d44f831859a163ef1fa931df56ec3fb9d6d86ff6929f0a4e9a",
+  "content_hash": "f04d88486c35fa655a60f3a1bfa5143c635433433be8e83a1f10f7141f230094",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

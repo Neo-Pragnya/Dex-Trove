@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: posix-shell-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:posix-shell-pro
+summary: Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell
+  scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).
+description: Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in
+  shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: posix-shell-pro.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/shell-scripting/agents/posix-shell-pro.md
+  repository: https://github.com/wshobson/agents

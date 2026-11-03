@@ -1,0 +1,52 @@
+{
+  "id": "microsoft/cost-analysis",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "cost-analysis",
+  "title": "Azure Cost Analysis",
+  "description": "Analyze actual Azure spend, bill changes, and AKS or AI costs. WHEN: \"Azure cost breakdown\", \"most expensive resources\", \"why did my bill increase\", \"cost spike\", \"unexpected charge\", \"Cosmos DB charges\", \"Foundry model costs\", \"AKS cluster cost\", \"namespace cost\", \"enable AKS cost analysis\", \"idle AKS capacity\". DO NOT USE FOR: forecasts, pricing estimates, rightsizing, commitments, or budgets.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.cost-analysis",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-cost/skills/cost-analysis",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-cost/skills/cost-analysis",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/ai-cost-analysis.md",
+    "references/aks-anomaly.md",
+    "references/aks-cost-analysis.md",
+    "references/aks-enablement.md",
+    "references/cost-investigation.md",
+    "references/cost-query/dimensions-by-scope.md",
+    "references/cost-query/error-handling.md",
+    "references/cost-query/examples.md",
+    "references/cost-query/guardrails.md",
+    "references/cost-query/request-body-schema.md",
+    "references/cost-query/workflow.md",
+    "references/tools-and-safety.md"
+  ],
+  "entry_hash": "800136a20b458fc322b03149237944465b1dfb1175f7f4dae2cdfec77ef4fab2",
+  "content_hash": "0af168c4ea4db0d435735e60448903d2c8dd67f4f0d8a9cc582372582f4de14a",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

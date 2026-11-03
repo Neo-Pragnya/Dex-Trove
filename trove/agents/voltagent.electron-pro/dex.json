@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/electron-pro",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "electron-pro",
+  "title": "electron-pro",
+  "description": "Use this agent when building Electron desktop applications that require native OS integration, cross-platform distribution, security hardening, and performance optimization. Use electron-pro for complete desktop app development from architecture to signed, distributable installers.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "electron-pro.md",
+  "dir": "agents/voltagent.electron-pro",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/electron-pro.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/electron-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "electron-pro.md"
+  ],
+  "entry_hash": "64c460c0f4ff108718c46a0e109ddfff48b68748c454efe7234e98199bb99ecb",
+  "content_hash": "91f898f3811c25d074a7ef1524013613f1c8966516473765346a46b6715eda85",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

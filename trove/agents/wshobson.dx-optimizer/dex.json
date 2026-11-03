@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/dx-optimizer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "dx-optimizer",
+  "title": "debugging-toolkit-dx-optimizer",
+  "description": "Developer Experience specialist. Improves tooling, setup, and workflows. Use PROACTIVELY when setting up new projects, after team feedback, or when development friction is noticed.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "dx-optimizer.md",
+  "dir": "agents/wshobson.dx-optimizer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/debugging-toolkit/agents/dx-optimizer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/debugging-toolkit/agents/dx-optimizer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dx-optimizer.md"
+  ],
+  "entry_hash": "e73628c53dbbb11afb15374a6de9d85446d38ceaf48b5c7d541879b3438f4461",
+  "content_hash": "e1f4c239b85e6d6e87235150b95a0d870abfa53fd146d21e8a7c70964c576baa",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

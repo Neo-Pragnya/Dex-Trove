@@ -1,0 +1,49 @@
+{
+  "id": "scientific/diffdock",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "diffdock",
+  "title": "DiffDock: protein-small-molecule docking",
+  "description": "Predicts protein-small-molecule binding poses with DiffDock and DiffDock-L from PDB or sequence plus SMILES/SDF/MOL2. Covers batch docking, pose triage, confidence interpretation, and validation. Use for molecular docking and virtual-screening pose generation, not binding-affinity prediction.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.diffdock",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/diffdock",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/diffdock",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/batch_template.csv",
+    "assets/custom_inference_config.yaml",
+    "references/confidence_and_limitations.md",
+    "references/parameters_reference.md",
+    "references/workflows_examples.md",
+    "scripts/analyze_results.py",
+    "scripts/prepare_batch_csv.py",
+    "scripts/setup_check.py"
+  ],
+  "entry_hash": "5fafc5d9f53fa35a47c498f1cf3bad20fbee7404f248226e76e62bb327749912",
+  "content_hash": "7fc247125142f7e4b2347be4e77830f8ed808494c8873a278b16bd08568b0c35",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

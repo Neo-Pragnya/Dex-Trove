@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-mgmt-botservice-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-mgmt-botservice-dotnet",
+  "title": "Azure.ResourceManager.BotService (.NET)",
+  "description": "Azure Resource Manager SDK for Bot Service in .NET. Management plane operations for creating and managing Azure Bot resources, channels (Teams, DirectLine, Slack), and connection settings. Triggers: \"Bot Service\", \"BotResource\", \"Azure Bot\", \"DirectLine channel\", \"Teams channel\", \"bot management .NET\", \"create bot\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-mgmt-botservice-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-botservice-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-mgmt-botservice-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "63b889425dca9f3584ba88f509374ede0364ee48d71616c52902c44bc1882691",
+  "content_hash": "ad24a1c8434e6c737ef19ac994add5372754df51ac7a99eb9afb95d4f4932378",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

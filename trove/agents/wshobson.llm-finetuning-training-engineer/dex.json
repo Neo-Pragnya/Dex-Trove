@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/llm-finetuning-training-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "llm-finetuning-training-engineer",
+  "title": "llm-finetuning-training-engineer",
+  "description": "Fine-tuning implementation workhorse — prepares datasets, generates Unsloth-first training scripts, launches and monitors runs, and exports artifacts. Use after a training brief exists, for dataset preparation, training execution, or model export.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "llm-finetuning-training-engineer.md",
+  "dir": "agents/wshobson.llm-finetuning-training-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/llm-finetuning/agents/llm-finetuning-training-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/llm-finetuning/agents/llm-finetuning-training-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "llm-finetuning-training-engineer.md"
+  ],
+  "entry_hash": "8ec7ce895503cf0829fbe1cee6324c3165bdb7ea88bafd96e86bcaf940939072",
+  "content_hash": "dd7506ac3ad86f1546b052cbe5760f695a5821dfbbee02198b11121b63f81863",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

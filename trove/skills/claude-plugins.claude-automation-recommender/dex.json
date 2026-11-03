@@ -1,0 +1,45 @@
+{
+  "id": "claude-plugins/claude-automation-recommender",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "claude-automation-recommender",
+  "title": "Claude Automation Recommender",
+  "description": "Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use when user asks for automation recommendations, wants to optimize their Claude Code setup, mentions improving Claude Code workflows, asks how to first set up Claude Code for a project, or wants to know what Claude Code features they should use.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.claude-automation-recommender",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/claude-code-setup/skills/claude-automation-recommender",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/claude-code-setup/skills/claude-automation-recommender",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/claude-code-setup/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/hooks-patterns.md",
+    "references/mcp-servers.md",
+    "references/plugins-reference.md",
+    "references/skills-reference.md",
+    "references/subagent-templates.md"
+  ],
+  "entry_hash": "441c57e26f0931b64dd085deaad9213c4e3efea27d916dd7443cd33c7e338227",
+  "content_hash": "5eaaadeb0ca36ff7a9b4734e0e1e1dfc158b837ce502397788ea69208ed601ee",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

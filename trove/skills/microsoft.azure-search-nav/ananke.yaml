@@ -1,0 +1,27 @@
+kind: skill
+namespace: microsoft
+name: azure-search-nav
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-search-nav
+summary: Builds an Azure portal deep link to a specific blade/menu item for supported Microsoft.ContainerService,
+  Microsoft.Kubernetes, and Microsoft.Compute resources using the aks-search-direct-mid semantic…
+description: 'Builds an Azure portal deep link to a specific blade/menu item for supported Microsoft.ContainerService,
+  Microsoft.Kubernetes, and Microsoft.Compute resources using the aks-search-direct-mid semantic search API. WHEN:
+  ''find where in the Azure portal to do something'', ''search the portal for an operation'', ''construct a portal
+  link from a search query and a resource''.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/aks-skills/skills/azure-search-nav
+  repository: https://github.com/microsoft/skills

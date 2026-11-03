@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/terraform-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "terraform-engineer",
+  "title": "terraform-engineer",
+  "description": "Use when building, refactoring, or scaling infrastructure as code using Terraform with focus on multi-cloud deployments, module architecture, and enterprise-grade state management.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "terraform-engineer.md",
+  "dir": "agents/voltagent.terraform-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/terraform-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/terraform-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "terraform-engineer.md"
+  ],
+  "entry_hash": "3486da207e3c2e5555f746909dbbe5942dc094358b55e040a99b691b473cf845",
+  "content_hash": "e1a0017ae7201a18153243c23cdac9c869de8a00c93d321b812b52b902002cd4",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

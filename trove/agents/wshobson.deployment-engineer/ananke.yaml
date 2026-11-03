@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: deployment-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:deployment-engineer
+summary: Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment
+  automation.
+description: Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment
+  automation. Masters GitHub Actions, ArgoCD/Flux, progressive delivery, container security, and platform engineering.
+  Handles zero-downtime deployments, security scanning, and developer experience optimization. Use PROACTIVELY for
+  CI/CD design, GitOps implementation, or deployment automation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: deployment-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cicd-automation/agents/deployment-engineer.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/business-analyst",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "business-analyst",
+  "title": "business-analyst",
+  "description": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for business intelligence or strategic analysis.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "business-analyst.md",
+  "dir": "agents/wshobson.business-analyst",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/business-analytics/agents/business-analyst.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/business-analytics/agents/business-analyst.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "business-analyst.md"
+  ],
+  "entry_hash": "c9803de647add89642afcee05ec27c7ab1e1736fb2586990010efbad6b76ca7a",
+  "content_hash": "c9e21c74ac0060a52f321e93c19356f48914643c491989d950c5408919806fa4",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

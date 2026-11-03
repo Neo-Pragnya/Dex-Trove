@@ -1,0 +1,49 @@
+{
+  "id": "scientific/torchdrug",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "torchdrug",
+  "title": "TorchDrug",
+  "description": "Builds and troubleshoots TorchDrug 0.2.1 workflows for molecular graphs, property prediction, self-supervised pretraining, molecule generation, retrosynthesis, protein representation learning, and knowledge graph reasoning. Use when code imports torchdrug or needs its datasets, models, tasks, or Engine.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.torchdrug",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/torchdrug",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/torchdrug",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/core_concepts.md",
+    "references/datasets.md",
+    "references/knowledge_graphs.md",
+    "references/models_architectures.md",
+    "references/molecular_generation.md",
+    "references/molecular_property_prediction.md",
+    "references/protein_modeling.md",
+    "references/retrosynthesis.md",
+    "references/review.md"
+  ],
+  "entry_hash": "03538274e00aad262d159ca5ebed55fe6519d605171569feff44afeb781088fd",
+  "content_hash": "eec89c70fa67bc12a29eec9a2e46a26ca77e48acd2cf466434738d8628bcd850",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

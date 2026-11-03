@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/fastapi-router-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "fastapi-router-py",
+  "title": "FastAPI Router",
+  "description": "Create FastAPI routers with CRUD operations, authentication dependencies, and proper response models. Use when building REST API endpoints, creating new routes, implementing CRUD operations, or adding authenticated endpoints in FastAPI applications.",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.fastapi-router-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/fastapi-router-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/fastapi-router-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/template.py",
+    "references/capabilities.md"
+  ],
+  "entry_hash": "a8c5911b2c67af768af99d0a1972e16c364ddd8194506d574ae90f375dca6bdf",
+  "content_hash": "2d67214a0af10ed369addf8b6a11c01f9a724878008e30b7d8f07b7da77f7146",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

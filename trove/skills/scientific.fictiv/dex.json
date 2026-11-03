@@ -1,0 +1,50 @@
+{
+  "id": "scientific/fictiv",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "fictiv",
+  "title": "Fictiv: quote, order and troubleshoot custom parts",
+  "description": "Operates Fictiv (app.fictiv.com), the on-demand manufacturing platform, end to end in the user's browser. Covers uploading CAD parts, configuring process, material, finish, threads, tolerances and inspections, getting instant or manual quotes, reading and fixing DFM feedback, choosing lead time and region, checking out and paying (card or PO), tracking orders, reordering, and troubleshooting. Applies when the user mentions Fictiv, wants a part CNC machined, 3D printed, sheet-metal fabricated, urethane cast, injection or compression molded, or die cast through an online service, asks to \"get a quote\" or \"order parts\" for a STEP/SLDPRT/STL file, wants to check a Fictiv quote or order status, or has a problem with a Fictiv upload, DFM warning, price or checkout. Also applies when the user wants custom parts manufactured and has a Fictiv account, even if Fictiv is not named.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.fictiv",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/fictiv",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/fictiv",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/checkout-and-payment.md",
+    "references/orders-library-teams.md",
+    "references/quoting.md",
+    "references/troubleshooting.md",
+    "references/ui-map.md",
+    "scripts/check_cad_file.py",
+    "scripts/list_dropdown_options.js",
+    "scripts/quote_state.js"
+  ],
+  "entry_hash": "c4f9b182d2f4664fe4b729832fff7fe98112b6823eaea3601633fa17112a6164",
+  "content_hash": "2ca911940cda58a15585e1411e0bc70d510c1eef8ca70f595e31538b3726ba1b",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

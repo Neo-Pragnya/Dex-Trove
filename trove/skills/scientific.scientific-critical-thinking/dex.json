@@ -1,0 +1,48 @@
+{
+  "id": "scientific/scientific-critical-thinking",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "scientific-critical-thinking",
+  "title": "Scientific Critical Thinking",
+  "description": "Evaluates scientific claims and evidence quality. Applies to experimental design validity, biases and confounders, statistical interpretation, evidence grading frameworks (GRADE, Cochrane Risk of Bias), and teaching critical analysis. Supports evidence appraisal and identifying flaws; formal peer review writing belongs to peer-review.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.scientific-critical-thinking",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/scientific-critical-thinking",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-critical-thinking",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/common_biases.md",
+    "references/core_capabilities.md",
+    "references/evidence_hierarchy.md",
+    "references/experimental_design.md",
+    "references/logical_fallacies.md",
+    "references/review_sources.md",
+    "references/scientific_method.md",
+    "references/statistical_pitfalls.md"
+  ],
+  "entry_hash": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+  "content_hash": "f23ec33d6e8858ed9a3a484eccdfe4b373d6751ef0d5d28b4ce13aa7d0431e19",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

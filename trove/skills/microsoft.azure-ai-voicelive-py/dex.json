@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/azure-ai-voicelive-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-voicelive-py",
+  "title": "Azure AI Voice Live SDK",
+  "description": "Build real-time voice AI applications using Azure AI Voice Live SDK (azure-ai-voicelive). Use this skill when creating Python applications that need real-time bidirectional audio communication with Azure AI, including voice assistants, voice-enabled chatbots, real-time speech-to-speech translation, voice-driven avatars, or any WebSocket-based audio streaming with AI models. Supports Server VAD (Voice Activity Detection), turn-based conversation, function calling, MCP tools, avatar integration, and transcription.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-voicelive-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-ai-voicelive-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-ai-voicelive-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api-reference.md",
+    "references/examples.md",
+    "references/models.md"
+  ],
+  "entry_hash": "8a765d22c122b71f8726aded787a45e248ed3823fdf373cc041d3adc2a5814f5",
+  "content_hash": "6d55282ebcf115410e160f19b9e64417e4d097f42dce333265fe29d3496f880f",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

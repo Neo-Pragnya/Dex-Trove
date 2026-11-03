@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-monitor-opentelemetry-exporter-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-monitor-opentelemetry-exporter-py",
+  "title": "Azure Monitor OpenTelemetry Exporter for Python",
+  "description": "Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.\nTriggers: \"azure-monitor-opentelemetry-exporter\", \"AzureMonitorTraceExporter\", \"AzureMonitorMetricExporter\", \"AzureMonitorLogExporter\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-monitor-opentelemetry-exporter-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-exporter-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-exporter-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "0442148cb6e845b4c682e1adf7e253fef2dab295a47a48da210d91970205178b",
+  "content_hash": "f67f902c3c35f2d5966928c38771e11017747d9117475eb6d8d656e7629b6c44",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

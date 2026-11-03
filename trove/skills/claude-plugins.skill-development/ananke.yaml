@@ -1,0 +1,32 @@
+kind: skill
+namespace: claude-plugins
+name: skill-development
+version: 0.1.0
+ananke_id: urn:dex-trove:skill:claude-plugins:skill-development
+summary: This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new
+  skill", "improve skill description", "organize skill content", or needs guidance on skill struc…
+description: This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write
+  a new skill", "improve skill description", "organize skill content", or needs guidance on skill structure, progressive
+  disclosure, or skill development best practices for Claude Code plugins.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'plugins/plugin-dev/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/skill-development
+  repository: https://github.com/anthropics/claude-plugins-official

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/mermaid-expert",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "mermaid-expert",
+  "title": "mermaid-expert",
+  "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling. Use PROACTIVELY for visual documentation, system diagrams, or process flows.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "mermaid-expert.md",
+  "dir": "agents/wshobson.mermaid-expert",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/documentation-generation/agents/mermaid-expert.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/documentation-generation/agents/mermaid-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mermaid-expert.md"
+  ],
+  "entry_hash": "13efaddbe882b125326855ebc616a6896723ec3d7f988f90132da99ce29fcea0",
+  "content_hash": "ee7371800e97d94d76e894e300ed533ba5dbc83c9cc0467b9f702680045d1dab",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

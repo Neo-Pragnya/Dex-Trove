@@ -1,0 +1,61 @@
+{
+  "id": "scientific/pptx-posters",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pptx-posters",
+  "title": "PPTX posters",
+  "description": "Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Used when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pptx-posters",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pptx-posters",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pptx-posters",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/generation_dependencies.json",
+    "assets/poster_manifest_template.json",
+    "assets/poster_quality_checklist.md",
+    "references/manifest_spec.md",
+    "references/poster_content_guide.md",
+    "references/poster_design_principles.md",
+    "references/poster_layout_design.md",
+    "references/pptx_security.md",
+    "references/security_validation.md",
+    "references/source_ledger.md",
+    "scripts/_common.py",
+    "scripts/_manifest.py",
+    "scripts/_pptx.py",
+    "scripts/check_layout.py",
+    "scripts/check_palette.py",
+    "scripts/generate_poster.py",
+    "scripts/inspect_pptx.py",
+    "scripts/inventory_images.py",
+    "scripts/plan_export.py",
+    "scripts/validate_manifest.py"
+  ],
+  "entry_hash": "bb4923ec520ac5175f837e75c8b600344cc1eb71490b1fa9c809ac65e64f1fb9",
+  "content_hash": "466820c6ad10c9ca96b114e88efa04640dc199773e39b86725005754eaa00cab",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

@@ -25,6 +25,56 @@
       },
       "excluded": 41
     },
+    "bmad-method": {
+      "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "ref": "main",
+      "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+      "learned_at": "2026-11-03T06:17:47+00:00",
+      "items": {
+        "skill": 33
+      },
+      "excluded": 0
+    },
+    "claude-plugins": {
+      "repo": "https://github.com/anthropics/claude-plugins-official",
+      "ref": "main",
+      "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+      "learned_at": "2026-11-03T06:22:32+00:00",
+      "items": {
+        "skill": 24
+      },
+      "excluded": 3
+    },
+    "huggingface": {
+      "repo": "https://github.com/huggingface/skills",
+      "ref": "main",
+      "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+      "learned_at": "2026-11-03T06:19:24+00:00",
+      "items": {
+        "skill": 26
+      },
+      "excluded": 0
+    },
+    "impeccable": {
+      "repo": "https://github.com/pbakaus/impeccable",
+      "ref": "main",
+      "commit": "9fadc41729c38fd47d7ae622b501558653f9d2e9",
+      "learned_at": "2026-11-03T06:18:27+00:00",
+      "items": {
+        "skill": 1
+      },
+      "excluded": 0
+    },
+    "microsoft": {
+      "repo": "https://github.com/microsoft/skills",
+      "ref": "main",
+      "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+      "learned_at": "2026-11-03T06:29:31+00:00",
+      "items": {
+        "skill": 180
+      },
+      "excluded": 9
+    },
     "neo-pragnya": {
       "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
       "ref": "HEAD",
@@ -32,6 +82,26 @@
       "learned_at": "2026-11-02T14:36:29+00:00",
       "items": {
         "skill": 11
+      },
+      "excluded": 0
+    },
+    "scientific": {
+      "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "ref": "main",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "learned_at": "2026-11-03T10:27:18+00:00",
+      "items": {
+        "skill": 164
+      },
+      "excluded": 13
+    },
+    "spec-kit": {
+      "repo": "https://github.com/github/spec-kit",
+      "ref": "main",
+      "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+      "learned_at": "2026-11-03T06:38:48+00:00",
+      "items": {
+        "prompt": 9
       },
       "excluded": 0
     },
@@ -44,6 +114,26 @@
         "skill": 15
       },
       "excluded": 0
+    },
+    "voltagent": {
+      "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+      "ref": "main",
+      "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+      "learned_at": "2026-11-03T06:39:49+00:00",
+      "items": {
+        "agent": 165
+      },
+      "excluded": 1
+    },
+    "wshobson": {
+      "repo": "https://github.com/wshobson/agents",
+      "ref": "main",
+      "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+      "learned_at": "2026-11-03T06:20:52+00:00",
+      "items": {
+        "agent": 137
+      },
+      "excluded": 65
     }
   }
 }

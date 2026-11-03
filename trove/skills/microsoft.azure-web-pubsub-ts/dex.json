@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-web-pubsub-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-web-pubsub-ts",
+  "title": "Azure Web PubSub SDKs for TypeScript",
+  "description": "Build real-time messaging applications using Azure Web PubSub SDKs for JavaScript (@azure/web-pubsub, @azure/web-pubsub-client). Use when implementing WebSocket-based real-time features, pub/sub messaging, group chat, or live notifications.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-web-pubsub-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-web-pubsub-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-web-pubsub-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e422b13b05cb0b17c35c49d75f307127dbe1cc65735f07556d46daee82f0bdc5",
+  "content_hash": "fedaad1fe4c39981776dfc84b8b5bcc6f9cc283ea0ffc4c5dd441f792ba74aff",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

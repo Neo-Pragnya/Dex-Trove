@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/ios-developer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "ios-developer",
+  "title": "ios-developer",
+  "description": "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18, SwiftUI, UIKit integration, Core Data, networking, and App Store optimization. Use PROACTIVELY for iOS-specific features, App Store optimization, or native iOS development.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "ios-developer.md",
+  "dir": "agents/wshobson.ios-developer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/multi-platform-apps/agents/ios-developer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/multi-platform-apps/agents/ios-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ios-developer.md"
+  ],
+  "entry_hash": "dcc3c352218165bbf353664ad469464ee45525ab19fdf7f591383cfe68120725",
+  "content_hash": "5831570d7e997e48da0f8bdf1ea7d159f45dd487c2fa12d96cbed8800297d726",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

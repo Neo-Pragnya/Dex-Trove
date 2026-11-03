@@ -1,0 +1,44 @@
+{
+  "id": "microsoft/azure-servicebus-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-servicebus-py",
+  "title": "Azure Service Bus SDK for Python",
+  "description": "Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.\nTriggers: \"service bus\", \"ServiceBusClient\", \"queue\", \"topic\", \"subscription\", \"message broker\".",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-servicebus-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-servicebus-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-servicebus-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/dead-letter.md",
+    "references/patterns.md",
+    "scripts/setup_servicebus.py"
+  ],
+  "entry_hash": "6d1905fe12c4c84a3e4520ee6c03d21b205111b0c394c14e4a0d5bb322c94435",
+  "content_hash": "99ebf47a4c3524b16e20e7f121cf6beb7574c357d3214a125885cdbb13f46763",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/hybrid-cloud-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "hybrid-cloud-architect",
+  "title": "hybrid-cloud-architect",
+  "description": "Expert hybrid cloud architect specializing in complex multi-cloud solutions across AWS/Azure/GCP/OCI and private clouds (OpenStack/VMware). Masters hybrid connectivity, workload placement optimization, edge computing, and cross-cloud automation. Handles compliance, cost optimization, disaster recovery, and migration strategies. Use PROACTIVELY for hybrid architecture, multi-cloud strategy, or complex infrastructure integration.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "hybrid-cloud-architect.md",
+  "dir": "agents/wshobson.hybrid-cloud-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/cloud-infrastructure/agents/hybrid-cloud-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cloud-infrastructure/agents/hybrid-cloud-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "hybrid-cloud-architect.md"
+  ],
+  "entry_hash": "d7a59bd83c76f370950d2d8994ed2a2a267b6b94dc461ee18e0c5e62f014cf73",
+  "content_hash": "efadbca5ad37e8a08481cff0d9447b07bf2035ba1ee86e19a415f6f22034aa96",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

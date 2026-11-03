@@ -1,0 +1,25 @@
+kind: skill
+namespace: scientific
+name: geopandas
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:geopandas
+summary: Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame,
+  spatial operations, or vector-data I/O.
+description: Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame,
+  spatial operations, or vector-data I/O.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/geopandas
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

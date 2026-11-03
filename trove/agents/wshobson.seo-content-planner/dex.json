@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-content-planner",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-content-planner",
+  "title": "seo-content-planner",
+  "description": "Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps. Use PROACTIVELY for content strategy and planning.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-content-planner.md",
+  "dir": "agents/wshobson.seo-content-planner",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-content-creation/agents/seo-content-planner.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-content-creation/agents/seo-content-planner.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-content-planner.md"
+  ],
+  "entry_hash": "5d582aa7a76a8360b9c73e3e7d01386c15e35e7dd89865c90f88c7baa2f2ce66",
+  "content_hash": "79213a5840565da99fb7de23f06c4f6cacc7574f454ec93a821c93ac89b1959b",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

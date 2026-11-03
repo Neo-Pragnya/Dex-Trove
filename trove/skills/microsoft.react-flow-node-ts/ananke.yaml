@@ -1,0 +1,24 @@
+kind: skill
+namespace: microsoft
+name: react-flow-node-ts
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:react-flow-node-ts
+summary: Create React Flow node components with TypeScript types, handles, and Zustand integration.
+description: Create React Flow node components with TypeScript types, handles, and Zustand integration. Use when
+  building custom nodes for React Flow canvas, creating visual workflow editors, or implementing node-based UI components.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/react-flow-node-ts
+  repository: https://github.com/microsoft/skills

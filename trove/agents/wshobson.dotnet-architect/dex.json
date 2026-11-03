@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/dotnet-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "dotnet-architect",
+  "title": "dotnet-architect",
+  "description": "Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise application patterns. Masters async/await, dependency injection, caching strategies, and performance optimization. Use PROACTIVELY for .NET API development, code review, or architecture decisions.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "dotnet-architect.md",
+  "dir": "agents/wshobson.dotnet-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/dotnet-contribution/agents/dotnet-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/dotnet-contribution/agents/dotnet-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dotnet-architect.md"
+  ],
+  "entry_hash": "cb46f1c2c9364190cdc31c7cfd59709465f3ebc52cf4d23ce86c21061445a1b4",
+  "content_hash": "3ae419549a085ddbe511687680b32a5f2e54bd0c0c42dfa0793688fd3590fd1a",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

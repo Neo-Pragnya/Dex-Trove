@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: m365-agents-dotnet
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:m365-agents-dotnet
+summary: Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET
+  Core hosting, AgentApplication routing, and MSAL-based auth.
+description: 'Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET
+  Core hosting, AgentApplication routing, and MSAL-based auth. Triggers: "Microsoft 365 Agents SDK", "Microsoft.Agents",
+  "AddAgentApplicationOptions", "AgentApplication", "AddAgentAspNetAuthentication", "Copilot Studio client", "IAgentHttpAdapter".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/m365-agents-dotnet
+  repository: https://github.com/microsoft/skills

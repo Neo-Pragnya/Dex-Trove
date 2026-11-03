@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: geomaster
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:geomaster
+summary: Supports geospatial research workflows for remote sensing, vector and raster GIS, spatial statistics, terrain
+  and network analysis, and machine learning for Earth observation.
+description: Supports geospatial research workflows for remote sensing, vector and raster GIS, spatial statistics,
+  terrain and network analysis, and machine learning for Earth observation. Use when processing satellite imagery,
+  aligning coordinate systems and raster grids, accessing STAC catalogs, analyzing geospatial time series, or implementing
+  scientific GIS workflows in Python, R, Julia, JavaScript, C++, Java, Go, or Rust.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT License'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/geomaster
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

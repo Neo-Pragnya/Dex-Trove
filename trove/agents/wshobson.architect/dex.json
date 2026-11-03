@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "architect",
+  "title": "architect",
+  "description": "Architect agent. Reads orchestrator-output.md, AGENTS.md, and project-doc.md to produce a numbered step-by-step implementation plan. Pauses for human approval before implementation begins.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "architect.md",
+  "dir": "agents/wshobson.architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/ship-mate/agents/architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "architect.md"
+  ],
+  "entry_hash": "12e90779c087d055bb579274c56a14e6421abd0dcfa3ce7a076ae4e3b28a0137",
+  "content_hash": "7bc2b3544132e7a2d231335489caa569e5b7fbbd906d505a0b5afad08f21e1e2",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

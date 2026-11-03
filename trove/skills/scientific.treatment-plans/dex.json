@@ -1,0 +1,63 @@
+{
+  "id": "scientific/treatment-plans",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "treatment-plans",
+  "title": "Treatment-Plan Documentation",
+  "description": "Formats and structurally validates local treatment-plan documentation after clinical decisions have already been supplied and verified by authorized licensed professionals. Use for source traceability, clinician-authored intervention records, goals and checkpoints, shared-decision records, reconciliation handoffs, and release gates—not for clinical decision-making.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.treatment-plans",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/treatment-plans",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/treatment-plans",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/clinician_authored_intervention_template.json",
+    "assets/goals_monitoring_checkpoint_template.json",
+    "assets/informed_preference_shared_decision_template.json",
+    "assets/intended_use_handoff_template.json",
+    "assets/source_fact_manifest_template.json",
+    "assets/transition_reconciliation_template.json",
+    "references/README.md",
+    "references/documentation_workflow.md",
+    "references/privacy_governance.md",
+    "references/safety_scope.md",
+    "references/security_validation.md",
+    "references/shared_decision_handoff.md",
+    "references/source_boundaries.md",
+    "references/source_ledger.md",
+    "scripts/_common.py",
+    "scripts/check_completeness.py",
+    "scripts/check_consistency.py",
+    "scripts/generate_template.py",
+    "scripts/privacy_process_check.py",
+    "scripts/timeline_generator.py",
+    "scripts/validate_traceability.py",
+    "scripts/validate_treatment_plan.py"
+  ],
+  "entry_hash": "ebb509854e12d016475ee6d45834a2a72c16815d1b9d940a9d156e7f024cbed6",
+  "content_hash": "c7736f5dcb56eb10410a61cb5332955b9c651aac13b7eaad4ae636414197d659",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

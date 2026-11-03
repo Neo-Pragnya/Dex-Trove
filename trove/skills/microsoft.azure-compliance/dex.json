@@ -1,0 +1,55 @@
+{
+  "id": "microsoft/azure-compliance",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-compliance",
+  "title": "Azure Compliance & Security Auditing",
+  "description": "Run Azure compliance and security audits with azqr plus Key Vault expiration checks. Covers best-practice assessment, resource review, policy/compliance validation, and security posture checks. WHEN: compliance scan, security audit, BEFORE running azqr (compliance cli tool), Azure best practices, Key Vault expiration check, expired certificates, expiring secrets, orphaned resources, compliance assessment.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-compliance",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/azure-compliance",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-compliance",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/auth-best-practices.md",
+    "references/azqr-recommendations.md",
+    "references/azqr-remediation-patterns.md",
+    "references/azure-keyvault-expiration-audit.md",
+    "references/azure-quick-review.md",
+    "references/azure-resource-graph.md",
+    "references/sdk/azure-keyvault-certificates-rust.md",
+    "references/sdk/azure-keyvault-keys-rust.md",
+    "references/sdk/azure-keyvault-keys-ts.md",
+    "references/sdk/azure-keyvault-py.md",
+    "references/sdk/azure-keyvault-secrets-rust.md",
+    "references/sdk/azure-keyvault-secrets-ts.md",
+    "references/sdk/azure-security-keyvault-keys-dotnet.md",
+    "references/sdk/azure-security-keyvault-keys-java.md",
+    "references/sdk/azure-security-keyvault-secrets-java.md"
+  ],
+  "entry_hash": "f5ef52fa1c810d80ffb89d1dd0cc427f43f88849a6aa32fd7a6ee358e8d1eef4",
+  "content_hash": "d1fd312e391abc6725f8955463cb589c3e536b1ed2ae5b83b5ed2b57c19e571a",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

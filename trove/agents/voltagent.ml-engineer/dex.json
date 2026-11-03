@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/ml-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "ml-engineer",
+  "title": "ml-engineer",
+  "description": "Use this agent when building production ML systems requiring model training pipelines, model serving infrastructure, performance optimization, and automated retraining.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "ml-engineer.md",
+  "dir": "agents/voltagent.ml-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/ml-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/ml-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ml-engineer.md"
+  ],
+  "entry_hash": "34ccb17b246576569298d65f438e76f62b61999248a435a6d2fcc898cee932eb",
+  "content_hash": "f7d17cce528f192bba376222ec3cf95b85a0a7b1a2723e8b33f7d1a3aa45b305",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

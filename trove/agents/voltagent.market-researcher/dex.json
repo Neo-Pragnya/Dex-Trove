@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/market-researcher",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "market-researcher",
+  "title": "market-researcher",
+  "description": "Use this agent when you need to analyze markets, understand consumer behavior, assess competitive landscapes, and size opportunities to inform business strategy and market entry decisions.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "market-researcher.md",
+  "dir": "agents/voltagent.market-researcher",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/market-researcher.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/market-researcher.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "market-researcher.md"
+  ],
+  "entry_hash": "5ee6d345b5a8b705e5da1f0696702536c75a87fedcbcab77faa18e3cf491772e",
+  "content_hash": "8ac112d679f407d1417e82d4f3b08ab19a2c6a09a5ddbe2abacf869987693172",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

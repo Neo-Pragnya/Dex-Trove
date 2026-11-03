@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-ai-voicelive-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-voicelive-ts",
+  "title": "@azure/ai-voicelive (JavaScript/TypeScript)",
+  "description": "Azure AI Voice Live SDK for JavaScript/TypeScript. Build real-time voice AI applications with bidirectional WebSocket communication. Use for voice assistants, conversational AI, real-time speech-to-speech, and voice-enabled chatbots in Node.js or browser environments. Triggers: \"voice live\", \"real-time voice\", \"VoiceLiveClient\", \"VoiceLiveSession\", \"voice assistant TypeScript\", \"bidirectional audio\", \"speech-to-speech JavaScript\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-voicelive-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-voicelive-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-ai-voicelive-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/audio-streaming.md",
+    "references/function-calling.md"
+  ],
+  "entry_hash": "d288827a7769dba34a4154b0981feee766ecefcd64ccd5e052f21d5e064d4d04",
+  "content_hash": "643fc9310ab9891509da0e24bd47326b08010e1bdd8eee7c8a57c2bbcbf3ad1f",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

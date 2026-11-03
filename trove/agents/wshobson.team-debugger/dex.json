@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/team-debugger",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "team-debugger",
+  "title": "team-debugger",
+  "description": "Hypothesis-driven debugging investigator that investigates one assigned hypothesis, gathering evidence to confirm or falsify it with file:line citations and confidence levels. Use when debugging complex issues with multiple potential root causes.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "team-debugger.md",
+  "dir": "agents/wshobson.team-debugger",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/agent-teams/agents/team-debugger.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/agent-teams/agents/team-debugger.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "team-debugger.md"
+  ],
+  "entry_hash": "19360c4296de249c1c9c0de9251fe10409ab39ba7215b419c6898ec39b3fc78f",
+  "content_hash": "f08d1028e69e9f21cbfc38156ccb8fa1337f123f5444cf0d66139d90ea0f1ed3",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "claude-plugins/math-olympiad",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "math-olympiad",
+  "title": "Math Olympiad Solver",
+  "description": "Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the errors self-verification misses. Activates when asked to 'solve this IMO problem', 'prove this olympiad inequality', 'verify this competition proof', 'find a counterexample', 'is this proof correct', or for any problem with 'IMO', 'Putnam', 'USAMO', 'olympiad', or 'competition math' in it. Uses pure reasoning (no tools) — then a fresh-context adversarial verifier attacks the proof using specific failure patterns, not generic 'check logic'. Outputs calibrated confidence — will say 'no confident solution' rather than bluff. If LaTeX is available, produces a clean PDF after verification passes.",
+  "tags": [
+    "claude-plugins",
+    "executes-code",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.math-olympiad",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/math-olympiad/skills/math-olympiad",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/math-olympiad/skills/math-olympiad",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/math-olympiad/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "evals/trigger_eval.json",
+    "references/adversarial_prompts.md",
+    "references/attempt_agent.md",
+    "references/known_constructions.md",
+    "references/model_tier_defaults.md",
+    "references/presentation_prompts.md",
+    "references/solver_heuristics.md",
+    "references/verifier_patterns.md",
+    "scripts/check_latex.sh",
+    "scripts/compile_pdf.sh"
+  ],
+  "entry_hash": "f697e195d343520f3db551bd4fb44c5120504ee2c47a9cc2016cd57767f23403",
+  "content_hash": "133714925835446f3f73f583b8c8ce1875e7048bafe9864956ce6f6308e50f11",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

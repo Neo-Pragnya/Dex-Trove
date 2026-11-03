@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: citation-management
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:citation-management
+summary: Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for
+  papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX e…
+description: Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar
+  for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This
+  skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure
+  reference accuracy in scientific writing.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT License'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/citation-management
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

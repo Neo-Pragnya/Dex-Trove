@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/fastapi-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "fastapi-developer",
+  "title": "fastapi-developer",
+  "description": "Use when building modern async Python APIs with FastAPI, implementing Pydantic v2 validation, dependency injection patterns, or deploying high-performance ASGI applications.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "fastapi-developer.md",
+  "dir": "agents/voltagent.fastapi-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/fastapi-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/fastapi-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "fastapi-developer.md"
+  ],
+  "entry_hash": "d446608d951060e7246c9935aa50034fe5bc96933b9e89bcee77e784dbf1f5e0",
+  "content_hash": "a9ca6440b439cb20c4890f6813a071bd9d9b402cc83f1ba2d07207c6d1d7c342",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: codebase-orchestrator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:codebase-orchestrator
+summary: Use this agent when you need repository-wide refactor governance with explicit approval loops, weighted
+  risk prioritization, diff previews, and deterministic fallback strategies.
+description: Use this agent when you need repository-wide refactor governance with explicit approval loops, weighted
+  risk prioritization, diff previews, and deterministic fallback strategies.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: codebase-orchestrator.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/codebase-orchestrator.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

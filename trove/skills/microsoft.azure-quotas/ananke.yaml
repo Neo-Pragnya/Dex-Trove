@@ -1,0 +1,27 @@
+kind: skill
+namespace: microsoft
+name: azure-quotas
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-quotas
+summary: Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region
+  selection.
+description: 'Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation,
+  region selection. WHEN: "check quotas", "service limits", "current usage", "request quota increase", "quota exceeded",
+  "validate capacity", "regional availability", "provisioning limits", "vCPU limit", "how many vCPUs available in
+  my subscription".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-quotas
+  repository: https://github.com/microsoft/skills

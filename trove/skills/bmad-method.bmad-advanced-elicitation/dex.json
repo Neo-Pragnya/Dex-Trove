@@ -1,0 +1,51 @@
+{
+  "id": "bmad-method/bmad-advanced-elicitation",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-advanced-elicitation",
+  "title": "Advanced Elicitation",
+  "description": "Pushes a draft off its first answer with critique methods and proposes one revision. Use when the user or another skill names bmad-advanced-elicitation, or the user says \"advanced elicitation\". Not for a critique or a named method such as pre-mortem without that name.",
+  "tags": [
+    "bmad-method",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-advanced-elicitation",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-advanced-elicitation",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-advanced-elicitation",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/methods.csv",
+    "bmod.toml",
+    "customize.toml",
+    "evals/cases.json",
+    "evals/files/pantry-pal.md",
+    "evals/files/prd-notifications.md",
+    "evals/files/rollout-plan.md",
+    "evals/triggers.json",
+    "scripts/pick_methods.py",
+    "scripts/tests/test_pick_methods.py"
+  ],
+  "entry_hash": "865e4a63e0c0d8e742139c413cc52fc47193da13fe96e4ccac5dd55a53b7343b",
+  "content_hash": "98263e0ebbbe8e9acb18cf094069fc55ed35f182d7d0468b628defc9021833eb",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

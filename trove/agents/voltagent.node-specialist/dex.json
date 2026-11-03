@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/node-specialist",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "node-specialist",
+  "title": "node-specialist",
+  "description": "Use this agent when you need to build, optimize, or debug Node.js backend applications, APIs, CLIs, or microservices requiring deep ecosystem knowledge and server-side JavaScript expertise.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "node-specialist.md",
+  "dir": "agents/voltagent.node-specialist",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/node-specialist.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/node-specialist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "node-specialist.md"
+  ],
+  "entry_hash": "66dbdce87cf90ca4a521040f6ce5bab1278c1d2205dadaa92645527ace0fd158",
+  "content_hash": "5bc74372aa6d8260e8d6f2b6ad9cd1313424f79119d7d6ba4ff1c4e851ee0095",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

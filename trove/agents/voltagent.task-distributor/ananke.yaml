@@ -1,0 +1,34 @@
+kind: agent
+namespace: voltagent
+name: task-distributor
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:task-distributor
+summary: Use when you need to design and document a task-distribution strategy across multiple agents or workers
+  — how to split work, order queues, respect priorities and deadlines, and balance load — written…
+description: Use when you need to design and document a task-distribution strategy across multiple agents or workers
+  — how to split work, order queues, respect priorities and deadlines, and balance load — written as a clear Markdown
+  plan.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: task-distributor.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/task-distributor.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

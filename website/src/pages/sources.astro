@@ -22,7 +22,7 @@ const total = (lock: Lock) => Object.values(lock?.items ?? {}).reduce((a, b) => 
   <div class="grid-2">
     {
       learned.map((s) => {
-        const lock = s.lock as Lock;
+        const lock = s.lock as unknown as Lock;
         return (
           <section class="card">
             <div class="chips">

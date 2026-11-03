@@ -1,0 +1,40 @@
+{
+  "id": "huggingface/huggingface-papers",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-papers",
+  "title": "Hugging Face Paper Pages",
+  "description": "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-papers",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-papers",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-papers",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "985c2d5c7261aba2b157811cde0c2b30134663694a4ab701280de28f941eb3b2",
+  "content_hash": "c751ed5c095d76a804307d240c4881e22959513593d68d48537bfeb6817e173e",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

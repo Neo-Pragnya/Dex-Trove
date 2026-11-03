@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-communication-sms-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-communication-sms-java",
+  "title": "Azure Communication SMS (Java)",
+  "description": "Send SMS messages with Azure Communication Services SMS Java SDK. Use when implementing SMS notifications, alerts, OTP delivery, bulk messaging, or delivery reports.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-communication-sms-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-communication-sms-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-communication-sms-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "78116489577296fe710c3dbd1f50e55536f612b71b26db2d5f56ddb8bc9b95ae",
+  "content_hash": "4af35ca6d1e659457de7cddaa9c9e15b7f3ba743334942ec28878b104173f3ef",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

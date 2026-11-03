@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: vector-database-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:vector-database-engineer
+summary: Expert in vector databases, embedding strategies, and semantic search implementation.
+description: Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone,
+  Weaviate, Qdrant, Milvus, and pgvector for RAG applications, recommendation systems, and similarity search. Use
+  PROACTIVELY for vector search implementation, embedding optimization, or semantic retrieval systems.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: vector-database-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/llm-application-dev/agents/vector-database-engineer.md
+  repository: https://github.com/wshobson/agents

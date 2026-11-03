@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: debugger
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:debugger
+summary: Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering
+  any issues.
+description: Debugging specialist for errors, test failures, and unexpected behavior. Use proactively when encountering
+  any issues.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: debugger.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/debugging-toolkit/agents/debugger.md
+  repository: https://github.com/wshobson/agents

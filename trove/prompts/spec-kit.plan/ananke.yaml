@@ -1,0 +1,31 @@
+kind: prompt
+namespace: spec-kit
+name: plan
+version: 1.0.0
+ananke_id: urn:dex-trove:prompt:spec-kit:plan
+summary: Execute the implementation planning workflow using the plan template to generate design artifacts.
+description: Execute the implementation planning workflow using the plan template to generate design artifacts.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: plan.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - prompt
+  - spec-kit
+  homepage: https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/plan.md
+  repository: https://github.com/github/spec-kit

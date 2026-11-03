@@ -80,6 +80,8 @@ Open a PR with the `dex learn` summary line in the description.
         title: Better Title
         inspired_by:
           - { title: Original idea, url: "https://…" }
+      noisy-skill:
+        withhold: "placeholder keys in its examples trip package scanners"   # left out, reason in EXCLUDED.json
     license:
       allow_review: true             # admit 'review' licences (MPL, LGPL, CC-BY-SA) — needs a recorded decision
 ```

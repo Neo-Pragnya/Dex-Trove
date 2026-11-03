@@ -1,0 +1,44 @@
+{
+  "id": "microsoft/aks-gpu-inference",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "aks-gpu-inference",
+  "title": "AKS GPU Inference Day-2",
+  "description": "Diagnose Day-2 AKS GPU and KAITO incidents using profile-aware, read-only evidence. WHEN: 'Insufficient nvidia.com/gpu', GPU pod Pending, model-load OOM, DCGM/VRAM, KAITO Workspace not ready, or GPU autoscaling. DO NOT USE FOR: setup (airunway-aks-setup), non-GPU incidents (aks-troubleshooting), standalone VM quota (azure-quotas), or generic cost (cost-analysis or cost-optimization from the optional azure-cost plugin).",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.aks-gpu-inference",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/aks-skills/skills/aks-gpu-inference",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/aks-skills/skills/aks-gpu-inference",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/gpu-cost-and-scaling.md",
+    "references/gpu-observability.md",
+    "references/gpu-scheduling.md",
+    "references/kaito-workspaces.md"
+  ],
+  "entry_hash": "0968850f574d452300a063c8b73f708a1cc54a7ba6adc103ce3c5a601f1a3f3e",
+  "content_hash": "d219fc2ce47947bb4fbbccc1cf342049985ec4cc1bba98a21e8b4450773a56e9",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

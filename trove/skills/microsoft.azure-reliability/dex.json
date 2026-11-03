@@ -1,0 +1,52 @@
+{
+  "id": "microsoft/azure-reliability",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-reliability",
+  "title": "Azure Reliability Assessment & Configuration",
+  "description": "Assess and improve the reliability posture of PaaS Applications (Azure Functions and Azure App Service). Scans deployed resources for zone redundancy, ZRS storage, health probes, and multi-region failover. Presents a feature-pivoted checklist, then drives staged remediation (CLI or IaC patches) end-to-end with user confirmation. WHEN: \"assess reliability\", \"check reliability\", \"zone redundant\", \"multi-region failover\", \"high availability\", \"disaster recovery\", \"single points of failure\", \"reliability posture\", \"resiliency\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-reliability",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/azure-reliability",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-reliability",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/configure-health-probes.md",
+    "references/configure-multi-region.md",
+    "references/configure-storage.md",
+    "references/configure-zone-redundancy.md",
+    "references/health-probe-checks.md",
+    "references/iac-patching-bicep.md",
+    "references/iac-patching-terraform.md",
+    "references/multi-region-checks.md",
+    "references/services/app-service/reliability.md",
+    "references/services/functions/reliability.md",
+    "references/storage-redundancy-checks.md",
+    "references/zone-redundancy-checks.md"
+  ],
+  "entry_hash": "a70f0a799c8f3cf805ada741e82af31a149b57cb1e2388d7805036492cdceb71",
+  "content_hash": "09cd90ee01733a0a7601a80ab43d8bc8d0884e29289312d21f9ce41fd97fce36",
+  "learned_at": "2026-11-03T06:19:31+00:00"
+}

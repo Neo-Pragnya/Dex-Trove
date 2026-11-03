@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: deploy-with-verification
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:deploy-with-verification
+summary: Use when deploying to production. Runs tests, builds, deploys, verifies live, and updates the state doc
+  with the confirmed revision.
+description: Use when deploying to production. Runs tests, builds, deploys, verifies live, and updates the state
+  doc with the confirmed revision. Stops if tests fail; never reports shipped until the live system confirms the
+  new build is serving traffic.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: deploy-with-verification.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/deploy-with-verification.md
+  repository: https://github.com/wshobson/agents

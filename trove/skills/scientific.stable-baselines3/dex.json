@@ -1,0 +1,48 @@
+{
+  "id": "scientific/stable-baselines3",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "stable-baselines3",
+  "title": "Stable Baselines3",
+  "description": "Trains and evaluates single-agent reinforcement learning with Stable Baselines3 (PPO, SAC, DQN, TD3, DDPG, A2C), Gymnasium custom environments, vectorized rollouts, callbacks, and checkpoint normalization. Applies to reproducible RL experiments, continuous control, discrete actions, and SB3-Contrib recurrent or masked policies.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.stable-baselines3",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/stable-baselines3",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/stable-baselines3",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/algorithms.md",
+    "references/callbacks.md",
+    "references/custom_environments.md",
+    "references/vectorized_envs.md",
+    "scripts/custom_env_template.py",
+    "scripts/evaluate_agent.py",
+    "scripts/train_rl_agent.py"
+  ],
+  "entry_hash": "8383ae480e27163b9dbe1d9af822e05f0e85dd05b5bab1f6444588d57f569837",
+  "content_hash": "0cf3947fc42319b5088b3d0e871b201427fdf91ee5a26d904ff0481a15f8639f",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

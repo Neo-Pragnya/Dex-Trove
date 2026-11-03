@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/ai-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "ai-engineer",
+  "title": "ai-engineer",
+  "description": "Use this agent when architecting, implementing, or optimizing end-to-end AI systems—from model selection and training pipelines to production deployment and monitoring.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "ai-engineer.md",
+  "dir": "agents/voltagent.ai-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/ai-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/ai-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ai-engineer.md"
+  ],
+  "entry_hash": "120ac8225dd466ad7ae4c98f8f8cf6374c87cebe0d7217c6f4e5fcb7654e9c51",
+  "content_hash": "291b0d0aee31656524c52bf993f73829ac831422f1e5edcc00788613b22cfaa7",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,36 @@
+kind: skill
+namespace: microsoft
+name: azure-monitor-query-java
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-monitor-query-java
+summary: Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics
+  from Azure resources.
+description: 'Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query
+  metrics from Azure resources.
+
+  Triggers: "LogsQueryClient java", "MetricsQueryClient java", "kusto query java", "log analytics java", "azure
+  monitor query java".
+
+  Note: This package is deprecated. Migrate to azure-monitor-query-logs and azure-monitor-query-metrics.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-monitor-query-java
+  repository: https://github.com/microsoft/skills

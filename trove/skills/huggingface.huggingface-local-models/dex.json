@@ -1,0 +1,43 @@
+{
+  "id": "huggingface/huggingface-local-models",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-local-models",
+  "title": "Hugging Face Local Models",
+  "description": "Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-local-models",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-local-models",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-local-models",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/hardware.md",
+    "references/hub-discovery.md",
+    "references/quantization.md"
+  ],
+  "entry_hash": "814640db1d5f2f274aec09d66b3589ed5a0fdcfaf536afd508b1d757dcae1534",
+  "content_hash": "e46e590a2fd80616ba8769761ef554c90e6a5720626a6ad170f46d75bcc88d1e",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

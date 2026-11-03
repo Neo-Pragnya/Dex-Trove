@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: azure-cloud-migrate
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-cloud-migrate
+summary: Assess and migrate cross-cloud workloads to Azure with reports and code conversion.
+description: 'Assess and migrate cross-cloud workloads to Azure with reports and code conversion. Supports Lambda→Functions,
+  Beanstalk/Heroku/App Engine→App Service, Fargate/Kubernetes/Cloud Run/Spring Boot→Container Apps. WHEN: migrate
+  Lambda to Functions, AWS to Azure, migrate Beanstalk, migrate Heroku, migrate App Engine, Cloud Run migration,
+  Fargate to ACA, ECS/Kubernetes/GKE/EKS to Container Apps, Spring Boot to Container Apps, cross-cloud migration.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-cloud-migrate
+  repository: https://github.com/microsoft/skills

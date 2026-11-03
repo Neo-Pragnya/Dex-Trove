@@ -1,0 +1,31 @@
+kind: skill
+namespace: scientific
+name: statistical-power
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:statistical-power
+summary: Calculates sample sizes and statistical power for study planning. Applies when someone asks "how many subjects/samples/replicates
+  do I need", wants an a priori power analysis, a minimum detectable eff…
+description: Calculates sample sizes and statistical power for study planning. Applies when someone asks "how many
+  subjects/samples/replicates do I need", wants an a priori power analysis, a minimum detectable effect (MDE), a
+  power curve, or needs to justify a sample size for a grant, IRB protocol, or pre-registration. Covers closed-form
+  power for t-tests, ANOVA, proportions, correlations, chi-square, and regression, plus simulation-based (Monte
+  Carlo) power for complex designs — logistic/Poisson regression, mixed models, cluster-randomized trials, survival,
+  and interactions. Also handles requests that only mention an effect size, alpha, or "80% power" without saying
+  "power analysis" explicitly. For laying out the study (randomization, blocking, factorial/DOE, crossover, sequential
+  designs) use experimental-design; for analyzing data already collected and reporting it use statistical-analysis.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT license'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/statistical-power
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

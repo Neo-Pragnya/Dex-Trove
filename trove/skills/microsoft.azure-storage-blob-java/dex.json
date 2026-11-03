@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-storage-blob-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage-blob-java",
+  "title": "Azure Storage Blob SDK for Java",
+  "description": "Build blob storage applications with Azure Storage Blob SDK for Java. Use when uploading, downloading, or managing files in Azure Blob Storage, working with containers, or implementing streaming data operations.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage-blob-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-storage-blob-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-storage-blob-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "677a18b27f976c62c8cc3276637319bbb581dc2860750941f7ba3b688e0f9f8a",
+  "content_hash": "c8d3ed599716d15b94d3b5fe8180a9c3d7e81da8ce4e6f812db4d144ceb65d28",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

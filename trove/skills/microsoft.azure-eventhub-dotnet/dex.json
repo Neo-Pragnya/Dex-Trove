@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-eventhub-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-eventhub-dotnet",
+  "title": "Azure.Messaging.EventHubs (.NET)",
+  "description": "Azure Event Hubs SDK for .NET. Use for high-throughput event streaming: sending events (EventHubProducerClient, EventHubBufferedProducerClient), receiving events (EventProcessorClient with checkpointing), partition management, and real-time data ingestion. Triggers: \"Event Hubs\", \"event streaming\", \"EventHubProducerClient\", \"EventProcessorClient\", \"send events\", \"receive events\", \"checkpointing\", \"partition\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-eventhub-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-eventhub-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-eventhub-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "f9b30ce076b96ee944e8863b553d48851a6ffaf6ab0e94acff72745b41ccf686",
+  "content_hash": "3180e17d58383270bac9ad7d3d2d166e8fe6df3dceccd38444a71e6f118cbfcd",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

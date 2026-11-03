@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/legal-advisor",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "legal-advisor",
+  "title": "legal-advisor",
+  "description": "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements. Use PROACTIVELY for legal documentation, compliance texts, or regulatory requirements.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "legal-advisor.md",
+  "dir": "agents/wshobson.legal-advisor",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/hr-legal-compliance/agents/legal-advisor.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/hr-legal-compliance/agents/legal-advisor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "legal-advisor.md"
+  ],
+  "entry_hash": "20082d2cd2b80fd761f48c8cb1629f553463758e33f1d7c689db30ef909a1ab6",
+  "content_hash": "0068c0509094546bc0d048d81ae60d38bfa56bf0a505f0580069a5c7bc9360f7",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

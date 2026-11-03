@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-ai-vision-imageanalysis-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-vision-imageanalysis-py",
+  "title": "Azure AI Vision Image Analysis SDK for Python",
+  "description": "Azure AI Vision Image Analysis SDK for captions, tags, objects, OCR, people detection, and smart cropping. Use for computer vision and image understanding tasks.\nTriggers: \"image analysis\", \"computer vision\", \"OCR\", \"object detection\", \"ImageAnalysisClient\", \"image caption\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-vision-imageanalysis-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-ai-vision-imageanalysis-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-ai-vision-imageanalysis-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "b6bcdb76e29ccc125741a75a07f0f65ee971086749a72a87d0b83c20bf9f6ea5",
+  "content_hash": "e42446b6745f8196fd593f02b27d24206ba07598a030c8ebc7d7ce943f646835",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

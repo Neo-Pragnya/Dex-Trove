@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-ai-voicelive-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-voicelive-dotnet",
+  "title": "Azure.AI.VoiceLive (.NET)",
+  "description": "Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication. Use for voice assistants, conversational AI, real-time speech-to-speech, and voice-enabled chatbots. Triggers: \"voice live\", \"real-time voice\", \"VoiceLiveClient\", \"VoiceLiveSession\", \"voice assistant .NET\", \"bidirectional audio\", \"speech-to-speech\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-voicelive-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-voicelive-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-ai-voicelive-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "3731d251910cb49587a0a83839e532fb1e70baa7750824d35b2a5e545c38da7a",
+  "content_hash": "a98b44542e856dac8b5ac7190d0a025f9db3a62c064952da537d294a0f644773",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/test-automator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "test-automator",
+  "title": "test-automator",
+  "description": "Use this agent when you need to build, implement, or enhance automated test frameworks, create test scripts, or integrate testing into CI/CD pipelines.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "test-automator.md",
+  "dir": "agents/voltagent.test-automator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/test-automator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/test-automator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "test-automator.md"
+  ],
+  "entry_hash": "811f2e71b5f74f1f0780da4b657737df056ef07eec2dd85b2492d1d58edd5dba",
+  "content_hash": "be6d9fe80e917f7d0fbd2d40a4313f90dba870c61c859073699793b7af6ff84b",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/mcp-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "mcp-developer",
+  "title": "mcp-developer",
+  "description": "Use this agent when you need to build, debug, or optimize Model Context Protocol (MCP) servers and clients that connect AI systems to external tools and data sources.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "mcp-developer.md",
+  "dir": "agents/voltagent.mcp-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/mcp-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/mcp-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mcp-developer.md"
+  ],
+  "entry_hash": "7ab6fa1836094fda0a03ec819987909f58c60422414b0e44fd61e9454efc1b56",
+  "content_hash": "03583f9796f6c86241594c2c5603c2d17fc8fb70ee4ce3ac3ed254f370b68b76",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

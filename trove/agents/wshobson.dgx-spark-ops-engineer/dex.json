@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/dgx-spark-ops-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "dgx-spark-ops-engineer",
+  "title": "dgx-spark-ops-engineer",
+  "description": "NVIDIA DGX Spark environment doctor for GB10/aarch64/CUDA-13 systems. Diagnoses and fixes ML stack setup, unified-memory, and thermal issues. Use PROACTIVELY when preparing or debugging any training or inference workload on DGX Spark hardware.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "dgx-spark-ops-engineer.md",
+  "dir": "agents/wshobson.dgx-spark-ops-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/dgx-spark-ops/agents/dgx-spark-ops-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/dgx-spark-ops/agents/dgx-spark-ops-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dgx-spark-ops-engineer.md"
+  ],
+  "entry_hash": "4bcb96c86a51f49efb060d1964cb050cd5bcb82c2a8e8ac244fcdef8bc6215fd",
+  "content_hash": "7db09b4a942cd13874ab1892ed35b9285ef92f1c20b99034f94b8e5c92f23f84",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/qa-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "qa-expert",
+  "title": "qa-expert",
+  "description": "Use this agent when you need comprehensive quality assurance strategy, test planning across the entire development cycle, or quality metrics analysis to improve overall software quality.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "qa-expert.md",
+  "dir": "agents/voltagent.qa-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/qa-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/qa-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "qa-expert.md"
+  ],
+  "entry_hash": "26e34e3ef0185fa230b1ab396de4339c7947fc59dc6503361377c7ab1f0c3abf",
+  "content_hash": "87bb7c2ada7a6a71620205fb60c29c5b29409df02e811cc528d937cb231d7158",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

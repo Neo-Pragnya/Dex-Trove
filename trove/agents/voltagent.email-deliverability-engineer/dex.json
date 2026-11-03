@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/email-deliverability-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "email-deliverability-engineer",
+  "title": "email-deliverability-engineer",
+  "description": "Use this agent when configuring email authentication, integrating transactional or marketing email providers, diagnosing deliverability problems, or building compliant sending infrastructure.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "email-deliverability-engineer.md",
+  "dir": "agents/voltagent.email-deliverability-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/email-deliverability-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/email-deliverability-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "email-deliverability-engineer.md"
+  ],
+  "entry_hash": "a42df484243f220d5e653c2b2e77a6adf526bc8cdc797f3e375f86794b909b26",
+  "content_hash": "ebc46bb636cf0296608e0aa8c0994a1b7da83c4468e7e2764346d21b595ee6c9",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

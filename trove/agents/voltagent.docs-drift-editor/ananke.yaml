@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: docs-drift-editor
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:docs-drift-editor
+summary: Use this agent to update Markdown documentation pages that have drifted out of sync with a code change,
+  inside an isolated git worktree, without inventing commands, URLs, or features not present in th…
+description: Use this agent to update Markdown documentation pages that have drifted out of sync with a code change,
+  inside an isolated git worktree, without inventing commands, URLs, or features not present in the diff.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: docs-drift-editor.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/docs-drift-editor.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

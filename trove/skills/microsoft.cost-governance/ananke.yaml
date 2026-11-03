@@ -1,0 +1,33 @@
+kind: skill
+namespace: microsoft
+name: cost-governance
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:cost-governance
+summary: 'Govern Azure costs with budgets, alerts, tags, and policy restrictions. WHEN: "Azure budget health", "configured
+  budget overrun", "list Azure budgets", "create Azure budget", "budget alerts", "budget…'
+description: 'Govern Azure costs with budgets, alerts, tags, and policy restrictions. WHEN: "Azure budget health",
+  "configured budget overrun", "list Azure budgets", "create Azure budget", "budget alerts", "budget coverage",
+  "missing CostCenter tags", "allowed VM SKUs", "allowed Azure regions", "would this SKU be denied", "cost guardrails".
+  DO NOT USE FOR: planning-target forecasts, bill investigations, pricing, rightsizing, or commitments.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-cost/skills/cost-governance
+  repository: https://github.com/microsoft/skills

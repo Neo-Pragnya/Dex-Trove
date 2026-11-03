@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/quant-analyst",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "quant-analyst",
+  "title": "quant-analyst",
+  "description": "Build financial models, backtest trading strategies, and analyze market data. Implements risk metrics, portfolio optimization, and statistical arbitrage. Use PROACTIVELY for quantitative finance, trading algorithms, or risk analysis.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "quant-analyst.md",
+  "dir": "agents/wshobson.quant-analyst",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/quantitative-trading/agents/quant-analyst.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/quantitative-trading/agents/quant-analyst.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "quant-analyst.md"
+  ],
+  "entry_hash": "0ebcad2d24557e93e75e63fb980ca553382b6ee3f9bb8d1bf263ab5f98f5e766",
+  "content_hash": "82f551725afc4792e8175525a958d26bbaafadc1e14ee03e1f3e2cf34b02998b",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

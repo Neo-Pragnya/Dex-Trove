@@ -372,6 +372,10 @@ class Learner:
         if (raw.kind, slug) in produced:
             self._exclude(result, raw, root, "name-collision", f"{ns}/{slug} already learned")
             return
+        withheld = (source.items.get(raw.name) or source.items.get(slug) or {}).get("withhold")
+        if withheld:
+            self._exclude(result, raw, root, "withheld", str(withheld))
+            return
         decision = resolve_license(raw, source, root)
         verdict = decision.cls.verdict
         if verdict == REVIEW_V and source.allow_review:
@@ -499,7 +503,7 @@ class Learner:
         if decision.text_file and not (raw.is_dir and decision.text_file.is_relative_to(raw.path)):
             shutil.copyfile(decision.text_file, dest / "LICENSE.upstream")
         elif not decision.text_file and (CANONICAL_TEXTS / f"{decision.cls.spdx}.txt").is_file():
-            # Declared (e.g. frontmatter) but no text shipped upstream: Apache §4(a) needs a copy.
+            # Declared (e.g. frontmatter) but no text shipped upstream: Apache §4(a), BSD and CC BY need their terms carried.
             shutil.copyfile(CANONICAL_TEXTS / f"{decision.cls.spdx}.txt", dest / "LICENSE.upstream")
         if decision.notice_file and not (raw.is_dir and decision.notice_file.is_relative_to(raw.path)):
             shutil.copyfile(decision.notice_file, dest / "NOTICE.upstream")
