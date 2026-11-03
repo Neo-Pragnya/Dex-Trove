@@ -10,7 +10,9 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 from functools import lru_cache
-from importlib import resources
+from importlib import (  # nosemgrep: python.lang.compatibility.python37.python37-compatibility-importlib2
+    resources,
+)
 from pathlib import Path
 from typing import Any
 
