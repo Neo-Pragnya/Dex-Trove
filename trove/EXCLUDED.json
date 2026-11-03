@@ -1,5 +1,5 @@
 {
-  "count": 141,
+  "count": 137,
   "excluded": [
     {
       "source": "anthropic",
@@ -492,14 +492,6 @@
     {
       "source": "scientific",
       "kind": "skill",
-      "name": "depmap",
-      "path": "skills/depmap",
-      "reason": "withheld",
-      "detail": "not MIT or Apache-2.0, the licences approved for this source; awaiting a decision (CC-BY-4.0)"
-    },
-    {
-      "source": "scientific",
-      "kind": "skill",
       "name": "etetoolkit",
       "path": "skills/etetoolkit",
       "reason": "license-denied",
@@ -540,14 +532,6 @@
     {
       "source": "scientific",
       "kind": "skill",
-      "name": "openpiv",
-      "path": "skills/openpiv",
-      "reason": "withheld",
-      "detail": "not MIT or Apache-2.0, the licences approved for this source; awaiting a decision (BSD-3-Clause)"
-    },
-    {
-      "source": "scientific",
-      "kind": "skill",
       "name": "phylogenetics",
       "path": "skills/phylogenetics",
       "reason": "license-denied",
@@ -572,14 +556,6 @@
     {
       "source": "scientific",
       "kind": "skill",
-      "name": "scanpy",
-      "path": "skills/scanpy",
-      "reason": "withheld",
-      "detail": "not MIT or Apache-2.0, the licences approved for this source; awaiting a decision (BSD-3-Clause)"
-    },
-    {
-      "source": "scientific",
-      "kind": "skill",
       "name": "scientific-schematics",
       "path": "skills/scientific-schematics",
       "reason": "secret-shaped",
@@ -592,14 +568,6 @@
       "path": "skills/scientific-slides",
       "reason": "secret-shaped",
       "detail": "generic-credential scripts/generate_schematic_ai.py:227; generic-credential scripts/generate_schematic_ai.py:811; generic-credential scripts/generate_slide_image_ai.py:255"
-    },
-    {
-      "source": "scientific",
-      "kind": "skill",
-      "name": "scvelo",
-      "path": "skills/scvelo",
-      "reason": "withheld",
-      "detail": "not MIT or Apache-2.0, the licences approved for this source; awaiting a decision (BSD-3-Clause)"
     },
     {
       "source": "voltagent",

@@ -20,7 +20,7 @@ with its reason.
 | `impeccable` | 1 | skill 1 | Apache-2.0 1 | 0 | 1 | 0 | 1 | 0 |
 | `microsoft` | 180 | skill 180 | MIT 180 | 0 | 0 | 0 | 21 | 9 |
 | `neo-pragnya` | 11 | skill 11 | MIT 11 | 11 | 15 | 0 | 11 | 0 |
-| `scientific` | 160 | skill 160 | MIT 152, Apache-2.0 8 | 0 | 0 | 0 | 108 | 17 |
+| `scientific` | 164 | skill 164 | MIT 152, Apache-2.0 8, BSD-3-Clause 3, CC-BY-4.0 1 | 0 | 0 | 0 | 112 | 13 |
 | `spec-kit` | 9 | prompt 9 | MIT 9 | 0 | 6 | 0 | 0 | 0 |
 | `superpowers` | 15 | skill 15 | MIT 15 | 13 | 22 | 0 | 3 | 0 |
 | `voltagent` | 165 | agent 165 | MIT 165 | 0 | 0 | 0 | 0 | 1 |
@@ -39,7 +39,7 @@ with its reason.
 | `microsoft` | withheld | 2 |
 | `scientific` | secret-shaped | 6 |
 | `scientific` | license-denied | 6 |
-| `scientific` | withheld | 5 |
+| `scientific` | withheld | 1 |
 | `voltagent` | withheld | 1 |
 | `wshobson` | name-collision | 65 |
 

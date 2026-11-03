@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: depmap
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:depmap
+summary: Retrieves and analyzes Cancer Dependency Map (DepMap) release data, including CRISPR Chronos gene effects,
+  cancer model annotations, omics biomarkers, and PRISM drug sensitivity.
+description: Retrieves and analyzes Cancer Dependency Map (DepMap) release data, including CRISPR Chronos gene effects,
+  cancer model annotations, omics biomarkers, and PRISM drug sensitivity. Supports cancer-selective dependency,
+  co-essentiality, and candidate synthetic-lethality analyses with release-aware identifiers and statistical checks.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: CC-BY-4.0
+  source: 'frontmatter license: ''CC-BY-4.0'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/depmap
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

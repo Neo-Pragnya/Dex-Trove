@@ -18,7 +18,7 @@ What is it? One value per item. Set from the catalog.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `skill` | 896 | A reusable procedure or body of know-how an agent loads on demand for one kind of task. | — |
+| `skill` | 900 | A reusable procedure or body of know-how an agent loads on demand for one kind of task. | — |
 | `agent` | 522 | A persona with its own objective and tool scope that a host can delegate work to. | — |
 | `instruction` | 189 | Persistent guidance (style, rules, conventions) applied broadly, often scoped to file globs. | — |
 | `prompt` | 9 | A reusable invocation: a slash command or prompt file run on request. | — |
@@ -48,10 +48,10 @@ What job does it do? Any number of values.
 | `security-review` | 101 | Find vulnerabilities, threats and unsafe patterns, and propose mitigations. | `security-audit`, `threat-model`, `appsec` |
 | `optimise-performance` | 218 | Measure and improve speed, memory or cost. | `performance`, `optimization`, `optimisation` |
 | `write-docs` | 49 | Produce READMEs, guides, API references or other written documentation. | `documentation`, `docs`, `technical-writing` |
-| `visualize` | 50 | Draw diagrams, graphs or visual explanations of a system. | `diagram`, `diagrams`, `visualise`, `visualize-graph` |
+| `visualize` | 52 | Draw diagrams, graphs or visual explanations of a system. | `diagram`, `diagrams`, `visualise`, `visualize-graph` |
 | `design-ui` | 64 | Design layouts, visual style, interaction and front-end look and feel. | `ui-design`, `ux`, `frontend-design` |
 | `audit-accessibility` | 33 | Check and improve accessibility against WCAG and assistive technology. | `accessibility`, `a11y`, `wcag` |
-| `deploy` | 150 | Ship software: build, package, release and deploy. | `release`, `deployment`, `publish`, `ci-cd` |
+| `deploy` | 151 | Ship software: build, package, release and deploy. | `release`, `deployment`, `publish`, `ci-cd` |
 | `provision-infrastructure` | 98 | Define and manage cloud or on-prem infrastructure, usually as code. | `iac`, `infrastructure-as-code`, `cloud` |
 | `operate` | 112 | Monitor, trace and respond to incidents in running systems. | `observability`, `monitoring`, `incident-response` |
 | `analyse-data` | 65 | Explore, query and explain data sets. | `data-analysis`, `analytics`, `sql-queries` |
@@ -92,7 +92,7 @@ Where in the lifecycle is it useful? Any number of values.
 | `implementation` | 395 | Writing and changing code. | `build`, `coding`, `development` |
 | `testing` | 173 | Authoring and running tests. | `qa`, `test` |
 | `verification` | 267 | Reviewing and proving correctness before release. | `review`, `quality` |
-| `deployment` | 164 | Releasing and shipping. | `release`, `delivery` |
+| `deployment` | 165 | Releasing and shipping. | `release`, `delivery` |
 | `operations` | 146 | Running, monitoring and supporting software in production. | `ops`, `production` |
 | `retrospective` | 8 | Looking back: lessons, knowledge capture, improvement. | `retro`, `reflection` |
 
@@ -189,9 +189,9 @@ Where can Dex install it natively? Any number of values. Set from where `dex ins
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `claude-code` | 1499 | Installs into .claude/ (skills, agents, commands). | — |
-| `github-copilot` | 1703 | Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows). | — |
-| `ananke` | 1703 | Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke). | — |
+| `claude-code` | 1503 | Installs into .claude/ (skills, agents, commands). | — |
+| `github-copilot` | 1707 | Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows). | — |
+| `ananke` | 1707 | Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke). | — |
 
 ## Needs (`needs`)
 
@@ -200,7 +200,7 @@ What must be installed for it to run? Any number of values.
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
 | `text-only` | 1469 | Only Markdown and data: the agent reads it; nothing runs. | — |
-| `python` | 184 | Bundles Python scripts or a Python project file. | — |
+| `python` | 188 | Bundles Python scripts or a Python project file. | — |
 | `node` | 28 | Bundles JavaScript or TypeScript, or a package.json. | — |
 | `shell` | 29 | Bundles sh, bash or zsh scripts. | — |
 | `powershell` | 19 | Bundles PowerShell scripts. | — |
@@ -217,4 +217,4 @@ How established is it? One value per item.
 | `beta` | 4 | Usable; may still change. | — |
 | `experimental` | 0 | Early; expect gaps. | — |
 | `deprecated` | 0 | Kept for existing users; prefer its replacement. | — |
-| `unknown` | 1692 | The source doesn't say. Most upstream items. | — |
+| `unknown` | 1696 | The source doesn't say. Most upstream items. | — |

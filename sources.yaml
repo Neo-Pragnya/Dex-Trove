@@ -141,10 +141,6 @@ sources:
     ref: main
     items:
       database-lookup: { withhold: "placeholder credentials in its examples trip package scanners" }
-      depmap: { withhold: "not MIT or Apache-2.0, the licences approved for this source; awaiting a decision (CC-BY-4.0)" }
-      openpiv: { withhold: "not MIT or Apache-2.0, the licences approved for this source; awaiting a decision (BSD-3-Clause)" }
-      scanpy: { withhold: "not MIT or Apache-2.0, the licences approved for this source; awaiting a decision (BSD-3-Clause)" }
-      scvelo: { withhold: "not MIT or Apache-2.0, the licences approved for this source; awaiting a decision (BSD-3-Clause)" }
     license: { expected: MIT }
 
   - id: wshobson

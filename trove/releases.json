@@ -33211,8 +33211,7 @@
           "released_at": "2026-11-03T06:22:42+00:00",
           "channel": "stable"
         }
-      ],
-      "removed": true
+      ]
     },
     "skill:scientific/dhdna-profiler": {
       "releases": [
@@ -34872,8 +34871,7 @@
           "released_at": "2026-11-03T06:22:44+00:00",
           "channel": "stable"
         }
-      ],
-      "removed": true
+      ]
     },
     "skill:scientific/opentrons-integration": {
       "releases": [
@@ -36201,8 +36199,7 @@
           "released_at": "2026-11-03T06:22:46+00:00",
           "channel": "stable"
         }
-      ],
-      "removed": true
+      ]
     },
     "skill:scientific/scholar-evaluation": {
       "releases": [
@@ -36481,8 +36478,7 @@
           "released_at": "2026-11-03T06:22:46+00:00",
           "channel": "stable"
         }
-      ],
-      "removed": true
+      ]
     },
     "skill:scientific/scvi-tools": {
       "releases": [

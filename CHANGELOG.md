@@ -17,11 +17,14 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ### Added
 
-- **Nine new sources, 735 more items** (1703 in all). All are MIT or Apache-2.0, checked item by item at the pinned commit:
+- **Nine new sources, 739 more items** (1707 in all), checked item by item at the pinned commit. Nearly all are MIT or
+  Apache-2.0; 3 are BSD-3-Clause and 1 is CC-BY-4.0:
   BMAD Method (33 skills), Impeccable (1), Spec Kit (9 prompts), Hugging Face (26), Microsoft (180), Scientific skills from
-  K-Dense (160), wshobson agents (137), VoltAgent subagents (165) and official Claude Code plugins (24).
+  K-Dense (164), wshobson agents (137), VoltAgent subagents (165) and official Claude Code plugins (24).
 - The first items of kind `prompt`: Spec Kit's commands. They install as commands, and expect a project set up with
   `specify init`.
+- Licence terms for items declaring BSD-3-Clause or CC-BY-4.0 with no licence file now travel beside the item, as Apache-2.0
+  terms already did.
 - `withhold:` in `sources.yaml` leaves an item out, with its reason recorded in `EXCLUDED.json`.
 - Curated relations for the Spec Kit hand-offs and three same-job pairs across sources.
 
@@ -36,8 +39,8 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 - By licence: 1 official plugin that reserves all rights, and 6 scientific skills (non-commercial, GPL, proprietary or
   undeclared).
-- Withheld: 3 skills whose placeholder credentials trip package scanners, 1 agent that pipes a third-party install script
-  into bash, and 4 scientific skills under BSD-3-Clause or CC-BY-4.0 awaiting a decision.
+- Withheld: 3 skills whose placeholder credentials trip package scanners, and 1 agent that pipes a third-party install
+  script into bash.
 - Secret-shaped: 13 items.
 
 ### Fixed

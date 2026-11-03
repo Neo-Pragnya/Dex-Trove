@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
  "taxonomy_version": "1.1.0",
- "count": 1703,
+ "count": 1707,
  "items": {
   "agent:awesome-copilot/accessibility": {
    "schema_version": "1.0.0",
@@ -152927,6 +152927,83 @@
     }
    }
   },
+  "skill:scientific/depmap": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "scientific/depmap@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "deploy"
+    ],
+    "phase": [
+     "deployment"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "deploy": [
+       "description: 'release'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "description: 'release'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/depmap_data.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:scientific/dhdna-profiler": {
    "schema_version": "1.0.0",
    "artifact_ref": "scientific/dhdna-profiler@1.0.0",
@@ -157787,6 +157864,74 @@
     }
    }
   },
+  "skill:scientific/openpiv": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "scientific/openpiv@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "visualize"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "visualize": [
+       "description: 'visualiz'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/__init__.py",
+       "scripts/analyze.py",
+       "scripts/run_example.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:scientific/opentrons-integration": {
    "schema_version": "1.0.0",
    "artifact_ref": "scientific/opentrons-integration@1.0.0",
@@ -161242,6 +161387,74 @@
     }
    }
   },
+  "skill:scientific/scanpy": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "scientific/scanpy@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "visualize"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "visualize": [
+       "description: 'visualiz'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "assets/analysis_template.py",
+       "scripts/_common.py",
+       "scripts/annotate.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:scientific/scholar-evaluation": {
    "schema_version": "1.0.0",
    "artifact_ref": "scientific/scholar-evaluation@1.0.0",
@@ -161909,6 +162122,61 @@
        "scripts/_common.py",
        "scripts/competing_risk_cif.py",
        "scripts/evaluate_survival_metrics.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:scientific/scvelo": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "scientific/scvelo@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/rna_velocity_workflow.py"
       ]
      }
     },

@@ -221,3 +221,8 @@ def test_an_item_can_be_withheld_with_a_recorded_reason(trove: Path, source: Sou
     assert {e.name: e.reason for e in result.excluded}["alpha"] == "withheld"
     assert "skill:alpha" not in by_id(trove)
     assert "placeholder credentials" in (trove / "EXCLUDED.json").read_text()
+
+
+@pytest.mark.parametrize("spdx", ["Apache-2.0", "BSD-3-Clause", "CC-BY-4.0"])
+def test_terms_travel_with_an_item_that_only_declares_its_licence(spdx: str) -> None:
+    assert (learn.CANONICAL_TEXTS / f"{spdx}.txt").is_file()

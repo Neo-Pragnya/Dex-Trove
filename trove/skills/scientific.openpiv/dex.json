@@ -1,0 +1,46 @@
+{
+  "id": "scientific/openpiv",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "openpiv",
+  "title": "OpenPIV",
+  "description": "Performs Particle Image Velocimetry (PIV) analysis with OpenPIV. Use when extracting velocity fields from PIV image pairs, analyzing fluid dynamics or flow visualization experiments, cross-correlating interrogation windows, validating and replacing spurious PIV vectors, or computing vorticity, strain rate, and turbulence statistics from measured velocity fields.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.openpiv",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/openpiv",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/openpiv",
+    "author": null
+  },
+  "license": {
+    "spdx": "BSD-3-Clause",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'BSD-3-Clause'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced_algorithms.md",
+    "scripts/__init__.py",
+    "scripts/analyze.py",
+    "scripts/run_example.py",
+    "scripts/runner.py"
+  ],
+  "entry_hash": "dc9aeeb18ef4b4832b9405c342ce40abbb09bc8162e35f2c659dd5814b07369a",
+  "content_hash": "24cd497315881ff9da135c7c87800850efad27bf6a22f51829be89a7985bd1d6",
+  "learned_at": "2026-11-03T10:25:53+00:00"
+}

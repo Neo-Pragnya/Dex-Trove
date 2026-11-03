@@ -2,11 +2,11 @@
  "generator": "dex-trove 0.3.2",
  "summary": {
   "claude": {
-   "pass": 1497,
+   "pass": 1501,
    "fail": 2
   },
   "copilot": {
-   "pass": 1694,
+   "pass": 1698,
    "fail": 9
   }
  },
@@ -6011,6 +6011,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:scientific/depmap": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:scientific/dhdna-profiler": {
    "claude": "pass",
    "copilot": "pass"
@@ -6235,6 +6239,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:scientific/openpiv": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:scientific/opentrons-integration": {
    "claude": "pass",
    "copilot": "pass"
@@ -6403,6 +6411,10 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:scientific/scanpy": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:scientific/scholar-evaluation": {
    "claude": "pass",
    "copilot": "pass"
@@ -6432,6 +6444,10 @@
    "copilot": "pass"
   },
   "skill:scientific/scikit-survival": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:scientific/scvelo": {
    "claude": "pass",
    "copilot": "pass"
   },

@@ -1,6 +1,6 @@
 {
   "generator": "dex-trove 0.3.2",
-  "count": 1703,
+  "count": 1707,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -66638,6 +66638,49 @@
       "learned_at": "2026-11-03T06:22:42+00:00"
     },
     {
+      "id": "scientific/depmap",
+      "kind": "skill",
+      "namespace": "scientific",
+      "name": "depmap",
+      "title": "DepMap — Cancer Dependency Map",
+      "description": "Retrieves and analyzes Cancer Dependency Map (DepMap) release data, including CRISPR Chronos gene effects, cancer model annotations, omics biomarkers, and PRISM drug sensitivity. Supports cancer-selective dependency, co-essentiality, and candidate synthetic-lethality analyses with release-aware identifiers and statistical checks.",
+      "tags": [
+        "executes-code",
+        "scientific",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/scientific.depmap",
+      "source": {
+        "id": "scientific",
+        "title": "Scientific skills (K-Dense)",
+        "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+        "path": "skills/depmap",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/depmap",
+        "author": null
+      },
+      "license": {
+        "spdx": "CC-BY-4.0",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'CC-BY-4.0'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "references/dependency_analysis.md",
+        "scripts/depmap_data.py"
+      ],
+      "entry_hash": "893eb02a2dc8a77e61260dfb74b2acdf6c85e08f33028329d73657a23d398586",
+      "content_hash": "4e3e74d81a51553c8a037c085fe5b73c9049a426e94e4addb66903b37e5f102c",
+      "learned_at": "2026-11-03T10:25:48+00:00"
+    },
+    {
       "id": "scientific/dhdna-profiler",
       "kind": "skill",
       "namespace": "scientific",
@@ -69494,6 +69537,52 @@
       "learned_at": "2026-11-03T06:22:44+00:00"
     },
     {
+      "id": "scientific/openpiv",
+      "kind": "skill",
+      "namespace": "scientific",
+      "name": "openpiv",
+      "title": "OpenPIV",
+      "description": "Performs Particle Image Velocimetry (PIV) analysis with OpenPIV. Use when extracting velocity fields from PIV image pairs, analyzing fluid dynamics or flow visualization experiments, cross-correlating interrogation windows, validating and replacing spurious PIV vectors, or computing vorticity, strain rate, and turbulence statistics from measured velocity fields.",
+      "tags": [
+        "executes-code",
+        "scientific",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/scientific.openpiv",
+      "source": {
+        "id": "scientific",
+        "title": "Scientific skills (K-Dense)",
+        "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+        "path": "skills/openpiv",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/openpiv",
+        "author": null
+      },
+      "license": {
+        "spdx": "BSD-3-Clause",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'BSD-3-Clause'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "references/advanced_algorithms.md",
+        "scripts/__init__.py",
+        "scripts/analyze.py",
+        "scripts/run_example.py",
+        "scripts/runner.py"
+      ],
+      "entry_hash": "dc9aeeb18ef4b4832b9405c342ce40abbb09bc8162e35f2c659dd5814b07369a",
+      "content_hash": "24cd497315881ff9da135c7c87800850efad27bf6a22f51829be89a7985bd1d6",
+      "learned_at": "2026-11-03T10:25:53+00:00"
+    },
+    {
       "id": "scientific/opentrons-integration",
       "kind": "skill",
       "namespace": "scientific",
@@ -71692,6 +71781,72 @@
       "learned_at": "2026-11-03T06:22:46+00:00"
     },
     {
+      "id": "scientific/scanpy",
+      "kind": "skill",
+      "namespace": "scientific",
+      "name": "scanpy",
+      "title": "Scanpy: Single-Cell Analysis",
+      "description": "Performs Scanpy single-cell RNA-seq QC, normalization, HVG selection, PCA/UMAP/t-SNE, clustering, exploratory marker ranking, pseudobulk preparation, visualization, and Seurat or SingleCellExperiment RDS conversion to h5ad. Applies to established exploratory scRNA-seq workflows with explicit count and expression provenance; complementary skills cover scvi-tools models and AnnData format details.",
+      "tags": [
+        "executes-code",
+        "scientific",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/scientific.scanpy",
+      "source": {
+        "id": "scientific",
+        "title": "Scientific skills (K-Dense)",
+        "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+        "path": "skills/scanpy",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scanpy",
+        "author": null
+      },
+      "license": {
+        "spdx": "BSD-3-Clause",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'BSD-3-Clause'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "assets/analysis_template.py",
+        "assets/celltype_mapping.json",
+        "assets/gene_signatures.json",
+        "assets/pipeline_config.json",
+        "references/analysis_workflow.md",
+        "references/api_reference.md",
+        "references/plotting_guide.md",
+        "references/r_interop.md",
+        "references/standard_workflow.md",
+        "references/upstream-review.md",
+        "scripts/_common.py",
+        "scripts/annotate.py",
+        "scripts/batch_correct.py",
+        "scripts/cluster.py",
+        "scripts/convert.py",
+        "scripts/find_markers.py",
+        "scripts/inspect_data.py",
+        "scripts/plot.py",
+        "scripts/preprocess.py",
+        "scripts/pseudobulk.py",
+        "scripts/qc_analysis.py",
+        "scripts/reduce_dimensions.py",
+        "scripts/run_pipeline.py",
+        "scripts/score_genes.py",
+        "scripts/subset.py"
+      ],
+      "entry_hash": "4a59f87933a1e9ed49eac603719af1b0c606dd99050fe59ffa1c1bf807900cb8",
+      "content_hash": "3c30d3a8415d6891b16d8474cd6ddf87fc95d83af7f034880c48fe365ce178c1",
+      "learned_at": "2026-11-03T10:25:57+00:00"
+    },
+    {
       "id": "scientific/scholar-evaluation",
       "kind": "skill",
       "namespace": "scientific",
@@ -72122,6 +72277,49 @@
       "entry_hash": "8f99860440f23312d9803d3ac65ae9eb65274597d59499f1021d59378adef2fb",
       "content_hash": "0c2378c986684a924ebe36f5cdc0f9bca3741281ba0281ca3f3726222e727205",
       "learned_at": "2026-11-03T06:22:46+00:00"
+    },
+    {
+      "id": "scientific/scvelo",
+      "kind": "skill",
+      "namespace": "scientific",
+      "name": "scvelo",
+      "title": "scVelo RNA Velocity",
+      "description": "Performs RNA velocity analysis with scVelo from spliced and unspliced single-cell RNA counts. Fits deterministic or dynamical models, examines gene phase portraits, builds velocity graphs, estimates relative latent time, and ranks velocity-associated genes. Use for directional trajectory hypotheses and kinetic-model diagnostics alongside Scanpy; velocity alone does not establish cell fate or causal drivers.",
+      "tags": [
+        "executes-code",
+        "scientific",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/scientific.scvelo",
+      "source": {
+        "id": "scientific",
+        "title": "Scientific skills (K-Dense)",
+        "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+        "path": "skills/scvelo",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scvelo",
+        "author": null
+      },
+      "license": {
+        "spdx": "BSD-3-Clause",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'BSD-3-Clause'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": true,
+      "members": [],
+      "files": [
+        "SKILL.md",
+        "references/velocity_models.md",
+        "scripts/rna_velocity_workflow.py"
+      ],
+      "entry_hash": "c43258bccdbaa5772fd1aeac8d12d6107dd9c9b19c6a3a81fde7d421c0d2609e",
+      "content_hash": "f3e638d0a30cfe573e4af3ab472876026c27d91f4b5a2b8e088f9de14877910a",
+      "learned_at": "2026-11-03T10:25:58+00:00"
     },
     {
       "id": "scientific/scvi-tools",

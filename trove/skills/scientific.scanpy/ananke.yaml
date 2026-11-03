@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: scanpy
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:scanpy
+summary: Performs Scanpy single-cell RNA-seq QC, normalization, HVG selection, PCA/UMAP/t-SNE, clustering, exploratory
+  marker ranking, pseudobulk preparation, visualization, and Seurat or SingleCellExperiment…
+description: Performs Scanpy single-cell RNA-seq QC, normalization, HVG selection, PCA/UMAP/t-SNE, clustering, exploratory
+  marker ranking, pseudobulk preparation, visualization, and Seurat or SingleCellExperiment RDS conversion to h5ad.
+  Applies to established exploratory scRNA-seq workflows with explicit count and expression provenance; complementary
+  skills cover scvi-tools models and AnnData format details.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: BSD-3-Clause
+  source: 'frontmatter license: ''BSD-3-Clause'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scanpy
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

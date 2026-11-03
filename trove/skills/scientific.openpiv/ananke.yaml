@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: openpiv
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:openpiv
+summary: Performs Particle Image Velocimetry (PIV) analysis with OpenPIV. Use when extracting velocity fields from
+  PIV image pairs, analyzing fluid dynamics or flow visualization experiments, cross-correlating…
+description: Performs Particle Image Velocimetry (PIV) analysis with OpenPIV. Use when extracting velocity fields
+  from PIV image pairs, analyzing fluid dynamics or flow visualization experiments, cross-correlating interrogation
+  windows, validating and replacing spurious PIV vectors, or computing vorticity, strain rate, and turbulence statistics
+  from measured velocity fields.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: BSD-3-Clause
+  source: 'frontmatter license: ''BSD-3-Clause'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/openpiv
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

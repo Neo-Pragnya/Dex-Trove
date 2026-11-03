@@ -72,7 +72,7 @@ Licences: MIT (9 items)
 ## Scientific skills (K-Dense)
 
 Source: <https://github.com/K-Dense-AI/claude-scientific-skills>  
-Licences: Apache-2.0 (8 items), MIT (152 items)
+Licences: Apache-2.0 (8 items), BSD-3-Clause (3 items), CC-BY-4.0 (1 items), MIT (152 items)
 
 - Copyright (c) 2025 K-Dense Inc.
 - Copyright (c) 2026 Beifang Niu
@@ -1273,6 +1273,39 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+### `4d939dafce3a` — used by scientific
+
+```text
+BSD 3-Clause License
+
+This item declares `license: BSD-3-Clause` in its own metadata. Upstream ships no licence file
+and names no copyright holder beyond any author in that metadata. Copyright remains with the item's
+authors; see the source link in dex.json.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted
+provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions
+   and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of
+   conditions and the following disclaimer in the documentation and/or other materials provided
+   with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to
+   endorse or promote products derived from this software without specific prior written
+   permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
 ### `ca300e8fad53` — used by scientific
 
 ```text
@@ -1297,6 +1330,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+### `dec49dd0e8d5` — used by scientific
+
+```text
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This item declares `license: CC-BY-4.0` in its own metadata and is licensed under those terms:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Creator: as named in the item's own metadata. Source: the link in dex.json.
+Dex Trove adds this file and metadata beside the item and does not change the item's own files.
+
+The licensed material is provided as-is, with no warranties of any kind, to the extent the licence states.
 ```
 
 ### `bcbb871b4f72` — used by superpowers

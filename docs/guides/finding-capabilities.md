@@ -65,7 +65,7 @@ Methodologies describe *ways of working*, not artifacts:
 SDLC and ADLC overlap, but they're **not aliases**: the taxonomy refuses to merge them. Many good skills serve both,
 and say so.
 
-Methodology is the sparsest facet: only 98 of 1703 items say which method they support, because most upstream
+Methodology is the sparsest facet: only 98 of 1707 items say which method they support, because most upstream
 authors don't. That's an honest gap, not a bug. Use methodology together with task or phase, not on its own.
 
 ## Where facet values come from

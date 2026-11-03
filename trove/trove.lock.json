@@ -89,11 +89,11 @@
       "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "ref": "main",
       "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
-      "learned_at": "2026-11-03T06:42:09+00:00",
+      "learned_at": "2026-11-03T10:27:18+00:00",
       "items": {
-        "skill": 160
+        "skill": 164
       },
-      "excluded": 17
+      "excluded": 13
     },
     "spec-kit": {
       "repo": "https://github.com/github/spec-kit",
