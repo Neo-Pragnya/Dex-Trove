@@ -13,6 +13,26 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.1] — 2026-11-03
+
+### Added
+
+- **Capability matrix** (`dex capabilities`, `docs/reference/capability-matrix.md`): for each of the 31 planned
+  capabilities, the trove items that serve it, their licences, what's missing, and the next step. It says plainly
+  which capabilities have nothing yet. Fit is judged from item descriptions; golden-task evaluation isn't done.
+- Named upstream frameworks with verified licences. Impeccable, BMAD and Spec Kit are listed as candidates, not
+  ingested. GST and Acuta stay unresolved until someone supplies their repositories.
+
+### Changed
+
+- `similar` relations now name the shared tags or name words.
+
+### Fixed
+
+- The Sources page description omitted four first-party skills. (They were published and listed correctly.)
+
+---
+
 ## [0.3.0] — 2026-11-02
 
 Capability memory with releases: every version remembered, exact pins, and a reviewed way for new memory to get in.

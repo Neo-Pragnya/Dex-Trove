@@ -8,8 +8,9 @@ sources:
     title: Neo Pragnya (first-party)
     description: >-
       Skills developed in-house: architecture-as-code with animated SVG diagrams, Astro documentation sites,
-      interactive web motion, living diagrams, capability acceptance testing, package security scanning, and a
-      life Ikigai architect. Personal skills in the same folder are hidden by the
+      interactive web motion, living diagrams, capability acceptance testing, package security scanning, a
+      life Ikigai architect, idea development, technology selection, research questionnaires and scaffold
+      harvesting. Personal skills in the same folder are hidden by the
       folder's own .dexignore (never named in this repo).
     adapter: agent-skills
     local: ../Skills
@@ -98,6 +99,9 @@ sources:
 
 # Evaluated but not enabled (licences checked via GitHub API on 2026-10-19). Rendered on the docs Sources page.
 candidates:
+  - { repo: pbakaus/impeccable, license: Apache-2.0, decision: "Named in the plan — needs an owner decision", offers: "Frontend design skills" }
+  - { repo: bmad-code-org/BMAD-METHOD, license: "MIT (LICENSE file; API reports NOASSERTION)", decision: "Named in the plan — needs an owner decision and an adapter check", offers: "Agile agent method" }
+  - { repo: github/spec-kit, license: MIT, decision: "Named in the plan — needs an owner decision", offers: "Spec-driven development toolkit" }
   - { repo: K-Dense-AI/claude-scientific-skills, license: MIT, decision: "Mapped — enable after size review", offers: "Large scientific / research skill set" }
   - { repo: wshobson/agents, license: MIT, decision: "Mapped — needs md-agents tuning", offers: "Claude Code subagents and plugins" }
   - { repo: VoltAgent/awesome-claude-code-subagents, license: MIT, decision: "Mapped — needs md-agents tuning", offers: "Categorised subagents" }

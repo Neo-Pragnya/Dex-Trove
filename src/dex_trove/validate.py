@@ -72,6 +72,13 @@ def validate(
     except releases.ReleaseError as exc:
         return [*problems, str(exc)]
     problems += _relation_problems(trove, on_disk, ledger)
+    from dex_trove import capability_map
+
+    if {i["namespace"] for i in on_disk} >= {
+        "neo-pragnya",
+        "superpowers",
+    }:  # the real trove, not a partial one
+        problems += capability_map.problems(capability_map.load(), on_disk)
     from dex_trove import checks
 
     checked = set(checks.load(trove)["items"])

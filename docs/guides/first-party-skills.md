@@ -21,6 +21,10 @@ First-party items are authored by Neo Pragnya and live under the **`neo-pragnya`
 | [`research-questionnaire`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.research-questionnaire/) | Offline HTML questionnaires that save only by explicit download; partial answers; Markdown and PRD source data with open questions kept; resume by merging answers with provenance |
 | [`scaffold-harvesting`](https://neo-pragnya.github.io/Dex-Trove/skill/neo-pragnya.scaffold-harvesting/) | Turn a repo you may reuse into a versioned template: structural files only, names become variables, secrets and proprietary files refused, tested in an isolated folder, published only through the candidate gate |
 
+**Not every planned capability is a new skill.** Dex reuses existing items first, so a capability may be served by
+community items, or be built into Dex or Ananke. The [capability matrix](../reference/capability-matrix.md) shows, for
+each one, what exists today and what's missing.
+
 ## How they are learned
 
 ```yaml

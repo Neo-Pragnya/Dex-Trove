@@ -139,3 +139,14 @@ Feature: Every version is remembered, pinned installs are exact, and new memory 
       skill:anthropic/webapp-testing
       install checks pass
       """
+
+  @cap_catalog
+  Scenario: The capability matrix shows what exists and what is missing
+    When I run "dex capabilities code-review --json"
+    Then it succeeds
+    And the output contains "skill:superpowers/requesting-code-review"
+    When I run "dex capabilities --status missing"
+    Then it succeeds
+    And the output contains "bpmn-designer"
+    When I run "dex capabilities nope"
+    Then it fails cleanly

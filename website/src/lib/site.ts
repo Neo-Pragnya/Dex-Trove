@@ -135,6 +135,7 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
       "reference/licence-identification",
       "reference/exclusion-reasons",
       "reference/reuse-matrix",
+      "reference/capability-matrix",
       "reference/configuration",
       "reference/python-api",
     ],

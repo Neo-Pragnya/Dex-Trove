@@ -101,7 +101,7 @@ Full docs live in [`docs/`](docs/index.md) and on the [website](https://neo-prag
   [Ananke integration](docs/guides/ananke-integration.md) · [adding a source](docs/guides/adding-a-source.md) ·
   [first-party skills](docs/guides/first-party-skills.md) · [docs site](docs/guides/docs-site.md) · [release](docs/guides/release.md)
 - **Reference**: [CLI](docs/reference/cli.md) · [`sources.yaml`](docs/reference/sources-yaml.md) ·
-  [item format](docs/reference/item-format.md) · [trove files](docs/reference/trove-files.md) · [reuse matrix](docs/reference/reuse-matrix.md) ·
+  [item format](docs/reference/item-format.md) · [trove files](docs/reference/trove-files.md) · [reuse matrix](docs/reference/reuse-matrix.md) · [capability matrix](docs/reference/capability-matrix.md) ·
   [licence identification](docs/reference/licence-identification.md) · [exclusion reasons](docs/reference/exclusion-reasons.md) ·
   [configuration](docs/reference/configuration.md) · [Python API](docs/reference/python-api.md)
 - **Design**: [design document](docs/design/DESIGN.md) · [checklist](docs/design/CHECKLIST.md)

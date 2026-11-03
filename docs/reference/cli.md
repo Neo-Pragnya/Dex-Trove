@@ -236,6 +236,15 @@ dex ananke handoff [--lock-file dex.lock.json]
 Prints a `[tool.ananke]` block that pins the lock's skills and agents to their exact versions. Resolve-only:
 nothing is installed, activated or run. Exit `1` if the lock doesn't match the release ledger.
 
+## `dex capabilities`
+
+```text
+dex capabilities [CAPABILITY] [--status available|partial|missing] [--json]
+```
+
+What the trove offers for each planned capability, with licences read from the catalog, and what's still missing. The
+same data as the [capability matrix](capability-matrix.md).
+
 ## `dex docs reuse`
 
 ```text

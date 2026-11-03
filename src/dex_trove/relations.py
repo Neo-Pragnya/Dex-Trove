@@ -96,6 +96,19 @@ def _check_curated(curated: list[dict[str, str]], keys: set[str]) -> None:
         raise RelationError("; ".join(problems))
 
 
+def _shared(a: dict[str, Any] | None, b: dict[str, Any] | None) -> str:
+    """Name what two similar items have in common, so the hint can be checked."""
+    if not a or not b:
+        return "shares tags or name words"
+    structural = {a["kind"], b["kind"], a["namespace"], b["namespace"], "executes-code"}
+    tags = sorted((set(a.get("tags", [])) & set(b.get("tags", []))) - structural)
+    words = sorted(set(a["name"].split("-")) & set(b["name"].split("-")))
+    parts = ([f"tags: {', '.join(tags)}"] if tags else []) + (
+        [f"name words: {', '.join(words)}"] if words else []
+    )
+    return "shares " + "; ".join(parts) if parts else "shares tags or name words"
+
+
 def build(
     items: list[dict[str, Any]],
     ledger: dict[str, Any],
@@ -136,11 +149,12 @@ def build(
         if dep.get("replaced_by"):
             add(key, "replaced-by", dep["replaced_by"], "derived", f"deprecated: {dep['reason']}")
             add(dep["replaced_by"], "replaces", key, "derived", f"deprecated: {dep['reason']}")
+    by_key = {releases.key_of(it): it for it in items}
     for key, others in (similar or {}).items():
         typed = {t for (_, t) in out.get(key, {})}
         for other in others:
             if other not in typed:
-                add(key, "similar", other, "inferred", "shares tags or name words")
+                add(key, "similar", other, "inferred", _shared(by_key.get(key), by_key.get(other)))
     order = {t: i for i, t in enumerate(TYPES)}
     return {
         "items": {

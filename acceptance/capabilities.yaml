@@ -53,3 +53,4 @@ surface:
   - dex overlap
   - dex check-installs
   - dex docs reuse
+  - dex capabilities

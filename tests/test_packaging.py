@@ -71,3 +71,33 @@ def test_feedback_is_moderated_through_github_forms_only() -> None:
     assert "Code of Conduct" in feedback["body"][0]["attributes"]["value"]
     pages = "".join(p.read_text() for p in (ROOT / "website" / "src" / "pages").rglob("*.astro"))
     assert not any(x in pages for x in ("<textarea", "giscus", 'localStorage.setItem("star'))
+
+
+def test_capability_matrix_is_valid_and_current() -> None:
+    from dex_trove import capability_map as cm
+    from dex_trove import catalog
+
+    data, items = cm.load(), catalog.load(ROOT / "trove")
+    assert cm.problems(data, items) == []
+    assert len(data["capabilities"]) == 31, "every planned capability is assessed"
+    assert any(r["status"] == "missing" for r in cm.rows(data, items)), "gaps stay visible"
+    page = (ROOT / "docs" / "reference" / "capability-matrix.md").read_text()
+    assert page == cm.markdown(ROOT / "trove"), "run `dex docs capabilities`"
+    unresolved = {f["name"] for f in data["frameworks"] if not f["repo"]}
+    assert unresolved == {"GST", "Acuta"}, "never guess an upstream repository"
+
+
+def test_every_first_party_skill_is_named_on_the_sources_page() -> None:
+    from dex_trove import catalog
+
+    description = " ".join(
+        yaml.safe_load((ROOT / "sources.yaml").read_text())["sources"][0]["description"].lower().split()
+    )
+    words = {
+        "idea-developer": "idea development",
+        "tech-selection": "technology selection",
+        "research-questionnaire": "research questionnaires",
+        "scaffold-harvesting": "scaffold harvesting",
+    }
+    first_party = {i["name"] for i in catalog.load(ROOT / "trove") if i["namespace"] == "neo-pragnya"}
+    assert set(words) <= first_party and all(w in description for w in words.values())

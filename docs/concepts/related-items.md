@@ -29,7 +29,7 @@ flowchart LR
 | `part-of` / `bundles` | a plugin lists the item as a member | derived from `plugin.json` | both items |
 | `forked-from` / `forked-as` | fork lineage | derived from the [release ledger](provenance-and-versioning.md#yank-deprecate-fork) | both items |
 | `replaced-by` / `replaces` | the item is deprecated in favour of another | derived from the release ledger | both items |
-| `similar` | shares tags or name words | **inferred** | the item |
+| `similar` | shares tags or name words, which it names | **inferred** | the item |
 
 - **Curated** relations live in `src/dex_trove/taxonomy/relations.yaml`. Each one needs `evidence` that a reader can
   check, usually a quote from the item's own text. On the site they carry a **reviewed** badge.

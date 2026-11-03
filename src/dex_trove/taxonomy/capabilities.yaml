@@ -1,0 +1,244 @@
+# What the trove offers for each planned capability, and what's missing. Curated; a sidecar like relations.yaml.
+#
+# Reuse comes first: an existing item is pinned and composed, a small gap gets a sidecar or a wrapper skill, and a new
+# skill is the last resort.
+#   status:      available (usable for the job today) | partial (useful, doesn't cover the job) | missing (nothing fits)
+#   enhancement: reuse | sidecar | wrapper | workflow | new | feature (built into Dex itself, not a skill)
+#   assessed:    description (fit judged from the item's own text) | tests (behaviour checked by automated tests)
+#                No golden-task evaluation has been run for any `description` entry.
+#   ananke:      the Ananke operation that does the computing, or "not built"
+assessed_on: "2026-11-03"
+capabilities:
+  code-knowledge-graph:
+    title: Code graph and interactive explorer
+    status: partial
+    existing: [skill:awesome-copilot/codebase-memory-mcp, skill:awesome-copilot/acquire-codebase-knowledge, skill:awesome-copilot/mini-context-graph]
+    gap: Guidance for exploring and mapping code; the graph itself and the explorer come from Ananke and Dev Guru.
+    enhancement: wrapper
+    ananke: ananke graph build; ananke graph impact
+  context-retrieval:
+    title: Bounded context retrieval
+    status: partial
+    existing: [skill:awesome-copilot/context-map, agent:awesome-copilot/context-architect]
+    gap: Maps relevant files by hand; no graph-backed retrieval or token budgets.
+    enhancement: wrapper
+    ananke: ananke graph query; budgets not built
+  multi-repository-topology:
+    title: Multi-repository topology
+    status: missing
+    existing: [agent:awesome-copilot/context-architect]
+    gap: Nothing models dependencies across repositories; the agent above only plans multi-file changes.
+    enhancement: new
+    ananke: not built
+  api-contract-intelligence:
+    title: API contract intelligence
+    status: partial
+    existing: [skill:awesome-copilot/api-breaking-change-detector, skill:awesome-copilot/protobuf-grpc-api-review]
+    gap: Covers C# with TypeScript consumers, and protobuf; no general OpenAPI extraction report.
+    enhancement: wrapper
+    ananke: not built
+  sas-modernization:
+    title: SAS modernization
+    status: missing
+    existing: [skill:awesome-copilot/doc-and-modernize, agent:awesome-copilot/modernization]
+    gap: General modernization help only; nothing understands SAS.
+    enhancement: new
+    ananke: not built
+  idea-developer:
+    title: Idea developer
+    status: available
+    existing: [skill:neo-pragnya/idea-developer, skill:superpowers/brainstorming]
+    gap: Hands off to the Ananke spec lifecycle by printing a command; no stateful Ananke workflow yet.
+    enhancement: new
+    assessed: tests
+    ananke: ananke spec create
+  tech-selection:
+    title: Technology selection
+    status: available
+    existing: [skill:neo-pragnya/tech-selection, skill:awesome-copilot/build-evidence-map]
+    gap: The specified Ananke policy pack isn't built; constraints live in each request file.
+    enhancement: new
+    assessed: tests
+    ananke: not built (policy pack)
+  auto-sdd:
+    title: Spec-driven development
+    status: available
+    existing: [instruction:awesome-copilot/spec-driven-workflow-v1, skill:superpowers/writing-plans, skill:superpowers/executing-plans, plugin:awesome-copilot/project-planning]
+    gap: Good method guidance; not yet tied to Ananke's spec state and locks.
+    enhancement: workflow
+    ananke: ananke spec create; ananke spec plan; ananke spec tasks; ananke spec lock
+  session-learning:
+    title: Session learning
+    status: partial
+    existing: [skill:awesome-copilot/remember, skill:awesome-copilot/memory-merger, instruction:awesome-copilot/memory-bank]
+    gap: These store lessons directly, with no evaluation or review. Reviewed promotion is Ananke's learning candidates and Dex's candidate gate.
+    enhancement: wrapper
+    ananke: ananke learning capture; ananke learning promote (0.3.13)
+  quality-cve:
+    title: Quality and CVE verification
+    status: partial
+    existing: [skill:neo-pragnya/package-security-scan, agent:awesome-copilot/sast-sca-security-analyzer, skill:awesome-copilot/dependabot, skill:awesome-copilot/audit-integrity]
+    gap: Package scanning and audit guidance; no normalised findings across scanners.
+    enhancement: wrapper
+    ananke: ananke verify
+  api-testing:
+    title: API testing
+    status: partial
+    existing: [skill:awesome-copilot/test-gap-audit, skill:awesome-copilot/playwright-generate-test, instruction:awesome-copilot/playwright-python]
+    gap: Browser and general test generation; nothing generates tests from an API contract.
+    enhancement: wrapper
+    ananke: ananke test run; contract-driven generation not built
+  bdd-tdd:
+    title: BDD and TDD
+    status: available
+    existing: [skill:superpowers/test-driven-development, skill:neo-pragnya/capability-acceptance, agent:awesome-copilot/tdd-red, plugin:awesome-copilot/testing-automation]
+    gap: Methods and an acceptance harness are here; a test-strategy selector isn't.
+    enhancement: workflow
+    ananke: ananke test run
+  browser-debugging:
+    title: Browser debugging
+    status: available
+    existing: [skill:anthropic/webapp-testing, skill:awesome-copilot/webapp-testing, agent:awesome-copilot/gem-browser-tester, skill:superpowers/systematic-debugging]
+    gap: Works as guidance with Playwright; no sandboxed executor with trace evidence.
+    enhancement: wrapper
+    ananke: not built
+  code-review:
+    title: Code review
+    status: available
+    existing: [skill:superpowers/requesting-code-review, skill:superpowers/receiving-code-review]
+    gap: Review method, without graph impact or SARIF findings.
+    enhancement: wrapper
+    ananke: ananke graph impact; findings postprocessor not built
+  versioned-registry:
+    title: Versioned registry
+    status: available
+    existing: []
+    gap: None for Dex. Built into Dex as `dex release`, `dex lock` and `dex install --locked`.
+    enhancement: feature
+    assessed: tests
+    ananke: ananke registry troves sync
+  catalog-discovery:
+    title: Catalog and discovery
+    status: available
+    existing: []
+    gap: None for Dex. Built into Dex as `dex search`, facets, relations and the website.
+    enhancement: feature
+    assessed: tests
+    ananke: ananke registry providers discover (0.3.13)
+  skill-harvesting:
+    title: Skill harvesting
+    status: partial
+    existing: []
+    gap: The pipeline is built into `dex learn`. The named frameworks are inventoried, not all ingested, and GST and Acuta are unidentified.
+    enhancement: feature
+    assessed: tests
+    ananke: ananke registry learn
+  jenkins-triage:
+    title: Jenkins failure triage
+    status: missing
+    existing: [skill:superpowers/systematic-debugging, skill:awesome-copilot/gem-devops-guidelines]
+    gap: General debugging only; nothing reads Jenkins logs or stages.
+    enhancement: new
+    ananke: not built
+  jenkins-trigger:
+    title: Jenkins trigger
+    status: missing
+    existing: [agent:awesome-copilot/github-actions-expert]
+    gap: GitHub Actions only; no Jenkins connector, and triggering must go through an Ananke approval.
+    enhancement: new
+    ananke: not built
+  infra-docker:
+    title: Infrastructure and Docker
+    status: partial
+    existing: [skill:awesome-copilot/gem-devops-guidelines, skill:awesome-copilot/multi-stage-dockerfile, agent:awesome-copilot/terraform, instruction:awesome-copilot/kubernetes-deployment-best-practices]
+    gap: Authoring guidance; no parsing of plans or logs into topology.
+    enhancement: wrapper
+    ananke: not built
+  kibana-dashboard:
+    title: Kibana dashboards
+    status: missing
+    existing: [agent:awesome-copilot/elasticsearch-observability]
+    gap: An Elastic observability agent exists; nothing generates or exports Kibana saved objects.
+    enhancement: new
+    ananke: not built
+  rich-documentation:
+    title: Rich documentation
+    status: available
+    existing: [skill:awesome-copilot/documentation-writer, agent:awesome-copilot/se-technical-writer, skill:neo-pragnya/astro-docs-site]
+    gap: Writing and publishing are covered; source-grounded generation with evidence isn't.
+    enhancement: wrapper
+    ananke: not built
+  html-presentations:
+    title: HTML presentations
+    status: partial
+    existing: [skill:neo-pragnya/life-ikigai-architect, skill:anthropic/theme-factory, skill:awesome-copilot/markdown-to-html]
+    gap: The general deck tool is Dev Guru's `dev present`; no Dex skill points to it yet.
+    enhancement: wrapper
+    ananke: artifact registration (0.3.13)
+  bpmn-designer:
+    title: BPMN designer
+    status: missing
+    existing: [skill:awesome-copilot/draw-io-diagram-generator]
+    gap: General diagrams only; nothing produces BPMN XML.
+    enhancement: new
+    ananke: not built
+  animated-svg:
+    title: Animated SVG
+    status: available
+    existing: [skill:neo-pragnya/living-diagrams, skill:neo-pragnya/marvellous-aws-architecture-docs]
+    gap: Animation is covered; cited extraction from documents is unfinished work in Dev Guru (`dev diagram`).
+    enhancement: wrapper
+    ananke: not built
+  research-questionnaire:
+    title: Research questionnaire
+    status: available
+    existing: [skill:neo-pragnya/research-questionnaire]
+    gap: None for the skill; answers aren't recorded in Ananke spec state yet.
+    enhancement: new
+    assessed: tests
+    ananke: not built (spec state)
+  enterprise-onboarding:
+    title: Enterprise onboarding
+    status: partial
+    existing: [skill:awesome-copilot/acquire-codebase-knowledge, skill:awesome-copilot/code-tour]
+    gap: Onboards to code; no permissioned ingestion of enterprise documents.
+    enhancement: wrapper
+    ananke: not built
+  repo-autodocs:
+    title: Repository autodocs
+    status: partial
+    existing: [skill:awesome-copilot/readme-blueprint-generator, skill:awesome-copilot/docs-sync-audit, skill:awesome-copilot/doc-and-modernize]
+    gap: Generates and audits docs by reading code; not grounded in Ananke's graph.
+    enhancement: wrapper
+    ananke: ananke graph export
+  scaffold-harvesting:
+    title: Scaffold harvesting
+    status: available
+    existing: [skill:neo-pragnya/scaffold-harvesting]
+    gap: Wrapping a template as a skill is manual; no skill generator.
+    enhancement: new
+    assessed: tests
+    ananke: not built
+  pr-release:
+    title: PR and release
+    status: partial
+    existing: [skill:awesome-copilot/github-release, skill:superpowers/finishing-a-development-branch, skill:awesome-copilot/docs-sync-audit]
+    gap: Release method; no grounded changelog or evidence gates.
+    enhancement: workflow
+    ananke: ananke lifecycle pr-create
+  copilot-analytics:
+    title: Copilot analytics
+    status: partial
+    existing: [skill:awesome-copilot/copilot-usage-metrics, hook:awesome-copilot/session-logger]
+    gap: Reads Copilot metrics and logs sessions; no analysis or HTML report.
+    enhancement: wrapper
+    ananke: not built
+# The frameworks the plan names for comparison. Licences checked on the GitHub API and in each LICENSE file.
+frameworks:
+  - { name: Superpowers, repo: obra/superpowers, licence: MIT, state: "ingested (15 skills)" }
+  - { name: Agent Skills specification, repo: agentskills/agentskills, licence: Apache-2.0, state: "followed (the skill format), nothing to ingest" }
+  - { name: Impeccable, repo: pbakaus/impeccable, licence: Apache-2.0, state: "not ingested; needs an owner decision" }
+  - { name: BMAD Method, repo: bmad-code-org/BMAD-METHOD, licence: "MIT (LICENSE file; the GitHub API reports NOASSERTION)", state: "not ingested; needs an owner decision and an adapter check" }
+  - { name: Spec Kit, repo: github/spec-kit, licence: MIT, state: "not ingested; needs an owner decision" }
+  - { name: GST, repo: null, licence: unknown, state: "unresolved: no upstream repository was supplied" }
+  - { name: Acuta, repo: null, licence: unknown, state: "unresolved: no upstream repository was supplied" }

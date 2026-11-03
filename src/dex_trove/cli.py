@@ -1047,3 +1047,42 @@ def docs_reuse() -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(reuse.markdown(root / "trove"), encoding="utf-8")
     console.print(str(target))
+
+
+@app.command("capabilities")
+def capabilities_cmd(
+    capability: Annotated[str | None, typer.Argument(help="One capability id, e.g. code-review")] = None,
+    status: Annotated[str | None, typer.Option("--status", help="available, partial or missing")] = None,
+    as_json: JsonOpt = False,
+) -> None:
+    """What the trove offers for each planned capability, its licences, and what's still missing."""
+    from dex_trove import capability_map as cm
+
+    table = cm.rows(cm.load(), catalog.load())
+    if capability:
+        table = [r for r in table if r["id"] == capability]
+        if not table:
+            err.print(f"[red]no capability {capability!r}; run `dex capabilities`[/red]")
+            raise typer.Exit(2)
+    if status:
+        table = [r for r in table if r["status"] == status]
+    if as_json:
+        console.print_json(json.dumps(table))
+        return
+    for r in table:
+        console.print(f"[bold]{r['id']}[/bold]  {cm.STATUS_LABEL[r['status']]} · next: {r['enhancement']}")
+        for e in r["existing"]:
+            console.print(f"  {e['key']} ({e['licence']})")
+        console.print(f"  [dim]missing: {r['gap']}[/dim]")
+
+
+@docs_app.command("capabilities")
+def docs_capabilities() -> None:
+    """Regenerate docs/reference/capability-matrix.md."""
+    from dex_trove import capability_map as cm
+
+    root = _need_checkout_here()
+    target = root / "docs" / "reference" / "capability-matrix.md"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(cm.markdown(root / "trove"), encoding="utf-8")
+    console.print(str(target))
