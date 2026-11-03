@@ -285,12 +285,13 @@ jobs:
           path: dist/
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65
-        with:
-          files: dist/*
-          generate_release_notes: true
-          body: |
-            ## ${{ github.ref_name }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$TAG" dist/* --repo "$GITHUB_REPOSITORY" --generate-notes --verify-tag --notes-file - <<NOTES
+          ## $TAG
 
-            Published to [PyPI](https://pypi.org/project/dex-trove/).
-            See [CHANGELOG.md](https://github.com/Neo-Pragnya/Dex-Trove/blob/main/CHANGELOG.md) for details.
+          Published to [PyPI](https://pypi.org/project/dex-trove/).
+          See [CHANGELOG.md](https://github.com/Neo-Pragnya/Dex-Trove/blob/main/CHANGELOG.md) for details.
+          NOTES
