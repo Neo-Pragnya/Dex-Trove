@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/llm-architect",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "llm-architect",
+  "title": "llm-architect",
+  "description": "Use when designing LLM systems for production, implementing fine-tuning or RAG architectures, optimizing inference serving infrastructure, or managing multi-model deployments.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "llm-architect.md",
+  "dir": "agents/voltagent.llm-architect",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/llm-architect.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/llm-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "llm-architect.md"
+  ],
+  "entry_hash": "5383c2541f792fe8a4a6398e0a5d5067b81018a1ed0069eaa228e4d7ef3cb364",
+  "content_hash": "a932528fca8c2cab903ae1e7dabef843d5efc11894814f60b56ccc02d24c309a",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

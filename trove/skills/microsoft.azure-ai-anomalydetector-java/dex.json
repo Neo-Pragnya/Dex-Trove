@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-ai-anomalydetector-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-anomalydetector-java",
+  "title": "Azure AI Anomaly Detector SDK for Java",
+  "description": "Build anomaly detection applications with Azure AI Anomaly Detector SDK for Java. Use when implementing univariate/multivariate anomaly detection, time-series analysis, or AI-powered monitoring.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-anomalydetector-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-ai-anomalydetector-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-ai-anomalydetector-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "e39cb5855a4e4240e037110b74abcc1b850e28761d95c668ac0568b64ca40d6e",
+  "content_hash": "f2c87cda35ac16dac8b1f3dac8545f3af49705f5c2443a608b2aa97cad757b0d",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

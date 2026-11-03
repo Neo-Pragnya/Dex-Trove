@@ -1,0 +1,35 @@
+kind: skill
+namespace: huggingface
+name: huggingface-best
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:huggingface-best
+summary: Use when the user asks about finding the best, top, or recommended model for a task, wants to know what
+  AI model to use, or wants to compare models by benchmark scores.
+description: 'Use when the user asks about finding the best, top, or recommended model for a task, wants to know
+  what AI model to use, or wants to compare models by benchmark scores. Triggers on: "best model for X", "what model
+  should I use for", "top models for [task]", "which model runs on my laptop/machine/device", "recommend a model
+  for", "what LLM should I use for", "compare models for", "what''s state of the art for", or any question about
+  choosing an AI model for a specific use case. Always use this skill when the user wants model recommendations
+  or comparisons, even if they don''t explicitly mention HuggingFace or benchmarks.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-best
+  repository: https://github.com/huggingface/skills

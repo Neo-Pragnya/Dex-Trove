@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/ml-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "ml-engineer",
+  "title": "ml-engineer",
+  "description": "Build production ML systems with PyTorch 2.x, TensorFlow, and modern ML frameworks. Implements model serving, feature engineering, A/B testing, and monitoring. Use PROACTIVELY for ML model deployment, inference optimization, or production ML infrastructure.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "ml-engineer.md",
+  "dir": "agents/wshobson.ml-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/machine-learning-ops/agents/ml-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/machine-learning-ops/agents/ml-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ml-engineer.md"
+  ],
+  "entry_hash": "604a856602fe59fb3656db554ff0ba6d097c91e22f16fdd70b3e3c1226487285",
+  "content_hash": "ca707ee9d24447bb9288738983f35932822a8759ec34a7a0f096e0216217299c",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

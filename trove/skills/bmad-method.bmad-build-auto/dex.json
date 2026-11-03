@@ -1,0 +1,52 @@
+{
+  "id": "bmad-method/bmad-build-auto",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-build-auto",
+  "title": "bmad-build-auto",
+  "description": "Implements one story, feature, or bug fix end to end without human interaction: plan, code, review, verify, report status. Use when invoked by name, usually by an orchestrator",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-build-auto",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-build-auto",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-build-auto",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml",
+    "plan-template.md",
+    "references/claims-check.md",
+    "references/deletion-check.md",
+    "review-prompts/edge-case-hunter.md",
+    "review-prompts/verification-gap.md",
+    "step-01-clarify-and-route.md",
+    "step-02-plan.md",
+    "step-03-implement.md",
+    "step-04-review.md",
+    "workflow.md"
+  ],
+  "entry_hash": "2176e57a1d834e2e8749582ce8e5498ade1ec3e9b9af891809e5c6247e8296fd",
+  "content_hash": "c30e8a93ddd175b463be6f22fb4131cac8f24bc67bfafe9cf00269c141c682ce",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

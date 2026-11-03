@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/service-mesh-expert",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "service-mesh-expert",
+  "title": "service-mesh-expert",
+  "description": "Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh configurations. Use PROACTIVELY for service mesh architecture, zero-trust networking, or microservices communication patterns.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "service-mesh-expert.md",
+  "dir": "agents/wshobson.service-mesh-expert",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/cloud-infrastructure/agents/service-mesh-expert.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cloud-infrastructure/agents/service-mesh-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "service-mesh-expert.md"
+  ],
+  "entry_hash": "e0772d0a32dddf41d06c06216c7cefdfc4f3357601f01e3bd6c50c4a18a3faa2",
+  "content_hash": "413f8d056190944642f24132f6cf1272b427c6c0ee2bc27618d15de4a4371c95",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

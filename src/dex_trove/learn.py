@@ -372,6 +372,10 @@ class Learner:
         if (raw.kind, slug) in produced:
             self._exclude(result, raw, root, "name-collision", f"{ns}/{slug} already learned")
             return
+        withheld = (source.items.get(raw.name) or source.items.get(slug) or {}).get("withhold")
+        if withheld:
+            self._exclude(result, raw, root, "withheld", str(withheld))
+            return
         decision = resolve_license(raw, source, root)
         verdict = decision.cls.verdict
         if verdict == REVIEW_V and source.allow_review:

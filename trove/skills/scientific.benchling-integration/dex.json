@@ -1,0 +1,45 @@
+{
+  "id": "scientific/benchling-integration",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "benchling-integration",
+  "title": "Benchling Integration",
+  "description": "Benchling Python SDK and REST API integration for registry entities, inventory, ELN entries, workflows, Benchling Apps, and Data Warehouse queries. Use when automating lab data with benchling-sdk or the v2 API.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.benchling-integration",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/benchling-integration",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/benchling-integration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_endpoints.md",
+    "references/authentication.md",
+    "references/core_capabilities.md",
+    "references/eventbridge.md",
+    "references/sdk_reference.md"
+  ],
+  "entry_hash": "115b5418f7c42748918eed922b78010c795920b276063b8b759802eb0172d5de",
+  "content_hash": "a9a6a6390be9d445d32e30dba87376f092cccbb87d03204c130c843f06743fa1",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

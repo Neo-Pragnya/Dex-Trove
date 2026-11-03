@@ -1,0 +1,47 @@
+{
+  "id": "scientific/vaex",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "vaex",
+  "title": "Vaex",
+  "description": "Processes large tabular scientific datasets with Vaex expressions, filtered views, streamed statistics, binned visualizations, and file conversion. Use for larger-than-RAM HDF5, Arrow, CSV, or Parquet analysis, virtual feature engineering, or Vaex ML preprocessing; distinguishes these operations from estimators and conversions that materialize data.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.vaex",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/vaex",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/vaex",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/core_dataframes.md",
+    "references/data_processing.md",
+    "references/io_operations.md",
+    "references/machine_learning.md",
+    "references/performance.md",
+    "references/review.md",
+    "references/visualization.md"
+  ],
+  "entry_hash": "a8ab5bcb0ab9c8d372b987e584b5c589a15b1e2b2f73457546d2888988d40b4f",
+  "content_hash": "7e4435a9c7c53e0e5a50fcb5251b09ee766f23868c32d95610df5fcfd87fd2ca",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

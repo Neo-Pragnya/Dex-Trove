@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: dgx-spark-ops-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:dgx-spark-ops-engineer
+summary: NVIDIA DGX Spark environment doctor for GB10/aarch64/CUDA-13 systems. Diagnoses and fixes ML stack setup,
+  unified-memory, and thermal issues.
+description: NVIDIA DGX Spark environment doctor for GB10/aarch64/CUDA-13 systems. Diagnoses and fixes ML stack
+  setup, unified-memory, and thermal issues. Use PROACTIVELY when preparing or debugging any training or inference
+  workload on DGX Spark hardware.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dgx-spark-ops-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/dgx-spark-ops/agents/dgx-spark-ops-engineer.md
+  repository: https://github.com/wshobson/agents

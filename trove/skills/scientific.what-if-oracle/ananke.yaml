@@ -1,0 +1,33 @@
+kind: skill
+namespace: scientific
+name: what-if-oracle
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:what-if-oracle
+summary: Supports structured what-if scenario analysis for research planning, experimental contingencies, and scientific
+  project decisions.
+description: Supports structured what-if scenario analysis for research planning, experimental contingencies, and
+  scientific project decisions. Explores favorable, reference, adverse, wild-card, contrarian, and second-order
+  scenarios with explicit assumptions, evidence, and decision triggers. Use to stress-test a research plan under
+  uncertainty; scenario narratives do not estimate causal effects or calibrated forecast probabilities.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/what-if-oracle
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

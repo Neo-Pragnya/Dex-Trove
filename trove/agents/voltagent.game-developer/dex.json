@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/game-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "game-developer",
+  "title": "game-developer",
+  "description": "Use this agent when implementing game systems, optimizing graphics rendering, building multiplayer networking, or developing gameplay mechanics for games targeting specific platforms.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "game-developer.md",
+  "dir": "agents/voltagent.game-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/game-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/game-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "game-developer.md"
+  ],
+  "entry_hash": "1a5ba534788034d036dc47133c2aacc393daee05af3a61a551fa16aef47b5c3d",
+  "content_hash": "5522a0f63d00b48fba205b10a90a57375ac7aa251513f5e682ad83be722944e6",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: csharp-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:csharp-pro
+summary: Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes
+  .NET applications, implements enterprise patterns, and ensures comprehensive testing.
+description: Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes
+  .NET applications, implements enterprise patterns, and ensures comprehensive testing. Use PROACTIVELY for C# refactoring,
+  performance optimization, or complex .NET solutions.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: csharp-pro.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/jvm-languages/agents/csharp-pro.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/search-specialist",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "search-specialist",
+  "title": "search-specialist",
+  "description": "Use when you need to find specific information across multiple sources using advanced search strategies, query optimization, and targeted information retrieval. Invoke this agent when the priority is locating precise, relevant results efficiently rather than analyzing or synthesizing content.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "search-specialist.md",
+  "dir": "agents/voltagent.search-specialist",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/search-specialist.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/search-specialist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "search-specialist.md"
+  ],
+  "entry_hash": "4ea373635ba9045d03b02b900b3afc97ce9cefaf6dc8b07c11054643da01506d",
+  "content_hash": "50e337d76763cbd9017e652aabff6453801990fc63d26c1f23e94188753eade6",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

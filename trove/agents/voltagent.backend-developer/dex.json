@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/backend-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "backend-developer",
+  "title": "backend-developer",
+  "description": "Use this agent when building server-side APIs, microservices, and backend systems that require robust architecture, scalability planning, and production-ready implementation.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "backend-developer.md",
+  "dir": "agents/voltagent.backend-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/backend-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/backend-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "backend-developer.md"
+  ],
+  "entry_hash": "f41444c6a10a4d57821a9eda26018bf94d92249c5da383e93ebbee08b6c051c3",
+  "content_hash": "ed8c8877e59137b7fb27595c7eec8c19c203b3b63d342f0472bf0597a7f34e41",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

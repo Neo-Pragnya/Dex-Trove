@@ -1,0 +1,46 @@
+{
+  "id": "scientific/pathway-enrichment",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pathway-enrichment",
+  "title": "Pathway Enrichment",
+  "description": "Performs pathway and gene-set enrichment analysis on gene lists or ranked gene data and interprets the results. Used when the user has a set of genes (differentially expressed genes from PyDESeq2/Scanpy, CRISPR-screen hits, cluster marker genes, proteomics hits) and wants to know which biological pathways, GO terms, or gene sets are over-represented or enriched. Covers over-representation analysis (ORA / Enrichr / Fisher / hypergeometric), ranked Gene Set Enrichment Analysis (GSEA / preranked), single-sample scoring (ssGSEA/GSVA), and functional profiling via gseapy, g:Profiler, Enrichr libraries, MSigDB, GO, KEGG, Reactome, and WikiPathways — plus gene-ID mapping, choosing the right background universe, multiple-testing correction, redundancy reduction, dotplots/enrichment maps, and publication-ready tables. Use this for \"pathway analysis\", \"enrichment analysis\", \"GO enrichment\", \"KEGG/Reactome pathways\", \"GSEA\", \"over-representation\", \"functional annotation\", or \"what pathways are my genes in\".",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pathway-enrichment",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pathway-enrichment",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pathway-enrichment",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/databases-and-gene-sets.md",
+    "references/gseapy.md",
+    "references/interpretation.md",
+    "references/verified-api.md",
+    "scripts/run_enrichment.py"
+  ],
+  "entry_hash": "82783d8ba63b6b03646492ee75afcdf591903a213decf7e7c9d844eb517acd78",
+  "content_hash": "cb8efe8f92daddb286aeaee9054b48225052ac6dab7ca0dd3501c390e2de70fb",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

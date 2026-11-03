@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: social-publishing-publisher
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:social-publishing-publisher
+summary: Agent-first social media publishing specialist. Use this agent to schedule and publish posts across 13
+  platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, Wo…
+description: Agent-first social media publishing specialist. Use this agent to schedule and publish posts across
+  13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest)
+  via the SocialClaw API. Invoke for multi-platform campaigns, content scheduling, media upload, and post analytics.
+  Requires a SocialClaw workspace API key (SOCIALCLAW_API_KEY).
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: social-publishing-publisher.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/social-publishing/agents/social-publishing-publisher.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: api-documenter
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:api-documenter
+summary: Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices.
+  Create interactive docs, generate SDKs, and build comprehensive developer portals.
+description: Master API documentation with OpenAPI 3.1, AI-powered tools, and modern developer experience practices.
+  Create interactive docs, generate SDKs, and build comprehensive developer portals. Use PROACTIVELY for API documentation
+  or developer portal creation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: api-documenter.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/api-testing-observability/agents/api-documenter.md
+  repository: https://github.com/wshobson/agents

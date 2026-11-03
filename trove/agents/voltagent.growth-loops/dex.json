@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/growth-loops",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "growth-loops",
+  "title": "growth-loops",
+  "description": "Use when the user wants to design a growth loop, understand PLG mechanics, or build sustainable acquisition. Triggers on: 'growth loop', 'flywheel', 'viral loop', 'PLG growth', 'product-led growth', 'growth mechanics', 'how do we grow', 'word of mouth'.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "growth-loops.md",
+  "dir": "agents/voltagent.growth-loops",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/growth-loops.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/growth-loops.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "growth-loops.md"
+  ],
+  "entry_hash": "2fb378361137e8b7ecf350de4b9ae5ac8bac1c2d6159304e6590d6dae1a6ec84",
+  "content_hash": "1de673f3071e8937760953ec4094d3ddd22ec4b2757c075e2d4d9ea478850df6",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

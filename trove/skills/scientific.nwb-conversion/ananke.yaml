@@ -1,0 +1,28 @@
+kind: skill
+namespace: scientific
+name: nwb-conversion
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:nwb-conversion
+summary: Converts neuroscience acquisition data to Neurodata Without Borders files with NeuroConv and PyNWB, preserves
+  metadata and timebases, checks evidence-based clock alignment, and produces schema validat…
+description: Converts neuroscience acquisition data to Neurodata Without Borders files with NeuroConv and PyNWB,
+  preserves metadata and timebases, checks evidence-based clock alignment, and produces schema validation, NWB Inspector
+  findings and round-trip checks. Use for NWB conversion and synchronization of planar single-channel two-photon
+  TIFF imaging plus timestamped behavioral position CSV; this skill does not perform spike sorting or claim tested
+  support for arbitrary acquisition formats.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/nwb-conversion
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

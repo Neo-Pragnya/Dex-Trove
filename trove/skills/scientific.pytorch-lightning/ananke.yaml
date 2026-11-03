@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: pytorch-lightning
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:pytorch-lightning
+summary: Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorch code into LightningModules,
+  configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, T…
+description: Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorch code into LightningModules,
+  configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard, MLflow),
+  distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytorch-lightning
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

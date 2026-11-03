@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: seo-authority-builder
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:seo-authority-builder
+summary: Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies
+  missing credibility elements. Use PROACTIVELY for YMYL topics.
+description: Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies
+  missing credibility elements. Use PROACTIVELY for YMYL topics.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: seo-authority-builder.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-analysis-monitoring/agents/seo-authority-builder.md
+  repository: https://github.com/wshobson/agents

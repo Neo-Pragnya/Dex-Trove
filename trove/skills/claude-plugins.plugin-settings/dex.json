@@ -1,0 +1,48 @@
+{
+  "id": "claude-plugins/plugin-settings",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "plugin-settings",
+  "title": "Plugin Settings Pattern for Claude Code Plugins",
+  "description": "This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin settings\", or wants to make plugin behavior configurable. Documents the .claude/plugin-name.local.md pattern for storing plugin-specific configuration with YAML frontmatter and markdown content.",
+  "tags": [
+    "claude-plugins",
+    "executes-code",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.plugin-settings",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/plugin-dev/skills/plugin-settings",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/plugin-settings",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/plugin-dev/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "examples/create-settings-command.md",
+    "examples/example-settings.md",
+    "examples/read-settings-hook.sh",
+    "references/parsing-techniques.md",
+    "references/real-world-examples.md",
+    "scripts/parse-frontmatter.sh",
+    "scripts/validate-settings.sh"
+  ],
+  "entry_hash": "028b955244b937ebc1a5c268a12776b8ceae4cbfb60928fbca927227f4c8851d",
+  "content_hash": "c90c527fbb4ba91fc4945c86e6663b7eea90583fef22cdf5eec5409a24cfa55b",
+  "learned_at": "2026-11-03T06:21:40+00:00"
+}

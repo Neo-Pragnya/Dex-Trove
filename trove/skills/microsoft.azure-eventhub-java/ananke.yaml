@@ -1,0 +1,31 @@
+kind: skill
+namespace: microsoft
+name: azure-eventhub-java
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-eventhub-java
+summary: Build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event
+  streaming, high-throughput data ingestion, or building event-driven architectures.
+description: Build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event
+  streaming, high-throughput data ingestion, or building event-driven architectures.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-eventhub-java
+  repository: https://github.com/microsoft/skills

@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: dotnet-core-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:dotnet-core-expert
+summary: Use when building .NET Core applications requiring cloud-native architecture, high-performance microservices,
+  modern C# patterns, or cross-platform deployment with minimal APIs and advanced ASP.NET Co…
+description: Use when building .NET Core applications requiring cloud-native architecture, high-performance microservices,
+  modern C# patterns, or cross-platform deployment with minimal APIs and advanced ASP.NET Core features.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dotnet-core-expert.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/dotnet-core-expert.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

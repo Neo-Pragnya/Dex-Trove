@@ -1,0 +1,54 @@
+{
+  "id": "bmad-method/bmad-build",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-build",
+  "title": "bmad-build",
+  "description": "Implements a story, feature, or bug fix end to end: plan, code, review, verify. Use when the user hands one over and leaves the edits to you; a bare ticket id or link counts. Skip obvious, low-risk mechanical maintenance such as small ignore-file, typo-only, formatting-only, or configuration-hygiene edits. Explicit BMAD requests always qualify. Do not volunteer for user-directed interactive edits or version-control operations that only record existing work.",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-build",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-build",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-build",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml",
+    "plan-template.md",
+    "references/claims-check.md",
+    "references/deletion-check.md",
+    "review-prompts/edge-case-hunter.md",
+    "review-prompts/verification-gap.md",
+    "step-01-clarify-and-route.md",
+    "step-02-plan.md",
+    "step-03-implement.md",
+    "step-04-review.md",
+    "step-05-present.md",
+    "step-oneshot.md",
+    "workflow.md"
+  ],
+  "entry_hash": "4c19bb23bfedc541df60f100e5333e22d62aff5dbec5cd72d52a8454e7aba228",
+  "content_hash": "8677b6c6b0f57564f1c7be199563ae74bac39423726c8a893cba1cbdd8109cce",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: review-policy-author
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:review-policy-author
+summary: Cedar policy author specialized in gating AI agent review actions (PR comments, reviews, merges, CI edits)
+  behind human approval.
+description: Cedar policy author specialized in gating AI agent review actions (PR comments, reviews, merges, CI
+  edits) behind human approval. Use when writing, auditing, or extending a review-governance.cedar policy for review-bot
+  governance.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: review-policy-author.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/review-agent-governance/agents/review-policy-author.md
+  repository: https://github.com/wshobson/agents

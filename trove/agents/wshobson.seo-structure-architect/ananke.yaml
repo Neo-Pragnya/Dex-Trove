@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: seo-structure-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:seo-structure-architect
+summary: Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal
+  linking opportunities. Creates search-friendly content organization.
+description: Analyzes and optimizes content structure including header hierarchy, suggests schema markup, and internal
+  linking opportunities. Creates search-friendly content organization. Use PROACTIVELY for content structuring.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: seo-structure-architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-technical-optimization/agents/seo-structure-architect.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,49 @@
+{
+  "id": "microsoft/frontend-ui-dark-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "frontend-ui-dark-ts",
+  "title": "Frontend UI Dark Theme (TypeScript)",
+  "description": "Build dark-themed React applications using Tailwind CSS with custom theming, glassmorphism effects, and Framer Motion animations. Use when creating dashboards, admin panels, or data-rich interfaces with a refined dark aesthetic.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.frontend-ui-dark-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/frontend-ui-dark-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/frontend-ui-dark-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/Segoe UI Bold Italic.ttf",
+    "assets/Segoe UI Bold.ttf",
+    "assets/Segoe UI Italic.ttf",
+    "assets/Segoe UI.ttf",
+    "assets/foundry-logo-dark.png",
+    "assets/foundry-logo-light.png",
+    "references/components.md",
+    "references/design-tokens.md",
+    "references/patterns.md"
+  ],
+  "entry_hash": "ae89e5f7592c2ec2c279bac49b85c0eac2c269eb6331a45a33eea185a46e172b",
+  "content_hash": "db73338bc39687bc8f0aefb15ac8d5c2933a6a5883a422f3439ac83a1fdd4be5",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

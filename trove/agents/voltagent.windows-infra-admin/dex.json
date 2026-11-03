@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/windows-infra-admin",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "windows-infra-admin",
+  "title": "windows-infra-admin",
+  "description": "Use when managing Windows Server infrastructure, Active Directory, DNS, DHCP, and Group Policy configurations, especially for enterprise-scale deployments requiring safe automation and compliance validation.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "windows-infra-admin.md",
+  "dir": "agents/voltagent.windows-infra-admin",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/windows-infra-admin.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/windows-infra-admin.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "windows-infra-admin.md"
+  ],
+  "entry_hash": "00a7e1650682b3ea4750ac65ef9eae72c0e5131cfcbd57e81ae23a6619d131bd",
+  "content_hash": "c37f2aa1da83a202c8c6bda1896cb6fea5f092cd32e33b22cfdd688e27dd1763",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

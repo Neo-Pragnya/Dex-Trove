@@ -1,0 +1,31 @@
+kind: skill
+namespace: microsoft
+name: azure-appconfiguration-ts
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-appconfiguration-ts
+summary: Build applications using Azure App Configuration SDK for JavaScript (@azure/app-configuration).
+description: Build applications using Azure App Configuration SDK for JavaScript (@azure/app-configuration). Use
+  when working with configuration settings, feature flags, Key Vault references, dynamic refresh, or centralized
+  configuration management.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-appconfiguration-ts
+  repository: https://github.com/microsoft/skills

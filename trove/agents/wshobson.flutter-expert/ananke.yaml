@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: flutter-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:flutter-expert
+summary: Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
+description: Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment. Handles state
+  management, animations, testing, and performance optimization for mobile, web, desktop, and embedded platforms.
+  Use PROACTIVELY for Flutter architecture, UI implementation, or cross-platform features.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: flutter-expert.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/multi-platform-apps/agents/flutter-expert.md
+  repository: https://github.com/wshobson/agents

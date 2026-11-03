@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/slack-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "slack-expert",
+  "title": "slack-expert",
+  "description": "Use this agent when developing Slack applications, implementing Slack API integrations, or reviewing Slack bot code for security and best practices.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "slack-expert.md",
+  "dir": "agents/voltagent.slack-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/slack-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/slack-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "slack-expert.md"
+  ],
+  "entry_hash": "aa53ee110564b50186a84aab15bd6a667eb7b132956bf843c87b47562a0f375f",
+  "content_hash": "f8c3b3ce35e6da3616deb9548ed5241f16b13055dc039c9763f02cd11ee87567",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

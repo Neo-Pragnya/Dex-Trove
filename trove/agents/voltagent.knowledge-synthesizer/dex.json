@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/knowledge-synthesizer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "knowledge-synthesizer",
+  "title": "knowledge-synthesizer",
+  "description": "Use when you need to mine recurring patterns from agent logs, session transcripts, and workflow history, then write grounded, evidence-cited findings that other agents or humans can act on.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "knowledge-synthesizer.md",
+  "dir": "agents/voltagent.knowledge-synthesizer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/knowledge-synthesizer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/knowledge-synthesizer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "knowledge-synthesizer.md"
+  ],
+  "entry_hash": "da28a65e1dc0306b923854900df26307d48a0ae213cc3cb3f63f7bc989b9e309",
+  "content_hash": "3b712cdcc8844befd7b803d7a71db656d94a0f88e16fa7abe14f418292470285",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

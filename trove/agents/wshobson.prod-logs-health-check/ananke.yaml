@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: prod-logs-health-check
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:prod-logs-health-check
+summary: Pulls recent production logs filtered for errors, warnings, and anomalies. Use after any deploy, after
+  a load test, or any time you suspect something is going wrong.
+description: Pulls recent production logs filtered for errors, warnings, and anomalies. Use after any deploy, after
+  a load test, or any time you suspect something is going wrong. Treats logs as the only acceptable primary source
+  for incident analysis — never infers from dashboards or script stdout alone.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: prod-logs-health-check.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/prod-logs-health-check.md
+  repository: https://github.com/wshobson/agents

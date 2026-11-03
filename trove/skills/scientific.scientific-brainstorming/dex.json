@@ -1,0 +1,50 @@
+{
+  "id": "scientific/scientific-brainstorming",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "scientific-brainstorming",
+  "title": "Scientific Brainstorming",
+  "description": "Facilitates evidence-aware scientific ideation with independent generation, structured discussion, explicit assumptions, transparent evaluation, adversarial review, and decision logs. Use for early-stage research brainstorming or prioritizing candidate directions; hand off empirical validation, study design, ethics or regulatory review, and clinical questions to appropriate experts or skills.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.scientific-brainstorming",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/scientific-brainstorming",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/scientific-brainstorming",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/brainstorming_methods.md",
+    "references/facilitation_workflows.md",
+    "references/idea_evaluation.md",
+    "references/responsible_ai.md",
+    "references/sources.md",
+    "scripts/_common.py",
+    "scripts/evaluate_matrix.py",
+    "scripts/session_scaffold.py",
+    "scripts/validate_register.py"
+  ],
+  "entry_hash": "06f73b71556356a7f488c369b9445d7943543a3f14d159b2168fd3f621d6f8a9",
+  "content_hash": "15d70a44ff5fc75d236b77b41679da7e1b4b58bbd69a97025cebb27a5d822c22",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

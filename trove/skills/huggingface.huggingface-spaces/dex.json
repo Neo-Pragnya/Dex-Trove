@@ -1,0 +1,54 @@
+{
+  "id": "huggingface/huggingface-spaces",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-spaces",
+  "title": "Hugging Face Spaces",
+  "description": "Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants. Use whenever the user asks to create or host an app on Hugging Face, port code onto ZeroGPU, fix a Space that won't build or run, or otherwise work with `hf spaces …`, `@spaces.GPU`, Space README frontmatter, or the `spaces` Python package.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-spaces",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-spaces",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-spaces",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "references/3d-cuda-extensions.md",
+    "references/3d-generation.md",
+    "references/3d-gsplat.md",
+    "references/3d-models.md",
+    "references/3d-outputs.md",
+    "references/buckets.md",
+    "references/debugging.md",
+    "references/gradio.md",
+    "references/grants.md",
+    "references/inference-providers.md",
+    "references/known-errors.md",
+    "references/requirements.md",
+    "references/zerogpu.md"
+  ],
+  "entry_hash": "efa6506be823aaea03c31ef6cd06734485f7c451065aab43cfa5b5053c0df82b",
+  "content_hash": "df207c29331f336350a3c37a7199ac7a36d8211ffa60752fd7b2d02cb09cbc31",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

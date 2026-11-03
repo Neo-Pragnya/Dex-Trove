@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: reinforcement-learning-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:reinforcement-learning-engineer
+summary: Use when designing RL environments, training agents with reward optimization, implementing policy gradient
+  methods, or deploying decision-making systems for robotics, gaming, and autonomous operations…
+description: Use when designing RL environments, training agents with reward optimization, implementing policy gradient
+  methods, or deploying decision-making systems for robotics, gaming, and autonomous operations.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: reinforcement-learning-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/reinforcement-learning-engineer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

@@ -1,0 +1,44 @@
+{
+  "id": "bmad-method/bmad-customize",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-customize",
+  "title": "BMad Customize",
+  "description": "Authors and updates customization overrides for installed BMad skills. Use when the user says 'customize bmad', 'override a skill', 'change agent behavior', or 'customize a workflow'",
+  "tags": [
+    "bmad-method",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-customize",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-customize",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-customize",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "scripts/list_customizable_skills.py",
+    "scripts/tests/test_list_customizable_skills.py"
+  ],
+  "entry_hash": "0b26244131a25948226193b89bdf04f6d2724b3280080ed7f3c816dff89d981d",
+  "content_hash": "814193c3d7870c56fdc34ff65c5d082eadee8b86d3cdffc516eb8a458df0a248",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

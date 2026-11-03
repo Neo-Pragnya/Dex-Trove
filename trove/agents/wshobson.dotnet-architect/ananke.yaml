@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: dotnet-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:dotnet-architect
+summary: Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise
+  application patterns.
+description: Expert .NET backend architect specializing in C#, ASP.NET Core, Entity Framework, Dapper, and enterprise
+  application patterns. Masters async/await, dependency injection, caching strategies, and performance optimization.
+  Use PROACTIVELY for .NET API development, code review, or architecture decisions.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dotnet-architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/dotnet-contribution/agents/dotnet-architect.md
+  repository: https://github.com/wshobson/agents

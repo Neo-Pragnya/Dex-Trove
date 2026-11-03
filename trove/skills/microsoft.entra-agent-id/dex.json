@@ -1,0 +1,46 @@
+{
+  "id": "microsoft/entra-agent-id",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "entra-agent-id",
+  "title": "Microsoft Entra Agent ID",
+  "description": "Provision Microsoft Entra Agent Identity Blueprints, BlueprintPrincipals, and per-instance Agent Identities via Microsoft Graph, and configure OAuth 2.0 token exchange (fmi_path, OBO, cross-tenant) including the Microsoft Entra SDK for AgentID sidecar. USE FOR: Agent Identity Blueprint, BlueprintPrincipal, agent OAuth, fmi_path token exchange, agent OBO, Workload Identity Federation for agents, polyglot agent auth, Microsoft.Identity.Web.AgentIdentities. DO NOT USE FOR: standard Entra app registration (use entra-app-registration), Microsoft Foundry agent authoring (use microsoft-foundry).",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.entra-agent-id",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/entra-agent-id",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/entra-agent-id",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/known-limitations.md",
+    "references/oauth2-token-flow.md",
+    "references/obo-blueprint-setup.md",
+    "references/runtime-token-exchange.md",
+    "references/sdk-sidecar-deployment.md",
+    "references/sdk-sidecar.md"
+  ],
+  "entry_hash": "ae56d3b42323dd25ed5ab7988fad3810487d3fbadfcb348b086182305d4e0784",
+  "content_hash": "98ac4c6215007cd0197734bd0e5d8fe09d2e8f4731cb43b5ce9706b3f03db280",
+  "learned_at": "2026-11-03T06:19:31+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/performance-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "performance-engineer",
+  "title": "performance-engineer",
+  "description": "Use this agent when you need to identify and eliminate performance bottlenecks in applications, databases, or infrastructure systems, and when baseline performance metrics need improvement.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "performance-engineer.md",
+  "dir": "agents/voltagent.performance-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/performance-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/performance-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "performance-engineer.md"
+  ],
+  "entry_hash": "3f3f6ac069818a21fbd106ce7d2d374fb32342dc1197a8148bc6f9ae8fdde277",
+  "content_hash": "ca3cac0f0d1551197c005927ce76ddf8306a9dbab7bb7c8371450134df5f4734",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/startup-analyst",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "startup-analyst",
+  "title": "startup-analyst",
+  "description": "Expert startup business analyst specializing in market sizing, financial modeling, competitive analysis, and strategic planning for early-stage companies. Use PROACTIVELY when the user asks about market opportunity, TAM/SAM/SOM, financial projections, unit economics, competitive landscape, team planning, startup metrics, or business strategy for pre-seed through Series A startups.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "startup-analyst.md",
+  "dir": "agents/wshobson.startup-analyst",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/startup-business-analyst/agents/startup-analyst.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/startup-business-analyst/agents/startup-analyst.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "startup-analyst.md"
+  ],
+  "entry_hash": "badbc91f7db2365f0b170f8926a7fd0167d626742addea442c582ec2925d744f",
+  "content_hash": "5f11dad05606984ae59547e3086b724223dcd221fca0e75c0c159f5e22412491",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

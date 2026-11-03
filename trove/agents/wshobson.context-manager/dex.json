@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/context-manager",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "context-manager",
+  "title": "agent-orchestration-context-manager",
+  "description": "Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems. Orchestrates context across multi-agent workflows, enterprise AI systems, and long-running projects with 2024/2025 best practices. Use PROACTIVELY for complex AI orchestration.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "context-manager.md",
+  "dir": "agents/wshobson.context-manager",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/agent-orchestration/agents/context-manager.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/agent-orchestration/agents/context-manager.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "context-manager.md"
+  ],
+  "entry_hash": "24efe4654f96c52335e6d02482e8111d3cffdc0e5bd76037be264a5dba668b4c",
+  "content_hash": "4cf10079f42ca865d24673894a1605d44566a4f2e79143f0b7bcaa10747eed44",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/laravel-specialist",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "laravel-specialist",
+  "title": "laravel-specialist",
+  "description": "Use when building Laravel 10+ applications, architecting Eloquent models with complex relationships, implementing queue systems for async processing, or optimizing API performance.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "laravel-specialist.md",
+  "dir": "agents/voltagent.laravel-specialist",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/laravel-specialist.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/laravel-specialist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "laravel-specialist.md"
+  ],
+  "entry_hash": "6d70b32a1b423e0cf7825a5477b8a6dc1b20cf4f94ef9fa44a661ff396284c99",
+  "content_hash": "fcf28785e05a4456ef628fc9a1d1c843ec8e91e3369b9f958ebbdea7635df3ff",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

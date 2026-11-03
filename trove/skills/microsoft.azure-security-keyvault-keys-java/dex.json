@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-security-keyvault-keys-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-security-keyvault-keys-java",
+  "title": "Azure Key Vault Keys (Java)",
+  "description": "Azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-security-keyvault-keys-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-security-keyvault-keys-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-security-keyvault-keys-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "ad00eabdfbfbf51ee4b58d53a5444e44be2725a6d4c2603d88de1c04816ea5b4",
+  "content_hash": "2af6c25cb6ba23a0a77cdcb7010cc8edad91b61d8e653e75388df6192c9edd49",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: sales-automator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:sales-automator
+summary: Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts.
+  Use PROACTIVELY for sales outreach or lead nurturing.
+description: Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales
+  scripts. Use PROACTIVELY for sales outreach or lead nurturing.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: sales-automator.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/customer-sales-automation/agents/sales-automator.md
+  repository: https://github.com/wshobson/agents

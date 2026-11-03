@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-snippet-hunter",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-snippet-hunter",
+  "title": "seo-snippet-hunter",
+  "description": "Formats content to be eligible for featured snippets and SERP features. Creates snippet-optimized content blocks based on best practices. Use PROACTIVELY for question-based content.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-snippet-hunter.md",
+  "dir": "agents/wshobson.seo-snippet-hunter",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-technical-optimization/agents/seo-snippet-hunter.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-technical-optimization/agents/seo-snippet-hunter.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-snippet-hunter.md"
+  ],
+  "entry_hash": "180c772fc4bb0dd2a79f078071acd10b0f2681f8122eef06b26eea7cdf22a5ff",
+  "content_hash": "96874897cfd7697f71b12c75a10eb45d11e11f623c6e72a98f5db3d58dc4a688",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

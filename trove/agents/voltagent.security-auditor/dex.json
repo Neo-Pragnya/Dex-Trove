@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/security-auditor",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "security-auditor",
+  "title": "security-auditor",
+  "description": "Use this agent when conducting comprehensive security audits, compliance assessments, or risk evaluations across systems, infrastructure, and processes. Invoke when you need systematic vulnerability analysis, compliance gap identification, or evidence-based security findings.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "security-auditor.md",
+  "dir": "agents/voltagent.security-auditor",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/security-auditor.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/security-auditor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "security-auditor.md"
+  ],
+  "entry_hash": "62b0e511c9e0d8f1ec02b2fe0f4a1806134c850508c55420f558457225b1eb7d",
+  "content_hash": "e8ce3e246463ec5644297cec32392af5d54caeae7c016571432278535091a3a8",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

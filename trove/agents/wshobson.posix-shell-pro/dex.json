@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/posix-shell-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "posix-shell-pro",
+  "title": "posix-shell-pro",
+  "description": "Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "posix-shell-pro.md",
+  "dir": "agents/wshobson.posix-shell-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/shell-scripting/agents/posix-shell-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/shell-scripting/agents/posix-shell-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "posix-shell-pro.md"
+  ],
+  "entry_hash": "f3573d8989a10fcbbedc43f47e8d5b07c5a546c2e403aba88d248012ef386172",
+  "content_hash": "b7860bcf55f1b18516f1bb92ff2d13a3313f2452f51762a4a99eed263d1d2950",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

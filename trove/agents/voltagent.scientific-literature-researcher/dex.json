@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/scientific-literature-researcher",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "scientific-literature-researcher",
+  "title": "scientific-literature-researcher",
+  "description": "Use when you need to search scientific literature and retrieve structured experimental data from published studies. Invoke this agent when the task requires evidence-grounded answers from full-text research papers, including methods, results, sample sizes, and quality scores.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "scientific-literature-researcher.md",
+  "dir": "agents/voltagent.scientific-literature-researcher",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/scientific-literature-researcher.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/scientific-literature-researcher.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "scientific-literature-researcher.md"
+  ],
+  "entry_hash": "84c2657b9715a207494fd084e80fb80fc4c066e64b0c856fd95bfbb93a7295d7",
+  "content_hash": "167766ac827e4d6a002ad09bb7f43f3f11df193d2f64ccc8f11a197220211ecb",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "microsoft/azure-ai",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai",
+  "title": "Azure AI Services",
+  "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/azure-ai",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-ai",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/auth-best-practices.md",
+    "references/sdk/azure-ai-contentsafety-java.md",
+    "references/sdk/azure-ai-contentsafety-py.md",
+    "references/sdk/azure-ai-contentsafety-ts.md",
+    "references/sdk/azure-ai-document-intelligence-dotnet.md",
+    "references/sdk/azure-ai-document-intelligence-ts.md",
+    "references/sdk/azure-ai-openai-dotnet.md",
+    "references/sdk/azure-ai-transcription-py.md",
+    "references/sdk/azure-ai-translation-text-py.md",
+    "references/sdk/azure-ai-translation-ts.md",
+    "references/sdk/azure-ai-vision-imageanalysis-java.md",
+    "references/sdk/azure-ai-vision-imageanalysis-py.md",
+    "references/sdk/azure-search-documents-dotnet.md",
+    "references/sdk/azure-search-documents-py.md",
+    "references/sdk/azure-search-documents-ts.md"
+  ],
+  "entry_hash": "cef96f106d3a38f519e2fdcc4d6aba00f597e78075af4541fef6b80260fa4fc5",
+  "content_hash": "54e7111d02a27f8a40ccf5928fa2c21154b81b85afd7bde521a9587f19e75ceb",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

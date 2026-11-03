@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/backlog-grooming",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "backlog-grooming",
+  "title": "backlog-grooming",
+  "description": "Use when the user needs to groom, refine, or clean up a product backlog. Triggers on: 'groom backlog', 'backlog refinement', 'backlog grooming', 'clean up backlog', 'refine stories', 'sprint refinement', 'backlog management'.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "backlog-grooming.md",
+  "dir": "agents/voltagent.backlog-grooming",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/backlog-grooming.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/backlog-grooming.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "backlog-grooming.md"
+  ],
+  "entry_hash": "810a727f776b9f8e6219f8af767fd362ea7f8dfac7dc33ad030176d14ac14f75",
+  "content_hash": "3c1bd2fcf70843bf4e2df23ba7a56ee54dcab962886f30690b6193ef30eaa444",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

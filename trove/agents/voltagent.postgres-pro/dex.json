@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/postgres-pro",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "postgres-pro",
+  "title": "postgres-pro",
+  "description": "Use when you need to optimize PostgreSQL performance, design high-availability replication, or troubleshoot database issues at scale. Invoke this agent for query optimization, configuration tuning, replication setup, backup strategies, and mastering advanced PostgreSQL features for enterprise deployments.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "postgres-pro.md",
+  "dir": "agents/voltagent.postgres-pro",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/postgres-pro.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/postgres-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "postgres-pro.md"
+  ],
+  "entry_hash": "968eb330cd63ddacff28249fd11b7e6f9ea280f20f033d909edae9778565f4fe",
+  "content_hash": "8673779246af254b2adb62f02507c2772a8ca7ca008a0073dbafef835975a302",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

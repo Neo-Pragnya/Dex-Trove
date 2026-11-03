@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/risk-manager",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "risk-manager",
+  "title": "risk-manager",
+  "description": "Use this agent when you need to identify, quantify, and mitigate enterprise-level risks across financial, operational, regulatory, and strategic domains. Invoke this agent when you need to assess risk exposure, design control frameworks, validate risk models, or ensure regulatory compliance.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "risk-manager.md",
+  "dir": "agents/voltagent.risk-manager",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/risk-manager.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/risk-manager.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "risk-manager.md"
+  ],
+  "entry_hash": "0931be36adc373b1bbed3a49ba78a0f2a7986e4a574ff8253e1677ed56279f9e",
+  "content_hash": "948dd0c01d674a2bd7d94008f9491d3b693ff5a1859fd96f3140e6aedcbbfbdd",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

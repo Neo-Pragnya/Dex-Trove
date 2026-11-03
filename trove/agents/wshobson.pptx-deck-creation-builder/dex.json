@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/pptx-deck-creation-builder",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "pptx-deck-creation-builder",
+  "title": "pptx-deck-creation-builder",
+  "description": "Use when creating, repairing, or auditing a production-ready editable PowerPoint (PPTX) deck from a brief, source material, or reference deck.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "pptx-deck-creation-builder.md",
+  "dir": "agents/wshobson.pptx-deck-creation-builder",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/pptx-deck-creation/agents/pptx-deck-creation-builder.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/pptx-deck-creation/agents/pptx-deck-creation-builder.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pptx-deck-creation-builder.md"
+  ],
+  "entry_hash": "ef76be94ee3787eb1bff08716e96ab1de162f738f7082675cbdc4a2fa79cc026",
+  "content_hash": "b6ecc7c7e99ae05c47fe7c2e43ff003b40067006c3f2d53a03b1e291ce202650",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

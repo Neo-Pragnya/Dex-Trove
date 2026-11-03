@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: ui-designer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:ui-designer
+summary: Use this agent when designing visual interfaces, creating design systems, building component libraries,
+  or refining user-facing aesthetics requiring expert visual design, interaction patterns, and acc…
+description: Use this agent when designing visual interfaces, creating design systems, building component libraries,
+  or refining user-facing aesthetics requiring expert visual design, interaction patterns, and accessibility considerations.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: ui-designer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/ui-designer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

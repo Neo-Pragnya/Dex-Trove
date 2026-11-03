@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-eventhub-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-eventhub-java",
+  "title": "Azure Event Hubs SDK for Java",
+  "description": "Build real-time streaming applications with Azure Event Hubs SDK for Java. Use when implementing event streaming, high-throughput data ingestion, or building event-driven architectures.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-eventhub-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-eventhub-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-eventhub-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "ef3200235c5e38f311fb6af505f0193166b9b2f99326cea3410c8ecc7f743255",
+  "content_hash": "ba050e898e56cd7720818bef23e2032ff60f97383891eeb9972f19715f6cb0aa",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

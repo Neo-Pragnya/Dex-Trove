@@ -1,0 +1,40 @@
+{
+  "id": "spec-kit/constitution",
+  "kind": "prompt",
+  "namespace": "spec-kit",
+  "name": "constitution",
+  "title": "constitution",
+  "description": "Create or update the project constitution from interactive or provided principle inputs.",
+  "tags": [
+    "prompt",
+    "spec-kit"
+  ],
+  "version": "1.0.0",
+  "entry": "constitution.md",
+  "dir": "prompts/spec-kit.constitution",
+  "source": {
+    "id": "spec-kit",
+    "title": "Spec Kit",
+    "repo": "https://github.com/github/spec-kit",
+    "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+    "path": "templates/commands/constitution.md",
+    "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/constitution.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "constitution.md"
+  ],
+  "entry_hash": "a915ba6ae5fdbd499c143204eab3888b95a0ff0656e2c16b40282375acb5902c",
+  "content_hash": "719ee00431abb18fbf65de39f278024463aa5d1abb7d1b78cd03c4452168451a",
+  "learned_at": "2026-11-03T06:37:49+00:00"
+}

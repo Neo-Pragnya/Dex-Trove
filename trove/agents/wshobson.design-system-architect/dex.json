@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/design-system-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "design-system-architect",
+  "title": "design-system-architect",
+  "description": "Expert design system architect specializing in design tokens, component libraries, theming infrastructure, and scalable design operations. Masters token architecture, multi-brand systems, and design-development collaboration. Use PROACTIVELY when building design systems, creating token architectures, implementing theming, or establishing component libraries.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "design-system-architect.md",
+  "dir": "agents/wshobson.design-system-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/ui-design/agents/design-system-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ui-design/agents/design-system-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "design-system-architect.md"
+  ],
+  "entry_hash": "7bcf449dc55d13abe70461eb39b3765311af45760dc07967ca198edadcb0e612",
+  "content_hash": "e2d0edaf146ae6d3a96934ad5cc342382beff90df59de30bdbfeff7e673869d2",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

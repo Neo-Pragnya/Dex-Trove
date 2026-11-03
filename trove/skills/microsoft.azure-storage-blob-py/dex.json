@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-storage-blob-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage-blob-py",
+  "title": "Azure Blob Storage SDK for Python",
+  "description": "Azure Blob Storage SDK for Python. Use for uploading, downloading, listing blobs, managing containers, and blob lifecycle.\nTriggers: \"blob storage\", \"BlobServiceClient\", \"ContainerClient\", \"BlobClient\", \"upload blob\", \"download blob\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage-blob-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-storage-blob-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-storage-blob-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "036cde228f87b9e6aacbd3ec317bd504cb5639e04aec81f1b3ef631a9b240622",
+  "content_hash": "0f311be90919cffbaeb7d400ecf6a9b3726522f72a865b6dbd53678e7d0ef249",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

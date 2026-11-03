@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: pydeseq2
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:pydeseq2
+summary: Performs bulk RNA-seq differential expression analysis with PyDESeq2, including count validation, formula
+  designs, explicit contrasts, Wald tests, FDR correction, coefficient-matched LFC shrinkage, an…
+description: Performs bulk RNA-seq differential expression analysis with PyDESeq2, including count validation, formula
+  designs, explicit contrasts, Wald tests, FDR correction, coefficient-matched LFC shrinkage, and result visualization.
+  Use for PyDESeq2 or Python DESeq2 workflows with biological replicates.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT license'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pydeseq2
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

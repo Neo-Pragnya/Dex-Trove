@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/network-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "network-engineer",
+  "title": "cloud-infrastructure-network-engineer",
+  "description": "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. Masters multi-cloud connectivity, service mesh, zero-trust networking, SSL/TLS, global load balancing, and advanced troubleshooting. Handles CDN optimization, network automation, and compliance. Use PROACTIVELY for network design, connectivity issues, or performance optimization.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "network-engineer.md",
+  "dir": "agents/wshobson.network-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/cloud-infrastructure/agents/network-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cloud-infrastructure/agents/network-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "network-engineer.md"
+  ],
+  "entry_hash": "abbf4e75fb618993115c1ec5a4d40df9bdd0a5bc2ca485691a4f813ad554df2d",
+  "content_hash": "308f3a5a00f3514d36c352e2be2de256d650bfadea377a75d7049d14739d13b7",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

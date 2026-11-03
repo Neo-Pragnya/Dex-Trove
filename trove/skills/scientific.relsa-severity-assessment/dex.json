@@ -1,0 +1,49 @@
+{
+  "id": "scientific/relsa-severity-assessment",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "relsa-severity-assessment",
+  "title": "RELSA severity assessment and exploratory score forecasting",
+  "description": "Supports multivariate severity assessment and exploratory endpoint-time score forecasting for laboratory animal studies using the RELSA (RELative Severity Assessment) score and ARIMA-based foRcast forecasting. Use when combining welfare readouts — body weight or weight loss, body temperature, clinical or nesting scores, biomarkers, activity, heart rate, burrowing, wheel running — into one severity score per animal per day, when asking which animals are at risk of reaching a humane endpoint at a specified future observation time, when defining attention/danger zones or thresholds on a severity scale by kernel density estimation, or when reporting severity for a 3Rs, refinement, animal-welfare, or EU Directive 2010/63/EU severity-assessment context. Covers directionality (\"turned\" variables), baseline normalization, reference sets, RELSA weights, ARIMA prediction intervals, and RMSE/PICP/MPIW evaluation.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.relsa-severity-assessment",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/relsa-severity-assessment",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/relsa-severity-assessment",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/example_cohort.csv",
+    "references/forecasting.md",
+    "references/relsa-method.md",
+    "references/thresholds-and-zones.md",
+    "scripts/_common.py",
+    "scripts/forecast_relsa.py",
+    "scripts/kde_thresholds.py",
+    "scripts/relsa_score.py"
+  ],
+  "entry_hash": "10ee1a904565f5e9c9d432b3af136db42927d0811f07f646355600fec6633f8a",
+  "content_hash": "aebfcb1b3c01e7c0915c520d4a39ec70d973b80baed9c3856e8b1dacb9be9a4f",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

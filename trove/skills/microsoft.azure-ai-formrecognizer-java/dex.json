@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-ai-formrecognizer-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-formrecognizer-java",
+  "title": "Azure AI Document Intelligence SDK for Java",
+  "description": "Azure AI Document Intelligence SDK for Java (com.azure:azure-ai-documentintelligence).\nUse for extracting text, tables, key-value pairs from documents, receipts, invoices, IDs, or building custom document models.\nTriggers: \"document intelligence java\", \"form recognizer java\", \"extract text from PDF java\", \"OCR document java\",\n\"analyze invoice receipt java\", \"custom document model java\", \"document classification java\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-formrecognizer-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-ai-formrecognizer-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-ai-formrecognizer-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "7fbec12baeb4ccefe06786137317afb1bc7cf310362f0a38085d1ff9858b129b",
+  "content_hash": "572e5b2ff382c175d0812ad1da69316874e833c1de156c2a91e417d1b94ac7a1",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

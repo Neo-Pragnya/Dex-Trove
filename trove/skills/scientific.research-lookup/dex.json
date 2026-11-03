@@ -1,0 +1,45 @@
+{
+  "id": "scientific/research-lookup",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "research-lookup",
+  "title": "Research Lookup",
+  "description": "Compiles current scholarly evidence for a scientific manuscript or research brief when the user explicitly asks to gather literature, references, background evidence, competing findings, or a manuscript research packet. Uses Parallel Search by default, Parallel Extract for source retrieval, Parallel Research for explicitly deep/exhaustive work, optional explicit Parallel Chat, and optional Perplexity only when requested or allowed as a failure fallback.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.research-lookup",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/research-lookup",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/research-lookup",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "references/api-contracts.md",
+    "scripts/manuscript_packet.py",
+    "scripts/research_lookup.py"
+  ],
+  "entry_hash": "8da1618350bf3434e4569a180a15b7241a50118ee9b79bccc514fa1bf3b4a102",
+  "content_hash": "3c4f360d75db0481ff15d9c8ba00f9f5cbbf3a094a572c637254352dd28715f5",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

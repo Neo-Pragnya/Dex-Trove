@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/legacy-modernizer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "legacy-modernizer",
+  "title": "legacy-modernizer",
+  "description": "Use this agent when modernizing legacy systems that need incremental migration strategies, technical debt reduction, and risk mitigation while maintaining business continuity.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "legacy-modernizer.md",
+  "dir": "agents/voltagent.legacy-modernizer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/legacy-modernizer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/legacy-modernizer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "legacy-modernizer.md"
+  ],
+  "entry_hash": "3ef099720abdb6076a7036de1de1a8882a71e2ebf601391cfc7ab3da046799a3",
+  "content_hash": "ab58e1a492352bbe25aadf6382ebd1d09d068d08574d0f25652065827ad0af6e",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

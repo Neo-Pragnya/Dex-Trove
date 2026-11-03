@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-keyvault-keys-rust",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-keyvault-keys-rust",
+  "title": "Azure Key Vault Keys library for Rust",
+  "description": "Azure Key Vault Keys library for Rust. Create, manage, and use cryptographic keys including RSA, EC, and HSM-protected keys.\nTriggers: \"keyvault keys rust\", \"KeyClient rust\", \"create key rust\", \"encrypt rust\", \"wrap key rust\", \"sign rust\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-keyvault-keys-rust",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-rust/skills/azure-keyvault-keys-rust",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-rust/skills/azure-keyvault-keys-rust",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "24e1f152af7ecb5dbb37a84456b596c1ebc78773b9e1f1e32e4b223931a9a2c0",
+  "content_hash": "6296d82697ea3a45baf16e7c8f81aa0f3cb106464ae073b7535a27195389c389",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

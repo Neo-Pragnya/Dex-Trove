@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: mobile-security-coder
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:mobile-security-coder
+summary: Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific
+  security patterns.
+description: Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific
+  security patterns. Use PROACTIVELY for mobile security implementations or mobile security code reviews.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: mobile-security-coder.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/frontend-mobile-security/agents/mobile-security-coder.md
+  repository: https://github.com/wshobson/agents

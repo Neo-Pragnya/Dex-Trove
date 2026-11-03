@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/expo-react-native-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "expo-react-native-expert",
+  "title": "expo-react-native-expert",
+  "description": "Use when building mobile applications with Expo and React Native that require native module integration, navigation setup, performant animations, push notifications, OTA updates, or App Store/Play Store deployment.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "expo-react-native-expert.md",
+  "dir": "agents/voltagent.expo-react-native-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/expo-react-native-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/expo-react-native-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "expo-react-native-expert.md"
+  ],
+  "entry_hash": "b4303c0e3191b57f99122b95f237837b2f9b3a02f427a2886805e7ac24d736fd",
+  "content_hash": "e88d8632e69e0c1a87aa29181289c0295b7b43196063a5a2812b1ba60a49e753",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

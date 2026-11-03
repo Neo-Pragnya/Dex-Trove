@@ -1,0 +1,50 @@
+{
+  "id": "bmad-method/bmad-party-mode",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-party-mode",
+  "title": "Party Mode",
+  "description": "Orchestrates lively group discussions between installed BMAD agents or custom personas, and helps author custom parties. Use when the user requests party mode, a roundtable, or multiple agent perspectives — or wants to create/configure a party, define personas, or build an AI focus-group panel",
+  "tags": [
+    "bmad-method",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-party-mode",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-party-mode",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-party-mode",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml",
+    "references/create-party.md",
+    "references/mode-agent-team.md",
+    "references/mode-auto.md",
+    "references/mode-subagent.md",
+    "references/party-memory.md",
+    "scripts/resolve_party.py",
+    "scripts/tests/test_resolve_party.py"
+  ],
+  "entry_hash": "a29ab2937b2f80e28f32ac49aeb63cb8cf3ccac39240b7809acce0c39902a9d6",
+  "content_hash": "55aa70ab515da3c2754c6cfe7dbf12ab255d494c59c4a925cdb8f00c1f041034",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

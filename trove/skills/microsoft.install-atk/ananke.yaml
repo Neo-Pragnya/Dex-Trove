@@ -1,0 +1,33 @@
+kind: skill
+namespace: microsoft
+name: install-atk
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:install-atk
+summary: 'Install or update the M365 Agents Toolkit (ATK) CLI and VS Code extension. Triggers: "install atk", "update
+  atk", "install agents toolkit", "update agents toolkit", "install the toolkit", "setup atk",…'
+description: 'Install or update the M365 Agents Toolkit (ATK) CLI and VS Code extension. Triggers: "install atk",
+  "update atk", "install agents toolkit", "update agents toolkit", "install the toolkit", "setup atk", "get atk",
+  "install atk cli", "install atk extension", "install atk vsix", "update the vs code extension", "install latest
+  atk", "upgrade atk"'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/microsoft-365-agents-toolkit/skills/install-atk
+  repository: https://github.com/microsoft/skills

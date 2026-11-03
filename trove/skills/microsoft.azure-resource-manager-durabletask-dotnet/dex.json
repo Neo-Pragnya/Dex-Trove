@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-resource-manager-durabletask-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-resource-manager-durabletask-dotnet",
+  "title": "Azure.ResourceManager.DurableTask (.NET)",
+  "description": "Azure Resource Manager SDK for Durable Task Scheduler in .NET. Use for MANAGEMENT PLANE operations: creating/managing Durable Task Schedulers, Task Hubs, and retention policies via Azure Resource Manager. Triggers: \"Durable Task Scheduler\", \"create scheduler\", \"task hub\", \"DurableTaskSchedulerResource\", \"provision Durable Task\", \"orchestration scheduler\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-resource-manager-durabletask-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-durabletask-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-durabletask-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9e993db6caaba2620cf6232aa350619634ad104e61473f28e640091d39d8675b",
+  "content_hash": "b9a2c22be72a0021f18f1dc6f7d7670bc9f54ca41abacb809a5273d4e11451ce",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/team-implementer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "team-implementer",
+  "title": "team-implementer",
+  "description": "Parallel feature builder that implements components within strict file ownership boundaries, coordinating at integration points via messaging. Use when building features in parallel across multiple agents with file ownership coordination.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "team-implementer.md",
+  "dir": "agents/wshobson.team-implementer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/agent-teams/agents/team-implementer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/agent-teams/agents/team-implementer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "team-implementer.md"
+  ],
+  "entry_hash": "3ca077963174d085f06ccb6ce1cc9b37ed099d39cd4b89d93758f448ca460adf",
+  "content_hash": "e9c993f72103aa2c29bc6cd977a467a8e4e8a9f241ebd080b6fbf23c6dd2168f",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "scientific/aeon",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "aeon",
+  "title": "Aeon Time Series Machine Learning",
+  "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.aeon",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/aeon",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/aeon",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/anomaly_detection.md",
+    "references/classification.md",
+    "references/clustering.md",
+    "references/datasets_benchmarking.md",
+    "references/distances.md",
+    "references/forecasting.md",
+    "references/networks.md",
+    "references/regression.md",
+    "references/segmentation.md",
+    "references/similarity_search.md",
+    "references/transformations.md"
+  ],
+  "entry_hash": "e1d25cbe0ba5f849299e9e02bd339773bb41529dcece5a6ee68bb080855b97a6",
+  "content_hash": "248b895f64fa2f7ffe233823d14e0fff1e8cb2dd3e4d0e0127a0b7b2a7a46b95",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

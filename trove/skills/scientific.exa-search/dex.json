@@ -1,0 +1,45 @@
+{
+  "id": "scientific/exa-search",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "exa-search",
+  "title": "Exa Web Toolkit",
+  "description": "Searches scientific and technical web content with Exa and extracts page or PDF text from URLs in batches. Supports scholarly discovery with the publication category and academic domain filters. Applies to requests to search the web, look up current research, fetch a page, or extract an article using Exa.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.exa-search",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/exa-search",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exa-search",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/web-extract.md",
+    "references/web-search.md",
+    "scripts/exa_extract.py",
+    "scripts/exa_search.py"
+  ],
+  "entry_hash": "8cdedf5648783a209593ff91024f43bd8d8e066b03f0a72a6cf36d90e1650204",
+  "content_hash": "4fd1a6a47254cadd41c167745020250955cb30a86fb6ca2e1db0e8e0135e0d1f",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

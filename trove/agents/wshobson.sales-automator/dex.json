@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/sales-automator",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "sales-automator",
+  "title": "sales-automator",
+  "description": "Draft cold emails, follow-ups, and proposal templates. Creates pricing pages, case studies, and sales scripts. Use PROACTIVELY for sales outreach or lead nurturing.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "sales-automator.md",
+  "dir": "agents/wshobson.sales-automator",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/customer-sales-automation/agents/sales-automator.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/customer-sales-automation/agents/sales-automator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "sales-automator.md"
+  ],
+  "entry_hash": "04ac8d82c866090195f676affccfc852604f1cd62620378105dee76fb8669c63",
+  "content_hash": "fe1038ecd6cede42a48a7a3ca543c6ed04011c33cb9315c532bf63572993b78c",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

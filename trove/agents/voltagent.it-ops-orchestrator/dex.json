@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/it-ops-orchestrator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "it-ops-orchestrator",
+  "title": "it-ops-orchestrator",
+  "description": "Use for orchestrating complex IT operations tasks that span multiple domains (PowerShell automation, .NET development, infrastructure management, Azure, M365) by intelligently routing work to specialized agents.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "it-ops-orchestrator.md",
+  "dir": "agents/voltagent.it-ops-orchestrator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/it-ops-orchestrator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/it-ops-orchestrator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "it-ops-orchestrator.md"
+  ],
+  "entry_hash": "aa310a368290acbf0c8e42cb4031753a3e4a5f0656300b842385d3f883834297",
+  "content_hash": "714f3b1fa28dd7563051f95c98aa4fb5d75bdfe1d33af4b66b80bc11f17c654c",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

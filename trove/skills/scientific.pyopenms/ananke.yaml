@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: pyopenms
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:pyopenms
+summary: Processes mass spectrometry data with pyOpenMS. Supports proteomics and metabolomics workflows—feature
+  detection, peptide/protein identification, label-free quantification, adduct/accurate-mass annota…
+description: Processes mass spectrometry data with pyOpenMS. Supports proteomics and metabolomics workflows—feature
+  detection, peptide/protein identification, label-free quantification, adduct/accurate-mass annotation, and complex
+  LC-MS/MS pipelines. Supports extensive file formats and algorithms. For simple spectral comparison and small-molecule
+  library matching use matchms.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pyopenms
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

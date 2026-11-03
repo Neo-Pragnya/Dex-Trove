@@ -1,0 +1,26 @@
+kind: skill
+namespace: bmad-method
+name: bmad-party-mode
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-party-mode
+summary: Orchestrates lively group discussions between installed BMAD agents or custom personas, and helps author
+  custom parties.
+description: Orchestrates lively group discussions between installed BMAD agents or custom personas, and helps author
+  custom parties. Use when the user requests party mode, a roundtable, or multiple agent perspectives — or wants
+  to create/configure a party, define personas, or build an AI focus-group panel
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - executes-code
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-party-mode
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

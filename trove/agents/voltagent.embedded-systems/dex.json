@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/embedded-systems",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "embedded-systems",
+  "title": "embedded-systems",
+  "description": "Use when developing firmware for resource-constrained microcontrollers, implementing RTOS-based applications, or optimizing real-time systems where hardware constraints, latency guarantees, and reliability are critical.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "embedded-systems.md",
+  "dir": "agents/voltagent.embedded-systems",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/embedded-systems.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/embedded-systems.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "embedded-systems.md"
+  ],
+  "entry_hash": "6e8a2123f7b192dc44e37c73e6d3c562b31c6cf9e6c2c7bddacc8cd96f56b363",
+  "content_hash": "cc3b15017255c6a434482efb2fb1b4389cde5c05c96564d18bfef550470459f7",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

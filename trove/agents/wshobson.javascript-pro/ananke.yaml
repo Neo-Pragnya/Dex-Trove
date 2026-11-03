@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: javascript-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:javascript-pro
+summary: Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and
+  browser/Node compatibility.
+description: Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops,
+  and browser/Node compatibility. Use PROACTIVELY for JavaScript optimization, async debugging, or complex JS patterns.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: javascript-pro.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/javascript-typescript/agents/javascript-pro.md
+  repository: https://github.com/wshobson/agents

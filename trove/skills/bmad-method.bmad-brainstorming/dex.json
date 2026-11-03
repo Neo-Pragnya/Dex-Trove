@@ -1,0 +1,56 @@
+{
+  "id": "bmad-method/bmad-brainstorming",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-brainstorming",
+  "title": "BMad Brainstorming",
+  "description": "Facilitate a brainstorming session using diverse creative techniques. Use when the user says 'help me brainstorm' or 'help me ideate'",
+  "tags": [
+    "bmad-method",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-brainstorming",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-brainstorming",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-brainstorming",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/brain-icons.json",
+    "assets/brain-methods.csv",
+    "assets/brain-selector.html",
+    "bmod.toml",
+    "customize.toml",
+    "references/converge.md",
+    "references/finalize.md",
+    "references/headless.md",
+    "references/in-chat-techniques.md",
+    "references/mode-autonomous.md",
+    "references/mode-facilitator.md",
+    "references/mode-partner.md",
+    "references/resume.md",
+    "scripts/brain.py",
+    "scripts/tests/test_brain.py"
+  ],
+  "entry_hash": "26bc84494a4d177dde70557ef224cd10cb6a0a7a43d31ab16563c25e607680da",
+  "content_hash": "aa64ecd2b2d904ba2bf061f984e1365485d206e62d4e4474aa6cf89e80fd4056",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

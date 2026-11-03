@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: data-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:data-engineer
+summary: Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements
+  Apache Spark, dbt, Airflow, and cloud-native data platforms.
+description: Build scalable data pipelines, modern data warehouses, and real-time streaming architectures. Implements
+  Apache Spark, dbt, Airflow, and cloud-native data platforms. Use PROACTIVELY for data pipeline design, analytics
+  infrastructure, or modern data stack implementation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: data-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/data-engineering/agents/data-engineer.md
+  repository: https://github.com/wshobson/agents

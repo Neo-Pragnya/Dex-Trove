@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: aks-troubleshooting
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:aks-troubleshooting
+summary: Debug live Azure Kubernetes Service (AKS) incidents with a read-only, evidence-first investigation.
+description: 'Debug live Azure Kubernetes Service (AKS) incidents with a read-only, evidence-first investigation.
+  WHEN: pod crashes or Pending, CrashLoopBackOff, OOMKilled, ImagePullBackOff, node NotReady, DNS or ingress failure,
+  connectivity timeout, network policy, SNAT exhaustion, node-pool scaling blocked by QuotaExceeded or InsufficientVCPUQuota,
+  upgrade stuck, spot or zone disruption, a bare VMExtensionProvisioningError or AllocationFailed wrapper, an uncataloged
+  capacity symptom, or ''investigate my AKS cluster''. DO NOT USE FOR: packet capture (use aks-network-capture);
+  GPU or model-serving issues (use aks-gpu-inference); cluster creation or provisioning (use azure-kubernetes);
+  cost (use cost-analysis from the optional azure-cost plugin); pod rightsizing (use azure-kubernetes); a fully
+  qualified documented AKS signature with every required nested qualifier (use aks-known-issues); standalone failures
+  on non-AKS Azure resources (use azure-diagnostics). Unqualified errors and open-ended incidents stay here only
+  for AKS.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/aks-skills/skills/aks-troubleshooting
+  repository: https://github.com/microsoft/skills

@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-agents-md",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-agents-md",
+  "title": "AGENTS.md Generator",
+  "description": "Generates AGENTS.md files for repository folders — coding agent context files with build commands, testing instructions, code style, project structure, and boundaries. Only generates where AGENTS.md is missing.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-agents-md",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-agents-md",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-agents-md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0345a27f116f3217e121f0ff110f8e92ac9f9c72b1fd7b3e8c61639550db3e63",
+  "content_hash": "b37b2414fcb10fb3d3c3f8beef34409dee6ec035e501693d1093b0eeae83f15a",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

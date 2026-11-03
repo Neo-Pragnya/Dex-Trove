@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-llms-txt",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-llms-txt",
+  "title": "llms.txt Generator",
+  "description": "Generates llms.txt and llms-full.txt files for LLM-friendly project documentation following the llms.txt specification. Use when the user wants to create LLM-readable summaries, llms.txt files, or make their wiki accessible to language models.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-llms-txt",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-llms-txt",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-llms-txt",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "62f14490deb8e0713eca06ab576f6fe45d081f1cbb9452a45389a9540f39ab69",
+  "content_hash": "68a1da9c5efb95031e1b01110c60ce36f6bd8d17ed21d638efc26d1c9efe6938",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

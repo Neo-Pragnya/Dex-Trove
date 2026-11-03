@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/m365-admin",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "m365-admin",
+  "title": "m365-admin",
+  "description": "Use when automating Microsoft 365 administrative tasks including Exchange Online mailbox provisioning, Teams collaboration management, SharePoint site configuration, license lifecycle management, and Graph API-driven identity automation.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "m365-admin.md",
+  "dir": "agents/voltagent.m365-admin",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/m365-admin.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/m365-admin.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "m365-admin.md"
+  ],
+  "entry_hash": "b6623e288bb6a7c127f7f9049ef45f654f24d2ab8f9df1ac9e59f620923f2ee4",
+  "content_hash": "be594a621424cdef6f759cb81bee5d6ce9382e5f98bcdcfe36b738d0c716548f",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

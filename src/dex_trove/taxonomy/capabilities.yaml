@@ -15,14 +15,14 @@ capabilities:
     existing: [skill:awesome-copilot/codebase-memory-mcp, skill:awesome-copilot/acquire-codebase-knowledge, skill:awesome-copilot/mini-context-graph]
     gap: Guidance for exploring and mapping code; the graph itself and the explorer come from Ananke and Dev Guru.
     enhancement: wrapper
-    ananke: ananke graph build; ananke graph impact
+    ananke: ananke graph build; ananke graph impact; ananke app code --budget --collapse (0.3.15)
   context-retrieval:
     title: Bounded context retrieval
     status: partial
     existing: [skill:awesome-copilot/context-map, agent:awesome-copilot/context-architect]
     gap: Maps relevant files by hand; no graph-backed retrieval or token budgets.
     enhancement: wrapper
-    ananke: ananke graph query; budgets not built
+    ananke: ananke graph query; ananke app code --budget (0.3.15); token budgets not built
   multi-repository-topology:
     title: Multi-repository topology
     status: missing
@@ -47,7 +47,7 @@ capabilities:
   idea-developer:
     title: Idea developer
     status: available
-    existing: [skill:neo-pragnya/idea-developer, skill:superpowers/brainstorming]
+    existing: [skill:neo-pragnya/idea-developer, skill:superpowers/brainstorming, skill:bmad-method/bmad-prd]
     gap: Hands off to the Ananke spec lifecycle by printing a command; no stateful Ananke workflow yet.
     enhancement: new
     assessed: tests
@@ -63,7 +63,7 @@ capabilities:
   auto-sdd:
     title: Spec-driven development
     status: available
-    existing: [instruction:awesome-copilot/spec-driven-workflow-v1, skill:superpowers/writing-plans, skill:superpowers/executing-plans, plugin:awesome-copilot/project-planning]
+    existing: [instruction:awesome-copilot/spec-driven-workflow-v1, skill:superpowers/writing-plans, skill:superpowers/executing-plans, plugin:awesome-copilot/project-planning, prompt:spec-kit/specify, prompt:spec-kit/plan, prompt:spec-kit/tasks]
     gap: Good method guidance; not yet tied to Ananke's spec state and locks.
     enhancement: workflow
     ananke: ananke spec create; ananke spec plan; ananke spec tasks; ananke spec lock
@@ -105,7 +105,7 @@ capabilities:
   code-review:
     title: Code review
     status: available
-    existing: [skill:superpowers/requesting-code-review, skill:superpowers/receiving-code-review]
+    existing: [skill:superpowers/requesting-code-review, skill:superpowers/receiving-code-review, skill:bmad-method/bmad-code-review]
     gap: Review method, without graph impact or SARIF findings.
     enhancement: wrapper
     ananke: ananke graph impact; findings postprocessor not built
@@ -129,7 +129,7 @@ capabilities:
     title: Skill harvesting
     status: partial
     existing: []
-    gap: The pipeline is built into `dex learn`. The named frameworks are inventoried, not all ingested, and GST and Acuta are unidentified.
+    gap: The pipeline is built into `dex learn`. The named frameworks with a known upstream are ingested. GST and Acuta are unidentified.
     enhancement: feature
     assessed: tests
     ananke: ananke registry learn
@@ -237,8 +237,8 @@ capabilities:
 frameworks:
   - { name: Superpowers, repo: obra/superpowers, licence: MIT, state: "ingested (15 skills)" }
   - { name: Agent Skills specification, repo: agentskills/agentskills, licence: Apache-2.0, state: "followed (the skill format), nothing to ingest" }
-  - { name: Impeccable, repo: pbakaus/impeccable, licence: Apache-2.0, state: "not ingested; needs an owner decision" }
-  - { name: BMAD Method, repo: bmad-code-org/BMAD-METHOD, licence: "MIT (LICENSE file; the GitHub API reports NOASSERTION)", state: "not ingested; needs an owner decision and an adapter check" }
-  - { name: Spec Kit, repo: github/spec-kit, licence: MIT, state: "not ingested; needs an owner decision" }
+  - { name: Impeccable, repo: pbakaus/impeccable, licence: Apache-2.0, state: "ingested (1 skill); downloads a platform binary on first use" }
+  - { name: BMAD Method, repo: bmad-code-org/BMAD-METHOD, licence: "MIT (LICENSE file; the GitHub API reports NOASSERTION)", state: "ingested (33 skills); the BMad names stay its owner's trademarks" }
+  - { name: Spec Kit, repo: github/spec-kit, licence: MIT, state: "ingested (9 prompts); they expect a project set up with `specify init`" }
   - { name: GST, repo: null, licence: unknown, state: "unresolved: no upstream repository was supplied" }
   - { name: Acuta, repo: null, licence: unknown, state: "unresolved: no upstream repository was supplied" }

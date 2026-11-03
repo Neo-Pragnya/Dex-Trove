@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-identity-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-identity-ts",
+  "title": "Azure Identity library for TypeScript",
+  "description": "Authenticate to Azure services using Azure Identity library for JavaScript (@azure/identity). Use when configuring authentication with DefaultAzureCredential, managed identity, service principals, or interactive browser login.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-identity-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-identity-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-identity-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/browser-auth.md",
+    "references/credential-types.md"
+  ],
+  "entry_hash": "779d1684a34a4a051e23835b99ce51909d4485d88db44df9508e3a4debdf729b",
+  "content_hash": "45909dcac784084376acf056d0a9e51fb99bb4b6d1e44fbbbfff64dc21e2b588",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

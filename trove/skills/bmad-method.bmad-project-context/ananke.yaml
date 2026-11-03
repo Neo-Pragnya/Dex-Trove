@@ -1,0 +1,31 @@
+kind: skill
+namespace: bmad-method
+name: bmad-project-context
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-project-context
+summary: Set up, adopt, refresh, or audit a repository's agent instructions (the AGENTS.md block) so AI agents work
+  well in that repo. Also records observed agent mistakes as pitfalls. Use when invoked by name
+description: Set up, adopt, refresh, or audit a repository's agent instructions (the AGENTS.md block) so AI agents
+  work well in that repo. Also records observed agent mistakes as pitfalls. Use when invoked by name
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-project-context
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

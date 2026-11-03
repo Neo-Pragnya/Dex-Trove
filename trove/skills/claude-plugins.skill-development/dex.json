@@ -1,0 +1,41 @@
+{
+  "id": "claude-plugins/skill-development",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "skill-development",
+  "title": "Skill Development for Claude Code Plugins",
+  "description": "This skill should be used when the user wants to \"create a skill\", \"add a skill to plugin\", \"write a new skill\", \"improve skill description\", \"organize skill content\", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Claude Code plugins.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.skill-development",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/plugin-dev/skills/skill-development",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/skill-development",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/plugin-dev/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/skill-creator-original.md"
+  ],
+  "entry_hash": "d51b4e20043b13e462aa86c47ea82d43e216eb292871538127f4b12a54e4944f",
+  "content_hash": "7c2025949d959f0894eecf6ab5dd7172349fe254e059507b3b8718b071991a4a",
+  "learned_at": "2026-11-03T06:21:40+00:00"
+}

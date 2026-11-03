@@ -1,0 +1,41 @@
+{
+  "id": "scientific/what-if-oracle",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "what-if-oracle",
+  "title": "What-If Oracle — Research Scenario Planning",
+  "description": "Supports structured what-if scenario analysis for research planning, experimental contingencies, and scientific project decisions. Explores favorable, reference, adverse, wild-card, contrarian, and second-order scenarios with explicit assumptions, evidence, and decision triggers. Use to stress-test a research plan under uncertainty; scenario narratives do not estimate causal effects or calibrated forecast probabilities.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.what-if-oracle",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/what-if-oracle",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/what-if-oracle",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/scenario-templates.md"
+  ],
+  "entry_hash": "509af149c8cfc8f17dd15608d6337eb8a7ff3f4056fcadeda573c5e527c68a97",
+  "content_hash": "559c84db1db22712dbb8960a169f4fb5a641144da343fcbda2dc22189ff344c1",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

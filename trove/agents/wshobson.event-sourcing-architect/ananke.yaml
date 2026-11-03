@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: event-sourcing-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:event-sourcing-architect
+summary: Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design, projection
+  building, saga orchestration, and eventual consistency patterns.
+description: Expert in event sourcing, CQRS, and event-driven architecture patterns. Masters event store design,
+  projection building, saga orchestration, and eventual consistency patterns. Use PROACTIVELY for event-sourced
+  systems, audit trail requirements, or complex domain modeling with temporal queries.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: event-sourcing-architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/backend-development/agents/event-sourcing-architect.md
+  repository: https://github.com/wshobson/agents

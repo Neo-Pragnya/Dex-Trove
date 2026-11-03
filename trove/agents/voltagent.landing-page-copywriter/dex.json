@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/landing-page-copywriter",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "landing-page-copywriter",
+  "title": "landing-page-copywriter",
+  "description": "Use this agent when writing or optimizing landing page copy, hero sections, CTAs, or conversion-focused funnel content for a specific audience and offer.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "landing-page-copywriter.md",
+  "dir": "agents/voltagent.landing-page-copywriter",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/landing-page-copywriter.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/landing-page-copywriter.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "landing-page-copywriter.md"
+  ],
+  "entry_hash": "38979920528bc633f63e10d01254c4446e5e06e6a55935eda335523d61d47ae8",
+  "content_hash": "6e9cc4080ab3c850b55fecfa013750d6d5cc14b4fcb26fdf738b589433254fc0",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

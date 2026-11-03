@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: hipaa-compliance
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:hipaa-compliance
+summary: Use when the user is building a healthcare product and needs to understand HIPAA compliance.
+description: 'Use when the user is building a healthcare product and needs to understand HIPAA compliance. Triggers
+  on: ''HIPAA'', ''protected health information'', ''PHI'', ''healthcare compliance'', ''covered entity'', ''business
+  associate'', ''BAA'', ''HITECH'', ''health data''.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: hipaa-compliance.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/hipaa-compliance.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/minecraft-bukkit-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "minecraft-bukkit-pro",
+  "title": "minecraft-bukkit-pro",
+  "description": "Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. Specializes in event-driven architecture, command systems, world manipulation, player management, and performance optimization. Use PROACTIVELY for plugin architecture, gameplay mechanics, server-side features, or cross-version compatibility.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "minecraft-bukkit-pro.md",
+  "dir": "agents/wshobson.minecraft-bukkit-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/game-development/agents/minecraft-bukkit-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/game-development/agents/minecraft-bukkit-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "minecraft-bukkit-pro.md"
+  ],
+  "entry_hash": "5791d0ca5a71c8e3cb0449bb24fac6a4e95ee275ee3c8b3fa6267c70be464635",
+  "content_hash": "b55461748e0841fb22c4fd826748cfe99cccc33707ed11d6aed45c0ff24a6daf",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

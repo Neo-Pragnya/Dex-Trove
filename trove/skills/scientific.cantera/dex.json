@@ -1,0 +1,44 @@
+{
+  "id": "scientific/cantera",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "cantera",
+  "title": "Cantera: homogeneous ignition calculations",
+  "description": "Runs Cantera homogeneous chemical reactors and evaluates ignition delay with mechanism provenance, conservation checks, and numerical refinement. Use for combustion kinetics, closed adiabatic ideal-gas constant-volume or constant-pressure ignition, temperature histories, or mechanism-specific ignition-delay comparisons.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.cantera",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/cantera",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/cantera",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/hydrogen-ignition.json",
+    "references/interpretation.md",
+    "scripts/ignition_delay.py"
+  ],
+  "entry_hash": "1dcb22bba51475a69dc93bbefa7d2581f3dfdb6a03a6fc55f8637e398f733a51",
+  "content_hash": "b1ab7e9372657ee5523486c2731803a267222a5b411d904f6f5c9cace9d7aa32",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

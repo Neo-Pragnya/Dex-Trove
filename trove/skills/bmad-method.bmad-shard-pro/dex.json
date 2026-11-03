@@ -1,0 +1,48 @@
+{
+  "id": "bmad-method/bmad-shard-pro",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-shard-pro",
+  "title": "Shard Pro",
+  "description": "Makes long documents easy for agents to navigate. Use when the user says \"shard this document\", \"this file is too long for agents\", \"turn this document into a wiki\", \"add a table of contents so agents can find things\", or \"update the sharded document\".",
+  "tags": [
+    "bmad-method",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-shard-pro",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-shard-pro",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-shard-pro",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/sharded-note.md",
+    "bmod.toml",
+    "evals/cases.json",
+    "evals/triggers.json",
+    "references/update.md",
+    "scripts/shard_tool.py",
+    "scripts/tests/test_shard_tool.py"
+  ],
+  "entry_hash": "7b88004ccd7f852d010f3ec0f19227728804c308b4773b5939c340caeb9d60d7",
+  "content_hash": "df204ba9cb9a4f20c7c3c7b89f35dde5c2e1d68817bcd5b6076376e5f3745237",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

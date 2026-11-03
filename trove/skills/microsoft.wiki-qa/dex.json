@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-qa",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-qa",
+  "title": "Wiki Q&A",
+  "description": "Answers questions about a code repository using source file analysis. Use when the user asks a question about how something works, wants to understand a component, or needs help navigating the codebase.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-qa",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-qa",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-qa",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e509864c9561b98dc3f6e9d8bf80824f07a1fe78978dea9ed849959c34b6f7b4",
+  "content_hash": "dc6920888518b1bae9314ed2693ea5c802b3b782b5e52281fb6e2378e452b79f",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

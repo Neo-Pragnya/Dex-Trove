@@ -1,0 +1,48 @@
+{
+  "id": "microsoft/azure-local-multi-rack",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-local-multi-rack",
+  "title": "Azure Local Multi-Rack",
+  "description": "Plan, deploy, operate, and troubleshoot multi-rack (rack scale) deployments of Azure Local — preintegrated racks scaling to hundreds of machines, built on Network Fabric Controller, Cluster Manager, SAN storage, and managed network fabric. Use for the Microsoft.NetworkCloud and Microsoft.ManagedNetworkFabric control plane. NOT for standard 1-16 node Azure Local, and NOT for rack-aware clusters (two racks as availability zones, up to 8 nodes, synchronous replication) — those are standard scale. WHEN: multi-rack, rack scale Azure Local, aggregation rack, compute rack, Network Fabric Controller, NFC, Cluster Manager, network fabric, isolation domain, az networkcloud, az networkfabric, multi-rack logical network, multi-rack Arc VM.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-local-multi-rack",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-local-skills/skills/azure-local-multi-rack",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-local-skills/skills/azure-local-multi-rack",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/cli-and-prereqs.md",
+    "references/docs-map.md",
+    "references/resource-types.md",
+    "references/safety-rules.md",
+    "workflows/networking/networking.md",
+    "workflows/operate-and-monitor/operate-and-monitor.md",
+    "workflows/plan-and-deploy/plan-and-deploy.md",
+    "workflows/workload-management/workload-management.md"
+  ],
+  "entry_hash": "b544007ce978993de57d9d1a23b0667ef9c0b8f33120cc79f537586bcccd3768",
+  "content_hash": "48688944717585d5208b117d02f86d6297d8c341068aa59f83e9d4e993e350e3",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

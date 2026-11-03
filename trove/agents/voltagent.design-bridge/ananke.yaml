@@ -1,0 +1,34 @@
+kind: agent
+namespace: voltagent
+name: design-bridge
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:design-bridge
+summary: Use this agent when you need to translate a DESIGN.md from the VoltAgent/awesome-design-md repository into
+  polished Claude Code instructions for building user interfaces that faithfully match the chos…
+description: Use this agent when you need to translate a DESIGN.md from the VoltAgent/awesome-design-md repository
+  into polished Claude Code instructions for building user interfaces that faithfully match the chosen brand. Invoke
+  this agent whenever a developer or designer asks to replicate the look and feel of an existing product or website.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: design-bridge.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/design-bridge.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

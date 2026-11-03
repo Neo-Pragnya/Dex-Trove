@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/code-review-preshipment",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "code-review-preshipment",
+  "title": "code-review-preshipment",
+  "description": "Comprehensive pre-ship review of all changes since the last deploy or a specified commit. Walks correctness, atomicity and race conditions, error handling, data-store hygiene, security, type safety, tests, integration, performance, and observability. Use after any sprint and always before deploying. Ends with a SHIP / SHIP WITH FIXES / DO NOT SHIP verdict.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "code-review-preshipment.md",
+  "dir": "agents/wshobson.code-review-preshipment",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/operating-kit/agents/code-review-preshipment.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/code-review-preshipment.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "code-review-preshipment.md"
+  ],
+  "entry_hash": "8bf25d3d33da76eb288c6e147241fb97be116d8217e05c6d66aa88a83efe54c9",
+  "content_hash": "e39dd55ab3698edb2841c49e3b9a9a094b2db81539e8fa2f60e2c661e1a3adb5",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

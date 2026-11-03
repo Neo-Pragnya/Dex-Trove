@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: docs-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:docs-architect
+summary: Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design patterns,
+  and implementation details to produce long-form technical manuals and ebooks.
+description: Creates comprehensive technical documentation from existing codebases. Analyzes architecture, design
+  patterns, and implementation details to produce long-form technical manuals and ebooks. Use PROACTIVELY for system
+  documentation, architecture guides, or technical deep-dives.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: docs-architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/code-documentation/agents/docs-architect.md
+  repository: https://github.com/wshobson/agents

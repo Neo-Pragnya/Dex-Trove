@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/ponder-auditor",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "ponder-auditor",
+  "title": "ponder-auditor",
+  "description": "Use this agent when you need a convergent, multi-pass codebase, UI, architecture, or security audit with 100% surface coverage, adversarial false-positive retraction (Skeptic), user-empathy severity ranking (Empath), and epistemic silence (stopping only when zero revisions remain).",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "ponder-auditor.md",
+  "dir": "agents/voltagent.ponder-auditor",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/ponder-auditor.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/ponder-auditor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ponder-auditor.md"
+  ],
+  "entry_hash": "b06da1e8f17cef540d373cacc550d33c1317f236d4a827922d68d7ef5e005b9f",
+  "content_hash": "8eea07872a97e296fc74ea252cab783c73b9dfd665f09ca562c51dade75cace1",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

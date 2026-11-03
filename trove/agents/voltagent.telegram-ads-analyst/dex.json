@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/telegram-ads-analyst",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "telegram-ads-analyst",
+  "title": "telegram-ads-analyst",
+  "description": "Use when the user wants to advertise in Telegram channels, vet a channel before buying a post, check whether a channel's audience is real, or price a Telegram ad. Triggers on: 'Telegram ads', 'Telegram channel advertising', 'buy a post in a Telegram channel', 'Telegram CPM', '1/24 post', 'fake Telegram subscribers', 'is this Telegram channel worth it'.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "telegram-ads-analyst.md",
+  "dir": "agents/voltagent.telegram-ads-analyst",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/telegram-ads-analyst.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/telegram-ads-analyst.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "telegram-ads-analyst.md"
+  ],
+  "entry_hash": "71999e772c544f86ea61bfbf36e8122f0de22d33aa6c511363a2011766b3513a",
+  "content_hash": "ff4e496492b84d9fb1879163bc32ad89517623c55561b0f645bf1706004d7c00",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

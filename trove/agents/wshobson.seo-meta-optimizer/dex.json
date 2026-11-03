@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-meta-optimizer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-meta-optimizer",
+  "title": "seo-meta-optimizer",
+  "description": "Creates optimized meta titles, descriptions, and URL suggestions based on character limits and best practices. Generates compelling, keyword-rich metadata. Use PROACTIVELY for new content.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-meta-optimizer.md",
+  "dir": "agents/wshobson.seo-meta-optimizer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-technical-optimization/agents/seo-meta-optimizer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-technical-optimization/agents/seo-meta-optimizer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-meta-optimizer.md"
+  ],
+  "entry_hash": "15a0dc126b6c1bb3fa5eeaf3d30d22f014d2a48ba57dc7bedbbb8bd0dd6da488",
+  "content_hash": "8c2cb52bf0510436290cbc0c292ad0fd7d0670bc650f70efc55340b5cf6c9ea5",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

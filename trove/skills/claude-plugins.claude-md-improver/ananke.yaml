@@ -1,0 +1,32 @@
+kind: skill
+namespace: claude-plugins
+name: claude-md-improver
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:claude-plugins:claude-md-improver
+summary: Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve,
+  or fix CLAUDE.md files.
+description: Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve,
+  or fix CLAUDE.md files. Scans for all CLAUDE.md files, evaluates quality against templates, outputs quality report,
+  then makes targeted updates. Also use when the user mentions "CLAUDE.md maintenance" or "project memory optimization".
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'plugins/claude-md-management/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/claude-md-management/skills/claude-md-improver
+  repository: https://github.com/anthropics/claude-plugins-official

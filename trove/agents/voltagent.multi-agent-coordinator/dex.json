@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/multi-agent-coordinator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "multi-agent-coordinator",
+  "title": "multi-agent-coordinator",
+  "description": "Use when you need to plan how multiple concurrent subagents should communicate, sequence their work, share state through files, and handle failures — written up as a coordination plan or convention in Markdown.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "multi-agent-coordinator.md",
+  "dir": "agents/voltagent.multi-agent-coordinator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/multi-agent-coordinator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/multi-agent-coordinator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "multi-agent-coordinator.md"
+  ],
+  "entry_hash": "ed068a6d5200978a4f96f211b94ab7fd16908706296746a06e07409c09bbb532",
+  "content_hash": "22a6ffab8839db4c6486dee91d9a257047edd873edf4b5ed194c967ce4ad16a2",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/c4-code",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "c4-code",
+  "title": "c4-code",
+  "description": "Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure. Use when documenting code at the lowest C4 level for individual directories and code modules.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "c4-code.md",
+  "dir": "agents/wshobson.c4-code",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/c4-architecture/agents/c4-code.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/c4-architecture/agents/c4-code.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "c4-code.md"
+  ],
+  "entry_hash": "48ed5c662861adec687742af5be47fb3796adb24ddecfdc270f2ebf48bcc77f9",
+  "content_hash": "c0fce300e82d7c3edb77be2ec5f3eabe19a36ca174de3713bd784634553ab493",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "claude-plugins/writing-hookify-rules",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "writing-hookify-rules",
+  "title": "Writing Hookify Rules",
+  "description": "This skill should be used when the user asks to \"create a hookify rule\", \"write a hook rule\", \"configure hookify\", \"add a hookify rule\", or needs guidance on hookify rule syntax and patterns.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.writing-hookify-rules",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/hookify/skills/writing-rules",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/hookify/skills/writing-rules",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/hookify/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "2994b5d3152243b1a1cbf8358e9d7c18f290f31a23920647f31053c3efdf990d",
+  "content_hash": "063a664475294abb282c316e7cf04f58859a1f0d045deceb54c3e44e9db821a8",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

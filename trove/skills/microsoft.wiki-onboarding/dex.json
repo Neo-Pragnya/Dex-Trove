@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-onboarding",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-onboarding",
+  "title": "Wiki Onboarding Guide Generator",
+  "description": "Generates four audience-tailored onboarding guides in an onboarding/ folder — Contributor, Staff Engineer, Executive, and Product Manager. Use when the user wants onboarding documentation for a codebase.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-onboarding",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-onboarding",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-onboarding",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "5dde78db7c75f3265025c1410818d25abbed7a0bb3b5fa33c2c25ae0fbe7df50",
+  "content_hash": "bde6c3e5c411f8db1fdc89b0f4d0484ee745dbb095e7ba3fcc4c0c80f7718b33",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

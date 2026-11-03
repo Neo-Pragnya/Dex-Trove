@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: graphql-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:graphql-architect
+summary: Use this agent when designing or evolving GraphQL schemas across microservices, implementing federation
+  architectures, or optimizing query performance in distributed graphs.
+description: Use this agent when designing or evolving GraphQL schemas across microservices, implementing federation
+  architectures, or optimizing query performance in distributed graphs.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: graphql-architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/graphql-architect.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

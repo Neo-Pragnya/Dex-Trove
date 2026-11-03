@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/ui-designer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "ui-designer",
+  "title": "ui-designer",
+  "description": "Expert UI designer specializing in component creation, layout systems, and visual design implementation. Masters modern design patterns, responsive layouts, and design-to-code workflows. Use PROACTIVELY when building UI components, designing layouts, creating mockups, or implementing visual designs.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "ui-designer.md",
+  "dir": "agents/wshobson.ui-designer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/ui-design/agents/ui-designer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ui-design/agents/ui-designer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ui-designer.md"
+  ],
+  "entry_hash": "4cc5e5f7ac82324cfc2b7f4099528ad7f80ba5d8d29750b34eea3e6e3db49a9c",
+  "content_hash": "a06551de50cf44bd1d2d1fbcc57fe2a42aa11ea18a88cb34438b19b86b53e0ce",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

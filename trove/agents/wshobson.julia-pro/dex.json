@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/julia-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "julia-pro",
+  "title": "julia-pro",
+  "description": "Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. Expert in the Julia ecosystem including package management, scientific computing, and high-performance numerical code. Use PROACTIVELY for Julia development, optimization, or advanced Julia patterns.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "julia-pro.md",
+  "dir": "agents/wshobson.julia-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/julia-development/agents/julia-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/julia-development/agents/julia-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "julia-pro.md"
+  ],
+  "entry_hash": "2bc0796fcbc996699321323ec75ac8989dceb0461801eb4f462c85b412dcdb93",
+  "content_hash": "f8a8d393a4167c3068d7c6b499839f0d0c6755395624d01db40900ee8b726d7c",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/ui-visual-validator",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "ui-visual-validator",
+  "title": "ui-visual-validator",
+  "description": "Rigorous visual validation expert specializing in UI testing, design system compliance, and accessibility verification. Masters screenshot analysis, visual regression testing, and component validation. Use PROACTIVELY to verify UI modifications have achieved their intended goals through comprehensive visual analysis.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "ui-visual-validator.md",
+  "dir": "agents/wshobson.ui-visual-validator",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/accessibility-compliance/agents/ui-visual-validator.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/accessibility-compliance/agents/ui-visual-validator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ui-visual-validator.md"
+  ],
+  "entry_hash": "bc89cd0279980a61301304ab97753d92a39a2b0bf9633d60b040efb7deab5bc4",
+  "content_hash": "ed8f965f64183a4ead3f5c5eaf3e74f6a3ffc31d5200532cd681c7de399f39cf",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

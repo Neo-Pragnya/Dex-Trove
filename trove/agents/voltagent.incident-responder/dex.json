@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/incident-responder",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "incident-responder",
+  "title": "incident-responder",
+  "description": "Use this agent when an active security breach, service outage, or operational incident requires immediate response, evidence preservation, and coordinated recovery.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "incident-responder.md",
+  "dir": "agents/voltagent.incident-responder",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/incident-responder.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/incident-responder.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "incident-responder.md"
+  ],
+  "entry_hash": "46d74353536e71be894cccfe9f3b6c535755a21b2fe1d129abc59bea9e453094",
+  "content_hash": "f2749508f0d85e6c60eb686a451848a3b03855a70fb7d1b208b65bc355692ec0",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

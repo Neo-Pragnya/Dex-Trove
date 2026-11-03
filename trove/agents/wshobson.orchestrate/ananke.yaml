@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: orchestrate
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:orchestrate
+summary: Product Orchestrator agent. Reads the active story file, asks clarifying product questions one at a time,
+  confirms task type (FRONTEND/BACKEND), and produces a complete unambiguous spec in orchestrato…
+description: Product Orchestrator agent. Reads the active story file, asks clarifying product questions one at a
+  time, confirms task type (FRONTEND/BACKEND), and produces a complete unambiguous spec in orchestrator-output.md.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: orchestrate.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/orchestrate.md
+  repository: https://github.com/wshobson/agents

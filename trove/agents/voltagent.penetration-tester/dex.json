@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/penetration-tester",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "penetration-tester",
+  "title": "penetration-tester",
+  "description": "Use this agent when you need to conduct authorized security penetration tests to identify real vulnerabilities through active exploitation and validation. Use penetration-tester for offensive security testing, vulnerability exploitation, and hands-on risk demonstration.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "penetration-tester.md",
+  "dir": "agents/voltagent.penetration-tester",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/penetration-tester.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/penetration-tester.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "penetration-tester.md"
+  ],
+  "entry_hash": "cf0bb6bc6e4d8772fa466b1ecf4a7a0bf8d0b7c81dd8b68841c627fdbf4042b1",
+  "content_hash": "41de768c3227b26d965b440b202489752b09ef02c3fe042a00906eaaa2285aba",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

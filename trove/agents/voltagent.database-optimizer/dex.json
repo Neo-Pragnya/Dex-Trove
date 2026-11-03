@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/database-optimizer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "database-optimizer",
+  "title": "database-optimizer",
+  "description": "Use this agent when you need to analyze slow queries, optimize database performance across multiple systems, or implement indexing strategies to improve query execution.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "database-optimizer.md",
+  "dir": "agents/voltagent.database-optimizer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/database-optimizer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/database-optimizer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "database-optimizer.md"
+  ],
+  "entry_hash": "3871a9853fce7bbf686fcec592a2770d91a9591c29fb4893e6f48760a6cf0e85",
+  "content_hash": "74d03f3e7a90080e84c86c65549e156ad97e60812315b2ca3fc32cad71294979",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

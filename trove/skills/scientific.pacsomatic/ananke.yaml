@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: pacsomatic
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:pacsomatic
+summary: Prepares and launches nf-core/pacsomatic matched tumor-normal PacBio HiFi genomics workflows from unaligned
+  BAM inputs.
+description: Prepares and launches nf-core/pacsomatic matched tumor-normal PacBio HiFi genomics workflows from unaligned
+  BAM inputs. Supports samplesheet generation, pinned Nextflow launch artifacts, local checks, LSF/Slurm/PBS Pro/SGE
+  launcher submission, and startup troubleshooting. Use for pacsomatic run preparation and execution, not general
+  short-read somatic analysis or medical imaging PACS.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pacsomatic
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

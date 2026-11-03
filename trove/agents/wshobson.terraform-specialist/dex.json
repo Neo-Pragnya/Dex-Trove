@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/terraform-specialist",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "terraform-specialist",
+  "title": "cicd-automation-terraform-specialist",
+  "description": "Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns. Handles complex module design, multi-cloud deployments, GitOps workflows, policy as code, and CI/CD integration. Covers migration strategies, security best practices, and modern IaC ecosystems. Use PROACTIVELY for advanced IaC, state management, or infrastructure automation.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "terraform-specialist.md",
+  "dir": "agents/wshobson.terraform-specialist",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/cicd-automation/agents/terraform-specialist.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cicd-automation/agents/terraform-specialist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "terraform-specialist.md"
+  ],
+  "entry_hash": "5c833fae2449bda7265cc749bc9f7c06c3185c75f422de941086f3ff3cf78645",
+  "content_hash": "359a86ec760844663e66e8e648e94c655a93bce94cc0ef7da29cc0056c4c42cf",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

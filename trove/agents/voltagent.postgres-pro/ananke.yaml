@@ -1,0 +1,34 @@
+kind: agent
+namespace: voltagent
+name: postgres-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:postgres-pro
+summary: Use when you need to optimize PostgreSQL performance, design high-availability replication, or troubleshoot
+  database issues at scale.
+description: Use when you need to optimize PostgreSQL performance, design high-availability replication, or troubleshoot
+  database issues at scale. Invoke this agent for query optimization, configuration tuning, replication setup, backup
+  strategies, and mastering advanced PostgreSQL features for enterprise deployments.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: postgres-pro.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/postgres-pro.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

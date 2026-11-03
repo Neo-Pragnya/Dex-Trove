@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/azure-resource-manager-cosmosdb-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-resource-manager-cosmosdb-dotnet",
+  "title": "Azure.ResourceManager.CosmosDB (.NET)",
+  "description": "Azure Resource Manager SDK for Cosmos DB in .NET. Use for MANAGEMENT PLANE operations: creating/managing Cosmos DB accounts, databases, containers, throughput settings, and RBAC via Azure Resource Manager. NOT for data plane operations (CRUD on documents) - use Microsoft.Azure.Cosmos for that. Triggers: \"Cosmos DB account\", \"create Cosmos account\", \"manage Cosmos resources\", \"ARM Cosmos\", \"CosmosDBAccountResource\", \"provision Cosmos DB\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-resource-manager-cosmosdb-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-cosmosdb-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-cosmosdb-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/account-management.md",
+    "references/sql-resources.md",
+    "references/throughput.md"
+  ],
+  "entry_hash": "d44c0e53406799c89d0bb75def5eb150b21447405aa8df6c5596e577678a7f3f",
+  "content_hash": "ff2405a313897db02a536937eb62c8bcc080639bc52bfa1a85d76ace91c31514",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

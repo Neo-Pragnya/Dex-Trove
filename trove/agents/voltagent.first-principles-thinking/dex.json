@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/first-principles-thinking",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "first-principles-thinking",
+  "title": "first-principles-thinking",
+  "description": "Use when the user wants to challenge assumptions, break down a complex problem from scratch, or approach something with first principles reasoning. Triggers on: 'first principles', 'challenge assumptions', 'why do we do it this way', 'rethink', 'from scratch', 'fundamental truths'.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "first-principles-thinking.md",
+  "dir": "agents/voltagent.first-principles-thinking",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/first-principles-thinking.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/first-principles-thinking.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "first-principles-thinking.md"
+  ],
+  "entry_hash": "9390681c56cf17896bc72edc23f349964eff8b7880bf68f75450892cc043175c",
+  "content_hash": "72e38e46db407f07035eb69123bccddb972dcabf964768acf7087cb4d5ed4144",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

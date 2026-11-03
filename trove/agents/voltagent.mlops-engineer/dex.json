@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/mlops-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "mlops-engineer",
+  "title": "mlops-engineer",
+  "description": "Use this agent when you need to design and implement ML infrastructure, set up CI/CD for machine learning models, establish model versioning systems, or optimize ML platforms for reliability and automation. Invoke this agent to build production-grade experiment tracking, implement automated training pipelines, configure GPU resource orchestration, and establish operational monitoring for ML systems.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "mlops-engineer.md",
+  "dir": "agents/voltagent.mlops-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/mlops-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/mlops-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mlops-engineer.md"
+  ],
+  "entry_hash": "dcd10b881c31f5609e4267b4e41b9b3bf8005f36a0bc7f92b0d59906364350ac",
+  "content_hash": "8801594b2d48e831916ff23b1654e7ad993761504f35f59ef2b0657bff9dfb05",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

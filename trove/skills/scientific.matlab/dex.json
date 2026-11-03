@@ -1,0 +1,60 @@
+{
+  "id": "scientific/matlab",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "matlab",
+  "title": "MATLAB and GNU Octave",
+  "description": "Builds, reviews, migrates, and plans MATLAB or GNU Octave numerical workflows. Use for arrays, tabular/time data, tests, projects, graphics, MAT files, and explicit Python interoperability.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.matlab",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/matlab",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/matlab",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/project_manifest_template.json",
+    "assets/python_compatibility_r2026a.json",
+    "assets/reproducibility_manifest_template.json",
+    "references/data-import-export.md",
+    "references/executing-scripts.md",
+    "references/graphics-visualization.md",
+    "references/mathematics.md",
+    "references/matrices-arrays.md",
+    "references/octave-compatibility.md",
+    "references/programming.md",
+    "references/python-integration.md",
+    "scripts/_common.py",
+    "scripts/generate_function_scaffold.py",
+    "scripts/inventory_mat_file.py",
+    "scripts/plan_batch_command.py",
+    "scripts/plan_python_compatibility.py",
+    "scripts/reproducibility_report.py",
+    "scripts/scan_m_code.py",
+    "scripts/validate_project_manifest.py"
+  ],
+  "entry_hash": "91afa6ec0f0b3797f51da62b79d44d00a32fcdf3690b9505e5987982a8e6d0e2",
+  "content_hash": "f1702c3154f2792409f5548dca245097ce305b24cffb5431bc7e39df4042289e",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

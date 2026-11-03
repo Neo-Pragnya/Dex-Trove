@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/csharp-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "csharp-pro",
+  "title": "csharp-pro",
+  "description": "Write modern C# code with advanced features like records, pattern matching, and async/await. Optimizes .NET applications, implements enterprise patterns, and ensures comprehensive testing. Use PROACTIVELY for C# refactoring, performance optimization, or complex .NET solutions.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "csharp-pro.md",
+  "dir": "agents/wshobson.csharp-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/jvm-languages/agents/csharp-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/jvm-languages/agents/csharp-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "csharp-pro.md"
+  ],
+  "entry_hash": "e82d6c7995390e91228a9ceedee6bfa62808fe920980f11d78ab0d3ef0422539",
+  "content_hash": "e6e7178e71cfcaf6d850d395cc2d8bfff4ac14674f3ad2fbfc044bda663f6453",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

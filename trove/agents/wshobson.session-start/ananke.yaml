@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: session-start
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:session-start
+summary: Use at the start of every work session. Reads the canonical state doc, verifies live state, reconciles
+  drift from external deploys or dirty shutdowns, and prints a concise briefing.
+description: Use at the start of every work session. Reads the canonical state doc, verifies live state, reconciles
+  drift from external deploys or dirty shutdowns, and prints a concise briefing. Pairs with session-end.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: session-start.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/session-start.md
+  repository: https://github.com/wshobson/agents

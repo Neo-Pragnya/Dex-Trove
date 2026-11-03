@@ -1,0 +1,53 @@
+{
+  "id": "scientific/lab-hardware-cad",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "lab-hardware-cad",
+  "title": "Lab Hardware CAD",
+  "description": "Designs custom laboratory hardware as parametric build123d models and exports fabrication artifacts as STEP, STL, and DXF files - microfluidic chips and molds, optomechanical mounts and breadboard adapters, cuvette and microplate holders, tube racks, animal-behavior rigs, and 3D-printed instrument fixtures. Use when a research task needs a physical part that must mate with standardized labware, an optical table, a cage system, or a printer, CNC, or laser process.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.lab-hardware-cad",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/lab-hardware-cad",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/lab-hardware-cad",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/standards.json",
+    "references/behavior-rigs.md",
+    "references/build123d-patterns.md",
+    "references/fabrication-limits.md",
+    "references/labware-adapters.md",
+    "references/microfluidics.md",
+    "references/optomechanics.md",
+    "references/validation.md",
+    "scripts/_common.py",
+    "scripts/check.py",
+    "scripts/gen.py",
+    "scripts/snapshot.py"
+  ],
+  "entry_hash": "d3e9c67c3f08bfd7c6bb6c91d6ccc6621a72d2f47248965b4db4e1e296426b18",
+  "content_hash": "abf22e237c8520129c85f5aa6c98fad417bb848bb685d0e397c7c5e506d182a2",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

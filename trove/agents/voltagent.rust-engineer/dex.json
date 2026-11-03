@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/rust-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "rust-engineer",
+  "title": "rust-engineer",
+  "description": "Use when building Rust systems where memory safety, ownership patterns, zero-cost abstractions, and performance optimization are critical for systems programming, embedded development, async applications, or high-performance services.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "rust-engineer.md",
+  "dir": "agents/voltagent.rust-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/rust-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/rust-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "rust-engineer.md"
+  ],
+  "entry_hash": "246fa5cd281c21831f67087e1f5207640f95991407c9c6c62df33108aab4b3ca",
+  "content_hash": "fc0f4661b21960269d2b01586bd8a27ec596a48695da24c6954c7d68bd1b0adc",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

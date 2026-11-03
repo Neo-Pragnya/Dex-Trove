@@ -1,0 +1,52 @@
+{
+  "id": "bmad-method/bmad-code-review",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-code-review",
+  "title": "bmad-code-review",
+  "description": "Review code changes with several independent reviewers in parallel, then triage and present the findings. Use when the user says \"run code review\" or \"review this code\"",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-code-review",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-code-review",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-code-review",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml",
+    "references/claims-check.md",
+    "references/deletion-check.md",
+    "review-prompts/edge-case-hunter.md",
+    "review-prompts/verification-gap.md",
+    "step-01-gather-context.md",
+    "step-02-review.md",
+    "step-03-triage.md",
+    "step-04-route.md",
+    "step-05-present.md",
+    "workflow.md"
+  ],
+  "entry_hash": "d5af4c76e1dcb7e664a9db25d1a111e8d74b58ffc1ace01a00b08935db685eea",
+  "content_hash": "c81953a738efe62c9f60bdcbfcfbd871e9b755e7e72af7ea4ec27c53d695b8e3",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

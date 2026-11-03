@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/applicationinsights-web-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "applicationinsights-web-ts",
+  "title": "Application Insights JavaScript SDK (Web) for TypeScript",
+  "description": "Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web). Use for Real User Monitoring (RUM) — page views, clicks, AJAX/fetch dependencies, exceptions, custom events, and browser-side GenAI agent traces correlated to backend OpenTelemetry traces. Covers SDK Loader Script and npm setup, framework extensions (React, React Native, Angular), Click Analytics, telemetry initializers, and OTel GenAI semantic conventions for agent/tool/model spans emitted from the browser.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.applicationinsights-web-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/applicationinsights-web-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/applicationinsights-web-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/agent-traces.md",
+    "references/configuration.md",
+    "references/framework-extensions.md"
+  ],
+  "entry_hash": "05ec3512a9d20bbc1e63aebc1e721ecfc26be2c0332e3e9affb6e6975e3f657d",
+  "content_hash": "2b48bad41a3ffce23dac9c205d8efa88a71c4777a83141cb36e7453a71be4a3f",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/review",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "review",
+  "title": "review",
+  "description": "PR Reviewer agent. Reviews implemented code using a 3-tier taxonomy (🔴 Critical / 🟡 Should Fix / 💡 Consider). Auto-resolves minor issues, pauses on critical ones. Applies security guardrails. Outputs review-report.md.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "review.md",
+  "dir": "agents/wshobson.review",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/ship-mate/agents/review.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/review.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "review.md"
+  ],
+  "entry_hash": "bb9c53c6d0e779a9f437453fc48c8fb928c4da6b169736c3c9daf788ebf391b8",
+  "content_hash": "b96efa22e4bb3a3b361b51de18a96f5bd3d79a82ba97226ca1f96d2e6f9db139",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-monitor-opentelemetry-exporter-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-monitor-opentelemetry-exporter-java",
+  "title": "Azure Monitor OpenTelemetry Exporter for Java",
+  "description": "Azure Monitor OpenTelemetry Exporter for Java. Export OpenTelemetry traces, metrics, and logs to Azure Monitor/Application Insights.\nTriggers: \"AzureMonitorExporter java\", \"opentelemetry azure java\", \"application insights java otel\", \"azure monitor tracing java\".\nNote: This package is DEPRECATED. Migrate to azure-monitor-opentelemetry-autoconfigure.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-monitor-opentelemetry-exporter-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-opentelemetry-exporter-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-monitor-opentelemetry-exporter-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "2ecdd3db79950efc38de599e90887a41f34e9a670949b9be8e6708578dbad6df",
+  "content_hash": "048f5fdb3d2472fb7b64269fc4212df12148048cd113cb0d494cbbf9951faf45",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

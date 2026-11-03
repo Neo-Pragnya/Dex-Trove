@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/powershell-7-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "powershell-7-expert",
+  "title": "powershell-7-expert",
+  "description": "Use when building cross-platform cloud automation scripts, Azure infrastructure orchestration, or CI/CD pipelines requiring PowerShell 7+ with modern .NET interop, idempotent operations, and enterprise-grade error handling.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "powershell-7-expert.md",
+  "dir": "agents/voltagent.powershell-7-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/powershell-7-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/powershell-7-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "powershell-7-expert.md"
+  ],
+  "entry_hash": "f49babe8c570e25e9f5cc2a95bd4dc6d8bf256c5d81e24f4c1e10fb4b0660967",
+  "content_hash": "c4ee5e786271fe3a7d3e48f6b1ae15570cd77f64d74c5869fb75b750af46cad8",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

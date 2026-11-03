@@ -1,0 +1,45 @@
+{
+  "id": "scientific/pycalphad",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pycalphad",
+  "title": "pycalphad: TDB equilibrium calculations",
+  "description": "Computes finite-temperature CALPHAD equilibria, phase fractions, and phase compositions from thermodynamic TDB databases using pycalphad. Use for alloy phase stability, equilibrium temperature sweeps, tie lines, lever-rule checks, or reproducible phase-fraction calculations with explicit components and mole-fraction conditions.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pycalphad",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pycalphad",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pycalphad",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/equilibrium.json",
+    "assets/ideal-cu-ni.tdb",
+    "references/model-and-validation.md",
+    "scripts/equilibrate.py"
+  ],
+  "entry_hash": "7748a9413e22566316893d882596b5c2a321e9e03de93e6097c59a003e899a24",
+  "content_hash": "06326fe716208e5264d04d617b916042a550987e6552695b9966bcbac0bbd09d",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

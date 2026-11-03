@@ -1,0 +1,61 @@
+{
+  "id": "scientific/exploratory-data-analysis",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "exploratory-data-analysis",
+  "title": "Exploratory Data Analysis",
+  "description": "Performs bounded, local exploratory analysis of explicitly supported scientific files. Supports redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaffolds. Other domain formats are reference-only and unknown formats fail closed.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.exploratory-data-analysis",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/exploratory-data-analysis",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/exploratory-data-analysis",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/report_template.md",
+    "references/bioinformatics_genomics_formats.md",
+    "references/chemistry_molecular_formats.md",
+    "references/general_scientific_formats.md",
+    "references/microscopy_imaging_formats.md",
+    "references/proteomics_metabolomics_formats.md",
+    "references/spectroscopy_analytical_formats.md",
+    "scripts/__init__.py",
+    "scripts/_capabilities.py",
+    "scripts/_common.py",
+    "scripts/_structured.py",
+    "scripts/_tabular.py",
+    "scripts/capability_manifest.py",
+    "scripts/distribution_sensitivity.py",
+    "scripts/eda_analyzer.py",
+    "scripts/image_inspector.py",
+    "scripts/missingness_leakage_audit.py",
+    "scripts/report_scaffold.py",
+    "scripts/sequence_inspector.py",
+    "scripts/tabular_profile.py"
+  ],
+  "entry_hash": "955c4cefa49106dd03b55cbd62603bab2d2fb678e627dd452ba62040c7128484",
+  "content_hash": "024f6ea6e80e4f44d1dc3bc04d3e555b829d73a0b6e785d80625e370c90027fc",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

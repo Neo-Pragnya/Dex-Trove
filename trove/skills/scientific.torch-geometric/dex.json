@@ -1,0 +1,47 @@
+{
+  "id": "scientific/torch-geometric",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "torch-geometric",
+  "title": "PyTorch Geometric (PyG)",
+  "description": "Supports PyTorch Geometric (PyG) graph neural networks — node/link/graph classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, neighbor sampling, and custom datasets. Use when working with torch_geometric, not for general NetworkX analytics or non-graph PyTorch models.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.torch-geometric",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/torch-geometric",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/torch-geometric",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/custom_datasets.md",
+    "references/explainability.md",
+    "references/heterogeneous.md",
+    "references/link_prediction.md",
+    "references/message_passing.md",
+    "references/review.md",
+    "references/scaling.md"
+  ],
+  "entry_hash": "89805e17cdbc64ed01426548442b3aa1bda8bcfdd4f9528f5c8dd6e0ea813c96",
+  "content_hash": "ed939fc3eadc2cd606c120d7b5f55931bb6de2a8be3947c9aed510a3d66c8e1d",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

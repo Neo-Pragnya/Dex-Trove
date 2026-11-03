@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/django-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "django-pro",
+  "title": "api-scaffolding-django-pro",
+  "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment. Use PROACTIVELY for Django development, ORM optimization, or complex Django patterns.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "django-pro.md",
+  "dir": "agents/wshobson.django-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/api-scaffolding/agents/django-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/api-scaffolding/agents/django-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "django-pro.md"
+  ],
+  "entry_hash": "0a541c6c9ed28a9953230f3b78c14f8bde63236ec6377fa97d2e193f1244b118",
+  "content_hash": "34ebeb13abf0ad431b2f311e472eaa048b9e9b698be04a994d581591e94bc35a",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

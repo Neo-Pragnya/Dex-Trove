@@ -1,0 +1,53 @@
+{
+  "id": "scientific/pathml",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pathml",
+  "title": "PathML",
+  "description": "Supports local computational pathology research with PathML: slide loading and tiling, preprocessing and QC, h5path storage, multiplex quantification, spatial graphs, and bounded model inference. Use for whole-slide H&E, CODEX, Vectra, Mesmer, HoVer-Net, and HACTNet workflows.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pathml",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pathml",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pathml",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/data_management.md",
+    "references/graphs.md",
+    "references/image_loading.md",
+    "references/machine_learning.md",
+    "references/multiparametric.md",
+    "references/preprocessing.md",
+    "scripts/_common.py",
+    "scripts/image_qc.py",
+    "scripts/plan_inference.py",
+    "scripts/plan_pipeline.py",
+    "scripts/slide_manifest.py",
+    "scripts/validate_spatial_schema.py"
+  ],
+  "entry_hash": "654cef910bd567689b854eab52176628f39184d7cca7a6bf405343f337e58538",
+  "content_hash": "93f1c14c8bb2f9000dbfb3785e728fe397d1d17595f9fef04c2b323a5582d445",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

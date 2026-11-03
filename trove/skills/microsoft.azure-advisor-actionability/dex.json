@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-advisor-actionability",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-advisor-actionability",
+  "title": "Azure Advisor Actionability",
+  "description": "Remediate Azure Advisor recommendations. WHEN: \"fix Advisor recommendation\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-advisor-actionability",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-advisor/skills/azure-advisor-actionability",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-advisor/skills/azure-advisor-actionability",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "cd39c4549de3914a735298b9999917b19d4f11b69182b3f525ba7b257970b22a",
+  "content_hash": "3c0ea350ff66a5ea3c8989a8b0d34e38b38b6627fa4ce2cf9ccaea73200c8fa6",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

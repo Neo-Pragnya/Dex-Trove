@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-ai-translation-document-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-translation-document-py",
+  "title": "Azure AI Document Translation SDK for Python",
+  "description": "Azure AI Document Translation SDK for batch translation of documents with format preservation. Use for translating Word, PDF, Excel, PowerPoint, and other document formats at scale.\nTriggers: \"document translation\", \"batch translation\", \"translate documents\", \"DocumentTranslationClient\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-translation-document-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-ai-translation-document-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-ai-translation-document-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "6dd015ac34065253ff022f579a3c5af02aed4e495a587895acbe7a33f1c8205d",
+  "content_hash": "c185e7f6290d9c4a08d951bcb39d7e85815ef14a7389b637d2817d7344eff209",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

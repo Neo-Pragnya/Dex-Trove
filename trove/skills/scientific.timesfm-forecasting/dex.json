@@ -1,0 +1,61 @@
+{
+  "id": "scientific/timesfm-forecasting",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "timesfm-forecasting",
+  "title": "TimesFM Forecasting",
+  "description": "Performs zero-shot time-series forecasting with Google's TimesFM, including regular-grid CSV preparation, quantile forecasts, XReg covariates, and held-out evaluation. Uses the Apache-licensed TimesFM 2.5 checkpoint by default and documents the distinct TimesFM 3.0 multivariate API and weight-license requirements.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.timesfm-forecasting",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/timesfm-forecasting",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/timesfm-forecasting",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "examples/anomaly-detection/detect_anomalies.py",
+    "examples/covariates-forecasting/demo_covariates.py",
+    "examples/global-temperature/README.md",
+    "examples/global-temperature/generate_animation_data.py",
+    "examples/global-temperature/generate_gif.py",
+    "examples/global-temperature/generate_html.py",
+    "examples/global-temperature/run_example.sh",
+    "examples/global-temperature/run_forecast.py",
+    "examples/global-temperature/temperature_anomaly.csv",
+    "examples/global-temperature/visualize_forecast.py",
+    "references/api_reference.md",
+    "references/data_preparation.md",
+    "references/examples_and_validation.md",
+    "references/output_and_config.md",
+    "references/performance_tuning.md",
+    "references/system_requirements.md",
+    "references/timesfm3.md",
+    "references/workflows.md",
+    "scripts/check_system.py",
+    "scripts/forecast_csv.py"
+  ],
+  "entry_hash": "6f785fe73b133e9af7720fa46cf9013645198950155624889ef611b7b0dc74b8",
+  "content_hash": "02ac0460b4028873c932c18de1f34a65629d87240c6f49aa6b6374641c5b3092",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

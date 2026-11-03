@@ -1,0 +1,27 @@
+kind: skill
+namespace: bmad-method
+name: bmad-architecture
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-architecture
+summary: Work out and record the architecture decisions that keep separately built parts of a system consistent,
+  in a short architecture document.
+description: Work out and record the architecture decisions that keep separately built parts of a system consistent,
+  in a short architecture document. Creates, updates, or validates one; works from a ticket file, with an existing
+  codebase or architecture document beside it. Use when the user says "create the architecture", "create technical
+  architecture", "architecture spine", or "create a solution design"
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - executes-code
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-architecture
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

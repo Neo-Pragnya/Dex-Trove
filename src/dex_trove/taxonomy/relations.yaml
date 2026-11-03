@@ -52,3 +52,17 @@ relations:
       evidence: "dex overlap similarity 1.0: same description; anthropic's bundles Python helpers (with_server.py), awesome-copilot's a JS test-helper" }
   - { from: agent:awesome-copilot/implementation-plan, type: alternative-to, to: agent:awesome-copilot/planner,
       evidence: "dex overlap: identical description 'Generate an implementation plan for new features or refactoring existing code.'" }
+  # ── Spec Kit: each command hands off to the next ───────────────────────────────────────────────────────────
+  - { from: prompt:spec-kit/specify, type: complements, to: prompt:spec-kit/plan,
+      evidence: "specify.md handoffs: agent speckit.plan" }
+  - { from: prompt:spec-kit/plan, type: complements, to: prompt:spec-kit/tasks,
+      evidence: "plan.md handoffs: 'Create Tasks', agent speckit.tasks" }
+  - { from: prompt:spec-kit/tasks, type: complements, to: prompt:spec-kit/implement,
+      evidence: "tasks.md handoffs: agent speckit.implement" }
+  # ── same job across the newer sources, confirmed from each description ─────────────────────────────────────
+  - { from: skill:bmad-method/bmad-code-review, type: alternative-to, to: skill:superpowers/requesting-code-review,
+      evidence: "both get code changes reviewed; bmad-code-review runs several independent reviewers in parallel and triages the findings" }
+  - { from: skill:bmad-method/bmad-brainstorming, type: alternative-to, to: skill:superpowers/brainstorming,
+      evidence: "both facilitate brainstorming; bmad-brainstorming uses a range of creative techniques, superpowers' leads to a written design" }
+  - { from: skill:impeccable/impeccable, type: alternative-to, to: skill:anthropic/frontend-design,
+      evidence: "both guide designing frontend interfaces; impeccable adds audit and polish commands and a checked engine" }

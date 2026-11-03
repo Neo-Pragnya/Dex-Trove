@@ -1,0 +1,50 @@
+{
+  "id": "scientific/pymc",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pymc",
+  "title": "PyMC Bayesian Modeling",
+  "description": "Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS MCMC, variational inference, mutable-data predictions, posterior predictive checks, diagnostics, and PSIS-LOO model comparison. Use for probabilistic modeling and uncertainty inference in PyMC.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pymc",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pymc",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pymc",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache License, Version 2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/hierarchical_model_template.py",
+    "assets/linear_regression_template.py",
+    "references/distributions.md",
+    "references/model_patterns.md",
+    "references/sampling_inference.md",
+    "references/standard_workflow.md",
+    "references/workflows.md",
+    "scripts/model_comparison.py",
+    "scripts/model_diagnostics.py"
+  ],
+  "entry_hash": "77d29ba7adf73d822329eab576d15a748811633a60bca88f5e93954793b3ea8a",
+  "content_hash": "87b3e9d5df141a27eda182e524c6a411139fcd2f8517257d2e07b06b362f0320",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

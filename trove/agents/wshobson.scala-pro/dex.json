@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/scala-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "scala-pro",
+  "title": "scala-pro",
+  "description": "Master enterprise-grade Scala development with functional programming, distributed systems, and big data processing. Expert in Apache Pekko, Akka, Spark, ZIO/Cats Effect, and reactive architectures. Use PROACTIVELY for Scala system design, performance optimization, or enterprise integration.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "scala-pro.md",
+  "dir": "agents/wshobson.scala-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/jvm-languages/agents/scala-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/jvm-languages/agents/scala-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "scala-pro.md"
+  ],
+  "entry_hash": "4e9252834b78cbb60db96308305c31e3d3913d8fb6011075b9f9fc2e8d603dc0",
+  "content_hash": "c0d3bfc98629c64fd9530099d6e5db8a8f43df7f12939c6c7401650e6d4df6e3",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

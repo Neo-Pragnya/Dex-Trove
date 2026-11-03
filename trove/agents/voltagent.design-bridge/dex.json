@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/design-bridge",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "design-bridge",
+  "title": "design-bridge",
+  "description": "Use this agent when you need to translate a DESIGN.md from the VoltAgent/awesome-design-md repository into polished Claude Code instructions for building user interfaces that faithfully match the chosen brand. Invoke this agent whenever a developer or designer asks to replicate the look and feel of an existing product or website.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "design-bridge.md",
+  "dir": "agents/voltagent.design-bridge",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/design-bridge.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/design-bridge.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "design-bridge.md"
+  ],
+  "entry_hash": "09e4bb9fb784f27ab896d563e6048c1e5190d3877496a8d2bd5f566a659b179b",
+  "content_hash": "81eb20d75f0f918ff7bf8a99ab8efceaca5fb099cac1fb301fae1ada10cf5ab6",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: arbor
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:arbor
+summary: Applies Arbor Hypothesis Tree Refinement to research artifacts with repeatable evaluators, including model
+  training, agent harnesses, data synthesis and benchmark optimization.
+description: Applies Arbor Hypothesis Tree Refinement to research artifacts with repeatable evaluators, including
+  model training, agent harnesses, data synthesis and benchmark optimization. Uses persistent hypotheses, isolated
+  experiments, evidence propagation and held-out candidate comparison for multi-experiment research runs. Includes
+  a standard-library state manager and guidance for the RUC-NLPIR Arbor CLI.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT license'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/arbor
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

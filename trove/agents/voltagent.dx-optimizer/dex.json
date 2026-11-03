@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/dx-optimizer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "dx-optimizer",
+  "title": "dx-optimizer",
+  "description": "Use this agent when optimizing the complete developer workflow including build times, feedback loops, testing efficiency, and developer satisfaction metrics across the entire development environment.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "dx-optimizer.md",
+  "dir": "agents/voltagent.dx-optimizer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/dx-optimizer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/dx-optimizer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dx-optimizer.md"
+  ],
+  "entry_hash": "02919bfababc9ac586582ac33ebe524f475e553a94de70dd096d694951a7d6b4",
+  "content_hash": "d188ca34ec9243936841ac35633ab84273d4532c0bee0ab79afe8e5ac333c379",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

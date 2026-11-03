@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/performance-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "performance-engineer",
+  "title": "application-performance-performance-engineer",
+  "description": "Expert performance engineer specializing in modern observability, application optimization, and scalable system performance. Masters OpenTelemetry, distributed tracing, load testing, multi-tier caching, Core Web Vitals, and performance monitoring. Handles end-to-end optimization, real user monitoring, and scalability patterns. Use PROACTIVELY for performance optimization, observability, or scalability challenges.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "performance-engineer.md",
+  "dir": "agents/wshobson.performance-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/application-performance/agents/performance-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/application-performance/agents/performance-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "performance-engineer.md"
+  ],
+  "entry_hash": "893d6d2804013450d0c590a9b2f497406a89a4fcbf4d0f3880b5abc97cad77eb",
+  "content_hash": "a62620a1a950b38cf8b9626ce5f194a5b4756892e2988b6ff97ca88993ae68db",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

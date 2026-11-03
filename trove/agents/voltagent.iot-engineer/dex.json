@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/iot-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "iot-engineer",
+  "title": "iot-engineer",
+  "description": "Use when designing and deploying IoT solutions requiring expertise in device management, edge computing, cloud integration, and handling challenges like massive device scale, complex connectivity scenarios, or real-time data pipelines.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "iot-engineer.md",
+  "dir": "agents/voltagent.iot-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/iot-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/iot-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "iot-engineer.md"
+  ],
+  "entry_hash": "a614b8cfa393f52fefbd03b687125dbec70948fd638dbefa0f004d9c85b051cb",
+  "content_hash": "47863e72e1ba351a9d7bbbe9d402c6519f4abfe29f169638b7285e3b15e5327e",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/powershell-5",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "powershell-5",
+  "title": "powershell-5.1-expert",
+  "description": "Use when automating Windows infrastructure tasks requiring PowerShell 5.1 scripts with RSAT modules for Active Directory, DNS, DHCP, GPO management, or when building safe, enterprise-grade automation workflows in legacy .NET Framework environments.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "powershell-5.1-expert.md",
+  "dir": "agents/voltagent.powershell-5",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/powershell-5.1-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/powershell-5.1-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "powershell-5.1-expert.md"
+  ],
+  "entry_hash": "aa18330ea42c34033e9a39474eed43d635ddbd3340c1d310aa589452b56ae4db",
+  "content_hash": "ce03b60281626ab515dd1f88e2b4ce8dabe838d27b8dff5a93dc46b65a30af8f",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

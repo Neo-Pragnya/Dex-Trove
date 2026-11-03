@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/policy-enforcer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "policy-enforcer",
+  "title": "policy-enforcer",
+  "description": "Cedar policy author and reviewer for Claude Code tool calls. Writes, audits, and explains Cedar policies that govern Bash, Edit, Write, WebFetch, and other tools. Use when you need declarative, formally verifiable rules for what an AI agent can and cannot do in a project.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "policy-enforcer.md",
+  "dir": "agents/wshobson.policy-enforcer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/protect-mcp/agents/policy-enforcer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/protect-mcp/agents/policy-enforcer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "policy-enforcer.md"
+  ],
+  "entry_hash": "49c1b86c375879457002224c70f928c4997e4815a6b70900dd4a05a651215c06",
+  "content_hash": "16ef454d96cef645156cdfcbffa1b2e3987c517f0270e92a6155ff55b3de0f6d",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

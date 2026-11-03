@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/cloud-architect",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "cloud-architect",
+  "title": "cloud-architect",
+  "description": "Use this agent when you need to design, evaluate, or optimize cloud infrastructure architecture at scale. Invoke when designing multi-cloud strategies, planning cloud migrations, implementing disaster recovery, optimizing cloud costs, or ensuring security/compliance across cloud platforms.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "cloud-architect.md",
+  "dir": "agents/voltagent.cloud-architect",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/cloud-architect.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/cloud-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cloud-architect.md"
+  ],
+  "entry_hash": "f8dd5dd1ece6c39ba6123607fe7eafa66d82105099da7f99697ba2a603189cd0",
+  "content_hash": "9e81031d9c53a9d74d0972904c2e53f133aaba6063029c75da392a42443d8e0f",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

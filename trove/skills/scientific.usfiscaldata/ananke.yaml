@@ -1,0 +1,31 @@
+kind: skill
+namespace: scientific
+name: usfiscaldata
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:usfiscaldata
+summary: Queries the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required.
+description: Queries the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use
+  for national debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements, Treasury securities
+  auctions, interest rates, foreign exchange rates, savings bonds, or U.S. government revenue and spending statistics.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/usfiscaldata
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

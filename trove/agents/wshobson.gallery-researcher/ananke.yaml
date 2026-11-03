@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: gallery-researcher
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:gallery-researcher
+summary: Gallery search and inspiration agent. Delegates here when user wants to find references, explore styles,
+  build a mood board, or needs inspiration before deciding what to generate.
+description: Gallery search and inspiration agent. Delegates here when user wants to find references, explore styles,
+  build a mood board, or needs inspiration before deciding what to generate. Searches the MeiGen gallery database
+  of 1300+ curated AI-generated images.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: gallery-researcher.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/meigen-ai-design/agents/gallery-researcher.md
+  repository: https://github.com/wshobson/agents

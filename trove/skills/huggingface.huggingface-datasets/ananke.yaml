@@ -1,0 +1,31 @@
+kind: skill
+namespace: huggingface
+name: huggingface-datasets
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:huggingface-datasets
+summary: Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate
+  rows, search text, apply filters, download parquet URLs, and read size or statistics.
+description: Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate
+  rows, search text, apply filters, download parquet URLs, and read size or statistics.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-datasets
+  repository: https://github.com/huggingface/skills

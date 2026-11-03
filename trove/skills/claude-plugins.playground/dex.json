@@ -1,0 +1,46 @@
+{
+  "id": "claude-plugins/playground",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "playground",
+  "title": "Playground Builder",
+  "description": "Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when the user asks to make a playground, explorer, or interactive tool for a topic.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.playground",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/playground/skills/playground",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/playground/skills/playground",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/playground/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "templates/code-map.md",
+    "templates/concept-map.md",
+    "templates/data-explorer.md",
+    "templates/design-playground.md",
+    "templates/diff-review.md",
+    "templates/document-critique.md"
+  ],
+  "entry_hash": "521a3d62211e5f47b65ed17b660e001b15cf8d88d058cbf31bc00e889bcb63cc",
+  "content_hash": "cb576beca0bf8a9b2544319184129c438f1e9a5e61e05acc1c0fb208301258d3",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

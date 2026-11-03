@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: qa
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:qa
+summary: QA Agent. Tests all acceptance criteria and edge cases from orchestrator-output.md. Generates a structured
+  qa-report.md with pass/fail per criterion and bug triage.
+description: QA Agent. Tests all acceptance criteria and edge cases from orchestrator-output.md. Generates a structured
+  qa-report.md with pass/fail per criterion and bug triage. Loops back to implement if bugs found (max 2 iterations).
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: qa.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/qa.md
+  repository: https://github.com/wshobson/agents

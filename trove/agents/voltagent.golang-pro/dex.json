@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/golang-pro",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "golang-pro",
+  "title": "golang-pro",
+  "description": "Use when building Go applications requiring concurrent programming, high-performance systems, microservices, or cloud-native architectures where idiomatic patterns, error handling excellence, and efficiency are critical.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "golang-pro.md",
+  "dir": "agents/voltagent.golang-pro",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/golang-pro.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/golang-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "golang-pro.md"
+  ],
+  "entry_hash": "43c9d075601b5b6155117045c70da6a2a956c506e3c1cffa6f36e6920fd2b62d",
+  "content_hash": "ece07f69b7779c813a79969fb9a8402a6d8a838cbf8cf6d7ed2f985adfe40f82",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

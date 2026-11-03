@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:architect
+summary: Architect agent. Reads orchestrator-output.md, AGENTS.md, and project-doc.md to produce a numbered step-by-step
+  implementation plan. Pauses for human approval before implementation begins.
+description: Architect agent. Reads orchestrator-output.md, AGENTS.md, and project-doc.md to produce a numbered
+  step-by-step implementation plan. Pauses for human approval before implementation begins.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/architect.md
+  repository: https://github.com/wshobson/agents

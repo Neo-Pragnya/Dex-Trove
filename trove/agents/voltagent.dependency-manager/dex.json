@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/dependency-manager",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "dependency-manager",
+  "title": "dependency-manager",
+  "description": "Use this agent when you need to audit dependencies for vulnerabilities, resolve version conflicts, optimize bundle sizes, or implement automated dependency updates.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "dependency-manager.md",
+  "dir": "agents/voltagent.dependency-manager",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/dependency-manager.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/dependency-manager.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "dependency-manager.md"
+  ],
+  "entry_hash": "2bd6fa26a4e4fbf4bab5d8a4dab88c343ff2aa6beb7b6a477e4821f459fe14ea",
+  "content_hash": "46ffa3e42f1048e0eb63e5a5b32d5d12f17bb5aceffdba4a7ee9950cdfa9c3fa",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

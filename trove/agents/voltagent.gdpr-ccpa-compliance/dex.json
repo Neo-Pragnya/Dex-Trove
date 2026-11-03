@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/gdpr-ccpa-compliance",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "gdpr-ccpa-compliance",
+  "title": "gdpr-ccpa-compliance",
+  "description": "Use when the user needs to understand GDPR or CCPA compliance, review data practices, or assess privacy requirements. Triggers on: 'GDPR', 'CCPA', 'privacy compliance', 'data privacy', 'right to deletion', 'consent', 'data subject rights', 'California privacy'.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "gdpr-ccpa-compliance.md",
+  "dir": "agents/voltagent.gdpr-ccpa-compliance",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/gdpr-ccpa-compliance.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/gdpr-ccpa-compliance.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "gdpr-ccpa-compliance.md"
+  ],
+  "entry_hash": "61fa2d6df91cbdb99b24da498fd935d06f2acc8bf87f1e39a8a1012b37d6afc8",
+  "content_hash": "a93a47abdc5f011d7fdb614d23de8b39a741737c73bded27c9b33deb54785e35",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

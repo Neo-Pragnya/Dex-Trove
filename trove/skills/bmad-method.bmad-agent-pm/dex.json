@@ -1,0 +1,42 @@
+{
+  "id": "bmad-method/bmad-agent-pm",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-agent-pm",
+  "title": "John — Product Manager",
+  "description": "Product manager for PRD creation and requirements discovery. Use when the user asks to talk to John or requests the product manager",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-agent-pm",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-agent-pm",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-agent-pm",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml"
+  ],
+  "entry_hash": "6a98077df88a9c6faa762044f06e3b034dce23979348fc9c59d22d3570a893e1",
+  "content_hash": "0fabd1ed29a0a42226efa18928392116467390c6021af77d8733d70fe7f21711",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/cohort-analysis",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "cohort-analysis",
+  "title": "cohort-analysis",
+  "description": "Use when the user wants to analyze retention, cohort behavior, engagement trends, or understand how different user groups perform over time. Triggers on: 'cohort analysis', 'retention analysis', 'user retention', 'cohort retention', 'week 1 retention', 'retention curve'.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "cohort-analysis.md",
+  "dir": "agents/voltagent.cohort-analysis",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/cohort-analysis.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/cohort-analysis.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cohort-analysis.md"
+  ],
+  "entry_hash": "c21bbb5b0b088ec024a338730e1221daf4b92a892e7f6cc785dfaa1f9d1c2896",
+  "content_hash": "b0f3a00f30538e0e4b8c26933b8b5e57abe98d0a11e55f2dd881248c06a94579",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

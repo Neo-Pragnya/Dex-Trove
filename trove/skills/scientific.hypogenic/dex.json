@@ -1,0 +1,58 @@
+{
+  "id": "scientific/hypogenic",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "hypogenic",
+  "title": "HypoGeniC",
+  "description": "Plans and audits use of ChicagoHAI HypoGeniC/HypoRefine for LLM-assisted hypothesis generation from labeled text datasets. Use for the `hypogenic` package, its task configs, hypothesis banks, or HypoBench datasets—not for manual hypothesis formulation or scientific validation.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.hypogenic",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/hypogenic",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/hypogenic",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/dataset_manifest.example.json",
+    "assets/result.example.json",
+    "assets/run_config.example.json",
+    "assets/task_config.example.yaml",
+    "references/configuration.md",
+    "references/datasets.md",
+    "references/evaluation.md",
+    "references/security.md",
+    "references/sources.md",
+    "references/upstream.md",
+    "scripts/__init__.py",
+    "scripts/_common.py",
+    "scripts/audit_dataset.py",
+    "scripts/evaluate_local.py",
+    "scripts/inspect_outputs.py",
+    "scripts/plan_run.py",
+    "scripts/validate_config.py"
+  ],
+  "entry_hash": "8ad3f55669b7c5e8bbf1c70111259f2782fc26ec39826b011d51799de08b9da5",
+  "content_hash": "bc041be135201ff7fb61756288c55389db084b556d3e94ae8b6a3c75d4dda7c3",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

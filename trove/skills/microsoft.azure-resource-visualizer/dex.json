@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/azure-resource-visualizer",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-resource-visualizer",
+  "title": "Azure Resource Visualizer - Architecture Diagram Generator",
+  "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. WHEN: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-resource-visualizer",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/azure-resource-visualizer",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-resource-visualizer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/example-diagram.md",
+    "assets/template-architecture.md",
+    "references/azure-resource-graph.md"
+  ],
+  "entry_hash": "110c607c2626505931621c42f6cb21f2be9f35a2d35cf828b61f5562485ec8c4",
+  "content_hash": "e4a7280e6eee93ba13c5ce5f2ff8676284b4f15c4298be656f4701368a76a7a1",
+  "learned_at": "2026-11-03T06:19:31+00:00"
+}

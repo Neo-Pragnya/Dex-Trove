@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/backend-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "backend-architect",
+  "title": "api-scaffolding-backend-architect",
+  "description": "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems. Masters REST/GraphQL/gRPC APIs, event-driven architectures, service mesh patterns, and modern backend frameworks. Handles service boundary definition, inter-service communication, resilience patterns, and observability. Use PROACTIVELY when creating new backend services or APIs.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "backend-architect.md",
+  "dir": "agents/wshobson.backend-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/api-scaffolding/agents/backend-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/api-scaffolding/agents/backend-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "backend-architect.md"
+  ],
+  "entry_hash": "31fb3e8467f010187e85082e2140a869449a37567f9583721b5a6a9900773a8f",
+  "content_hash": "7052c82b1ae2a5176cd6dade790d3c76851f479f6533993b99487dc8e2e33a28",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

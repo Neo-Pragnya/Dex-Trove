@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/csharp-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "csharp-developer",
+  "title": "csharp-developer",
+  "description": "Use this agent when building ASP.NET Core web APIs, cloud-native .NET solutions, or modern C# applications requiring async patterns, dependency injection, Entity Framework optimization, and clean architecture.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "csharp-developer.md",
+  "dir": "agents/voltagent.csharp-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/csharp-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/csharp-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "csharp-developer.md"
+  ],
+  "entry_hash": "9218f747ffe2c8dd1cf5397d61f04f5190c8ec7cbc53d8813460a5177af2ea44",
+  "content_hash": "0fc0c91c726a5ea3e706fe3086fa644d35e5589e6c1a72084b70f3c63479a7e3",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

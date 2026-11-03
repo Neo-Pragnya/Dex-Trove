@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: timesfm-forecasting
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:timesfm-forecasting
+summary: Performs zero-shot time-series forecasting with Google's TimesFM, including regular-grid CSV preparation,
+  quantile forecasts, XReg covariates, and held-out evaluation.
+description: Performs zero-shot time-series forecasting with Google's TimesFM, including regular-grid CSV preparation,
+  quantile forecasts, XReg covariates, and held-out evaluation. Uses the Apache-licensed TimesFM 2.5 checkpoint
+  by default and documents the distinct TimesFM 3.0 multivariate API and weight-license requirements.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/timesfm-forecasting
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

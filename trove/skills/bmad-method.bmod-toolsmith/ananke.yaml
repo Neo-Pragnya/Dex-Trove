@@ -1,0 +1,29 @@
+kind: skill
+namespace: bmad-method
+name: bmod-toolsmith
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmod-toolsmith
+summary: Required bmod metadata. Never invoke this skill.
+description: Required bmod metadata. Never invoke this skill.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmod-toolsmith
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

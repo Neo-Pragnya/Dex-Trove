@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-content-writer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-content-writer",
+  "title": "seo-content-writer",
+  "description": "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-content-writer.md",
+  "dir": "agents/wshobson.seo-content-writer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-content-creation/agents/seo-content-writer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-content-creation/agents/seo-content-writer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-content-writer.md"
+  ],
+  "entry_hash": "1379f9e8b159e2a9a25257c8bd087c76446e65227b7cb0751688ff922d251d88",
+  "content_hash": "2c23868ca14693464615ec2ed8c6778a5ce389ad14e41b85c3d676c8453fa33f",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

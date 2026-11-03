@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/cpp-pro",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "cpp-pro",
+  "title": "cpp-pro",
+  "description": "Use this agent when building high-performance C++ systems requiring modern C++20/23 features, template metaprogramming, or zero-overhead abstractions for systems programming, embedded systems, or performance-critical applications.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "cpp-pro.md",
+  "dir": "agents/voltagent.cpp-pro",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/cpp-pro.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/cpp-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cpp-pro.md"
+  ],
+  "entry_hash": "44a45b090fb2445cf90afa1774a90bd25e0ff7a8e41e7e1b61bf58faf5e63646",
+  "content_hash": "1db48741eb5cbcbc11aa9cc536e0ecb5fe61bd75ce4c5416ec75746b7c035b0b",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

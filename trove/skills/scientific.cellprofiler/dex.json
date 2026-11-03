@@ -1,0 +1,44 @@
+{
+  "id": "scientific/cellprofiler",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "cellprofiler",
+  "title": "CellProfiler quantitative microscopy",
+  "description": "Runs reproducible CellProfiler microscopy pipelines for nuclear segmentation, cell counts, and per-object fluorescence measurements. Supports image/channel manifests, headless batch execution, segmentation overlays, and measurement QC for 2D fluorescence assays.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.cellprofiler",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/cellprofiler",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/cellprofiler",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/nuclei.cppipe",
+    "references/runtime-and-qc.md",
+    "scripts/nuclei_assay.py"
+  ],
+  "entry_hash": "b822ed64acb189d900f59ba69418e5e41261d539fd2fd847e402cded2fc1bb38",
+  "content_hash": "ab8b3075e5e10e18e17332f1f5b36f04c56c4b7eee59b4b9c4bde33f49b8f635",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

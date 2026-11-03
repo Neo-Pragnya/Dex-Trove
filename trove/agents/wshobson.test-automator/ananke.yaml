@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: test-automator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:test-automator
+summary: Create comprehensive test suites including unit, integration, and E2E tests. Supports TDD/BDD workflows.
+  Use for test creation during feature development.
+description: Create comprehensive test suites including unit, integration, and E2E tests. Supports TDD/BDD workflows.
+  Use for test creation during feature development.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: test-automator.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/backend-development/agents/test-automator.md
+  repository: https://github.com/wshobson/agents

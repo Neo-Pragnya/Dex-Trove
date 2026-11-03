@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-mgmt-apicenter-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-mgmt-apicenter-dotnet",
+  "title": "Azure.ResourceManager.ApiCenter (.NET)",
+  "description": "Azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery. Use for creating API services, workspaces, APIs, versions, definitions, environments, deployments, and metadata schemas. Triggers: \"API Center\", \"ApiCenterService\", \"ApiCenterWorkspace\", \"ApiCenterApi\", \"API inventory\", \"API governance\", \"API versioning\", \"API catalog\", \"API discovery\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-mgmt-apicenter-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-apicenter-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-mgmt-apicenter-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "e902c513aee8662f55c2d3d36b6e38da6dc174198942858e95980c2173635b06",
+  "content_hash": "79835b6f62284a6d8bdc1cb866735efb4b98b6ae8e424cf809792b11cb7ebae6",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

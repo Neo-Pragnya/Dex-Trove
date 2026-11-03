@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/surgeon-reviewer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "surgeon-reviewer",
+  "title": "surgeon-reviewer",
+  "description": "Use this agent when you need a ruthlessly prioritized code review that reports only real problems — bugs, money-losing logic, maintenance traps — ranked by blast radius, with zero style opinions and a clear ship/no-ship verdict.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "surgeon-reviewer.md",
+  "dir": "agents/voltagent.surgeon-reviewer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/surgeon-reviewer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/surgeon-reviewer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "surgeon-reviewer.md"
+  ],
+  "entry_hash": "67650382e74d43c2fb22b408f18aafd8f5213cbb82d1a6aa17c57e46a94fcb6b",
+  "content_hash": "5f11044e601ff4c36427a084bf34a1e73d84552faff1f1010f14fcd1ea5b1203",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

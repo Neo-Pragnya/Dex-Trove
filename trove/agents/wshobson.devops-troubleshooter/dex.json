@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/devops-troubleshooter",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "devops-troubleshooter",
+  "title": "cicd-automation-devops-troubleshooter",
+  "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Masters log analysis, distributed tracing, Kubernetes debugging, performance optimization, and root cause analysis. Handles production outages, system reliability, and preventive monitoring. Use PROACTIVELY for debugging, incident response, or system troubleshooting.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "devops-troubleshooter.md",
+  "dir": "agents/wshobson.devops-troubleshooter",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/cicd-automation/agents/devops-troubleshooter.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cicd-automation/agents/devops-troubleshooter.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "devops-troubleshooter.md"
+  ],
+  "entry_hash": "7dded0f01b0cf7290a7ee2885750b440c984c79782e80a6193a918b4a808cf85",
+  "content_hash": "ded2dfa6e8c2040de122b8f2ec12d6e58ab35e7e57b6a7aef397ed1c7d2efad7",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

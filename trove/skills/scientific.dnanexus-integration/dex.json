@@ -1,0 +1,52 @@
+{
+  "id": "scientific/dnanexus-integration",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "dnanexus-integration",
+  "title": "DNAnexus Integration",
+  "description": "Builds and operates reproducible genomics workloads on DNAnexus with the dx CLI, dxpy, apps/applets, native workflows, dxCompiler, and Nextflow. Supports DNAnexus data transfers, dxapp.json development, execution monitoring, workflow import, and project automation.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.dnanexus-integration",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/dnanexus-integration",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/dnanexus-integration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/app-development.md",
+    "references/authentication.md",
+    "references/configuration.md",
+    "references/data-operations.md",
+    "references/job-execution.md",
+    "references/operations-and-troubleshooting.md",
+    "references/python-sdk.md",
+    "references/sources.md",
+    "references/workflow-languages.md",
+    "scripts/inspect_dxpy.py",
+    "scripts/validate_dxapp.py"
+  ],
+  "entry_hash": "e8fcca26f5558e04256a2253c002cc8c8c024c06614fbd7d6e0161e53c5aa519",
+  "content_hash": "7439770c7ac289339af2f35ca37dcf33bb76f92282437dd0ce2ad4c17a7ce36c",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

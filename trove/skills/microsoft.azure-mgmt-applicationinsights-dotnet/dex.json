@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-mgmt-applicationinsights-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-mgmt-applicationinsights-dotnet",
+  "title": "Azure.ResourceManager.ApplicationInsights (.NET)",
+  "description": "Azure Application Insights SDK for .NET. Application performance monitoring and observability resource management. Use for creating Application Insights components, web tests, workbooks, analytics items, and API keys. Triggers: \"Application Insights\", \"ApplicationInsights\", \"App Insights\", \"APM\", \"application monitoring\", \"web tests\", \"availability tests\", \"workbooks\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-mgmt-applicationinsights-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-applicationinsights-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-mgmt-applicationinsights-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ef6c083b7ddabc0c89856e6755914b2619f93efb8948e70f1bcc458c1126ecca",
+  "content_hash": "e805cc0e184b59623be61516ac61ae4a091a02a3516dbe1d4e69e0e0e34ed768",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

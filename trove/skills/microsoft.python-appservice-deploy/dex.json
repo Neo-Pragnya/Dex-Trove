@@ -1,0 +1,53 @@
+{
+  "id": "microsoft/python-appservice-deploy",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "python-appservice-deploy",
+  "title": "Python on Azure App Service — Code Deploy",
+  "description": "Deploy Python (Flask/Django/FastAPI) code to Azure App Service Linux. WHEN: \"Flask App Service\", \"Django App Service\", \"FastAPI App Service\", \"deploy Python to App Service\". DO NOT USE FOR: Container Apps, Functions, non-Python, Terraform/Bicep/IaC, full infra — use azure-prepare.",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.python-appservice-deploy",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/python-appservice-deploy",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/python-appservice-deploy",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/create-app.md",
+    "references/deploy-azcli.md",
+    "references/deploy-azd.md",
+    "references/detect.md",
+    "references/errors.md",
+    "references/post-deploy-message.md",
+    "references/startup-commands.md",
+    "references/transient-retry.md",
+    "scripts/generate-app-name.ps1",
+    "scripts/generate-app-name.sh",
+    "scripts/retry-az-create.ps1",
+    "scripts/retry-az-create.sh"
+  ],
+  "entry_hash": "17a263999dfd82daf0c1aa826e5b7656c21a0dec5d9c458cbf2e32b9418100e3",
+  "content_hash": "a75f81a95af0d66e3e2a3f53b31b0a9b751a035dfc33ecc3bd5d0d23acc8d379",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

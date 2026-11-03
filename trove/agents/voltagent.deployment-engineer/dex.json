@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/deployment-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "deployment-engineer",
+  "title": "deployment-engineer",
+  "description": "Use this agent when designing, building, or optimizing CI/CD pipelines and deployment automation strategies.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "deployment-engineer.md",
+  "dir": "agents/voltagent.deployment-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/deployment-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/deployment-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "deployment-engineer.md"
+  ],
+  "entry_hash": "a66f61a8ed107becc46fdfd2a6f343734ea6ce3d49880eac02f243c0f1d2734c",
+  "content_hash": "ca822b70e44e97cda9290a631d8baf57fda26a487d04838ef04f82662cac1c0b",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

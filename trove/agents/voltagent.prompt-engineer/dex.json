@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/prompt-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "prompt-engineer",
+  "title": "prompt-engineer",
+  "description": "Use this agent when you need to design, optimize, test, or evaluate prompts for large language models in production systems.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "prompt-engineer.md",
+  "dir": "agents/voltagent.prompt-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/prompt-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/prompt-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "prompt-engineer.md"
+  ],
+  "entry_hash": "a98c1b13f0a1b4ad7f6ac91d5f9c52b2f8d5947d0d34a933cb3077a4fad05009",
+  "content_hash": "cb2cf7fc6adae38b3f6177a621cbabf77cd5664bfe570433f60c95d80faf4b2c",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

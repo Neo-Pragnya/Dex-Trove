@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: code-reviewer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:code-reviewer
+summary: Elite code review expert specializing in modern AI-powered code analysis, security vulnerabilities, performance
+  optimization, and production reliability.
+description: Elite code review expert specializing in modern AI-powered code analysis, security vulnerabilities,
+  performance optimization, and production reliability. Masters static analysis tools, security scanning, and configuration
+  review with 2024/2025 best practices. Use PROACTIVELY for code quality assurance.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: code-reviewer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/code-documentation/agents/code-reviewer.md
+  repository: https://github.com/wshobson/agents

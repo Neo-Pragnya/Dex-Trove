@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: seo-content-planner
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:seo-content-planner
+summary: Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies
+  topic gaps. Use PROACTIVELY for content strategy and planning.
+description: Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies
+  topic gaps. Use PROACTIVELY for content strategy and planning.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: seo-content-planner.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-content-creation/agents/seo-content-planner.md
+  repository: https://github.com/wshobson/agents

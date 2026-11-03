@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-ai-transcription-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-transcription-py",
+  "title": "Azure AI Transcription SDK for Python",
+  "description": "Azure AI Transcription SDK for Python. Use for real-time and batch speech-to-text transcription with timestamps and diarization.\nTriggers: \"transcription\", \"speech to text\", \"Azure AI Transcription\", \"TranscriptionClient\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-transcription-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-ai-transcription-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-ai-transcription-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "3e2f90f372f71323b46d9f2988f955dc8e3722a9306fcd2f6b29a8bc15babf8a",
+  "content_hash": "ea12796c7e40cdbca90f5818dc88b71653df16210c5cf08d439fd2dbe8342ce5",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

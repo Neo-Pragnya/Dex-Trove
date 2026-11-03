@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/content-marketer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "content-marketer",
+  "title": "content-marketer",
+  "description": "Use this agent when you need to develop comprehensive content strategies, create SEO-optimized marketing content, or execute multi-channel content campaigns to drive engagement and conversions. Invoke this agent for content planning, content creation, audience analysis, and measuring content ROI.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "content-marketer.md",
+  "dir": "agents/voltagent.content-marketer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/content-marketer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/content-marketer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "content-marketer.md"
+  ],
+  "entry_hash": "273ecf93e9cef485011a9908db07dedbf51bf7a2cd509e1973490464ac9ec9f6",
+  "content_hash": "2fffe39a809f6b27206e72f5d7fe25efe4f2ecbcdf00ffdf72b507012a4b6ed6",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

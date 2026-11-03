@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/data-scientist",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "data-scientist",
+  "title": "data-scientist",
+  "description": "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence. Use PROACTIVELY for data analysis tasks, ML modeling, statistical analysis, and data-driven insights.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "data-scientist.md",
+  "dir": "agents/wshobson.data-scientist",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/machine-learning-ops/agents/data-scientist.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/machine-learning-ops/agents/data-scientist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "data-scientist.md"
+  ],
+  "entry_hash": "ded3aca731f61a47d2bfc95ae3033abf364d1e30a142736b99e993e65817bf3d",
+  "content_hash": "d58d3e8860b6ff323d56ea979776e26a4c8598da0bdc8d393ca07342d74c19b4",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

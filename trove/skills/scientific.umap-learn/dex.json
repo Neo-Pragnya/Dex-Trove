@@ -1,0 +1,41 @@
+{
+  "id": "scientific/umap-learn",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "umap-learn",
+  "title": "UMAP-Learn",
+  "description": "Applies UMAP-learn to nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.umap-learn",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/umap-learn",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/umap-learn",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md"
+  ],
+  "entry_hash": "0cfef32ae0e1d52eec6513bafc0ab4387cf38e43121fba715762b2b2c11b6930",
+  "content_hash": "531a84059ae747b7fb1aa4b62a8037d1a779bf7eb9a48eaee98a18b9b4a3e0fb",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

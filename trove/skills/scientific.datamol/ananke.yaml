@@ -1,0 +1,33 @@
+kind: skill
+namespace: scientific
+name: datamol
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:datamol
+summary: Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug
+  discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3…
+description: Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard
+  drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers,
+  parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit
+  directly.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/datamol
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

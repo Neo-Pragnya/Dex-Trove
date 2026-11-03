@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-communication-callautomation-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-communication-callautomation-java",
+  "title": "Azure Communication Call Automation (Java)",
+  "description": "Build call automation workflows with Azure Communication Services Call Automation Java SDK. Use when implementing IVR systems, call routing, call recording, DTMF recognition, text-to-speech, or AI-powered call flows.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-communication-callautomation-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-communication-callautomation-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-communication-callautomation-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "2b0a220f3ec73a263cdddb7748943b445b2a10efa5385f950d0fc6730bafadc8",
+  "content_hash": "353f90a69109ffb108622ce8b39fd40e85d48765c1d2bae86c609b35fa4c66e9",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

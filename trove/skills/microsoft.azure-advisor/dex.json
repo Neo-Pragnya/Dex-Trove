@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-advisor",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-advisor",
+  "title": "Azure Advisor",
+  "description": "Use Azure Advisor recommendations. WHEN: \"show Advisor recommendations\", \"service retirements\", \"update recommendation status\". DO NOT USE FOR: fixes or remediation (use azure-advisor-actionability).",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-advisor",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-advisor/skills/azure-advisor",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-advisor/skills/azure-advisor",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9c3a5bc090a87be502443132a174f1032efa5c6d439bf14c437657ca1128dfc3",
+  "content_hash": "8ce858c64b1de547905b449417d99773aea91bf9e4d28e7f95b41c8abb82a92f",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

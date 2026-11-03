@@ -1,0 +1,42 @@
+{
+  "id": "claude-plugins/siege",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "siege",
+  "title": "math-proof: siege",
+  "description": "Work on one hard mathematics problem in rounds: each round a judge writes a few self-contained questions, independent workers answer them, and the judge keeps a ledger of what is proved, refuted and open, until the judge concludes or the rounds run out, and then a proof.md says plainly what is and is not proved. A run takes hours and dozens of worker runs. Usage: /math-proof:siege [NAME=value settings] <the problem, stated in full, or the path of a file holding it>.",
+  "tags": [
+    "claude-plugins",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.siege",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/math-proof/skills/siege",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/math-proof/skills/siege",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/math-proof/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "scripts/ledger.py"
+  ],
+  "entry_hash": "f40134d3b418b256656777ad89d1cee93ad9b8a8a1aa84754262752e91d6b542",
+  "content_hash": "857db76f3bb7f3a7889898be7aa44f3058cb6298427853c05481e88be65a641c",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

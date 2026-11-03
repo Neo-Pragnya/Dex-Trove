@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/mobile-developer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "mobile-developer",
+  "title": "frontend-mobile-development-mobile-developer",
+  "description": "Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization. Use PROACTIVELY for mobile features, cross-platform code, or app optimization.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "mobile-developer.md",
+  "dir": "agents/wshobson.mobile-developer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/frontend-mobile-development/agents/mobile-developer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/frontend-mobile-development/agents/mobile-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mobile-developer.md"
+  ],
+  "entry_hash": "a24cbd28596999620f87a6f96da3224d4f929dfb58cef00abb06d8889e50be50",
+  "content_hash": "8a39a5434978f060ca5c7b7faed762f880fac33949f78cdfbfc8429b9a80b2c3",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

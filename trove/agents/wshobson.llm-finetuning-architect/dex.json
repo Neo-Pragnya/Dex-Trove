@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/llm-finetuning-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "llm-finetuning-architect",
+  "title": "llm-finetuning-architect",
+  "description": "Fine-tuning strategist who owns the eval gate and method/model selection. Refuses to plan training without a baselined eval harness. Use PROACTIVELY when a user wants to fine-tune a model, before any training configuration exists.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "llm-finetuning-architect.md",
+  "dir": "agents/wshobson.llm-finetuning-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/llm-finetuning/agents/llm-finetuning-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/llm-finetuning/agents/llm-finetuning-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "llm-finetuning-architect.md"
+  ],
+  "entry_hash": "b32ac1e7118af321efd5a45bf6aaf9a9f5d96410270d752d5a56a5e6ff0c2da6",
+  "content_hash": "d82af2e957122a71e26e9e5b6ea56555bb415935dee916fe5cd9a5d1304628f1",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-keyvault-certificates-rust",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-keyvault-certificates-rust",
+  "title": "Azure Key Vault Certificates library for Rust",
+  "description": "Azure Key Vault Certificates library for Rust. Create, manage, and use X.509 certificates including self-signed and CA-issued.\nTriggers: \"keyvault certificates rust\", \"CertificateClient rust\", \"create certificate rust\", \"self-signed certificate rust\", \"X.509 rust\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-keyvault-certificates-rust",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-rust/skills/azure-keyvault-certificates-rust",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-rust/skills/azure-keyvault-certificates-rust",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "f98f25489aec42b2fd43856ad9766982a35d9ec39d28a7d51f4bc3b29ffd1f1e",
+  "content_hash": "3114c4d75576ac749186bf8bc8087ea0404a63cf4a10ba8931c5f387ed3f2289",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

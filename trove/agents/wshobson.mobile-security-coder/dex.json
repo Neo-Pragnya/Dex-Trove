@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/mobile-security-coder",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "mobile-security-coder",
+  "title": "mobile-security-coder",
+  "description": "Expert in secure mobile coding practices specializing in input validation, WebView security, and mobile-specific security patterns. Use PROACTIVELY for mobile security implementations or mobile security code reviews.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "mobile-security-coder.md",
+  "dir": "agents/wshobson.mobile-security-coder",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/frontend-mobile-security/agents/mobile-security-coder.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/frontend-mobile-security/agents/mobile-security-coder.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mobile-security-coder.md"
+  ],
+  "entry_hash": "d4fa6fc08ad3c8fcd3ee5dbaaddd96f7ff76932af1d2bc3a8b0c4b9fa7696eac",
+  "content_hash": "4fe1dc280d1ad836902a00e38e9e19ebe297df9e034c7476359b3efbad747cd7",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/seo-specialist",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "seo-specialist",
+  "title": "seo-specialist",
+  "description": "Use this agent when you need comprehensive SEO optimization encompassing technical audits, keyword strategy, content optimization, and search rankings improvement.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-specialist.md",
+  "dir": "agents/voltagent.seo-specialist",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/seo-specialist.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/seo-specialist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-specialist.md"
+  ],
+  "entry_hash": "c437cdbe91670201e109044bce4e40cc3b088dda93e281c3108805d1262a6785",
+  "content_hash": "c7fe79d0f4bb3d6d9ca3a8fa8dff229f51dfad60a90e3cc2d6b0c7ae60d79de0",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

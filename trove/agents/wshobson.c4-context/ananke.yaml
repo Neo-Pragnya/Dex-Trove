@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: c4-context
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:c4-context
+summary: Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents
+  personas, user journeys, system features, and external dependencies.
+description: Expert C4 Context-level documentation specialist. Creates high-level system context diagrams, documents
+  personas, user journeys, system features, and external dependencies. Synthesizes container and component documentation
+  with system documentation to create comprehensive context-level architecture. Use when creating the highest-level
+  C4 system context documentation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: c4-context.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/c4-architecture/agents/c4-context.md
+  repository: https://github.com/wshobson/agents

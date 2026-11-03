@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/react-flow-node-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "react-flow-node-ts",
+  "title": "React Flow Node",
+  "description": "Create React Flow node components with TypeScript types, handles, and Zustand integration. Use when building custom nodes for React Flow canvas, creating visual workflow editors, or implementing node-based UI components.",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.react-flow-node-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/react-flow-node-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/react-flow-node-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/template.tsx",
+    "assets/types.template.ts"
+  ],
+  "entry_hash": "f0a4f37df3e8e7ed9645e947c08470fd78483f18b9587ae8cd20720022110781",
+  "content_hash": "b967434fda99069f4f4414df82da6d5f12a3a40c36536ca5548de12e3b4f31bd",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/hr-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "hr-pro",
+  "title": "hr-pro",
+  "description": "Professional, ethical HR partner for hiring, onboarding/offboarding, PTO and leave, performance, compliant policies, and employee relations. Ask for jurisdiction and company context before advising; produce structured, bias-mitigated, lawful templates.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "hr-pro.md",
+  "dir": "agents/wshobson.hr-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/hr-legal-compliance/agents/hr-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/hr-legal-compliance/agents/hr-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "hr-pro.md"
+  ],
+  "entry_hash": "5b0cfb3958d5a40d05efc8eff43736450d1879501c6244874162900f2c560970",
+  "content_hash": "59008709e83ca36182a57e6f71e1f750fe08dc08f9bf04e0834cd0c9c66fbec7",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

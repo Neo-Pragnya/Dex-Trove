@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: database-admin
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:database-admin
+summary: Expert database administrator specializing in modern cloud databases, automation, and reliability engineering.
+description: Expert database administrator specializing in modern cloud databases, automation, and reliability engineering.
+  Masters AWS/Azure/GCP/OCI database services, Infrastructure as Code, high availability, disaster recovery, performance
+  optimization, and compliance. Handles multi-cloud strategies, container databases, and cost optimization. Use
+  PROACTIVELY for database architecture, operations, or reliability engineering.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: database-admin.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/database-migrations/agents/database-admin.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,28 @@
+kind: skill
+namespace: bmad-method
+name: bmad-toolsmith
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-toolsmith
+summary: Smithy the Toolsmith builds and maintains BMad skills, agents and modules. Use when the user asks for Smithy
+  or says "build a skill", "make an agent", "scaffold a skill", "turn my session logs into a…
+description: Smithy the Toolsmith builds and maintains BMad skills, agents and modules. Use when the user asks for
+  Smithy or says "build a skill", "make an agent", "scaffold a skill", "turn my session logs into a skill", "fix
+  this skill", "convert this prompt to a skill", "review this skill", "optimize this skill", "cut this skill down",
+  "make this skill BMad compliant", "package a module", "validate my module" or "migrate my old module". Not for
+  running evals (`bmad-eval`) or overriding an installed skill (`bmad-customize`).
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - executes-code
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-toolsmith
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

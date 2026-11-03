@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-appconfiguration-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-appconfiguration-java",
+  "title": "Azure App Configuration SDK for Java",
+  "description": "Azure App Configuration SDK for Java. Centralized application configuration management with key-value settings, feature flags, and snapshots.\nTriggers: \"ConfigurationClient java\", \"app configuration java\", \"feature flag java\", \"configuration setting java\", \"azure config java\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-appconfiguration-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-appconfiguration-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-appconfiguration-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "e50e155ebeb050ed77d8d3ed17bc0ddbec46bb09830fa926bca53b4cc4ac99bf",
+  "content_hash": "7dc47dd6b556d2dc1ed39ec574a3a832ab608c091459c4250d68c6051a503213",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

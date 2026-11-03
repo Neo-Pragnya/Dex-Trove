@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-compute-batch-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-compute-batch-java",
+  "title": "Azure Batch SDK for Java",
+  "description": "Azure Batch SDK for Java. Run large-scale parallel and HPC batch jobs with pools, jobs, tasks, and compute nodes.\nTriggers: \"BatchClient java\", \"azure batch java\", \"batch pool java\", \"batch job java\", \"HPC java\", \"parallel computing java\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-compute-batch-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-compute-batch-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-compute-batch-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "a64ad3c273875782b51595a54968d108eaa7081dd7007bf3c3cb05040aaf7456",
+  "content_hash": "6f69f6ef2b517674a0d465ae00e743d70c7cf13ce1f9a5942b36c34d29b3c1aa",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

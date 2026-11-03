@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: context-manager
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:context-manager
+summary: Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge
+  graphs, and intelligent memory systems.
+description: Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge
+  graphs, and intelligent memory systems. Orchestrates context across multi-agent workflows, enterprise AI systems,
+  and long-running projects with 2024/2025 best practices. Use PROACTIVELY for complex AI orchestration.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: context-manager.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/agent-orchestration/agents/context-manager.md
+  repository: https://github.com/wshobson/agents

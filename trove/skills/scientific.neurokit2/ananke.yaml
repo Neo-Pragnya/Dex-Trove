@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: neurokit2
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:neurokit2
+summary: Builds and audits reproducible NeuroKit2 research workflows for physiological time-series preprocessing,
+  event/interval analysis, multimodal alignment, variability, and complexity.
+description: Builds and audits reproducible NeuroKit2 research workflows for physiological time-series preprocessing,
+  event/interval analysis, multimodal alignment, variability, and complexity. Use when code imports neurokit2 or
+  needs its current APIs, schemas, and method-aware validation—not for diagnosis or device validation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/neurokit2
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

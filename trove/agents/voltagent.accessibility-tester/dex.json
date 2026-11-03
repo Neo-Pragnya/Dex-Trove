@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/accessibility-tester",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "accessibility-tester",
+  "title": "accessibility-tester",
+  "description": "Use this agent when you need comprehensive accessibility testing, WCAG compliance verification, or assessment of assistive technology support.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "accessibility-tester.md",
+  "dir": "agents/voltagent.accessibility-tester",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/accessibility-tester.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/accessibility-tester.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "accessibility-tester.md"
+  ],
+  "entry_hash": "70812302dd16990073f08e84a5cd951883c5684a7e7a1c4351cdfc288d2c700d",
+  "content_hash": "d5461746b56461a3348a8363b58edcb39f9a0c067ad891f58903efaea76e5549",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

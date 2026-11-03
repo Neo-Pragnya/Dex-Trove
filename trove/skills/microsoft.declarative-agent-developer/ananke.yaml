@@ -1,0 +1,36 @@
+kind: skill
+namespace: microsoft
+name: declarative-agent-developer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:declarative-agent-developer
+summary: Create, build, deploy, and localize declarative agents for M365 Copilot and Teams.
+description: 'Create, build, deploy, and localize declarative agents for M365 Copilot and Teams. USE THIS SKILL
+  for ANY task involving a declarative agent — including localization, scaffolding, editing manifests, adding capabilities,
+  and deploying. Localization requires tokenized manifests and language files that only this skill knows how to
+  produce. Triggers: "create agent", "create a declarative agent", "new declarative agent", "scaffold an agent",
+  "new agent project", "add a capability", "add a plugin", "configure my agent", "deploy my agent", "fix my agent
+  manifest", "edit my agent", "localize my agent", "add localization", "translate my agent", "multi-language agent",
+  "add an API plugin", "add an MCP plugin", "add OAuth to my plugin", "review instructions", "improve instructions",
+  "fix my instructions"'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer
+  repository: https://github.com/microsoft/skills

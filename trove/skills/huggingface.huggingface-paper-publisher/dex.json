@@ -1,0 +1,48 @@
+{
+  "id": "huggingface/huggingface-paper-publisher",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-paper-publisher",
+  "title": "Overview",
+  "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
+  "tags": [
+    "executes-code",
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-paper-publisher",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-paper-publisher",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-paper-publisher",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "examples/example_usage.md",
+    "references/quick_reference.md",
+    "scripts/paper_manager.py",
+    "templates/arxiv.md",
+    "templates/ml-report.md",
+    "templates/modern.md",
+    "templates/standard.md"
+  ],
+  "entry_hash": "04b59406cf88054ab365f5bbbc57fe2e2fcb369e942dff2841c4f4297318c353",
+  "content_hash": "350c068867f4674127fdf62fe8c3874887fa34487e15a576bce9ff2eb32bdb91",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

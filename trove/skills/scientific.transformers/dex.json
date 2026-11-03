@@ -1,0 +1,46 @@
+{
+  "id": "scientific/transformers",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "transformers",
+  "title": "Transformers",
+  "description": "Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tasks. Applies when working with AutoModel, pipelines, tokenizers, generation configs, or TrainingArguments within Transformers.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.transformers",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/transformers",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/transformers",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/generation.md",
+    "references/models.md",
+    "references/pipelines.md",
+    "references/review.md",
+    "references/tokenizers.md",
+    "references/training.md"
+  ],
+  "entry_hash": "584d1c35d513f87616df9bcf7ddc8c48ab38cfbfad18d55c8481578d1c0d6f1a",
+  "content_hash": "80cbb7bdcdb8ca23112936e318af6e0bade7b27c50fb6c6de1e131b73e523018",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

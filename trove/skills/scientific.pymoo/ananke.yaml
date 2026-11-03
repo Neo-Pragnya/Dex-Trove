@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: pymoo
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:pymoo
+summary: Solves and validates single-, multi-, and many-objective optimization with pymoo, including NSGA-II, NSGA-III,
+  MOEA/D, constraints, Pareto approximations, reference directions, and ZDT/DTLZ benchmarks…
+description: Solves and validates single-, multi-, and many-objective optimization with pymoo, including NSGA-II,
+  NSGA-III, MOEA/D, constraints, Pareto approximations, reference directions, and ZDT/DTLZ benchmarks for engineering
+  and research problems.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pymoo
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

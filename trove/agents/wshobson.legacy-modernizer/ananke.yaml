@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: legacy-modernizer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:legacy-modernizer
+summary: Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical
+  debt, dependency updates, and backward compatibility.
+description: Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles
+  technical debt, dependency updates, and backward compatibility. Use PROACTIVELY for legacy system updates, framework
+  migrations, or technical debt reduction.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: legacy-modernizer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/code-refactoring/agents/legacy-modernizer.md
+  repository: https://github.com/wshobson/agents

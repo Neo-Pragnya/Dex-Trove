@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: mobile-developer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:mobile-developer
+summary: Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform
+  development, native integrations, offline sync, and app store optimization.
+description: Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform
+  development, native integrations, offline sync, and app store optimization. Use PROACTIVELY for mobile features,
+  cross-platform code, or app optimization.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: mobile-developer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/frontend-mobile-development/agents/mobile-developer.md
+  repository: https://github.com/wshobson/agents

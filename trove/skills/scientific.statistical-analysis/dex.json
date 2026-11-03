@@ -1,0 +1,47 @@
+{
+  "id": "scientific/statistical-analysis",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "statistical-analysis",
+  "title": "Statistical Analysis",
+  "description": "Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting. Use whenever a user wants to compare groups, test a hypothesis, analyze experimental or survey data, check statistical assumptions, compute required sample sizes, or write up results - even if they never name a specific test. Covers t-tests, ANOVA, chi-square, correlation, regression, non-parametric and Bayesian methods. For low-level model APIs, see the statsmodels and pymc skills.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.statistical-analysis",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/statistical-analysis",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/statistical-analysis",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/assumptions_and_diagnostics.md",
+    "references/bayesian_statistics.md",
+    "references/effect_sizes_and_power.md",
+    "references/reporting_standards.md",
+    "references/test_selection_guide.md",
+    "scripts/assumption_checks.py"
+  ],
+  "entry_hash": "e112848726b3713267cac65e4e2c15491a0a26ee1ed628db01195f7e43f97997",
+  "content_hash": "a6fec71644900fb119b54a5d83e11737699a298f69a2aed007998804dfb7631c",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/technical-writer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "technical-writer",
+  "title": "technical-writer",
+  "description": "Use this agent when you need to create, improve, or maintain technical documentation including API references, user guides, SDK documentation, and getting-started guides.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "technical-writer.md",
+  "dir": "agents/voltagent.technical-writer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/technical-writer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/technical-writer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "technical-writer.md"
+  ],
+  "entry_hash": "d28732710cb06865f265a4b2a01c3ea04fbc0e269bd2330dd37a692cb7c1ae6c",
+  "content_hash": "df6ac6210f2e1a6d9ff367b8a33996ff13bdc92ecbd23d1518b76e5dedacbf97",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/powershell-security-hardening",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "powershell-security-hardening",
+  "title": "powershell-security-hardening",
+  "description": "Use this agent when you need to harden PowerShell automation, secure remoting configuration, enforce least-privilege design, or align scripts with enterprise security baselines and compliance frameworks.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "powershell-security-hardening.md",
+  "dir": "agents/voltagent.powershell-security-hardening",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/powershell-security-hardening.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/powershell-security-hardening.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "powershell-security-hardening.md"
+  ],
+  "entry_hash": "b4b43e7389d6ab2b74439267b535308adb7e7b59b906389473a613ed1b46396e",
+  "content_hash": "c8e74b95a241065022270ab07c47aa2af6e443253120e3c4f5e3674beed38d32",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

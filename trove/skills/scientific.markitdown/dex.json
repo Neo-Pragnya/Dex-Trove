@@ -1,0 +1,51 @@
+{
+  "id": "scientific/markitdown",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "markitdown",
+  "title": "MarkItDown",
+  "description": "Converts heterogeneous documents and selected URIs to Markdown with Microsoft MarkItDown for text analysis, search, and LLM/RAG ingestion. Covers safe local conversion, streams, Office/PDF/data formats, batch workflows, plugins, vision OCR, Azure extraction, and the official MCP server.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.markitdown",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/markitdown",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/markitdown",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/cloud_and_ocr.md",
+    "references/file_formats.md",
+    "references/mcp_and_plugins.md",
+    "references/migration.md",
+    "references/security.md",
+    "references/workflows.md",
+    "scripts/batch_convert.py",
+    "scripts/convert_literature.py",
+    "scripts/inspect_installation.py"
+  ],
+  "entry_hash": "8c165c18ceaddc9367dd74f65fd60e42c1c3de9d180828ae1ff09a001af42339",
+  "content_hash": "c087ccd7ea580bb4a85f02c0d0da9ace378831e75a620808e1e63bdf5361117b",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "microsoft/azure-ai-projects-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-projects-py",
+  "title": "Azure AI Projects Python SDK (Foundry SDK)",
+  "description": "Build AI applications using the Azure AI Projects Python SDK (azure-ai-projects). Use when working with Foundry project clients, creating versioned agents with PromptAgentDefinition, running evaluations, managing connections/deployments/datasets/indexes, or using OpenAI-compatible clients. This is the high-level Foundry SDK - for low-level agent operations, use azure-ai-agents-python skill.",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-projects-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-ai-projects-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-ai-projects-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/agents.md",
+    "references/api-reference.md",
+    "references/async-patterns.md",
+    "references/built-in-evaluators.md",
+    "references/connections.md",
+    "references/custom-evaluators.md",
+    "references/datasets-indexes.md",
+    "references/deployments.md",
+    "references/evaluation.md",
+    "references/tools.md",
+    "scripts/run_batch_evaluation.py"
+  ],
+  "entry_hash": "a44de7c651217482c7ed9321d24a6d77604869886e0038307eb4ea202178d4b4",
+  "content_hash": "15bc59a83aad41f7ae3f6a935ca5176c34aeecc23994a1d7b66b867add87d526",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

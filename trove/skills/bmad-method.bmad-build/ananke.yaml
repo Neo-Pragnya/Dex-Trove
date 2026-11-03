@@ -1,0 +1,34 @@
+kind: skill
+namespace: bmad-method
+name: bmad-build
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:bmad-method:bmad-build
+summary: 'Implements a story, feature, or bug fix end to end: plan, code, review, verify. Use when the user hands
+  one over and leaves the edits to you; a bare ticket id or link counts.'
+description: 'Implements a story, feature, or bug fix end to end: plan, code, review, verify. Use when the user
+  hands one over and leaves the edits to you; a bare ticket id or link counts. Skip obvious, low-risk mechanical
+  maintenance such as small ignore-file, typo-only, formatting-only, or configuration-hygiene edits. Explicit BMAD
+  requests always qualify. Do not volunteer for user-directed interactive edits or version-control operations that
+  only record existing work.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - bmad-method
+  - skill
+  homepage: https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-build
+  repository: https://github.com/bmad-code-org/BMAD-METHOD

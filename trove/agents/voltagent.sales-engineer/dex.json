@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/sales-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "sales-engineer",
+  "title": "sales-engineer",
+  "description": "Use this agent when you need to conduct technical pre-sales activities including solution architecture, proof-of-concept development, and technical demonstrations for complex sales deals.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "sales-engineer.md",
+  "dir": "agents/voltagent.sales-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/sales-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/sales-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "sales-engineer.md"
+  ],
+  "entry_hash": "0fdae9f694d271f96a411e92a4f291ebea0a0c592b14d7bc5f31cd9aae1b4f71",
+  "content_hash": "efce275412c6993d50e70f6fac71c40e45a55ebdc3d6fd62adfb96e8fd3a8154",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "microsoft/azure-eventhub-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-eventhub-py",
+  "title": "Azure Event Hubs SDK for Python",
+  "description": "Azure Event Hubs SDK for Python streaming. Use for high-throughput event ingestion, producers, consumers, and checkpointing.\nTriggers: \"event hubs\", \"EventHubProducerClient\", \"EventHubConsumerClient\", \"streaming\", \"partitions\".",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-eventhub-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-eventhub-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-eventhub-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/checkpointing.md",
+    "references/partitions.md",
+    "scripts/setup_consumer.py"
+  ],
+  "entry_hash": "fd26cd3d54d9e92d3d8989b0c2be8f54ab140f41837ba1f4a03da40659f64d03",
+  "content_hash": "ae2322259a954563c4250e16129a68d571f2bc415bcc748a06dd1af70545e68f",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

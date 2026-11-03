@@ -1,0 +1,56 @@
+{
+  "id": "scientific/pylabrobot",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pylabrobot",
+  "title": "PyLabRobot",
+  "description": "Develops and reviews PyLabRobot lab-automation resources, liquid-handling plans, offline simulations, and supported-device integrations. Supports PyLabRobot protocols and API questions; keep physical execution behind an explicit operator safety gate.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pylabrobot",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pylabrobot",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pylabrobot",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/protocol-manifest.schema.json",
+    "references/analytical-equipment.md",
+    "references/hardware-backends.md",
+    "references/liquid-handling.md",
+    "references/material-handling.md",
+    "references/resources.md",
+    "references/review.md",
+    "references/visualization.md",
+    "scripts/__init__.py",
+    "scripts/_common.py",
+    "scripts/check_deck_geometry.py",
+    "scripts/generate_simulation_plan.py",
+    "scripts/inspect_backends.py",
+    "scripts/plan_transfers.py",
+    "scripts/validate_manifest.py"
+  ],
+  "entry_hash": "b2aab8871006d84e53621fc0f4886d0fd0c671007d112569e444e0a56a564d76",
+  "content_hash": "f50482a6dcc771ae99e150550b14a3828f4828aabbdbef3f4de4a0d41ef4c9bd",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: playwright
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:playwright
+summary: Playwright testing agent. Only runs for FRONTEND tasks. Verifies acceptance criteria in a real browser
+  using the page object pattern. Passes on success, routes back to developer on failure.
+description: Playwright testing agent. Only runs for FRONTEND tasks. Verifies acceptance criteria in a real browser
+  using the page object pattern. Passes on success, routes back to developer on failure.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: playwright.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/playwright.md
+  repository: https://github.com/wshobson/agents

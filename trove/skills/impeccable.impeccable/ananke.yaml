@@ -1,0 +1,29 @@
+kind: skill
+namespace: impeccable
+name: impeccable
+version: 4.8.0
+ananke_id: urn:dex-trove:skill:impeccable:impeccable
+summary: 'Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate,
+  or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, comp…'
+description: 'Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate,
+  or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms,
+  settings, onboarding, empty states, and native iOS or Android screens. Handles UX review, hierarchy, layout, typography,
+  color, motion, UX copy, accessibility, responsive behavior, edge cases, and capturing or documenting design systems
+  (DESIGN.md, tokens). Also for making bland UI bolder, loud UI quieter, or ambitious visual effects. Not for backend-only
+  or non-UI tasks.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'frontmatter license: ''Apache 2.0'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - impeccable
+  - skill
+  homepage: https://github.com/pbakaus/impeccable/tree/9fadc41729c38fd47d7ae622b501558653f9d2e9/plugin/skills/impeccable
+  repository: https://github.com/pbakaus/impeccable

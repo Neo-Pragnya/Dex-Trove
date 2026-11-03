@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/vector-database-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "vector-database-engineer",
+  "title": "vector-database-engineer",
+  "description": "Expert in vector databases, embedding strategies, and semantic search implementation. Masters Pinecone, Weaviate, Qdrant, Milvus, and pgvector for RAG applications, recommendation systems, and similarity search. Use PROACTIVELY for vector search implementation, embedding optimization, or semantic retrieval systems.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "vector-database-engineer.md",
+  "dir": "agents/wshobson.vector-database-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/llm-application-dev/agents/vector-database-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/llm-application-dev/agents/vector-database-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "vector-database-engineer.md"
+  ],
+  "entry_hash": "228dfc74a5f64d29e523899e6813a676ca7a1b8ff923d11752520dd372ba5b39",
+  "content_hash": "5a083c6e89945a9cbbb7a9e0474f4bdbe8eff69ced79654c2e98b6e6f6215993",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

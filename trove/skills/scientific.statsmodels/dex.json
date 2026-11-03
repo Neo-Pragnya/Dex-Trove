@@ -1,0 +1,49 @@
+{
+  "id": "scientific/statsmodels",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "statsmodels",
+  "title": "Statsmodels: Statistical Modeling and Econometrics",
+  "description": "Fits and diagnoses Python statistical models including OLS, GLM, discrete and mixed models, ARIMA and SARIMAX. Supports coefficient inference, marginal effects, model comparison and time series forecasting with explicit design and uncertainty checks. Used for econometrics and statistical modeling; for guided test selection with APA reporting, see statistical-analysis.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.statsmodels",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/statsmodels",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/statsmodels",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/discrete_choice.md",
+    "references/glm.md",
+    "references/linear_models.md",
+    "references/model_selection.md",
+    "references/modeling_capabilities.md",
+    "references/quick_start_guide.md",
+    "references/review.md",
+    "references/stats_diagnostics.md",
+    "references/time_series.md"
+  ],
+  "entry_hash": "9e6c034bb4acbf0972fda18892d2feea907885ac5ad7194d220182d8810295a3",
+  "content_hash": "2e0b2aaafd7f1b5c53ed76e0cd086429f9646e7ec9569badee34f07f20a97f2d",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

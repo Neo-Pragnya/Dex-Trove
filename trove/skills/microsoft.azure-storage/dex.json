@@ -1,0 +1,53 @@
+{
+  "id": "microsoft/azure-storage",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage",
+  "title": "Azure Storage Services",
+  "description": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Answers questions about storage access tiers (hot, cool, cold, archive), when to use each tier, and tier comparison. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics. Includes lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, storage tiers, hot cool cold archive, storage tier comparison, when to use storage tiers, lifecycle management, Azure Storage concepts. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging).",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/azure-storage",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-storage",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/auth-best-practices.md",
+    "references/sdk-usage.md",
+    "references/sdk/azure-data-tables-java.md",
+    "references/sdk/azure-data-tables-py.md",
+    "references/sdk/azure-storage-blob-java.md",
+    "references/sdk/azure-storage-blob-py.md",
+    "references/sdk/azure-storage-blob-rust.md",
+    "references/sdk/azure-storage-blob-ts.md",
+    "references/sdk/azure-storage-file-datalake-py.md",
+    "references/sdk/azure-storage-file-share-py.md",
+    "references/sdk/azure-storage-file-share-ts.md",
+    "references/sdk/azure-storage-queue-py.md",
+    "references/sdk/azure-storage-queue-ts.md"
+  ],
+  "entry_hash": "cf527b7c89b54194a9e2475dfaa25a454ef8f8417d7674b3a714d34368f613f9",
+  "content_hash": "9add27ae6d2ffa07ff3936c7ca4cebc3436d0ae8577b651c41544b2de54bfb0f",
+  "learned_at": "2026-11-03T06:19:31+00:00"
+}

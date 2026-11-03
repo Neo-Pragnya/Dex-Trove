@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: llm-architect
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:llm-architect
+summary: Use when designing LLM systems for production, implementing fine-tuning or RAG architectures, optimizing
+  inference serving infrastructure, or managing multi-model deployments.
+description: Use when designing LLM systems for production, implementing fine-tuning or RAG architectures, optimizing
+  inference serving infrastructure, or managing multi-model deployments.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: llm-architect.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/llm-architect.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

@@ -1,0 +1,48 @@
+{
+  "id": "scientific/matchms",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "matchms",
+  "title": "Matchms",
+  "description": "Processes, cleans, compares, and searches tandem mass spectra with matchms. Use for MS/MS file I/O, metadata harmonization, peak filtering, spectral similarity, library matching, score matrices, and molecular-similarity networks. Use pyopenms instead for LC-MS feature detection or proteomics pipelines.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.matchms",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/matchms",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/matchms",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/filtering.md",
+    "references/importing_exporting.md",
+    "references/migration.md",
+    "references/similarity.md",
+    "references/sources.md",
+    "references/workflows.md",
+    "scripts/library_search.py"
+  ],
+  "entry_hash": "1bde0e20f69f99dfa44800b9e908b0f90aa1256cfdb1d88a36ed0b8064c447ec",
+  "content_hash": "029fb7ef08aa5eb5b21ccf7972ab10fb65f6802ff353262b53d0bb81c94b8853",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

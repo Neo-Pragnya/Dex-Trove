@@ -1,0 +1,41 @@
+{
+  "id": "huggingface/huggingface-gradio",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-gradio",
+  "title": "Gradio",
+  "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-gradio",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-gradio",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-gradio",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "examples.md"
+  ],
+  "entry_hash": "ce41c656e364a8027755a520372448036d90811f5a1d377f02bb9d549c0865a9",
+  "content_hash": "aa142b73a1fef7d89346a7583212dec869f16ba9b45244fa2979ace31d1f5cfb",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "scientific/protocolsio-integration",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "protocolsio-integration",
+  "title": "protocols.io Integration",
+  "description": "Reads, validates, and safely exports protocols.io data with current official REST/MCP contracts, or creates non-executing mutation plans. The bundled client makes bounded official-host GET requests only with explicit --execute. Use only for tasks explicitly targeting protocols.io or an exact protocols.io protocol version.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.protocolsio-integration",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/protocolsio-integration",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/protocolsio-integration",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/protocol-snapshot.schema.json",
+    "references/additional_features.md",
+    "references/authentication.md",
+    "references/discussions.md",
+    "references/file_manager.md",
+    "references/protocols_api.md",
+    "references/workspaces.md",
+    "scripts/__init__.py",
+    "scripts/_common.py",
+    "scripts/pagination_helper.py",
+    "scripts/plan_write_request.py",
+    "scripts/protocols_read.py",
+    "scripts/validate_auth_config.py",
+    "scripts/validate_protocol_json.py"
+  ],
+  "entry_hash": "4439249ba8cd35a8507463f8be84db511abc23daa00be3f892c47d847d2aeda5",
+  "content_hash": "d6605f00b3080d0f21ce76ba8b9846051cf64832d85254db35ef413b44796a3c",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

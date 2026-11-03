@@ -1,0 +1,50 @@
+{
+  "id": "scientific/deeptools",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "deeptools",
+  "title": "deepTools: NGS Data Analysis Toolkit",
+  "description": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.deeptools",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/deeptools",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/deeptools",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/quick_reference.md",
+    "references/core_workflows.md",
+    "references/effective_genome_sizes.md",
+    "references/normalization_methods.md",
+    "references/review.md",
+    "references/tools_reference.md",
+    "references/workflows.md",
+    "scripts/validate_files.py",
+    "scripts/workflow_generator.py"
+  ],
+  "entry_hash": "f09f32bad2d0c54f4a422cb7bcca7703466e653544b2b6e77a7492e6f29ccf8b",
+  "content_hash": "70007a496b0f9801338f46bad6f02548d353affde79bd1c0d147e5bcde2db166",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

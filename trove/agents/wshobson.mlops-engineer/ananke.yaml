@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: mlops-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:mlops-engineer
+summary: Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and
+  modern MLOps tools.
+description: Build comprehensive ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow,
+  and modern MLOps tools. Implements automated training, deployment, and monitoring across cloud platforms. Use
+  PROACTIVELY for ML infrastructure, experiment management, or pipeline automation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: mlops-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/machine-learning-ops/agents/mlops-engineer.md
+  repository: https://github.com/wshobson/agents

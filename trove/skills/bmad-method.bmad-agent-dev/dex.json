@@ -1,0 +1,42 @@
+{
+  "id": "bmad-method/bmad-agent-dev",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-agent-dev",
+  "title": "Amelia — Senior Software Engineer",
+  "description": "Senior software engineer who implements stories and code changes. Use when the user asks to talk to Amelia or requests the developer agent",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-agent-dev",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-agent-dev",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-agent-dev",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml"
+  ],
+  "entry_hash": "d617b5c5001b33e9d004ff0e0d61e237576261de3757222b81be09939d7056a5",
+  "content_hash": "ee15a07e06192ea3c9b8ace9057a2d153920763ab7870feda69cbab29c0e9f71",
+  "learned_at": "2026-11-03T06:16:29+00:00"
+}

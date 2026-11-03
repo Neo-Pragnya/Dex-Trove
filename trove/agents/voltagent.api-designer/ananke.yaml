@@ -1,0 +1,34 @@
+kind: agent
+namespace: voltagent
+name: api-designer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:api-designer
+summary: Use this agent when designing new APIs, creating API specifications, or refactoring existing API architecture
+  for scalability and developer experience.
+description: Use this agent when designing new APIs, creating API specifications, or refactoring existing API architecture
+  for scalability and developer experience. Invoke when you need REST/GraphQL endpoint design, OpenAPI documentation,
+  authentication patterns, or API versioning strategies.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: api-designer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/api-designer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

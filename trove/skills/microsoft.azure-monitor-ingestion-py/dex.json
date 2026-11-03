@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-monitor-ingestion-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-monitor-ingestion-py",
+  "title": "Azure Monitor Ingestion SDK for Python",
+  "description": "Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.\nTriggers: \"azure-monitor-ingestion\", \"LogsIngestionClient\", \"custom logs\", \"DCR\", \"data collection rule\", \"Log Analytics\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-monitor-ingestion-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-ingestion-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-monitor-ingestion-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "e9686a6ef133b735704d1f677fb926857a056b8b1bb80e085d495d9136c52eae",
+  "content_hash": "221b639acfb9cc4150c6e2fc09c34b3f20c125a58d99e244bd93710ac44b9293",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

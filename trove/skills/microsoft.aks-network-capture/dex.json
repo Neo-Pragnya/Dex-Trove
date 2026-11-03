@@ -1,0 +1,53 @@
+{
+  "id": "microsoft/aks-network-capture",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "aks-network-capture",
+  "title": "AKS Network Capture",
+  "description": "Collects bounded packet captures from AKS nodes and Azure network configuration for wire-level evidence. WHEN: \"capture packets on an AKS node\", \"take a pcap\", \"run tcpdump on AKS\", \"prove where packets drop\". Use for explicit packet-capture intent after read-only diagnostics, not general AKS connectivity or ingress troubleshooting.",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.aks-network-capture",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/aks-skills/skills/aks-network-capture",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/aks-skills/skills/aks-network-capture",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capture-authorization.md",
+    "scripts/collect-azure-network-info.ps1",
+    "scripts/collect-azure-network-info.sh",
+    "scripts/create-capture.ps1",
+    "scripts/create-capture.sh",
+    "scripts/generate-test-traffic.ps1",
+    "scripts/generate-test-traffic.sh",
+    "scripts/retrieve-captures.ps1",
+    "scripts/retrieve-captures.sh",
+    "scripts/run-capture.sh",
+    "scripts/setup-capture-configmap.ps1",
+    "scripts/setup-capture-configmap.sh"
+  ],
+  "entry_hash": "afa6c749b8a502cb580b8a5eaee036a288ad0dcfd95da1c7723d5ef1add03087",
+  "content_hash": "c2666dd2aba9b1298e372b0962db812d247f4154ac2a9c79e0dc234b4062a902",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

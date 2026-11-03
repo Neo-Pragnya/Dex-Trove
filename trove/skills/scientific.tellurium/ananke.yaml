@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: tellurium
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:tellurium
+summary: Simulates biochemical kinetic models from SBML or Antimony with Tellurium and libRoadRunner, checks model
+  units, compares deterministic parameter perturbations, and exports and replays SBML plus SED-M…
+description: Simulates biochemical kinetic models from SBML or Antimony with Tellurium and libRoadRunner, checks
+  model units, compares deterministic parameter perturbations, and exports and replays SBML plus SED-ML COMBINE
+  archives. Use for reaction-network time courses, kinetic parameters, concentration dynamics and reproducible simulation
+  experiments; steady-state constraint-based metabolic flux analysis belongs to cobrapy.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/tellurium
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

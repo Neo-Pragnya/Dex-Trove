@@ -1,0 +1,51 @@
+{
+  "id": "scientific/pytdc",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pytdc",
+  "title": "PyTDC (Therapeutics Data Commons)",
+  "description": "Provides Therapeutics Data Commons workflows through PyTDC for registry discovery, dataset access, task-aware splits, evaluator metrics, benchmark groups, and bounded molecular-oracle scoring. Use when working with TDC therapeutic ML datasets or benchmarks.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pytdc",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pytdc",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pytdc",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/datasets.md",
+    "references/oracles.md",
+    "references/sources.md",
+    "references/utilities.md",
+    "scripts/_common.py",
+    "scripts/benchmark_evaluation.py",
+    "scripts/cache_audit.py",
+    "scripts/discover_metadata.py",
+    "scripts/load_and_split_data.py",
+    "scripts/molecular_generation.py"
+  ],
+  "entry_hash": "b7df3f50c1c618a47a81e994b2863ddd8adf695e795aa495c3a8fef5e78a0493",
+  "content_hash": "4564992713be8e652ee94be077a64b493b4188eeeed71b338a321afdcf35f101",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

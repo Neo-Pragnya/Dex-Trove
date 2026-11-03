@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/flutter-expert",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "flutter-expert",
+  "title": "flutter-expert",
+  "description": "Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment. Handles state management, animations, testing, and performance optimization for mobile, web, desktop, and embedded platforms. Use PROACTIVELY for Flutter architecture, UI implementation, or cross-platform features.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "flutter-expert.md",
+  "dir": "agents/wshobson.flutter-expert",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/multi-platform-apps/agents/flutter-expert.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/multi-platform-apps/agents/flutter-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "flutter-expert.md"
+  ],
+  "entry_hash": "3d726438918b997e269f1e6032ad8d9d8bf2e78030365d7ffe55f8bc83805895",
+  "content_hash": "769b3f6a16ca5d0977c2a3087e69dfef9cdf941d1bfc44b1ffb226dc18cb3d16",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

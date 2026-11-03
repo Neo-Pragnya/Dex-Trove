@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/angular-architect",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "angular-architect",
+  "title": "angular-architect",
+  "description": "Use when architecting enterprise Angular 15+ applications with complex state management, optimizing RxJS patterns, designing micro-frontend systems, or solving performance and scalability challenges in large codebases.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "angular-architect.md",
+  "dir": "agents/voltagent.angular-architect",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/angular-architect.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/angular-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "angular-architect.md"
+  ],
+  "entry_hash": "70455b225603fdfc4f86b4ff862ebdd7551c4fbb4510aa547316e17c0a8f59e2",
+  "content_hash": "772daa20539ff7ac72f7efd18b52ff80f62a3ea831bde124e67b873ccd0a38ff",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

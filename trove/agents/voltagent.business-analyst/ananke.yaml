@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: business-analyst
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:business-analyst
+summary: Use when analyzing business processes, gathering requirements from stakeholders, or identifying process
+  improvement opportunities to drive operational efficiency and measurable business value.
+description: Use when analyzing business processes, gathering requirements from stakeholders, or identifying process
+  improvement opportunities to drive operational efficiency and measurable business value.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: business-analyst.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/business-analyst.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

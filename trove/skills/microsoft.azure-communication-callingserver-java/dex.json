@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-communication-callingserver-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-communication-callingserver-java",
+  "title": "Azure Communication CallingServer (Java) - DEPRECATED",
+  "description": "Azure Communication Services CallingServer (legacy) Java SDK. Note - This SDK is deprecated. Use azure-communication-callautomation instead for new projects. Only use this skill when maintaining legacy code.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-communication-callingserver-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-communication-callingserver-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-communication-callingserver-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "15e43981fbfcc9b9da3ca63e55a6953a5201626c7135fee578fc3224825440ea",
+  "content_hash": "149da428f0d8f35a59eec56a302ce1a532fc14a2a5a2855da8fb18c5b2114c4c",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "scientific/pybamm",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pybamm",
+  "title": "PyBaMM battery experiments",
+  "description": "Simulates lithium-ion battery charge, discharge and rest experiments with PyBaMM, records parameter-set provenance, checks mesh and solver sensitivity, and compares predicted voltage curves with measured cycling data. Use for SPM or DFN electrochemical battery modeling, C-rate protocols, voltage cutoffs, parameter studies and numerical validation of battery simulations.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pybamm",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pybamm",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pybamm",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/chen2020-protocol.json",
+    "references/protocol-and-comparison.md",
+    "scripts/simulate_battery.py"
+  ],
+  "entry_hash": "9d6f375f4d9def40072ea734f07e1a48c60a1cd906231cab1a4189a75499a1a4",
+  "content_hash": "871b10a69355ebdfa7693a5dbcd949e01f4c9ca3d25e123212e179d1c9de5fc0",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

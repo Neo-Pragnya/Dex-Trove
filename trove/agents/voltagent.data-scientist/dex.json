@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/data-scientist",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "data-scientist",
+  "title": "data-scientist",
+  "description": "Use this agent when you need to analyze data patterns, build predictive models, or extract statistical insights from datasets. Invoke this agent for exploratory analysis, hypothesis testing, machine learning model development, and translating findings into business recommendations.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "data-scientist.md",
+  "dir": "agents/voltagent.data-scientist",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/data-scientist.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/data-scientist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "data-scientist.md"
+  ],
+  "entry_hash": "d5d51ae2ac59e57a6537d94e6a3cb1ec38e8430d3aad0595cba7296c6b98fb97",
+  "content_hash": "c18fa8ea99547b72c5db97980d522ff3b70b2e9891bd773ef6ce17a309773891",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

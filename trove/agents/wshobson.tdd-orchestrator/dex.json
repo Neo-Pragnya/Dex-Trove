@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/tdd-orchestrator",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "tdd-orchestrator",
+  "title": "backend-development-tdd-orchestrator",
+  "description": "Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination, and comprehensive test-driven development practices. Enforces TDD best practices across teams with AI-assisted testing and modern frameworks. Use PROACTIVELY for TDD implementation and governance.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "tdd-orchestrator.md",
+  "dir": "agents/wshobson.tdd-orchestrator",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/backend-development/agents/tdd-orchestrator.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/backend-development/agents/tdd-orchestrator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "tdd-orchestrator.md"
+  ],
+  "entry_hash": "bb380ef9f2d9e22972ba8c82283ca42108257401138fc43d92e911aef3c65595",
+  "content_hash": "677bb4c2b3a78442cc022140a255ecbad415b565050b4e4951a2f79f964a7718",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "scientific/liteparse",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "liteparse",
+  "title": "LiteParse — Local Document Parsing",
+  "description": "Local document and PDF parsing that returns spatial text with bounding boxes. Use for extracting text from PDFs, DOCX, Office files, and images; running OCR on scans; producing layout-preserved JSON for RAG; batch-ingesting folders of papers; or rendering pages to PNG for multimodal agents. Distinguishing capabilities are spatial text boxes, Markdown, page raster output, and local parsing with optional custom HTTP OCR.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.liteparse",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/liteparse",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/liteparse",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/choosing_a_parser.md",
+    "references/cli_reference.md",
+    "references/ocr_and_formats.md",
+    "references/output_formats.md",
+    "scripts/batch_parse_dir.py"
+  ],
+  "entry_hash": "02a789c7959670cb8898e329588a41d43fa7b270c768a70c22aed05031d042a4",
+  "content_hash": "2656e47f16fe86694ad2b14ebc5e7cb35e21c2751cec118e1fc5d4a6ebf36a8e",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

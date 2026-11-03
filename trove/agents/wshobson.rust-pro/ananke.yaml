@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: rust-pro
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:rust-pro
+summary: Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems
+  programming.
+description: Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems
+  programming. Expert in the latest Rust ecosystem including Tokio, axum, and cutting-edge crates. Use PROACTIVELY
+  for Rust development, performance optimization, or systems programming.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: rust-pro.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/systems-programming/agents/rust-pro.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/zustand-store-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "zustand-store-ts",
+  "title": "Zustand Store",
+  "description": "Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation. Use when building React state management, creating global stores, or implementing reactive state patterns with Zustand.",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.zustand-store-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/zustand-store-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/zustand-store-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/template.ts"
+  ],
+  "entry_hash": "dd69536e2f18a09eac999d036f963dbbf6874f44fe4ac73a6df89170de4a542b",
+  "content_hash": "7d2dcebd9a34e9deccc5d62e37c48c2aa0b001cbe072be57c7808c2a2144e18e",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

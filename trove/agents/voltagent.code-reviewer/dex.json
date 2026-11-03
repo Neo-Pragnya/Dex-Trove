@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/code-reviewer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "code-reviewer",
+  "title": "code-reviewer",
+  "description": "Use this agent when you need to conduct comprehensive code reviews focusing on code quality, security vulnerabilities, and best practices.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "code-reviewer.md",
+  "dir": "agents/voltagent.code-reviewer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/code-reviewer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/code-reviewer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "code-reviewer.md"
+  ],
+  "entry_hash": "cf8235884dd8b4bc15aa20cc822f727ecbde2b65823b7ba2b027a638804dfc78",
+  "content_hash": "85b397957d2cb2e2372641d493edbd3d97e75b598950a215ff1cafc69a451b3d",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

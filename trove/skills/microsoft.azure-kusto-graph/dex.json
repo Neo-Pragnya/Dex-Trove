@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/azure-kusto-graph",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-kusto-graph",
+  "title": "Kusto Graph Semantics",
+  "description": "Build and query Kusto graphs from natural language. Covers transient graphs (make-graph), persistent graph models/snapshots, pattern matching (graph-match), shortest paths, connected components, and graph-to-table export. Generates the edges-first thinking: define edges, define node lookups, union, make-graph. WHEN: make-graph, graph-match, graph-shortest-paths, graph-to-table, graph-mark-components, persistent graph, graph model, graph snapshot, build a graph from data, find paths between nodes, pattern matching in graph, connected components, transient graph, Kusto graph, KQL graph.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-kusto-graph",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-graph",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-kusto-graph-skills/skills/azure-kusto-graph",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/EXAMPLES.md",
+    "references/KUSTO_EXPLORER_LAUNCH.md",
+    "references/SCENARIOS.md"
+  ],
+  "entry_hash": "6878ae49f9bdc1ed9ada3ef9c59e83450bc96751da73d44c4bfe5a1a47e14bde",
+  "content_hash": "494141732551f42e21ab430afb7382356123f5c2062818d7b9c927ab99309e56",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

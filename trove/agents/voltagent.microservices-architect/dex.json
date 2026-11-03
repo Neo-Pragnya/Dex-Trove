@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/microservices-architect",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "microservices-architect",
+  "title": "microservices-architect",
+  "description": "Use when designing distributed system architecture, decomposing monolithic applications into independent microservices, or establishing communication patterns between services at scale.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "microservices-architect.md",
+  "dir": "agents/voltagent.microservices-architect",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/microservices-architect.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/microservices-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "microservices-architect.md"
+  ],
+  "entry_hash": "abd12f9568eda05ec9d6ac9edc958b55c2f7f7e17a2e14a2eba99e53efd8db20",
+  "content_hash": "95ec2957305880c7ae3f46f1817842d204ac5123927cc7485a040b629f46fc37",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

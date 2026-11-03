@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-monitor-opentelemetry-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-monitor-opentelemetry-ts",
+  "title": "Azure Monitor OpenTelemetry SDK for TypeScript",
+  "description": "Instrument applications with Azure Monitor and OpenTelemetry for JavaScript (@azure/monitor-opentelemetry). Use when adding distributed tracing, metrics, and logs to Node.js applications with Application Insights.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-monitor-opentelemetry-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-monitor-opentelemetry-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-monitor-opentelemetry-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "330aa4ea6110ffca30ef3a8e227d60fe6a3e44ee44b25560b1b5aade427dc476",
+  "content_hash": "b37f753b62ba1596a6cee82793cd21c5e8f24658d5bea3b8cd4edf26b2967ac2",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

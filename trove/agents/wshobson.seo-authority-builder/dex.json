@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/seo-authority-builder",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "seo-authority-builder",
+  "title": "seo-authority-builder",
+  "description": "Analyzes content for E-E-A-T signals and suggests improvements to build authority and trust. Identifies missing credibility elements. Use PROACTIVELY for YMYL topics.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "seo-authority-builder.md",
+  "dir": "agents/wshobson.seo-authority-builder",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/seo-analysis-monitoring/agents/seo-authority-builder.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-analysis-monitoring/agents/seo-authority-builder.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "seo-authority-builder.md"
+  ],
+  "entry_hash": "fe33633ac96e76cf567f10abfbaf32eaf886e8e1a606c3e214ee10dee08fcf19",
+  "content_hash": "6b74b6ae14bacb4bc34ae97315385ec5c31974814ec8c062ca45708531fffe04",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

@@ -1,0 +1,35 @@
+kind: agent
+namespace: voltagent
+name: nextjs-developer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:nextjs-developer
+summary: Use this agent when building production Next.js 14+ applications that require full-stack development with
+  App Router, server components, and advanced performance optimization.
+description: Use this agent when building production Next.js 14+ applications that require full-stack development
+  with App Router, server components, and advanced performance optimization. Invoke when you need to architect or
+  implement complete Next.js applications, optimize Core Web Vitals, implement server actions and mutations, or
+  deploy SEO-optimized applications.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: nextjs-developer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/nextjs-developer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

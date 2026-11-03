@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/session-start",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "session-start",
+  "title": "session-start",
+  "description": "Use at the start of every work session. Reads the canonical state doc, verifies live state, reconciles drift from external deploys or dirty shutdowns, and prints a concise briefing. Pairs with session-end.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "session-start.md",
+  "dir": "agents/wshobson.session-start",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/operating-kit/agents/session-start.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/session-start.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "session-start.md"
+  ],
+  "entry_hash": "bab1f20236a73a7c915d9beb747a3691b8ea7b2873664a2b255e3e4e09ec03f2",
+  "content_hash": "d3407d42f02ecd9017b65865b84f8b4f5f4a88c90695e1c127028bdffb72156d",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

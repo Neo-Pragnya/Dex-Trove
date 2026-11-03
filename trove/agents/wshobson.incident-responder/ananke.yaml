@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: incident-responder
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:incident-responder
+summary: Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive
+  incident management.
+description: Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive
+  incident management. Masters incident command, blameless post-mortems, error budget management, and system reliability
+  patterns. Handles critical outages, communication strategies, and continuous improvement. Use IMMEDIATELY for
+  production incidents or SRE practices.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: incident-responder.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/incident-response/agents/incident-responder.md
+  repository: https://github.com/wshobson/agents

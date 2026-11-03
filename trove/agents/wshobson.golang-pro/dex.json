@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/golang-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "golang-pro",
+  "title": "golang-pro",
+  "description": "Master Go 1.21+ with modern patterns, advanced concurrency, performance optimization, and production-ready microservices. Expert in the latest Go ecosystem including generics, workspaces, and cutting-edge frameworks. Use PROACTIVELY for Go development, architecture design, or performance optimization.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "golang-pro.md",
+  "dir": "agents/wshobson.golang-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/systems-programming/agents/golang-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/systems-programming/agents/golang-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "golang-pro.md"
+  ],
+  "entry_hash": "8e4dc761fb38caab96a1d898596ffee3b55fbf369b36ed9729290f48f13d8cf8",
+  "content_hash": "9279df653647e38b035f178dae8f3eae1ffacbcd0e786d16f7efa16d9c6b3dc0",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

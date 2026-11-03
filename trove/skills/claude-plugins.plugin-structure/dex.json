@@ -1,0 +1,46 @@
+{
+  "id": "claude-plugins/plugin-structure",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "plugin-structure",
+  "title": "Plugin Structure for Claude Code",
+  "description": "This skill should be used when the user asks to \"create a plugin\", \"scaffold a plugin\", \"understand plugin structure\", \"organize plugin components\", \"set up plugin.json\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"add commands/agents/skills/hooks\", \"configure auto-discovery\", or needs guidance on plugin directory layout, manifest configuration, component organization, file naming conventions, or Claude Code plugin architecture best practices.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "0.1.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.plugin-structure",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/plugin-dev/skills/plugin-structure",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/plugin-dev/skills/plugin-structure",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/plugin-dev/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "examples/advanced-plugin.md",
+    "examples/minimal-plugin.md",
+    "examples/standard-plugin.md",
+    "references/component-patterns.md",
+    "references/manifest-reference.md"
+  ],
+  "entry_hash": "a2dbc1e5502aacb360d0ca74732cdd7be4f6a12a49edf4f2ade4134fbc026247",
+  "content_hash": "5fbd5666cbf3e6cc9764efc6da743a86f2cd863c7bd8893fad977e2a55221c0a",
+  "learned_at": "2026-11-03T06:21:40+00:00"
+}

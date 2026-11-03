@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: frontend-security-coder
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:frontend-security-coder
+summary: Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side
+  security patterns.
+description: Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and
+  client-side security patterns. Use PROACTIVELY for frontend security implementations or client-side security code
+  reviews.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: frontend-security-coder.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/frontend-mobile-security/agents/frontend-security-coder.md
+  repository: https://github.com/wshobson/agents

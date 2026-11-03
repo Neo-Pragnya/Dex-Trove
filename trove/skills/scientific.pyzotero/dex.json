@@ -1,0 +1,54 @@
+{
+  "id": "scientific/pyzotero",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pyzotero",
+  "title": "Pyzotero",
+  "description": "Manages Zotero reference libraries using the pyzotero Python client: retrieves, creates, updates, and deletes items, collections, tags, and attachments via the Zotero Web API v3 or local API. Applies when working with Zotero libraries programmatically, managing bibliographic references, exporting citations, searching library contents, uploading PDF attachments, or building research automation workflows that integrate with Zotero.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pyzotero",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pyzotero",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pyzotero",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT License'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/authentication.md",
+    "references/cli.md",
+    "references/collections.md",
+    "references/error-handling.md",
+    "references/exports.md",
+    "references/files-attachments.md",
+    "references/full-text.md",
+    "references/mcp.md",
+    "references/pagination.md",
+    "references/read-api.md",
+    "references/saved-searches.md",
+    "references/search-params.md",
+    "references/tags.md",
+    "references/write-api.md"
+  ],
+  "entry_hash": "82dec36c7294674f33d9b6003e523d1dc4da33ed1c7427dc4e53731119fc5f74",
+  "content_hash": "99441e7a332c039de5b7014a57308d00ed9ed0abb948168fed7f139859a244d3",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

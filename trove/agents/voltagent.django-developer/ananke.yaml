@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: django-developer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:django-developer
+summary: Use when building Django 4+ web applications, REST APIs, or modernizing existing Django projects with async
+  views and enterprise patterns.
+description: Use when building Django 4+ web applications, REST APIs, or modernizing existing Django projects with
+  async views and enterprise patterns.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: django-developer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/django-developer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

@@ -1,0 +1,44 @@
+{
+  "id": "bmad-method/bmad-project-context",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-project-context",
+  "title": "Overview",
+  "description": "Set up, adopt, refresh, or audit a repository's agent instructions (the AGENTS.md block) so AI agents work well in that repo. Also records observed agent mistakes as pitfalls. Use when invoked by name",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-project-context",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-project-context",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-project-context",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml",
+    "references/best-practices.md",
+    "references/template.md"
+  ],
+  "entry_hash": "2fc53a5a9639c832a65673dd9b16ecba4c70739054cad54f15c277e3295490d9",
+  "content_hash": "62aeb8c8092fbbce95ddbedb83c9ff6335f18bcbaf44a4b66e00356bd2e5e7c5",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

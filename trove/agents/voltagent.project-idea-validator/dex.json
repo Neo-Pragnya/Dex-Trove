@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/project-idea-validator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "project-idea-validator",
+  "title": "project-idea-validator",
+  "description": "Use this agent when you need an idea pressure-tested with brutal honesty, competitor teardown, market validation, and clear go/no-go guidance before building.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "project-idea-validator.md",
+  "dir": "agents/voltagent.project-idea-validator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/project-idea-validator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/project-idea-validator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "project-idea-validator.md"
+  ],
+  "entry_hash": "b71305b01782d53fa76117f8bf3df0c5c4648098297964afdf78f1a74d67d6b2",
+  "content_hash": "3dcf0a11f50c7f39d6562e610fa5f0de9118d93ef82c8b0a0bf785bc00dfb2f2",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

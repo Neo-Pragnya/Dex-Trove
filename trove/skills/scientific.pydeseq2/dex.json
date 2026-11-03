@@ -1,0 +1,46 @@
+{
+  "id": "scientific/pydeseq2",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pydeseq2",
+  "title": "PyDESeq2",
+  "description": "Performs bulk RNA-seq differential expression analysis with PyDESeq2, including count validation, formula designs, explicit contrasts, Wald tests, FDR correction, coefficient-matched LFC shrinkage, and result visualization. Use for PyDESeq2 or Python DESeq2 workflows with biological replicates.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pydeseq2",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pydeseq2",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pydeseq2",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/analysis_patterns.md",
+    "references/api_reference.md",
+    "references/core_workflow_steps.md",
+    "references/workflow_guide.md",
+    "scripts/run_deseq2_analysis.py"
+  ],
+  "entry_hash": "f06a9f5ece540c05bd8a8208bb3970d000b13cb1032abc9488cfbfe6106cd843",
+  "content_hash": "dfe881c728bd096b5cdd69c6df920456966e5d0c4b8d424a85e2264016a28498",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

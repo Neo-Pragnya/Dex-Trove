@@ -1,0 +1,56 @@
+{
+  "id": "scientific/13c-metabolic-flux",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "13c-metabolic-flux",
+  "title": "Carbon-13 metabolic flux inference",
+  "description": "Estimates intracellular metabolic fluxes from steady-state carbon-13 isotope-tracing measurements using validated atom maps, mfapy isotope simulation, constrained multistart fitting, and flux-profile diagnostics. Use for 13C-MFA, carbon tracing, mass isotopomer distributions (MDVs/MIDs), positional isotopomers, parallel tracer experiments, and determining whether labeling data constrain a pathway flux. Distinguishes measured-label inference from COBRA flux balance analysis and flags experiments requiring nonstationary MFA.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.13c-metabolic-flux",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/13c-metabolic-flux",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/13c-metabolic-flux",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/branch-fluxes.json",
+    "assets/branch-identifiable.json",
+    "assets/branch-model.json",
+    "assets/branch-unresolved.json",
+    "assets/mfapy-license.txt",
+    "assets/requirements.txt",
+    "assets/tca-fluxes.json",
+    "assets/tca-model.json",
+    "assets/tca-reference-mdv.json",
+    "assets/tca-tracer.json",
+    "references/inference.md",
+    "references/input-contract.md",
+    "scripts/_mfa_fit.py",
+    "scripts/_mfa_model.py",
+    "scripts/mfa.py"
+  ],
+  "entry_hash": "8318b1c785cc80bf095b8667a96061cd5f4b0b9c4e5fa77fd7f57fd8403f2c0f",
+  "content_hash": "e2f83db780c7b1fc91a41cfe85cd2070890ff0458dde0672ca8474c78230ca89",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

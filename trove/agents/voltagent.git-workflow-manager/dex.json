@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/git-workflow-manager",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "git-workflow-manager",
+  "title": "git-workflow-manager",
+  "description": "Use this agent when you need to design, establish, or optimize Git workflows, branching strategies, and merge management for a project or team.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "git-workflow-manager.md",
+  "dir": "agents/voltagent.git-workflow-manager",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/git-workflow-manager.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/git-workflow-manager.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "git-workflow-manager.md"
+  ],
+  "entry_hash": "78f0a3080c60e3b60db6e1804410b5a71121183976079fa9e2d4077fa254db6f",
+  "content_hash": "e28ee442f02e6e28b8d1919391e6dc46c2e87601dec43b81a9fb0d6537d31710",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

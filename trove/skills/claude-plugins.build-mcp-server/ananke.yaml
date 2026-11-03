@@ -1,0 +1,34 @@
+kind: skill
+namespace: claude-plugins
+name: build-mcp-server
+version: 0.1.0
+ananke_id: urn:dex-trove:skill:claude-plugins:build-mcp-server
+summary: This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP integration",
+  "wrap an API for Claude", "expose tools to Claude", "make an MCP app", or discusses b…
+description: This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP
+  integration", "wrap an API for Claude", "expose tools to Claude", "make an MCP app", or discusses building something
+  with the Model Context Protocol. It is the entry point for MCP server development — it interrogates the user about
+  their use case, determines the right deployment model (remote HTTP, MCPB, local stdio), picks a tool-design pattern,
+  and hands off to specialized skills.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'plugins/mcp-server-dev/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/mcp-server-dev/skills/build-mcp-server
+  repository: https://github.com/anthropics/claude-plugins-official

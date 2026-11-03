@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: documentation-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:documentation-engineer
+summary: Use this agent when you need to create, architect, or overhaul comprehensive documentation systems including
+  API docs, tutorials, guides, and developer-friendly content that keeps pace with code chang…
+description: Use this agent when you need to create, architect, or overhaul comprehensive documentation systems
+  including API docs, tutorials, guides, and developer-friendly content that keeps pace with code changes.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: documentation-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/documentation-engineer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

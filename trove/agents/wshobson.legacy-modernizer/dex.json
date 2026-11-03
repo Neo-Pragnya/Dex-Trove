@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/legacy-modernizer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "legacy-modernizer",
+  "title": "code-refactoring-legacy-modernizer",
+  "description": "Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility. Use PROACTIVELY for legacy system updates, framework migrations, or technical debt reduction.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "legacy-modernizer.md",
+  "dir": "agents/wshobson.legacy-modernizer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/code-refactoring/agents/legacy-modernizer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/code-refactoring/agents/legacy-modernizer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "legacy-modernizer.md"
+  ],
+  "entry_hash": "99e479e746b011d8d9a7fd8b7443c8e39b55cc7947b649f36d9293030efbf3a6",
+  "content_hash": "25fc9ed6feb5ac2bdf41c29639a68dbea80b0843ccb2899b9a38872780219109",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

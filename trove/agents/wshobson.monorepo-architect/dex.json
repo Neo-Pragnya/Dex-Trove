@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/monorepo-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "monorepo-architect",
+  "title": "monorepo-architect",
+  "description": "Expert in monorepo architecture, build systems, and dependency management at scale. Masters Nx, Turborepo, Bazel, and Lerna for efficient multi-project development. Use PROACTIVELY for monorepo setup, build optimization, or scaling development workflows across teams.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "monorepo-architect.md",
+  "dir": "agents/wshobson.monorepo-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/developer-essentials/agents/monorepo-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/developer-essentials/agents/monorepo-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "monorepo-architect.md"
+  ],
+  "entry_hash": "8d3e4c4cc317916eb5d8a1e61c64fd4a302d37d88232cd8d50a1c0ea3b889fb0",
+  "content_hash": "c2691f1a0ca1a96891ca5d9bc896af0eb8854220b7335cd270bc1b1c319d6563",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

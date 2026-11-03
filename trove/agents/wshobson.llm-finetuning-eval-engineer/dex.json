@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/llm-finetuning-eval-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "llm-finetuning-eval-engineer",
+  "title": "llm-finetuning-eval-engineer",
+  "description": "Evaluation gatekeeper for fine-tuning — builds golden sets and graders, calibrates judges, baselines base models, and issues checkpoint promotion verdicts. Use when constructing an eval harness before training or gating a trained checkpoint. Deliberately independent from training execution.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "llm-finetuning-eval-engineer.md",
+  "dir": "agents/wshobson.llm-finetuning-eval-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/llm-finetuning/agents/llm-finetuning-eval-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/llm-finetuning/agents/llm-finetuning-eval-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "llm-finetuning-eval-engineer.md"
+  ],
+  "entry_hash": "3cb104b4fe0ff4a32c59bff70d5258b878964d24d1918335c387db9bd9e14056",
+  "content_hash": "0d76f0052360e87bd5e8cc90a1e3a6c3124419890519357e2e88d31c58a6d197",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

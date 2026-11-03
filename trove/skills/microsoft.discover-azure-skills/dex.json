@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/discover-azure-skills",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "discover-azure-skills",
+  "title": "discover-azure-skills",
+  "description": "Searches the Azure skills catalog and recommends installable agent skills by matching an Azure task to skill metadata and plugin installation guidance. WHEN: before starting any task that involves an Azure or Microsoft-cloud service, product, or data source, when no currently loaded skill or tool already covers it.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.discover-azure-skills",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-skills/skills/discover-azure-skills",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/discover-azure-skills",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/install/claude-code.md",
+    "references/install/copilot-cli.md",
+    "references/install/other.md"
+  ],
+  "entry_hash": "ae2871d451c4958a1dd5eb22c22f0c230b927740accf669b85c78f8b1c0edcf3",
+  "content_hash": "ebd2062b22a58540816311e908ae53c1279df32bdc7970837597769290ed9ca2",
+  "learned_at": "2026-11-03T06:19:31+00:00"
+}

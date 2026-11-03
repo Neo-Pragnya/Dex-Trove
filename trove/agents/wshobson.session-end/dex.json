@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/session-end",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "session-end",
+  "title": "session-end",
+  "description": "Use at the end of every significant work session. Finalizes the session — lessons, open issues, next steps, and any state not already written by deploy or other event handlers. Skips cleanly if nothing significant changed. Pairs with session-start.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "session-end.md",
+  "dir": "agents/wshobson.session-end",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/operating-kit/agents/session-end.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/session-end.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "session-end.md"
+  ],
+  "entry_hash": "9899aa7264b1d8c8c42f8d38f632800d1584198c5ac88e24b531a775ce308163",
+  "content_hash": "9b377c103aad0f2c5d468ffd34dcd2511d0d569caa55e52f516f1e520a83b8d2",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

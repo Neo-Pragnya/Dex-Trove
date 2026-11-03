@@ -1,0 +1,31 @@
+kind: skill
+namespace: huggingface
+name: hf-mem
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:hf-mem
+summary: Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference
+  from the Hugging Face Hub
+description: Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference
+  from the Hugging Face Hub
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/hf-mem
+  repository: https://github.com/huggingface/skills

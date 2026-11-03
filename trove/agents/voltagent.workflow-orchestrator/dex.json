@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/workflow-orchestrator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "workflow-orchestrator",
+  "title": "workflow-orchestrator",
+  "description": "Use when you need to design workflow and state-machine definitions — states, transitions, error handling, and compensation/rollback logic — and write them as specs or config that other agents or a runtime can execute.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "workflow-orchestrator.md",
+  "dir": "agents/voltagent.workflow-orchestrator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/workflow-orchestrator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/workflow-orchestrator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "workflow-orchestrator.md"
+  ],
+  "entry_hash": "a16503ee948611597be642f6228ecb149de743b37c7e29e526c45cba0062b57d",
+  "content_hash": "b314360a259914a78e4b105e284e2c2f2ac81232786fb2ef9d4b2fee9bb15492",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

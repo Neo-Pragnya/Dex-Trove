@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: prompt-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:prompt-engineer
+summary: Use this agent when you need to design, optimize, test, or evaluate prompts for large language models in
+  production systems.
+description: Use this agent when you need to design, optimize, test, or evaluate prompts for large language models
+  in production systems.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: prompt-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/prompt-engineer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

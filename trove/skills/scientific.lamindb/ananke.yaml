@@ -1,0 +1,32 @@
+kind: skill
+namespace: scientific
+name: lamindb
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:lamindb
+summary: Manages biological datasets and models with LaminDB, including artifact registration, lineage tracking,
+  schema validation, Bionty ontology annotation, query/search, collections, branches, storage, and…
+description: Manages biological datasets and models with LaminDB, including artifact registration, lineage tracking,
+  schema validation, Bionty ontology annotation, query/search, collections, branches, storage, and workflow integrations.
+  Use for reproducible biological data curation or a LaminDB lakehouse.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/lamindb
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

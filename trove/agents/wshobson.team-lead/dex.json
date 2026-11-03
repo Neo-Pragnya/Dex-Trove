@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/team-lead",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "team-lead",
+  "title": "team-lead",
+  "description": "Team orchestrator that decomposes work into parallel tasks with file ownership boundaries, manages team lifecycle, and synthesizes results. Use when coordinating multi-agent teams, decomposing complex tasks, or managing parallel workstreams.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "team-lead.md",
+  "dir": "agents/wshobson.team-lead",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/agent-teams/agents/team-lead.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/agent-teams/agents/team-lead.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "team-lead.md"
+  ],
+  "entry_hash": "e6e54f6518f177fc864af5984cb2b3bc3bb1ff2bb2507c05a968c0b0d39bbae8",
+  "content_hash": "5015cf658ab54fd14ff84043380effb47e3f8a8f86fae6ea3b8a7ccf4ba4cb35",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

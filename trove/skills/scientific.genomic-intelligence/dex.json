@@ -1,0 +1,45 @@
+{
+  "id": "scientific/genomic-intelligence",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "genomic-intelligence",
+  "title": "Genomic Intelligence — DNA Sequence Models",
+  "description": "Predicts regulatory features, gene structure, and expression directly from DNA sequence using Genomic Intelligence's hosted transformer DNA language models — no local GPU or model weights. Six tasks over a REST API and a hosted MCP server (keyless public demo): promoter regions, splice donor/acceptor sites, enhancer activity, chromatin state, sequence-to-expression (log TPM), and de-novo gene annotation, plus a composite find-genes-then-predict-expression workflow. Use when the user has a gene symbol, a genomic region, or a DNA/FASTA sequence and wants any of these predictions, mentions Genomic Intelligence, genomicintelligence.ai, api.genomicintelligence.ai, or mcp.genomicintelligence.ai.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.genomic-intelligence",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/genomic-intelligence",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/genomic-intelligence",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api-and-auth.md",
+    "references/mcp.md",
+    "references/review.md",
+    "references/sequence-acquisition.md",
+    "references/tasks.md"
+  ],
+  "entry_hash": "cdb027004996d313d31b55f6b93306de45306a89b8a4a792e94c36cf2d1dea20",
+  "content_hash": "9e1f2b9f151176f6d56b4b7c2013114b832296ebda9c3559d13589971e0c1228",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

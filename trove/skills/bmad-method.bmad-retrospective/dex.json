@@ -1,0 +1,51 @@
+{
+  "id": "bmad-method/bmad-retrospective",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-retrospective",
+  "title": "bmad-retrospective",
+  "description": "Review a finished epic folder in the ticket tree against the evidence it left behind — the epic file, each ticket's story file and plan, diffs, commits — and produce a retrospective with sourced findings, action items, and an acceptance decision. Use when the user says \"run a retrospective\" or \"lets retro the epic [epic]\". Supports -H/--headless",
+  "tags": [
+    "bmad-method",
+    "executes-code",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-retrospective",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-retrospective",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-retrospective",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "bmod.toml",
+    "customize.toml",
+    "references/acceptance-verdict.md",
+    "references/aggregate-views.md",
+    "references/evidence-gathering.md",
+    "references/retro-document.md",
+    "references/team-discussion.md",
+    "scripts/git_evidence.py",
+    "scripts/tests/test_git_evidence.py",
+    "workflow.md"
+  ],
+  "entry_hash": "3084226f532486a284bb7cd9125a531cfb5f3088b17c9fa1557795b6ea3277d2",
+  "content_hash": "17db9454589ecafeb278e389472553dee4540636a2a994799f84f3956c0681d4",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

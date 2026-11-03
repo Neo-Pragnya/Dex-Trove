@@ -1,0 +1,34 @@
+kind: skill
+namespace: microsoft
+name: azure-enterprise-infra-planner
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-enterprise-infra-planner
+summary: Architect and provision enterprise Azure infrastructure from workload descriptions.
+description: 'Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects
+  and platform engineers planning networking, identity, security, compliance, and multi-resource topologies with
+  WAF alignment. Generates Bicep or Terraform directly (no azd). WHEN: ''plan Azure infrastructure'', ''architect
+  Azure landing zone'', ''design hub-spoke network'', ''plan multi-region DR topology'', ''set up VNets firewalls
+  and private endpoints'', ''subscription-scope Bicep deployment'', ''Azure Backup for VM workloads''. PREFER azure-prepare
+  FOR app-centric workflows.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/azure-enterprise-infra-planner
+  repository: https://github.com/microsoft/skills

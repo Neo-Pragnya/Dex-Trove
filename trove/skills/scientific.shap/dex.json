@@ -1,0 +1,50 @@
+{
+  "id": "scientific/shap",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "shap",
+  "title": "SHAP",
+  "description": "Explain and audit machine-learning predictions with SHAP. Use for selecting SHAP explainers and maskers, computing and validating feature attributions, handling multi-output explanations, and producing local or global SHAP visualizations.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.shap",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/shap",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/shap",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/data-maskers.md",
+    "references/explainers.md",
+    "references/migration.md",
+    "references/modalities.md",
+    "references/plots.md",
+    "references/theory.md",
+    "references/troubleshooting.md",
+    "references/workflows.md",
+    "scripts/tabular_report.py"
+  ],
+  "entry_hash": "9c395662e608accd60acb62158f1d25299b12ec0e40f9f94b70a46ec527d52c1",
+  "content_hash": "6e46622223d0dadeec294f16375221c25c7a92259d5b0b81347152ab85917d2c",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

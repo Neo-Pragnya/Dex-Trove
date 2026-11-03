@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-eventhub-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-eventhub-ts",
+  "title": "Azure Event Hubs SDK for TypeScript",
+  "description": "Build event streaming applications using Azure Event Hubs SDK for JavaScript (@azure/event-hubs). Use when implementing high-throughput event ingestion, real-time analytics, IoT telemetry, or event-driven architectures with partitioned consumers.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-eventhub-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-eventhub-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-eventhub-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/checkpointing.md",
+    "references/event-processing.md"
+  ],
+  "entry_hash": "6f452bd5f842bafc697edbb8201a091a360584c7a03881bfb63c38745899de2a",
+  "content_hash": "fbf8c0ee66f3c24c86f617e6b808378cd964ca1501670ebf1419acb87755b0d7",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-containerregistry-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-containerregistry-py",
+  "title": "Azure Container Registry SDK for Python",
+  "description": "Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.\nTriggers: \"azure-containerregistry\", \"ContainerRegistryClient\", \"container images\", \"docker registry\", \"ACR\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-containerregistry-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-containerregistry-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-containerregistry-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "15bb9f18c67f30940b36edd5a2c050c05153ce2b3626d8ebf55604a9fbe946b2",
+  "content_hash": "18a20fe4688a16c0f05d8035c7400cb4d2abb50c02741dc8152551d572d9d5f2",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

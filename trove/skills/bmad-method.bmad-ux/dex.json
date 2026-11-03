@@ -1,0 +1,57 @@
+{
+  "id": "bmad-method/bmad-ux",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-ux",
+  "title": "BMad UX",
+  "description": "Capture the user's UX vision in two documents: DESIGN.md for how the product looks and EXPERIENCE.md for how it behaves. Use when the user says \"lets create UX design\" or \"create UX specifications\" or \"help me plan the UX\"",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-ux",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-ux",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-ux",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/color-themes.md",
+    "assets/design-directions.md",
+    "assets/design-example-editorial.md",
+    "assets/design-example-mobile.md",
+    "assets/design-example-shadcn.md",
+    "assets/excalidraw-wireframe.md",
+    "assets/experience-example-mobile.md",
+    "assets/experience-example-shadcn.md",
+    "assets/headless-schemas.md",
+    "assets/key-screens.md",
+    "assets/validation-report-template.html",
+    "bmod.toml",
+    "customize.toml",
+    "references/creative-tools.md",
+    "references/design-md-spec.md",
+    "references/headless.md",
+    "references/validate.md"
+  ],
+  "entry_hash": "a12bb1f87df1f2a143ffc838838492a2da4c775280e3c4ba31da3d19aa5abe9a",
+  "content_hash": "39095665aeaf0e807812f754283056692ba6cd19e4a9fc6cdd6ab2f998b92d3a",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

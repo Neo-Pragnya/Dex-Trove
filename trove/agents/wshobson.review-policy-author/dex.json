@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/review-policy-author",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "review-policy-author",
+  "title": "review-policy-author",
+  "description": "Cedar policy author specialized in gating AI agent review actions (PR comments, reviews, merges, CI edits) behind human approval. Use when writing, auditing, or extending a review-governance.cedar policy for review-bot governance.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "review-policy-author.md",
+  "dir": "agents/wshobson.review-policy-author",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/review-agent-governance/agents/review-policy-author.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/review-agent-governance/agents/review-policy-author.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "review-policy-author.md"
+  ],
+  "entry_hash": "81281d70f01b68aa3405ec078798bba68cc0d75456817e0c3eff4175be8cabf1",
+  "content_hash": "e554ec4a17f6aede87d9073ca5a0f5fa1b088fd11cd1dab6b93807f16b8b4990",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: tdd-orchestrator
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:tdd-orchestrator
+summary: Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination,
+  and comprehensive test-driven development practices.
+description: Master TDD orchestrator specializing in red-green-refactor discipline, multi-agent workflow coordination,
+  and comprehensive test-driven development practices. Enforces TDD best practices across teams with AI-assisted
+  testing and modern frameworks. Use PROACTIVELY for TDD implementation and governance.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: tdd-orchestrator.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/backend-development/agents/tdd-orchestrator.md
+  repository: https://github.com/wshobson/agents

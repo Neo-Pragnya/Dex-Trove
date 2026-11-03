@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/agent-installer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "agent-installer",
+  "title": "agent-installer",
+  "description": "Use this agent when the user wants to discover, browse, or install Claude Code agents from the awesome-claude-code-subagents repository.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "agent-installer.md",
+  "dir": "agents/voltagent.agent-installer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/agent-installer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/agent-installer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "agent-installer.md"
+  ],
+  "entry_hash": "2fc0554b2a37c10e0ff06a065bf2eac665f41953de637ae004a6520af4e58648",
+  "content_hash": "858bee52d072adcc77af73de201959528c2f29d131d27bc976f5abe4b4a92463",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

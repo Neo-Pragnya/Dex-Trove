@@ -1,0 +1,40 @@
+{
+  "id": "spec-kit/plan",
+  "kind": "prompt",
+  "namespace": "spec-kit",
+  "name": "plan",
+  "title": "plan",
+  "description": "Execute the implementation planning workflow using the plan template to generate design artifacts.",
+  "tags": [
+    "prompt",
+    "spec-kit"
+  ],
+  "version": "1.0.0",
+  "entry": "plan.md",
+  "dir": "prompts/spec-kit.plan",
+  "source": {
+    "id": "spec-kit",
+    "title": "Spec Kit",
+    "repo": "https://github.com/github/spec-kit",
+    "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+    "path": "templates/commands/plan.md",
+    "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/plan.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "plan.md"
+  ],
+  "entry_hash": "206a0386d20b3eed4c087a4d9de247a3e7b2b59348bf3c801fc74f63ca2726a5",
+  "content_hash": "63e2cc4759bd086045c9c37ec366de53a32ff6e4a8c161ba14db53adedfd9fd6",
+  "learned_at": "2026-11-03T06:37:49+00:00"
+}

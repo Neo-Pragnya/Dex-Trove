@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/x-api-integration",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "x-api-integration",
+  "title": "x-api-integration",
+  "description": "Use this agent when building X/Twitter data products, integrating X API alternatives, designing tweet search workflows, or documenting social data API usage.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "x-api-integration.md",
+  "dir": "agents/voltagent.x-api-integration",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/07-specialized-domains/x-api-integration.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/x-api-integration.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "x-api-integration.md"
+  ],
+  "entry_hash": "da87023d17c3b8290e353a8a409cfe586cf0b519ef547ec912a4aa8897796580",
+  "content_hash": "c53104f1615f273fa8eddaec5d07de92f3180e3262a9fae8d6b26031e899e1bf",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

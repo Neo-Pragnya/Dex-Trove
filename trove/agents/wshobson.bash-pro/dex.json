@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/bash-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "bash-pro",
+  "title": "bash-pro",
+  "description": "Master of defensive Bash scripting for production automation, CI/CD pipelines, and system utilities. Expert in safe, portable, and testable shell scripts.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "bash-pro.md",
+  "dir": "agents/wshobson.bash-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/shell-scripting/agents/bash-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/shell-scripting/agents/bash-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "bash-pro.md"
+  ],
+  "entry_hash": "f98578eadb15448870146ed266477fa88d531d926b9cc659f814f0284b39748f",
+  "content_hash": "74a722731f0ec0bf49230cce89a64081c576601043c1b9d238fa3090d623212d",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

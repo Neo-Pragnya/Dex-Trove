@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/reinforcement-learning-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "reinforcement-learning-engineer",
+  "title": "reinforcement-learning-engineer",
+  "description": "Use when designing RL environments, training agents with reward optimization, implementing policy gradient methods, or deploying decision-making systems for robotics, gaming, and autonomous operations.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "reinforcement-learning-engineer.md",
+  "dir": "agents/voltagent.reinforcement-learning-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/05-data-ai/reinforcement-learning-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/reinforcement-learning-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "reinforcement-learning-engineer.md"
+  ],
+  "entry_hash": "bbef7a246a6e46a428f6c20282818d2183f9a6c7b3e433048e2922b9fc10d355",
+  "content_hash": "1a083707422fd24b51781432bfba3e87d3b476e425ed630b921a14e24adac51d",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

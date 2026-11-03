@@ -1,0 +1,35 @@
+kind: skill
+namespace: huggingface
+name: hf-cloud-aws-context-discovery
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:huggingface:hf-cloud-aws-context-discovery
+summary: Discover the user's local AWS context (active profile, region, account ID, caller identity) at the start
+  of any AWS task.
+description: Discover the user's local AWS context (active profile, region, account ID, caller identity) at the
+  start of any AWS task. Use this skill before any other AWS work — deploying to SageMaker, creating resources,
+  calling AWS APIs, or anything that touches an AWS account. Use it especially when the user has not specified a
+  region or profile explicitly, when they say things like "use my AWS account", "deploy to AWS", "use my profile",
+  or when about to make any AWS CLI or SDK call. Never guess the region or account ID — always use this skill to
+  read it from the local configuration first.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: Apache-2.0
+  source: 'LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - huggingface
+  - skill
+  homepage: https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/hf-cloud-aws-context-discovery
+  repository: https://github.com/huggingface/skills

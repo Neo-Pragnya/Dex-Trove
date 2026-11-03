@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/ui-designer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "ui-designer",
+  "title": "ui-designer",
+  "description": "Use this agent when designing visual interfaces, creating design systems, building component libraries, or refining user-facing aesthetics requiring expert visual design, interaction patterns, and accessibility considerations.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "ui-designer.md",
+  "dir": "agents/voltagent.ui-designer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/ui-designer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/ui-designer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ui-designer.md"
+  ],
+  "entry_hash": "60b69fc6d3da170b5570b29332d6000ee8f26f4b1df4e9bc680a44f57a37478c",
+  "content_hash": "097540355323e375f7a91df39d3fe75e50caa5fd5681d0b19c022f0d10bf57d7",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

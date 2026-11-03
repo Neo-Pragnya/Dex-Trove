@@ -1,0 +1,40 @@
+{
+  "id": "spec-kit/converge",
+  "kind": "prompt",
+  "namespace": "spec-kit",
+  "name": "converge",
+  "title": "converge",
+  "description": "Assess the current codebase against the feature's spec, plan, and tasks, then append any remaining unbuilt work as new tasks to tasks.md so implement can complete it.",
+  "tags": [
+    "prompt",
+    "spec-kit"
+  ],
+  "version": "1.0.0",
+  "entry": "converge.md",
+  "dir": "prompts/spec-kit.converge",
+  "source": {
+    "id": "spec-kit",
+    "title": "Spec Kit",
+    "repo": "https://github.com/github/spec-kit",
+    "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+    "path": "templates/commands/converge.md",
+    "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/converge.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "converge.md"
+  ],
+  "entry_hash": "4fb017b2869ad02d58aafe272a90077187ce4231f08effee6f340b0f3a07fc16",
+  "content_hash": "385273878b3f8964aa282650ed4443ccb34d5a323a6f2d9fbc0a2cc7cbd35713",
+  "learned_at": "2026-11-03T06:37:49+00:00"
+}

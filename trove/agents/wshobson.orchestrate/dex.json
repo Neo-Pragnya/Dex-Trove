@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/orchestrate",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "orchestrate",
+  "title": "orchestrate",
+  "description": "Product Orchestrator agent. Reads the active story file, asks clarifying product questions one at a time, confirms task type (FRONTEND/BACKEND), and produces a complete unambiguous spec in orchestrator-output.md.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "orchestrate.md",
+  "dir": "agents/wshobson.orchestrate",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/ship-mate/agents/orchestrate.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/ship-mate/agents/orchestrate.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "orchestrate.md"
+  ],
+  "entry_hash": "1911cd5f4484037ff00d1b15db17fcf2565fc9d395f562121bb60febd7fb5363",
+  "content_hash": "688c2db4c082557c60c78d3498aec33f00818d969df17f756e9d6087688871c7",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

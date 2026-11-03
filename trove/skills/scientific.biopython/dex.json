@@ -1,0 +1,48 @@
+{
+  "id": "scientific/biopython",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "biopython",
+  "title": "Biopython: Computational Molecular Biology in Python",
+  "description": "Provides Biopython workflows for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Supports batch processing, custom molecular-biology pipelines, BLAST automation, structure analysis, and motif analysis.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.biopython",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/biopython",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/biopython",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/advanced.md",
+    "references/alignment.md",
+    "references/blast.md",
+    "references/databases.md",
+    "references/phylogenetics.md",
+    "references/review.md",
+    "references/sequence_io.md",
+    "references/structure.md"
+  ],
+  "entry_hash": "b617561b38a2e3ecc8f8cf3dd8bb0307ac1aaf4d67e6e0432b0c248bc4382245",
+  "content_hash": "e58cd4279dcc9bd4105a446e5d1837db8bbdfdc2506257f4d39b3db364ede5c7",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

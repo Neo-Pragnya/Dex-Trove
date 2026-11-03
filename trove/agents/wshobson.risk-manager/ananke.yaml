@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: risk-manager
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:risk-manager
+summary: Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy,
+  and implements stop-losses.
+description: Monitor portfolio risk, R-multiples, and position limits. Creates hedging strategies, calculates expectancy,
+  and implements stop-losses. Use PROACTIVELY for risk assessment, trade tracking, or portfolio protection.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: risk-manager.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/quantitative-trading/agents/risk-manager.md
+  repository: https://github.com/wshobson/agents

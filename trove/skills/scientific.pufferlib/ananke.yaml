@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: pufferlib
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:pufferlib
+summary: Version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, PuffeRL
+  training, evaluation, and safe checkpoint review.
+description: Version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies,
+  PuffeRL training, evaluation, and safe checkpoint review. Covers the native 5.0 build and environment API, published
+  3.0.0 Gymnasium/PettingZoo adaptation, and a pinned historical 4.0 profile.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pufferlib
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

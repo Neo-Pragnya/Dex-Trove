@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/incident-responder",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "incident-responder",
+  "title": "incident-responder",
+  "description": "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Masters incident command, blameless post-mortems, error budget management, and system reliability patterns. Handles critical outages, communication strategies, and continuous improvement. Use IMMEDIATELY for production incidents or SRE practices.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "incident-responder.md",
+  "dir": "agents/wshobson.incident-responder",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/incident-response/agents/incident-responder.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/incident-response/agents/incident-responder.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "incident-responder.md"
+  ],
+  "entry_hash": "756a20cea3657dc119c1616073d223a8aa102f591479151419228f6d54f101cc",
+  "content_hash": "07308d9a476e00d2f8622bc058a668cb2dff5dec8cf809d50c65304f12d891e5",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

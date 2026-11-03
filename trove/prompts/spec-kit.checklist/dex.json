@@ -1,0 +1,40 @@
+{
+  "id": "spec-kit/checklist",
+  "kind": "prompt",
+  "namespace": "spec-kit",
+  "name": "checklist",
+  "title": "checklist",
+  "description": "Generate a custom checklist for the current feature based on user requirements.",
+  "tags": [
+    "prompt",
+    "spec-kit"
+  ],
+  "version": "1.0.0",
+  "entry": "checklist.md",
+  "dir": "prompts/spec-kit.checklist",
+  "source": {
+    "id": "spec-kit",
+    "title": "Spec Kit",
+    "repo": "https://github.com/github/spec-kit",
+    "commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+    "path": "templates/commands/checklist.md",
+    "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/templates/commands/checklist.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright GitHub, Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "checklist.md"
+  ],
+  "entry_hash": "1192784f378fb977b408b72ca1bfb8fc55e129519f3f44bc5d0a7e152c480654",
+  "content_hash": "191cedc8528dcc2c8ac52abf887629671a6bccabeb8bd75c9518ebdc09460f2d",
+  "learned_at": "2026-11-03T06:37:49+00:00"
+}

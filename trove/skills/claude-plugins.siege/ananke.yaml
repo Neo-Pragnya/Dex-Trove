@@ -1,0 +1,28 @@
+kind: skill
+namespace: claude-plugins
+name: siege
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:claude-plugins:siege
+summary: 'Work on one hard mathematics problem in rounds: each round a judge writes a few self-contained questions,
+  independent workers answer them, and the judge keeps a ledger of what is proved, refuted and o…'
+description: 'Work on one hard mathematics problem in rounds: each round a judge writes a few self-contained questions,
+  independent workers answer them, and the judge keeps a ledger of what is proved, refuted and open, until the judge
+  concludes or the rounds run out, and then a proof.md says plainly what is and is not proved. A run takes hours
+  and dozens of worker runs. Usage: /math-proof:siege [NAME=value settings] <the problem, stated in full, or the
+  path of a file holding it>.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: Apache-2.0
+  source: 'plugins/math-proof/LICENSE: Apache-2.0 text'
+  approval: approved
+metadata:
+  tags:
+  - claude-plugins
+  - executes-code
+  - skill
+  homepage: https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/math-proof/skills/siege
+  repository: https://github.com/anthropics/claude-plugins-official

@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: session-end
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:session-end
+summary: Use at the end of every significant work session. Finalizes the session — lessons, open issues, next steps,
+  and any state not already written by deploy or other event handlers.
+description: Use at the end of every significant work session. Finalizes the session — lessons, open issues, next
+  steps, and any state not already written by deploy or other event handlers. Skips cleanly if nothing significant
+  changed. Pairs with session-start.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: session-end.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/session-end.md
+  repository: https://github.com/wshobson/agents

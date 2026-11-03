@@ -1,0 +1,44 @@
+{
+  "id": "scientific/relion",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "relion",
+  "title": "RELION single-particle refinement",
+  "description": "Validates and executes RELION single-particle cryo-EM refinement and half-map postprocessing. Supports STAR optics/acquisition checks, particle-stack consistency, gold-standard half sets, soft-mask validation, diagnostic Fourier shell correlation, and restart guidance.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.relion",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/relion",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/relion",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/acquisition-and-restarts.md",
+    "references/runtime-and-validation.md",
+    "scripts/spa_workflow.py"
+  ],
+  "entry_hash": "3f80369ef73ccb8c20e2e49ad2b9bd71da3ffa4a819c035691ca4a5b26cb8399",
+  "content_hash": "19a003cbb013cb470186db9e90cbf89cc516208278c21b22bb0a48cc662a09fc",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

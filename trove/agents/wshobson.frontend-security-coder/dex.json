@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/frontend-security-coder",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "frontend-security-coder",
+  "title": "frontend-security-coder",
+  "description": "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns. Use PROACTIVELY for frontend security implementations or client-side security code reviews.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "frontend-security-coder.md",
+  "dir": "agents/wshobson.frontend-security-coder",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/frontend-mobile-security/agents/frontend-security-coder.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/frontend-mobile-security/agents/frontend-security-coder.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "frontend-security-coder.md"
+  ],
+  "entry_hash": "9b9220ea023280b772877c2dc31ec23f7bc5a190b0a400a5409eb5454cb68d86",
+  "content_hash": "ba52b323da942f11494340bf8eeaee6d844034297c3d7d85e971ad001548e236",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

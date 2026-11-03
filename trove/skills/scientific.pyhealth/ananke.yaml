@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: pyhealth
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:pyhealth
+summary: Builds and validates PyHealth clinical machine-learning pipelines for EHR, signals, imaging, and medical
+  codes.
+description: Builds and validates PyHealth clinical machine-learning pipelines for EHR, signals, imaging, and medical
+  codes. Use for PyHealth dataset loading, MIMIC-III/IV, eICU or OMOP prediction tasks, patient-level evaluation,
+  mortality/readmission/length-of-stay modeling, medication recommendation, sleep staging, Trainer checkpoints,
+  and ICD/ATC/NDC/RxNorm mapping.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pyhealth
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

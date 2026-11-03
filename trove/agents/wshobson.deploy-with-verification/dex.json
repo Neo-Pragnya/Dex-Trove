@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/deploy-with-verification",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "deploy-with-verification",
+  "title": "deploy-with-verification",
+  "description": "Use when deploying to production. Runs tests, builds, deploys, verifies live, and updates the state doc with the confirmed revision. Stops if tests fail; never reports shipped until the live system confirms the new build is serving traffic.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "deploy-with-verification.md",
+  "dir": "agents/wshobson.deploy-with-verification",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/operating-kit/agents/deploy-with-verification.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/operating-kit/agents/deploy-with-verification.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "deploy-with-verification.md"
+  ],
+  "entry_hash": "d2693049eba42c7b833d694069fbe7c3042f11d05da508b7ba130dbd6a345632",
+  "content_hash": "a9a42918590bfb69057ed3f3331f0c4d0f84db81d207bac2da51065650d27d36",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

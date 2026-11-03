@@ -1,0 +1,48 @@
+{
+  "id": "huggingface/hf-cloud-sagemaker-production-defaults",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "hf-cloud-sagemaker-production-defaults",
+  "title": "SageMaker Production Defaults",
+  "description": "Create a SageMaker endpoint (real-time, real-time scale-to-zero, or async) with autoscaling, CloudWatch alarms, and tagging enabled by default. Use this skill whenever about to create a SageMaker endpoint, write deployment code that calls `create_endpoint`, or finalize a deployment after the image URI and IAM role are known. Provides deploy.py for real-time endpoints, deploy_ic.py for real-time endpoints that scale to zero instances via inference components, and deploy_async.py for async endpoints (also scale-to-zero). This is the last step in the SageMaker deployment workflow. Never generate a bare `create_endpoint` call without these defaults — endpoints without autoscaling or alarms are demos, not deployments.",
+  "tags": [
+    "executes-code",
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.hf-cloud-sagemaker-production-defaults",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/hf-cloud-sagemaker-production-defaults",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/hf-cloud-sagemaker-production-defaults",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/deployment-template.md",
+    "scripts/_common.py",
+    "scripts/deploy.py",
+    "scripts/deploy_async.py",
+    "scripts/deploy_ic.py",
+    "scripts/invoke_endpoint.py",
+    "scripts/teardown.py"
+  ],
+  "entry_hash": "6a8c1aff465e548ac4476d56831f864621af83b6a0f54544637601f3ecc44f9e",
+  "content_hash": "57a2cc4b0210bf44bf31adc02837edf292860e63789bfbb4399b085f27bb5041",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

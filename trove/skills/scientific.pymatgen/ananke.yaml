@@ -1,0 +1,25 @@
+kind: skill
+namespace: scientific
+name: pymatgen
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:pymatgen
+summary: Analyzes, validates, converts, and transforms materials structures and computed materials data with pymatgen.
+description: Analyzes, validates, converts, and transforms materials structures and computed materials data with
+  pymatgen. Use for local phase diagrams, symmetry sensitivity, electronic-structure I/O, and bounded Materials
+  Project queries.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pymatgen
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

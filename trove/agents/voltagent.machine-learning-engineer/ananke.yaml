@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: machine-learning-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:machine-learning-engineer
+summary: Use this agent when you need to deploy, optimize, or serve machine learning models at scale in production
+  environments.
+description: Use this agent when you need to deploy, optimize, or serve machine learning models at scale in production
+  environments.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: machine-learning-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/05-data-ai/machine-learning-engineer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

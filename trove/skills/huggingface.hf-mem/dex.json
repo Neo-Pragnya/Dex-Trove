@@ -1,0 +1,40 @@
+{
+  "id": "huggingface/hf-mem",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "hf-mem",
+  "title": "hf-mem",
+  "description": "Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.hf-mem",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/hf-mem",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/hf-mem",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "ee99f9d97e084aa61a80eaec4e6de2265341e71256d918d48fb87a2ac01ce99f",
+  "content_hash": "ab478613ecc5ff682f75fc461da2731560d628efb1b7a9d18c47d471ba12d2a9",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

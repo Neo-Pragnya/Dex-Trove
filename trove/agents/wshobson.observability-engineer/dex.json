@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/observability-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "observability-engineer",
+  "title": "application-performance-observability-engineer",
+  "description": "Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows. Use PROACTIVELY for monitoring infrastructure, performance optimization, or production reliability.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "observability-engineer.md",
+  "dir": "agents/wshobson.observability-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/application-performance/agents/observability-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/application-performance/agents/observability-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "observability-engineer.md"
+  ],
+  "entry_hash": "4f6dd62ba3d3e3a00b16d8059e6460e13fb0944781f620d8e986890914b08816",
+  "content_hash": "bfb487cc30d2546ad91a1ed64b44c2b14c4e84f064b7cfe1ca9ebf9f2ea75dd7",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

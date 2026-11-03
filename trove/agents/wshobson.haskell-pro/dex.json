@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/haskell-pro",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "haskell-pro",
+  "title": "haskell-pro",
+  "description": "Expert Haskell engineer specializing in advanced type systems, pure functional design, and high-reliability software. Use PROACTIVELY for type-level programming, concurrency, and architecture guidance.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "haskell-pro.md",
+  "dir": "agents/wshobson.haskell-pro",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/functional-programming/agents/haskell-pro.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/functional-programming/agents/haskell-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "haskell-pro.md"
+  ],
+  "entry_hash": "2008710fb40c8dc757aba16bc164b18882e40ddee987c90825f8b9b528ded39f",
+  "content_hash": "174712d7074457df98b285fb529bad08c3b0d8f984280c2e3d7dff7b4ccdf6dc",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

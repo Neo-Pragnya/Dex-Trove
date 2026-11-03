@@ -145,7 +145,7 @@ const steps = [
         <div aria-hidden={copy === 1 ? "true" : undefined}>
           {learned.map((s) => (
             <a class="chip" href={`${base}catalog/?source=${s.id}`} tabindex={copy === 1 ? -1 : undefined}>
-              {s.title} · {total(s.lock as Lock)} · <code>{shortCommit((s.lock as Lock)?.commit)}</code>
+              {s.title} · {total(s.lock as unknown as Lock)} · <code>{shortCommit((s.lock as unknown as Lock)?.commit)}</code>
             </a>
           ))}
           {trove.candidates.slice(0, 8).map((c) => (

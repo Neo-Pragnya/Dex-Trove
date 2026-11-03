@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/java-architect",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "java-architect",
+  "title": "java-architect",
+  "description": "Use this agent when designing enterprise Java architectures, migrating Spring Boot applications, or establishing microservices patterns for scalable cloud-native systems.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "java-architect.md",
+  "dir": "agents/voltagent.java-architect",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/java-architect.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/java-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "java-architect.md"
+  ],
+  "entry_hash": "8518572de76b42c531db416553a16877c21a7e964ec390c69357440f579e0436",
+  "content_hash": "2262277118e563ebb44b894b4af614d296456f441151e75c66ecd2a6a438107a",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

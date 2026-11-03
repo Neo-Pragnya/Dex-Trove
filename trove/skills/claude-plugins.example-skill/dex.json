@@ -1,0 +1,40 @@
+{
+  "id": "claude-plugins/example-skill",
+  "kind": "skill",
+  "namespace": "claude-plugins",
+  "name": "example-skill",
+  "title": "Example Skill",
+  "description": "This skill should be used when the user asks to \"demonstrate skills\", \"show skill format\", \"create a skill template\", or discusses skill development patterns. Provides a reference template for creating Claude Code plugin skills.",
+  "tags": [
+    "claude-plugins",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/claude-plugins.example-skill",
+  "source": {
+    "id": "claude-plugins",
+    "title": "Official Claude Code plugins",
+    "repo": "https://github.com/anthropics/claude-plugins-official",
+    "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+    "path": "plugins/example-plugin/skills/example-skill",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/plugins/example-plugin/skills/example-skill",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "plugins/example-plugin/LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "87d90442621ace039aa3379805f99c3f95bf500e9f7b96f9e7876ac2dcf804f5",
+  "content_hash": "2582a785ddbd1956f4ce719a3b732dd1155b6a4eb18e20ac542483aa8413309d",
+  "learned_at": "2026-11-03T06:21:39+00:00"
+}

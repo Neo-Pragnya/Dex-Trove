@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/c4-container",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "c4-container",
+  "title": "c4-container",
+  "description": "Expert C4 Container-level documentation specialist. Synthesizes Component-level documentation into Container-level architecture, mapping components to deployment units, documenting container interfaces as APIs, and creating container diagrams. Use when synthesizing components into deployment containers and documenting system deployment architecture.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "c4-container.md",
+  "dir": "agents/wshobson.c4-container",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/c4-architecture/agents/c4-container.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/c4-architecture/agents/c4-container.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "c4-container.md"
+  ],
+  "entry_hash": "1397485b1767f9fd83b83f3071b3c7d4576304c0c7d8d2439f8e786674bc05c9",
+  "content_hash": "eaae099aa054cdc524c0f17cfb645ef5488fa1151fcbbfaf737d1c0d720e990a",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

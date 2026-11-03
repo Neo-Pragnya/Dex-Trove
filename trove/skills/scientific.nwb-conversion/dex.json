@@ -1,0 +1,45 @@
+{
+  "id": "scientific/nwb-conversion",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "nwb-conversion",
+  "title": "Validated NWB conversion",
+  "description": "Converts neuroscience acquisition data to Neurodata Without Borders files with NeuroConv and PyNWB, preserves metadata and timebases, checks evidence-based clock alignment, and produces schema validation, NWB Inspector findings and round-trip checks. Use for NWB conversion and synchronization of planar single-channel two-photon TIFF imaging plus timestamped behavioral position CSV; this skill does not perform spike sorting or claim tested support for arbitrary acquisition formats.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.nwb-conversion",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/nwb-conversion",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/nwb-conversion",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/session-template.json",
+    "references/input-contract.md",
+    "references/upstream-review.md",
+    "scripts/convert_session.py"
+  ],
+  "entry_hash": "e2381f17db5e2b20354186a8a3c85b466afcf534cc1ae6181e87654ba5ed5fc6",
+  "content_hash": "fddb0b640795f660f865ba716eed114ac123de8525971a585b32077260b9c375",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

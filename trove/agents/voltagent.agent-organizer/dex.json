@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/agent-organizer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "agent-organizer",
+  "title": "agent-organizer",
+  "description": "Use when you need to break a complex task into subtasks, match each to the capabilities of available subagents, and write a concrete team/workflow plan as Markdown.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "agent-organizer.md",
+  "dir": "agents/voltagent.agent-organizer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/agent-organizer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/agent-organizer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "agent-organizer.md"
+  ],
+  "entry_hash": "f687c49cd6f48867a4726cf3ebfd28b4a5c73bed439c681ee6bfa1d37036bd68",
+  "content_hash": "4d5ff1bd8fe2bed4a1fc97ad2bf899a8f607dd160565fb8837393275f48ad719",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

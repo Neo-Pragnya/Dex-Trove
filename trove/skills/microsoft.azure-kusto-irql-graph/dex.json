@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/azure-kusto-irql-graph",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-kusto-irql-graph",
+  "title": "IRQL Graph Functions -- Query Results to Visualization",
+  "description": "Apply IRQL graph functions to KQL or IRQL query results for Kusto Explorer visualization. Generates Lift_To_Graph mappings and composes Graph_Render_View, Graph_Fold_By_Property, Extract_Node_*, Enrich_Node_*, and Enrich_Graph_* calls. Accepts a supplied query or limited basic natural-language source request; it is not a general natural-language-to-KQL/IRQL skill. WHEN: Lift_To_Graph, Graph_Render_View, Graph_Fold_By_Property, IRQL graph enrichment, graph mapping for existing query results, icon-decorated graph, fold graph nodes. Use azure-kusto-graph for native make-graph analysis, graph-match, shortest paths, components, or persistent graphs.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-kusto-irql-graph",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql-graph",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql-graph",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/DEPLOY_IRQL_FUNCTIONS.md",
+    "references/EXAMPLES.md",
+    "references/KUSTO_EXPLORER_LAUNCH.md"
+  ],
+  "entry_hash": "0de50b51c08581507b497152b4fc7ac02d2c72a12dfc33c6a9782b3131abcd66",
+  "content_hash": "f79d822f1bca02223f740ef1fa0f79292be687434abc650e9c70907b38daf5dd",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

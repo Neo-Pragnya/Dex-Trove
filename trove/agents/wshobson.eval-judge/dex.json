@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/eval-judge",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "eval-judge",
+  "title": "eval-judge",
+  "description": "LLM judge for plugin quality assessment. Scores skills on triggering accuracy, orchestration fitness, output quality, and scope calibration using anchored rubrics.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "eval-judge.md",
+  "dir": "agents/wshobson.eval-judge",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/plugin-eval/agents/eval-judge.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/plugin-eval/agents/eval-judge.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "eval-judge.md"
+  ],
+  "entry_hash": "44c155e2fe50a1d2946797650839d6d9c4eb83963b9e90af4552134d1c8b6816",
+  "content_hash": "c1020276c897dc5fd394d3810935a2f2df881bb16a2cbfd2a870d8dcb250391d",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

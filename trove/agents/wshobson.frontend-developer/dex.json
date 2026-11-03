@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/frontend-developer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "frontend-developer",
+  "title": "application-performance-frontend-developer",
+  "description": "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture. Optimizes performance and ensures accessibility. Use PROACTIVELY when creating UI components or fixing frontend issues.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "frontend-developer.md",
+  "dir": "agents/wshobson.frontend-developer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/application-performance/agents/frontend-developer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/application-performance/agents/frontend-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "frontend-developer.md"
+  ],
+  "entry_hash": "5524ce4f03e9ddc6fc09cb2622cf353e3c67b7f432d2057c3bc126b3408214a1",
+  "content_hash": "e78ac9ed75c05755b676b3db8e1beeb53640b76e691556e28c0b7cf3b7baf5ce",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "scientific/arboreto",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "arboreto",
+  "title": "Arboreto",
+  "description": "Infers candidate gene regulatory networks from bulk or single-cell expression data using AertsLab Arboreto GRNBoost2 and GENIE3. Use for transcription factor-target association ranking, compatible Dask execution, sparse expression inputs, and network stability checks.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.arboreto",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/arboreto",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/arboreto",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/algorithms.md",
+    "references/basic_inference.md",
+    "references/distributed_computing.md",
+    "scripts/basic_grn_inference.py"
+  ],
+  "entry_hash": "38ff6f24b8fd4a86e2a57ae7bb7669fe4ce401f7375efcc82a6c004f4c51d344",
+  "content_hash": "413868d2a75ab88a9d21f5a0cbeb2eba417d5e3117e0dbeed7e315f07e97d7ae",
+  "learned_at": "2026-11-03T06:22:41+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "scientific/optimize-for-gpu",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "optimize-for-gpu",
+  "title": "GPU Optimization for Python with NVIDIA",
+  "description": "GPU-accelerates scientific Python on NVIDIA hardware and verifies that the result is correct and faster. Use for CUDA/GPU optimization; CPU-bound NumPy, SciPy, pandas, scikit-learn, NetworkX, scikit-image, vector-search, image-processing, graph, simulation, or file-I/O workloads; CuPy, cuDF, cuML, cuGraph, cuVS, cuCIM, KvikIO, Warp, Newton, Numba-CUDA, or RAFT questions; and profiling, memory-transfer, kernel, or multi-GPU bottlenecks. Also use when large data-parallel Python code is slow and GPU acceleration is a plausible option, even if the user does not name CUDA.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.optimize-for-gpu",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/optimize-for-gpu",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/optimize-for-gpu",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/code_transformation_patterns.md",
+    "references/cucim.md",
+    "references/cudf.md",
+    "references/cugraph.md",
+    "references/cuml.md",
+    "references/cupy.md",
+    "references/cuspatial.md",
+    "references/cuvs.md",
+    "references/cuxfilter.md",
+    "references/decision_framework.md",
+    "references/installation.md",
+    "references/kvikio.md",
+    "references/numba.md",
+    "references/raft.md",
+    "references/warp.md"
+  ],
+  "entry_hash": "e31bdb10b8ea66e5ec438583755999b66b9afab90f2583e1d500b8457ef28054",
+  "content_hash": "4b522ffde7595d68a47d175e5d16a5a5cfc48edb7a41298eefcc8f3074c518dc",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

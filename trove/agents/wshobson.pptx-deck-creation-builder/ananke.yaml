@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: pptx-deck-creation-builder
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:pptx-deck-creation-builder
+summary: Use when creating, repairing, or auditing a production-ready editable PowerPoint (PPTX) deck from a brief,
+  source material, or reference deck.
+description: Use when creating, repairing, or auditing a production-ready editable PowerPoint (PPTX) deck from a
+  brief, source material, or reference deck.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: pptx-deck-creation-builder.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/pptx-deck-creation/agents/pptx-deck-creation-builder.md
+  repository: https://github.com/wshobson/agents

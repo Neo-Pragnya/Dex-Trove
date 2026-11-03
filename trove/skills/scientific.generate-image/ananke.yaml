@@ -1,0 +1,27 @@
+kind: skill
+namespace: scientific
+name: generate-image
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:generate-image
+summary: Generates or edits images with AI models through the OpenRouter Image API (Gemini, Seedream, Recraft, GPT-Image,
+  Riverflow).
+description: Generates or edits images with AI models through the OpenRouter Image API (Gemini, Seedream, Recraft,
+  GPT-Image, Riverflow). Use for photos, illustrations, artwork, concept art, visual assets, logos, and image editing
+  or compositing from reference images. For flowcharts, circuits, pathways, and other technical diagrams, use the
+  scientific-schematics skill instead.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/generate-image
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

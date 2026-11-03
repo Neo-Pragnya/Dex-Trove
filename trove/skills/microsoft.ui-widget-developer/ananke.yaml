@@ -1,0 +1,49 @@
+kind: skill
+namespace: microsoft
+name: ui-widget-developer
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:ui-widget-developer
+summary: Build MCP servers for Copilot Chat using the OpenAI Apps SDK or MCP Apps SDK widget rendering support (any
+  language).
+description: 'Build MCP servers for Copilot Chat using the OpenAI Apps SDK or MCP Apps SDK widget rendering support
+  (any language). Use this skill when:
+
+  - Creating MCP servers that integrate with M365 Copilot declarative agents
+
+  - Building rich interactive widgets (React + Fluent UI) that render in Copilot Chat
+
+  - Implementing tools that return structuredContent for widget rendering
+
+  - Adapting an existing MCP server to support Copilot widget rendering
+
+  - Setting up devtunnels for localhost MCP server exposure
+
+  - Configuring mcpPlugin.json manifests with RemoteMCPServer runtime
+
+  Do NOT use this skill for general agent development (scaffolding, manifests, deployment) — use declarative-agent-developer
+  instead. This skill is ONLY for MCP server + widget development.
+
+  Triggers: "MCP server for Copilot", "OpenAI Apps SDK", "Copilot widget", "structuredContent", "MCP plugin", "devtunnels
+  MCP", "OAI app", "widget rendering", "UI widget"'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/microsoft-365-agents-toolkit/skills/ui-widget-developer
+  repository: https://github.com/microsoft/skills

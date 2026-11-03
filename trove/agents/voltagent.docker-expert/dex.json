@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/docker-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "docker-expert",
+  "title": "docker-expert",
+  "description": "Use this agent when you need to build, optimize, or secure Docker container images and orchestration for production environments.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "docker-expert.md",
+  "dir": "agents/voltagent.docker-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/docker-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/docker-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "docker-expert.md"
+  ],
+  "entry_hash": "42aacc5f7e9cce3aa8950d25c55ebae7261262785681ff61f7ef37f7e39499e2",
+  "content_hash": "721a421a24045818bdcb07d0f8ee293445f993781ae3376be6ba170d93958089",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

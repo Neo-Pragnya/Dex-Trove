@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/rails-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "rails-expert",
+  "title": "rails-expert",
+  "description": "Use when building or modernizing Rails applications requiring API development, Hotwire reactivity, real-time features, background job processing, deployment automation, or Rails-idiomatic patterns for maximum productivity. Version-aware: adapts to Rails 7.x and 8.x projects.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "rails-expert.md",
+  "dir": "agents/voltagent.rails-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/rails-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/rails-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "rails-expert.md"
+  ],
+  "entry_hash": "71f849ecdf12d0f91472acf24d1c009109a3323a13cb1cd7bac64ad3fb8fc971",
+  "content_hash": "93522b6c1470ff4986b975ff50dbf577f42df20713678ebff1ccf416299d0a88",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

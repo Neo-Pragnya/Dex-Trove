@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: azure-eventgrid-dotnet
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-eventgrid-dotnet
+summary: Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid.
+  Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents.
+description: 'Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event
+  Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEvents. Triggers: "Event
+  Grid", "EventGridPublisherClient", "CloudEvent", "EventGridEvent", "publish events .NET", "event-driven", "pub/sub".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-eventgrid-dotnet
+  repository: https://github.com/microsoft/skills

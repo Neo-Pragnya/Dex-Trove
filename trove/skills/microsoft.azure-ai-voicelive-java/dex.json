@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-ai-voicelive-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-voicelive-java",
+  "title": "Azure AI VoiceLive SDK for Java",
+  "description": "Azure AI VoiceLive SDK for Java. Real-time bidirectional voice conversations with AI assistants using WebSocket.\nTriggers: \"VoiceLiveClient java\", \"voice assistant java\", \"real-time voice java\", \"audio streaming java\", \"voice activity detection java\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-voicelive-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-ai-voicelive-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-ai-voicelive-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "78ae78efd24e6742b80d83f2578f1b50560c017a51a00fa21a401d9310db9538",
+  "content_hash": "45fcf62fc6955b2775ccf354f53b6a62489ccc1ed589e2544c439b7ada7d931b",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-appconfiguration-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-appconfiguration-ts",
+  "title": "Azure App Configuration SDK for TypeScript",
+  "description": "Build applications using Azure App Configuration SDK for JavaScript (@azure/app-configuration). Use when working with configuration settings, feature flags, Key Vault references, dynamic refresh, or centralized configuration management.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-appconfiguration-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-appconfiguration-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-appconfiguration-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "9e3d2e976b1ed5ed25786a9a1df704a448408c7c0eea0a1f1c277bbf89d439e3",
+  "content_hash": "d7f2345b27215416f10c47e23ab7c75fc5bb9188410c8bb2b263920576fcbdbd",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

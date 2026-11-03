@@ -1,0 +1,56 @@
+{
+  "id": "scientific/simpy",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "simpy",
+  "title": "SimPy",
+  "description": "Builds, inspects, tests, and analyzes bounded process-based discrete-event simulations with SimPy. Use for event scheduling, resource queues, interrupts, monitoring, independent replications, warm-up, and reproducible output analysis.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.simpy",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/simpy",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/simpy",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/cli-guide.md",
+    "references/events.md",
+    "references/monitoring.md",
+    "references/process-interaction.md",
+    "references/real-time.md",
+    "references/resources.md",
+    "references/simulation-methodology.md",
+    "references/sources.md",
+    "scripts/_common.py",
+    "scripts/basic_simulation_template.py",
+    "scripts/bounded_queue_scenario.py",
+    "scripts/event_trace_summary.py",
+    "scripts/replication_runner.py",
+    "scripts/resource_monitor.py",
+    "scripts/validate_simulation_config.py"
+  ],
+  "entry_hash": "027244a3587e70c3e2f1aed4bfb5d737cb24fdc6b2ad276302ed81c02e38a7fc",
+  "content_hash": "458aaeb5a7e6257edc3d4b9b6afc7725c7f061df91c3aacd26f95e492492ead3",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

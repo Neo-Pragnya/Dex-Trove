@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-storage-file-share-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage-file-share-py",
+  "title": "Azure Storage File Share SDK for Python",
+  "description": "Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.\nTriggers: \"azure-storage-file-share\", \"ShareServiceClient\", \"ShareClient\", \"file share\", \"SMB\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage-file-share-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-storage-file-share-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-storage-file-share-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "428aed569ce9865e7629c565eff62cedbcdb1155533603ed9aa75f888d8c8730",
+  "content_hash": "779a5f83086a5dd15f7813c923abf9f2be5fd105024b9bd56509c247bf4e4541",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

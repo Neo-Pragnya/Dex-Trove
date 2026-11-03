@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: mermaid-expert
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:mermaid-expert
+summary: Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram
+  types and styling.
+description: Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all
+  diagram types and styling. Use PROACTIVELY for visual documentation, system diagrams, or process flows.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: mermaid-expert.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/documentation-generation/agents/mermaid-expert.md
+  repository: https://github.com/wshobson/agents

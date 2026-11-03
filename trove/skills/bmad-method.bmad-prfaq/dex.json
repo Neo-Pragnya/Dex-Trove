@@ -1,0 +1,50 @@
+{
+  "id": "bmad-method/bmad-prfaq",
+  "kind": "skill",
+  "namespace": "bmad-method",
+  "name": "bmad-prfaq",
+  "title": "Working Backwards: The PRFAQ Challenge",
+  "description": "Test a product concept with Amazon's Working Backwards method: write the press release for the finished product first, then answer hard customer and stakeholder questions, ending in a complete PRFAQ document. Use when the user requests to 'create a PRFAQ', 'work backwards', or 'run the PRFAQ challenge'",
+  "tags": [
+    "bmad-method",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/bmad-method.bmad-prfaq",
+  "source": {
+    "id": "bmad-method",
+    "title": "BMAD Method (unofficial copy)",
+    "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
+    "path": "skills/bmad-prfaq",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD/tree/022be9314e4facd16826104a9f8033e1c5ed4fdc/skills/bmad-prfaq",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 BMad Code, LLC",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "agents/artifact-analyzer.md",
+    "agents/web-researcher.md",
+    "assets/prfaq-template.md",
+    "bmad-manifest.json",
+    "bmod.toml",
+    "customize.toml",
+    "references/customer-faq.md",
+    "references/internal-faq.md",
+    "references/press-release.md",
+    "references/verdict.md"
+  ],
+  "entry_hash": "534bd5ee734693e4167b39e36eec56074a839ef53b79db3110c6a7adfb61264c",
+  "content_hash": "d88c4b138a0a4f50651d9215f3124f0e8195c1a92e8638cdca596d72cfa654ee",
+  "learned_at": "2026-11-03T06:16:30+00:00"
+}

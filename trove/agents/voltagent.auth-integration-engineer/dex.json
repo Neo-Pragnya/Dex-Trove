@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/auth-integration-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "auth-integration-engineer",
+  "title": "auth-integration-engineer",
+  "description": "Use this agent when implementing authentication and authorization — OAuth 2.1/OIDC flows, SAML enterprise SSO, session and token management, multi-tenant permission models, or MFA and passwordless login.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "auth-integration-engineer.md",
+  "dir": "agents/voltagent.auth-integration-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/auth-integration-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/auth-integration-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "auth-integration-engineer.md"
+  ],
+  "entry_hash": "b43da7da54251aa593a78e699365832d0021411d279783bf8dd38bc94ed502b4",
+  "content_hash": "5e8069611d95f85129c8e596b59b301284460b05ff719d26396b91537b2fa121",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

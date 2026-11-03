@@ -1,0 +1,47 @@
+{
+  "id": "huggingface/transformers-js",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "transformers-js",
+  "title": "Transformers.js - Machine Learning for JavaScript",
+  "description": "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and multimodal tasks. Works in browsers and server-side runtimes (Node.js, Bun, Deno) with WebGPU/WASM using pre-trained models from Hugging Face Hub.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.transformers-js",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/transformers-js",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/transformers-js",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/CACHE.md",
+    "references/CONFIGURATION.md",
+    "references/EXAMPLES.md",
+    "references/MODEL_ARCHITECTURES.md",
+    "references/MODEL_REGISTRY.md",
+    "references/PIPELINE_OPTIONS.md",
+    "references/TEXT_GENERATION.md"
+  ],
+  "entry_hash": "241ef15a39acbdf1d610acab683c0f76500d7c021c9c0303e6bb2c751ac3d395",
+  "content_hash": "c3f7aaf0d6dd8aa0474493d70bdda71c63be1107c229119c7d6202a395fb9c7a",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

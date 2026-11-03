@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: entra-app-registration
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:entra-app-registration
+summary: Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration.
+description: 'Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR:
+  create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate
+  service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication. DO NOT USE FOR: Key
+  Vault secrets (use azure-keyvault-expiration-audit), general Azure resource security guidance.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-skills/skills/entra-app-registration
+  repository: https://github.com/microsoft/skills

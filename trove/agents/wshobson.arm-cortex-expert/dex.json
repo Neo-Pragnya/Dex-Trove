@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/arm-cortex-expert",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "arm-cortex-expert",
+  "title": "arm-cortex-expert",
+  "description": "Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). Decades of experience writing reliable, optimized, and maintainable embedded code with deep expertise in memory barriers, DMA/cache coherency, interrupt-driven I/O, and peripheral drivers.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "arm-cortex-expert.md",
+  "dir": "agents/wshobson.arm-cortex-expert",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/arm-cortex-microcontrollers/agents/arm-cortex-expert.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/arm-cortex-microcontrollers/agents/arm-cortex-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "arm-cortex-expert.md"
+  ],
+  "entry_hash": "cbc0df7ce3f46a0b380416f42a23a2302b0ef915a6d96e059030d70d9720de0e",
+  "content_hash": "258028d100fe01fb6f641dcdf58699db0ee4c2c3c7ebef2d983aa562d884445c",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

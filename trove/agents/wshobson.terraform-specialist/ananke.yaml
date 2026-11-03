@@ -1,0 +1,35 @@
+kind: agent
+namespace: wshobson
+name: terraform-specialist
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:terraform-specialist
+summary: Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise
+  infrastructure patterns.
+description: Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise
+  infrastructure patterns. Handles complex module design, multi-cloud deployments, GitOps workflows, policy as code,
+  and CI/CD integration. Covers migration strategies, security best practices, and modern IaC ecosystems. Use PROACTIVELY
+  for advanced IaC, state management, or infrastructure automation.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: terraform-specialist.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cicd-automation/agents/terraform-specialist.md
+  repository: https://github.com/wshobson/agents

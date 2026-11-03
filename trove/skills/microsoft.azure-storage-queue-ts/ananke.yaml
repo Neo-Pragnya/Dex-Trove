@@ -1,0 +1,33 @@
+kind: skill
+namespace: microsoft
+name: azure-storage-queue-ts
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-storage-queue-ts
+summary: Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations. Use
+  for sending, receiving, peeking, and deleting messages in queues.
+description: 'Azure Queue Storage JavaScript/TypeScript SDK (@azure/storage-queue) for message queue operations.
+  Use for sending, receiving, peeking, and deleting messages in queues. Supports visibility timeout, message encoding,
+  and batch operations. Triggers: "queue storage", "@azure/storage-queue", "QueueServiceClient", "QueueClient",
+  "send message", "receive message", "dequeue", "visibility timeout".'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-storage-queue-ts
+  repository: https://github.com/microsoft/skills

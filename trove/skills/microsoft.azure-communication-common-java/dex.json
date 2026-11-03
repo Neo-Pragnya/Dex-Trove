@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-communication-common-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-communication-common-java",
+  "title": "Azure Communication Common (Java)",
+  "description": "Azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-communication-common-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-communication-common-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-communication-common-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "aa84ee9ea16a5663b2971f4f3c66b6fcaa901d067d9d3ffdabe24dc4b22593db",
+  "content_hash": "a5150649e9ce37c7096401ff4403eac937c4ff3096e379bf69334858fb6b096f",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

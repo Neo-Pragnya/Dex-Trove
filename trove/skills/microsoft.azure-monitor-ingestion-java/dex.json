@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-monitor-ingestion-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-monitor-ingestion-java",
+  "title": "Azure Monitor Ingestion SDK for Java",
+  "description": "Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).\nTriggers: \"LogsIngestionClient java\", \"azure monitor ingestion java\", \"custom logs java\", \"DCR java\", \"data collection rule java\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-monitor-ingestion-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-ingestion-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-monitor-ingestion-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "edc52c6adc3d7503cfce4bee6fca0357f98f003b3555b4b2867daace43210f5f",
+  "content_hash": "e9d417e25b90d91534105150102f4823d9820dc2fcc85beaade5cb265e25c72d",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

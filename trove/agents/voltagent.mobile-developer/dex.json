@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/mobile-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "mobile-developer",
+  "title": "mobile-developer",
+  "description": "Use this agent when building cross-platform mobile applications requiring native performance optimization, platform-specific features, and offline-first architecture. Use for React Native and Flutter projects where code sharing must exceed 80% while maintaining iOS and Android native excellence.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "mobile-developer.md",
+  "dir": "agents/voltagent.mobile-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/mobile-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/mobile-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "mobile-developer.md"
+  ],
+  "entry_hash": "28b4192bb5f783a976952addaf0ac818f93df88b75d497bcd2597d7065c754ff",
+  "content_hash": "0d3119bb230215bccd34ef1c7e58e00282062a142b48a37da227618e9c75a828",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

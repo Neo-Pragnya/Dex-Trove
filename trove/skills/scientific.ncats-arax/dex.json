@@ -1,0 +1,44 @@
+{
+  "id": "scientific/ncats-arax",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "ncats-arax",
+  "title": "NCATS ARAX",
+  "description": "Queries the NCATS Translator ARAX production API for bounded, typed, provenance-rich one-hop and endpoint-pinned two-hop biomedical knowledge-graph relationships. Use for Biolink-constrained RTX-KG2 lookup, explicit selected-provider ARAX federation, separate entity normalization, qualifier-aware graph traversal, and inspection of TRAPI edge bindings, publications, and knowledge-source provenance. Do not use for inference, ranking, open-ended pathfinding, clinical guidance, or sensitive queries.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.ncats-arax",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/ncats-arax",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/ncats-arax",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/output-schema.md",
+    "references/query-contract.md",
+    "scripts/arax_client.py"
+  ],
+  "entry_hash": "f15f9f9a149a942ab1eaed0115879afa399249e261d7118a6d19e3da834ba74c",
+  "content_hash": "a1e614a391218d74dabb10aab0e985b28a804a2391f9b5c2a4593eb465446e56",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

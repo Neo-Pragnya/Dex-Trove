@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-ai-document-intelligence-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-ai-document-intelligence-ts",
+  "title": "Azure Document Intelligence REST SDK for TypeScript",
+  "description": "Extract text, tables, and structured data from documents using Azure Document Intelligence (@azure-rest/ai-document-intelligence). Use when processing invoices, receipts, IDs, forms, or building custom document models.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-ai-document-intelligence-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-document-intelligence-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-ai-document-intelligence-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "170b437bc1a60e84a9258f1f1a0d452ab4faf043c46cc97286bb5ca3939509e7",
+  "content_hash": "618f5f60e9093ba563067e24e5b172fb7688da1120f0e51ca7a1b9986d52de76",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

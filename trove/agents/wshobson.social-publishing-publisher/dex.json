@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/social-publishing-publisher",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "social-publishing-publisher",
+  "title": "social-publishing-publisher",
+  "description": "Agent-first social media publishing specialist. Use this agent to schedule and publish posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via the SocialClaw API. Invoke for multi-platform campaigns, content scheduling, media upload, and post analytics. Requires a SocialClaw workspace API key (SOCIALCLAW_API_KEY).",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "social-publishing-publisher.md",
+  "dir": "agents/wshobson.social-publishing-publisher",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/social-publishing/agents/social-publishing-publisher.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/social-publishing/agents/social-publishing-publisher.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "social-publishing-publisher.md"
+  ],
+  "entry_hash": "2a141bd9fb3299f0e48b8e69aaa14aeb5f8cf0154dfd560e6cd2b26d1bce4731",
+  "content_hash": "fa0ed553655a5491da77ee44350830a290fd101d4a02fd17d1386c8681c2fb11",
+  "learned_at": "2026-11-03T06:20:13+00:00"
+}

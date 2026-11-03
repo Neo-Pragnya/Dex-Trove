@@ -1,0 +1,47 @@
+{
+  "id": "huggingface/huggingface-lora-space-builder",
+  "kind": "skill",
+  "namespace": "huggingface",
+  "name": "huggingface-lora-space-builder",
+  "title": "Gradio LoRA Space Builder",
+  "description": "Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. Use when someone asks to create, generate, ship, or publish a Space, demo, Gradio app, or playground for a LoRA — including LoRAs for Qwen-Image, Qwen-Image-Edit, LTX-Video, Wan, FLUX, SDXL, or other diffusion base models. Also triggers when someone describes a LoRA they trained or hosts on the Hub and wants to share it. Covers picking the right base pipeline and `diffusers` inference recipe, designing a UI tailored to the LoRA's task and inputs (Union/multi-task control, edit, video, image, etc.), respecting model-card recommendations (trigger words, steps, guidance, LoRA scale, example inputs), and shipping to ZeroGPU hardware as a private Space by default.",
+  "tags": [
+    "huggingface",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/huggingface.huggingface-lora-space-builder",
+  "source": {
+    "id": "huggingface",
+    "title": "Hugging Face Skills",
+    "repo": "https://github.com/huggingface/skills",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "path": "skills/huggingface-lora-space-builder",
+    "url": "https://github.com/huggingface/skills/tree/25910b3d0ba31a2ba102f901cdc9e008c278a69c/skills/huggingface-lora-space-builder",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "LICENSE: Apache-2.0 text",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/adapting-to-the-lora.md",
+    "references/base-models/krea-2.md",
+    "references/base-models/ltx.md",
+    "references/base-models/qwen-image.md",
+    "references/creative-mode.md",
+    "references/tasks.md",
+    "references/zerogpu-and-publishing.md"
+  ],
+  "entry_hash": "7192d4a44172609eb073334e0410aff1d3b9134f82b94f1329435ca7fcfa0ad2",
+  "content_hash": "2438876be0faa7a2566d5763f89d7c282d9552d02b079ea016245fa8884ab583",
+  "learned_at": "2026-11-03T06:18:57+00:00"
+}

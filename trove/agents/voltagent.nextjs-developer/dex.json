@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/nextjs-developer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "nextjs-developer",
+  "title": "nextjs-developer",
+  "description": "Use this agent when building production Next.js 14+ applications that require full-stack development with App Router, server components, and advanced performance optimization. Invoke when you need to architect or implement complete Next.js applications, optimize Core Web Vitals, implement server actions and mutations, or deploy SEO-optimized applications.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "nextjs-developer.md",
+  "dir": "agents/voltagent.nextjs-developer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/nextjs-developer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/nextjs-developer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "nextjs-developer.md"
+  ],
+  "entry_hash": "435a9c43ef696ed9f268e7ba0a7a20a422697e8227c95af9b4acce37a8c6e540",
+  "content_hash": "41e9797b97a0d9202662bd32cdbb54a837b687d4b010e115b03b650bce848bec",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

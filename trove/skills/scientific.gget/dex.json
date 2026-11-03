@@ -1,0 +1,49 @@
+{
+  "id": "scientific/gget",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "gget",
+  "title": "gget",
+  "description": "Queries 20+ bioinformatics resources through CLI/Python. Supports quick lookups of gene info, BLAST/BLAT, viral sequence downloads, PDB/mmCIF structures, G2P residue annotations, enrichment analysis, OpenTargets, COSMIC, CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.gget",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/gget",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/gget",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/common_workflows.md",
+    "references/database_info.md",
+    "references/module_catalog.md",
+    "references/module_reference.md",
+    "references/workflows.md",
+    "scripts/batch_sequence_analysis.py",
+    "scripts/enrichment_pipeline.py",
+    "scripts/gene_analysis.py"
+  ],
+  "entry_hash": "55027a94be8dde013fd17e563ba20ccba92b7131c29c21e9c83e54fbce2b348a",
+  "content_hash": "b7fcfd686419a75b8a153d45629ce5f1ec63c65a50c53f1ca92990f53b1404c4",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

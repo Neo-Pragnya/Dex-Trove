@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/memory-curator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "memory-curator",
+  "title": "memory-curator",
+  "description": "Use to maintain an agent's long-term memory across sessions — deciding what is worth saving, recalling relevant context before acting, recording corrections without erasing history, and pruning what no longer helps.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "memory-curator.md",
+  "dir": "agents/voltagent.memory-curator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/memory-curator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/memory-curator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "memory-curator.md"
+  ],
+  "entry_hash": "5a69dd0be5a1cd7eb9c7705dd3e4775b6e5b9543c49c3f1d03ade6027d04e6e6",
+  "content_hash": "fa2c9e33f5b2bc5844be9514f9aa213e57e7f31f5a3c8b565662689dc7d14ab2",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

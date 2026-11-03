@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: content-marketer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:content-marketer
+summary: Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution,
+  SEO optimization, and data-driven performance marketing.
+description: Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution,
+  SEO optimization, and data-driven performance marketing. Masters modern content tools, social media automation,
+  and conversion optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive content marketing.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: content-marketer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/content-marketing/agents/content-marketer.md
+  repository: https://github.com/wshobson/agents

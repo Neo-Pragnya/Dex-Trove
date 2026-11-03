@@ -1,0 +1,47 @@
+{
+  "id": "scientific/seaborn",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "seaborn",
+  "title": "Seaborn Statistical Visualization",
+  "description": "Creates Seaborn statistical visualizations with pandas integration for distributions, relationships, categorical comparisons, regression displays, pair plots, and heatmaps. Supports function and objects interfaces with explicit aggregation, uncertainty, and missing-data handling. Best suited to static exploratory plots; plotly covers interactive figures and scientific-visualization covers publication styling.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.seaborn",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/seaborn",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/seaborn",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md",
+    "references/function_reference.md",
+    "references/grids_and_levels.md",
+    "references/objects_interface.md",
+    "references/palettes_and_theming.md",
+    "references/patterns_and_troubleshooting.md",
+    "references/plotting_functions.md"
+  ],
+  "entry_hash": "d1500d1e3d9db1db4c72cd272861378d1b98b0b5a5a98e8a3fca5a45bc0c6b2e",
+  "content_hash": "bac628df29983a8564a15f18e1a1684fcb0c1bda9bc0e3b0461b2052575f7a7e",
+  "learned_at": "2026-11-03T06:22:46+00:00"
+}

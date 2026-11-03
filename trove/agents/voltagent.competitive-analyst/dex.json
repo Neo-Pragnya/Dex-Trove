@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/competitive-analyst",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "competitive-analyst",
+  "title": "competitive-analyst",
+  "description": "Use when you need to analyze direct and indirect competitors, benchmark against market leaders, or develop strategies to strengthen competitive positioning and market advantage.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "competitive-analyst.md",
+  "dir": "agents/voltagent.competitive-analyst",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/10-research-analysis/competitive-analyst.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/10-research-analysis/competitive-analyst.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "competitive-analyst.md"
+  ],
+  "entry_hash": "6cd3f3d1b46b90578c694b479bba77ea2e3cdb0d78c2ab27cf1bb2ef0aa1c0c0",
+  "content_hash": "37bba8e98b5eaa63a9b31dc54008972a65e558063d51536efdb1297bc6bd1caf",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

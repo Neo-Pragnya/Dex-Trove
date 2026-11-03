@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/database-administrator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "database-administrator",
+  "title": "database-administrator",
+  "description": "Use this agent when optimizing database performance, implementing high-availability architectures, setting up disaster recovery, or managing database infrastructure for production systems.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "database-administrator.md",
+  "dir": "agents/voltagent.database-administrator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/database-administrator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/database-administrator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "database-administrator.md"
+  ],
+  "entry_hash": "7d120d1291d97e6c4d86ab28f2edb942c2471fc0e1bd3455db83151da8584617",
+  "content_hash": "6388f1dfdf83963191b597e6f29865cfac73f9969420175bf73d85615abf7b24",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

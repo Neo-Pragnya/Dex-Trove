@@ -1,0 +1,62 @@
+{
+  "id": "scientific/citation-management",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "citation-management",
+  "title": "Citation Management",
+  "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.citation-management",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/citation-management",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/citation-management",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT License'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/bibtex_template.bib",
+    "assets/citation_checklist.md",
+    "references/api_contracts.md",
+    "references/best_practices.md",
+    "references/bibtex_formatting.md",
+    "references/citation_validation.md",
+    "references/core_workflow.md",
+    "references/example_workflows.md",
+    "references/google_scholar_search.md",
+    "references/metadata_extraction.md",
+    "references/pubmed_search.md",
+    "references/script_reference.md",
+    "references/search_strategies.md",
+    "scripts/_common.py",
+    "scripts/doi_to_bibtex.py",
+    "scripts/extract_metadata.py",
+    "scripts/format_bibtex.py",
+    "scripts/search_google_scholar.py",
+    "scripts/search_openalex.py",
+    "scripts/search_pubmed.py",
+    "scripts/validate_citations.py"
+  ],
+  "entry_hash": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+  "content_hash": "f36c167fd01f1682646c7f451d9f9f8087a75f60e5efe0f3d2ddd73236e557b4",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/cloud-architect",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "cloud-architect",
+  "title": "cicd-automation-cloud-architect",
+  "description": "Expert cloud architect specializing in AWS/Azure/GCP/OCI multi-cloud infrastructure design, advanced IaC (Terraform/OpenTofu/CDK), FinOps cost optimization, and modern architectural patterns. Masters serverless, microservices, security, compliance, and disaster recovery. Use PROACTIVELY for cloud architecture, cost optimization, migration planning, or multi-cloud strategies.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "cloud-architect.md",
+  "dir": "agents/wshobson.cloud-architect",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/cicd-automation/agents/cloud-architect.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cicd-automation/agents/cloud-architect.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "cloud-architect.md"
+  ],
+  "entry_hash": "8cee2eda3da7f9b44e14fe5d4d7ada9d37fb17078792612b2a04743c68abee1d",
+  "content_hash": "528db43fd1538f1b602122095accbb6f621ca43ae7ab290c9e3cd31b3cff4546",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

@@ -1,0 +1,33 @@
+kind: agent
+namespace: wshobson
+name: seo-keyword-strategist
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:seo-keyword-strategist
+summary: Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI keywords
+  based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.
+description: Analyzes keyword usage in provided content, calculates density, suggests semantic variations and LSI
+  keywords based on the topic. Prevents over-optimization. Use PROACTIVELY for content optimization.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: seo-keyword-strategist.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/seo-technical-optimization/agents/seo-keyword-strategist.md
+  repository: https://github.com/wshobson/agents

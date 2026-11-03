@@ -1,0 +1,54 @@
+{
+  "id": "scientific/geniml",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "geniml",
+  "title": "Geniml",
+  "description": "Supports audited local Geniml genomic-interval workflows: validate BED and universe contracts, plan Region2Vec or scEmbed runs, inspect model/tokenizer compatibility, and assess consensus universes.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.geniml",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/geniml",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/geniml",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/bedspace.md",
+    "references/consensus_peaks.md",
+    "references/region2vec.md",
+    "references/scembed.md",
+    "references/utilities.md",
+    "scripts/__init__.py",
+    "scripts/_common.py",
+    "scripts/bed_validator.py",
+    "scripts/consensus_plan.py",
+    "scripts/corpus_auditor.py",
+    "scripts/embedding_plan.py",
+    "scripts/model_artifact_inspector.py",
+    "scripts/tokenizer_compatibility.py"
+  ],
+  "entry_hash": "7fb9ad57657b2fda7dbc3f234af5dab47915953c6678fbc066c9086c83eadd21",
+  "content_hash": "b43a171304c74b9050f059655b061b6265127a31608e977c5cd111ccc6c8140d",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/customer-support",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "customer-support",
+  "title": "customer-support",
+  "description": "Elite AI-powered customer support specialist mastering conversational AI, automated ticketing, sentiment analysis, and omnichannel support experiences. Integrates modern support tools, chatbot platforms, and CX optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive customer experience management.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "customer-support.md",
+  "dir": "agents/wshobson.customer-support",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/customer-sales-automation/agents/customer-support.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/customer-sales-automation/agents/customer-support.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "customer-support.md"
+  ],
+  "entry_hash": "45cab27897b9a5b3c30393fd769a46a018577c8e1f943401f7fb2efb44a85a37",
+  "content_hash": "501adce1860787d60c18eb67f4d933df1ff9f2d6f0585fc17c2a4fc281bcbb16",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

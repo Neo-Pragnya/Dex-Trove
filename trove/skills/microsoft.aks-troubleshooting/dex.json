@@ -1,0 +1,60 @@
+{
+  "id": "microsoft/aks-troubleshooting",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "aks-troubleshooting",
+  "title": "AKS Troubleshooting",
+  "description": "Debug live Azure Kubernetes Service (AKS) incidents with a read-only, evidence-first investigation. WHEN: pod crashes or Pending, CrashLoopBackOff, OOMKilled, ImagePullBackOff, node NotReady, DNS or ingress failure, connectivity timeout, network policy, SNAT exhaustion, node-pool scaling blocked by QuotaExceeded or InsufficientVCPUQuota, upgrade stuck, spot or zone disruption, a bare VMExtensionProvisioningError or AllocationFailed wrapper, an uncataloged capacity symptom, or 'investigate my AKS cluster'. DO NOT USE FOR: packet capture (use aks-network-capture); GPU or model-serving issues (use aks-gpu-inference); cluster creation or provisioning (use azure-kubernetes); cost (use cost-analysis from the optional azure-cost plugin); pod rightsizing (use azure-kubernetes); a fully qualified documented AKS signature with every required nested qualifier (use aks-known-issues); standalone failures on non-AKS Azure resources (use azure-diagnostics). Unqualified errors and open-ended incidents stay here only for AKS.",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.aks-troubleshooting",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/aks-skills/skills/aks-troubleshooting",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/aks-skills/skills/aks-troubleshooting",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright 2025 (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "general-diagnostics.md",
+    "load-balancer-and-ingress.md",
+    "network-policy.md",
+    "networking.md",
+    "node-issues.md",
+    "pod-failures.md",
+    "references/api-server-webhooks-tunnel.md",
+    "references/auto-upgrade-evidence.md",
+    "references/azure-mcp.md",
+    "references/azure-network-path.md",
+    "references/command-flows.md",
+    "references/inspektor-gadget.md",
+    "references/report-template.md",
+    "references/structured-input-modes.md",
+    "references/symptom-map.md",
+    "scripts/cluster-snapshot.sh",
+    "scripts/pod-deep-dive.sh",
+    "spot-and-zone-issues.md",
+    "upgrade-operations.md"
+  ],
+  "entry_hash": "fdf30800f2ce84a13ea3c126c8f6e00ed88123d400596a78c6a2e63f173e9dbc",
+  "content_hash": "48c1adf05af74500744c89664032bc2c51291ba6c0e2c93210043a5807b96b5d",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

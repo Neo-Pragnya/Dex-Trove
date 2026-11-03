@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/task-distributor",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "task-distributor",
+  "title": "task-distributor",
+  "description": "Use when you need to design and document a task-distribution strategy across multiple agents or workers — how to split work, order queues, respect priorities and deadlines, and balance load — written as a clear Markdown plan.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "task-distributor.md",
+  "dir": "agents/voltagent.task-distributor",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/task-distributor.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/task-distributor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "task-distributor.md"
+  ],
+  "entry_hash": "f3c3c4e8722240f93ccff841116ddaf9abbf50672fc1df58ae134d6d04e48f92",
+  "content_hash": "f8a2d386674f0c35be3bc4c023b104942c7155d1b78aa85d047de57b10ac42e3",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

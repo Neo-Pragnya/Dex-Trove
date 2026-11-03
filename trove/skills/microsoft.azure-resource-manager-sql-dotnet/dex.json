@@ -1,0 +1,43 @@
+{
+  "id": "microsoft/azure-resource-manager-sql-dotnet",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-resource-manager-sql-dotnet",
+  "title": "Azure.ResourceManager.Sql (.NET)",
+  "description": "Azure Resource Manager SDK for Azure SQL in .NET. Use for MANAGEMENT PLANE operations: creating/managing SQL servers, databases, elastic pools, firewall rules, and failover groups via Azure Resource Manager. NOT for data plane operations (executing queries) - use Microsoft.Data.SqlClient for that. Triggers: \"SQL server\", \"create SQL database\", \"manage SQL resources\", \"ARM SQL\", \"SqlServerResource\", \"provision Azure SQL\", \"elastic pool\", \"firewall rule\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-resource-manager-sql-dotnet",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-sql-dotnet",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-sql-dotnet",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/database-operations.md",
+    "references/elastic-pools.md",
+    "references/server-management.md"
+  ],
+  "entry_hash": "95f952b72a93affd41483f7a44f1bb4043942794fc1d3ed070cde247e2cf1854",
+  "content_hash": "2f0c735dc13e2ecf109d7d3d51ba6bf452028f3bc26170208669759efa343028",
+  "learned_at": "2026-11-03T06:19:28+00:00"
+}

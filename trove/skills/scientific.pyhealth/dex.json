@@ -1,0 +1,48 @@
+{
+  "id": "scientific/pyhealth",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pyhealth",
+  "title": "PyHealth",
+  "description": "Builds and validates PyHealth clinical machine-learning pipelines for EHR, signals, imaging, and medical codes. Use for PyHealth dataset loading, MIMIC-III/IV, eICU or OMOP prediction tasks, patient-level evaluation, mortality/readmission/length-of-stay modeling, medication recommendation, sleep staging, Trainer checkpoints, and ICD/ATC/NDC/RxNorm mapping.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pyhealth",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pyhealth",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pyhealth",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "assets/starter_pipeline.py",
+    "references/datasets.md",
+    "references/examples.md",
+    "references/installation.md",
+    "references/medcode.md",
+    "references/models.md",
+    "references/tasks.md"
+  ],
+  "entry_hash": "ec4de54618b71a4f8cfeb086d131c610127784a6839d842a67b3c1e87b66e161",
+  "content_hash": "08452b9811bc43f7fd1e6181706ca3e9cb2fa696cb32cfcb25f628013b9ee14a",
+  "learned_at": "2026-11-03T06:22:45+00:00"
+}

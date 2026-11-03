@@ -1,0 +1,32 @@
+kind: skill
+namespace: microsoft
+name: azure-kusto-irql
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:microsoft:azure-kusto-irql
+summary: Compose IRQL (Incident Response Query Language) queries for Kusto cybersecurity investigations.
+description: 'Compose IRQL (Incident Response Query Language) queries for Kusto cybersecurity investigations. Translates
+  natural language hunting questions into composable IRQL pipelines using Get_*, Extract_*, and Enrich_* functions.
+  WHEN: IRQL query, security hunt, threat hunting KQL, incident response query, compose hunting pipeline, failed
+  logins, phishing investigation, lateral movement, process execution, file creation events.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - microsoft
+  - skill
+  homepage: https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql
+  repository: https://github.com/microsoft/skills

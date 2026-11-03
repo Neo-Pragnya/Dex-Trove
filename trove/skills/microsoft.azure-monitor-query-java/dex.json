@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-monitor-query-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-monitor-query-java",
+  "title": "Azure Monitor Query SDK for Java",
+  "description": "Azure Monitor Query SDK for Java. Execute Kusto queries against Log Analytics workspaces and query metrics from Azure resources.\nTriggers: \"LogsQueryClient java\", \"MetricsQueryClient java\", \"kusto query java\", \"log analytics java\", \"azure monitor query java\".\nNote: This package is deprecated. Migrate to azure-monitor-query-logs and azure-monitor-query-metrics.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-monitor-query-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-query-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-monitor-query-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "924066d2c6056b8e528fc8b7654b91646c4c37717dd10a96e7545fe244733a06",
+  "content_hash": "a7989329fb8475e6b0701e02c1c7021a31bbde9a9eaceebb058d4ab4e9564442",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

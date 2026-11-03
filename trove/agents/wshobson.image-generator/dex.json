@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/image-generator",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "image-generator",
+  "title": "image-generator",
+  "description": "Image generation executor agent. Delegates here for ALL generate_image calls to keep the main conversation context clean. Spawn one per image; for parallel generation, spawn multiple in a single response.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "image-generator.md",
+  "dir": "agents/wshobson.image-generator",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/meigen-ai-design/agents/image-generator.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/meigen-ai-design/agents/image-generator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "image-generator.md"
+  ],
+  "entry_hash": "de3b7af50df7b6c609463b4ca197417354075eb84e9388e9035e755a7c3005bf",
+  "content_hash": "7bcbb24fba413118023af20f57fbcdf82aa493382b94613dee76e1bfa1ce8f6d",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

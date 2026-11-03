@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/license-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "license-engineer",
+  "title": "license-engineer",
+  "description": "Use this agent when architecting, implementing, or optimizing end-to-end legal licensing systems—from OSI standard selection and dependency compliance pipelines to proprietary deployment and risk monitoring.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "license-engineer.md",
+  "dir": "agents/voltagent.license-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/license-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/license-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "license-engineer.md"
+  ],
+  "entry_hash": "5afad0cfcfd9bf9f40f2bc7079c08c861930c755551ba7cd27e851e648fea7e3",
+  "content_hash": "655fc686d21a5945fb613241ce26fb99135c1fab13d3ba593025204611fa05b0",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

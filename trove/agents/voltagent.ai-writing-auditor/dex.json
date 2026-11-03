@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/ai-writing-auditor",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "ai-writing-auditor",
+  "title": "ai-writing-auditor",
+  "description": "Use this agent when you need to audit content for AI writing patterns and rewrite text to remove them.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "ai-writing-auditor.md",
+  "dir": "agents/voltagent.ai-writing-auditor",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/04-quality-security/ai-writing-auditor.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/04-quality-security/ai-writing-auditor.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ai-writing-auditor.md"
+  ],
+  "entry_hash": "93fae344f95e4149d949122a2158cd95820769553b4443edc9f52b364a9678b4",
+  "content_hash": "a6b0228132dc55e4e38298170b154db5933388ccd26d3c14457db27b74739fa8",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

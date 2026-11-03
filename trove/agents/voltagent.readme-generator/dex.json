@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/readme-generator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "readme-generator",
+  "title": "readme-generator",
+  "description": "Use this agent when you need a maintainer-ready README built from exact repository reality, with deep codebase scanning, zero hallucination, and optional git commit/push only when explicitly requested.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "readme-generator.md",
+  "dir": "agents/voltagent.readme-generator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/06-developer-experience/readme-generator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/06-developer-experience/readme-generator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "readme-generator.md"
+  ],
+  "entry_hash": "c8e92f3f2f8565c7bbacdb0e84a0936414ed0154040a4da34a226b216be999ae",
+  "content_hash": "1d3a49bc5a6ac3b89285035dadc97ecf22c9a48d0bb727a6b0754efbc797fef3",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

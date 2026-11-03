@@ -1,0 +1,47 @@
+{
+  "id": "scientific/nextflow",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "nextflow",
+  "title": "Nextflow",
+  "description": "Builds, runs, and debugs Nextflow DSL2 pipelines and nf-core workflows. Use for Nextflow, nf-core, .nf files, nextflow.config, processes/channels/operators, samplesheets, nf-test, modules/subworkflows, container and executor configuration, HPC/SLURM or cloud deployment, and failed or resumed pipeline runs.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.nextflow",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/nextflow",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/nextflow",
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'Apache-2.0'",
+    "notice": "",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/configuration.md",
+    "references/containers.md",
+    "references/developing.md",
+    "references/language.md",
+    "references/nf-core-tools.md",
+    "references/running-pipelines.md",
+    "references/testing.md"
+  ],
+  "entry_hash": "daa37795b3fe13ebf1c980acafb8401c4d1d7749dae013acc948f76c50c7379c",
+  "content_hash": "f14b35b7aa47ea332ab07295cc0db9c2fba6fcb07aabd8b694254970d553fa86",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

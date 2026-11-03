@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/codebase-orchestrator",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "codebase-orchestrator",
+  "title": "codebase-orchestrator",
+  "description": "Use this agent when you need repository-wide refactor governance with explicit approval loops, weighted risk prioritization, diff previews, and deterministic fallback strategies.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "codebase-orchestrator.md",
+  "dir": "agents/voltagent.codebase-orchestrator",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/09-meta-orchestration/codebase-orchestrator.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/09-meta-orchestration/codebase-orchestrator.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "codebase-orchestrator.md"
+  ],
+  "entry_hash": "a5729953f1eda64c4369cb8673efd99a4d89432815862d1b20e5ada2467587bc",
+  "content_hash": "60f95f9487cb0f0622e2a1e550d70b35076f98f3288c28fe360fac06677ed0fb",
+  "learned_at": "2026-11-03T06:20:55+00:00"
+}

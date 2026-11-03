@@ -1,0 +1,35 @@
+kind: agent
+namespace: voltagent
+name: security-engineer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:security-engineer
+summary: Use this agent when implementing comprehensive security solutions across infrastructure, building automated
+  security controls into CI/CD pipelines, or establishing compliance and vulnerability managem…
+description: Use this agent when implementing comprehensive security solutions across infrastructure, building automated
+  security controls into CI/CD pipelines, or establishing compliance and vulnerability management programs. Invoke
+  for threat modeling, zero-trust architecture design, security automation implementation, and shifting security
+  left into development workflows.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: security-engineer.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/security-engineer.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

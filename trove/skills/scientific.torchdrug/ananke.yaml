@@ -1,0 +1,32 @@
+kind: skill
+namespace: scientific
+name: torchdrug
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:torchdrug
+summary: Builds and troubleshoots TorchDrug 0.2.1 workflows for molecular graphs, property prediction, self-supervised
+  pretraining, molecule generation, retrosynthesis, protein representation learning, and kno…
+description: Builds and troubleshoots TorchDrug 0.2.1 workflows for molecular graphs, property prediction, self-supervised
+  pretraining, molecule generation, retrosynthesis, protein representation learning, and knowledge graph reasoning.
+  Use when code imports torchdrug or needs its datasets, models, tasks, or Engine.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/torchdrug
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

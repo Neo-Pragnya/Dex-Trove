@@ -6,7 +6,7 @@ from pathlib import Path
 import pytest
 import yaml
 
-from dex_trove import catalog, learn
+from dex_trove import catalog, learn, licenses
 from dex_trove.sources import Source
 
 
@@ -204,3 +204,20 @@ def test_same_name_in_two_kinds_keeps_each_version_history(
     again = {(i["kind"], i["name"]): i for i in catalog.load(trove)}
     for key in (("agent", "alpha"), ("skill", "alpha")):
         assert again[key]["learned_at"] == first[key]["learned_at"]  # unchanged content keeps its record
+
+
+def test_an_agent_named_like_a_licence_is_not_a_licence_file(tmp_path: Path) -> None:
+    (tmp_path / "license-engineer.md").write_text(
+        "---\nname: license-engineer\ndescription: Advises on licences.\n---\nBusiness Source License 1.1\n"
+    )
+    (tmp_path / "LICENSE.md").write_text("MIT License\n")
+    (tmp_path / "LICENSE-MIT").write_text("MIT License\n")
+    assert [p.name for p in licenses.license_files(tmp_path)] == ["LICENSE-MIT", "LICENSE.md"]
+
+
+def test_an_item_can_be_withheld_with_a_recorded_reason(trove: Path, source: Source, upstream: Path) -> None:
+    source.items = {"alpha": {"withhold": "placeholder credentials trip package scanners"}}
+    result = run(trove, source, upstream)
+    assert {e.name: e.reason for e in result.excluded}["alpha"] == "withheld"
+    assert "skill:alpha" not in by_id(trove)
+    assert "placeholder credentials" in (trove / "EXCLUDED.json").read_text()

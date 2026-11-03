@@ -1,0 +1,26 @@
+kind: skill
+namespace: scientific
+name: arboreto
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:scientific:arboreto
+summary: Infers candidate gene regulatory networks from bulk or single-cell expression data using AertsLab Arboreto
+  GRNBoost2 and GENIE3.
+description: Infers candidate gene regulatory networks from bulk or single-cell expression data using AertsLab Arboreto
+  GRNBoost2 and GENIE3. Use for transcription factor-target association ranking, compatible Dask execution, sparse
+  expression inputs, and network stability checks.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'LICENSE.md: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - scientific
+  - skill
+  homepage: https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/arboreto
+  repository: https://github.com/K-Dense-AI/claude-scientific-skills

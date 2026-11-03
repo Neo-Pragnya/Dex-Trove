@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/platform-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "platform-engineer",
+  "title": "platform-engineer",
+  "description": "Use when building or improving internal developer platforms (IDPs), designing self-service infrastructure, or optimizing developer workflows to reduce friction and accelerate delivery. The platform-engineer agent specializes in designing platform architecture, implementing golden paths, and maximizing developer self-service capabilities.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "platform-engineer.md",
+  "dir": "agents/voltagent.platform-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/platform-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/platform-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "platform-engineer.md"
+  ],
+  "entry_hash": "ce8b56c64fb71a65043aa24b9e07952a52887a4cadd9344566cd295898addf8b",
+  "content_hash": "f79b10b7a904d9c3ff67ca6723f1d723547395ac61cd34e26acb3f1441dacc78",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

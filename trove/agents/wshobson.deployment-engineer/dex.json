@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/deployment-engineer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "deployment-engineer",
+  "title": "cicd-automation-deployment-engineer",
+  "description": "Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation. Masters GitHub Actions, ArgoCD/Flux, progressive delivery, container security, and platform engineering. Handles zero-downtime deployments, security scanning, and developer experience optimization. Use PROACTIVELY for CI/CD design, GitOps implementation, or deployment automation.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "deployment-engineer.md",
+  "dir": "agents/wshobson.deployment-engineer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/cicd-automation/agents/deployment-engineer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/cicd-automation/agents/deployment-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "deployment-engineer.md"
+  ],
+  "entry_hash": "2ef346a4f85eec3e1ea48a61e96ef0b664ba9b862c7551b3a8a8f8936c31d172",
+  "content_hash": "33b5b2803e64b46ef736602640061741f8c914b0bf86d1cc5cf70626936b3050",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

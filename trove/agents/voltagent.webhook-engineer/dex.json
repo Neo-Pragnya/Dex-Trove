@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/webhook-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "webhook-engineer",
+  "title": "webhook-engineer",
+  "description": "Use this agent when consuming or delivering webhooks — signature verification, idempotent handlers, retry and backoff policies, event ordering, dead-letter queues, or designing an outbound webhook system for your own API.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "webhook-engineer.md",
+  "dir": "agents/voltagent.webhook-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/01-core-development/webhook-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/01-core-development/webhook-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "webhook-engineer.md"
+  ],
+  "entry_hash": "4c6c5ca71ddcb7af8bfe497eb20dfbf2cc444c0e7831da874cebf564408d47fd",
+  "content_hash": "96a44ec2e74d61a3dc72f01540b5ce4286bd50738a3686038205ae3f184d4c5b",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

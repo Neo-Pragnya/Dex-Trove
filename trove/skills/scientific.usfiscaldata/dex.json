@@ -1,0 +1,48 @@
+{
+  "id": "scientific/usfiscaldata",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "usfiscaldata",
+  "title": "U.S. Treasury Fiscal Data API",
+  "description": "Queries the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements, Treasury securities auctions, interest rates, foreign exchange rates, savings bonds, or U.S. government revenue and spending statistics.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.usfiscaldata",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/usfiscaldata",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/usfiscaldata",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api-basics.md",
+    "references/datasets-debt.md",
+    "references/datasets-fiscal.md",
+    "references/datasets-interest-rates.md",
+    "references/datasets-securities.md",
+    "references/examples.md",
+    "references/parameters.md",
+    "references/response-format.md"
+  ],
+  "entry_hash": "7cdcb756489ae8e94a73df1eebfb9abef554e912af6559ebd28dffa021ab63d5",
+  "content_hash": "c82517430a3c13b77d92a1964fb2469faafcf917d30a9d4a193bb470570f515c",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

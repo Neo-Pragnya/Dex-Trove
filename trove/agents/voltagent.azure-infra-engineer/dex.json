@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/azure-infra-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "azure-infra-engineer",
+  "title": "azure-infra-engineer",
+  "description": "Use when designing, deploying, or managing Azure infrastructure with focus on network architecture, Entra ID integration, PowerShell automation, and Bicep IaC.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "azure-infra-engineer.md",
+  "dir": "agents/voltagent.azure-infra-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/03-infrastructure/azure-infra-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/03-infrastructure/azure-infra-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "azure-infra-engineer.md"
+  ],
+  "entry_hash": "8785897b269f920b57f1d15d64f1a105c92939f711bb8c39dc905b35ea9b5add",
+  "content_hash": "903a04b97805a250a25e59a5716d8cb8bc552f86c3c3c8781401cadd2591a744",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

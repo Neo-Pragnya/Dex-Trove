@@ -1,0 +1,47 @@
+{
+  "id": "scientific/zarr-python",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "zarr-python",
+  "title": "Zarr Python",
+  "description": "Stores and queries chunked N-D scientific arrays with Zarr-Python 3, including codecs, sharding, S3/GCS storage, and NumPy/Dask/Xarray integration. Use for array layout, bounded I/O, format migration, or scientific metadata preservation.",
+  "tags": [
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.zarr-python",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/zarr-python",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/zarr-python",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/chunking_and_compression.md",
+    "references/integration.md",
+    "references/performance_and_patterns.md",
+    "references/review.md",
+    "references/storage_backends.md",
+    "references/v3_migration.md"
+  ],
+  "entry_hash": "1edaabfc3fc618d4c3a16bd70c589c039a3cb3a26683f02bca0ccc140d3c9c4d",
+  "content_hash": "f9e646ab62c7bf372853eb4926491802efdd6d82eaad48b76c3e637f46c2c970",
+  "learned_at": "2026-11-03T06:22:47+00:00"
+}

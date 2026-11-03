@@ -1,0 +1,55 @@
+{
+  "id": "scientific/imaging-data-commons",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "imaging-data-commons",
+  "title": "Imaging Data Commons",
+  "description": "Queries and downloads public cancer imaging data from NCI Imaging Data Commons. Supports IDC collection discovery, DICOM access, radiology (CT, MR, PET) and pathology AI datasets, metadata SQL, visualization, licensing, and citations. Uses public metadata and download routes without authentication; optional BigQuery and Google Healthcare routes require Google credentials.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.imaging-data-commons",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/imaging-data-commons",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/imaging-data-commons",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE.md: MIT text",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/bigquery_guide.md",
+    "references/cli_guide.md",
+    "references/clinical_data_guide.md",
+    "references/cloud_storage_guide.md",
+    "references/dicomweb_guide.md",
+    "references/digital_pathology_guide.md",
+    "references/index_tables_guide.md",
+    "references/licensing_and_citation.md",
+    "references/mcp_guide.md",
+    "references/parquet_access_guide.md",
+    "references/rest_api_guide.md",
+    "references/sql_patterns.md",
+    "references/use_cases.md",
+    "scripts/check_version.py"
+  ],
+  "entry_hash": "8dd250a80dc6959fcebc9cbae8049b25a83be31647c597f17a9e674c4f2e3685",
+  "content_hash": "29cca5b5ca5d24530abd25b39539211ac865099b50af9dd797faf677410cca51",
+  "learned_at": "2026-11-03T06:22:43+00:00"
+}

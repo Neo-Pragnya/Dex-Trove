@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/ux-microcopy-reviewer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "ux-microcopy-reviewer",
+  "title": "ux-microcopy-reviewer",
+  "description": "Use this agent after changing user-facing interface text (buttons, error messages, empty states, form labels, confirmations, toasts) to review it for clarity, consistency and accessibility before it ships. Read-only: it reports findings with file:line and a proposed rewrite, and does not edit files.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "ux-microcopy-reviewer.md",
+  "dir": "agents/voltagent.ux-microcopy-reviewer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/ux-microcopy-reviewer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/ux-microcopy-reviewer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "ux-microcopy-reviewer.md"
+  ],
+  "entry_hash": "01b9cc9abeff4fde4983f5ce588fd2f2d33267aad73e59648f0d941a2d105a9d",
+  "content_hash": "79bd5c4deef1a4623bdd7927879c46c123c932303329f3014ba38634d5881e6b",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

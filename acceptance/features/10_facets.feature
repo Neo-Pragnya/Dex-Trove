@@ -67,4 +67,4 @@ Feature: People find capabilities by what they're for, not just by name
     Then it succeeds
     When I run "dex facets list --json"
     Then it succeeds
-    And the JSON output at "facets.task.terms.write-tests.items" equals 113
+    And the JSON output at "facets.task.terms.write-tests.items" equals 177

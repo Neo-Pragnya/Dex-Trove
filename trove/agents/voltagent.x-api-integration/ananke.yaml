@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: x-api-integration
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:x-api-integration
+summary: Use this agent when building X/Twitter data products, integrating X API alternatives, designing tweet search
+  workflows, or documenting social data API usage.
+description: Use this agent when building X/Twitter data products, integrating X API alternatives, designing tweet
+  search workflows, or documenting social data API usage.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: x-api-integration.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/07-specialized-domains/x-api-integration.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

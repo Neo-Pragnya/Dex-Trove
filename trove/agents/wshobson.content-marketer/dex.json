@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/content-marketer",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "content-marketer",
+  "title": "content-marketer",
+  "description": "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. Masters modern content tools, social media automation, and conversion optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive content marketing.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "content-marketer.md",
+  "dir": "agents/wshobson.content-marketer",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/content-marketing/agents/content-marketer.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/content-marketing/agents/content-marketer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "content-marketer.md"
+  ],
+  "entry_hash": "5a730c757e20f0badab93e96e81d2c31978df2929be0efbd7f146b6f40ce485a",
+  "content_hash": "6c967eb79952885a81e575a7ae6625ec2ac1ecef34ca3162352f23d4b5bdef38",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

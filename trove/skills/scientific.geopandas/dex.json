@@ -1,0 +1,54 @@
+{
+  "id": "scientific/geopandas",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "geopandas",
+  "title": "GeoPandas",
+  "description": "Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.geopandas",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/geopandas",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/geopandas",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/crs-management.md",
+    "references/data-io.md",
+    "references/data-structures.md",
+    "references/geometric-operations.md",
+    "references/spatial-analysis.md",
+    "references/visualization.md",
+    "scripts/_common.py",
+    "scripts/crs_reprojection_plan.py",
+    "scripts/export_plan.py",
+    "scripts/geometry_validity_report.py",
+    "scripts/sensitive_coordinates_checklist.py",
+    "scripts/spatial_join_audit.py",
+    "scripts/vector_inventory.py"
+  ],
+  "entry_hash": "c03a46f911535326802af476208a1e04de13ea385f4d5309b022ad931826b222",
+  "content_hash": "65d2ced25c884ed86943c5868edc66de25cb7f2251a73a5a562718434322e7ab",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: search-specialist
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:search-specialist
+summary: Expert web researcher using advanced search techniques and synthesis. Masters search operators, result
+  filtering, and multi-source verification. Handles competitive analysis and fact-checking.
+description: Expert web researcher using advanced search techniques and synthesis. Masters search operators, result
+  filtering, and multi-source verification. Handles competitive analysis and fact-checking. Use PROACTIVELY for
+  deep research, information gathering, or trend analysis.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: search-specialist.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/content-marketing/agents/search-specialist.md
+  repository: https://github.com/wshobson/agents

@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/azure-storage-queue-rust",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage-queue-rust",
+  "title": "Azure Queue Storage library for Rust",
+  "description": "Azure Queue Storage library for Rust. Send, receive, and manage queue messages.\nTriggers: \"queue storage rust\", \"QueueClient rust\", \"send message rust\", \"receive messages rust\", \"QueueServiceClient rust\", \"queue rust\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage-queue-rust",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-rust/skills/azure-storage-queue-rust",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-rust/skills/azure-storage-queue-rust",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "75f05006d817cfd262462fda75d0e0a4495d90665cbf79e37f83fe7d96a68c3d",
+  "content_hash": "8401fc9e328c5c78a75fdfbd6a8216e61f1111a4bd917acd35303a4431728efd",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

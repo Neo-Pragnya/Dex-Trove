@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/c4-component",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "c4-component",
+  "title": "c4-component",
+  "description": "Expert C4 Component-level documentation specialist. Synthesizes C4 Code-level documentation into Component-level architecture, defining component boundaries, interfaces, and relationships. Creates component diagrams and documentation. Use when synthesizing code-level documentation into logical components.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "c4-component.md",
+  "dir": "agents/wshobson.c4-component",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/c4-architecture/agents/c4-component.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/c4-architecture/agents/c4-component.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "c4-component.md"
+  ],
+  "entry_hash": "67c96e066a9db4fe33781bfd647c4748d2a10bf6f28cbd05f745bd1bb8c952fd",
+  "content_hash": "d8b29880372904a4e17d5db68b54e241df5d6c47085593d8cc2729f5fdcfa68a",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}

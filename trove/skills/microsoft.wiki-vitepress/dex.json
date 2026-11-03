@@ -1,0 +1,40 @@
+{
+  "id": "microsoft/wiki-vitepress",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "wiki-vitepress",
+  "title": "Wiki VitePress Packager",
+  "description": "Packages generated wiki Markdown into a VitePress static site with dark theme, dark-mode Mermaid diagrams with click-to-zoom, and production build output. Use when the user wants to create a browsable website from generated wiki pages.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.wiki-vitepress",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/deep-wiki/skills/wiki-vitepress",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/deep-wiki/skills/wiki-vitepress",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "00d9f1678f604787f86026d26a5ebdec4573880e9e4ef44853820788584bbb36",
+  "content_hash": "98bc2106e296657fdac251efb9246baa03cd94898eca0d03ebd8b6cc3f61a92b",
+  "learned_at": "2026-11-03T06:19:32+00:00"
+}

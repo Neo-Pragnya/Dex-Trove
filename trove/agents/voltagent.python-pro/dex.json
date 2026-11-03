@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/python-pro",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "python-pro",
+  "title": "python-pro",
+  "description": "Use this agent when you need to build type-safe, production-ready Python code for web APIs, system utilities, or complex applications requiring modern async patterns and extensive type coverage.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "python-pro.md",
+  "dir": "agents/voltagent.python-pro",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/python-pro.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/python-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "python-pro.md"
+  ],
+  "entry_hash": "b87dba6a73d6f61d0aea24fc73f757c9e75f53cea1df117f0c8aa0c7432a1e16",
+  "content_hash": "c01298d921603ef67cd43ced121c3a3a3159e99cc3500dd74ab1d35ab57c2d3d",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

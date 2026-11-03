@@ -1,0 +1,33 @@
+kind: agent
+namespace: voltagent
+name: dotnet-framework-4
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:voltagent:dotnet-framework-4
+summary: Use this agent when working on legacy .NET Framework 4.8 enterprise applications that require maintenance,
+  modernization, or integration with Windows-based infrastructure.
+description: Use this agent when working on legacy .NET Framework 4.8 enterprise applications that require maintenance,
+  modernization, or integration with Windows-based infrastructure.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: dotnet-framework-4.8-expert.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - voltagent
+  homepage: https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/dotnet-framework-4.8-expert.md
+  repository: https://github.com/VoltAgent/awesome-claude-code-subagents

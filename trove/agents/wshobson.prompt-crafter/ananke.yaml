@@ -1,0 +1,34 @@
+kind: agent
+namespace: wshobson
+name: prompt-crafter
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:wshobson:prompt-crafter
+summary: Batch prompt writing agent. Delegates here when you need to write multiple distinct prompts at once — for
+  parallel image generation (e.g., "5 logo concepts"), serial-to-parallel workflows (e.g., gener…
+description: Batch prompt writing agent. Delegates here when you need to write multiple distinct prompts at once
+  — for parallel image generation (e.g., "5 logo concepts"), serial-to-parallel workflows (e.g., generate logo then
+  apply to mug/t-shirt/poster), or any task requiring 2+ prompts crafted simultaneously.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: prompt-crafter.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - wshobson
+  homepage: https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/meigen-ai-design/agents/prompt-crafter.md
+  repository: https://github.com/wshobson/agents

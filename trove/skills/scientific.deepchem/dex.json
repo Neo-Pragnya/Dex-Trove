@@ -1,0 +1,50 @@
+{
+  "id": "scientific/deepchem",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "deepchem",
+  "title": "DeepChem",
+  "description": "Builds molecular property prediction and MoleculeNet workflows with DeepChem, including SMILES featurization, scaffold or grouped holdouts, masked labels, graph models and explicit pretrained encoder transfer. Used for ADMET, toxicity, solubility and chemistry ML when DeepChem data/model contracts and scientific validation are needed.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.deepchem",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/deepchem",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/deepchem",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT license'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/api_reference.md",
+    "references/core_capabilities.md",
+    "references/review.md",
+    "references/typical_workflows.md",
+    "references/workflows.md",
+    "scripts/_common.py",
+    "scripts/graph_neural_network.py",
+    "scripts/predict_solubility.py",
+    "scripts/transfer_learning.py"
+  ],
+  "entry_hash": "2965735ee473cf70d63c6170f1c8867bd533539809d4535c162acacc07d0b17d",
+  "content_hash": "0cba7ef55bdff017e8f4fe0b6d43b156c05b6dfc7c08dca254703b074e75610d",
+  "learned_at": "2026-11-03T06:22:42+00:00"
+}

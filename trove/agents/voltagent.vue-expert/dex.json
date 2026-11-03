@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/vue-expert",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "vue-expert",
+  "title": "vue-expert",
+  "description": "Use this agent when building Vue 3 applications that require Composition API mastery, reactivity optimization, or Nuxt 3 development with enterprise-scale performance concerns.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "vue-expert.md",
+  "dir": "agents/voltagent.vue-expert",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/vue-expert.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/vue-expert.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "vue-expert.md"
+  ],
+  "entry_hash": "e6955b3e60f1443650d6fd8fd39e7ffb0221ab76ddd6f8a57e970b1389a4b849",
+  "content_hash": "b43c0a9da4af450933a73070716df69765cd5dd5dea69e23c46890cd183794d2",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/javascript-pro",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "javascript-pro",
+  "title": "javascript-pro",
+  "description": "Use this agent when you need to build, optimize, or refactor modern JavaScript code for browser, Node.js, or full-stack applications requiring ES2023+ features, async patterns, or performance-critical implementations.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "javascript-pro.md",
+  "dir": "agents/voltagent.javascript-pro",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/javascript-pro.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/javascript-pro.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "javascript-pro.md"
+  ],
+  "entry_hash": "9dd9a27f2e2cef22246aed30ae55b277e6eb8098aefa866830d8f75c841e10f7",
+  "content_hash": "cc2a47b1f453c3cdd10d74e0821a0c9b08b8ced9e819306448128dc8e2a866ae",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

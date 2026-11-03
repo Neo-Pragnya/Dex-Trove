@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-storage-blob-ts",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-storage-blob-ts",
+  "title": "@azure/storage-blob (TypeScript/JavaScript)",
+  "description": "Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations. Use for uploading, downloading, listing, and managing blobs and containers. Supports block blobs, append blobs, page blobs, SAS tokens, and streaming. Triggers: \"blob storage\", \"@azure/storage-blob\", \"BlobServiceClient\", \"ContainerClient\", \"upload blob\", \"download blob\", \"SAS token\", \"block blob\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-storage-blob-ts",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-typescript/skills/azure-storage-blob-ts",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-typescript/skills/azure-storage-blob-ts",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/sas-tokens.md",
+    "references/streaming.md"
+  ],
+  "entry_hash": "180a75a03963329bd2671651ab1b90ab7e21c1307e7f822a3f649d5bebf367d1",
+  "content_hash": "42587d94078817d2e40b970d01d0dce82c20b267de3e9e948514513f86ae260f",
+  "learned_at": "2026-11-03T06:19:30+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "scientific/pathogen-variant-surveillance",
+  "kind": "skill",
+  "namespace": "scientific",
+  "name": "pathogen-variant-surveillance",
+  "title": "Pathogen Variant Surveillance",
+  "description": "Queries public GenSpectrum LAPIS data for pathogen genomic surveillance, current lineage nomenclature, weekly sequence proportions, reporting delays, and descriptive mutation frequencies. Use for variant surveillance, Pango lineage validation, dominant submitted lineages, Nextclade assignment provenance, SARS-CoV-2, influenza/H5N1 clades, RSV, mpox, measles, dengue, or LAPIS queries. Distinguishes sequence prevalence from infection prevalence, clades from genotypes, missing calls from reference matches, and sampling changes from biological growth advantage.",
+  "tags": [
+    "executes-code",
+    "scientific",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/scientific.pathogen-variant-surveillance",
+  "source": {
+    "id": "scientific",
+    "title": "Scientific skills (K-Dense)",
+    "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+    "path": "skills/pathogen-variant-surveillance",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills/tree/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/skills/pathogen-variant-surveillance",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/lapis-api.md",
+    "references/lineage-nomenclature.md",
+    "references/surveillance-caveats.md",
+    "scripts/lapis_client.py",
+    "scripts/lineage_prevalence.py",
+    "scripts/mutation_profile.py",
+    "scripts/reporting_lag.py",
+    "scripts/resolve_lineage.py"
+  ],
+  "entry_hash": "95510f890a47ab2e2275832fe60e725eca34e5318dcde88b0940d9362b3ab590",
+  "content_hash": "9d799f7b0fa16cd212788d855311ca2e61ae3cde09c5d89e3a889915b1e7bb6c",
+  "learned_at": "2026-11-03T06:22:44+00:00"
+}

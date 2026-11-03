@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/product-manager",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "product-manager",
+  "title": "product-manager",
+  "description": "Use this agent when you need to make product strategy decisions, prioritize features, or define roadmap plans based on user needs and business goals.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "product-manager.md",
+  "dir": "agents/voltagent.product-manager",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/08-business-product/product-manager.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/08-business-product/product-manager.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "product-manager.md"
+  ],
+  "entry_hash": "88977cfebc36a245a762806bcc2d5f9b067553680c11d37de5f674920f2de3ca",
+  "content_hash": "7aa3d711637d5221d48d5786c1599d77a4e8800929fbf2897a687617e5c1e898",
+  "learned_at": "2026-11-03T06:29:33+00:00"
+}

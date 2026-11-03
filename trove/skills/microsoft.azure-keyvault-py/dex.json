@@ -1,0 +1,42 @@
+{
+  "id": "microsoft/azure-keyvault-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-keyvault-py",
+  "title": "Azure Key Vault SDK for Python",
+  "description": "Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.\nTriggers: \"key vault\", \"SecretClient\", \"KeyClient\", \"CertificateClient\", \"secrets\", \"encryption keys\".",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-keyvault-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-keyvault-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-keyvault-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/capabilities.md",
+    "references/non-hero-scenarios.md"
+  ],
+  "entry_hash": "5300434b6d8025604bfb4e16514b27d1e380255f0a587c65d000cbdf59248ce1",
+  "content_hash": "b445e52004c16ab4e8289b0737f2a0942c22e09a22b21e99692ae45f29241f9e",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

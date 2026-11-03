@@ -1,0 +1,41 @@
+{
+  "id": "microsoft/azure-identity-java",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-identity-java",
+  "title": "Azure Identity library for Java",
+  "description": "Azure Identity library for Java authentication with Azure services. Use when implementing DefaultAzureCredential, managed identity, service principal, or any Azure authentication pattern in Java applications.",
+  "tags": [
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-identity-java",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-java/skills/azure-identity-java",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-java/skills/azure-identity-java",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/examples.md"
+  ],
+  "entry_hash": "17659e2590c0a2ee45d3d630badbecad24315ac73d5aed6b5aabdf43e1e48dd8",
+  "content_hash": "9843cce3f8b1670659b0c2eded4d842391cc2896c15ba62e7d18366bfdc0b8a3",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

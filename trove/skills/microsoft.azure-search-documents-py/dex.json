@@ -1,0 +1,46 @@
+{
+  "id": "microsoft/azure-search-documents-py",
+  "kind": "skill",
+  "namespace": "microsoft",
+  "name": "azure-search-documents-py",
+  "title": "Azure AI Search SDK for Python",
+  "description": "Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, and skillsets.\nTriggers: \"azure-search-documents\", \"SearchClient\", \"SearchIndexClient\", \"vector search\", \"hybrid search\", \"semantic search\".",
+  "tags": [
+    "executes-code",
+    "microsoft",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/microsoft.azure-search-documents-py",
+  "source": {
+    "id": "microsoft",
+    "title": "Microsoft Skills",
+    "repo": "https://github.com/microsoft/skills",
+    "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
+    "path": ".github/plugins/azure-sdk-python/skills/azure-search-documents-py",
+    "url": "https://github.com/microsoft/skills/tree/7a2367fc8a7d834c15b5ee8543a3d86c3003608f/.github/plugins/azure-sdk-python/skills/azure-search-documents-py",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) Microsoft Corporation.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "SKILL.md",
+    "references/agentic-retrieval.md",
+    "references/semantic-ranking.md",
+    "references/vector-search.md",
+    "scripts/setup_agentic_retrieval.py",
+    "scripts/setup_vector_index.py"
+  ],
+  "entry_hash": "4a8d46e6e8def539b71987804fdc2d0946948e6e332c98ca831eeaea9e596401",
+  "content_hash": "f440027a1d879d1b300912d337371a4899b4be8aa0189b130b026746c8d9ac52",
+  "learned_at": "2026-11-03T06:19:29+00:00"
+}

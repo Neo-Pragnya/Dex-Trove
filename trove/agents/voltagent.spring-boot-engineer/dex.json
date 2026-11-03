@@ -1,0 +1,40 @@
+{
+  "id": "voltagent/spring-boot-engineer",
+  "kind": "agent",
+  "namespace": "voltagent",
+  "name": "spring-boot-engineer",
+  "title": "spring-boot-engineer",
+  "description": "Use this agent when building enterprise Spring Boot 3+ applications requiring microservices architecture, cloud-native deployment, or reactive programming patterns.",
+  "tags": [
+    "agent",
+    "voltagent"
+  ],
+  "version": "1.0.0",
+  "entry": "spring-boot-engineer.md",
+  "dir": "agents/voltagent.spring-boot-engineer",
+  "source": {
+    "id": "voltagent",
+    "title": "Claude Code subagents (VoltAgent)",
+    "repo": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "commit": "ed74d115b7fb7026a22a4f816a8e3250f425e3b4",
+    "path": "categories/02-language-specialists/spring-boot-engineer.md",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents/blob/ed74d115b7fb7026a22a4f816a8e3250f425e3b4/categories/02-language-specialists/spring-boot-engineer.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2025 VoltAgent",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "spring-boot-engineer.md"
+  ],
+  "entry_hash": "b09a4d457549ba7156682d3246364981eb4d8ce2dad4dc26464d55a40cf61fb0",
+  "content_hash": "c3c896e46a2c95b9d981e89dcd3cd19aab3ecfccfe4c387f61681bf9f0ea1a61",
+  "learned_at": "2026-11-03T06:20:54+00:00"
+}

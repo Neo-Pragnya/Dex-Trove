@@ -1,0 +1,40 @@
+{
+  "id": "wshobson/reference-builder",
+  "kind": "agent",
+  "namespace": "wshobson",
+  "name": "reference-builder",
+  "title": "reference-builder",
+  "description": "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials. Use PROACTIVELY for API docs, configuration references, or complete technical specifications.",
+  "tags": [
+    "agent",
+    "wshobson"
+  ],
+  "version": "1.0.0",
+  "entry": "reference-builder.md",
+  "dir": "agents/wshobson.reference-builder",
+  "source": {
+    "id": "wshobson",
+    "title": "Agents and plugins (wshobson)",
+    "repo": "https://github.com/wshobson/agents",
+    "commit": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
+    "path": "plugins/documentation-generation/agents/reference-builder.md",
+    "url": "https://github.com/wshobson/agents/blob/7e2fb559cf4b824b27f1fec49fe88f7511066d26/plugins/documentation-generation/agents/reference-builder.md",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2024 Seth Hobson",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "reference-builder.md"
+  ],
+  "entry_hash": "666031b1453bfca265c39191f96d25911ebde0b9170659d67215e315ca81965e",
+  "content_hash": "d710ba9385d7865bc615d26162e060f787e19b88fcd92b5fb624d3b39025b5a7",
+  "learned_at": "2026-11-03T06:20:12+00:00"
+}
