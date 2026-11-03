@@ -150453,7 +150453,7 @@
   },
   "skill:patched/hf-cloud-sagemaker-iam-preflight": {
    "schema_version": "1.0.0",
-   "artifact_ref": "patched/hf-cloud-sagemaker-iam-preflight@1.0.0",
+   "artifact_ref": "patched/hf-cloud-sagemaker-iam-preflight@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",

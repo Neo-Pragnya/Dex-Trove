@@ -65183,14 +65183,14 @@
         "patched",
         "skill"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "entry": "SKILL.md",
       "dir": "skills/patched.hf-cloud-sagemaker-iam-preflight",
       "source": {
         "id": "patched",
         "title": "Patched forks",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
-        "commit": "9f7305160ec4f4cb46bd002b8c05d364dbbaee10",
+        "commit": "9281152e53c6c5bc2ee69961392b56d7639c2773",
         "path": "hf-cloud-sagemaker-iam-preflight",
         "url": null,
         "author": null
@@ -65215,8 +65215,8 @@
         "scripts/create_role.py"
       ],
       "entry_hash": "a4ff26c2af2c0ce82a4ab34c5cf5eadce5db4573ed2525745c4ee7b21f1773e4",
-      "content_hash": "1e7473702df738a3e845ebcae1013c3785b5b137552047a7559f165ce11c7027",
-      "learned_at": "2026-11-03T10:55:22+00:00",
+      "content_hash": "18384367ada9982eb1fefb684384571739d064afe141004ce49cfd81a59005af",
+      "learned_at": "2026-11-03T11:15:05+00:00",
       "forked_from": {
         "key": "skill:huggingface/hf-cloud-sagemaker-iam-preflight",
         "version": "1.0.0",

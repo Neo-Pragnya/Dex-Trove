@@ -91,7 +91,8 @@ def trust_allows_sagemaker(role: dict) -> bool:
         principal = statement.get("Principal")
         services = principal.get("Service", []) if isinstance(principal, dict) else []
         actions = statement.get("Action", [])
-        if "sagemaker.amazonaws.com" in _as_list(services) and {"sts:AssumeRole", "sts:*", "*"} & set(_as_list(actions)):
+        names_sagemaker = any(service == "sagemaker.amazonaws.com" for service in _as_list(services))
+        if names_sagemaker and {"sts:AssumeRole", "sts:*", "*"} & set(_as_list(actions)):
             return True
     return False
 

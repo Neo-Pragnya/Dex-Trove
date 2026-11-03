@@ -32326,6 +32326,32 @@
             "version": "1.0.0",
             "content_hash": "08901f13e87d224e15ef134170832b9166e9a854f818846d4c84a2688d03351a"
           }
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "18384367ada9982eb1fefb684384571739d064afe141004ce49cfd81a59005af",
+          "entry": "SKILL.md",
+          "files": [
+            "CHANGES.md",
+            "LICENSE",
+            "SKILL.md",
+            "references/minimum-permissions.json",
+            "references/trust-policy.json",
+            "scripts/check_role.py",
+            "scripts/create_role.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+            "commit": "9281152e53c6c5bc2ee69961392b56d7639c2773",
+            "path": "hf-cloud-sagemaker-iam-preflight"
+          },
+          "released_at": "2026-11-03T11:15:05+00:00",
+          "channel": "stable",
+          "parent": {
+            "key": "skill:huggingface/hf-cloud-sagemaker-iam-preflight",
+            "version": "1.0.0",
+            "content_hash": "08901f13e87d224e15ef134170832b9166e9a854f818846d4c84a2688d03351a"
+          }
         }
       ]
     },
