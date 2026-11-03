@@ -7,6 +7,8 @@ import re
 import tomllib
 from pathlib import Path
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -54,3 +56,18 @@ def test_reuse_matrix_is_current() -> None:
 
     page = (ROOT / "docs" / "reference" / "reuse-matrix.md").read_text()
     assert page == reuse.markdown(ROOT / "trove"), "run `dex docs reuse`"
+
+
+def test_feedback_is_moderated_through_github_forms_only() -> None:
+    """Curation and feedback need a GitHub identity and evidence; the site itself takes no comments or stars."""
+    forms = ROOT / ".github" / "ISSUE_TEMPLATE"
+    curation = yaml.safe_load((forms / "curation.yml").read_text())
+    required = {b["id"] for b in curation["body"] if b.get("validations", {}).get("required")}
+    assert {"item", "change", "proposal", "evidence"} <= required
+    feedback = yaml.safe_load((forms / "item-feedback.yml").read_text())
+    assert {"item", "problem", "details"} <= {
+        b["id"] for b in feedback["body"] if b.get("validations", {}).get("required")
+    }
+    assert "Code of Conduct" in feedback["body"][0]["attributes"]["value"]
+    pages = "".join(p.read_text() for p in (ROOT / "website" / "src" / "pages").rglob("*.astro"))
+    assert not any(x in pages for x in ("<textarea", "giscus", 'localStorage.setItem("star'))

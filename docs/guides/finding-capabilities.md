@@ -65,7 +65,7 @@ Methodologies describe *ways of working*, not artifacts:
 SDLC and ADLC overlap, but they're **not aliases**: the taxonomy refuses to merge them. Many good skills serve both,
 and say so.
 
-Methodology is the sparsest facet: only 61 of 964 items say which method they support, because most upstream
+Methodology is the sparsest facet: only 65 of 968 items say which method they support, because most upstream
 authors don't. That's an honest gap, not a bug. Use methodology together with task or phase, not on its own.
 
 ## Where facet values come from
@@ -84,7 +84,7 @@ Dex never edits upstream files. Facets are a **sidecar**, `trove/facets.json`, r
    `needs` from the files the item bundles (`.py` → python, `package.json` → node, `.sh` → shell…).
 
 For each facet, the first source that has any value wins. The others are kept, so a reviewer can see what curation
-overrode. Today 25 items are curated and 939 are review-pending.
+overrode. Today 29 items are curated and 939 are review-pending.
 
 See it for any item:
 

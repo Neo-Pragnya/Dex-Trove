@@ -30,7 +30,8 @@ candidates:         # repos evaluated but not mapped; shown on the Sources page
 | `enabled` | bool | | `false` → skipped by `dex learn` with no arguments (default `true`) |
 | `options` | map | | Adapter options (below) |
 | `exclude` | list of globs | | Files withheld from items, matched against paths relative to the source root (`fnmatch`) |
-| `items` | map | | Per-item overrides keyed by item name: `title`, `inspired_by` |
+| `items` | map | | Per-item overrides keyed by item name: `title`, `inspired_by`, `forked_from` (`kind:ns/name[@version]`, recorded as release lineage) |
+| `visibility` | string | | `public` (default) or `internal`. Internal-only candidates can only be published to `internal` sources |
 | `license` | map | | `first_party`, `default`, `allow_review`, `expected` (below) |
 | `notes` | string | | Free text for maintainers |
 

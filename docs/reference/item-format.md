@@ -87,6 +87,7 @@ A real example (`trove/skills/awesome-copilot.git-commit/dex.json`):
 | `license.notice` | string | copyright line(s) extracted from the governing text |
 | `license.components` | string[] | other allowed licences found in nested files (e.g. `OFL-1.1` fonts) |
 | `inspired_by` | `{title, url}[]` | from `sources.yaml` `items` |
+| `forked_from` | `{key, version, content_hash}` | optional; the release this item was forked from, from `sources.yaml` `items` |
 | `executes_code` | bool | contains scripts or `hooks.json` |
 | `members` | string[] | plugins only: `kind:namespace/name` of each admitted member |
 | `files` | string[] | upstream files in the item (sorted; generated files excluded) |

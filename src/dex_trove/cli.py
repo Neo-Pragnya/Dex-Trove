@@ -1044,5 +1044,6 @@ def docs_reuse() -> None:
 
     root = _need_checkout_here()
     target = root / "docs" / "reference" / "reuse-matrix.md"
+    target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(reuse.markdown(root / "trove"), encoding="utf-8")
     console.print(str(target))

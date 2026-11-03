@@ -74,6 +74,28 @@ print(len(result.items), [e.reason for e in result.excluded])
 # learn.finalize(Path("trove"), [result], srcs)  # when not a dry run
 ```
 
+## Releases and locks: `dex_trove.releases`
+
+```python
+from pathlib import Path
+from dex_trove import releases
+from dex_trove.paths import trove_root
+
+ledger = releases.load(trove_root())
+release = releases.resolve(ledger, "skill:superpowers/systematic-debugging")   # newest stable, non-yanked
+entry = releases.lock_entry("skill:superpowers/systematic-debugging", release)
+releases.write_lock(Path("dex.lock.json"), [entry], generator="my-tool")
+errors, warnings = releases.check_lock(ledger, releases.read_lock(Path("dex.lock.json")))
+```
+
+`releases.fetch(entry, dest)` materialises a pinned release from its upstream commit and raises `ReleaseError` unless
+the digest matches. `dex_trove.install.install_locked(entries, target=…)` installs a lock.
+
+## Relations and candidates
+
+`dex_trove.relations.load(trove)` returns typed relations. `dex_trove.candidates.check(path)` runs the candidate gates
+and returns a `Report`; `review` and `publish` record the decision and copy an approved candidate into a source.
+
 ## Locating the trove: `dex_trove.paths`
 
 ```python

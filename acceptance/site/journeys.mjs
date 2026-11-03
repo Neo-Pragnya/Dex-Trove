@@ -199,6 +199,18 @@ await journey("kind, source and licence panels count live as filters change", as
   return `skills ${before.kinds.skill} → ${after.kinds.skill}, agents ${before.kinds.agent} → ${after.kinds.agent}`;
 });
 
+await journey("insights come from repository files, and item pages link moderated feedback", async () => {
+  await go("insights/");
+  const page = await evaluate(`({ stats: Object.fromEntries(Array.from(document.querySelectorAll(".stat-grid .stat")).map(s => [s.querySelector("span").textContent, Number(s.querySelector("strong").textContent)])), tables: document.querySelectorAll("table").length, curate: !!document.querySelector('a[href*="issues/new?template=curation.yml"]') })`);
+  expect(page.stats["Items"] > 900 && page.stats["Releases recorded"] >= page.stats["Items"], `stats ${JSON.stringify(page.stats)}`);
+  expect(page.tables >= 4 && page.curate, `insights page incomplete: ${JSON.stringify(page)}`);
+  await go("skill/superpowers.systematic-debugging/");
+  const item = await evaluate(`({ feedback: document.querySelector('a[href*="template=item-feedback.yml"]')?.href || "", curate: !!document.querySelector('a[href*="template=curation.yml"]'), checked: document.querySelector(".check-list")?.textContent || "", related: Array.from(document.querySelectorAll(".relation-label")).map(e => e.textContent) })`);
+  expect(item.feedback.includes(encodeURIComponent("skill:superpowers/systematic-debugging")) && item.curate, `feedback links: ${JSON.stringify(item)}`);
+  expect(/Claude Code/.test(item.checked) && item.related.length > 0, `item sections: ${JSON.stringify(item)}`);
+  return `${page.stats["Releases recorded"]} releases, ${page.tables} tables; feedback linked; ${item.related.join(", ")}`;
+});
+
 await journey("item page shows where it fits, linked into the catalog", async () => {
   await go("skill/superpowers.test-driven-development/");
   const t = await evaluate(`({ text: document.querySelector(".where-it-fits")?.innerText || "", link: document.querySelector('.where-it-fits a[href*="methodology=tdd"]')?.getAttribute("href") || "" })`);

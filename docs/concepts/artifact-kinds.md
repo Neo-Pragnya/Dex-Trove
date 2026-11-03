@@ -17,7 +17,7 @@ the harness that runs it. To choose between kinds, see [Which artifact when](whi
 
 | Kind | What it is | Loaded when | Who decides | Runs code? | In the trove |
 | --- | --- | --- | --- | --- | --- |
-| [skill](#skill) | a folder of know-how and helpers | the task matches its description | the model | if it bundles scripts (58 do) | 468 |
+| [skill](#skill) | a folder of know-how and helpers | the task matches its description | the model | if it bundles scripts (62 do) | 472 |
 | [agent](#agent) | a persona with its own instructions and tools | you pick it, or another agent delegates | you or a parent agent | through its tools | 220 |
 | [instruction](#instruction) | standing rules for matching files | always, for files matching `applyTo` | the harness | no | 189 |
 | [prompt](#prompt) | a reusable request | you type the command | you | no | 0 |
@@ -25,7 +25,7 @@ the harness that runs it. To choose between kinds, see [Which artifact when](whi
 | [workflow](#workflow) | an agentic automation in CI | its trigger fires (schedule, issue, PR…) | the trigger | in CI, under declared permissions | 8 |
 | [plugin](#plugin) | a bundle of the above | when installed (its members then behave as above) | you | as its members | 72 |
 
-Counts are for the current trove (964 items). The live numbers are on the [catalog](https://neo-pragnya.github.io/Dex-Trove/catalog/).
+Counts are for the current trove (968 items). The live numbers are on the [catalog](https://neo-pragnya.github.io/Dex-Trove/catalog/).
 
 ## The whole journey
 
@@ -178,7 +178,7 @@ stateDiagram-v2
   `SKILL.md` when one matches. A good description says *what* the skill does and *when* to use it, including the
   words people actually type.
 - **Context cost:** about one line per installed skill until it is used.
-- **Safety:** 58 skills bundle scripts. These are tagged `executes-code` and show **runs code** on their page. Read
+- **Safety:** 62 skills bundle scripts. These are tagged `executes-code` and show **runs code** on their page. Read
   the scripts before you let an agent run them. `allowed-tools` in the frontmatter narrows what the skill may use,
   where the harness supports it.
 - **Claude Code:** `dex install <ref> --target claude` → `~/.claude/skills/<name>/` (user) or

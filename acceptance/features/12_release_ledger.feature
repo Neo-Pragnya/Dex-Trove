@@ -26,3 +26,10 @@ Feature: Learning appends releases and never rewrites them
       """
     Then it fails
     And the output contains "releases are immutable"
+
+  Scenario: The reuse matrix is generated from the trove
+    When I run "dex learn"
+    Then it succeeds
+    When I run "dex docs reuse"
+    Then it succeeds
+    And the file "docs/reference/reuse-matrix.md" contains "license-denied"
