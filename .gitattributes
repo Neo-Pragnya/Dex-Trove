@@ -1,0 +1,2 @@
+# Trove items are upstream's exact bytes, and their digests are recorded. Git must never convert line endings.
+trove/** -text
