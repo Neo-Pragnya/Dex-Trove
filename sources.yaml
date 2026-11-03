@@ -86,6 +86,8 @@ sources:
     adapter: agent-skills
     repo: https://github.com/huggingface/skills
     ref: main
+    items:
+      hf-cloud-sagemaker-iam-preflight: { withhold: "its trust check can pass a role SageMaker can't assume; use skill:patched/hf-cloud-sagemaker-iam-preflight" }
     license: { expected: Apache-2.0 }
 
   - id: microsoft
@@ -105,6 +107,8 @@ sources:
       Agile delivery skills from the BMAD Method: analysis, product briefs, PRDs, architecture, UX, reviews and
       retrospectives. Redistributed under its MIT licence. Dex Trove isn't affiliated with or endorsed by BMad Code, LLC,
       which owns the BMad names and marks; see the upstream TRADEMARK.md.
+      Known issue in its core `bmad` skill: scripts/setup.py has a version regex that a crafted version string can hang,
+      for example from an edited lockfile. Interrupt the command if it stalls.
     adapter: agent-skills
     repo: https://github.com/bmad-code-org/BMAD-METHOD
     ref: main
@@ -168,6 +172,19 @@ sources:
     ref: main
     options: { roots: [plugins] }
     license: { expected: Apache-2.0 }
+
+  - id: patched
+    title: Patched forks
+    description: >-
+      Upstream items with a security fix, recorded as forks. Each keeps its upstream licence and says what changed in
+      CHANGES.md, and the original is left out of the trove. Lives in forks/ in this repository.
+    adapter: agent-skills
+    local: forks
+    homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks
+    license: { expected: per-item }
+    items:
+      hf-cloud-sagemaker-iam-preflight:
+        forked_from: skill:huggingface/hf-cloud-sagemaker-iam-preflight
 
 # Evaluated but not enabled (licences checked via GitHub API on 2026-10-19). Rendered on the docs Sources page.
 candidates:

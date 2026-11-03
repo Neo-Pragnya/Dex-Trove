@@ -26760,9 +26760,15 @@
             "path": "skills/hf-cloud-sagemaker-iam-preflight"
           },
           "released_at": "2026-11-03T06:18:57+00:00",
-          "channel": "stable"
+          "channel": "stable",
+          "deprecated": {
+            "reason": "its trust check can pass a role SageMaker can't assume",
+            "at": "2026-11-03T10:56:20+00:00",
+            "replaced_by": "skill:patched/hf-cloud-sagemaker-iam-preflight"
+          }
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:huggingface/hf-cloud-sagemaker-production-defaults": {
       "releases": [
@@ -32290,6 +32296,62 @@
           },
           "released_at": "2026-11-02T14:35:57+00:00",
           "channel": "stable"
+        }
+      ]
+    },
+    "skill:patched/hf-cloud-sagemaker-iam-preflight": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "1e7473702df738a3e845ebcae1013c3785b5b137552047a7559f165ce11c7027",
+          "entry": "SKILL.md",
+          "files": [
+            "CHANGES.md",
+            "LICENSE",
+            "SKILL.md",
+            "references/minimum-permissions.json",
+            "references/trust-policy.json",
+            "scripts/check_role.py",
+            "scripts/create_role.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+            "commit": "9f7305160ec4f4cb46bd002b8c05d364dbbaee10",
+            "path": "hf-cloud-sagemaker-iam-preflight"
+          },
+          "released_at": "2026-11-03T10:55:22+00:00",
+          "channel": "stable",
+          "parent": {
+            "key": "skill:huggingface/hf-cloud-sagemaker-iam-preflight",
+            "version": "1.0.0",
+            "content_hash": "08901f13e87d224e15ef134170832b9166e9a854f818846d4c84a2688d03351a"
+          }
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "18384367ada9982eb1fefb684384571739d064afe141004ce49cfd81a59005af",
+          "entry": "SKILL.md",
+          "files": [
+            "CHANGES.md",
+            "LICENSE",
+            "SKILL.md",
+            "references/minimum-permissions.json",
+            "references/trust-policy.json",
+            "scripts/check_role.py",
+            "scripts/create_role.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+            "commit": "9281152e53c6c5bc2ee69961392b56d7639c2773",
+            "path": "hf-cloud-sagemaker-iam-preflight"
+          },
+          "released_at": "2026-11-03T11:15:05+00:00",
+          "channel": "stable",
+          "parent": {
+            "key": "skill:huggingface/hf-cloud-sagemaker-iam-preflight",
+            "version": "1.0.0",
+            "content_hash": "08901f13e87d224e15ef134170832b9166e9a854f818846d4c84a2688d03351a"
+          }
         }
       ]
     },

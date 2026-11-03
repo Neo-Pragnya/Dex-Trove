@@ -76,12 +76,25 @@ def get_role(role_name: str) -> dict | None:
         return None
 
 
+def _as_list(value: object) -> list:
+    return value if isinstance(value, list) else [value]
+
+
 def trust_allows_sagemaker(role: dict) -> bool:
     """True if the trust policy lets sagemaker.amazonaws.com assume the role."""
+    # Modified from upstream: it searched the serialized policy for this text. See CHANGES.md.
     trust = role.get("AssumeRolePolicyDocument", {})
-    # Substring check over the serialized doc — matches the original shell helper
-    # and is robust to single/list Principal.Service shapes.
-    return "sagemaker.amazonaws.com" in json.dumps(trust)
+    statements = trust.get("Statement", [])
+    for statement in statements if isinstance(statements, list) else [statements]:
+        if statement.get("Effect") != "Allow":
+            continue
+        principal = statement.get("Principal")
+        services = principal.get("Service", []) if isinstance(principal, dict) else []
+        actions = statement.get("Action", [])
+        names_sagemaker = any(service == "sagemaker.amazonaws.com" for service in _as_list(services))
+        if names_sagemaker and {"sts:AssumeRole", "sts:*", "*"} & set(_as_list(actions)):
+            return True
+    return False
 
 
 def validate_role(role_name: str, quiet: bool = False) -> str | None:

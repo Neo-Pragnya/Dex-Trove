@@ -145,6 +145,17 @@ items:
 The fork's releases then carry `parent: {key, version, content_hash}`. `dex validate` fails when a parent isn't
 in the ledger, and the item pages show the lineage under **Related**.
 
+### Security fixes to upstream items
+
+Dex never edits an upstream item in place, because its digest has to keep matching upstream. When an item needs a fix:
+
+1. Copy it to `forks/<name>/`, keep its licence file and add a `CHANGES.md` saying what changed.
+2. Withhold the original in `sources.yaml` and declare the fork under the `patched` source with `forked_from`.
+3. Deprecate the original with `--replaced-by`, so existing locks are told about the fork.
+
+The fix should also go upstream. A fork keeps the original's name when other items refer to it by that name, unless the
+upstream's trademark terms rule that out.
+
 ## Reviewed candidates: how new memory gets in
 
 A harness such as Ananke may learn something worth keeping, such as a generalised fix strategy. That lesson becomes

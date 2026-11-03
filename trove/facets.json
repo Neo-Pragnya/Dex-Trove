@@ -126842,110 +126842,6 @@
     }
    }
   },
-  "skill:huggingface/hf-cloud-sagemaker-iam-preflight": {
-   "schema_version": "1.0.0",
-   "artifact_ref": "huggingface/hf-cloud-sagemaker-iam-preflight@1.0.0",
-   "taxonomy_version": "1.1.0",
-   "facets": {
-    "kind": "skill",
-    "task": [
-     "deploy"
-    ],
-    "phase": [
-     "deployment"
-    ],
-    "role": [
-     "devops-engineer"
-    ],
-    "domain": [
-     "api",
-     "infrastructure"
-    ],
-    "platform": [
-     "ananke",
-     "claude-code",
-     "github-copilot"
-    ],
-    "needs": [
-     "python"
-    ],
-    "maturity": "unknown"
-   },
-   "classification": {
-    "source": "rules",
-    "review_status": "review-pending"
-   },
-   "provenance": {
-    "task": {
-     "source": "rules",
-     "evidence": {
-      "deploy": [
-       "description: 'deploy'"
-      ]
-     }
-    },
-    "phase": {
-     "source": "rules",
-     "evidence": {
-      "deployment": [
-       "description: 'deploy'"
-      ]
-     }
-    },
-    "role": {
-     "source": "rules",
-     "evidence": {
-      "devops-engineer": [
-       "description: 'deploy'"
-      ]
-     }
-    },
-    "domain": {
-     "source": "rules",
-     "evidence": {
-      "api": [
-       "description: 'endpoint'"
-      ],
-      "infrastructure": [
-       "name: 'cloud'"
-      ]
-     }
-    },
-    "needs": {
-     "source": "derived",
-     "evidence": {
-      "python": [
-       "scripts/check_role.py",
-       "scripts/create_role.py"
-      ]
-     }
-    },
-    "kind": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "kind"
-      ]
-     }
-    },
-    "platform": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "install layout"
-      ]
-     }
-    },
-    "maturity": {
-     "source": "derived",
-     "evidence": {
-      "unknown": [
-       "no maturity metadata"
-      ]
-     }
-    }
-   }
-  },
   "skill:huggingface/hf-cloud-sagemaker-production-defaults": {
    "schema_version": "1.0.0",
    "artifact_ref": "huggingface/hf-cloud-sagemaker-production-defaults@1.0.0",
@@ -150550,6 +150446,110 @@
      "evidence": {
       "catalog": [
        "install layout"
+      ]
+     }
+    }
+   }
+  },
+  "skill:patched/hf-cloud-sagemaker-iam-preflight": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "patched/hf-cloud-sagemaker-iam-preflight@1.0.1",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "deploy"
+    ],
+    "phase": [
+     "deployment"
+    ],
+    "role": [
+     "devops-engineer"
+    ],
+    "domain": [
+     "api",
+     "infrastructure"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "deploy": [
+       "description: 'deploy'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "description: 'deploy'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "devops-engineer": [
+       "description: 'deploy'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "description: 'endpoint'"
+      ],
+      "infrastructure": [
+       "name: 'cloud'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/check_role.py",
+       "scripts/create_role.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
       ]
      }
     }

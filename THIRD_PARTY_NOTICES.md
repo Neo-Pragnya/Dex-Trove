@@ -38,7 +38,7 @@ Licences: MIT (15 items)
 ## Hugging Face Skills
 
 Source: <https://github.com/huggingface/skills>  
-Licences: Apache-2.0 (26 items)
+Licences: Apache-2.0 (25 items)
 
 ## Microsoft Skills
 
@@ -95,6 +95,11 @@ Licences: MIT (165 items)
 
 Source: <https://github.com/anthropics/claude-plugins-official>  
 Licences: Apache-2.0 (24 items)
+
+## Patched forks
+
+Source: <https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks>  
+Licences: Apache-2.0 (1 items)
 
 ## Licence texts
 
@@ -732,7 +737,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### `283ea6cc2997` — used by awesome-copilot, claude-plugins, huggingface, scientific
+### `283ea6cc2997` — used by awesome-copilot, claude-plugins, huggingface, patched, scientific
 
 ```text
 Apache License
