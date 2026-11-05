@@ -1,6 +1,6 @@
 {
-  "generator": "dex-trove 0.3.3",
-  "count": 1707,
+  "generator": "dex-trove 0.3.4",
+  "count": 1708,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -65041,6 +65041,59 @@
       "entry_hash": "14f69a8dc6857b2645b7d304c20618ffaa1917d5c099fc68e5c0772e37d6e2cd",
       "content_hash": "171cb2193acd315ac969d5f59db9220331ff9b37bff1f5818a9f002f7f20e47b",
       "learned_at": "2026-10-23T02:25:36+00:00"
+    },
+    {
+      "id": "neo-pragnya/repo-context",
+      "kind": "skill",
+      "namespace": "neo-pragnya",
+      "name": "repo-context",
+      "title": "Repo context",
+      "description": "Understand a code repository using far fewer tokens: start from a small map, then use Serena, repomix, Graphify, grep or a plain read, whichever measured cheapest for the question. Use before exploring or reading an unfamiliar or large repo, or when asked to save tokens or map a codebase.",
+      "tags": [
+        "neo-pragnya",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya.repo-context",
+      "source": {
+        "id": "neo-pragnya",
+        "title": "Neo Pragnya (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+        "commit": null,
+        "path": "repo-context",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.repo-context",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [
+        {
+          "title": "Serena (GPL-3.0-or-later; run as its own server, not included)",
+          "url": "https://github.com/oraios/serena"
+        },
+        {
+          "title": "python-repomix (MIT)",
+          "url": "https://github.com/AndersonBY/python-repomix"
+        },
+        {
+          "title": "Graphify (Apache-2.0)",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        }
+      ],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "e73a20e637dbecbac682c821083949aff18f2a546644578be365b24a0c82ccbf",
+      "content_hash": "85aa3b89937ca73300597e09c30e2f38524448ee6e41da7ece5faba06ea17235",
+      "learned_at": "2026-11-05T00:34:11+00:00"
     },
     {
       "id": "neo-pragnya/research-questionnaire",

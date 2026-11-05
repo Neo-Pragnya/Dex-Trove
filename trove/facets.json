@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
  "taxonomy_version": "1.1.0",
- "count": 1707,
+ "count": 1708,
  "items": {
   "agent:awesome-copilot/accessibility": {
    "schema_version": "1.0.0",
@@ -150007,6 +150007,72 @@
      "evidence": {
       "catalog": [
        "install layout"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya/repo-context": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya/repo-context@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "role": [
+     "developer"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'code'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
       ]
      }
     }

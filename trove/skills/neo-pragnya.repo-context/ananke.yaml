@@ -1,0 +1,32 @@
+kind: skill
+namespace: neo-pragnya
+name: repo-context
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya:repo-context
+summary: 'Understand a code repository using far fewer tokens: start from a small map, then use Serena, repomix,
+  Graphify, grep or a plain read, whichever measured cheapest for the question.'
+description: 'Understand a code repository using far fewer tokens: start from a small map, then use Serena, repomix,
+  Graphify, grep or a plain read, whichever measured cheapest for the question. Use before exploring or reading
+  an unfamiliar or large repo, or when asked to save tokens or map a codebase.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.repo-context
+  repository: https://github.com/Neo-Pragnya/Dex-Trove

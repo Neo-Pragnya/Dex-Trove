@@ -9,8 +9,8 @@ sources:
     description: >-
       Skills developed in-house: architecture-as-code with animated SVG diagrams, Astro documentation sites,
       interactive web motion, living diagrams, capability acceptance testing, package security scanning, a
-      life Ikigai architect, idea development, technology selection, research questionnaires and scaffold
-      harvesting. Personal skills in the same folder are hidden by the
+      life Ikigai architect, idea development, technology selection, research questionnaires, scaffold
+      harvesting and token-saving repository context. Personal skills in the same folder are hidden by the
       folder's own .dexignore (never named in this repo).
     adapter: agent-skills
     local: ../Skills
@@ -43,6 +43,11 @@ sources:
           - { title: "Ananke Plexus logo and infographics (the cosmic harness)", url: "https://github.com/Neo-Pragnya/Ananke-Plexus/tree/main/docs/assets" }
           - { title: "Plexus / constellation network visuals", url: "https://en.wikipedia.org/wiki/Plexus" }
           - { title: "Mermaid (MIT), the diagrams it brings to life", url: "https://github.com/mermaid-js/mermaid" }
+      repo-context:
+        inspired_by:
+          - { title: "Serena (GPL-3.0-or-later; run as its own server, not included)", url: "https://github.com/oraios/serena" }
+          - { title: "python-repomix (MIT)", url: "https://github.com/AndersonBY/python-repomix" }
+          - { title: "Graphify (Apache-2.0)", url: "https://github.com/Graphify-Labs/graphify" }
       capability-acceptance:
         inspired_by:
           - { title: "WWI Data Science Agent course, Week 12 — agent evaluation and release gate", url: "https://github.com/Neo-Pragnya/Dex-Trove/blob/main/acceptance/README.md" }

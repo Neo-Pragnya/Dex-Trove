@@ -66,3 +66,5 @@ relations:
       evidence: "both facilitate brainstorming; bmad-brainstorming uses a range of creative techniques, superpowers' leads to a written design" }
   - { from: skill:impeccable/impeccable, type: alternative-to, to: skill:anthropic/frontend-design,
       evidence: "both guide designing frontend interfaces; impeccable adds audit and polish commands and a checked engine" }
+  - { from: skill:neo-pragnya/repo-context, type: complements, to: skill:awesome-copilot/context-map,
+      evidence: "repo-context chooses the cheapest tool for a question; context-map plans which files a change touches" }

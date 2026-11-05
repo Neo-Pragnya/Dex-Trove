@@ -27812,6 +27812,12 @@
     ],
     "skill:awesome-copilot/context-map": [
       {
+        "type": "complements",
+        "target": "skill:neo-pragnya/repo-context",
+        "origin": "curated",
+        "evidence": "repo-context chooses the cheapest tool for a question; context-map plans which files a change touches"
+      },
+      {
         "type": "part-of",
         "target": "plugin:awesome-copilot/context-engineering",
         "origin": "derived",
@@ -32628,6 +32634,12 @@
         "target": "skill:awesome-copilot/repo-story-time",
         "origin": "inferred",
         "evidence": "shares name words: repo"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya/repo-context",
+        "origin": "inferred",
+        "evidence": "shares name words: repo"
       }
     ],
     "skill:awesome-copilot/markdown-to-html": [
@@ -35960,6 +35972,12 @@
         "target": "skill:awesome-copilot/repo-story-time",
         "origin": "inferred",
         "evidence": "shares name words: repo"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya/repo-context",
+        "origin": "inferred",
+        "evidence": "shares name words: repo"
       }
     ],
     "skill:awesome-copilot/repo-story-time": [
@@ -35978,6 +35996,12 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/repo-standardizer",
+        "origin": "inferred",
+        "evidence": "shares name words: repo"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya/repo-context",
         "origin": "inferred",
         "evidence": "shares name words: repo"
       }
@@ -47470,6 +47494,50 @@
         "target": "agent:voltagent/security-auditor",
         "origin": "inferred",
         "evidence": "shares name words: security"
+      }
+    ],
+    "skill:neo-pragnya/repo-context": [
+      {
+        "type": "complements",
+        "target": "skill:awesome-copilot/context-map",
+        "origin": "curated",
+        "evidence": "repo-context chooses the cheapest tool for a question; context-map plans which files a change touches"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/context-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/repo-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: repo"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/context-manager",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/c4-context",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/context-manager",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/context-engineering",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
       }
     ],
     "skill:neo-pragnya/research-questionnaire": [

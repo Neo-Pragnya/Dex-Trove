@@ -13,6 +13,18 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.4] — 2026-11-04
+
+### Added
+
+- **`skill:neo-pragnya/repo-context`:** understand a repository using far fewer tokens. It starts from a small map, then picks Serena,
+  repomix, Graphify, `grep` or a plain read, by what measured cheapest for the question. The first wrapper for a new Ananke operation
+  (`ananke context`, 0.3.21). Serena is GPL-3.0-or-later and isn't included: the skill says how to run it as its own server.
+- The capability matrix now names `ananke context` for context retrieval.
+- A roadmap, in `ROADMAP.md`.
+
+---
+
 ## [0.3.3] — 2026-11-03
 
 ### Security

@@ -17,7 +17,7 @@ the harness that runs it. To choose between kinds, see [Which artifact when](whi
 
 | Kind | What it is | Loaded when | Who decides | Runs code? | In the trove |
 | --- | --- | --- | --- | --- | --- |
-| [skill](#skill) | a folder of know-how and helpers | the task matches its description | the model | if it bundles scripts (62 do) | 900 |
+| [skill](#skill) | a folder of know-how and helpers | the task matches its description | the model | if it bundles scripts (62 do) | 901 |
 | [agent](#agent) | a persona with its own instructions and tools | you pick it, or another agent delegates | you or a parent agent | through its tools | 522 |
 | [instruction](#instruction) | standing rules for matching files | always, for files matching `applyTo` | the harness | no | 189 |
 | [prompt](#prompt) | a reusable request | you type the command | you | no | 9 |
@@ -25,7 +25,7 @@ the harness that runs it. To choose between kinds, see [Which artifact when](whi
 | [workflow](#workflow) | an agentic automation in CI | its trigger fires (schedule, issue, PR…) | the trigger | in CI, under declared permissions | 8 |
 | [plugin](#plugin) | a bundle of the above | when installed (its members then behave as above) | you | as its members | 72 |
 
-Counts are for the current trove (1707 items). The live numbers are on the [catalog](https://neo-pragnya.github.io/Dex-Trove/catalog/).
+Counts are for the current trove (1708 items). The live numbers are on the [catalog](https://neo-pragnya.github.io/Dex-Trove/catalog/).
 
 ## The whole journey
 

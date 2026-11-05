@@ -1,12 +1,12 @@
 {
- "generator": "dex-trove 0.3.3",
+ "generator": "dex-trove 0.3.4",
  "summary": {
   "claude": {
-   "pass": 1501,
+   "pass": 1502,
    "fail": 2
   },
   "copilot": {
-   "pass": 1698,
+   "pass": 1699,
    "fail": 9
   }
  },
@@ -5876,6 +5876,10 @@
    "copilot": "pass"
   },
   "skill:neo-pragnya/package-security-scan": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/repo-context": {
    "claude": "pass",
    "copilot": "pass"
   },

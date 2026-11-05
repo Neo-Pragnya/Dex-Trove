@@ -16,7 +16,7 @@ evidence, upstream source and install commands.
 
 | | |
 | --- | --- |
-| Items | 1707: 900 skills · 522 agents · 189 instructions · 72 plugins · 9 prompts · 8 workflows · 7 hooks |
+| Items | 1708: 901 skills · 522 agents · 189 instructions · 72 plugins · 9 prompts · 8 workflows · 7 hooks |
 | Sources | awesome-copilot · anthropic · superpowers · neo-pragnya (first-party) |
 | Refused | 46 (see [`trove/EXCLUDED.json`](trove/EXCLUDED.json)), e.g. Anthropic's proprietary `docx`/`pdf`/`pptx`/`xlsx` skills |
 

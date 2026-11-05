@@ -18,7 +18,7 @@ What is it? One value per item. Set from the catalog.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `skill` | 900 | A reusable procedure or body of know-how an agent loads on demand for one kind of task. | — |
+| `skill` | 901 | A reusable procedure or body of know-how an agent loads on demand for one kind of task. | — |
 | `agent` | 522 | A persona with its own objective and tool scope that a host can delegate work to. | — |
 | `instruction` | 189 | Persistent guidance (style, rules, conventions) applied broadly, often scoped to file globs. | — |
 | `prompt` | 9 | A reusable invocation: a slash command or prompt file run on request. | — |
@@ -104,7 +104,7 @@ Who typically uses it? Any number of values.
 | --- | --- | --- | --- |
 | `product-manager` | 22 | Owns the problem, requirements and priorities. | `pm`, `product-owner` |
 | `architect` | 165 | Owns structure, boundaries and technical direction. | `solution-architect`, `software-architect` |
-| `developer` | 499 | Writes and changes code. | `engineer`, `software-engineer`, `programmer` |
+| `developer` | 500 | Writes and changes code. | `engineer`, `software-engineer`, `programmer` |
 | `qa-engineer` | 177 | Plans and performs testing and quality assurance. | `test-engineer`, `quality-engineer`, `tester` |
 | `security-engineer` | 102 | Finds and fixes security risk. | `appsec`, `security` |
 | `devops-engineer` | 218 | Runs pipelines, infrastructure and production systems. | `sre`, `platform-engineer`, `ops` |
@@ -189,9 +189,9 @@ Where can Dex install it natively? Any number of values. Set from where `dex ins
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `claude-code` | 1503 | Installs into .claude/ (skills, agents, commands). | — |
-| `github-copilot` | 1707 | Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows). | — |
-| `ananke` | 1707 | Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke). | — |
+| `claude-code` | 1504 | Installs into .claude/ (skills, agents, commands). | — |
+| `github-copilot` | 1708 | Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows). | — |
+| `ananke` | 1708 | Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke). | — |
 
 ## Needs (`needs`)
 
@@ -199,7 +199,7 @@ What must be installed for it to run? Any number of values.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `text-only` | 1469 | Only Markdown and data: the agent reads it; nothing runs. | — |
+| `text-only` | 1470 | Only Markdown and data: the agent reads it; nothing runs. | — |
 | `python` | 188 | Bundles Python scripts or a Python project file. | — |
 | `node` | 28 | Bundles JavaScript or TypeScript, or a package.json. | — |
 | `shell` | 29 | Bundles sh, bash or zsh scripts. | — |
@@ -217,4 +217,4 @@ How established is it? One value per item.
 | `beta` | 4 | Usable; may still change. | — |
 | `experimental` | 0 | Early; expect gaps. | — |
 | `deprecated` | 0 | Kept for existing users; prefer its replacement. | — |
-| `unknown` | 1696 | The source doesn't say. Most upstream items. | — |
+| `unknown` | 1697 | The source doesn't say. Most upstream items. | — |
