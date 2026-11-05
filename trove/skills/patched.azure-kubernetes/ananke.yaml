@@ -1,7 +1,7 @@
 kind: skill
 namespace: patched
 name: azure-kubernetes
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:patched:azure-kubernetes
 summary: Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters.
 description: 'Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0

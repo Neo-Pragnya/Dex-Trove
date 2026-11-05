@@ -13,6 +13,14 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.8] — 2026-11-05
+
+### Security
+
+- **`skill:patched/azure-kubernetes`:** the Python Dockerfile template installs with `--require-hashes`, and the .NET one restores with `--locked-mode`, with instructions for making what they need.
+
+---
+
 ## [0.3.7] — 2026-11-05
 
 ### Added

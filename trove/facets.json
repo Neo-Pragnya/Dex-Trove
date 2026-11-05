@@ -150077,7 +150077,7 @@
   },
   "skill:patched/azure-kubernetes": {
    "schema_version": "1.0.0",
-   "artifact_ref": "patched/azure-kubernetes@1.0.0",
+   "artifact_ref": "patched/azure-kubernetes@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
