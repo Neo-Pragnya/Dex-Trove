@@ -32187,6 +32187,25 @@
         }
       ]
     },
+    "skill:neo-pragnya/map-a-repository": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "7b891bd904d5d054f8a168f25d284d406c0197858894c02fbc9328f15c793f18",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "map-a-repository"
+          },
+          "released_at": "2026-11-05T05:30:59+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:neo-pragnya/marvellous-aws-architecture-docs": {
       "releases": [
         {

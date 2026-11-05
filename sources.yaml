@@ -43,6 +43,9 @@ sources:
           - { title: "Ananke Plexus logo and infographics (the cosmic harness)", url: "https://github.com/Neo-Pragnya/Ananke-Plexus/tree/main/docs/assets" }
           - { title: "Plexus / constellation network visuals", url: "https://en.wikipedia.org/wiki/Plexus" }
           - { title: "Mermaid (MIT), the diagrams it brings to life", url: "https://github.com/mermaid-js/mermaid" }
+      map-a-repository:
+        inspired_by:
+          - { title: "FINOS CALM", url: "https://calm.finos.org/" }
       repo-context:
         inspired_by:
           - { title: "Serena (GPL-3.0-or-later; run as its own server, not included)", url: "https://github.com/oraios/serena" }

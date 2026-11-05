@@ -1,6 +1,6 @@
 {
-  "generator": "dex-trove 0.3.6",
-  "count": 1708,
+  "generator": "dex-trove 0.3.7",
+  "count": 1709,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -64525,6 +64525,51 @@
       "entry_hash": "686fa8be96fb5de526c2286849691639ca2dd2435ca63a794af0f649c124d224",
       "content_hash": "742d77d21cc4d2932a83135a69c0627592f20c91c22d12098ab5b6c32a9c5dca",
       "learned_at": "2026-10-20T19:00:31+00:00"
+    },
+    {
+      "id": "neo-pragnya/map-a-repository",
+      "kind": "skill",
+      "namespace": "neo-pragnya",
+      "name": "map-a-repository",
+      "title": "Map a repository",
+      "description": "Understand and explain a whole code repository or a folder of notebooks with Dev Guru: an offline file or local web interface with a code map, end-to-end flows, an ERD, API routes, a CALM architecture, quality, coverage, CVEs and an explanation of each notebook, including code in %%writefile cells. Use when asked to map, explain, onboard to or review a repository or a course or research folder, to show how it connects, or to find its database, routes or vulnerabilities.",
+      "tags": [
+        "neo-pragnya",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya.map-a-repository",
+      "source": {
+        "id": "neo-pragnya",
+        "title": "Neo Pragnya (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+        "commit": null,
+        "path": "map-a-repository",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.map-a-repository",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "",
+        "components": []
+      },
+      "inspired_by": [
+        {
+          "title": "FINOS CALM",
+          "url": "https://calm.finos.org/"
+        }
+      ],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "c878b0f40c250b3ce860cd9d4f34575f65e1ff899a8a9ad4c3f59f0133a544d2",
+      "content_hash": "7b891bd904d5d054f8a168f25d284d406c0197858894c02fbc9328f15c793f18",
+      "learned_at": "2026-11-05T05:30:59+00:00"
     },
     {
       "id": "neo-pragnya/marvellous-aws-architecture-docs",
