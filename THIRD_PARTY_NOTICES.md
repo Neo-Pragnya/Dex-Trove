@@ -1734,3 +1734,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## modern-screenshot (in the Impeccable skill)
+
+`trove/skills/impeccable.impeccable/scripts/modern-screenshot.umd.js` is [modern-screenshot](https://github.com/qq15725/modern-screenshot), bundled by Impeccable. MIT License, Copyright (c) 2021-present wxm. The full licence ships beside it as `modern-screenshot.LICENSE`.
