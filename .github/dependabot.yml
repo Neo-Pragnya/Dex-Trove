@@ -5,6 +5,11 @@ updates:
     schedule: { interval: weekly }
     open-pull-requests-limit: 5
     cooldown: { default-days: 7 }
+    ignore:
+      # pytest 9.2 removed a private API that pytest-bdd 9 needs, so every scenario fails to start.
+      - dependency-name: "pytest"
+        versions: [">=9.2"]
+
   - package-ecosystem: github-actions
     directory: /
     schedule: { interval: weekly }
@@ -15,3 +20,7 @@ updates:
     schedule: { interval: weekly }
     open-pull-requests-limit: 5
     cooldown: { default-days: 7 }
+    ignore:
+      # astro check refuses TypeScript 7. Take it when Astro supports it.
+      - dependency-name: "typescript"
+        versions: [">=7"]

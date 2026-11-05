@@ -60,22 +60,28 @@ The lookups read Python, JavaScript and TypeScript. For anything else they say s
 ## Using it by default in a project
 
 ```bash
-ananke context enable --dry-run   # see what would change
-ananke context enable             # detects the assistants this project uses
-ananke context enable --client kiro --client copilot
-ananke context disable            # removes exactly what was added
+ananke context enable --local --dry-run   # see what would change
+ananke context enable --local             # just you: nothing reaches a commit
+ananke context enable                     # the whole team: ordinary project files
+ananke context disable                    # removes exactly what was added
 ```
+
+| Setup | Tokens per chat |
+| --- | ---: |
+| The note (the default, and the cheapest) | about 80 |
+| Adding `--session-map`, which loads the map every Claude Code chat | about 1,200 more |
+| Serena connected | about 1,100 more |
 
 | Assistant | `--client` | Instructions go in |
 | --- | --- | --- |
-| Claude Code | `claude-code` | `CLAUDE.md`, plus a hook that loads the map each session |
+| Claude Code | `claude-code` | `CLAUDE.md`, or `CLAUDE.local.md` with `--local` |
 | OpenAI Codex | `codex` | `AGENTS.md` |
 | GitHub Copilot | `copilot` | `.github/copilot-instructions.md` |
 | Kiro | `kiro` | `.kiro/steering/ananke-context.md` |
 | Cursor | `cursor` | `.cursor/rules/ananke-context.mdc` |
 | Amazon Q | `amazon-q` | `.amazonq/rules/ananke-context.md` |
 
-Ask before enabling a project: it changes files other people share.
+With `--local`, each file goes in `.git/info/exclude`, and a file Git already tracks is left alone and named. Without it, ask first: it changes files other people share.
 
 ## Optional tools
 

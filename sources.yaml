@@ -65,6 +65,8 @@ sources:
     ref: main
     local: ../awesome-copilot
     license: { expected: MIT }
+    items:
+      eval-driven-dev: { withhold: "installed pixie-qa unpinned; use skill:patched/eval-driven-dev" }
 
   - id: anthropic
     title: Anthropic Agent Skills
@@ -76,6 +78,9 @@ sources:
     ref: main
     options: { roots: [skills] }
     license: { expected: per-item }
+    items:
+      claude-api: { withhold: "a script printed values derived from credentials; use skill:patched/claude-api" }
+      web-artifacts-builder: { withhold: "installed pnpm unpinned; use skill:patched/web-artifacts-builder" }
 
   - id: superpowers
     title: Superpowers (obra)
@@ -102,6 +107,7 @@ sources:
     ref: main
     options: { roots: [.github/plugins] }
     items:
+      azure-kubernetes: { withhold: "its Dockerfile templates use unpinned base images; use skill:patched/azure-kubernetes" }
       azure-cosmos-db-py: { withhold: "placeholder credentials in its examples trip package scanners" }
       azure-security-keyvault-secrets-java: { withhold: "placeholder credentials in its examples trip package scanners" }
     license: { expected: MIT }
@@ -112,13 +118,14 @@ sources:
       Agile delivery skills from the BMAD Method: analysis, product briefs, PRDs, architecture, UX, reviews and
       retrospectives. Redistributed under its MIT licence. Dex Trove isn't affiliated with or endorsed by BMad Code, LLC,
       which owns the BMad names and marks; see the upstream TRADEMARK.md.
-      Known issue in its core `bmad` skill: scripts/setup.py has a version regex that a crafted version string can hang,
-      for example from an edited lockfile. Interrupt the command if it stalls.
+      Its core `bmad` skill is a patched fork: use skill:patched/bmad.
     adapter: agent-skills
     repo: https://github.com/bmad-code-org/BMAD-METHOD
     ref: main
     options: { roots: [skills] }
     license: { expected: MIT }
+    items:
+      bmad: { withhold: "a version pattern can stall on crafted input; use skill:patched/bmad" }
 
   - id: impeccable
     title: Impeccable
@@ -149,6 +156,7 @@ sources:
     repo: https://github.com/K-Dense-AI/claude-scientific-skills
     ref: main
     items:
+      protocolsio-integration: { withhold: "use skill:patched/protocolsio-integration, with a clearer address check" }
       database-lookup: { withhold: "placeholder credentials in its examples trip package scanners" }
     license: { expected: MIT }
 
@@ -190,6 +198,18 @@ sources:
     items:
       hf-cloud-sagemaker-iam-preflight:
         forked_from: skill:huggingface/hf-cloud-sagemaker-iam-preflight
+      claude-api:
+        forked_from: skill:anthropic/claude-api
+      bmad:
+        forked_from: skill:bmad-method/bmad
+      protocolsio-integration:
+        forked_from: skill:scientific/protocolsio-integration
+      azure-kubernetes:
+        forked_from: skill:microsoft/azure-kubernetes
+      eval-driven-dev:
+        forked_from: skill:awesome-copilot/eval-driven-dev
+      web-artifacts-builder:
+        forked_from: skill:anthropic/web-artifacts-builder
 
 # Evaluated but not enabled (licences checked via GitHub API on 2026-10-19). Rendered on the docs Sources page.
 candidates:

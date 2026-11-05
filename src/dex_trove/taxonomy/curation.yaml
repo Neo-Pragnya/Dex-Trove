@@ -213,7 +213,7 @@ items:
     role: [designer, developer]
     domain: [frontend]
     evidence: "SKILL.md: distinctive, production-grade front-end interfaces"
-  anthropic/claude-api:
+  patched/claude-api:
     task: [build-ml, build-agents]
     methodology: [adlc]
     phase: [implementation]

@@ -13349,13 +13349,13 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/eval-driven-dev",
+        "target": "skill:bmad-method/bmad-eval",
         "origin": "inferred",
         "evidence": "shares name words: eval"
       },
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad-eval",
+        "target": "skill:patched/eval-driven-dev",
         "origin": "inferred",
         "evidence": "shares name words: eval"
       }
@@ -19043,7 +19043,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:microsoft/azure-kubernetes",
+        "target": "skill:patched/azure-kubernetes",
         "origin": "inferred",
         "evidence": "shares name words: kubernetes"
       }
@@ -20799,9 +20799,9 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/eval-driven-dev",
+        "target": "skill:awesome-copilot/project-workflow-analysis-blueprint-generator",
         "origin": "inferred",
-        "evidence": "shares name words: driven"
+        "evidence": "shares name words: workflow"
       }
     ],
     "instruction:awesome-copilot/springboot": [
@@ -25106,20 +25106,6 @@
         "target": "instruction:awesome-copilot/power-bi-report-design-best-practices",
         "origin": "inferred",
         "evidence": "shares name words: design"
-      }
-    ],
-    "skill:anthropic/claude-api": [
-      {
-        "type": "similar",
-        "target": "skill:claude-plugins/claude-automation-recommender",
-        "origin": "inferred",
-        "evidence": "shares name words: claude"
-      },
-      {
-        "type": "similar",
-        "target": "skill:claude-plugins/claude-md-improver",
-        "origin": "inferred",
-        "evidence": "shares name words: claude"
       }
     ],
     "skill:anthropic/frontend-design": [
@@ -30148,44 +30134,6 @@
         "target": "skill:microsoft/entra-app-registration",
         "origin": "inferred",
         "evidence": "shares name words: entra"
-      }
-    ],
-    "skill:awesome-copilot/eval-driven-dev": [
-      {
-        "type": "similar",
-        "target": "agent:wshobson/eval-judge",
-        "origin": "inferred",
-        "evidence": "shares name words: eval"
-      },
-      {
-        "type": "similar",
-        "target": "agent:wshobson/eval-orchestrator",
-        "origin": "inferred",
-        "evidence": "shares name words: eval"
-      },
-      {
-        "type": "similar",
-        "target": "agent:wshobson/llm-finetuning-eval-engineer",
-        "origin": "inferred",
-        "evidence": "shares name words: eval"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/pcf-model-driven-apps",
-        "origin": "inferred",
-        "evidence": "shares name words: driven"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/spec-driven-workflow-v1",
-        "origin": "inferred",
-        "evidence": "shares name words: driven"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/agentic-eval",
-        "origin": "inferred",
-        "evidence": "shares name words: eval"
       }
     ],
     "skill:awesome-copilot/exam-ready": [
@@ -38244,12 +38192,18 @@
         "evidence": "shares name words: from"
       }
     ],
-    "skill:bmad-method/bmad": [
+    "skill:bmad-method/bmad-advanced-elicitation": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad-advanced-elicitation",
+        "target": "instruction:awesome-copilot/dataverse-python-advanced-features",
         "origin": "inferred",
-        "evidence": "shares name words: bmad"
+        "evidence": "shares name words: advanced"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/dataverse-python-advanced-patterns",
+        "origin": "inferred",
+        "evidence": "shares name words: advanced"
       },
       {
         "type": "similar",
@@ -38272,50 +38226,6 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
-        "target": "skill:bmad-method/bmad-agent-po",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      }
-    ],
-    "skill:bmad-method/bmad-advanced-elicitation": [
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/dataverse-python-advanced-features",
-        "origin": "inferred",
-        "evidence": "shares name words: advanced"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/dataverse-python-advanced-patterns",
-        "origin": "inferred",
-        "evidence": "shares name words: advanced"
-      },
-      {
-        "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
-        "target": "skill:bmad-method/bmad-agent-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
-        "target": "skill:bmad-method/bmad-agent-architect",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
-        "target": "skill:bmad-method/bmad-agent-dev",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -38399,12 +38309,6 @@
     "skill:bmad-method/bmad-agent-dev": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -38430,6 +38334,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-po",
+        "origin": "inferred",
+        "evidence": "shares name words: agent, bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-ux-designer",
         "origin": "inferred",
         "evidence": "shares name words: agent, bmad"
       }
@@ -38437,12 +38347,6 @@
     "skill:bmad-method/bmad-agent-pm": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -38470,15 +38374,15 @@
         "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: agent, bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-ux-designer",
+        "origin": "inferred",
+        "evidence": "shares name words: agent, bmad"
       }
     ],
     "skill:bmad-method/bmad-agent-po": [
-      {
-        "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
@@ -38506,6 +38410,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: agent, bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-ux-designer",
         "origin": "inferred",
         "evidence": "shares name words: agent, bmad"
       }
@@ -38595,12 +38505,6 @@
       },
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -38628,6 +38532,12 @@
         "target": "skill:bmad-method/bmad-agent-pm",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
       }
     ],
     "skill:bmad-method/bmad-build": [
@@ -38651,13 +38561,13 @@
       },
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
+        "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       },
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad-advanced-elicitation",
+        "target": "skill:bmad-method/bmad-agent-analyst",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       },
@@ -38695,7 +38605,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
+        "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       },
@@ -38753,12 +38663,6 @@
     "skill:bmad-method/bmad-customize": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -38784,6 +38688,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -38791,12 +38701,6 @@
     "skill:bmad-method/bmad-deep-recon": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -38822,6 +38726,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -38853,13 +38763,13 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/eval-driven-dev",
+        "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
-        "evidence": "shares name words: eval"
+        "evidence": "shares name words: bmad"
       },
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
+        "target": "skill:bmad-method/bmad-agent-analyst",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -38879,12 +38789,6 @@
       },
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -38898,6 +38802,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-dev",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -38905,12 +38815,6 @@
     "skill:bmad-method/bmad-ingest": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -38936,6 +38840,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -38943,12 +38853,6 @@
     "skill:bmad-method/bmad-party-mode": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -38974,6 +38878,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -38981,12 +38891,6 @@
     "skill:bmad-method/bmad-prd": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -39012,6 +38916,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -39019,12 +38929,6 @@
     "skill:bmad-method/bmad-prfaq": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -39050,6 +38954,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -39087,7 +38997,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
+        "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -39171,12 +39081,6 @@
     "skill:bmad-method/bmad-retrospective": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -39202,6 +39106,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -39247,12 +39157,6 @@
     "skill:bmad-method/bmad-shard-pro": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -39278,6 +39182,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -39285,12 +39195,6 @@
     "skill:bmad-method/bmad-toolsmith": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -39316,6 +39220,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -39323,12 +39233,6 @@
     "skill:bmad-method/bmad-ux": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -39354,6 +39258,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -39361,12 +39271,6 @@
     "skill:bmad-method/bmad-walkthrough": [
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-advanced-elicitation",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
@@ -39392,6 +39296,12 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
         "origin": "inferred",
         "evidence": "shares name words: bmad"
       }
@@ -39615,12 +39525,6 @@
       },
       {
         "type": "similar",
-        "target": "skill:anthropic/claude-api",
-        "origin": "inferred",
-        "evidence": "shares name words: claude"
-      },
-      {
-        "type": "similar",
         "target": "skill:awesome-copilot/playwright-automation-fill-in-form",
         "origin": "inferred",
         "evidence": "shares name words: automation"
@@ -39630,18 +39534,24 @@
         "target": "skill:claude-plugins/claude-md-improver",
         "origin": "inferred",
         "evidence": "shares name words: claude"
+      },
+      {
+        "type": "similar",
+        "target": "skill:patched/claude-api",
+        "origin": "inferred",
+        "evidence": "shares name words: claude"
       }
     ],
     "skill:claude-plugins/claude-md-improver": [
       {
         "type": "similar",
-        "target": "skill:anthropic/claude-api",
+        "target": "skill:claude-plugins/claude-automation-recommender",
         "origin": "inferred",
         "evidence": "shares name words: claude"
       },
       {
         "type": "similar",
-        "target": "skill:claude-plugins/claude-automation-recommender",
+        "target": "skill:patched/claude-api",
         "origin": "inferred",
         "evidence": "shares name words: claude"
       }
@@ -43662,44 +43572,6 @@
         "evidence": "shares name words: azure, keyvault"
       }
     ],
-    "skill:microsoft/azure-kubernetes": [
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-iac-exporter",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-iac-generator",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-logic-apps-expert",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-policy-analyzer",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-principal-architect",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-saas-architect",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      }
-    ],
     "skill:microsoft/azure-kusto": [
       {
         "type": "similar",
@@ -47618,6 +47490,134 @@
         "evidence": "shares name words: selection"
       }
     ],
+    "skill:patched/azure-kubernetes": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-iac-exporter",
+        "origin": "inferred",
+        "evidence": "shares name words: azure"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-iac-generator",
+        "origin": "inferred",
+        "evidence": "shares name words: azure"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-logic-apps-expert",
+        "origin": "inferred",
+        "evidence": "shares name words: azure"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-policy-analyzer",
+        "origin": "inferred",
+        "evidence": "shares name words: azure"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-principal-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: azure"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/azure-saas-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: azure"
+      }
+    ],
+    "skill:patched/bmad": [
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-advanced-elicitation",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-dev",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      }
+    ],
+    "skill:patched/claude-api": [
+      {
+        "type": "similar",
+        "target": "skill:claude-plugins/claude-automation-recommender",
+        "origin": "inferred",
+        "evidence": "shares name words: claude"
+      },
+      {
+        "type": "similar",
+        "target": "skill:claude-plugins/claude-md-improver",
+        "origin": "inferred",
+        "evidence": "shares name words: claude"
+      }
+    ],
+    "skill:patched/eval-driven-dev": [
+      {
+        "type": "similar",
+        "target": "agent:wshobson/eval-judge",
+        "origin": "inferred",
+        "evidence": "shares name words: eval"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/eval-orchestrator",
+        "origin": "inferred",
+        "evidence": "shares name words: eval"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/llm-finetuning-eval-engineer",
+        "origin": "inferred",
+        "evidence": "shares name words: eval"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/pcf-model-driven-apps",
+        "origin": "inferred",
+        "evidence": "shares name words: driven"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/spec-driven-workflow-v1",
+        "origin": "inferred",
+        "evidence": "shares name words: driven"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/agentic-eval",
+        "origin": "inferred",
+        "evidence": "shares name words: eval"
+      }
+    ],
     "skill:patched/hf-cloud-sagemaker-iam-preflight": [
       {
         "type": "similar",
@@ -47654,6 +47654,44 @@
         "target": "skill:huggingface/hf-cloud-sagemaker-production-defaults",
         "origin": "inferred",
         "evidence": "shares name words: cloud, hf, sagemaker"
+      }
+    ],
+    "skill:patched/protocolsio-integration": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/apify-integration-expert",
+        "origin": "inferred",
+        "evidence": "shares name words: integration"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/power-platform-mcp-integration-expert",
+        "origin": "inferred",
+        "evidence": "shares name words: integration"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/auth-integration-engineer",
+        "origin": "inferred",
+        "evidence": "shares name words: integration"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/payment-integration",
+        "origin": "inferred",
+        "evidence": "shares name words: integration"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/x-api-integration",
+        "origin": "inferred",
+        "evidence": "shares name words: integration"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/payment-integration",
+        "origin": "inferred",
+        "evidence": "shares name words: integration"
       }
     ],
     "skill:scientific/analytical-method-validation": [
@@ -48644,44 +48682,6 @@
         "evidence": "shares name words: design"
       }
     ],
-    "skill:scientific/protocolsio-integration": [
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/apify-integration-expert",
-        "origin": "inferred",
-        "evidence": "shares name words: integration"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/power-platform-mcp-integration-expert",
-        "origin": "inferred",
-        "evidence": "shares name words: integration"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/auth-integration-engineer",
-        "origin": "inferred",
-        "evidence": "shares name words: integration"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/payment-integration",
-        "origin": "inferred",
-        "evidence": "shares name words: integration"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/x-api-integration",
-        "origin": "inferred",
-        "evidence": "shares name words: integration"
-      },
-      {
-        "type": "similar",
-        "target": "agent:wshobson/payment-integration",
-        "origin": "inferred",
-        "evidence": "shares name words: integration"
-      }
-    ],
     "skill:scientific/research-grants": [
       {
         "type": "similar",
@@ -49435,7 +49435,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/eval-driven-dev",
+        "target": "skill:patched/eval-driven-dev",
         "origin": "inferred",
         "evidence": "shares name words: driven"
       },

@@ -78412,159 +78412,6 @@
     }
    }
   },
-  "skill:anthropic/claude-api": {
-   "schema_version": "1.0.0",
-   "artifact_ref": "anthropic/claude-api@1.0.0",
-   "taxonomy_version": "1.1.0",
-   "facets": {
-    "kind": "skill",
-    "task": [
-     "build-agents",
-     "build-ml"
-    ],
-    "methodology": [
-     "adlc"
-    ],
-    "phase": [
-     "implementation"
-    ],
-    "role": [
-     "developer"
-    ],
-    "domain": [
-     "api",
-     "ml-ai"
-    ],
-    "framework": [
-     "mcp"
-    ],
-    "platform": [
-     "ananke",
-     "claude-code",
-     "github-copilot"
-    ],
-    "needs": [
-     "node",
-     "python"
-    ],
-    "maturity": "unknown"
-   },
-   "classification": {
-    "source": "curated",
-    "review_status": "approved"
-   },
-   "provenance": {
-    "task": {
-     "source": "curated",
-     "evidence": {
-      "build-agents": [
-       "curated: SKILL.md: building apps with the Claude API and SDKs"
-      ],
-      "build-ml": [
-       "curated: SKILL.md: building apps with the Claude API and SDKs"
-      ]
-     },
-     "also_suggested": {
-      "rules": [
-       "build-ml",
-       "debug",
-       "refactor"
-      ]
-     }
-    },
-    "methodology": {
-     "source": "curated",
-     "evidence": {
-      "adlc": [
-       "curated: SKILL.md: building apps with the Claude API and SDKs"
-      ]
-     }
-    },
-    "phase": {
-     "source": "curated",
-     "evidence": {
-      "implementation": [
-       "curated: SKILL.md: building apps with the Claude API and SDKs"
-      ]
-     }
-    },
-    "role": {
-     "source": "curated",
-     "evidence": {
-      "developer": [
-       "curated: SKILL.md: building apps with the Claude API and SDKs"
-      ]
-     },
-     "also_suggested": {
-      "rules": [
-       "data-scientist"
-      ]
-     }
-    },
-    "domain": {
-     "source": "curated",
-     "evidence": {
-      "api": [
-       "curated: SKILL.md: building apps with the Claude API and SDKs"
-      ],
-      "ml-ai": [
-       "curated: SKILL.md: building apps with the Claude API and SDKs"
-      ]
-     },
-     "also_suggested": {
-      "rules": [
-       "api",
-       "ml-ai"
-      ]
-     }
-    },
-    "framework": {
-     "source": "rules",
-     "evidence": {
-      "mcp": [
-       "description: 'MCP'"
-      ]
-     }
-    },
-    "needs": {
-     "source": "derived",
-     "evidence": {
-      "node": [
-       "shared/evals/report/build-report-lite.mjs",
-       "shared/evals/report/runner-scaffold.mjs"
-      ],
-      "python": [
-       "shared/preserved-thinking-migration/drop_block_probe.py",
-       "shared/preserved-thinking-migration/prefix_diff.py"
-      ]
-     }
-    },
-    "kind": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "kind"
-      ]
-     }
-    },
-    "platform": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "install layout"
-      ]
-     }
-    },
-    "maturity": {
-     "source": "derived",
-     "evidence": {
-      "unknown": [
-       "no maturity metadata"
-      ]
-     }
-    }
-   }
-  },
   "skill:anthropic/discernment-nudge": {
    "schema_version": "1.0.0",
    "artifact_ref": "anthropic/discernment-nudge@1.0.0",
@@ -79276,106 +79123,6 @@
      "evidence": {
       "text-only": [
        "no runnable files"
-      ]
-     }
-    },
-    "kind": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "kind"
-      ]
-     }
-    },
-    "platform": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "install layout"
-      ]
-     }
-    },
-    "maturity": {
-     "source": "derived",
-     "evidence": {
-      "unknown": [
-       "no maturity metadata"
-      ]
-     }
-    }
-   }
-  },
-  "skill:anthropic/web-artifacts-builder": {
-   "schema_version": "1.0.0",
-   "artifact_ref": "anthropic/web-artifacts-builder@1.0.0",
-   "taxonomy_version": "1.1.0",
-   "facets": {
-    "kind": "skill",
-    "task": [
-     "design-ui"
-    ],
-    "role": [
-     "designer"
-    ],
-    "domain": [
-     "frontend"
-    ],
-    "framework": [
-     "react"
-    ],
-    "platform": [
-     "ananke",
-     "claude-code",
-     "github-copilot"
-    ],
-    "needs": [
-     "shell"
-    ],
-    "maturity": "unknown"
-   },
-   "classification": {
-    "source": "rules",
-    "review_status": "review-pending"
-   },
-   "provenance": {
-    "task": {
-     "source": "rules",
-     "evidence": {
-      "design-ui": [
-       "description: 'ui'"
-      ]
-     }
-    },
-    "role": {
-     "source": "rules",
-     "evidence": {
-      "designer": [
-       "description: 'ui'"
-      ]
-     }
-    },
-    "domain": {
-     "source": "rules",
-     "evidence": {
-      "frontend": [
-       "description: 'frontend'"
-      ]
-     }
-    },
-    "framework": {
-     "source": "rules",
-     "evidence": {
-      "react": [
-       "description: 'React'"
-      ]
-     }
-    },
-    "needs": {
-     "source": "derived",
-     "evidence": {
-      "shell": [
-       "scripts/bundle-artifact.sh",
-       "scripts/init-artifact.sh"
       ]
      }
     },
@@ -95145,128 +94892,6 @@
      "evidence": {
       "text-only": [
        "no runnable files"
-      ]
-     }
-    },
-    "kind": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "kind"
-      ]
-     }
-    },
-    "platform": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "install layout"
-      ]
-     }
-    },
-    "maturity": {
-     "source": "derived",
-     "evidence": {
-      "unknown": [
-       "no maturity metadata"
-      ]
-     }
-    }
-   }
-  },
-  "skill:awesome-copilot/eval-driven-dev": {
-   "schema_version": "1.0.0",
-   "artifact_ref": "awesome-copilot/eval-driven-dev@1.0.0",
-   "taxonomy_version": "1.1.0",
-   "facets": {
-    "kind": "skill",
-    "task": [
-     "build-ml",
-     "write-tests"
-    ],
-    "phase": [
-     "testing"
-    ],
-    "role": [
-     "data-scientist",
-     "qa-engineer"
-    ],
-    "domain": [
-     "ml-ai"
-    ],
-    "language": [
-     "python"
-    ],
-    "platform": [
-     "ananke",
-     "claude-code",
-     "github-copilot"
-    ],
-    "needs": [
-     "python",
-     "shell"
-    ],
-    "maturity": "unknown"
-   },
-   "classification": {
-    "source": "rules",
-    "review_status": "review-pending"
-   },
-   "provenance": {
-    "task": {
-     "source": "rules",
-     "evidence": {
-      "build-ml": [
-       "title: 'LLM'"
-      ],
-      "write-tests": [
-       "description: 'tests'"
-      ]
-     }
-    },
-    "phase": {
-     "source": "rules",
-     "evidence": {
-      "testing": [
-       "description: 'tests'"
-      ]
-     }
-    },
-    "role": {
-     "source": "rules",
-     "evidence": {
-      "data-scientist": [
-       "title: 'LLM'"
-      ],
-      "qa-engineer": [
-       "description: 'QA'"
-      ]
-     }
-    },
-    "domain": {
-     "source": "rules",
-     "evidence": {
-      "ml-ai": [
-       "title: 'LLM'"
-      ]
-     }
-    },
-    "language": {
-     "source": "rules",
-     "evidence": {
-      "python": [
-       "title: 'Python'"
-      ]
-     }
-    },
-    "needs": {
-     "source": "derived",
-     "evidence": {
-      "python": [
-       "resources/verify_step6_completion.py"
-      ],
-      "shell": [
-       "resources/setup.sh"
       ]
      }
     },
@@ -121519,74 +121144,6 @@
     }
    }
   },
-  "skill:bmad-method/bmad": {
-   "schema_version": "1.0.0",
-   "artifact_ref": "bmad-method/bmad@1.0.0",
-   "taxonomy_version": "1.1.0",
-   "facets": {
-    "kind": "skill",
-    "task": [
-     "refactor"
-    ],
-    "platform": [
-     "ananke",
-     "claude-code",
-     "github-copilot"
-    ],
-    "needs": [
-     "python"
-    ],
-    "maturity": "unknown"
-   },
-   "classification": {
-    "source": "rules",
-    "review_status": "review-pending"
-   },
-   "provenance": {
-    "task": {
-     "source": "rules",
-     "evidence": {
-      "refactor": [
-       "description: 'migrate'"
-      ]
-     }
-    },
-    "needs": {
-     "source": "derived",
-     "evidence": {
-      "python": [
-       "scripts/config_utils.py",
-       "scripts/knowledge.py",
-       "scripts/list_templates.py"
-      ]
-     }
-    },
-    "kind": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "kind"
-      ]
-     }
-    },
-    "platform": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "install layout"
-      ]
-     }
-    },
-    "maturity": {
-     "source": "derived",
-     "evidence": {
-      "unknown": [
-       "no maturity metadata"
-      ]
-     }
-    }
-   }
-  },
   "skill:bmad-method/bmad-advanced-elicitation": {
    "schema_version": "1.0.0",
    "artifact_ref": "bmad-method/bmad-advanced-elicitation@1.0.0",
@@ -137974,160 +137531,6 @@
     }
    }
   },
-  "skill:microsoft/azure-kubernetes": {
-   "schema_version": "1.0.0",
-   "artifact_ref": "microsoft/azure-kubernetes@1.0.0",
-   "taxonomy_version": "1.1.0",
-   "facets": {
-    "kind": "skill",
-    "task": [
-     "operate",
-     "optimise-performance",
-     "provision-infrastructure",
-     "refactor",
-     "security-review"
-    ],
-    "phase": [
-     "design",
-     "operations"
-    ],
-    "role": [
-     "devops-engineer",
-     "security-engineer"
-    ],
-    "domain": [
-     "api",
-     "backend",
-     "infrastructure",
-     "observability",
-     "security"
-    ],
-    "framework": [
-     "azure",
-     "kubernetes"
-    ],
-    "platform": [
-     "ananke",
-     "claude-code",
-     "github-copilot"
-    ],
-    "needs": [
-     "text-only"
-    ],
-    "maturity": "unknown"
-   },
-   "classification": {
-    "source": "rules",
-    "review_status": "review-pending"
-   },
-   "provenance": {
-    "task": {
-     "source": "rules",
-     "evidence": {
-      "operate": [
-       "description: 'observab'"
-      ],
-      "optimise-performance": [
-       "description: 'optimize'"
-      ],
-      "provision-infrastructure": [
-       "name: 'kubernetes'"
-      ],
-      "refactor": [
-       "description: 'upgrade'"
-      ],
-      "security-review": [
-       "description: 'security'"
-      ]
-     }
-    },
-    "phase": {
-     "source": "rules",
-     "evidence": {
-      "design": [
-       "description: 'design'"
-      ],
-      "operations": [
-       "description: 'observab'"
-      ]
-     }
-    },
-    "role": {
-     "source": "rules",
-     "evidence": {
-      "devops-engineer": [
-       "name: 'kubernetes'"
-      ],
-      "security-engineer": [
-       "description: 'security'"
-      ]
-     }
-    },
-    "domain": {
-     "source": "rules",
-     "evidence": {
-      "api": [
-       "description: 'API'"
-      ],
-      "backend": [
-       "title: 'Service'"
-      ],
-      "infrastructure": [
-       "name: 'azure'"
-      ],
-      "observability": [
-       "description: 'observab'"
-      ],
-      "security": [
-       "description: 'security'"
-      ]
-     }
-    },
-    "framework": {
-     "source": "rules",
-     "evidence": {
-      "azure": [
-       "name: 'azure'"
-      ],
-      "kubernetes": [
-       "name: 'kubernetes'"
-      ]
-     }
-    },
-    "needs": {
-     "source": "derived",
-     "evidence": {
-      "text-only": [
-       "no runnable files"
-      ]
-     }
-    },
-    "kind": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "kind"
-      ]
-     }
-    },
-    "platform": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "install layout"
-      ]
-     }
-    },
-    "maturity": {
-     "source": "derived",
-     "evidence": {
-      "unknown": [
-       "no maturity metadata"
-      ]
-     }
-    }
-   }
-  },
   "skill:microsoft/azure-kusto": {
    "schema_version": "1.0.0",
    "artifact_ref": "microsoft/azure-kusto@1.0.0",
@@ -150014,7 +149417,7 @@
   },
   "skill:neo-pragnya/repo-context": {
    "schema_version": "1.0.0",
-   "artifact_ref": "neo-pragnya/repo-context@1.0.1",
+   "artifact_ref": "neo-pragnya/repo-context@1.0.2",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -150517,6 +149920,503 @@
     }
    }
   },
+  "skill:patched/azure-kubernetes": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "patched/azure-kubernetes@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "operate",
+     "optimise-performance",
+     "provision-infrastructure",
+     "refactor",
+     "security-review"
+    ],
+    "phase": [
+     "design",
+     "operations"
+    ],
+    "role": [
+     "devops-engineer",
+     "security-engineer"
+    ],
+    "domain": [
+     "api",
+     "backend",
+     "infrastructure",
+     "observability",
+     "security"
+    ],
+    "framework": [
+     "azure",
+     "kubernetes"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "operate": [
+       "description: 'observab'"
+      ],
+      "optimise-performance": [
+       "description: 'optimize'"
+      ],
+      "provision-infrastructure": [
+       "name: 'kubernetes'"
+      ],
+      "refactor": [
+       "description: 'upgrade'"
+      ],
+      "security-review": [
+       "description: 'security'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "design": [
+       "description: 'design'"
+      ],
+      "operations": [
+       "description: 'observab'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "devops-engineer": [
+       "name: 'kubernetes'"
+      ],
+      "security-engineer": [
+       "description: 'security'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "description: 'API'"
+      ],
+      "backend": [
+       "title: 'Service'"
+      ],
+      "infrastructure": [
+       "name: 'azure'"
+      ],
+      "observability": [
+       "description: 'observab'"
+      ],
+      "security": [
+       "description: 'security'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "azure": [
+       "name: 'azure'"
+      ],
+      "kubernetes": [
+       "name: 'kubernetes'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:patched/bmad": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "patched/bmad@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "refactor"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "refactor": [
+       "description: 'migrate'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/config_utils.py",
+       "scripts/knowledge.py",
+       "scripts/list_templates.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:patched/claude-api": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "patched/claude-api@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "build-agents",
+     "build-ml"
+    ],
+    "methodology": [
+     "adlc"
+    ],
+    "phase": [
+     "implementation"
+    ],
+    "role": [
+     "developer"
+    ],
+    "domain": [
+     "api",
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "node",
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "curated",
+    "review_status": "approved"
+   },
+   "provenance": {
+    "task": {
+     "source": "curated",
+     "evidence": {
+      "build-agents": [
+       "curated: SKILL.md: building apps with the Claude API and SDKs"
+      ],
+      "build-ml": [
+       "curated: SKILL.md: building apps with the Claude API and SDKs"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "build-ml",
+       "debug",
+       "refactor"
+      ]
+     }
+    },
+    "methodology": {
+     "source": "curated",
+     "evidence": {
+      "adlc": [
+       "curated: SKILL.md: building apps with the Claude API and SDKs"
+      ]
+     }
+    },
+    "phase": {
+     "source": "curated",
+     "evidence": {
+      "implementation": [
+       "curated: SKILL.md: building apps with the Claude API and SDKs"
+      ]
+     }
+    },
+    "role": {
+     "source": "curated",
+     "evidence": {
+      "developer": [
+       "curated: SKILL.md: building apps with the Claude API and SDKs"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "data-scientist"
+      ]
+     }
+    },
+    "domain": {
+     "source": "curated",
+     "evidence": {
+      "api": [
+       "curated: SKILL.md: building apps with the Claude API and SDKs"
+      ],
+      "ml-ai": [
+       "curated: SKILL.md: building apps with the Claude API and SDKs"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "api",
+       "ml-ai"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "node": [
+       "shared/evals/report/build-report-lite.mjs",
+       "shared/evals/report/runner-scaffold.mjs"
+      ],
+      "python": [
+       "shared/preserved-thinking-migration/drop_block_probe.py",
+       "shared/preserved-thinking-migration/prefix_diff.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:patched/eval-driven-dev": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "patched/eval-driven-dev@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "build-ml",
+     "write-tests"
+    ],
+    "phase": [
+     "testing"
+    ],
+    "role": [
+     "data-scientist",
+     "qa-engineer"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "language": [
+     "python"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python",
+     "shell"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "build-ml": [
+       "title: 'LLM'"
+      ],
+      "write-tests": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "testing": [
+       "description: 'tests'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "data-scientist": [
+       "title: 'LLM'"
+      ],
+      "qa-engineer": [
+       "description: 'QA'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "title: 'LLM'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "python": [
+       "title: 'Python'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "resources/verify_step6_completion.py"
+      ],
+      "shell": [
+       "resources/setup.sh"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
   "skill:patched/hf-cloud-sagemaker-iam-preflight": {
    "schema_version": "1.0.0",
    "artifact_ref": "patched/hf-cloud-sagemaker-iam-preflight@1.0.1",
@@ -150592,6 +150492,185 @@
       "python": [
        "scripts/check_role.py",
        "scripts/create_role.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:patched/protocolsio-integration": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "patched/protocolsio-integration@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "domain": [
+     "api"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "python"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "description: 'REST'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "python": [
+       "scripts/__init__.py",
+       "scripts/_common.py",
+       "scripts/pagination_helper.py"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:patched/web-artifacts-builder": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "patched/web-artifacts-builder@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "design-ui"
+    ],
+    "role": [
+     "designer"
+    ],
+    "domain": [
+     "frontend"
+    ],
+    "framework": [
+     "react"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "shell"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "design-ui": [
+       "description: 'ui'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "designer": [
+       "description: 'ui'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "frontend": [
+       "description: 'frontend'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "react": [
+       "description: 'React'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "shell": [
+       "scripts/bundle-artifact.sh",
+       "scripts/init-artifact.sh"
       ]
      }
     },
@@ -159567,85 +159646,6 @@
        "assets/requirements.txt",
        "scripts/_common.py",
        "scripts/_specificity.py"
-      ]
-     }
-    },
-    "kind": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "kind"
-      ]
-     }
-    },
-    "platform": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "install layout"
-      ]
-     }
-    },
-    "maturity": {
-     "source": "derived",
-     "evidence": {
-      "unknown": [
-       "no maturity metadata"
-      ]
-     }
-    }
-   }
-  },
-  "skill:scientific/protocolsio-integration": {
-   "schema_version": "1.0.0",
-   "artifact_ref": "scientific/protocolsio-integration@1.0.0",
-   "taxonomy_version": "1.1.0",
-   "facets": {
-    "kind": "skill",
-    "domain": [
-     "api"
-    ],
-    "framework": [
-     "mcp"
-    ],
-    "platform": [
-     "ananke",
-     "claude-code",
-     "github-copilot"
-    ],
-    "needs": [
-     "python"
-    ],
-    "maturity": "unknown"
-   },
-   "classification": {
-    "source": "rules",
-    "review_status": "review-pending"
-   },
-   "provenance": {
-    "domain": {
-     "source": "rules",
-     "evidence": {
-      "api": [
-       "description: 'REST'"
-      ]
-     }
-    },
-    "framework": {
-     "source": "rules",
-     "evidence": {
-      "mcp": [
-       "description: 'MCP'"
-      ]
-     }
-    },
-    "needs": {
-     "source": "derived",
-     "evidence": {
-      "python": [
-       "scripts/__init__.py",
-       "scripts/_common.py",
-       "scripts/pagination_helper.py"
       ]
      }
     },

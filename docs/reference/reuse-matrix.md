@@ -12,16 +12,16 @@ with its reason.
 
 | Source | Reused as-is | Kinds | Licences (evidence from licence text) | Reviewed facets | Curated relations | Forks | Bundle code | Excluded |
 | --- | ---: | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| `anthropic` | 14 | skill 14 | Apache-2.0 14 | 5 | 3 | 0 | 7 | 5 |
-| `awesome-copilot` | 928 | agent 220, hook 7, instruction 189, plugin 72, skill 432, workflow 8 | MIT 919, Apache-2.0 9 | 0 | 4 | 0 | 48 | 41 |
-| `bmad-method` | 33 | skill 33 | MIT 33 | 0 | 2 | 0 | 14 | 0 |
+| `anthropic` | 12 | skill 12 | Apache-2.0 12 | 4 | 3 | 0 | 5 | 7 |
+| `awesome-copilot` | 927 | agent 220, hook 7, instruction 189, plugin 72, skill 431, workflow 8 | MIT 918, Apache-2.0 9 | 0 | 4 | 0 | 47 | 42 |
+| `bmad-method` | 32 | skill 32 | MIT 32 | 0 | 2 | 0 | 13 | 1 |
 | `claude-plugins` | 24 | skill 24 | Apache-2.0 24 | 0 | 0 | 0 | 7 | 3 |
 | `huggingface` | 25 | skill 25 | Apache-2.0 25 | 0 | 0 | 0 | 9 | 1 |
 | `impeccable` | 1 | skill 1 | Apache-2.0 1 | 0 | 1 | 0 | 1 | 0 |
-| `microsoft` | 180 | skill 180 | MIT 180 | 0 | 0 | 0 | 21 | 9 |
+| `microsoft` | 179 | skill 179 | MIT 179 | 0 | 0 | 0 | 21 | 10 |
 | `neo-pragnya` | 12 | skill 12 | MIT 12 | 11 | 16 | 0 | 11 | 0 |
-| `patched` | 1 | skill 1 | Apache-2.0 1 | 0 | 0 | 1 | 1 | 0 |
-| `scientific` | 164 | skill 164 | MIT 152, Apache-2.0 8, BSD-3-Clause 3, CC-BY-4.0 1 | 0 | 0 | 0 | 112 | 13 |
+| `patched` | 7 | skill 7 | MIT 4, Apache-2.0 3 | 1 | 0 | 7 | 6 | 0 |
+| `scientific` | 163 | skill 163 | MIT 151, Apache-2.0 8, BSD-3-Clause 3, CC-BY-4.0 1 | 0 | 0 | 0 | 111 | 14 |
 | `spec-kit` | 9 | prompt 9 | MIT 9 | 0 | 6 | 0 | 0 | 0 |
 | `superpowers` | 15 | skill 15 | MIT 15 | 13 | 22 | 0 | 3 | 0 |
 | `voltagent` | 165 | agent 165 | MIT 165 | 0 | 0 | 0 | 0 | 1 |
@@ -32,16 +32,19 @@ with its reason.
 | Source | Reason | Items |
 | --- | --- | ---: |
 | `anthropic` | license-denied | 5 |
+| `anthropic` | withheld | 2 |
 | `awesome-copilot` | out-of-scope | 32 |
 | `awesome-copilot` | secret-shaped | 9 |
+| `awesome-copilot` | withheld | 1 |
+| `bmad-method` | withheld | 1 |
 | `claude-plugins` | duplicate | 2 |
 | `claude-plugins` | license-denied | 1 |
 | `huggingface` | withheld | 1 |
 | `microsoft` | secret-shaped | 7 |
-| `microsoft` | withheld | 2 |
+| `microsoft` | withheld | 3 |
 | `scientific` | secret-shaped | 6 |
 | `scientific` | license-denied | 6 |
-| `scientific` | withheld | 1 |
+| `scientific` | withheld | 2 |
 | `voltagent` | withheld | 1 |
 | `wshobson` | name-collision | 65 |
 

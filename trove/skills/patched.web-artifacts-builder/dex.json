@@ -1,0 +1,51 @@
+{
+  "id": "patched/web-artifacts-builder",
+  "kind": "skill",
+  "namespace": "patched",
+  "name": "web-artifacts-builder",
+  "title": "Web Artifacts Builder",
+  "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+  "tags": [
+    "executes-code",
+    "patched",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/patched.web-artifacts-builder",
+  "source": {
+    "id": "patched",
+    "title": "Patched forks",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+    "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+    "path": "web-artifacts-builder",
+    "url": null,
+    "author": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "verdict": "allow",
+    "evidence": "web-artifacts-builder/LICENSE: Apache-2.0 text",
+    "notice": "Copyright 2026 Anthropic, PBC.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "CHANGES.md",
+    "LICENSE",
+    "SKILL.md",
+    "scripts/bundle-artifact.sh",
+    "scripts/init-artifact.sh",
+    "scripts/shadcn-components.tar.gz"
+  ],
+  "entry_hash": "724ba79792edbb607815eeb7f9fcbccb0ef4145c60bdd03f59475cd40056285b",
+  "content_hash": "6416b9ca537712c724a82f2edac710107a68741f33a91ff92cac8b42f5de9bb2",
+  "learned_at": "2026-11-05T04:29:20+00:00",
+  "forked_from": {
+    "key": "skill:anthropic/web-artifacts-builder",
+    "version": "1.0.0",
+    "content_hash": "07bcc6006014650bfcb78c085a4b7eabc77135614863061727c2005b05334252"
+  }
+}

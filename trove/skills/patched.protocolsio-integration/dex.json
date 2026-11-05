@@ -1,0 +1,62 @@
+{
+  "id": "patched/protocolsio-integration",
+  "kind": "skill",
+  "namespace": "patched",
+  "name": "protocolsio-integration",
+  "title": "protocols.io Integration",
+  "description": "Reads, validates, and safely exports protocols.io data with current official REST/MCP contracts, or creates non-executing mutation plans. The bundled client makes bounded official-host GET requests only with explicit --execute. Use only for tasks explicitly targeting protocols.io or an exact protocols.io protocol version.",
+  "tags": [
+    "executes-code",
+    "patched",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/patched.protocolsio-integration",
+  "source": {
+    "id": "patched",
+    "title": "Patched forks",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+    "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+    "path": "protocolsio-integration",
+    "url": null,
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2025 K-Dense Inc.",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": true,
+  "members": [],
+  "files": [
+    "CHANGES.md",
+    "LICENSE",
+    "SKILL.md",
+    "assets/protocol-snapshot.schema.json",
+    "references/additional_features.md",
+    "references/authentication.md",
+    "references/discussions.md",
+    "references/file_manager.md",
+    "references/protocols_api.md",
+    "references/workspaces.md",
+    "scripts/__init__.py",
+    "scripts/_common.py",
+    "scripts/pagination_helper.py",
+    "scripts/plan_write_request.py",
+    "scripts/protocols_read.py",
+    "scripts/validate_auth_config.py",
+    "scripts/validate_protocol_json.py"
+  ],
+  "entry_hash": "4afc4222075d35b8505bb58d025f7ea651f0fd8165d52d6497e79d3f4720223b",
+  "content_hash": "9395882b965a9d31fa3256aace9522dada6b06a342433d93f89f2b7f7a62273e",
+  "learned_at": "2026-11-05T04:29:20+00:00",
+  "forked_from": {
+    "key": "skill:scientific/protocolsio-integration",
+    "version": "1.0.0",
+    "content_hash": "d6605f00b3080d0f21ce76ba8b9846051cf64832d85254db35ef413b44796a3c"
+  }
+}

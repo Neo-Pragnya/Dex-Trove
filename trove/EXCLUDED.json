@@ -1,6 +1,14 @@
 {
-  "count": 138,
+  "count": 144,
   "excluded": [
+    {
+      "source": "anthropic",
+      "kind": "skill",
+      "name": "claude-api",
+      "path": "skills/claude-api",
+      "reason": "withheld",
+      "detail": "a script printed values derived from credentials; use skill:patched/claude-api"
+    },
     {
       "source": "anthropic",
       "kind": "skill",
@@ -32,6 +40,14 @@
       "path": "skills/pptx",
       "reason": "license-denied",
       "detail": "LicenseRef-Proprietary — skills/pptx/LICENSE.txt: restrictive terms ('governed by your agreement with')"
+    },
+    {
+      "source": "anthropic",
+      "kind": "skill",
+      "name": "web-artifacts-builder",
+      "path": "skills/web-artifacts-builder",
+      "reason": "withheld",
+      "detail": "installed pnpm unpinned; use skill:patched/web-artifacts-builder"
     },
     {
       "source": "anthropic",
@@ -348,6 +364,14 @@
     {
       "source": "awesome-copilot",
       "kind": "skill",
+      "name": "eval-driven-dev",
+      "path": "skills/eval-driven-dev",
+      "reason": "withheld",
+      "detail": "installed pixie-qa unpinned; use skill:patched/eval-driven-dev"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "skill",
       "name": "namecheap",
       "path": "skills/namecheap",
       "reason": "secret-shaped",
@@ -368,6 +392,14 @@
       "path": "skills/security-review",
       "reason": "secret-shaped",
       "detail": "generic-credential references/secret-patterns.md:142; generic-credential references/secret-patterns.md:160; aws-access-key references/secret-patterns.md:161"
+    },
+    {
+      "source": "bmad-method",
+      "kind": "skill",
+      "name": "bmad",
+      "path": "skills/bmad",
+      "reason": "withheld",
+      "detail": "a version pattern can stall on crafted input; use skill:patched/bmad"
     },
     {
       "source": "claude-plugins",
@@ -416,6 +448,14 @@
       "path": ".github/plugins/azure-sdk-python/skills/azure-cosmos-db-py",
       "reason": "withheld",
       "detail": "placeholder credentials in its examples trip package scanners"
+    },
+    {
+      "source": "microsoft",
+      "kind": "skill",
+      "name": "azure-kubernetes",
+      "path": ".github/plugins/azure-skills/skills/azure-kubernetes",
+      "reason": "withheld",
+      "detail": "its Dockerfile templates use unpinned base images; use skill:patched/azure-kubernetes"
     },
     {
       "source": "microsoft",
@@ -552,6 +592,14 @@
       "path": "skills/primekg",
       "reason": "license-denied",
       "detail": "Unknown — frontmatter license: 'Unknown'"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "protocolsio-integration",
+      "path": "skills/protocolsio-integration",
+      "reason": "withheld",
+      "detail": "use skill:patched/protocolsio-integration, with a clearer address check"
     },
     {
       "source": "scientific",

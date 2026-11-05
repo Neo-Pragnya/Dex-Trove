@@ -15756,7 +15756,8 @@
           "released_at": "2026-10-20T03:29:00+00:00",
           "channel": "stable"
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:anthropic/discernment-nudge": {
       "releases": [
@@ -15963,7 +15964,8 @@
           "released_at": "2026-10-20T03:29:00+00:00",
           "channel": "stable"
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:anthropic/webapp-testing": {
       "releases": [
@@ -19307,7 +19309,8 @@
           "released_at": "2026-10-20T03:28:53+00:00",
           "channel": "stable"
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:awesome-copilot/exam-ready": {
       "releases": [
@@ -25088,7 +25091,8 @@
           "released_at": "2026-11-03T06:16:29+00:00",
           "channel": "stable"
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:bmad-method/bmad-advanced-elicitation": {
       "releases": [
@@ -29465,7 +29469,8 @@
           "released_at": "2026-11-03T06:19:31+00:00",
           "channel": "stable"
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:microsoft/azure-kusto": {
       "releases": [
@@ -32267,6 +32272,21 @@
           },
           "released_at": "2026-11-05T01:37:24+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.2",
+          "content_hash": "7a7779430542576626e230126c7d5c65da0c1081c187a28abb8e3527c99efc95",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "repo-context"
+          },
+          "released_at": "2026-11-05T04:32:15+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -32333,6 +32353,308 @@
         }
       ]
     },
+    "skill:patched/azure-kubernetes": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "76e30bba09b029dd80363a4a1f5482043d8bc3470b4318dd525434d2a2f5809f",
+          "entry": "SKILL.md",
+          "files": [
+            "CHANGES.md",
+            "LICENSE",
+            "SKILL.md",
+            "azure-kubernetes-app-deploy/SKILL.md",
+            "azure-kubernetes-app-deploy/knowledge-packs/frameworks/aspnet-core.md",
+            "azure-kubernetes-app-deploy/knowledge-packs/frameworks/django.md",
+            "azure-kubernetes-app-deploy/knowledge-packs/frameworks/express.md",
+            "azure-kubernetes-app-deploy/knowledge-packs/frameworks/fastapi.md",
+            "azure-kubernetes-app-deploy/knowledge-packs/frameworks/flask.md",
+            "azure-kubernetes-app-deploy/knowledge-packs/frameworks/go.md",
+            "azure-kubernetes-app-deploy/knowledge-packs/frameworks/nestjs.md",
+            "azure-kubernetes-app-deploy/knowledge-packs/frameworks/nextjs.md",
+            "azure-kubernetes-app-deploy/knowledge-packs/frameworks/spring-boot.md",
+            "azure-kubernetes-app-deploy/phases/quick-deploy.md",
+            "azure-kubernetes-app-deploy/references/base-images.md",
+            "azure-kubernetes-app-deploy/references/detection.md",
+            "azure-kubernetes-app-deploy/references/rollback.md",
+            "azure-kubernetes-app-deploy/references/safeguards.md",
+            "azure-kubernetes-app-deploy/references/workload-identity.md",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/dotnet.Dockerfile.template",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/dotnet.dockerignore",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/go.Dockerfile.template",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/go.dockerignore",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/java.Dockerfile.template",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/java.dockerignore",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/node.Dockerfile.template",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/node.dockerignore",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/python.Dockerfile.template",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/python.dockerignore",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/rust.Dockerfile.template",
+            "azure-kubernetes-app-deploy/templates/dockerfiles/rust.dockerignore",
+            "azure-kubernetes-app-deploy/templates/github-actions/deploy.yml",
+            "azure-kubernetes-app-deploy/templates/k8s/configmap.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/deployment.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/gateway.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/hpa.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/httproute.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/ingress.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/namespace.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/networkpolicy.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/pdb.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/service.yaml",
+            "azure-kubernetes-app-deploy/templates/k8s/serviceaccount.yaml",
+            "azure-kubernetes-app-deploy/templates/mermaid/architecture-diagram.md",
+            "azure-kubernetes-app-deploy/templates/mermaid/summary-dashboard.md",
+            "azure-kubernetes-automatic-readiness/SKILL.md",
+            "azure-kubernetes-automatic-readiness/references/common-fixes.md",
+            "azure-kubernetes-automatic-readiness/references/constraint-spec-v1.yaml",
+            "azure-kubernetes-automatic-readiness/references/mcp-integration.md",
+            "azure-kubernetes-automatic-readiness/references/migration-guide-summary.md",
+            "azure-kubernetes-automatic-readiness/scripts/sanitize-readiness-input.jq",
+            "references/azure-aks-autoscaler.md",
+            "references/azure-aks-nap-readiness.md",
+            "references/azure-aks-rightsizing.md",
+            "references/azure-aks-spot.md",
+            "references/azure-aks-vpa.md",
+            "references/cli-reference.md",
+            "references/optional-aks-operations.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+            "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+            "path": "azure-kubernetes"
+          },
+          "released_at": "2026-11-05T04:29:19+00:00",
+          "channel": "stable",
+          "parent": {
+            "key": "skill:microsoft/azure-kubernetes",
+            "version": "1.0.0",
+            "content_hash": "39e21369a68ac17b8dbe42151f3608bc6dd5fa59e100d794eef03cfcf2bc6e98"
+          }
+        }
+      ]
+    },
+    "skill:patched/bmad": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "84a6bb4a38eafc41cf6db184926b5d3919547ce3df5700eeeb3e8109b8c8de53",
+          "entry": "SKILL.md",
+          "files": [
+            "CHANGES.md",
+            "LICENSE",
+            "SKILL.md",
+            "assets/config.template.toml",
+            "bmod.toml",
+            "references/help.md",
+            "references/initiative.md",
+            "references/migrate.md",
+            "references/setup.md",
+            "scripts/config_utils.py",
+            "scripts/knowledge.py",
+            "scripts/list_templates.py",
+            "scripts/memlog.py",
+            "scripts/migrate_v6.py",
+            "scripts/render_skill.py",
+            "scripts/resolve_config.py",
+            "scripts/resolve_customization.py",
+            "scripts/roster.py",
+            "scripts/setup.py",
+            "scripts/setup_check.py",
+            "scripts/stamp_release.py",
+            "scripts/tests/test_config_utils.py",
+            "scripts/tests/test_knowledge_migrations.py",
+            "scripts/tests/test_list_templates.py",
+            "scripts/tests/test_memlog.py",
+            "scripts/tests/test_render_skill.py",
+            "scripts/tests/test_resolve_config.py",
+            "scripts/tests/test_resolve_customization.py",
+            "scripts/tests/test_roster.py",
+            "scripts/tests/test_setup_check.py",
+            "scripts/tests/test_stamp_release.py",
+            "scripts/tests/test_validate_manifests.py",
+            "scripts/validate_manifests.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+            "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+            "path": "bmad"
+          },
+          "released_at": "2026-11-05T04:29:20+00:00",
+          "channel": "stable",
+          "parent": {
+            "key": "skill:bmad-method/bmad",
+            "version": "1.0.0",
+            "content_hash": "032de9a8a7eade3585b0427bb887f6d5e707484971dc8e6057c31bb37aa822e7"
+          }
+        }
+      ]
+    },
+    "skill:patched/claude-api": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "1c0ef042b9b74da7afd229bf63f67578b048a7c5f06f62a0c7e27d89ca95394e",
+          "entry": "SKILL.md",
+          "files": [
+            "CHANGES.md",
+            "LICENSE",
+            "SKILL.md",
+            "csharp/claude-api/README.md",
+            "csharp/claude-api/batches.md",
+            "csharp/claude-api/files-api.md",
+            "csharp/claude-api/streaming.md",
+            "csharp/claude-api/tool-use.md",
+            "curl/examples.md",
+            "curl/managed-agents.md",
+            "go/claude-api/README.md",
+            "go/claude-api/files-api.md",
+            "go/claude-api/streaming.md",
+            "go/claude-api/tool-use.md",
+            "go/managed-agents/README.md",
+            "java/claude-api/README.md",
+            "java/claude-api/files-api.md",
+            "java/claude-api/streaming.md",
+            "java/claude-api/tool-use.md",
+            "java/managed-agents/README.md",
+            "php/claude-api/README.md",
+            "php/claude-api/batches.md",
+            "php/claude-api/files-api.md",
+            "php/claude-api/streaming.md",
+            "php/claude-api/tool-use.md",
+            "php/managed-agents/README.md",
+            "python/claude-api/README.md",
+            "python/claude-api/batches.md",
+            "python/claude-api/files-api.md",
+            "python/claude-api/sdk-upgrade.md",
+            "python/claude-api/streaming.md",
+            "python/claude-api/tool-use.md",
+            "python/managed-agents/README.md",
+            "ruby/claude-api/README.md",
+            "ruby/claude-api/streaming.md",
+            "ruby/claude-api/tool-use.md",
+            "ruby/managed-agents/README.md",
+            "shared/admin-api.md",
+            "shared/agent-design.md",
+            "shared/anthropic-cli.md",
+            "shared/claude-platform-on-aws.md",
+            "shared/cost-optimization.md",
+            "shared/error-codes.md",
+            "shared/evals/build-eval.md",
+            "shared/evals/cost-hillclimb.md",
+            "shared/evals/eval-audit.md",
+            "shared/evals/eval-hillclimb.md",
+            "shared/evals/report/SCHEMA.md",
+            "shared/evals/report/build-report-lite.mjs",
+            "shared/evals/report/runner-scaffold.mjs",
+            "shared/live-sources.md",
+            "shared/managed-agents-api-reference.md",
+            "shared/managed-agents-client-patterns.md",
+            "shared/managed-agents-core.md",
+            "shared/managed-agents-environments.md",
+            "shared/managed-agents-events.md",
+            "shared/managed-agents-memory.md",
+            "shared/managed-agents-multiagent.md",
+            "shared/managed-agents-onboarding-from-quickstart.md",
+            "shared/managed-agents-onboarding-from-url.md",
+            "shared/managed-agents-onboarding.md",
+            "shared/managed-agents-outcomes.md",
+            "shared/managed-agents-overview.md",
+            "shared/managed-agents-quickstarts/bug-hunter.md",
+            "shared/managed-agents-quickstarts/contract-tracker.md",
+            "shared/managed-agents-quickstarts/data-analyst.md",
+            "shared/managed-agents-quickstarts/deep-researcher.md",
+            "shared/managed-agents-quickstarts/explainer-video-maker.md",
+            "shared/managed-agents-quickstarts/field-monitor.md",
+            "shared/managed-agents-quickstarts/incident-commander.md",
+            "shared/managed-agents-quickstarts/performance-tuner.md",
+            "shared/managed-agents-quickstarts/sprint-retro-facilitator.md",
+            "shared/managed-agents-quickstarts/structured-extractor.md",
+            "shared/managed-agents-quickstarts/support-agent.md",
+            "shared/managed-agents-quickstarts/support-to-eng-escalator.md",
+            "shared/managed-agents-quickstarts/watchlist-scanner.md",
+            "shared/managed-agents-scheduled-deployments.md",
+            "shared/managed-agents-self-hosted-sandboxes.md",
+            "shared/managed-agents-tools.md",
+            "shared/managed-agents-webhooks.md",
+            "shared/model-migration.md",
+            "shared/models.md",
+            "shared/platform-availability.md",
+            "shared/preserved-thinking-migration.md",
+            "shared/preserved-thinking-migration/causes.md",
+            "shared/preserved-thinking-migration/drop_block_probe.py",
+            "shared/preserved-thinking-migration/prefix_diff.py",
+            "shared/prompt-audit.md",
+            "shared/prompt-caching.md",
+            "shared/token-counting.md",
+            "shared/tool-use-concepts.md",
+            "typescript/claude-api/README.md",
+            "typescript/claude-api/batches.md",
+            "typescript/claude-api/files-api.md",
+            "typescript/claude-api/streaming.md",
+            "typescript/claude-api/tool-use.md",
+            "typescript/managed-agents/README.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+            "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+            "path": "claude-api"
+          },
+          "released_at": "2026-11-05T04:29:20+00:00",
+          "channel": "stable",
+          "parent": {
+            "key": "skill:anthropic/claude-api",
+            "version": "1.0.0",
+            "content_hash": "e10c69eb92f2732dce553511640ee8472c3a339dcb035448c3c24c6685163566"
+          }
+        }
+      ]
+    },
+    "skill:patched/eval-driven-dev": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "ab47ff83df25d6502525f5038585c8115aedd3c283981e2033775a778d65761c",
+          "entry": "SKILL.md",
+          "files": [
+            "CHANGES.md",
+            "LICENSE",
+            "SKILL.md",
+            "references/1-a-project-analysis.md",
+            "references/1-b-entry-point.md",
+            "references/1-c-eval-criteria.md",
+            "references/2a-instrumentation.md",
+            "references/2b-implement-runnable.md",
+            "references/2c-capture-and-verify-trace.md",
+            "references/3-define-evaluators.md",
+            "references/4-build-dataset.md",
+            "references/5-run-tests.md",
+            "references/6-analyze-outcomes.md",
+            "references/evaluators.md",
+            "references/runnable-examples/cli-app.md",
+            "references/runnable-examples/fastapi-web-server.md",
+            "references/runnable-examples/standalone-function.md",
+            "references/testing-api.md",
+            "references/wrap-api.md",
+            "resources/pixie-requirements.txt",
+            "resources/setup.sh",
+            "resources/verify_step6_completion.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+            "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+            "path": "eval-driven-dev"
+          },
+          "released_at": "2026-11-05T04:29:20+00:00",
+          "channel": "stable",
+          "parent": {
+            "key": "skill:awesome-copilot/eval-driven-dev",
+            "version": "1.0.0",
+            "content_hash": "43812159cdcd0cd50e6a3115f6d50940071bfcc627b0048c7d15a4080a4c639a"
+          }
+        }
+      ]
+    },
     "skill:patched/hf-cloud-sagemaker-iam-preflight": {
       "releases": [
         {
@@ -32385,6 +32707,75 @@
             "key": "skill:huggingface/hf-cloud-sagemaker-iam-preflight",
             "version": "1.0.0",
             "content_hash": "08901f13e87d224e15ef134170832b9166e9a854f818846d4c84a2688d03351a"
+          }
+        }
+      ]
+    },
+    "skill:patched/protocolsio-integration": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "9395882b965a9d31fa3256aace9522dada6b06a342433d93f89f2b7f7a62273e",
+          "entry": "SKILL.md",
+          "files": [
+            "CHANGES.md",
+            "LICENSE",
+            "SKILL.md",
+            "assets/protocol-snapshot.schema.json",
+            "references/additional_features.md",
+            "references/authentication.md",
+            "references/discussions.md",
+            "references/file_manager.md",
+            "references/protocols_api.md",
+            "references/workspaces.md",
+            "scripts/__init__.py",
+            "scripts/_common.py",
+            "scripts/pagination_helper.py",
+            "scripts/plan_write_request.py",
+            "scripts/protocols_read.py",
+            "scripts/validate_auth_config.py",
+            "scripts/validate_protocol_json.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+            "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+            "path": "protocolsio-integration"
+          },
+          "released_at": "2026-11-05T04:29:20+00:00",
+          "channel": "stable",
+          "parent": {
+            "key": "skill:scientific/protocolsio-integration",
+            "version": "1.0.0",
+            "content_hash": "d6605f00b3080d0f21ce76ba8b9846051cf64832d85254db35ef413b44796a3c"
+          }
+        }
+      ]
+    },
+    "skill:patched/web-artifacts-builder": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "6416b9ca537712c724a82f2edac710107a68741f33a91ff92cac8b42f5de9bb2",
+          "entry": "SKILL.md",
+          "files": [
+            "CHANGES.md",
+            "LICENSE",
+            "SKILL.md",
+            "scripts/bundle-artifact.sh",
+            "scripts/init-artifact.sh",
+            "scripts/shadcn-components.tar.gz"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
+            "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+            "path": "web-artifacts-builder"
+          },
+          "released_at": "2026-11-05T04:29:20+00:00",
+          "channel": "stable",
+          "parent": {
+            "key": "skill:anthropic/web-artifacts-builder",
+            "version": "1.0.0",
+            "content_hash": "07bcc6006014650bfcb78c085a4b7eabc77135614863061727c2005b05334252"
           }
         }
       ]
@@ -35579,7 +35970,8 @@
           "released_at": "2026-11-03T06:22:45+00:00",
           "channel": "stable"
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:scientific/pufferlib": {
       "releases": [
