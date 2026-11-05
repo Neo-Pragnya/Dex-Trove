@@ -13,6 +13,14 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.5] — 2026-11-04
+
+### Changed
+
+- **`skill:neo-pragnya/repo-context` 1.0.1:** Ananke's own `outline`, `symbol` and `callers` are now the default for symbol questions, because they cost less on most and stay current with every edit (Ananke 0.3.22). It covers `ananke context enable` for Claude Code, Codex, Copilot, Kiro, Cursor and Amazon Q. Serena stays optional, with its usage ping off as well as its dashboard. The README now features the skill.
+
+---
+
 ## [0.3.4] — 2026-11-04
 
 ### Added

@@ -4,12 +4,12 @@
   "namespace": "neo-pragnya",
   "name": "repo-context",
   "title": "Repo context",
-  "description": "Understand a code repository using far fewer tokens: start from a small map, then use Serena, repomix, Graphify, grep or a plain read, whichever measured cheapest for the question. Use before exploring or reading an unfamiliar or large repo, or when asked to save tokens or map a codebase.",
+  "description": "Understand a code repository using far fewer tokens: start from a small map, then use Ananke's outline, symbol and callers, which stay current with every edit, or repomix, Graphify, grep or a plain read, whichever measured cheapest for the question. Use before exploring or reading an unfamiliar or large repo, or when asked to save tokens or map a codebase.",
   "tags": [
     "neo-pragnya",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/neo-pragnya.repo-context",
   "source": {
@@ -47,7 +47,7 @@
   "files": [
     "SKILL.md"
   ],
-  "entry_hash": "e73a20e637dbecbac682c821083949aff18f2a546644578be365b24a0c82ccbf",
-  "content_hash": "85aa3b89937ca73300597e09c30e2f38524448ee6e41da7ece5faba06ea17235",
-  "learned_at": "2026-11-05T00:34:11+00:00"
+  "entry_hash": "2c8907c95564f4102dec0fbd81c64a8d9c9d76cf0c1b7e7e4820feb5b8c8a2fc",
+  "content_hash": "0aca423d95da8e1888aaee33795125a5590858d935a72d73748aa42b5f31692e",
+  "learned_at": "2026-11-05T01:37:24+00:00"
 }

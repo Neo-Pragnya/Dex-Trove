@@ -46,6 +46,20 @@ dex related superpowers/executing-plans        # requires, complements, alternat
 dex search write the failing test first --rank semantic
 ```
 
+## Spend fewer tokens on any repository
+
+`neo-pragnya/repo-context` teaches your assistant to understand a repository without reading it: a small map first, then the
+cheapest tool for each question.
+
+```bash
+dex install neo-pragnya/repo-context --target claude     # or --target copilot
+```
+
+On a repository of about 790,000 tokens of source, a first look costs about 1,200 tokens, and a look inside its largest file costs
+462 rather than 8,480. It uses [Ananke](https://github.com/Neo-Pragnya/Ananke-Plexus)'s lookups, which stay current with every edit,
+and works without Ananke too. See
+[Saving tokens](https://github.com/Neo-Pragnya/Ananke-Plexus/blob/main/docs/guides/saving-tokens.md).
+
 ## With Ananke
 
 Every item ships an `ananke.yaml` inside the wheel, so Ananke can discover all of them with no glue code:
