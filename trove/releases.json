@@ -32236,6 +32236,25 @@
         }
       ]
     },
+    "skill:neo-pragnya/repo-context": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "85aa3b89937ca73300597e09c30e2f38524448ee6e41da7ece5faba06ea17235",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "repo-context"
+          },
+          "released_at": "2026-11-05T00:34:11+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:neo-pragnya/research-questionnaire": {
       "releases": [
         {
