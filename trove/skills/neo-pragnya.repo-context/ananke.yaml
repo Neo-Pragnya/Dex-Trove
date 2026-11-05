@@ -1,7 +1,7 @@
 kind: skill
 namespace: neo-pragnya
 name: repo-context
-version: 1.0.1
+version: 1.0.2
 ananke_id: urn:dex-trove:skill:neo-pragnya:repo-context
 summary: 'Understand a code repository using far fewer tokens: start from a small map, then use Ananke''s outline,
   symbol and callers, which stay current with every edit, or repomix, Graphify, grep or a plain re…'

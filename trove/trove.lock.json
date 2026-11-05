@@ -4,36 +4,36 @@
       "repo": "https://github.com/anthropics/skills",
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
-      "learned_at": "2026-10-20T04:06:53+00:00",
+      "learned_at": "2026-11-05T04:28:09+00:00",
       "items": {
-        "skill": 14
+        "skill": 12
       },
-      "excluded": 5
+      "excluded": 7
     },
     "awesome-copilot": {
       "repo": "https://github.com/github/awesome-copilot",
       "ref": "main",
       "commit": "613efc8c21d9b3ce642dff361d17006cd9967e28",
-      "learned_at": "2026-10-22T02:32:27+00:00",
+      "learned_at": "2026-11-05T04:28:09+00:00",
       "items": {
         "agent": 220,
         "hook": 7,
         "instruction": 189,
         "plugin": 72,
-        "skill": 432,
+        "skill": 431,
         "workflow": 8
       },
-      "excluded": 41
+      "excluded": 42
     },
     "bmad-method": {
       "repo": "https://github.com/bmad-code-org/BMAD-METHOD",
       "ref": "main",
       "commit": "022be9314e4facd16826104a9f8033e1c5ed4fdc",
-      "learned_at": "2026-11-03T06:17:47+00:00",
+      "learned_at": "2026-11-05T04:28:09+00:00",
       "items": {
-        "skill": 33
+        "skill": 32
       },
-      "excluded": 0
+      "excluded": 1
     },
     "claude-plugins": {
       "repo": "https://github.com/anthropics/claude-plugins-official",
@@ -69,11 +69,11 @@
       "repo": "https://github.com/microsoft/skills",
       "ref": "main",
       "commit": "7a2367fc8a7d834c15b5ee8543a3d86c3003608f",
-      "learned_at": "2026-11-03T06:29:31+00:00",
+      "learned_at": "2026-11-05T04:28:09+00:00",
       "items": {
-        "skill": 180
+        "skill": 179
       },
-      "excluded": 9
+      "excluded": 10
     },
     "neo-pragnya": {
       "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
@@ -88,10 +88,10 @@
     "patched": {
       "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
       "ref": "HEAD",
-      "commit": "9281152e53c6c5bc2ee69961392b56d7639c2773",
-      "learned_at": "2026-11-03T11:16:09+00:00",
+      "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+      "learned_at": "2026-11-05T04:30:12+00:00",
       "items": {
-        "skill": 1
+        "skill": 7
       },
       "excluded": 0
     },
@@ -99,11 +99,11 @@
       "repo": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "ref": "main",
       "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
-      "learned_at": "2026-11-03T10:27:18+00:00",
+      "learned_at": "2026-11-05T04:28:09+00:00",
       "items": {
-        "skill": 164
+        "skill": 163
       },
-      "excluded": 13
+      "excluded": 14
     },
     "spec-kit": {
       "repo": "https://github.com/github/spec-kit",

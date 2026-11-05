@@ -1,0 +1,26 @@
+kind: skill
+namespace: patched
+name: eval-driven-dev
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:patched:eval-driven-dev
+summary: Improve AI application with evaluation-driven development. Define eval criteria, instrument the application,
+  build golden datasets, observe and evaluate application runs, analyze results, and produce…
+description: Improve AI application with evaluation-driven development. Define eval criteria, instrument the application,
+  build golden datasets, observe and evaluate application runs, analyze results, and produce a concrete action plan
+  for improvements. ALWAYS USE THIS SKILL when the user asks to set up QA, add tests, add evals, evaluate, benchmark,
+  fix wrong behaviors, improve quality, or do quality assurance for any Python project that calls an LLM model.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - executes-code
+  - patched
+  - skill
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks

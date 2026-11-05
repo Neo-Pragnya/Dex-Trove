@@ -1,5 +1,5 @@
 {
- "generator": "dex-trove 0.3.4",
+ "generator": "dex-trove 0.3.6",
  "summary": {
   "claude": {
    "pass": 1502,
@@ -3027,10 +3027,6 @@
    "claude": "pass",
    "copilot": "pass"
   },
-  "skill:anthropic/claude-api": {
-   "claude": "fail: SKILL.md description is longer than 1024 characters",
-   "copilot": "fail: SKILL.md description is longer than 1024 characters"
-  },
   "skill:anthropic/discernment-nudge": {
    "claude": "pass",
    "copilot": "pass"
@@ -3056,10 +3052,6 @@
    "copilot": "pass"
   },
   "skill:anthropic/theme-factory": {
-   "claude": "pass",
-   "copilot": "pass"
-  },
-  "skill:anthropic/web-artifacts-builder": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -3692,10 +3684,6 @@
    "copilot": "pass"
   },
   "skill:awesome-copilot/entra-agent-user": {
-   "claude": "pass",
-   "copilot": "pass"
-  },
-  "skill:awesome-copilot/eval-driven-dev": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -4795,10 +4783,6 @@
    "claude": "pass",
    "copilot": "pass"
   },
-  "skill:bmad-method/bmad": {
-   "claude": "pass",
-   "copilot": "pass"
-  },
   "skill:bmad-method/bmad-advanced-elicitation": {
    "claude": "pass",
    "copilot": "pass"
@@ -5459,10 +5443,6 @@
    "claude": "pass",
    "copilot": "pass"
   },
-  "skill:microsoft/azure-kubernetes": {
-   "claude": "pass",
-   "copilot": "pass"
-  },
   "skill:microsoft/azure-kusto": {
    "claude": "pass",
    "copilot": "pass"
@@ -5895,7 +5875,31 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:patched/azure-kubernetes": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:patched/bmad": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:patched/claude-api": {
+   "claude": "fail: SKILL.md description is longer than 1024 characters",
+   "copilot": "fail: SKILL.md description is longer than 1024 characters"
+  },
+  "skill:patched/eval-driven-dev": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:patched/hf-cloud-sagemaker-iam-preflight": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:patched/protocolsio-integration": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:patched/web-artifacts-builder": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -6316,10 +6320,6 @@
    "copilot": "pass"
   },
   "skill:scientific/primer-design": {
-   "claude": "pass",
-   "copilot": "pass"
-  },
-  "skill:scientific/protocolsio-integration": {
    "claude": "pass",
    "copilot": "pass"
   },

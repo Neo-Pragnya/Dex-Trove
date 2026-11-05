@@ -13,6 +13,34 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.6] — 2026-11-05
+
+### Security
+
+Six skills had a security finding in their upstream code, so each is now a patched fork under `patched/`, keeping its upstream licence and saying what changed in `CHANGES.md`. The upstream copies are left out of the trove, and the total stays at 1,708 items.
+
+- **`skill:patched/bmad`:** a version pattern could take exponential time on a crafted string, for example from an edited lockfile. It now can't, and accepts the same versions.
+- **`skill:patched/azure-kubernetes`:** the Dockerfile templates pin base images by digest, with a placeholder and instructions, and are named `*.Dockerfile.template`.
+- **`skill:patched/eval-driven-dev`:** `pip install` now uses a list pinned by hash.
+- **`skill:patched/web-artifacts-builder`:** installs pnpm through Corepack, not an unpinned `npm install -g`.
+- **`skill:patched/claude-api`:** a script no longer prints values derived from your credentials.
+- **`skill:patched/protocolsio-integration`:** a clearer check on addresses, accepting the same values.
+
+If you installed one of these by its old name, install it again as `patched/<name>`.
+
+### Changed
+
+- `skill:neo-pragnya/repo-context`: covers `ananke context enable --local`, what each setup costs, and that the note alone is the cheapest.
+- Updated GitHub Actions for artifacts, Node, Pages, dependency review and gitleaks; ruff and the website's Astro packages.
+- TypeScript stays at 6, because `astro check` refuses 7.
+- pytest stays at 9.1, because 9.2 removed something pytest-bdd needs, so no acceptance scenario can start.
+
+### Added
+
+- A fuzz target for the code that reads files from upstream sources.
+
+---
+
 ## [0.3.5] — 2026-11-04
 
 ### Changed

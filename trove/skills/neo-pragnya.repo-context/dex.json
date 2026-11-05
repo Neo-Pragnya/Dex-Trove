@@ -9,7 +9,7 @@
     "neo-pragnya",
     "skill"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "entry": "SKILL.md",
   "dir": "skills/neo-pragnya.repo-context",
   "source": {
@@ -47,7 +47,7 @@
   "files": [
     "SKILL.md"
   ],
-  "entry_hash": "2c8907c95564f4102dec0fbd81c64a8d9c9d76cf0c1b7e7e4820feb5b8c8a2fc",
-  "content_hash": "0aca423d95da8e1888aaee33795125a5590858d935a72d73748aa42b5f31692e",
-  "learned_at": "2026-11-05T01:37:24+00:00"
+  "entry_hash": "3450e92df8b15c276c134a61745fada5d78e9cde67cf083356f3f259455054e0",
+  "content_hash": "7a7779430542576626e230126c7d5c65da0c1081c187a28abb8e3527c99efc95",
+  "learned_at": "2026-11-05T04:32:15+00:00"
 }

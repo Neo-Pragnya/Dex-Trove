@@ -13,7 +13,7 @@ Licences: MIT (12 items)
 ## Awesome GitHub Copilot
 
 Source: <https://github.com/github/awesome-copilot>  
-Licences: Apache-2.0 (9 items), MIT (919 items)
+Licences: Apache-2.0 (9 items), MIT (918 items)
 
 - Copyright (c) 2026 Stanislav Bankovskii
 - Copyright (c) Microsoft Corporation. All rights reserved.
@@ -24,7 +24,7 @@ Licences: Apache-2.0 (9 items), MIT (919 items)
 ## Anthropic Agent Skills
 
 Source: <https://github.com/anthropics/skills>  
-Licences: Apache-2.0 (14 items)
+Licences: Apache-2.0 (12 items)
 
 - Copyright 2026 Anthropic, PBC.
 
@@ -43,7 +43,7 @@ Licences: Apache-2.0 (25 items)
 ## Microsoft Skills
 
 Source: <https://github.com/microsoft/skills>  
-Licences: MIT (180 items)
+Licences: MIT (179 items)
 
 - Copyright (c) Microsoft Corporation.
 - Copyright 2025 (c) Microsoft Corporation.
@@ -51,7 +51,7 @@ Licences: MIT (180 items)
 ## BMAD Method (unofficial copy)
 
 Source: <https://github.com/bmad-code-org/BMAD-METHOD>  
-Licences: MIT (33 items)
+Licences: MIT (32 items)
 
 - Copyright (c) 2025 BMad Code, LLC
 
@@ -72,7 +72,7 @@ Licences: MIT (9 items)
 ## Scientific skills (K-Dense)
 
 Source: <https://github.com/K-Dense-AI/claude-scientific-skills>  
-Licences: Apache-2.0 (8 items), BSD-3-Clause (3 items), CC-BY-4.0 (1 items), MIT (152 items)
+Licences: Apache-2.0 (8 items), BSD-3-Clause (3 items), CC-BY-4.0 (1 items), MIT (151 items)
 
 - Copyright (c) 2025 K-Dense Inc.
 - Copyright (c) 2026 Beifang Niu
@@ -99,7 +99,13 @@ Licences: Apache-2.0 (24 items)
 ## Patched forks
 
 Source: <https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks>  
-Licences: Apache-2.0 (1 items)
+Licences: Apache-2.0 (3 items), MIT (4 items)
+
+- Copyright (c) 2025 BMad Code, LLC
+- Copyright (c) 2025 K-Dense Inc.
+- Copyright 2025 (c) Microsoft Corporation.
+- Copyright 2026 Anthropic, PBC.
+- Copyright GitHub, Inc.
 
 ## Licence texts
 
@@ -284,7 +290,7 @@ Apache License
    END OF TERMS AND CONDITIONS
 ```
 
-### `7135078c5420` — used by anthropic
+### `7135078c5420` — used by anthropic, patched
 
 ```text
 Apache License
@@ -1139,7 +1145,7 @@ Apache License
    limitations under the License.
 ```
 
-### `8a5d8efb7094` — used by awesome-copilot, microsoft
+### `8a5d8efb7094` — used by awesome-copilot, microsoft, patched
 
 ```text
 MIT License
@@ -1165,7 +1171,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE
 ```
 
-### `e32449d23085` — used by awesome-copilot, spec-kit
+### `e32449d23085` — used by awesome-copilot, patched, spec-kit
 
 ```text
 MIT License
@@ -1191,7 +1197,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### `5034ff7cfe62` — used by bmad-method
+### `5034ff7cfe62` — used by bmad-method, patched
 
 ```text
 MIT License
@@ -1252,7 +1258,7 @@ MIT License
     SOFTWARE
 ```
 
-### `09b02a3c9df3` — used by scientific
+### `09b02a3c9df3` — used by patched, scientific
 
 ```text
 MIT License
