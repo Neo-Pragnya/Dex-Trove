@@ -26,8 +26,8 @@ ENV PATH="/app/venv/bin:$PATH"
 # Layer caching: install dependencies before copying source
 COPY requirements.txt ./
 
-RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt
+# Every package pinned by hash, so what is installed can't change unnoticed. See references/base-images.md.
+RUN pip install --no-cache-dir --require-hashes -r requirements.txt
 
 # Copy application source
 COPY . .

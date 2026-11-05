@@ -9,14 +9,14 @@
     "patched",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entry": "SKILL.md",
   "dir": "skills/patched.azure-kubernetes",
   "source": {
     "id": "patched",
     "title": "Patched forks",
     "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
-    "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
+    "commit": "559b61f97d11455d9a3d9416dfe66848d7742cfa",
     "path": "azure-kubernetes",
     "url": null,
     "author": null
@@ -92,8 +92,8 @@
     "references/optional-aks-operations.md"
   ],
   "entry_hash": "7d5c3f492b2896ae7bd4e9f291ddf8c6c25a9c24a570e7abaf590b651c0a33c9",
-  "content_hash": "76e30bba09b029dd80363a4a1f5482043d8bc3470b4318dd525434d2a2f5809f",
-  "learned_at": "2026-11-05T04:29:19+00:00",
+  "content_hash": "bf86d6de8a6df353f347f98c366a7fa0e5c4d57808c0f2b02c35bcb7942b4cb6",
+  "learned_at": "2026-11-05T06:19:47+00:00",
   "forked_from": {
     "key": "skill:microsoft/azure-kubernetes",
     "version": "1.0.0",

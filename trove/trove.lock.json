@@ -88,8 +88,8 @@
     "patched": {
       "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
       "ref": "HEAD",
-      "commit": "74d1b84867995c31df33ff1d31d9c0af5c24d328",
-      "learned_at": "2026-11-05T04:30:12+00:00",
+      "commit": "559b61f97d11455d9a3d9416dfe66848d7742cfa",
+      "learned_at": "2026-11-05T06:20:43+00:00",
       "items": {
         "skill": 7
       },

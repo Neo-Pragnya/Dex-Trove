@@ -74,3 +74,8 @@ docker buildx imagetools inspect node:22-alpine --format '{{json .Manifest.Diges
 FROM node:22-alpine@sha256:<the digest it printed> AS build
 ```
 
+## Pin what's installed too
+
+- **Python:** the template installs with `--require-hashes`, so `requirements.txt` needs a hash for every package. Make it with `uv pip compile requirements.in --generate-hashes -o requirements.txt`.
+- **.NET:** the template restores with `--locked-mode`, so commit a `packages.lock.json`. Make it by setting `RestorePackagesWithLockFile` to `true` in the project and running `dotnet restore` once.
+
