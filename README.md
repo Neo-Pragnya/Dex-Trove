@@ -16,7 +16,7 @@ evidence, upstream source and install commands.
 
 | | |
 | --- | --- |
-| Items | 1708: 901 skills · 522 agents · 189 instructions · 72 plugins · 9 prompts · 8 workflows · 7 hooks |
+| Items | 1709: 902 skills · 522 agents · 189 instructions · 72 plugins · 9 prompts · 8 workflows · 7 hooks |
 | Sources | awesome-copilot · anthropic · superpowers · neo-pragnya (first-party) |
 | Refused | 46 (see [`trove/EXCLUDED.json`](trove/EXCLUDED.json)), e.g. Anthropic's proprietary `docx`/`pdf`/`pptx`/`xlsx` skills |
 
@@ -59,6 +59,14 @@ On a repository of about 790,000 tokens of source, a first look costs about 1,20
 462 rather than 8,480. It uses [Ananke](https://github.com/Neo-Pragnya/Ananke-Plexus)'s lookups, which stay current with every edit,
 and works without Ananke too. See
 [Saving tokens](https://github.com/Neo-Pragnya/Ananke-Plexus/blob/main/docs/guides/saving-tokens.md).
+
+## See how a repository works
+
+`neo-pragnya/map-a-repository` teaches your assistant to use [Dev Guru](https://pypi.org/project/dev-guru/): a code map, end-to-end flows, an ERD, API routes, an architecture, quality, coverage, CVEs, and an explanation of each notebook in a folder.
+
+```bash
+dex install neo-pragnya/map-a-repository --target claude
+```
 
 ## With Ananke
 

@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
  "taxonomy_version": "1.1.0",
- "count": 1708,
+ "count": 1709,
  "items": {
   "agent:awesome-copilot/accessibility": {
    "schema_version": "1.0.0",
@@ -149030,6 +149030,161 @@
      "evidence": {
       "catalog": [
        "install layout"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya/map-a-repository": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya/map-a-repository@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "analyse-data",
+     "design-architecture",
+     "plan-tests",
+     "reflect",
+     "security-review",
+     "write-tests"
+    ],
+    "phase": [
+     "design",
+     "discovery",
+     "verification"
+    ],
+    "role": [
+     "architect",
+     "data-scientist",
+     "developer",
+     "learner",
+     "reviewer",
+     "security-engineer"
+    ],
+    "domain": [
+     "api",
+     "data",
+     "security"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "analyse-data": [
+       "description: 'notebooks'"
+      ],
+      "design-architecture": [
+       "description: 'architecture'"
+      ],
+      "plan-tests": [
+       "description: 'coverage'"
+      ],
+      "reflect": [
+       "description: 'onboard'"
+      ],
+      "security-review": [
+       "description: 'vulnerab'"
+      ],
+      "write-tests": [
+       "description: 'end-to-end'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "design": [
+       "description: 'architect'"
+      ],
+      "discovery": [
+       "description: 'research'"
+      ],
+      "verification": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "architect": [
+       "description: 'architect'"
+      ],
+      "data-scientist": [
+       "description: 'notebooks'"
+      ],
+      "developer": [
+       "description: 'code'"
+      ],
+      "learner": [
+       "description: 'course'"
+      ],
+      "reviewer": [
+       "description: 'review'"
+      ],
+      "security-engineer": [
+       "description: 'vulnerab'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "description: 'API'"
+      ],
+      "data": [
+       "description: 'database'"
+      ],
+      "security": [
+       "description: 'vulnerab'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
       ]
      }
     }

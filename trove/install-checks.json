@@ -1,12 +1,12 @@
 {
- "generator": "dex-trove 0.3.6",
+ "generator": "dex-trove 0.3.7",
  "summary": {
   "claude": {
-   "pass": 1502,
+   "pass": 1503,
    "fail": 2
   },
   "copilot": {
-   "pass": 1699,
+   "pass": 1700,
    "fail": 9
   }
  },
@@ -5848,6 +5848,10 @@
    "copilot": "pass"
   },
   "skill:neo-pragnya/living-diagrams": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya/map-a-repository": {
    "claude": "pass",
    "copilot": "pass"
   },

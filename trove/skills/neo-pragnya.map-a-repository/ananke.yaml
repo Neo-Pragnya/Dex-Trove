@@ -1,0 +1,34 @@
+kind: skill
+namespace: neo-pragnya
+name: map-a-repository
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya:map-a-repository
+summary: 'Understand and explain a whole code repository or a folder of notebooks with Dev Guru: an offline file
+  or local web interface with a code map, end-to-end flows, an ERD, API routes, a CALM architecture…'
+description: 'Understand and explain a whole code repository or a folder of notebooks with Dev Guru: an offline
+  file or local web interface with a code map, end-to-end flows, an ERD, API routes, a CALM architecture, quality,
+  coverage, CVEs and an explanation of each notebook, including code in %%writefile cells. Use when asked to map,
+  explain, onboard to or review a repository or a course or research folder, to show how it connects, or to find
+  its database, routes or vulnerabilities.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/trove/skills/neo-pragnya.map-a-repository
+  repository: https://github.com/Neo-Pragnya/Dex-Trove

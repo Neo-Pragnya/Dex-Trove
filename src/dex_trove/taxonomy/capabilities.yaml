@@ -19,7 +19,7 @@ capabilities:
   context-retrieval:
     title: Bounded context retrieval
     status: partial
-    existing: [skill:neo-pragnya/repo-context, skill:awesome-copilot/context-map, agent:awesome-copilot/context-architect]
+    existing: [skill:neo-pragnya/map-a-repository, skill:neo-pragnya/repo-context, skill:awesome-copilot/context-map, agent:awesome-copilot/context-architect]
     gap: Routes questions to the cheapest tool with a token-budgeted map; no automatic selection of files for a task yet.
     enhancement: wrapper
     ananke: ananke context map --budget (0.3.21); ananke context pack; ananke app code --budget (0.3.15)

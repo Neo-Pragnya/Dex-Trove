@@ -13,6 +13,18 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.7] — 2026-11-05
+
+### Added
+
+- **`skill:neo-pragnya/map-a-repository`:** understand and explain a whole repository or a folder of notebooks with Dev Guru: which command to use, the order to check things in, and what to say is inferred or unknown.
+
+### Changed
+
+- The website's home page shows the version on PyPI.
+
+---
+
 ## [0.3.6] — 2026-11-05
 
 ### Security
