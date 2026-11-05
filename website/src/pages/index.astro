@@ -6,6 +6,9 @@ import trove from "../data/trove.json";
 import { KINDS, KIND_GLYPH, KIND_ORDER, itemHref, shortCommit, site, type Kind } from "../lib/site";
 
 const base = import.meta.env.BASE_URL;
+// The released version, read from the package so the chip always matches what pip installs.
+const versionFile = await import("../../../src/dex_trove/__init__.py?raw");
+const version = /__version__\s*=\s*"([^"]+)"/.exec(versionFile.default)?.[1] ?? "";
 const counts = trove.counts as Record<string, number>;
 type Lock = { commit: string | null; items: Record<string, number> } | null;
 const learned = trove.sources.filter((s) => s.lock);
@@ -55,7 +58,10 @@ const steps = [
         <a class="btn ants" data-magnetic href={`${base}catalog/`} style="--mk-ants: var(--coral)">Browse {trove.total} dexterities →</a>
         <a class="btn ghost ants" data-magnetic href={`${base}docs/guides/getting-started/`} style="--mk-ants: var(--teal)">Get started</a>
       </div>
-      <div class="install-line" data-reveal style="--d: .2s"><span>$ pip install dex-trove</span></div>
+      <div class="install-row" data-reveal style="--d: .2s">
+        <div class="install-line"><span>$ pip install dex-trove</span></div>
+        <a class="pypi-chip" href="https://pypi.org/project/dex-trove/" data-magnetic><span>PyPI</span><strong>v{version}</strong></a>
+      </div>
     </div>
   </section>
 

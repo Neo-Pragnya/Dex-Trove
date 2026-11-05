@@ -882,3 +882,11 @@ pre.mermaid-src.mermaid-failed {
     animation: none;
   }
 }
+
+/* install line + PyPI chip */
+.install-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 18px; }
+.install-row .install-line { margin-top: 0; }
+.pypi-chip { display: inline-flex; align-items: stretch; border-radius: 8px; overflow: hidden; text-decoration: none; font-weight: 600; font-size: .82rem; line-height: 1; border: 1px solid rgb(120 90 220 / 45%); }
+.pypi-chip span, .pypi-chip strong { padding: 9px 11px; }
+.pypi-chip span { background: rgb(128 128 128 / 14%); color: inherit; }
+.pypi-chip strong { background: linear-gradient(180deg, #a78bfa, #7c5cf0); color: #fff; }
