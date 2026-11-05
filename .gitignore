@@ -28,3 +28,8 @@ trivy-results.sarif
 .acceptance-venv/
 acceptance/report/
 scan-report/
+
+# Local context tools
+.serena/
+graphify-out/
+.ananke/context/

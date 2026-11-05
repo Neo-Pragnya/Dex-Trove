@@ -32252,6 +32252,21 @@
           },
           "released_at": "2026-11-05T00:34:11+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "0aca423d95da8e1888aaee33795125a5590858d935a72d73748aa42b5f31692e",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "repo-context"
+          },
+          "released_at": "2026-11-05T01:37:24+00:00",
+          "channel": "stable"
         }
       ]
     },
