@@ -149380,7 +149380,7 @@
   },
   "skill:neo-pragnya/package-security-scan": {
    "schema_version": "1.0.0",
-   "artifact_ref": "neo-pragnya/package-security-scan@1.0.0",
+   "artifact_ref": "neo-pragnya/package-security-scan@1.0.2",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",
@@ -149781,7 +149781,7 @@
   },
   "skill:neo-pragnya/scaffold-harvesting": {
    "schema_version": "1.0.0",
-   "artifact_ref": "neo-pragnya/scaffold-harvesting@1.0.0",
+   "artifact_ref": "neo-pragnya/scaffold-harvesting@1.0.1",
    "taxonomy_version": "1.1.0",
    "facets": {
     "kind": "skill",

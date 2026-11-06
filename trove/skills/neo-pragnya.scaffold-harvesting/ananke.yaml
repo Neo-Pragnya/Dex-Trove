@@ -1,7 +1,7 @@
 kind: skill
 namespace: neo-pragnya
 name: scaffold-harvesting
-version: 1.0.0
+version: 1.0.1
 ananke_id: urn:dex-trove:skill:neo-pragnya:scaffold-harvesting
 summary: 'Harvest a reusable project template from a repository you''re allowed to reuse: detect its layout and
   key technologies without copying anything, then build a versioned template from structural files on…'

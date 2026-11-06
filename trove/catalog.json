@@ -1,5 +1,5 @@
 {
-  "generator": "dex-trove 0.3.8",
+  "generator": "dex-trove 0.3.9",
   "count": 1709,
   "items": [
     {
@@ -64648,7 +64648,7 @@
         "neo-pragnya",
         "skill"
       ],
-      "version": "1.0.0",
+      "version": "1.0.2",
       "entry": "SKILL.md",
       "dir": "skills/neo-pragnya.package-security-scan",
       "source": {
@@ -64677,9 +64677,9 @@
         "references/quarantine-reasons.md",
         "scripts/scan_dist.py"
       ],
-      "entry_hash": "14f69a8dc6857b2645b7d304c20618ffaa1917d5c099fc68e5c0772e37d6e2cd",
-      "content_hash": "171cb2193acd315ac969d5f59db9220331ff9b37bff1f5818a9f002f7f20e47b",
-      "learned_at": "2026-10-23T02:25:36+00:00"
+      "entry_hash": "faf89d9716d078194ccda1ca5655f7d963ff0ecbbe91eec887b58bf92a90dbf3",
+      "content_hash": "d1fce7a845ba624ce73ee8fcb62ba852b8561bbb8a4bb997c119d0a29c50a3c0",
+      "learned_at": "2026-11-06T01:37:09+00:00"
     },
     {
       "id": "neo-pragnya/repo-context",
@@ -64789,7 +64789,7 @@
         "neo-pragnya",
         "skill"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "entry": "SKILL.md",
       "dir": "skills/neo-pragnya.scaffold-harvesting",
       "source": {
@@ -64816,8 +64816,8 @@
         "scripts/harvest.py"
       ],
       "entry_hash": "c62b4fe74f7a92e7cb67030df4e9316776c5b6fb0d4ec0a3d451f26afb82f0b5",
-      "content_hash": "5530fc88c48312a26ab904327d2677fb7d88a2e51445f5b2e2ea8f41707654d3",
-      "learned_at": "2026-11-02T14:35:57+00:00"
+      "content_hash": "0fe3eeec31710f906689dd5b7298abf6b1865b9aaa2201f277cc428ee6672716",
+      "learned_at": "2026-11-06T01:24:36+00:00"
     },
     {
       "id": "neo-pragnya/tech-selection",

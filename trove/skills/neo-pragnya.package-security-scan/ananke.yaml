@@ -1,7 +1,7 @@
 kind: skill
 namespace: neo-pragnya
 name: package-security-scan
-version: 1.0.0
+version: 1.0.2
 ananke_id: urn:dex-trove:skill:neo-pragnya:package-security-scan
 summary: Find out why a Python package gets quarantined, flagged or blocked by package firewalls and SCA tools (Black
   Duck, JFrog Xray or Curation, Sonatype Nexus Firewall, Snyk, Mend, Socket), and fix it with…

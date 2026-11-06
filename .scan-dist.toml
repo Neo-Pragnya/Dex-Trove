@@ -1,0 +1,424 @@
+# Findings a person has reviewed, read by scripts/scan_dist.py at every release. Each needs a reason, and each file is
+# named: the same rule matching any other file blocks the release. The trove is other people's documentation, shown to
+# a person; Dex runs none of it.
+
+[[bundled]]
+path = "*/skills/impeccable.impeccable/scripts/modern-screenshot.umd.js"
+licence = "MIT"
+reason = "modern-screenshot 4.x (MIT, wxm), which Impeccable bundles for screenshots; its licence ships beside it as modern-screenshot.LICENSE"
+
+[[bundled]]
+path = "*/skills/impeccable.impeccable/scripts/live-browser.js"
+licence = "Apache-2.0"
+reason = "Impeccable's own readable script (Apache-2.0), large rather than minified"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/agents/awesome-copilot.droid/droid.agent.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/agents/awesome-copilot.droid/droid.agent.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/hooks/awesome-copilot.tool-guardian/README.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/hooks/awesome-copilot.tool-guardian/README.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/plugins/awesome-copilot.gem-team/README.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/plugins/awesome-copilot.gem-team/README.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/awesome-copilot.aspire/SKILL.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/awesome-copilot.aspire/SKILL.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/awesome-copilot.aspire/references/cli-reference.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/awesome-copilot.aspire/references/cli-reference.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/awesome-copilot.aspire/references/deployment.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/awesome-copilot.aspire/references/deployment.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/awesome-copilot.azure-container-registry-cli/SKILL.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/awesome-copilot.azure-container-registry-cli/SKILL.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/awesome-copilot.azure-devops-cli/SKILL.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/awesome-copilot.azure-devops-cli/SKILL.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/huggingface.hf-cli/SKILL.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/huggingface.hf-cli/SKILL.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/huggingface.train-sentence-transformers/references/hf_jobs_execution.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/huggingface.train-sentence-transformers/references/hf_jobs_execution.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/microsoft.azure-deploy/references/sdk/azd-deployment.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/microsoft.azure-deploy/references/sdk/azd-deployment.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/microsoft.azure-prepare/references/sdk/azd-deployment.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/microsoft.azure-prepare/references/sdk/azd-deployment.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/patched.claude-api/shared/managed-agents-onboarding-from-url.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/patched.claude-api/shared/managed-agents-onboarding-from-url.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/scientific.paperclip/references/installation.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/scientific.paperclip/references/installation.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "dex_trove/skills/scientific.pi-agent/references/overview.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "pipe-to-shell"
+path = "trove/skills/scientific.pi-agent/references/overview.md"
+reason = "an install instruction in a vendored skill's own documentation, shown to a person; Dex runs nothing"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/agents/awesome-copilot.trojan-skill-hunter/trojan-skill-hunter.agent.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/agents/awesome-copilot.trojan-skill-hunter/trojan-skill-hunter.agent.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/microsoft.azure-compute/workflows/vm-creator/examples/bicep/README.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/microsoft.azure-compute/workflows/vm-creator/examples/bicep/README.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/microsoft.azure-compute/workflows/vm-creator/examples/terraform/README.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/microsoft.azure-compute/workflows/vm-creator/examples/terraform/README.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/microsoft.azure-compute/workflows/vm-creator/references/delivery-options/save-local.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/microsoft.azure-compute/workflows/vm-creator/references/delivery-options/save-local.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/microsoft.azure-compute/workflows/vm-creator/references/depth-probe/beginner.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/microsoft.azure-compute/workflows/vm-creator/references/depth-probe/beginner.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/microsoft.azure-compute/workflows/vm-creator/references/output-adapters/az-cli.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/microsoft.azure-compute/workflows/vm-creator/references/output-adapters/az-cli.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/microsoft.azure-compute/workflows/vm-creator/references/output-adapters/bicep.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/microsoft.azure-compute/workflows/vm-creator/references/output-adapters/bicep.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/microsoft.azure-compute/workflows/vm-creator/references/output-adapters/terraform.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/microsoft.azure-compute/workflows/vm-creator/references/output-adapters/terraform.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/microsoft.azure-compute/workflows/vm-creator/references/plan-card.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/microsoft.azure-compute/workflows/vm-creator/references/plan-card.md"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/patched.claude-api/shared/evals/report/build-report-lite.mjs"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/patched.claude-api/shared/evals/report/build-report-lite.mjs"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "dex_trove/skills/patched.claude-api/shared/evals/report/runner-scaffold.mjs"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "ssh-private-key-read"
+path = "trove/skills/patched.claude-api/shared/evals/report/runner-scaffold.mjs"
+reason = "documentation naming the key a VM uses, a security agent quoting a malicious skill it rejects, or comments about refusing symlinks to a key; nothing reads one"
+
+[[signature]]
+rule = "cloud-credentials-read"
+path = "dex_trove/skills/huggingface.hf-cloud-aws-context-discovery/SKILL.md"
+reason = "documentation saying to prefer aws configure list over parsing the config file"
+
+[[signature]]
+rule = "cloud-credentials-read"
+path = "trove/skills/huggingface.hf-cloud-aws-context-discovery/SKILL.md"
+reason = "documentation saying to prefer aws configure list over parsing the config file"
+
+[[signature]]
+rule = "chat-webhook"
+path = "dex_trove/skills/huggingface.huggingface-trackio/references/alerts.md"
+reason = "documentation of where an experiment tracker can send its own alerts"
+
+[[signature]]
+rule = "chat-webhook"
+path = "trove/skills/huggingface.huggingface-trackio/references/alerts.md"
+reason = "documentation of where an experiment tracker can send its own alerts"
+
+[heuristics]
+capability-filesystem-delete = "Dex removes only what it wrote (candidates.py); vendored scripts and tests clean up their own temporary files"
+capability-filesystem-read = "Dex reads the trove and licence files it ships; vendored scripts read the files a person points them at"
+capability-filesystem-write-executable = "vendored scripts and tests write files they generate, such as diagrams and test fixtures"
+capability-network-download = "dex cli.py fetches a source the user names; vendored skills call the APIs they document"
+capability-network-lolbas = "scientific.paper-lookup calls the OpenAlex API it documents"
+capability-network-outbound = "candidates.py asks a configured source; vendored skills and tests call the APIs they document"
+capability-process-schedule = "Impeccable live-browser.js uses timers in the page it is injected into"
+capability-process-spawn = "ananke_bridge.py runs the ananke CLI with a list of arguments; vendored scripts run the tools they document"
+
+[heuristics.threat-process-download-exec]
+reason = "awesome-copilot eyeball prints 'pip install ...' hints for missing optional packages; it installs nothing"
+paths = ["dex_trove/skills/awesome-copilot.eyeball/tools/eyeball.py", "trove/skills/awesome-copilot.eyeball/tools/eyeball.py"]
+
+[heuristics.threat-runtime-obfuscation]
+reason = "awesome-copilot azure-architecture-autopilot keeps Azure's official icons as base64 SVG in one 2.1 MB file, decoded only to draw a diagram"
+paths = ["dex_trove/skills/awesome-copilot.azure-architecture-autopilot/scripts/icons.py", "trove/skills/awesome-copilot.azure-architecture-autopilot/scripts/icons.py"]
+
+[heuristics.threat-setup-network-in-install]
+reason = "BMad's runtime setup script, which is named setup.py but isn't a package installer: run by a person, it reads a bmod file over HTTPS"
+paths = ["dex_trove/skills/patched.bmad/scripts/setup.py", "trove/skills/patched.bmad/scripts/setup.py"]
+
+[heuristics.threat-setup-suspicious-imports]
+reason = "the same BMad runtime script: urllib for that HTTPS read"
+paths = ["dex_trove/skills/patched.bmad/scripts/setup.py", "trove/skills/patched.bmad/scripts/setup.py"]
+
+[heuristics.threat-process-spawn-silent]
+reason = "awesome-copilot pr-dashboard opens its report in the browser (open, xdg-open or start), detached"
+paths = ["dex_trove/skills/awesome-copilot.pr-dashboard/scripts/pr-dashboard-cli.mjs", "trove/skills/awesome-copilot.pr-dashboard/scripts/pr-dashboard-cli.mjs"]
+
+[heuristics.threat-runtime-environment-read]
+reason = "Hugging Face evaluation scripts read HF_TOKEN to reach the Hub, as documented"
+paths = ["dex_trove/skills/huggingface.huggingface-community-evals/scripts/*.py", "trove/skills/huggingface.huggingface-community-evals/scripts/*.py", "dex_trove/skills/huggingface.huggingface-llm-trainer/scripts/*.py", "trove/skills/huggingface.huggingface-llm-trainer/scripts/*.py", "dex_trove/skills/huggingface.*/scripts/*.py", "trove/skills/huggingface.*/scripts/*.py"]
+
+[heuristics.threat-filesystem-read]
+reason = "tests and scripts reading files they were pointed at, or refusing .env ones; and K-Dense generate-image, which reads its own API key from a .env in this or a parent folder when the variable is unset, as it documents"
+paths = ["tests/*", "dex_trove/skills/awesome-copilot.docs-sync-audit/scripts/docs_drift.py", "trove/skills/awesome-copilot.docs-sync-audit/scripts/docs_drift.py", "dex_trove/skills/bmad-method.bmad-eval/scripts/tests/*", "trove/skills/bmad-method.bmad-eval/scripts/tests/*", "dex_trove/skills/neo-pragnya.scaffold-harvesting/scripts/harvest.py", "trove/skills/neo-pragnya.scaffold-harvesting/scripts/harvest.py", "forks/bmad/scripts/tests/*", "dex_trove/skills/scientific.hypogenic/scripts/_common.py", "trove/skills/scientific.hypogenic/scripts/_common.py", "dex_trove/skills/scientific.generate-image/scripts/generate_image.py", "trove/skills/scientific.generate-image/scripts/generate_image.py"]
+
+# ---- Bandit HIGH in vendored skills and the patched BMad fork, reviewed file by file
+
+[[bandit]]
+test = "B602"
+path = "*skills/anthropic.webapp-testing/scripts/with_server.py"
+reason = "Anthropic's webapp-testing runs the server command its user writes, which may use cd and &&; it's the skill's documented purpose"
+
+[[bandit]]
+test = "B324"
+path = "*skills/awesome-copilot.draw-io-diagram-generator/scripts/add-shape.py"
+reason = "SHA-1 makes a short shape id for a diagram, not for security"
+
+[[bandit]]
+test = "B324"
+path = "*skills/bmad-method.bmad-brainstorming/scripts/brain.py"
+reason = "MD5 picks a colour hue from a category name, not for security"
+
+[[bandit]]
+test = "B324"
+path = "*skills/scientific.gtars/scripts/refget_digest_plan.py"
+reason = "MD5 is one of the digests the GA4GH refget standard itself specifies for sequences"
+
+[[bandit]]
+test = "B701"
+path = "*skills/patched.bmad/scripts/render_skill.py"
+reason = "renders Markdown skill files, where HTML autoescaping would corrupt them; the output is never served as HTML"
+
+[[bandit]]
+test = "B602"
+path = "*skills/patched.bmad/scripts/tests/test_render_skill.py"
+reason = "a BMad test that runs a fixed command through a shell, as the feature under test does"
+
+# ---- the package-security-scan skill ships the gate itself, whose patterns name what they look for
+[[signature]]
+rule = "keychain-dump"
+path = "*skills/neo-pragnya.package-security-scan/scripts/scan_dist.py"
+reason = "the release gate's own detection pattern for keychain dumps; it looks for the command, it never runs it"
+
+[[signature]]
+rule = "cloud-credentials-read"
+path = "*skills/neo-pragnya.package-security-scan/scripts/scan_dist.py"
+reason = "the release gate's own detection pattern for cloud credential reads; it reads no credentials"
+
+# ---- licence names: Dex is a licence-clean library, so it describes licences everywhere. None of the 1,709 shipped
+# items is under a copyleft licence: catalog.json records each item's licence, read from its licence text by dex learn.
+[[mention]]
+path = "*dex_trove/licenses.py"
+reason = "Dex's licence classifier, which recognises copyleft licences in order to exclude them"
+
+[[mention]]
+path = "*catalog.json"
+reason = "the catalog records each item's licence; copyleft names appear only as the licences of excluded candidates"
+
+[[mention]]
+path = "*EXCLUDED.json"
+reason = "the list of candidates Dex refused, many of them because they are copyleft"
+
+[[mention]]
+path = "*sources.yaml"
+reason = "source configuration noting which upstreams are copyleft and why they are excluded or limited"
+
+[[mention]]
+path = "*THIRD_PARTY_NOTICES.md"
+reason = "the notices, which quote licence texts of the items Dex redistributes"
+
+[[mention]]
+path = "tests/*"
+reason = "tests that check copyleft licences are recognised and refused"
+
+[[mention]]
+path = "*skills/*"
+reason = "an item's own instructions that discuss licences (licence checkers, tools such as pdftk); the item's licence is in catalog.json"
+
+[[mention]]
+path = "*agents/*"
+reason = "an agent's own instructions that discuss licences; the item's licence is in catalog.json"
+
+[[mention]]
+path = "*hooks/*"
+reason = "a hook that checks dependency licences, and so names them; the item's licence is in catalog.json"
+
+[[mention]]
+path = "*workflows/*"
+reason = "a workflow that checks release licence compliance, and so names licences; the item's licence is in catalog.json"
+
+[[mention]]
+path = "*instructions/*"
+reason = "instructions that discuss licences; the item's licence is in catalog.json"
+
+[[mention]]
+path = "acceptance/*"
+reason = "acceptance tests that check a copyleft licence text is recognised and refused"

@@ -20,6 +20,29 @@ def _licence_texts(trove: Path, item: dict[str, Any]) -> list[str]:
     return [(d / n).read_text(encoding="utf-8", errors="replace").strip() for n in names if (d / n).is_file()]
 
 
+def _bundled(root: Path) -> list[str]:
+    """Components bundled inside items, from notices/bundled.toml, each with its full licence text."""
+    import tomllib
+
+    manifest = root / "notices" / "bundled.toml"
+    if not manifest.is_file():
+        return []
+    out = ["## Components bundled inside items", ""]
+    for c in tomllib.loads(manifest.read_text(encoding="utf-8")).get("component", []):
+        text = (root / c["text"]).read_text(encoding="utf-8", errors="replace").strip()
+        out += [
+            f"### {c['name']} ({c['licence']}), in {c['item']}",
+            "",
+            f"`{c['path']}` is [{c['name']}]({c['url']}). {c['copyright']}.",
+            "",
+            "```text",
+            text,
+            "```",
+            "",
+        ]
+    return out
+
+
 def render(trove: Path, sources: list[Source]) -> str:
     items = catalog.load(trove)
     by_source: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -55,6 +78,7 @@ def render(trove: Path, sources: list[Source]) -> str:
             out.append("")
             out += [f"- {n}" for n in sorted(notices)]
         out.append("")
+    out += _bundled(trove.parent)
     out += ["## Licence texts", ""]
     for h, (text, nss) in sorted(texts.items(), key=lambda kv: (sorted(kv[1][1]), kv[0])):
         out += [f"### `{h}` — used by {', '.join(sorted(nss))}", "", "```text", text, "```", ""]

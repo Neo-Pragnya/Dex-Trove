@@ -13,6 +13,26 @@ dependency CVEs were clean but the packages were quarantined. The causes were:
 - an unfiltered `tarfile.extractall`;
 - heuristic hits on vendored minified JS and third-party scripts.
 
+## What the CVE scanners can't see
+
+Trivy, Grype, osv-scanner, pip-audit and Semgrep all called Ananke Plexus 0.3.28 clean (0 CVEs, 0 secrets, its own
+licence), and it was quarantined. Its wheel carried a 3.5 MB minified Mermaid bundle with undeclared licences
+(GuardDog: `threat-runtime-obfuscation`) and read a keychain secret with the macOS command that prints a stored password, the same one
+infostealers run. Dev Guru, clean itself, was blocked because it depends on Ananke. So `scan_dist.py` now
+**blocks**, not just reports:
+
+- **bundled:** minified or third-party code (licence banners, bundler marks, lines over 1,000 characters, files
+  over 200 KB) unless accepted with a licence that's in `License-Expression`;
+- **signatures:** what malware does, in any shipped file, docs included: keychain dumps, browser password stores,
+  SSH and cloud keys, pipe-to-shell, encoded PowerShell, `exec` of decoded data, chat webhooks, tunnel and paste
+  hosts, hidden Unicode in code;
+- **heuristics:** any GuardDog rule not in the reviewed baseline, and Bandit HIGH. A rule can be accepted only in
+  the files reviewed (`paths`), so the same rule anywhere new blocks;
+- **vulns:** pip-audit, plus Grype and osv-scanner when installed.
+
+Reviewed findings live in `.scan-dist.toml`, each with a reason. Even a guide that quotes the command it's warning
+about will block the release. Describe it instead of quoting it.
+
 ## 1. Get the evidence first
 
 Ask for the scanner's **policy violation names**: one line each, such as "Secrets detected" or "License not

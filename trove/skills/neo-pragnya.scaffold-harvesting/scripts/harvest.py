@@ -219,7 +219,7 @@ def cmd_test(a: argparse.Namespace) -> int:
             print("rendered cleanly; the template declares no test command")
             return 0
         env = {"PATH": os.environ.get("PATH", ""), "HOME": tmp, "LANG": "C.UTF-8"}  # no inherited secrets
-        res = subprocess.run(cmd, shell=True, cwd=tmp, env=env, timeout=a.timeout)  # noqa: S602 - the template author's declared test
+        res = subprocess.run(cmd, shell=True, cwd=tmp, env=env, timeout=a.timeout)  # noqa: S602 - the template's declared test, run in a temp copy with no inherited secrets  # nosec B602
         print(f"test {'passed' if res.returncode == 0 else 'failed'}: {cmd}")
         return 0 if res.returncode == 0 else 1
 

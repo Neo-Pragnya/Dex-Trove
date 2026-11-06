@@ -13,6 +13,33 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.10] — 2026-11-05
+
+### Fixed
+
+- **Metadata a scanner may not read.** Wheels and sdists were built with Metadata-Version 2.5, which older SCA parsers reject, so they can't identify the package. Dex now writes 2.4, with licence classifiers for the licences it declares.
+- **modern-screenshot's MIT notice wasn't shipped.** Impeccable bundles it. `dex notices` now writes components bundled inside items, from `notices/bundled.toml`, into THIRD_PARTY_NOTICES.md with their full licence text, so the notice survives a re-learn.
+- The README's licence table names categories, with each licence listed in the licence policy.
+
+### Added
+
+- **The release gate from Ananke,** with a reviewed baseline in `.scan-dist.toml`. Every accepted finding has a reason and is limited to the files reviewed:
+  - bundled scripts with their licences;
+  - signature matches in vendored documentation;
+  - six Bandit HIGH findings in vendored skills and the patched BMad fork;
+  - GuardDog rules;
+  - licence names in a library that describes licences.
+
+  None of the 1,709 shipped items is copyleft.
+- **An opt-in pre-push hook** (`pre-commit install --hook-type pre-push`): osv-scanner and Semgrep.
+
+### Changed
+
+- **`skill:neo-pragnya/scaffold-harvesting`:** its declared-test shell call is marked as reviewed for Bandit.
+- **`skill:neo-pragnya/package-security-scan`:** the current gate, and its text describes the keychain command instead of quoting it.
+
+---
+
 ## [0.3.9] — 2026-11-05
 
 ### Security

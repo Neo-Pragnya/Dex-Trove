@@ -10,7 +10,7 @@
     "neo-pragnya",
     "skill"
   ],
-  "version": "1.0.0",
+  "version": "1.0.2",
   "entry": "SKILL.md",
   "dir": "skills/neo-pragnya.package-security-scan",
   "source": {
@@ -39,7 +39,7 @@
     "references/quarantine-reasons.md",
     "scripts/scan_dist.py"
   ],
-  "entry_hash": "14f69a8dc6857b2645b7d304c20618ffaa1917d5c099fc68e5c0772e37d6e2cd",
-  "content_hash": "171cb2193acd315ac969d5f59db9220331ff9b37bff1f5818a9f002f7f20e47b",
-  "learned_at": "2026-10-23T02:25:36+00:00"
+  "entry_hash": "faf89d9716d078194ccda1ca5655f7d963ff0ecbbe91eec887b58bf92a90dbf3",
+  "content_hash": "d1fce7a845ba624ce73ee8fcb62ba852b8561bbb8a4bb997c119d0a29c50a3c0",
+  "learned_at": "2026-11-06T01:37:09+00:00"
 }
