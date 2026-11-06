@@ -13,7 +13,7 @@ Licences: MIT (13 items)
 ## Awesome GitHub Copilot
 
 Source: <https://github.com/github/awesome-copilot>  
-Licences: Apache-2.0 (9 items), MIT (918 items)
+Licences: Apache-2.0 (9 items), MIT (917 items)
 
 - Copyright (c) 2026 Stanislav Bankovskii
 - Copyright (c) Microsoft Corporation. All rights reserved.
@@ -72,7 +72,7 @@ Licences: MIT (9 items)
 ## Scientific skills (K-Dense)
 
 Source: <https://github.com/K-Dense-AI/claude-scientific-skills>  
-Licences: Apache-2.0 (8 items), BSD-3-Clause (3 items), CC-BY-4.0 (1 items), MIT (151 items)
+Licences: Apache-2.0 (8 items), BSD-3-Clause (3 items), CC-BY-4.0 (1 items), MIT (150 items)
 
 - Copyright (c) 2025 K-Dense Inc.
 - Copyright (c) 2026 Beifang Niu

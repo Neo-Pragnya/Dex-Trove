@@ -13,6 +13,28 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.11] — 2026-11-05
+
+### Removed
+
+- **`skill:awesome-copilot/azure-architecture-autopilot`, withheld:** it ships Azure's icons as 2.1 MB of base64 in one Python file, which package firewalls read as obfuscated code.
+- **`skill:scientific/generate-image`, withheld:** it reads an API key from `.env` files in this and every parent folder, the pattern credential-stealer heuristics flag.
+
+  Both stay in the release ledger, marked removed. Every other item is unchanged: they were learned again from the same upstream commits.
+
+### Added
+
+- **Finding records from the release gate,** as in Ananke:
+  - `findings.json`, with provenance and a CycloneDX SBOM;
+  - exceptions with an owner and a review date, which block once expired;
+  - degraded scans that fail in CI. CI installs Grype, Syft and osv-scanner, pinned and sha256-checked.
+
+  The full gate now runs on every pull request.
+- **CODEOWNERS** for the gate's exceptions, the gate and the workflows.
+- **Guide: Security findings.**
+
+---
+
 ## [0.3.10] — 2026-11-05
 
 ### Fixed

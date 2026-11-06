@@ -16701,15 +16701,15 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/arduino-azure-iot-edge-integration",
+        "target": "agent:awesome-copilot/azure-policy-analyzer",
         "origin": "inferred",
-        "evidence": "shares name words: azure, edge, iot"
+        "evidence": "shares name words: azure"
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/azure-architecture-autopilot",
+        "target": "skill:awesome-copilot/arduino-azure-iot-edge-integration",
         "origin": "inferred",
-        "evidence": "shares name words: architecture, azure"
+        "evidence": "shares name words: azure, edge, iot"
       },
       {
         "type": "similar",
@@ -25449,7 +25449,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/azure-architecture-autopilot",
+        "target": "skill:awesome-copilot/gtm-partnership-architecture",
         "origin": "inferred",
         "evidence": "shares name words: architecture"
       }
@@ -26572,44 +26572,6 @@
         "target": "skill:microsoft/cost-governance",
         "origin": "inferred",
         "evidence": "shares name words: cost"
-      }
-    ],
-    "skill:awesome-copilot/azure-architecture-autopilot": [
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-iac-exporter",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-iac-generator",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-logic-apps-expert",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-policy-analyzer",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "agent:awesome-copilot/azure-principal-architect",
-        "origin": "inferred",
-        "evidence": "shares name words: azure"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/azure-iot-edge-architecture",
-        "origin": "inferred",
-        "evidence": "shares name words: architecture, azure"
       }
     ],
     "skill:awesome-copilot/azure-container-registry-cli": [
@@ -30923,9 +30885,9 @@
       },
       {
         "type": "similar",
-        "target": "skill:scientific/generate-image",
+        "target": "skill:awesome-copilot/comment-code-generate-a-tutorial",
         "origin": "inferred",
-        "evidence": "shares name words: generate, image"
+        "evidence": "shares name words: generate"
       }
     ],
     "skill:awesome-copilot/geofeed-tuner": [
@@ -48008,44 +47970,6 @@
         "target": "skill:scientific/pathogen-variant-surveillance",
         "origin": "inferred",
         "evidence": "shares name words: variant"
-      }
-    ],
-    "skill:scientific/generate-image": [
-      {
-        "type": "similar",
-        "target": "agent:wshobson/image-generator",
-        "origin": "inferred",
-        "evidence": "shares name words: image"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/devbox-image-definition",
-        "origin": "inferred",
-        "evidence": "shares name words: image"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/generate-modern-terraform-code-for-azure",
-        "origin": "inferred",
-        "evidence": "shares name words: generate"
-      },
-      {
-        "type": "similar",
-        "target": "plugin:awesome-copilot/skill-image-gen",
-        "origin": "inferred",
-        "evidence": "shares name words: image"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/acreadiness-generate-instructions",
-        "origin": "inferred",
-        "evidence": "shares name words: generate"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/generate-image",
-        "origin": "inferred",
-        "evidence": "shares name words: generate, image"
       }
     ],
     "skill:scientific/genomic-coordinates": [

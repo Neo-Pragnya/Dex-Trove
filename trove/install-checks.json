@@ -1,12 +1,12 @@
 {
- "generator": "dex-trove 0.3.9",
+ "generator": "dex-trove 0.3.10",
  "summary": {
   "claude": {
-   "pass": 1503,
+   "pass": 1501,
    "fail": 2
   },
   "copilot": {
-   "pass": 1700,
+   "pass": 1698,
    "fail": 9
   }
  },
@@ -3235,10 +3235,6 @@
    "claude": "pass",
    "copilot": "pass"
   },
-  "skill:awesome-copilot/azure-architecture-autopilot": {
-   "claude": "pass",
-   "copilot": "pass"
-  },
   "skill:awesome-copilot/azure-container-registry-cli": {
    "claude": "pass",
    "copilot": "pass"
@@ -6072,10 +6068,6 @@
    "copilot": "pass"
   },
   "skill:scientific/folklore-variant-evidence": {
-   "claude": "pass",
-   "copilot": "pass"
-  },
-  "skill:scientific/generate-image": {
    "claude": "pass",
    "copilot": "pass"
   },
