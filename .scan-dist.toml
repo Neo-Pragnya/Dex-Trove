@@ -327,5 +327,98 @@ reason = "Hugging Face evaluation scripts read HF_TOKEN to reach the Hub, as doc
 paths = ["dex_trove/skills/huggingface.huggingface-community-evals/scripts/*.py", "trove/skills/huggingface.huggingface-community-evals/scripts/*.py", "dex_trove/skills/huggingface.huggingface-llm-trainer/scripts/*.py", "trove/skills/huggingface.huggingface-llm-trainer/scripts/*.py", "dex_trove/skills/huggingface.*/scripts/*.py", "trove/skills/huggingface.*/scripts/*.py"]
 
 [heuristics.threat-filesystem-read]
-reason = "tests and audit scripts reading files they were pointed at: Dex's own tests, docs drift audit, harvesting and BMad eval tests"
-paths = ["tests/*", "dex_trove/skills/awesome-copilot.docs-sync-audit/scripts/docs_drift.py", "trove/skills/awesome-copilot.docs-sync-audit/scripts/docs_drift.py", "dex_trove/skills/bmad-method.bmad-eval/scripts/tests/*", "trove/skills/bmad-method.bmad-eval/scripts/tests/*", "dex_trove/skills/neo-pragnya.scaffold-harvesting/scripts/harvest.py", "trove/skills/neo-pragnya.scaffold-harvesting/scripts/harvest.py", "forks/bmad/scripts/tests/*"]
+reason = "tests and scripts reading files they were pointed at, or refusing .env ones; and K-Dense generate-image, which reads its own API key from a .env in this or a parent folder when the variable is unset, as it documents"
+paths = ["tests/*", "dex_trove/skills/awesome-copilot.docs-sync-audit/scripts/docs_drift.py", "trove/skills/awesome-copilot.docs-sync-audit/scripts/docs_drift.py", "dex_trove/skills/bmad-method.bmad-eval/scripts/tests/*", "trove/skills/bmad-method.bmad-eval/scripts/tests/*", "dex_trove/skills/neo-pragnya.scaffold-harvesting/scripts/harvest.py", "trove/skills/neo-pragnya.scaffold-harvesting/scripts/harvest.py", "forks/bmad/scripts/tests/*", "dex_trove/skills/scientific.hypogenic/scripts/_common.py", "trove/skills/scientific.hypogenic/scripts/_common.py", "dex_trove/skills/scientific.generate-image/scripts/generate_image.py", "trove/skills/scientific.generate-image/scripts/generate_image.py"]
+
+# ---- Bandit HIGH in vendored skills and the patched BMad fork, reviewed file by file
+
+[[bandit]]
+test = "B602"
+path = "*skills/anthropic.webapp-testing/scripts/with_server.py"
+reason = "Anthropic's webapp-testing runs the server command its user writes, which may use cd and &&; it's the skill's documented purpose"
+
+[[bandit]]
+test = "B324"
+path = "*skills/awesome-copilot.draw-io-diagram-generator/scripts/add-shape.py"
+reason = "SHA-1 makes a short shape id for a diagram, not for security"
+
+[[bandit]]
+test = "B324"
+path = "*skills/bmad-method.bmad-brainstorming/scripts/brain.py"
+reason = "MD5 picks a colour hue from a category name, not for security"
+
+[[bandit]]
+test = "B324"
+path = "*skills/scientific.gtars/scripts/refget_digest_plan.py"
+reason = "MD5 is one of the digests the GA4GH refget standard itself specifies for sequences"
+
+[[bandit]]
+test = "B701"
+path = "*skills/patched.bmad/scripts/render_skill.py"
+reason = "renders Markdown skill files, where HTML autoescaping would corrupt them; the output is never served as HTML"
+
+[[bandit]]
+test = "B602"
+path = "*skills/patched.bmad/scripts/tests/test_render_skill.py"
+reason = "a BMad test that runs a fixed command through a shell, as the feature under test does"
+
+# ---- the package-security-scan skill ships the gate itself, whose patterns name what they look for
+[[signature]]
+rule = "keychain-dump"
+path = "*skills/neo-pragnya.package-security-scan/scripts/scan_dist.py"
+reason = "the release gate's own detection pattern for keychain dumps; it looks for the command, it never runs it"
+
+[[signature]]
+rule = "cloud-credentials-read"
+path = "*skills/neo-pragnya.package-security-scan/scripts/scan_dist.py"
+reason = "the release gate's own detection pattern for cloud credential reads; it reads no credentials"
+
+# ---- licence names: Dex is a licence-clean library, so it describes licences everywhere. None of the 1,709 shipped
+# items is under a copyleft licence: catalog.json records each item's licence, read from its licence text by dex learn.
+[[mention]]
+path = "*dex_trove/licenses.py"
+reason = "Dex's licence classifier, which recognises copyleft licences in order to exclude them"
+
+[[mention]]
+path = "*catalog.json"
+reason = "the catalog records each item's licence; copyleft names appear only as the licences of excluded candidates"
+
+[[mention]]
+path = "*EXCLUDED.json"
+reason = "the list of candidates Dex refused, many of them because they are copyleft"
+
+[[mention]]
+path = "*sources.yaml"
+reason = "source configuration noting which upstreams are copyleft and why they are excluded or limited"
+
+[[mention]]
+path = "*THIRD_PARTY_NOTICES.md"
+reason = "the notices, which quote licence texts of the items Dex redistributes"
+
+[[mention]]
+path = "tests/*"
+reason = "tests that check copyleft licences are recognised and refused"
+
+[[mention]]
+path = "*skills/*"
+reason = "an item's own instructions that discuss licences (licence checkers, tools such as pdftk); the item's licence is in catalog.json"
+
+[[mention]]
+path = "*agents/*"
+reason = "an agent's own instructions that discuss licences; the item's licence is in catalog.json"
+
+[[mention]]
+path = "*hooks/*"
+reason = "a hook that checks dependency licences, and so names them; the item's licence is in catalog.json"
+
+[[mention]]
+path = "*workflows/*"
+reason = "a workflow that checks release licence compliance, and so names licences; the item's licence is in catalog.json"
+
+[[mention]]
+path = "*instructions/*"
+reason = "instructions that discuss licences; the item's licence is in catalog.json"
+
+[[mention]]
+path = "acceptance/*"
+reason = "acceptance tests that check a copyleft licence text is recognised and refused"

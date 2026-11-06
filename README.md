@@ -90,8 +90,10 @@ quarantines the whole wheel for one hit.
 | Verdict | Licences | Result |
 | --- | --- | --- |
 | allow | MIT, MIT-0, Apache-2.0, BSD-2/3-Clause, ISC, 0BSD, Unlicense, CC0-1.0, CC-BY-4.0, Zlib, BSL-1.0, OFL-1.1 (bundled fonts) | imported; notices preserved |
-| review | MPL, EPL, LGPL, CC-BY-SA | excluded unless a source opts in after review |
-| deny | GPL, AGPL, CC-BY-NC/ND, SSPL, BUSL, proprietary, unknown | never imported |
+| review | weak copyleft and share-alike licences | excluded unless a source opts in after review |
+| deny | strong copyleft, non-commercial, no-derivatives and source-available licences; proprietary; unknown | never imported |
+
+Every licence in each row, by SPDX id, is in [the licence policy](docs/concepts/licence-policy.md).
 
 Resolution goes from the most specific evidence to the least: item frontmatter, then the item's licence file, then
 ancestor folders, then the repo licence. Restrictive terms anywhere in the item win. Upstream files are copied

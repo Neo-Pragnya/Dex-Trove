@@ -32257,6 +32257,44 @@
           },
           "released_at": "2026-10-23T02:25:36+00:00",
           "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "4d24d21a86ec6d3b8d4b822b7fdf4d8c21d415ddf6b7df2ac2d422be3473ed42",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "assets/dist-scan-job.yml",
+            "assets/gitleaks.toml",
+            "references/quarantine-reasons.md",
+            "scripts/scan_dist.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "package-security-scan"
+          },
+          "released_at": "2026-11-06T01:24:36+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.2",
+          "content_hash": "d1fce7a845ba624ce73ee8fcb62ba852b8561bbb8a4bb997c119d0a29c50a3c0",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "assets/dist-scan-job.yml",
+            "assets/gitleaks.toml",
+            "references/quarantine-reasons.md",
+            "scripts/scan_dist.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "package-security-scan"
+          },
+          "released_at": "2026-11-06T01:37:09+00:00",
+          "channel": "stable"
         }
       ]
     },
@@ -32346,6 +32384,22 @@
             "path": "scaffold-harvesting"
           },
           "released_at": "2026-11-02T14:35:57+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "0fe3eeec31710f906689dd5b7298abf6b1865b9aaa2201f277cc428ee6672716",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md",
+            "scripts/harvest.py"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove",
+            "commit": null,
+            "path": "scaffold-harvesting"
+          },
+          "released_at": "2026-11-06T01:24:36+00:00",
           "channel": "stable"
         }
       ]
