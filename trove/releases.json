@@ -16959,7 +16959,8 @@
           "released_at": "2026-10-20T03:28:50+00:00",
           "channel": "stable"
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:awesome-copilot/azure-container-registry-cli": {
       "releases": [
@@ -34189,7 +34190,8 @@
           "released_at": "2026-11-03T06:22:42+00:00",
           "channel": "stable"
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:scientific/geniml": {
       "releases": [

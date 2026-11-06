@@ -120,6 +120,7 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
       "guides/first-party-skills",
       "guides/docs-site",
       "guides/release",
+      "guides/security-findings",
     ],
   },
   {

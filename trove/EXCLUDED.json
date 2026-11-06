@@ -1,5 +1,5 @@
 {
-  "count": 144,
+  "count": 146,
   "excluded": [
     {
       "source": "anthropic",
@@ -364,6 +364,14 @@
     {
       "source": "awesome-copilot",
       "kind": "skill",
+      "name": "azure-architecture-autopilot",
+      "path": "skills/azure-architecture-autopilot",
+      "reason": "withheld",
+      "detail": "ships Azure's icons as 2.1 MB of base64 in one Python file, which package firewalls read as obfuscated code"
+    },
+    {
+      "source": "awesome-copilot",
+      "kind": "skill",
       "name": "eval-driven-dev",
       "path": "skills/eval-driven-dev",
       "reason": "withheld",
@@ -544,6 +552,14 @@
       "path": "skills/etetoolkit",
       "reason": "license-denied",
       "detail": "GPL-3.0-or-later — frontmatter license: 'GPL-3.0-or-later'"
+    },
+    {
+      "source": "scientific",
+      "kind": "skill",
+      "name": "generate-image",
+      "path": "skills/generate-image",
+      "reason": "withheld",
+      "detail": "reads an API key from .env files in this and every parent folder, the pattern credential-stealer heuristics flag"
     },
     {
       "source": "scientific",

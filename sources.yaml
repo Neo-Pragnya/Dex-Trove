@@ -70,6 +70,7 @@ sources:
     license: { expected: MIT }
     items:
       eval-driven-dev: { withhold: "installed pixie-qa unpinned; use skill:patched/eval-driven-dev" }
+      azure-architecture-autopilot: { withhold: "ships Azure's icons as 2.1 MB of base64 in one Python file, which package firewalls read as obfuscated code" }
 
   - id: anthropic
     title: Anthropic Agent Skills
@@ -161,6 +162,7 @@ sources:
     items:
       protocolsio-integration: { withhold: "use skill:patched/protocolsio-integration, with a clearer address check" }
       database-lookup: { withhold: "placeholder credentials in its examples trip package scanners" }
+      generate-image: { withhold: "reads an API key from .env files in this and every parent folder, the pattern credential-stealer heuristics flag" }
     license: { expected: MIT }
 
   - id: wshobson
