@@ -1,0 +1,50 @@
+{
+  "id": "neo-pragnya-mcp/github-mcp-kit",
+  "kind": "plugin",
+  "namespace": "neo-pragnya-mcp",
+  "name": "github-mcp-kit",
+  "title": "Pull requests with evidence",
+  "description": "Pull requests with evidence: the dex-github MCP server with its skill and agent.",
+  "tags": [
+    "approval-gated",
+    "dex-trove",
+    "evidence",
+    "github",
+    "mcp",
+    "neo-pragnya-mcp",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/neo-pragnya-mcp.github-mcp-kit",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "plugins/github-mcp-kit",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.github-mcp-kit",
+    "author": "Neo Pragnya"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:neo-pragnya-mcp/github-pr-evidence",
+    "agent:neo-pragnya-mcp/pr-evidence-publisher"
+  ],
+  "files": [
+    ".mcp.json",
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "47c4c9487a6dfbf81a930f32b7eba694806a8431cdd4443c1c6a56753c36a063",
+  "content_hash": "e6e10c67092481a6a575767df2e069740d157620c9e86f14c96ea44b29b0fbd2",
+  "learned_at": "2026-11-11T15:02:07+00:00"
+}

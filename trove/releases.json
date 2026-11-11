@@ -4181,6 +4181,154 @@
         }
       ]
     },
+    "agent:neo-pragnya-mcp/browser-debugger": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "985e1255f780b88d3c9799d9db47cede5948869d57665c0be578082793c4dcd7",
+          "entry": "browser-debugger.agent.md",
+          "files": [
+            "browser-debugger.agent.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "agents/browser-debugger.agent.md"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "28b965e8adc3614375131699999305e68e1032f317d11f516f899a1c5e93d2a8",
+          "entry": "browser-debugger.agent.md",
+          "files": [
+            "browser-debugger.agent.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "agents/browser-debugger.agent.md"
+          },
+          "released_at": "2026-11-11T15:20:53+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "agent:neo-pragnya-mcp/jenkins-build-steward": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "87905669deae5e8bfd5951bbfaac4bca2d8aa22b071a2ce5502e9f04710bd14d",
+          "entry": "jenkins-build-steward.agent.md",
+          "files": [
+            "jenkins-build-steward.agent.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "agents/jenkins-build-steward.agent.md"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "agent:neo-pragnya-mcp/kibana-dashboard-builder": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "1b7b761c48a22f72adc9fb25ea8703e9a18506201ea73580e94e45ed89bc2a1a",
+          "entry": "kibana-dashboard-builder.agent.md",
+          "files": [
+            "kibana-dashboard-builder.agent.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "agents/kibana-dashboard-builder.agent.md"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "agent:neo-pragnya-mcp/onboarding-guide": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "890f8f2af1a1101b7157d3c0860cfa652ac9a41cca5e2b02e30ac3f398b6e2c6",
+          "entry": "onboarding-guide.agent.md",
+          "files": [
+            "onboarding-guide.agent.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "agents/onboarding-guide.agent.md"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "agent:neo-pragnya-mcp/pr-evidence-publisher": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "0d5a42d885c13a76bc9dee714b26b38b24a5c0f84c2e84b2e1a016227d6e451b",
+          "entry": "pr-evidence-publisher.agent.md",
+          "files": [
+            "pr-evidence-publisher.agent.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "agents/pr-evidence-publisher.agent.md"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "agent:neo-pragnya-mcp/sas-modernizer": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "13385d1297280553d99614e0d576b4546bb2a9ca1bf5a79f0bafc2f6a1d0926c",
+          "entry": "sas-modernizer.agent.md",
+          "files": [
+            "sas-modernizer.agent.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "agents/sas-modernizer.agent.md"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "agent:neo-pragnya-mcp/usage-analyst": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "79d4627dffe109aa3beeda952e00e2b7f76056adea638366d60c32da9f7bd843",
+          "entry": "usage-analyst.agent.md",
+          "files": [
+            "usage-analyst.agent.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "agents/usage-analyst.agent.md"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "agent:spec-kit/analyze": {
       "releases": [
         {
@@ -15309,6 +15457,324 @@
           "channel": "stable"
         }
       ]
+    },
+    "plugin:neo-pragnya-mcp/analytics-mcp-kit": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "4801b15a109327c10fb552b6e7b37d72a7af3ec56e0db9aed850fa705d47f87d",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/analytics-mcp-kit"
+          },
+          "released_at": "2026-11-11T15:02:07+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "plugin:neo-pragnya-mcp/assistant-usage-analytics": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "95863f3283cf1abf43b127a3209f79c93784ce1eef137595c3ce968c7fb5d715",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/assistant-usage-analytics"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ],
+      "removed": true
+    },
+    "plugin:neo-pragnya-mcp/browser-debugging-lab": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "7377f7939bd2ab18144a2240480981ba8f8b4414f97667bc9a0fc90120949ba3",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/browser-debugging-lab"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ],
+      "removed": true
+    },
+    "plugin:neo-pragnya-mcp/browser-mcp-kit": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "44b37087ec5fd38015560074c9426fb1a96be9dba6d72b364b36418aa67a9b24",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/browser-mcp-kit"
+          },
+          "released_at": "2026-11-11T15:02:07+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "44cbb8a9fd0a9c8ec4a43a0c65cab7641e868f5072659208359c1f4bbaa06723",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/browser-mcp-kit"
+          },
+          "released_at": "2026-11-11T15:20:53+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "plugin:neo-pragnya-mcp/github-mcp-kit": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "e6e10c67092481a6a575767df2e069740d157620c9e86f14c96ea44b29b0fbd2",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/github-mcp-kit"
+          },
+          "released_at": "2026-11-11T15:02:07+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "plugin:neo-pragnya-mcp/github-pr-evidence": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "9f9765b5839c6e6d801095eea75a7c7a9431008ddf17d381e7416b9c93aee426",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/github-pr-evidence"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ],
+      "removed": true
+    },
+    "plugin:neo-pragnya-mcp/jenkins-build-gate": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "29f97305f9acc6d6593469ae2108871099529294c00fff7fb544d1b14685dc30",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/jenkins-build-gate"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ],
+      "removed": true
+    },
+    "plugin:neo-pragnya-mcp/jenkins-mcp-kit": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "eae87cb9252ace59ec227f13eca3ed665b224e276fc71e101e6bbd827e405031",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/jenkins-mcp-kit"
+          },
+          "released_at": "2026-11-11T15:02:07+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "plugin:neo-pragnya-mcp/kibana-dashboards": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "4aee83562c0be1e0ea6b17460e0b689362d452b2b5f1f3f1198d94624a5d498d",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/kibana-dashboards"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ],
+      "removed": true
+    },
+    "plugin:neo-pragnya-mcp/kibana-mcp-kit": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "d73967e3c20d4d26a72d0fb941710554155369a133f565410539dcded37b9775",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/kibana-mcp-kit"
+          },
+          "released_at": "2026-11-11T15:02:07+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "plugin:neo-pragnya-mcp/onboarding-from-exports": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "f54ac58b31ed5d64e929e5c73ff8e1cdb6f943c7a44d9bfefe64caf8235a5589",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/onboarding-from-exports"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ],
+      "removed": true
+    },
+    "plugin:neo-pragnya-mcp/onboarding-mcp-kit": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "a0bc3f3084c5a13563d54bd9df01e4b62c2aa042570d4c2351de40449229b03b",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/onboarding-mcp-kit"
+          },
+          "released_at": "2026-11-11T15:02:07+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "plugin:neo-pragnya-mcp/sas-mcp-kit": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "1befe00bf46d12385e45d286bc57a758a4e2cca59564697770735336354561de",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/sas-mcp-kit"
+          },
+          "released_at": "2026-11-11T15:02:07+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "plugin:neo-pragnya-mcp/sas-to-python": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "13c27c1998537e7b7ad599773de8a656ae6c5fe46a64e1dc0a5c86da6e9d98e6",
+          "entry": "README.md",
+          "files": [
+            ".mcp.json",
+            "README.md",
+            "plugin.json"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "plugins/sas-to-python"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ],
+      "removed": true
     },
     "prompt:spec-kit/analyze": {
       "releases": [
@@ -32009,6 +32475,154 @@
             "path": ".github/plugins/azure-sdk-typescript/skills/zustand-store-ts"
           },
           "released_at": "2026-11-03T06:19:30+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/assistant-usage-analytics": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "9f72c45609cac07d820a7a53c3f0a81b48d9c2e97d8459c4ea04170d4560f782",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "skills/assistant-usage-analytics"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/browser-debugging-lab": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "2219501e302fae5bb965c74969fb2bc1b422d5945ef219c90b6a332b2256cc97",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "skills/browser-debugging-lab"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        },
+        {
+          "version": "1.0.1",
+          "content_hash": "a6350e82ba0c3794ce84d40e4efb1f9c3a6dd1c9fd07829d16ac23f98999055c",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "skills/browser-debugging-lab"
+          },
+          "released_at": "2026-11-11T15:20:53+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/github-pr-evidence": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "0faaad06095c2012d354551257bf6773c799e0a8a54a54db8c3e8d09092e45f0",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "skills/github-pr-evidence"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/jenkins-build-gate": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "b59e76e6bdc88a38556950ce204c50e4347d095892f1c99f01283b786fcaa6f5",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "skills/jenkins-build-gate"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/kibana-dashboards": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "ff4dfc1b44a32203776271fb49c95dbb66fd71a989497da1369f77b703cede4c",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "skills/kibana-dashboards"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/onboarding-from-exports": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "237bf437878f6b1dca56ef4713a04643cfdedb779ecfc5f41ea20da29ef6732a",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "skills/onboarding-from-exports"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/sas-to-python": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "a0371d91121b86188352ca6da765c0980d3fc69463a2cb9457b84098472c7683",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+            "path": "skills/sas-to-python"
+          },
+          "released_at": "2026-11-11T14:58:18+00:00",
           "channel": "stable"
         }
       ]

@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
  "taxonomy_version": "1.1.0",
- "count": 1707,
+ "count": 1728,
  "items": {
   "agent:awesome-copilot/accessibility": {
    "schema_version": "1.0.0",
@@ -20962,6 +20962,824 @@
     "review_status": "review-pending"
    },
    "provenance": {
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "agent:neo-pragnya-mcp/browser-debugger": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/browser-debugger@1.0.1",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "agent",
+    "task": [
+     "debug",
+     "design-ui",
+     "operate",
+     "write-tests"
+    ],
+    "phase": [
+     "testing"
+    ],
+    "role": [
+     "designer",
+     "qa-engineer"
+    ],
+    "domain": [
+     "frontend",
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp",
+     "playwright"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug": [
+       "name: 'debug'"
+      ],
+      "design-ui": [
+       "description: 'UI'"
+      ],
+      "operate": [
+       "description: 'trace'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "testing": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "designer": [
+       "description: 'UI'"
+      ],
+      "qa-engineer": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "frontend": [
+       "description: 'frontend'"
+      ],
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ],
+      "playwright": [
+       "description: 'Playwright'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "agent:neo-pragnya-mcp/jenkins-build-steward": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/jenkins-build-steward@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "agent",
+    "task": [
+     "debug-ci",
+     "use-git"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug-ci": [
+       "name: 'jenkins'"
+      ],
+      "use-git": [
+       "description: 'pull request'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "agent:neo-pragnya-mcp/kibana-dashboard-builder": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/kibana-dashboard-builder@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "agent",
+    "task": [
+     "operate",
+     "write-spec",
+     "write-tests"
+    ],
+    "phase": [
+     "design",
+     "requirements",
+     "testing"
+    ],
+    "role": [
+     "qa-engineer"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "language": [
+     "python"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "operate": [
+       "description: 'logging'"
+      ],
+      "write-spec": [
+       "description: 'spec'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "design": [
+       "description: 'Design'"
+      ],
+      "requirements": [
+       "description: 'spec'"
+      ],
+      "testing": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "python": [
+       "description: 'Python'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "agent:neo-pragnya-mcp/onboarding-guide": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/onboarding-guide@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "agent",
+    "task": [
+     "reflect",
+     "write-docs"
+    ],
+    "role": [
+     "technical-writer"
+    ],
+    "domain": [
+     "documentation",
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "reflect": [
+       "name: 'onboard'"
+      ],
+      "write-docs": [
+       "description: 'write an onboarding guide'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "technical-writer": [
+       "description: 'write an onboarding guide'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "documentation": [
+       "description: 'write an onboarding guide'"
+      ],
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "agent:neo-pragnya-mcp/pr-evidence-publisher": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/pr-evidence-publisher@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "agent",
+    "task": [
+     "deploy",
+     "review-code",
+     "use-git",
+     "write-tests"
+    ],
+    "phase": [
+     "deployment",
+     "testing",
+     "verification"
+    ],
+    "role": [
+     "qa-engineer"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "deploy": [
+       "description: 'release'"
+      ],
+      "review-code": [
+       "description: 'PR comment'"
+      ],
+      "use-git": [
+       "description: 'commits'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "description: 'release'"
+      ],
+      "testing": [
+       "description: 'test'"
+      ],
+      "verification": [
+       "description: 'verif'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "agent:neo-pragnya-mcp/sas-modernizer": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/sas-modernizer@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "agent",
+    "task": [
+     "refactor"
+    ],
+    "domain": [
+     "data",
+     "ml-ai"
+    ],
+    "language": [
+     "python",
+     "sql"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "refactor": [
+       "name: 'moderniz'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "data": [
+       "description: 'SQL'"
+      ],
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "python": [
+       "description: 'Python'"
+      ],
+      "sql": [
+       "description: 'SQL'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "agent:neo-pragnya-mcp/usage-analyst": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/usage-analyst@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "agent",
+    "task": [
+     "analyse-data"
+    ],
+    "role": [
+     "developer"
+    ],
+    "domain": [
+     "api",
+     "developer-tooling",
+     "frontend",
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "analyse-data": [
+       "description: 'analytics'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'Code'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "description: 'API'"
+      ],
+      "developer-tooling": [
+       "description: 'Claude Code'"
+      ],
+      "frontend": [
+       "description: 'HTML'"
+      ],
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
     "needs": {
      "source": "derived",
      "evidence": {
@@ -77351,6 +78169,759 @@
      "screen-recording",
      "screenshots",
      "visual"
+    ]
+   }
+  },
+  "plugin:neo-pragnya-mcp/analytics-mcp-kit": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/analytics-mcp-kit@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "analyse-data",
+     "build-agents"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "native",
+     "evidence": {
+      "analyse-data": [
+       "tag: 'analytics'"
+      ],
+      "build-agents": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "analyse-data"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "mcp": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "mcp"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "approval-gated",
+     "dex-trove",
+     "evidence"
+    ]
+   }
+  },
+  "plugin:neo-pragnya-mcp/browser-mcp-kit": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/browser-mcp-kit@1.0.1",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "build-agents"
+    ],
+    "domain": [
+     "frontend",
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "native",
+     "evidence": {
+      "build-agents": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "debug"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "frontend": [
+       "name: 'browser'"
+      ],
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "mcp": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "mcp"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "approval-gated",
+     "browser",
+     "dex-trove",
+     "evidence"
+    ]
+   }
+  },
+  "plugin:neo-pragnya-mcp/github-mcp-kit": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/github-mcp-kit@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "build-agents"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "native",
+     "evidence": {
+      "build-agents": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "use-git"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "mcp": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "mcp"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "approval-gated",
+     "dex-trove",
+     "evidence",
+     "github"
+    ]
+   }
+  },
+  "plugin:neo-pragnya-mcp/jenkins-mcp-kit": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/jenkins-mcp-kit@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "build-agents"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "native",
+     "evidence": {
+      "build-agents": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "debug-ci"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "mcp": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "mcp"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "approval-gated",
+     "dex-trove",
+     "evidence",
+     "jenkins"
+    ]
+   }
+  },
+  "plugin:neo-pragnya-mcp/kibana-mcp-kit": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/kibana-mcp-kit@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "build-agents"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "native",
+     "evidence": {
+      "build-agents": [
+       "tag: 'mcp'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "mcp": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "mcp"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "approval-gated",
+     "dex-trove",
+     "evidence",
+     "kibana"
+    ]
+   }
+  },
+  "plugin:neo-pragnya-mcp/onboarding-mcp-kit": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/onboarding-mcp-kit@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "build-agents",
+     "reflect"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "native",
+     "evidence": {
+      "build-agents": [
+       "tag: 'mcp'"
+      ],
+      "reflect": [
+       "tag: 'onboarding'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "reflect"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "mcp": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "mcp"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "approval-gated",
+     "dex-trove",
+     "evidence"
+    ]
+   }
+  },
+  "plugin:neo-pragnya-mcp/sas-mcp-kit": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/sas-mcp-kit@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "plugin",
+    "task": [
+     "build-agents"
+    ],
+    "domain": [
+     "ml-ai"
+    ],
+    "language": [
+     "python"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "native",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "native",
+     "evidence": {
+      "build-agents": [
+       "tag: 'mcp'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "ml-ai": [
+       "description: 'MCP server'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "python": [
+       "title: 'Python'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "native",
+     "evidence": {
+      "mcp": [
+       "tag: 'mcp'"
+      ]
+     },
+     "also_suggested": {
+      "rules": [
+       "mcp"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   },
+   "unmapped": {
+    "tags": [
+     "approval-gated",
+     "dex-trove",
+     "evidence",
+     "sas"
     ]
    }
   },
@@ -147763,6 +149334,816 @@
      "evidence": {
       "node": [
        "assets/template.ts"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya-mcp/assistant-usage-analytics": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/assistant-usage-analytics@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "analyse-data"
+    ],
+    "phase": [
+     "verification"
+    ],
+    "role": [
+     "developer"
+    ],
+    "domain": [
+     "api",
+     "developer-tooling",
+     "frontend"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "analyse-data": [
+       "name: 'analytics'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "verification": [
+       "description: 'acceptance'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "developer": [
+       "description: 'Code'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "api": [
+       "description: 'API'"
+      ],
+      "developer-tooling": [
+       "description: 'Claude Code'"
+      ],
+      "frontend": [
+       "description: 'HTML'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya-mcp/browser-debugging-lab": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/browser-debugging-lab@1.0.1",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "debug",
+     "design-ui",
+     "operate",
+     "write-tests"
+    ],
+    "phase": [
+     "testing"
+    ],
+    "role": [
+     "designer",
+     "qa-engineer"
+    ],
+    "domain": [
+     "frontend"
+    ],
+    "framework": [
+     "mcp",
+     "playwright"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug": [
+       "name: 'debug'"
+      ],
+      "design-ui": [
+       "description: 'UI'"
+      ],
+      "operate": [
+       "description: 'trace'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "testing": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "designer": [
+       "description: 'UI'"
+      ],
+      "qa-engineer": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "frontend": [
+       "description: 'frontend'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ],
+      "playwright": [
+       "description: 'Playwright'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya-mcp/github-pr-evidence": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/github-pr-evidence@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "deploy",
+     "review-code",
+     "use-git",
+     "write-tests"
+    ],
+    "phase": [
+     "deployment",
+     "testing",
+     "verification"
+    ],
+    "role": [
+     "qa-engineer",
+     "reviewer"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "deploy": [
+       "description: 'release'"
+      ],
+      "review-code": [
+       "description: 'PR comment'"
+      ],
+      "use-git": [
+       "description: 'commits'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "deployment": [
+       "description: 'release'"
+      ],
+      "testing": [
+       "description: 'test'"
+      ],
+      "verification": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "description: 'test'"
+      ],
+      "reviewer": [
+       "description: 'review'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya-mcp/jenkins-build-gate": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/jenkins-build-gate@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "debug-ci",
+     "use-git"
+    ],
+    "role": [
+     "devops-engineer"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "debug-ci": [
+       "name: 'jenkins'"
+      ],
+      "use-git": [
+       "description: 'pull request'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "devops-engineer": [
+       "description: 'pipeline'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya-mcp/kibana-dashboards": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/kibana-dashboards@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "operate",
+     "write-spec",
+     "write-tests"
+    ],
+    "phase": [
+     "design",
+     "operations",
+     "requirements",
+     "testing"
+    ],
+    "role": [
+     "qa-engineer"
+    ],
+    "domain": [
+     "observability"
+    ],
+    "language": [
+     "python"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "operate": [
+       "description: 'observab'"
+      ],
+      "write-spec": [
+       "description: 'spec'"
+      ],
+      "write-tests": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "phase": {
+     "source": "rules",
+     "evidence": {
+      "design": [
+       "description: 'Design'"
+      ],
+      "operations": [
+       "description: 'observab'"
+      ],
+      "requirements": [
+       "description: 'spec'"
+      ],
+      "testing": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "qa-engineer": [
+       "description: 'test'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "observability": [
+       "description: 'observab'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "python": [
+       "description: 'Python'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya-mcp/onboarding-from-exports": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/onboarding-from-exports@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "reflect",
+     "write-docs"
+    ],
+    "role": [
+     "technical-writer"
+    ],
+    "domain": [
+     "documentation"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "reflect": [
+       "name: 'onboard'"
+      ],
+      "write-docs": [
+       "description: 'write an onboarding guide'"
+      ]
+     }
+    },
+    "role": {
+     "source": "rules",
+     "evidence": {
+      "technical-writer": [
+       "description: 'write an onboarding guide'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "documentation": [
+       "description: 'write an onboarding guide'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
+      ]
+     }
+    },
+    "kind": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "kind"
+      ]
+     }
+    },
+    "platform": {
+     "source": "derived",
+     "evidence": {
+      "catalog": [
+       "install layout"
+      ]
+     }
+    },
+    "maturity": {
+     "source": "derived",
+     "evidence": {
+      "unknown": [
+       "no maturity metadata"
+      ]
+     }
+    }
+   }
+  },
+  "skill:neo-pragnya-mcp/sas-to-python": {
+   "schema_version": "1.0.0",
+   "artifact_ref": "neo-pragnya-mcp/sas-to-python@1.0.0",
+   "taxonomy_version": "1.1.0",
+   "facets": {
+    "kind": "skill",
+    "task": [
+     "refactor"
+    ],
+    "domain": [
+     "data"
+    ],
+    "language": [
+     "python",
+     "sql"
+    ],
+    "framework": [
+     "mcp"
+    ],
+    "platform": [
+     "ananke",
+     "claude-code",
+     "github-copilot"
+    ],
+    "needs": [
+     "text-only"
+    ],
+    "maturity": "unknown"
+   },
+   "classification": {
+    "source": "rules",
+    "review_status": "review-pending"
+   },
+   "provenance": {
+    "task": {
+     "source": "rules",
+     "evidence": {
+      "refactor": [
+       "description: 'moderniz'"
+      ]
+     }
+    },
+    "domain": {
+     "source": "rules",
+     "evidence": {
+      "data": [
+       "description: 'SQL'"
+      ]
+     }
+    },
+    "language": {
+     "source": "rules",
+     "evidence": {
+      "python": [
+       "name: 'python'"
+      ],
+      "sql": [
+       "description: 'SQL'"
+      ]
+     }
+    },
+    "framework": {
+     "source": "rules",
+     "evidence": {
+      "mcp": [
+       "description: 'MCP'"
+      ]
+     }
+    },
+    "needs": {
+     "source": "derived",
+     "evidence": {
+      "text-only": [
+       "no runnable files"
       ]
      }
     },

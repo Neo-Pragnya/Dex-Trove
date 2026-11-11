@@ -20,6 +20,7 @@ with its reason.
 | `impeccable` | 1 | skill 1 | Apache-2.0 1 | 0 | 1 | 0 | 1 | 0 |
 | `microsoft` | 179 | skill 179 | MIT 179 | 0 | 0 | 0 | 21 | 10 |
 | `neo-pragnya` | 13 | skill 13 | MIT 13 | 11 | 16 | 0 | 11 | 0 |
+| `neo-pragnya-mcp` | 21 | agent 7, plugin 7, skill 7 | MIT 21 | 0 | 0 | 0 | 0 | 0 |
 | `patched` | 7 | skill 7 | MIT 4, Apache-2.0 3 | 1 | 0 | 7 | 6 | 0 |
 | `scientific` | 162 | skill 162 | MIT 150, Apache-2.0 8, BSD-3-Clause 3, CC-BY-4.0 1 | 0 | 0 | 0 | 110 | 15 |
 | `spec-kit` | 9 | prompt 9 | MIT 9 | 0 | 6 | 0 | 0 | 0 |

@@ -1,0 +1,33 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: onboarding-from-exports
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:onboarding-from-exports
+summary: Answer onboarding questions and write an onboarding guide from exported Confluence pages, Word documents,
+  PDFs and Markdown, only from files a person permitted, with a citation for every point, restri…
+description: Answer onboarding questions and write an onboarding guide from exported Confluence pages, Word documents,
+  PDFs and Markdown, only from files a person permitted, with a citation for every point, restricted files never
+  indexed, prompt-injection text flagged, and gaps marked instead of filled. Use for onboarding new joiners, Confluence
+  or wiki exports, internal docs Q&A, or a team handbook summary, even if they don't say MCP.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.onboarding-from-exports
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

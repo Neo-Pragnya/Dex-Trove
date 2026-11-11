@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "dex-analytics": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "analytics",
+        "--root",
+        "."
+      ]
+    }
+  }
+}

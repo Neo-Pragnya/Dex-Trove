@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/kibana-dashboard-builder",
+  "kind": "agent",
+  "namespace": "neo-pragnya-mcp",
+  "name": "kibana-dashboard-builder",
+  "title": "kibana-dashboard-builder",
+  "description": "Design Kibana (or OpenSearch Dashboards) dashboards from the fields an application really logs: find fields in mappings, JSON Schemas and Python/JS logging calls, check a dashboard spec for missing fields and type mismatches, export saved-object NDJSON for a target version, and import it into a test instance only on approval. Works through the dex-kibana MCP server and stops for approval before any action.",
+  "tags": [
+    "agent",
+    "neo-pragnya-mcp"
+  ],
+  "version": "1.0.0",
+  "entry": "kibana-dashboard-builder.agent.md",
+  "dir": "agents/neo-pragnya-mcp.kibana-dashboard-builder",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "agents/kibana-dashboard-builder.agent.md",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.kibana-dashboard-builder",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "kibana-dashboard-builder.agent.md"
+  ],
+  "entry_hash": "3ea14246a67b8d0d6054235602d1d79ed1ec635e8f549c871eb71ee355bb1607",
+  "content_hash": "1b7b761c48a22f72adc9fb25ea8703e9a18506201ea73580e94e45ed89bc2a1a",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}

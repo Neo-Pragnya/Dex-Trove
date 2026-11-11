@@ -1,0 +1,34 @@
+kind: agent
+namespace: neo-pragnya-mcp
+name: pr-evidence-publisher
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:neo-pragnya-mcp:pr-evidence-publisher
+summary: Open a pull request only after a person approves a local, static preview of the branch, commits, body and
+  evidence hashes; then attach verified evidence (sha256 of reports, SBOMs, test results) as a P…
+description: Open a pull request only after a person approves a local, static preview of the branch, commits, body
+  and evidence hashes; then attach verified evidence (sha256 of reports, SBOMs, test results) as a PR comment or
+  release assets. Works through the dex-github MCP server and stops for approval before any action.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: pr-evidence-publisher.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - neo-pragnya-mcp
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.pr-evidence-publisher
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

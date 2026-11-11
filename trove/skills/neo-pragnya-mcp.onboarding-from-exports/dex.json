@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/onboarding-from-exports",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "onboarding-from-exports",
+  "title": "Onboarding from document exports",
+  "description": "Answer onboarding questions and write an onboarding guide from exported Confluence pages, Word documents, PDFs and Markdown, only from files a person permitted, with a citation for every point, restricted files never indexed, prompt-injection text flagged, and gaps marked instead of filled. Use for onboarding new joiners, Confluence or wiki exports, internal docs Q&A, or a team handbook summary, even if they don't say MCP.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.onboarding-from-exports",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "skills/onboarding-from-exports",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.onboarding-from-exports",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "0eaf8d6f07d0415ee36364485f3638408aa7dce43ae96b888819f0893cb7131f",
+  "content_hash": "237bf437878f6b1dca56ef4713a04643cfdedb779ecfc5f41ea20da29ef6732a",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}

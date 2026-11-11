@@ -1,0 +1,35 @@
+kind: agent
+namespace: neo-pragnya-mcp
+name: sas-modernizer
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:neo-pragnya-mcp:sas-modernizer
+summary: 'Move SAS programs to Python with evidence: inventory DATA steps, PROCs, PROC SQL and macros, map dataset
+  lineage with a supported/partial/unsupported verdict per step, write a pandas draft that keeps…'
+description: 'Move SAS programs to Python with evidence: inventory DATA steps, PROCs, PROC SQL and macros, map dataset
+  lineage with a supported/partial/unsupported verdict per step, write a pandas draft that keeps SAS missing-value
+  and sorting rules, and prove outputs match SAS within a declared tolerance. Works through the dex-sas MCP server
+  and stops for approval before any action.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: sas-modernizer.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - neo-pragnya-mcp
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.sas-modernizer
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

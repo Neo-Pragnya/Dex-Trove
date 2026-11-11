@@ -10,6 +10,13 @@ Licences: MIT (13 items)
 
 - Copyright (c) Neo Pragnya
 
+## Neo Pragnya MCP toolkits (first-party)
+
+Source: <https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party>  
+Licences: MIT (21 items)
+
+- Copyright (c) 2026 Neo Pragnya
+
 ## Awesome GitHub Copilot
 
 Source: <https://github.com/github/awesome-copilot>  
@@ -1274,6 +1281,32 @@ MIT License
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE
+```
+
+### `39fbf8a21b51` — used by neo-pragnya-mcp
+
+```text
+MIT License
+
+Copyright (c) 2026 Neo Pragnya
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ### `09b02a3c9df3` — used by patched, scientific

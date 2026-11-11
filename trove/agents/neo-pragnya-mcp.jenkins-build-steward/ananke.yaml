@@ -1,0 +1,34 @@
+kind: agent
+namespace: neo-pragnya-mcp
+name: jenkins-build-steward
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:neo-pragnya-mcp:jenkins-build-steward
+summary: Start allowlisted Jenkins jobs after a pull request only when its checks pass and a person approves the
+  exact parameters; follow the build to its result and record evidence.
+description: Start allowlisted Jenkins jobs after a pull request only when its checks pass and a person approves
+  the exact parameters; follow the build to its result and record evidence. Works through the dex-jenkins MCP server
+  and stops for approval before any action.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: jenkins-build-steward.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - neo-pragnya-mcp
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.jenkins-build-steward
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

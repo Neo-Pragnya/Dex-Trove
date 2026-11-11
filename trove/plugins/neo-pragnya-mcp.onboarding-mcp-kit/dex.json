@@ -1,0 +1,50 @@
+{
+  "id": "neo-pragnya-mcp/onboarding-mcp-kit",
+  "kind": "plugin",
+  "namespace": "neo-pragnya-mcp",
+  "name": "onboarding-mcp-kit",
+  "title": "Onboarding from document exports",
+  "description": "Onboarding from document exports: the dex-onboarding MCP server with its skill and agent.",
+  "tags": [
+    "approval-gated",
+    "dex-trove",
+    "evidence",
+    "mcp",
+    "neo-pragnya-mcp",
+    "onboarding",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/neo-pragnya-mcp.onboarding-mcp-kit",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "plugins/onboarding-mcp-kit",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.onboarding-mcp-kit",
+    "author": "Neo Pragnya"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:neo-pragnya-mcp/onboarding-from-exports",
+    "agent:neo-pragnya-mcp/onboarding-guide"
+  ],
+  "files": [
+    ".mcp.json",
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "b8de50aabcc20f4208c7d5c9a612044be47dd0f71fd9a78404750db36e5bada4",
+  "content_hash": "a0bc3f3084c5a13563d54bd9df01e4b62c2aa042570d4c2351de40449229b03b",
+  "learned_at": "2026-11-11T15:02:07+00:00"
+}

@@ -1,0 +1,35 @@
+kind: agent
+namespace: neo-pragnya-mcp
+name: browser-debugger
+version: 1.0.1
+ananke_id: urn:dex-trove:agent:neo-pragnya-mcp:browser-debugger
+summary: 'Debug a web UI with Playwright without installing a browser into your tools: create an isolated, read-only
+  Playwright lab against a local or named test URL, run it on approval, read trace.zip files (f…'
+description: 'Debug a web UI with Playwright without installing a browser into your tools: create an isolated, read-only
+  Playwright lab against a local or named test URL, run it on approval, read trace.zip files (failed actions, console
+  and page errors, failed requests), map failing selectors and pages to the frontend source and routes, and write
+  redacted evidence. Works through the dex-browser MCP server and stops for approval before any action.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: browser-debugger.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - neo-pragnya-mcp
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.browser-debugger
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

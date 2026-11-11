@@ -85,6 +85,18 @@
       },
       "excluded": 0
     },
+    "neo-pragnya-mcp": {
+      "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+      "ref": "HEAD",
+      "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+      "learned_at": "2026-11-11T14:59:35+00:00",
+      "items": {
+        "agent": 7,
+        "plugin": 7,
+        "skill": 7
+      },
+      "excluded": 0
+    },
     "patched": {
       "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/forks",
       "ref": "HEAD",

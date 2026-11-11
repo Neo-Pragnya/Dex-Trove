@@ -1,0 +1,33 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: github-pr-evidence
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:github-pr-evidence
+summary: Open a pull request only after a person approves a local, static preview of the branch, commits, body and
+  evidence hashes; then attach verified evidence (sha256 of reports, SBOMs, test results) as a P…
+description: Open a pull request only after a person approves a local, static preview of the branch, commits, body
+  and evidence hashes; then attach verified evidence (sha256 of reports, SBOMs, test results) as a PR comment or
+  release assets. Use when someone asks to open, create or publish a PR, attach test or scan results to a PR, or
+  prepare a PR from `dev review --pr-body`, even if they don't say MCP.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.github-pr-evidence
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

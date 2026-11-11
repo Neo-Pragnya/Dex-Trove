@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/onboarding-guide",
+  "kind": "agent",
+  "namespace": "neo-pragnya-mcp",
+  "name": "onboarding-guide",
+  "title": "onboarding-guide",
+  "description": "Answer onboarding questions and write an onboarding guide from exported Confluence pages, Word documents, PDFs and Markdown, only from files a person permitted, with a citation for every point, restricted files never indexed, prompt-injection text flagged, and gaps marked instead of filled. Works through the dex-onboarding MCP server and stops for approval before any action.",
+  "tags": [
+    "agent",
+    "neo-pragnya-mcp"
+  ],
+  "version": "1.0.0",
+  "entry": "onboarding-guide.agent.md",
+  "dir": "agents/neo-pragnya-mcp.onboarding-guide",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "agents/onboarding-guide.agent.md",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.onboarding-guide",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "onboarding-guide.agent.md"
+  ],
+  "entry_hash": "9acc80398c0d4f6a14b14bc4483a4a82a7054c6b200300499b18c96480103490",
+  "content_hash": "890f8f2af1a1101b7157d3c0860cfa652ac9a41cca5e2b02e30ac3f398b6e2c6",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}

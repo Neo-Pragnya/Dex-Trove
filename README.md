@@ -68,6 +68,21 @@ and works without Ananke too. See
 dex install neo-pragnya/map-a-repository --target claude
 ```
 
+## Local MCP servers
+
+Dex also runs seven MCP servers on your machine for systems it can't reach by itself: Jenkins builds after a PR,
+Kibana dashboards, pull requests with evidence, SAS to Python, onboarding from document exports, a Playwright debugging
+lab and assistant usage analytics. Standard library only, and dry-run unless started with `--allow-actions` and given
+the approval digest of the exact plan a person saw.
+
+```bash
+dex mcp list
+dex mcp config sas --client claude-code
+dex install neo-pragnya-mcp/sas-mcp-kit --target claude --scope project   # the server's skill and agent
+```
+
+See [Local MCP servers](docs/guides/mcp-servers.md).
+
 ## With Ananke
 
 Every item ships an `ananke.yaml` inside the wheel, so Ananke can discover all of them with no glue code:

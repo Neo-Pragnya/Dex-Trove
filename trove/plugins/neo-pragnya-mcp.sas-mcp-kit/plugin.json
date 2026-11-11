@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sas-mcp-kit",
+  "description": "SAS to Python with parity: the dex-sas MCP server with its skill and agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neo Pragnya"
+  },
+  "repository": "https://github.com/Neo-Pragnya/Dex-Trove",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "dex-trove",
+    "sas",
+    "approval-gated",
+    "evidence"
+  ],
+  "mcpServers": {
+    "dex-sas": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "sas",
+        "--root",
+        "."
+      ]
+    }
+  },
+  "extensions": {
+    "com.github.awesome-copilot": {
+      "skills": [
+        "./skills/sas-to-python/"
+      ],
+      "agents": [
+        "./agents/sas-modernizer.agent.md"
+      ]
+    }
+  }
+}

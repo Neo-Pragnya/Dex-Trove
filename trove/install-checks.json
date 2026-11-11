@@ -1,12 +1,12 @@
 {
- "generator": "dex-trove 0.3.10",
+ "generator": "dex-trove 0.3.12",
  "summary": {
   "claude": {
-   "pass": 1501,
+   "pass": 1522,
    "fail": 2
   },
   "copilot": {
-   "pass": 1698,
+   "pass": 1719,
    "fail": 9
   }
  },
@@ -888,6 +888,34 @@
    "copilot": "pass"
   },
   "agent:awesome-copilot/workshop-ta": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:neo-pragnya-mcp/browser-debugger": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:neo-pragnya-mcp/jenkins-build-steward": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:neo-pragnya-mcp/kibana-dashboard-builder": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:neo-pragnya-mcp/onboarding-guide": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:neo-pragnya-mcp/pr-evidence-publisher": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:neo-pragnya-mcp/sas-modernizer": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "agent:neo-pragnya-mcp/usage-analyst": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -2972,6 +3000,34 @@
    "copilot": "pass"
   },
   "plugin:awesome-copilot/visual-pr": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:neo-pragnya-mcp/analytics-mcp-kit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:neo-pragnya-mcp/browser-mcp-kit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:neo-pragnya-mcp/github-mcp-kit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:neo-pragnya-mcp/jenkins-mcp-kit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:neo-pragnya-mcp/kibana-mcp-kit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:neo-pragnya-mcp/onboarding-mcp-kit": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "plugin:neo-pragnya-mcp/sas-mcp-kit": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -5820,6 +5876,34 @@
    "copilot": "pass"
   },
   "skill:microsoft/zustand-store-ts": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/assistant-usage-analytics": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/browser-debugging-lab": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/github-pr-evidence": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/jenkins-build-gate": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/kibana-dashboards": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/onboarding-from-exports": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/sas-to-python": {
    "claude": "pass",
    "copilot": "pass"
   },

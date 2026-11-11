@@ -60,6 +60,18 @@ sources:
         inspired_by:
           - { title: "Ikigai (Héctor García & Francesc Miralles)", url: "https://en.wikipedia.org/wiki/Ikigai" }
 
+  - id: neo-pragnya-mcp
+    title: Neo Pragnya MCP toolkits (first-party)
+    description: >-
+      Skills, agents and plugins for the local MCP servers that ship inside the dex-trove package (dex mcp serve
+      NAME): Jenkins builds after a PR, Kibana dashboards, pull requests with evidence, SAS to Python, onboarding
+      from document exports, a Playwright debugging lab and assistant usage analytics. Approval-gated, offline-first,
+      standard library only. Kept in this repository under first-party/.
+    adapter: awesome-copilot
+    local: first-party
+    homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party
+    license: { first_party: true, default: MIT }
+
   - id: awesome-copilot
     title: Awesome GitHub Copilot
     description: Community collection of Copilot agents, instructions, skills, hooks, agentic workflows and plugins.

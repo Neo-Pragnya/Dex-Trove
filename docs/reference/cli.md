@@ -275,6 +275,17 @@ dex facets doc                       # regenerate docs/reference/taxonomy.md (ch
 The taxonomy is versioned data in `src/dex_trove/taxonomy/` (`ontology.yaml`, plus reviewed `curation.yaml`). See
 [Finding capabilities](../guides/finding-capabilities.md) and the [taxonomy reference](taxonomy.md).
 
+## `dex mcp`
+
+Local MCP servers (see [the guide](../guides/mcp-servers.md)).
+
+| Command | What it does |
+| --- | --- |
+| `dex mcp list [--json]` | The servers, their tools, which tools act on external systems, and the tracker tasks they cover |
+| `dex mcp serve NAME [--root DIR] [--allow-actions] [--evidence DIR]` | Runs a server on stdin/stdout for an MCP client |
+| `dex mcp call NAME TOOL [--args JSON] [--root DIR] [--allow-actions]` | Calls one tool once and prints its JSON result; exit 2 with the message on a refusal |
+| `dex mcp config NAME [--client claude-code\|vscode\|codex\|json]` | Prints how to register the server, pinned to this version; changes nothing |
+
 ## `dex license`
 
 ```text

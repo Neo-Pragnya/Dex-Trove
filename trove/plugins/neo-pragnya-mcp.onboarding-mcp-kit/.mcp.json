@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "dex-onboarding": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "onboarding",
+        "--root",
+        "."
+      ]
+    }
+  }
+}

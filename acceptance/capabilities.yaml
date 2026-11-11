@@ -22,6 +22,7 @@ capabilities:
   - { id: relations, title: "Typed related items with origin and evidence; never claims compatibility", dimension: core, blocker: false }
   - { id: template-candidates, title: "A reviewed template becomes a skill candidate: licence required, secrets refused, files pinned by sha256, held until evaluated and approved", dimension: safety, blocker: true }
   - { id: candidates, title: "Reviewed learning candidates: failed evaluation, rejection or internal-to-public cannot publish", dimension: safety, blocker: true }
+  - { id: mcp-servers, title: "Local MCP servers: stdio protocol, offline tools with evidence, actions refused unless allowed and approved, first-party skills/agents/plugins install", dimension: safety, blocker: true }
   - { id: cli-ux, title: "Errors are clean; refusals exit non-zero", dimension: usability, blocker: false }
 
 surface:
@@ -37,6 +38,10 @@ surface:
   - dex catalog
   - dex ananke sync
   - dex docs export
+  - dex mcp list
+  - dex mcp serve
+  - dex mcp call
+  - dex mcp config
   - dex facets list
   - dex facets show
   - dex facets build

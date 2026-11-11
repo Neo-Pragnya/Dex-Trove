@@ -1,6 +1,6 @@
 {
-  "generator": "dex-trove 0.3.10",
-  "count": 1707,
+  "generator": "dex-trove 0.3.12",
+  "count": 1728,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -8801,6 +8801,286 @@
       "entry_hash": "0d3058daf15340e2b997506ea1c3ec9c51ff54662c6b7342cc997e59a8c25ee9",
       "content_hash": "3abe092c46da8d4eee1ae2ba8d3a2c8df544285f8e608a3ead84497a68e4365d",
       "learned_at": "2026-10-20T03:28:57+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/browser-debugger",
+      "kind": "agent",
+      "namespace": "neo-pragnya-mcp",
+      "name": "browser-debugger",
+      "title": "browser-debugger",
+      "description": "Debug a web UI with Playwright without installing a browser into your tools: create an isolated, read-only Playwright lab against a local or named test URL, run it on approval, read trace.zip files (failed actions, console and page errors, failed requests), map failing selectors and pages to the frontend source and routes, and write redacted evidence. Works through the dex-browser MCP server and stops for approval before any action.",
+      "tags": [
+        "agent",
+        "neo-pragnya-mcp"
+      ],
+      "version": "1.0.1",
+      "entry": "browser-debugger.agent.md",
+      "dir": "agents/neo-pragnya-mcp.browser-debugger",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "agents/browser-debugger.agent.md",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.browser-debugger",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "browser-debugger.agent.md"
+      ],
+      "entry_hash": "32c986bca507a62ce90a8964b3f5c057fb1982984536b2b49c9f63903634f801",
+      "content_hash": "28b965e8adc3614375131699999305e68e1032f317d11f516f899a1c5e93d2a8",
+      "learned_at": "2026-11-11T15:20:53+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/jenkins-build-steward",
+      "kind": "agent",
+      "namespace": "neo-pragnya-mcp",
+      "name": "jenkins-build-steward",
+      "title": "jenkins-build-steward",
+      "description": "Start allowlisted Jenkins jobs after a pull request only when its checks pass and a person approves the exact parameters; follow the build to its result and record evidence. Works through the dex-jenkins MCP server and stops for approval before any action.",
+      "tags": [
+        "agent",
+        "neo-pragnya-mcp"
+      ],
+      "version": "1.0.0",
+      "entry": "jenkins-build-steward.agent.md",
+      "dir": "agents/neo-pragnya-mcp.jenkins-build-steward",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "agents/jenkins-build-steward.agent.md",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.jenkins-build-steward",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "jenkins-build-steward.agent.md"
+      ],
+      "entry_hash": "e3188927d6dfda5676328945924d0fbeda55b7a9b2a9daeb2e8bece4fde07823",
+      "content_hash": "87905669deae5e8bfd5951bbfaac4bca2d8aa22b071a2ce5502e9f04710bd14d",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/kibana-dashboard-builder",
+      "kind": "agent",
+      "namespace": "neo-pragnya-mcp",
+      "name": "kibana-dashboard-builder",
+      "title": "kibana-dashboard-builder",
+      "description": "Design Kibana (or OpenSearch Dashboards) dashboards from the fields an application really logs: find fields in mappings, JSON Schemas and Python/JS logging calls, check a dashboard spec for missing fields and type mismatches, export saved-object NDJSON for a target version, and import it into a test instance only on approval. Works through the dex-kibana MCP server and stops for approval before any action.",
+      "tags": [
+        "agent",
+        "neo-pragnya-mcp"
+      ],
+      "version": "1.0.0",
+      "entry": "kibana-dashboard-builder.agent.md",
+      "dir": "agents/neo-pragnya-mcp.kibana-dashboard-builder",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "agents/kibana-dashboard-builder.agent.md",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.kibana-dashboard-builder",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "kibana-dashboard-builder.agent.md"
+      ],
+      "entry_hash": "3ea14246a67b8d0d6054235602d1d79ed1ec635e8f549c871eb71ee355bb1607",
+      "content_hash": "1b7b761c48a22f72adc9fb25ea8703e9a18506201ea73580e94e45ed89bc2a1a",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/onboarding-guide",
+      "kind": "agent",
+      "namespace": "neo-pragnya-mcp",
+      "name": "onboarding-guide",
+      "title": "onboarding-guide",
+      "description": "Answer onboarding questions and write an onboarding guide from exported Confluence pages, Word documents, PDFs and Markdown, only from files a person permitted, with a citation for every point, restricted files never indexed, prompt-injection text flagged, and gaps marked instead of filled. Works through the dex-onboarding MCP server and stops for approval before any action.",
+      "tags": [
+        "agent",
+        "neo-pragnya-mcp"
+      ],
+      "version": "1.0.0",
+      "entry": "onboarding-guide.agent.md",
+      "dir": "agents/neo-pragnya-mcp.onboarding-guide",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "agents/onboarding-guide.agent.md",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.onboarding-guide",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "onboarding-guide.agent.md"
+      ],
+      "entry_hash": "9acc80398c0d4f6a14b14bc4483a4a82a7054c6b200300499b18c96480103490",
+      "content_hash": "890f8f2af1a1101b7157d3c0860cfa652ac9a41cca5e2b02e30ac3f398b6e2c6",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/pr-evidence-publisher",
+      "kind": "agent",
+      "namespace": "neo-pragnya-mcp",
+      "name": "pr-evidence-publisher",
+      "title": "pr-evidence-publisher",
+      "description": "Open a pull request only after a person approves a local, static preview of the branch, commits, body and evidence hashes; then attach verified evidence (sha256 of reports, SBOMs, test results) as a PR comment or release assets. Works through the dex-github MCP server and stops for approval before any action.",
+      "tags": [
+        "agent",
+        "neo-pragnya-mcp"
+      ],
+      "version": "1.0.0",
+      "entry": "pr-evidence-publisher.agent.md",
+      "dir": "agents/neo-pragnya-mcp.pr-evidence-publisher",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "agents/pr-evidence-publisher.agent.md",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.pr-evidence-publisher",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "pr-evidence-publisher.agent.md"
+      ],
+      "entry_hash": "d884574f0893534fcf43dc94493855c94b77c37da7d55ad8b1f4374f6f269fd9",
+      "content_hash": "0d5a42d885c13a76bc9dee714b26b38b24a5c0f84c2e84b2e1a016227d6e451b",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/sas-modernizer",
+      "kind": "agent",
+      "namespace": "neo-pragnya-mcp",
+      "name": "sas-modernizer",
+      "title": "sas-modernizer",
+      "description": "Move SAS programs to Python with evidence: inventory DATA steps, PROCs, PROC SQL and macros, map dataset lineage with a supported/partial/unsupported verdict per step, write a pandas draft that keeps SAS missing-value and sorting rules, and prove outputs match SAS within a declared tolerance. Works through the dex-sas MCP server and stops for approval before any action.",
+      "tags": [
+        "agent",
+        "neo-pragnya-mcp"
+      ],
+      "version": "1.0.0",
+      "entry": "sas-modernizer.agent.md",
+      "dir": "agents/neo-pragnya-mcp.sas-modernizer",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "agents/sas-modernizer.agent.md",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.sas-modernizer",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "sas-modernizer.agent.md"
+      ],
+      "entry_hash": "4364baf34f3398b4c7356bdb4d49278362520524216ca72c966ac012f7084643",
+      "content_hash": "13385d1297280553d99614e0d576b4546bb2a9ca1bf5a79f0bafc2f6a1d0926c",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/usage-analyst",
+      "kind": "agent",
+      "namespace": "neo-pragnya-mcp",
+      "name": "usage-analyst",
+      "title": "usage-analyst",
+      "description": "Report how GitHub Copilot and Claude Code are used, from sources a person consents to: Copilot metrics exports or the org metrics API, Claude Code session logs (token totals and tool names, never prompt text) and `ananke context eval` results; estimate tokens graph retrieval would save; render a local HTML report labelling every number observed, estimated or unknown. Works through the dex-analytics MCP server and stops for approval before any action.",
+      "tags": [
+        "agent",
+        "neo-pragnya-mcp"
+      ],
+      "version": "1.0.0",
+      "entry": "usage-analyst.agent.md",
+      "dir": "agents/neo-pragnya-mcp.usage-analyst",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "agents/usage-analyst.agent.md",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.usage-analyst",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "usage-analyst.agent.md"
+      ],
+      "entry_hash": "34fad958764b44441063487866f1b8560c2ffad23a7911752180b1ca51fc01c6",
+      "content_hash": "79d4627dffe109aa3beeda952e00e2b7f76056adea638366d60c32da9f7bd843",
+      "learned_at": "2026-11-11T14:58:18+00:00"
     },
     {
       "id": "voltagent/ab-test-analysis",
@@ -32765,6 +33045,356 @@
       "entry_hash": "b981ca79993bc5ed0fe872b5bfb670c0a57467166e0d3a771e23b45bd9ff0b9d",
       "content_hash": "29a8c3a98b846c0cf5020b8e20df7f96f2de634dae2e3d31290735b2d528d2a5",
       "learned_at": "2026-10-20T03:28:59+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/analytics-mcp-kit",
+      "kind": "plugin",
+      "namespace": "neo-pragnya-mcp",
+      "name": "analytics-mcp-kit",
+      "title": "Assistant usage analytics",
+      "description": "Assistant usage analytics: the dex-analytics MCP server with its skill and agent.",
+      "tags": [
+        "analytics",
+        "approval-gated",
+        "dex-trove",
+        "evidence",
+        "mcp",
+        "neo-pragnya-mcp",
+        "plugin"
+      ],
+      "version": "1.0.0",
+      "entry": "README.md",
+      "dir": "plugins/neo-pragnya-mcp.analytics-mcp-kit",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "plugins/analytics-mcp-kit",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.analytics-mcp-kit",
+        "author": "Neo Pragnya"
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [
+        "skill:neo-pragnya-mcp/assistant-usage-analytics",
+        "agent:neo-pragnya-mcp/usage-analyst"
+      ],
+      "files": [
+        ".mcp.json",
+        "README.md",
+        "plugin.json"
+      ],
+      "entry_hash": "1e4b0b2101b295df8efa379c68b692e8a6468af3ea9a0f7572b9049fcfd96a3b",
+      "content_hash": "4801b15a109327c10fb552b6e7b37d72a7af3ec56e0db9aed850fa705d47f87d",
+      "learned_at": "2026-11-11T15:02:07+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/browser-mcp-kit",
+      "kind": "plugin",
+      "namespace": "neo-pragnya-mcp",
+      "name": "browser-mcp-kit",
+      "title": "Browser debugging lab",
+      "description": "Browser debugging lab: the dex-browser MCP server with its skill and agent.",
+      "tags": [
+        "approval-gated",
+        "browser",
+        "dex-trove",
+        "evidence",
+        "mcp",
+        "neo-pragnya-mcp",
+        "plugin"
+      ],
+      "version": "1.0.1",
+      "entry": "README.md",
+      "dir": "plugins/neo-pragnya-mcp.browser-mcp-kit",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "plugins/browser-mcp-kit",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.browser-mcp-kit",
+        "author": "Neo Pragnya"
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [
+        "skill:neo-pragnya-mcp/browser-debugging-lab",
+        "agent:neo-pragnya-mcp/browser-debugger"
+      ],
+      "files": [
+        ".mcp.json",
+        "README.md",
+        "plugin.json"
+      ],
+      "entry_hash": "d4c4ef6a510985b59bc3151c7645a02d1018eed9fc6964171f381e654a360a83",
+      "content_hash": "44cbb8a9fd0a9c8ec4a43a0c65cab7641e868f5072659208359c1f4bbaa06723",
+      "learned_at": "2026-11-11T15:20:53+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/github-mcp-kit",
+      "kind": "plugin",
+      "namespace": "neo-pragnya-mcp",
+      "name": "github-mcp-kit",
+      "title": "Pull requests with evidence",
+      "description": "Pull requests with evidence: the dex-github MCP server with its skill and agent.",
+      "tags": [
+        "approval-gated",
+        "dex-trove",
+        "evidence",
+        "github",
+        "mcp",
+        "neo-pragnya-mcp",
+        "plugin"
+      ],
+      "version": "1.0.0",
+      "entry": "README.md",
+      "dir": "plugins/neo-pragnya-mcp.github-mcp-kit",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "plugins/github-mcp-kit",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.github-mcp-kit",
+        "author": "Neo Pragnya"
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [
+        "skill:neo-pragnya-mcp/github-pr-evidence",
+        "agent:neo-pragnya-mcp/pr-evidence-publisher"
+      ],
+      "files": [
+        ".mcp.json",
+        "README.md",
+        "plugin.json"
+      ],
+      "entry_hash": "47c4c9487a6dfbf81a930f32b7eba694806a8431cdd4443c1c6a56753c36a063",
+      "content_hash": "e6e10c67092481a6a575767df2e069740d157620c9e86f14c96ea44b29b0fbd2",
+      "learned_at": "2026-11-11T15:02:07+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/jenkins-mcp-kit",
+      "kind": "plugin",
+      "namespace": "neo-pragnya-mcp",
+      "name": "jenkins-mcp-kit",
+      "title": "Jenkins build gate",
+      "description": "Jenkins build gate: the dex-jenkins MCP server with its skill and agent.",
+      "tags": [
+        "approval-gated",
+        "dex-trove",
+        "evidence",
+        "jenkins",
+        "mcp",
+        "neo-pragnya-mcp",
+        "plugin"
+      ],
+      "version": "1.0.0",
+      "entry": "README.md",
+      "dir": "plugins/neo-pragnya-mcp.jenkins-mcp-kit",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "plugins/jenkins-mcp-kit",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.jenkins-mcp-kit",
+        "author": "Neo Pragnya"
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [
+        "skill:neo-pragnya-mcp/jenkins-build-gate",
+        "agent:neo-pragnya-mcp/jenkins-build-steward"
+      ],
+      "files": [
+        ".mcp.json",
+        "README.md",
+        "plugin.json"
+      ],
+      "entry_hash": "71ad74b6f19aa0c0be99991f70bb3f522517fe4d3f24dc4993ecf60d59e63e2b",
+      "content_hash": "eae87cb9252ace59ec227f13eca3ed665b224e276fc71e101e6bbd827e405031",
+      "learned_at": "2026-11-11T15:02:07+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/kibana-mcp-kit",
+      "kind": "plugin",
+      "namespace": "neo-pragnya-mcp",
+      "name": "kibana-mcp-kit",
+      "title": "Kibana dashboards from logged fields",
+      "description": "Kibana dashboards from logged fields: the dex-kibana MCP server with its skill and agent.",
+      "tags": [
+        "approval-gated",
+        "dex-trove",
+        "evidence",
+        "kibana",
+        "mcp",
+        "neo-pragnya-mcp",
+        "plugin"
+      ],
+      "version": "1.0.0",
+      "entry": "README.md",
+      "dir": "plugins/neo-pragnya-mcp.kibana-mcp-kit",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "plugins/kibana-mcp-kit",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.kibana-mcp-kit",
+        "author": "Neo Pragnya"
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [
+        "skill:neo-pragnya-mcp/kibana-dashboards",
+        "agent:neo-pragnya-mcp/kibana-dashboard-builder"
+      ],
+      "files": [
+        ".mcp.json",
+        "README.md",
+        "plugin.json"
+      ],
+      "entry_hash": "d06f27b6a760c353b76aba7289a5a1925f205b97100ba655087f9cb29ce499d9",
+      "content_hash": "d73967e3c20d4d26a72d0fb941710554155369a133f565410539dcded37b9775",
+      "learned_at": "2026-11-11T15:02:07+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/onboarding-mcp-kit",
+      "kind": "plugin",
+      "namespace": "neo-pragnya-mcp",
+      "name": "onboarding-mcp-kit",
+      "title": "Onboarding from document exports",
+      "description": "Onboarding from document exports: the dex-onboarding MCP server with its skill and agent.",
+      "tags": [
+        "approval-gated",
+        "dex-trove",
+        "evidence",
+        "mcp",
+        "neo-pragnya-mcp",
+        "onboarding",
+        "plugin"
+      ],
+      "version": "1.0.0",
+      "entry": "README.md",
+      "dir": "plugins/neo-pragnya-mcp.onboarding-mcp-kit",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "plugins/onboarding-mcp-kit",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.onboarding-mcp-kit",
+        "author": "Neo Pragnya"
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [
+        "skill:neo-pragnya-mcp/onboarding-from-exports",
+        "agent:neo-pragnya-mcp/onboarding-guide"
+      ],
+      "files": [
+        ".mcp.json",
+        "README.md",
+        "plugin.json"
+      ],
+      "entry_hash": "b8de50aabcc20f4208c7d5c9a612044be47dd0f71fd9a78404750db36e5bada4",
+      "content_hash": "a0bc3f3084c5a13563d54bd9df01e4b62c2aa042570d4c2351de40449229b03b",
+      "learned_at": "2026-11-11T15:02:07+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/sas-mcp-kit",
+      "kind": "plugin",
+      "namespace": "neo-pragnya-mcp",
+      "name": "sas-mcp-kit",
+      "title": "SAS to Python with parity",
+      "description": "SAS to Python with parity: the dex-sas MCP server with its skill and agent.",
+      "tags": [
+        "approval-gated",
+        "dex-trove",
+        "evidence",
+        "mcp",
+        "neo-pragnya-mcp",
+        "plugin",
+        "sas"
+      ],
+      "version": "1.0.0",
+      "entry": "README.md",
+      "dir": "plugins/neo-pragnya-mcp.sas-mcp-kit",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "plugins/sas-mcp-kit",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.sas-mcp-kit",
+        "author": "Neo Pragnya"
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "frontmatter license: 'MIT'",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [
+        "skill:neo-pragnya-mcp/sas-to-python",
+        "agent:neo-pragnya-mcp/sas-modernizer"
+      ],
+      "files": [
+        ".mcp.json",
+        "README.md",
+        "plugin.json"
+      ],
+      "entry_hash": "7a0fd98a1fdf1dd94f7e98381af7c8db2d653d4231aa42334b87c920dfee8121",
+      "content_hash": "1befe00bf46d12385e45d286bc57a758a4e2cca59564697770735336354561de",
+      "learned_at": "2026-11-11T15:02:07+00:00"
     },
     {
       "id": "spec-kit/analyze",
@@ -64100,6 +64730,286 @@
       "entry_hash": "dd69536e2f18a09eac999d036f963dbbf6874f44fe4ac73a6df89170de4a542b",
       "content_hash": "7d2dcebd9a34e9deccc5d62e37c48c2aa0b001cbe072be57c7808c2a2144e18e",
       "learned_at": "2026-11-03T06:19:30+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/assistant-usage-analytics",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "assistant-usage-analytics",
+      "title": "Assistant usage analytics",
+      "description": "Report how GitHub Copilot and Claude Code are used, from sources a person consents to: Copilot metrics exports or the org metrics API, Claude Code session logs (token totals and tool names, never prompt text) and `ananke context eval` results; estimate tokens graph retrieval would save; render a local HTML report labelling every number observed, estimated or unknown. Use for Copilot usage, adoption, acceptance rates, token spend, AI assistant ROI or harness analytics, even if they don't say MCP.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.assistant-usage-analytics",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "skills/assistant-usage-analytics",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.assistant-usage-analytics",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "b06cd558347413993fd993fd9c8e7e4470fb79329edef918cee8b73cd3f87f89",
+      "content_hash": "9f72c45609cac07d820a7a53c3f0a81b48d9c2e97d8459c4ea04170d4560f782",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/browser-debugging-lab",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "browser-debugging-lab",
+      "title": "Browser debugging lab",
+      "description": "Debug a web UI with Playwright without installing a browser into your tools: create an isolated, read-only Playwright lab against a local or named test URL, run it on approval, read trace.zip files (failed actions, console and page errors, failed requests), map failing selectors and pages to the frontend source and routes, and write redacted evidence. Use for flaky or failing UI tests, Playwright traces, front-end errors, selectors that stopped matching, or browser evidence for a bug, even if they don't say MCP.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.1",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.browser-debugging-lab",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "skills/browser-debugging-lab",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.browser-debugging-lab",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "32b03a05f7d05051df5f3b9ad79cf065cd6515654da49c4ee74532d716346619",
+      "content_hash": "a6350e82ba0c3794ce84d40e4efb1f9c3a6dd1c9fd07829d16ac23f98999055c",
+      "learned_at": "2026-11-11T15:20:53+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/github-pr-evidence",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "github-pr-evidence",
+      "title": "Pull requests with evidence",
+      "description": "Open a pull request only after a person approves a local, static preview of the branch, commits, body and evidence hashes; then attach verified evidence (sha256 of reports, SBOMs, test results) as a PR comment or release assets. Use when someone asks to open, create or publish a PR, attach test or scan results to a PR, or prepare a PR from `dev review --pr-body`, even if they don't say MCP.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.github-pr-evidence",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "skills/github-pr-evidence",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.github-pr-evidence",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "b95ed570262ef3578f36ee7810814c2511f1fa0da986601df69ee99db4c17750",
+      "content_hash": "0faaad06095c2012d354551257bf6773c799e0a8a54a54db8c3e8d09092e45f0",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/jenkins-build-gate",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "jenkins-build-gate",
+      "title": "Jenkins build gate",
+      "description": "Start allowlisted Jenkins jobs after a pull request only when its checks pass and a person approves the exact parameters; follow the build to its result and record evidence. Use when someone asks to trigger, rerun or start a Jenkins build or pipeline for a PR, check whether a job may run, or wait for a Jenkins result, even if they don't say MCP.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.jenkins-build-gate",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "skills/jenkins-build-gate",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.jenkins-build-gate",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "0ee704a91d581920ec50eb76b56797a1a973f52cb1fead3d20801f0a93a7bb34",
+      "content_hash": "b59e76e6bdc88a38556950ce204c50e4347d095892f1c99f01283b786fcaa6f5",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/kibana-dashboards",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "kibana-dashboards",
+      "title": "Kibana dashboards from logged fields",
+      "description": "Design Kibana (or OpenSearch Dashboards) dashboards from the fields an application really logs: find fields in mappings, JSON Schemas and Python/JS logging calls, check a dashboard spec for missing fields and type mismatches, export saved-object NDJSON for a target version, and import it into a test instance only on approval. Use for Kibana, ELK, OpenSearch dashboards, log metrics, saved objects or observability panels, even if they don't say MCP.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.kibana-dashboards",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "skills/kibana-dashboards",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.kibana-dashboards",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "832eda6a96d9eb9ef33d83a7e495d5d3cae711184b6de0a5032ed5a198fa2474",
+      "content_hash": "ff4dfc1b44a32203776271fb49c95dbb66fd71a989497da1369f77b703cede4c",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/onboarding-from-exports",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "onboarding-from-exports",
+      "title": "Onboarding from document exports",
+      "description": "Answer onboarding questions and write an onboarding guide from exported Confluence pages, Word documents, PDFs and Markdown, only from files a person permitted, with a citation for every point, restricted files never indexed, prompt-injection text flagged, and gaps marked instead of filled. Use for onboarding new joiners, Confluence or wiki exports, internal docs Q&A, or a team handbook summary, even if they don't say MCP.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.onboarding-from-exports",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "skills/onboarding-from-exports",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.onboarding-from-exports",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "0eaf8d6f07d0415ee36364485f3638408aa7dce43ae96b888819f0893cb7131f",
+      "content_hash": "237bf437878f6b1dca56ef4713a04643cfdedb779ecfc5f41ea20da29ef6732a",
+      "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/sas-to-python",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "sas-to-python",
+      "title": "SAS to Python with parity",
+      "description": "Move SAS programs to Python with evidence: inventory DATA steps, PROCs, PROC SQL and macros, map dataset lineage with a supported/partial/unsupported verdict per step, write a pandas draft that keeps SAS missing-value and sorting rules, and prove outputs match SAS within a declared tolerance. Use for SAS migration, modernization, SAS to pandas or Python, SAS lineage or reconciling SAS outputs, even if they don't say MCP.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.sas-to-python",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "path": "skills/sas-to-python",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.sas-to-python",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "38bc2dfcac971e96eb7a75b68fc5cdb51041146c9138e49c2b7828919fa89970",
+      "content_hash": "a0371d91121b86188352ca6da765c0980d3fc69463a2cb9457b84098472c7683",
+      "learned_at": "2026-11-11T14:58:18+00:00"
     },
     {
       "id": "neo-pragnya/astro-docs-site",

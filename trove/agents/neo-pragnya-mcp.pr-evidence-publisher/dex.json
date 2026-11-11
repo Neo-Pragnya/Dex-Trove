@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/pr-evidence-publisher",
+  "kind": "agent",
+  "namespace": "neo-pragnya-mcp",
+  "name": "pr-evidence-publisher",
+  "title": "pr-evidence-publisher",
+  "description": "Open a pull request only after a person approves a local, static preview of the branch, commits, body and evidence hashes; then attach verified evidence (sha256 of reports, SBOMs, test results) as a PR comment or release assets. Works through the dex-github MCP server and stops for approval before any action.",
+  "tags": [
+    "agent",
+    "neo-pragnya-mcp"
+  ],
+  "version": "1.0.0",
+  "entry": "pr-evidence-publisher.agent.md",
+  "dir": "agents/neo-pragnya-mcp.pr-evidence-publisher",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "agents/pr-evidence-publisher.agent.md",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.pr-evidence-publisher",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "pr-evidence-publisher.agent.md"
+  ],
+  "entry_hash": "d884574f0893534fcf43dc94493855c94b77c37da7d55ad8b1f4374f6f269fd9",
+  "content_hash": "0d5a42d885c13a76bc9dee714b26b38b24a5c0f84c2e84b2e1a016227d6e451b",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}

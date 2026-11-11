@@ -118,6 +118,7 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
       "guides/ananke-integration",
       "guides/adding-a-source",
       "guides/first-party-skills",
+      "guides/mcp-servers",
       "guides/docs-site",
       "guides/release",
       "guides/security-findings",

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "dex-sas": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "sas",
+        "--root",
+        "."
+      ]
+    }
+  }
+}

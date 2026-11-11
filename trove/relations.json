@@ -2371,6 +2371,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/browser-debugger",
+        "origin": "inferred",
+        "evidence": "shares name words: browser"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/accessibility-tester",
         "origin": "inferred",
         "evidence": "shares name words: tester"
@@ -2378,12 +2384,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/penetration-tester",
-        "origin": "inferred",
-        "evidence": "shares name words: tester"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/ui-ux-tester",
         "origin": "inferred",
         "evidence": "shares name words: tester"
       }
@@ -2402,6 +2402,12 @@
         "target": "plugin:awesome-copilot/gem-team",
         "origin": "derived",
         "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/browser-debugger",
+        "origin": "inferred",
+        "evidence": "shares name words: debugger"
       },
       {
         "type": "similar",
@@ -2843,7 +2849,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/create-github-action-workflow-specification",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
         "origin": "inferred",
         "evidence": "shares name words: github"
       },
@@ -6109,6 +6115,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/onboarding-guide",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/ad-security-reviewer",
         "origin": "inferred",
         "evidence": "shares name words: security"
@@ -6122,12 +6134,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/security-auditor",
-        "origin": "inferred",
-        "evidence": "shares name words: security"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/security-engineer",
         "origin": "inferred",
         "evidence": "shares name words: security"
       }
@@ -6848,6 +6854,242 @@
         "evidence": "shares name words: workshop"
       }
     ],
+    "agent:neo-pragnya-mcp/browser-debugger": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/browser-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/gem-browser-tester",
+        "origin": "inferred",
+        "evidence": "shares name words: browser"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/gem-debugger",
+        "origin": "inferred",
+        "evidence": "shares name words: debugger"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/debugger",
+        "origin": "inferred",
+        "evidence": "shares name words: debugger"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/debugger",
+        "origin": "inferred",
+        "evidence": "shares name words: debugger"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/team-debugger",
+        "origin": "inferred",
+        "evidence": "shares name words: debugger"
+      }
+    ],
+    "agent:neo-pragnya-mcp/jenkins-build-steward": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/jenkins-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/build-engineer",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/build-evidence-map",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/flowstudio-power-automate-build",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-build",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/jenkins-build-gate",
+        "origin": "inferred",
+        "evidence": "shares name words: build, jenkins"
+      }
+    ],
+    "agent:neo-pragnya-mcp/kibana-dashboard-builder": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/kibana-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/pr-dashboard",
+        "origin": "inferred",
+        "evidence": "shares name words: dashboard"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/kibana-dashboards",
+        "origin": "inferred",
+        "evidence": "shares name words: kibana"
+      }
+    ],
+    "agent:neo-pragnya-mcp/onboarding-guide": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/stackhawk-security-onboarding",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/gtm-enterprise-onboarding",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
+        "target": "skill:microsoft/wiki-onboarding",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/onboarding-from-exports",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      }
+    ],
+    "agent:neo-pragnya-mcp/pr-evidence-publisher": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/social-publishing-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: publisher"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/build-evidence-map",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/microsoft-store-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: publisher"
+      },
+      {
+        "type": "similar",
+        "target": "skill:huggingface/huggingface-paper-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: publisher"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/github-pr-evidence",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence, pr"
+      },
+      {
+        "type": "similar",
+        "target": "skill:scientific/folklore-variant-evidence",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      }
+    ],
+    "agent:neo-pragnya-mcp/sas-modernizer": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/sas-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/legacy-modernizer",
+        "origin": "inferred",
+        "evidence": "shares name words: modernizer"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/legacy-modernizer",
+        "origin": "inferred",
+        "evidence": "shares name words: modernizer"
+      }
+    ],
+    "agent:neo-pragnya-mcp/usage-analyst": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/analytics-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/business-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/competitive-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/data-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/quant-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/research-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/telegram-ads-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      }
+    ],
     "agent:voltagent/ab-test-analysis": [
       {
         "type": "similar",
@@ -7365,6 +7607,12 @@
     "agent:voltagent/business-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/competitive-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -7384,12 +7632,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/telegram-ads-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       },
@@ -7631,6 +7873,12 @@
     "agent:voltagent/competitive-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -7656,12 +7904,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/telegram-ads-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/trend-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -7903,6 +8145,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -7922,12 +8170,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/data-researcher",
-        "origin": "inferred",
-        "evidence": "shares name words: data"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/data-scientist",
         "origin": "inferred",
         "evidence": "shares name words: data"
       }
@@ -8126,6 +8368,12 @@
       {
         "type": "similar",
         "target": "agent:awesome-copilot/gem-debugger",
+        "origin": "inferred",
+        "evidence": "shares name words: debugger"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/browser-debugger",
         "origin": "inferred",
         "evidence": "shares name words: debugger"
       },
@@ -9445,6 +9693,12 @@
       }
     ],
     "agent:voltagent/legacy-modernizer": [
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/sas-modernizer",
+        "origin": "inferred",
+        "evidence": "shares name words: modernizer"
+      },
       {
         "type": "similar",
         "target": "agent:wshobson/legacy-modernizer",
@@ -10769,6 +11023,12 @@
     "agent:voltagent/quant-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -10788,12 +11048,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/telegram-ads-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       },
@@ -10961,6 +11215,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -10968,12 +11228,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/competitive-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/data-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -11543,6 +11797,12 @@
     "agent:voltagent/telegram-ads-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -11568,12 +11828,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/trend-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -11695,6 +11949,12 @@
     "agent:voltagent/trend-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -11720,12 +11980,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/telegram-ads-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -12415,6 +12669,12 @@
     "agent:wshobson/business-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst, business"
@@ -12440,12 +12700,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/telegram-ads-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -12989,6 +13243,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/browser-debugger",
+        "origin": "inferred",
+        "evidence": "shares name words: debugger"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/debugger",
         "origin": "inferred",
         "evidence": "shares name words: debugger"
@@ -13459,6 +13719,12 @@
     "agent:wshobson/firmware-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -13484,12 +13750,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/telegram-ads-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -13951,6 +14211,12 @@
     "agent:wshobson/legacy-modernizer": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/sas-modernizer",
+        "origin": "inferred",
+        "evidence": "shares name words: modernizer"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/legacy-modernizer",
         "origin": "inferred",
         "evidence": "shares name words: legacy, modernizer"
@@ -14123,6 +14389,12 @@
     "agent:wshobson/malware-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -14148,12 +14420,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/telegram-ads-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -14751,6 +15017,12 @@
     "agent:wshobson/quant-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -14776,12 +15048,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/telegram-ads-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -15453,6 +15719,12 @@
     "agent:wshobson/social-publishing-publisher": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/pr-evidence-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: publisher"
+      },
+      {
+        "type": "similar",
         "target": "skill:awesome-copilot/microsoft-store-publisher",
         "origin": "inferred",
         "evidence": "shares name words: publisher"
@@ -15465,6 +15737,12 @@
       }
     ],
     "agent:wshobson/startup-analyst": [
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
       {
         "type": "similar",
         "target": "agent:voltagent/business-analyst",
@@ -15492,12 +15770,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/telegram-ads-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -15567,13 +15839,13 @@
       },
       {
         "type": "similar",
-        "target": "agent:voltagent/debugger",
+        "target": "agent:neo-pragnya-mcp/browser-debugger",
         "origin": "inferred",
         "evidence": "shares name words: debugger"
       },
       {
         "type": "similar",
-        "target": "agent:wshobson/debugger",
+        "target": "agent:voltagent/debugger",
         "origin": "inferred",
         "evidence": "shares name words: debugger"
       }
@@ -18655,7 +18927,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/create-github-action-workflow-specification",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
         "origin": "inferred",
         "evidence": "shares name words: github"
       },
@@ -24938,6 +25210,356 @@
         "evidence": "shares name words: visual"
       }
     ],
+    "plugin:neo-pragnya-mcp/analytics-mcp-kit": [
+      {
+        "type": "bundles",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "bundles",
+        "target": "skill:neo-pragnya-mcp/assistant-usage-analytics",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/browser-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/jenkins-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/kibana-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/sas-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      }
+    ],
+    "plugin:neo-pragnya-mcp/browser-mcp-kit": [
+      {
+        "type": "bundles",
+        "target": "agent:neo-pragnya-mcp/browser-debugger",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "bundles",
+        "target": "skill:neo-pragnya-mcp/browser-debugging-lab",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/analytics-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/jenkins-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/kibana-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/sas-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      }
+    ],
+    "plugin:neo-pragnya-mcp/github-mcp-kit": [
+      {
+        "type": "bundles",
+        "target": "agent:neo-pragnya-mcp/pr-evidence-publisher",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "bundles",
+        "target": "skill:neo-pragnya-mcp/github-pr-evidence",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/analytics-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/browser-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/jenkins-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/kibana-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/sas-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      }
+    ],
+    "plugin:neo-pragnya-mcp/jenkins-mcp-kit": [
+      {
+        "type": "bundles",
+        "target": "agent:neo-pragnya-mcp/jenkins-build-steward",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "bundles",
+        "target": "skill:neo-pragnya-mcp/jenkins-build-gate",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/analytics-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/browser-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/kibana-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/sas-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      }
+    ],
+    "plugin:neo-pragnya-mcp/kibana-mcp-kit": [
+      {
+        "type": "bundles",
+        "target": "agent:neo-pragnya-mcp/kibana-dashboard-builder",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "bundles",
+        "target": "skill:neo-pragnya-mcp/kibana-dashboards",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/analytics-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/browser-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/jenkins-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/sas-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      }
+    ],
+    "plugin:neo-pragnya-mcp/onboarding-mcp-kit": [
+      {
+        "type": "bundles",
+        "target": "agent:neo-pragnya-mcp/onboarding-guide",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "bundles",
+        "target": "skill:neo-pragnya-mcp/onboarding-from-exports",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/analytics-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/browser-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/jenkins-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/kibana-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/sas-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      }
+    ],
+    "plugin:neo-pragnya-mcp/sas-mcp-kit": [
+      {
+        "type": "bundles",
+        "target": "agent:neo-pragnya-mcp/sas-modernizer",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "bundles",
+        "target": "skill:neo-pragnya-mcp/sas-to-python",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/analytics-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/browser-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/jenkins-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/kibana-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares tags: approval-gated, dex-trove, evidence, mcp; name words: kit, mcp"
+      }
+    ],
     "prompt:spec-kit/analyze": [
       {
         "type": "similar",
@@ -27387,6 +28009,18 @@
     "skill:awesome-copilot/build-evidence-map": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/jenkins-build-steward",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/pr-evidence-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/build-engineer",
         "origin": "inferred",
         "evidence": "shares name words: build"
@@ -27406,18 +28040,6 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-build-auto",
-        "origin": "inferred",
-        "evidence": "shares name words: build"
-      },
-      {
-        "type": "similar",
-        "target": "skill:claude-plugins/build-mcp-app",
-        "origin": "inferred",
-        "evidence": "shares name words: build"
-      },
-      {
-        "type": "similar",
-        "target": "skill:claude-plugins/build-mcp-server",
         "origin": "inferred",
         "evidence": "shares name words: build"
       }
@@ -28205,6 +28827,12 @@
     "skill:awesome-copilot/copilot-usage-metrics": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: usage"
+      },
+      {
+        "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-csharp",
         "origin": "inferred",
         "evidence": "shares name words: copilot"
@@ -28230,12 +28858,6 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/copilot-sdk-python",
-        "origin": "inferred",
-        "evidence": "shares name words: copilot"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/copilot-thought-logging",
         "origin": "inferred",
         "evidence": "shares name words: copilot"
       }
@@ -31091,13 +31713,13 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/create-github-action-workflow-specification",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
         "origin": "inferred",
         "evidence": "shares name words: github"
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/create-github-issue-feature-from-specification",
+        "target": "skill:awesome-copilot/create-github-action-workflow-specification",
         "origin": "inferred",
         "evidence": "shares name words: github"
       },
@@ -31167,7 +31789,7 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/create-github-action-workflow-specification",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
         "origin": "inferred",
         "evidence": "shares name words: github"
       },
@@ -31211,13 +31833,13 @@
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/create-github-action-workflow-specification",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
         "origin": "inferred",
         "evidence": "shares name words: github"
       },
       {
         "type": "similar",
-        "target": "skill:awesome-copilot/create-github-issue-feature-from-specification",
+        "target": "skill:awesome-copilot/create-github-action-workflow-specification",
         "origin": "inferred",
         "evidence": "shares name words: github"
       }
@@ -31392,6 +32014,18 @@
       {
         "type": "similar",
         "target": "agent:awesome-copilot/stackhawk-security-onboarding",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/onboarding-guide",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
         "origin": "inferred",
         "evidence": "shares name words: onboarding"
       },
@@ -33085,6 +33719,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/pr-evidence-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: publisher"
+      },
+      {
+        "type": "similar",
         "target": "agent:wshobson/social-publishing-publisher",
         "origin": "inferred",
         "evidence": "shares name words: publisher"
@@ -33098,12 +33738,6 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/microsoft-agent-framework",
-        "origin": "inferred",
-        "evidence": "shares name words: microsoft"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/microsoft-code-reference",
         "origin": "inferred",
         "evidence": "shares name words: microsoft"
       }
@@ -34414,6 +35048,14 @@
         "target": "skill:scientific/pkpd-modeling",
         "origin": "inferred",
         "evidence": "shares name words: modeling"
+      }
+    ],
+    "skill:awesome-copilot/pr-dashboard": [
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/kibana-dashboard-builder",
+        "origin": "inferred",
+        "evidence": "shares name words: dashboard"
       }
     ],
     "skill:awesome-copilot/pr-screenshots": [
@@ -37285,6 +37927,12 @@
     "skill:awesome-copilot/threat-model-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -37304,12 +37952,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/quant-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/research-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       },
@@ -38195,6 +38837,12 @@
     "skill:bmad-method/bmad-agent-analyst": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: analyst"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/business-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
@@ -38220,12 +38868,6 @@
       {
         "type": "similar",
         "target": "agent:voltagent/research-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: analyst"
-      },
-      {
-        "type": "similar",
-        "target": "agent:voltagent/telegram-ads-analyst",
         "origin": "inferred",
         "evidence": "shares name words: analyst"
       }
@@ -38505,6 +39147,12 @@
     "skill:bmad-method/bmad-build": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/jenkins-build-steward",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/build-engineer",
         "origin": "inferred",
         "evidence": "shares name words: build"
@@ -38529,18 +39177,18 @@
       },
       {
         "type": "similar",
-        "target": "skill:bmad-method/bmad-agent-analyst",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
-      },
-      {
-        "type": "similar",
         "target": "skill:bmad-method/bmad-build-auto",
         "origin": "inferred",
         "evidence": "shares name words: bmad, build"
       }
     ],
     "skill:bmad-method/bmad-build-auto": [
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/jenkins-build-steward",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
       {
         "type": "similar",
         "target": "agent:voltagent/build-engineer",
@@ -38564,12 +39212,6 @@
         "target": "skill:awesome-copilot/flowstudio-power-automate-build",
         "origin": "inferred",
         "evidence": "shares name words: build"
-      },
-      {
-        "type": "similar",
-        "target": "skill:bmad-method/bmad-advanced-elicitation",
-        "origin": "inferred",
-        "evidence": "shares name words: bmad"
       },
       {
         "type": "similar",
@@ -39361,6 +40003,12 @@
     "skill:claude-plugins/build-mcp-app": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/jenkins-build-steward",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
         "target": "agent:voltagent/build-engineer",
         "origin": "inferred",
         "evidence": "shares name words: build"
@@ -39388,15 +40036,15 @@
         "target": "skill:bmad-method/bmad-build-auto",
         "origin": "inferred",
         "evidence": "shares name words: build"
-      },
-      {
-        "type": "similar",
-        "target": "skill:claude-plugins/build-mcp-server",
-        "origin": "inferred",
-        "evidence": "shares name words: build, mcp"
       }
     ],
     "skill:claude-plugins/build-mcp-server": [
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/jenkins-build-steward",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
       {
         "type": "similar",
         "target": "agent:voltagent/build-engineer",
@@ -39426,15 +40074,15 @@
         "target": "instruction:awesome-copilot/kotlin-mcp-server",
         "origin": "inferred",
         "evidence": "shares name words: mcp, server"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/php-mcp-server",
-        "origin": "inferred",
-        "evidence": "shares name words: mcp, server"
       }
     ],
     "skill:claude-plugins/build-mcpb": [
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/jenkins-build-steward",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
       {
         "type": "similar",
         "target": "agent:voltagent/build-engineer",
@@ -39462,12 +40110,6 @@
       {
         "type": "similar",
         "target": "skill:bmad-method/bmad-build-auto",
-        "origin": "inferred",
-        "evidence": "shares name words: build"
-      },
-      {
-        "type": "similar",
-        "target": "skill:claude-plugins/build-mcp-app",
         "origin": "inferred",
         "evidence": "shares name words: build"
       }
@@ -40225,6 +40867,12 @@
       },
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/pr-evidence-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: publisher"
+      },
+      {
+        "type": "similar",
         "target": "agent:wshobson/social-publishing-publisher",
         "origin": "inferred",
         "evidence": "shares name words: publisher"
@@ -40244,12 +40892,6 @@
       {
         "type": "similar",
         "target": "skill:huggingface/huggingface-community-evals",
-        "origin": "inferred",
-        "evidence": "shares name words: huggingface"
-      },
-      {
-        "type": "similar",
-        "target": "skill:huggingface/huggingface-datasets",
         "origin": "inferred",
         "evidence": "shares name words: huggingface"
       }
@@ -46843,6 +47485,18 @@
       },
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/onboarding-guide",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
         "target": "skill:awesome-copilot/gtm-enterprise-onboarding",
         "origin": "inferred",
         "evidence": "shares name words: onboarding"
@@ -46856,18 +47510,6 @@
       {
         "type": "similar",
         "target": "skill:microsoft/wiki-agents-md",
-        "origin": "inferred",
-        "evidence": "shares name words: wiki"
-      },
-      {
-        "type": "similar",
-        "target": "skill:microsoft/wiki-architect",
-        "origin": "inferred",
-        "evidence": "shares name words: wiki"
-      },
-      {
-        "type": "similar",
-        "target": "skill:microsoft/wiki-changelog",
         "origin": "inferred",
         "evidence": "shares name words: wiki"
       }
@@ -47030,6 +47672,230 @@
         "target": "skill:awesome-copilot/microsoft-store-publisher",
         "origin": "inferred",
         "evidence": "shares name words: store"
+      }
+    ],
+    "skill:neo-pragnya-mcp/assistant-usage-analytics": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/analytics-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/usage-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: usage"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/copilot-usage-metrics",
+        "origin": "inferred",
+        "evidence": "shares name words: usage"
+      }
+    ],
+    "skill:neo-pragnya-mcp/browser-debugging-lab": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/browser-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/gem-browser-tester",
+        "origin": "inferred",
+        "evidence": "shares name words: browser"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/browser-debugger",
+        "origin": "inferred",
+        "evidence": "shares name words: browser"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/dataverse-python-testing-debugging",
+        "origin": "inferred",
+        "evidence": "shares name words: debugging"
+      },
+      {
+        "type": "similar",
+        "target": "skill:superpowers/systematic-debugging",
+        "origin": "inferred",
+        "evidence": "shares name words: debugging"
+      }
+    ],
+    "skill:neo-pragnya-mcp/github-pr-evidence": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/github-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/github-actions-expert",
+        "origin": "inferred",
+        "evidence": "shares name words: github"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/github-actions-node-upgrade",
+        "origin": "inferred",
+        "evidence": "shares name words: github"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/pr-evidence-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence, pr"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/github-actions-ci-cd-best-practices",
+        "origin": "inferred",
+        "evidence": "shares name words: github"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/build-evidence-map",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      }
+    ],
+    "skill:neo-pragnya-mcp/jenkins-build-gate": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/jenkins-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/jenkins-build-steward",
+        "origin": "inferred",
+        "evidence": "shares name words: build, jenkins"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/build-engineer",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/build-evidence-map",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/flowstudio-power-automate-build",
+        "origin": "inferred",
+        "evidence": "shares name words: build"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/macos-golden-gate-design",
+        "origin": "inferred",
+        "evidence": "shares name words: gate"
+      }
+    ],
+    "skill:neo-pragnya-mcp/kibana-dashboards": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/kibana-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/kibana-dashboard-builder",
+        "origin": "inferred",
+        "evidence": "shares name words: kibana"
+      }
+    ],
+    "skill:neo-pragnya-mcp/onboarding-from-exports": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/onboarding-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/stackhawk-security-onboarding",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/onboarding-guide",
+        "origin": "inferred",
+        "evidence": "shares name words: onboarding"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/update-code-from-shorthand",
+        "origin": "inferred",
+        "evidence": "shares name words: from"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/create-github-issue-feature-from-specification",
+        "origin": "inferred",
+        "evidence": "shares name words: from"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/create-github-issues-feature-from-implementation-plan",
+        "origin": "inferred",
+        "evidence": "shares name words: from"
+      }
+    ],
+    "skill:neo-pragnya-mcp/sas-to-python": [
+      {
+        "type": "part-of",
+        "target": "plugin:neo-pragnya-mcp/sas-mcp-kit",
+        "origin": "derived",
+        "evidence": "plugin.json lists it as a member"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/python-mcp-expert",
+        "origin": "inferred",
+        "evidence": "shares name words: python"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/python-notebook-sample-builder",
+        "origin": "inferred",
+        "evidence": "shares name words: python"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/python-win-arm64-gha-wheel-builder",
+        "origin": "inferred",
+        "evidence": "shares name words: python"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/python-pro",
+        "origin": "inferred",
+        "evidence": "shares name words: python"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/python-pro",
+        "origin": "inferred",
+        "evidence": "shares name words: python"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/temporal-python-pro",
+        "origin": "inferred",
+        "evidence": "shares name words: python"
       }
     ],
     "skill:neo-pragnya/astro-docs-site": [
@@ -47961,7 +48827,19 @@
     "skill:scientific/folklore-variant-evidence": [
       {
         "type": "similar",
+        "target": "agent:neo-pragnya-mcp/pr-evidence-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      },
+      {
+        "type": "similar",
         "target": "skill:awesome-copilot/build-evidence-map",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/github-pr-evidence",
         "origin": "inferred",
         "evidence": "shares name words: evidence"
       },
@@ -49380,6 +50258,12 @@
       {
         "type": "similar",
         "target": "instruction:awesome-copilot/dataverse-python-testing-debugging",
+        "origin": "inferred",
+        "evidence": "shares name words: debugging"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/browser-debugging-lab",
         "origin": "inferred",
         "evidence": "shares name words: debugging"
       }

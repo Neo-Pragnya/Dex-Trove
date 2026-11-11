@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/kibana-dashboards",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "kibana-dashboards",
+  "title": "Kibana dashboards from logged fields",
+  "description": "Design Kibana (or OpenSearch Dashboards) dashboards from the fields an application really logs: find fields in mappings, JSON Schemas and Python/JS logging calls, check a dashboard spec for missing fields and type mismatches, export saved-object NDJSON for a target version, and import it into a test instance only on approval. Use for Kibana, ELK, OpenSearch dashboards, log metrics, saved objects or observability panels, even if they don't say MCP.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.kibana-dashboards",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "skills/kibana-dashboards",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.kibana-dashboards",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "832eda6a96d9eb9ef33d83a7e495d5d3cae711184b6de0a5032ed5a198fa2474",
+  "content_hash": "ff4dfc1b44a32203776271fb49c95dbb66fd71a989497da1369f77b703cede4c",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}

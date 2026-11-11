@@ -1,0 +1,50 @@
+{
+  "id": "neo-pragnya-mcp/kibana-mcp-kit",
+  "kind": "plugin",
+  "namespace": "neo-pragnya-mcp",
+  "name": "kibana-mcp-kit",
+  "title": "Kibana dashboards from logged fields",
+  "description": "Kibana dashboards from logged fields: the dex-kibana MCP server with its skill and agent.",
+  "tags": [
+    "approval-gated",
+    "dex-trove",
+    "evidence",
+    "kibana",
+    "mcp",
+    "neo-pragnya-mcp",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/neo-pragnya-mcp.kibana-mcp-kit",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "plugins/kibana-mcp-kit",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.kibana-mcp-kit",
+    "author": "Neo Pragnya"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:neo-pragnya-mcp/kibana-dashboards",
+    "agent:neo-pragnya-mcp/kibana-dashboard-builder"
+  ],
+  "files": [
+    ".mcp.json",
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "d06f27b6a760c353b76aba7289a5a1925f205b97100ba655087f9cb29ce499d9",
+  "content_hash": "d73967e3c20d4d26a72d0fb941710554155369a133f565410539dcded37b9775",
+  "learned_at": "2026-11-11T15:02:07+00:00"
+}

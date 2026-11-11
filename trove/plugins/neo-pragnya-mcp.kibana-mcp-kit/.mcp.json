@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "dex-kibana": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "kibana",
+        "--root",
+        "."
+      ]
+    }
+  }
+}
