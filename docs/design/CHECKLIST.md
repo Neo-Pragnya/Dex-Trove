@@ -218,8 +218,25 @@ Backlog: `Ideation/Ananke-DexTrove-DevAcharya/Dev_Guru_Three_Repo_Implementation
 - [ ] Candidate kinds beyond skills (agents, instructions).
 - [ ] Curate more items; benchmark rule precision on a labelled sample.
 
+## Phase 13 — Local MCP servers (2026-11-11, 0.3.13)
+- [x] `dex mcp list|serve|call|config`: a stdio MCP runtime on the standard library (initialize, ping, tools/list,
+      tools/call; argument schemas checked; tool errors returned as `isError`).
+- [x] Shared rules: `--allow-actions` plus the approval digest of the previewed plan for anything that acts; audit
+      log; environment-only credentials; redaction; `--root` confinement; plain http only on loopback; same-host
+      redirects; SARIF evidence in `dex-evidence/` for `ananke triage findings`.
+- [x] Servers: jenkins, kibana, github, sas, onboarding, browser, analytics (26 tracker tasks).
+- [x] `first-party/` in the awesome-copilot layout, source `neo-pragnya-mcp`: a skill, agent and `<server>-mcp-kit`
+      plugin per server (21 items). Partly answers "move first-party skills into git".
+- [x] Acceptance blocker `mcp-servers` from the built wheel (stdio handshake, refused actions, SAS, onboarding,
+      plugin install).
+- [x] Verified against the real thing: browser lab (Playwright 1.48.2, installed Chrome); SAS draft on pandas 2 and 3.
+- [ ] Record runs against a real Jenkins, Kibana or OpenSearch Dashboards, a sandbox GitHub repository, a Confluence
+      space export, an organisation's Copilot metrics and SAS output.
+- [ ] `dex install` of a `*-mcp-kit` plugin should also register its server (today: `dex mcp config`).
+- [ ] FUT-04: an opt-in, pinned Serena entry (telemetry off) through `dex mcp config`.
+
 ## Follow-ups / backlog
-- [ ] Move first-party skills into git (this repo's `first-party/` or their own repo) so CI can re-learn them
+- [ ] Move the remaining `../Skills` first-party skills into git (`first-party/` exists since 0.3.13 for the MCP kits) so CI can re-learn them
 - [x] Light-mode visual pass on the docs site (verified by screenshot)
 - [ ] Enable `huggingface/skills`, `microsoft/skills`, `K-Dense-AI/claude-scientific-skills`
 - [ ] Tune `md-agents` for `wshobson/agents`, `VoltAgent/awesome-claude-code-subagents`
