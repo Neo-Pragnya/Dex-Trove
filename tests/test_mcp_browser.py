@@ -243,6 +243,9 @@ def test_evidence_is_redacted(root: Path) -> None:
     for secret in (CONSOLE_TOKEN, QUERY_TOKEN, COOKIE, BEARER, SESSION):
         assert secret not in text
     bundle = json.loads(text)
+    assert bundle["requests"][0]["url"] == "http://127.0.0.1:8765/api/cart?token=[REDACTED]"
+    ipv6 = browser._redact_url("https://u:pw@[::1]:8443/x?a=1")
+    assert ipv6.startswith("https://[::1]:8443/x?a=") and "pw" not in ipv6 and "a=1" not in ipv6
     assert bundle["run_id"] == "run-7" and bundle["screenshots"]["copied"] == []
     rules = sorted({f["rule"] for f in out["findings"]})
     assert rules == [

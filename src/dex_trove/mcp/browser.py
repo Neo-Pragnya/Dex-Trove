@@ -584,7 +584,11 @@ def _redact_url(url: str) -> str:
     query = urllib.parse.urlencode(
         [(k, "[REDACTED]") for k, _ in urllib.parse.parse_qsl(parts.query, keep_blank_values=True)]
     )
-    return redact(urllib.parse.urlunsplit((parts.scheme, parts.hostname or "", parts.path, query, "")))
+    host = parts.hostname or ""
+    if ":" in host:
+        host = f"[{host}]"
+    netloc = host + (f":{parts.port}" if parts.port else "")  # user:password@ is left out
+    return redact(urllib.parse.urlunsplit((parts.scheme, netloc, parts.path, query, "")))
 
 
 def evidence_tool(ctx: Context, args: dict[str, Any]) -> dict[str, Any]:
