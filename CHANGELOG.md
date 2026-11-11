@@ -11,6 +11,10 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ## [Unreleased]
 
+---
+
+## [0.3.12] — 2026-11-10
+
 ### Added
 
 - **`dex candidate from-template`:** wraps a reviewed project template as a skill candidate. Every file is pinned by
