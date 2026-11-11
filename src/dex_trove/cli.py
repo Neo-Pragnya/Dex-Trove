@@ -872,6 +872,57 @@ def _print_report(rep: Any, as_json: bool) -> None:
         err.print(f"[red]✗[/red] {f}")
 
 
+@candidate_app.command("from-template")
+def candidate_from_template(
+    template: Annotated[Path, typer.Argument(help="The template folder to wrap")],
+    name: Annotated[str, typer.Option("--name", help="Skill name: lowercase words joined by hyphens")],
+    description: Annotated[str, typer.Option("--description", help="What it makes and when to use it")],
+    version: Annotated[str, typer.Option("--version", help="Template version, MAJOR.MINOR.PATCH")] = "1.0.0",
+    license_id: Annotated[
+        str | None, typer.Option("--license", help="SPDX id, when the template has no LICENSE file")
+    ] = None,
+    source_url: Annotated[str, typer.Option("--source-url", help="Where the template came from")] = "",
+    out: Annotated[
+        Path | None, typer.Option("--out", help="Candidate folder (default candidates/<name>)")
+    ] = None,
+    as_json: JsonOpt = False,
+) -> None:
+    """Wrap a reviewed template as a skill candidate, with every file pinned by sha256. Publishes nothing:
+    run its checks, record them in evaluation.json, then `dex candidate review` and `dex candidate publish`."""
+    from dex_trove import candidates, templates
+
+    target = out or Path("candidates") / name
+    try:
+        folder = templates.from_template(
+            template,
+            target,
+            name=name,
+            description=description,
+            version=version,
+            license_id=license_id,
+            source_url=source_url,
+        )
+    except candidates.CandidateError as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    prov = json.loads((folder / "provenance.json").read_text(encoding="utf-8"))
+    if as_json:
+        console.print_json(
+            json.dumps(
+                {
+                    "candidate": str(folder),
+                    **{k: prov[k] for k in ("version", "license", "tree_digest", "placeholders")},
+                    "files": len(prov["files"]),
+                }
+            )
+        )
+        return
+    console.print(
+        f"[green]✓[/green] {folder}: {len(prov['files'])} files, {prov['license']}, {prov['tree_digest'][:19]}…\n"
+        f"  next: run the checks in {folder / 'evaluation.json'}, record the results, then `dex candidate review`"
+    )
+
+
 @candidate_app.command("check")
 def candidate_check(path: Path, visibility: VisibilityOpt = "public", as_json: JsonOpt = False) -> None:
     """Run the skill, licence, secret and evaluation gates on a candidate folder."""
