@@ -244,6 +244,7 @@ Upstream content stays **untrusted**. Dex never executes it, and the docs site r
 | `dex release list\|yank\|unyank\|deprecate\|lineage\|record` | Release ledger: history, markers, fork lineage |
 | `dex related REF [--type T]` | Typed relations with origin and evidence |
 | `dex candidate check\|review\|publish` | The reviewed learning-candidate gate |
+| `dex mcp list\|serve\|call\|config` | Local MCP servers (stdio, standard library only; dry-run unless `--allow-actions` and an approval digest): jenkins, kibana, github, sas, onboarding, browser, analytics |
 
 `REF` is `namespace/name`, `kind:namespace/name` or a unique bare `name`.
 
@@ -371,5 +372,6 @@ resolved one by one.
 | Bundles whose members got excluded | Members are dropped with a note; a bundle with no members is excluded |
 | Should CC-BY-SA content ever be admitted? | Open. Proposal: allow per source when the content is self-contained text, and keep it out of Dex-authored derivatives |
 | Should `dex` push into Ananke directly via its Python API instead of the CLI? | Start with the CLI (stable contract). Revisit once the `[troves]` setting lands |
-| First-party skills live in a local, non-git `Skills/` folder, so CI can't re-learn them | Today the checked-in `trove/skills/neo-pragnya.*` copy is the record, re-learned locally. Proposal: move first-party sources into this repo (`first-party/`) or their own git repo |
+| First-party skills live in a local, non-git `Skills/` folder, so CI can't re-learn them | Today the checked-in `trove/skills/neo-pragnya.*` copy is the record, re-learned locally. Since 0.3.13 the MCP kits live in this repo under `first-party/` (source `neo-pragnya-mcp`); the rest can follow |
+| MCP servers act on real systems (Jenkins, Kibana, GitHub) | Off by default: `--allow-actions` plus the sha256 approval digest of the exact previewed plan, audited; production Kibana targets refused; non-local browser targets need `test_hosts` |
 | Ananke's generic-credential rule flags placeholders | Propose a placeholder-aware rule or a per-artifact allow-list in Ananke; until then Dex flags (see §6) |
