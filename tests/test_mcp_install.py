@@ -66,3 +66,29 @@ def test_user_scope_and_bad_configs(project: Path, monkeypatch: pytest.MonkeyPat
     with pytest.raises(install.InstallError, match="left alone"):
         install.install(["neo-pragnya-mcp/sas-mcp-kit"], target="claude", scope="project", allow_exec=True)
     assert (project / ".mcp.json").read_text() == "{not json"
+
+
+def test_cli_labels_registration_notes_plainly(project: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    from typer.testing import CliRunner
+
+    from dex_trove.cli import app
+
+    monkeypatch.setenv("HOME", str(project / "home"))  # never the real home, whatever the scope
+    out = (
+        CliRunner()
+        .invoke(
+            app,
+            [
+                "install",
+                "neo-pragnya-mcp/sas-mcp-kit",
+                "--target",
+                "claude",
+                "--scope",
+                "project",
+                "--allow-exec",
+            ],
+        )
+        .output
+    )
+    assert "registered dex-sas" in out
+    assert "adapted: registered" not in out

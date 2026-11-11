@@ -42,6 +42,12 @@ def skill(
     return d
 
 
+@pytest.fixture(autouse=True)
+def _private_home(tmp_path_factory: pytest.TempPathFactory, monkeypatch: pytest.MonkeyPatch) -> None:
+    """No test writes to the real home folder: user-scope installs land in a throwaway one."""
+    monkeypatch.setenv("HOME", str(tmp_path_factory.mktemp("home")))
+
+
 @pytest.fixture
 def upstream(tmp_path: Path) -> Path:
     """A miniature awesome-copilot-shaped repo covering each admission rule."""
