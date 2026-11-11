@@ -143,6 +143,8 @@ def install_one(
                 manifest=manifest,
                 force=force,
             )
+        if (src / ".mcp.json").is_file():
+            out += register_mcp(item, src / ".mcp.json", target=target, base=base, allow_exec=allow_exec)
         return out
     if item.get("executes_code") and kind == "hook" and not allow_exec:
         return [Installed(item["id"], kind, None, "hook runs code — pass --allow-exec after reviewing it")]
@@ -187,6 +189,86 @@ def install_one(
             shutil.copyfile(lic, dest.with_name(dest.name + ".LICENSE"))
     manifest.record(dest, item["id"])
     return [Installed(item["id"], kind, dest, notes=notes)]
+
+
+def _mcp_servers(path: Path) -> dict[str, dict[str, Any]]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as exc:
+        raise InstallError(f"{path}: not valid JSON ({exc})") from exc
+    servers = data.get("mcpServers") if isinstance(data, dict) else None
+    if not isinstance(servers, dict) or not all(
+        isinstance(v, dict) and v.get("command") for v in servers.values()
+    ):
+        raise InstallError(f"{path}: expected {{'mcpServers': {{name: {{'command': ..., 'args': [...]}}}}}}")
+    return servers
+
+
+def _pin(server: dict[str, Any]) -> dict[str, Any]:
+    """Dex's own servers run the Dex version that installed them, not whatever is newest later."""
+    from dex_trove import __version__
+
+    args = [f"dex-trove=={__version__}" if a == "dex-trove" else a for a in server.get("args", [])]
+    return {**server, "args": args}
+
+
+def register_mcp(
+    item: dict[str, Any], config: Path, *, target: str, base: Path, allow_exec: bool
+) -> list[Installed]:
+    """Adds a plugin's MCP servers to the project's client config: ``.mcp.json`` (Claude Code) or
+    ``.vscode/mcp.json`` (VS Code / Copilot). A server is a command the client will start, so like a hook it needs
+    ``--allow-exec``. Entries that exist already are left alone, and user-level configs are never edited."""
+    servers = {name: _pin(spec) for name, spec in _mcp_servers(config).items()}
+    names = ", ".join(sorted(servers))
+    commands = [
+        f"dex mcp config {n.removeprefix('dex-')} --client {'claude-code' if target == 'claude' else 'vscode'}"
+        for n in sorted(servers)
+        if n.startswith("dex-")
+    ]
+    hint = f" (or run: {'; '.join(commands)})" if commands else ""
+    if not allow_exec:
+        return [
+            Installed(
+                item["id"],
+                "mcp",
+                None,
+                f"MCP server {names} runs a command — pass --allow-exec to register it{hint}",
+            )
+        ]
+    if target == "claude" and base == Path.home() / ".claude":
+        return [Installed(item["id"], "mcp", None, f"user scope: Dex doesn't edit ~/.claude.json{hint}")]
+    if target == "claude":
+        dest, key, stdio = base.parent / ".mcp.json", "mcpServers", False
+    elif target == "copilot":
+        dest, key, stdio = base.parent / ".vscode" / "mcp.json", "servers", True
+    else:
+        return [Installed(item["id"], "mcp", None, f"--target dir has no MCP client config{hint}")]
+    current: dict[str, Any] = {}
+    if dest.is_file():
+        try:
+            current = json.loads(dest.read_text(encoding="utf-8"))
+        except ValueError as exc:
+            raise InstallError(f"{dest}: not valid JSON, so it was left alone ({exc})") from exc
+    table = current.setdefault(key, {})
+    if not isinstance(table, dict):
+        raise InstallError(f"{dest}: '{key}' isn't an object, so it was left alone")
+    added, kept = [], []
+    for name, spec in sorted(servers.items()):
+        if name in table:
+            kept.append(name)
+            continue
+        table[name] = {"type": "stdio", **spec} if stdio else spec
+        added.append(name)
+    if added:
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(json.dumps(current, indent=2) + "\n", encoding="utf-8")
+    notes = [f"registered {', '.join(added)}"] if added else []
+    notes += [f"{n} was already configured; left unchanged" for n in kept]
+    return [
+        Installed(
+            item["id"], "mcp", dest if added else None, "" if added else "already registered", notes=notes
+        )
+    ]
 
 
 def install(

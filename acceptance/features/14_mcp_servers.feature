@@ -142,3 +142,17 @@ Feature: Local MCP servers work offline, leave evidence, and never act without a
     Then it succeeds
     And the file ".claude/skills/jenkins-build-gate/SKILL.md" exists
     And a file matching ".claude/agents/jenkins-build-steward*" exists
+    And the output contains "--allow-exec"
+    And the file ".mcp.json" does not exist
+
+  @cap_mcp_servers
+  Scenario: With --allow-exec the plugin also registers its server, pinned, without touching other entries
+    Given the file ".mcp.json" with content:
+      """
+      {"mcpServers": {"mine": {"command": "my-server"}}}
+      """
+    When I run "dex install neo-pragnya-mcp/jenkins-mcp-kit --target claude --scope project --allow-exec"
+    Then it succeeds
+    And the file ".mcp.json" contains "my-server"
+    And the file ".mcp.json" contains "dex-jenkins"
+    And the file ".mcp.json" contains "dex-trove=="
