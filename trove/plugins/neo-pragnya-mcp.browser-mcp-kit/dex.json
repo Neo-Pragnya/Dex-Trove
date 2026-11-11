@@ -1,0 +1,50 @@
+{
+  "id": "neo-pragnya-mcp/browser-mcp-kit",
+  "kind": "plugin",
+  "namespace": "neo-pragnya-mcp",
+  "name": "browser-mcp-kit",
+  "title": "Browser debugging lab",
+  "description": "Browser debugging lab: the dex-browser MCP server with its skill and agent.",
+  "tags": [
+    "approval-gated",
+    "browser",
+    "dex-trove",
+    "evidence",
+    "mcp",
+    "neo-pragnya-mcp",
+    "plugin"
+  ],
+  "version": "1.0.1",
+  "entry": "README.md",
+  "dir": "plugins/neo-pragnya-mcp.browser-mcp-kit",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "plugins/browser-mcp-kit",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.browser-mcp-kit",
+    "author": "Neo Pragnya"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:neo-pragnya-mcp/browser-debugging-lab",
+    "agent:neo-pragnya-mcp/browser-debugger"
+  ],
+  "files": [
+    ".mcp.json",
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "d4c4ef6a510985b59bc3151c7645a02d1018eed9fc6964171f381e654a360a83",
+  "content_hash": "44cbb8a9fd0a9c8ec4a43a0c65cab7641e868f5072659208359c1f4bbaa06723",
+  "learned_at": "2026-11-11T15:20:53+00:00"
+}

@@ -1,0 +1,33 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: sas-to-python
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:sas-to-python
+summary: 'Move SAS programs to Python with evidence: inventory DATA steps, PROCs, PROC SQL and macros, map dataset
+  lineage with a supported/partial/unsupported verdict per step, write a pandas draft that keeps…'
+description: 'Move SAS programs to Python with evidence: inventory DATA steps, PROCs, PROC SQL and macros, map dataset
+  lineage with a supported/partial/unsupported verdict per step, write a pandas draft that keeps SAS missing-value
+  and sorting rules, and prove outputs match SAS within a declared tolerance. Use for SAS migration, modernization,
+  SAS to pandas or Python, SAS lineage or reconciling SAS outputs, even if they don''t say MCP.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.sas-to-python
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

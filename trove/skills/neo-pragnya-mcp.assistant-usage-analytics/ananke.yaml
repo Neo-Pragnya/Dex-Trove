@@ -1,0 +1,34 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: assistant-usage-analytics
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:assistant-usage-analytics
+summary: 'Report how GitHub Copilot and Claude Code are used, from sources a person consents to: Copilot metrics
+  exports or the org metrics API, Claude Code session logs (token totals and tool names, never prom…'
+description: 'Report how GitHub Copilot and Claude Code are used, from sources a person consents to: Copilot metrics
+  exports or the org metrics API, Claude Code session logs (token totals and tool names, never prompt text) and
+  `ananke context eval` results; estimate tokens graph retrieval would save; render a local HTML report labelling
+  every number observed, estimated or unknown. Use for Copilot usage, adoption, acceptance rates, token spend, AI
+  assistant ROI or harness analytics, even if they don''t say MCP.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.assistant-usage-analytics
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

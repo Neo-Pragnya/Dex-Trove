@@ -1,0 +1,50 @@
+{
+  "id": "neo-pragnya-mcp/sas-mcp-kit",
+  "kind": "plugin",
+  "namespace": "neo-pragnya-mcp",
+  "name": "sas-mcp-kit",
+  "title": "SAS to Python with parity",
+  "description": "SAS to Python with parity: the dex-sas MCP server with its skill and agent.",
+  "tags": [
+    "approval-gated",
+    "dex-trove",
+    "evidence",
+    "mcp",
+    "neo-pragnya-mcp",
+    "plugin",
+    "sas"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/neo-pragnya-mcp.sas-mcp-kit",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "plugins/sas-mcp-kit",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.sas-mcp-kit",
+    "author": "Neo Pragnya"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:neo-pragnya-mcp/sas-to-python",
+    "agent:neo-pragnya-mcp/sas-modernizer"
+  ],
+  "files": [
+    ".mcp.json",
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "7a0fd98a1fdf1dd94f7e98381af7c8db2d653d4231aa42334b87c920dfee8121",
+  "content_hash": "1befe00bf46d12385e45d286bc57a758a4e2cca59564697770735336354561de",
+  "learned_at": "2026-11-11T15:02:07+00:00"
+}

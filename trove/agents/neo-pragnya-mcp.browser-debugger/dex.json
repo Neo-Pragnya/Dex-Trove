@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/browser-debugger",
+  "kind": "agent",
+  "namespace": "neo-pragnya-mcp",
+  "name": "browser-debugger",
+  "title": "browser-debugger",
+  "description": "Debug a web UI with Playwright without installing a browser into your tools: create an isolated, read-only Playwright lab against a local or named test URL, run it on approval, read trace.zip files (failed actions, console and page errors, failed requests), map failing selectors and pages to the frontend source and routes, and write redacted evidence. Works through the dex-browser MCP server and stops for approval before any action.",
+  "tags": [
+    "agent",
+    "neo-pragnya-mcp"
+  ],
+  "version": "1.0.1",
+  "entry": "browser-debugger.agent.md",
+  "dir": "agents/neo-pragnya-mcp.browser-debugger",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "agents/browser-debugger.agent.md",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.browser-debugger",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "browser-debugger.agent.md"
+  ],
+  "entry_hash": "32c986bca507a62ce90a8964b3f5c057fb1982984536b2b49c9f63903634f801",
+  "content_hash": "28b965e8adc3614375131699999305e68e1032f317d11f516f899a1c5e93d2a8",
+  "learned_at": "2026-11-11T15:20:53+00:00"
+}

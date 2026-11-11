@@ -1,0 +1,50 @@
+{
+  "id": "neo-pragnya-mcp/jenkins-mcp-kit",
+  "kind": "plugin",
+  "namespace": "neo-pragnya-mcp",
+  "name": "jenkins-mcp-kit",
+  "title": "Jenkins build gate",
+  "description": "Jenkins build gate: the dex-jenkins MCP server with its skill and agent.",
+  "tags": [
+    "approval-gated",
+    "dex-trove",
+    "evidence",
+    "jenkins",
+    "mcp",
+    "neo-pragnya-mcp",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/neo-pragnya-mcp.jenkins-mcp-kit",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "plugins/jenkins-mcp-kit",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.jenkins-mcp-kit",
+    "author": "Neo Pragnya"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:neo-pragnya-mcp/jenkins-build-gate",
+    "agent:neo-pragnya-mcp/jenkins-build-steward"
+  ],
+  "files": [
+    ".mcp.json",
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "71ad74b6f19aa0c0be99991f70bb3f522517fe4d3f24dc4993ecf60d59e63e2b",
+  "content_hash": "eae87cb9252ace59ec227f13eca3ed665b224e276fc71e101e6bbd827e405031",
+  "learned_at": "2026-11-11T15:02:07+00:00"
+}

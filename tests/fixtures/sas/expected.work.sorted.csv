@@ -1,0 +1,6 @@
+id,region,amount,discount,amount_flag,net,ratio
+1,North,150,10,L,140,0.0666666667
+7,North,80,8,S,72,0.1
+2,North,.,5,M,.,.
+6,South,120,0,L,120,0
+4,South,50,0,S,50,0

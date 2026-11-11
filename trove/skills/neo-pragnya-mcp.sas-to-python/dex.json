@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/sas-to-python",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "sas-to-python",
+  "title": "SAS to Python with parity",
+  "description": "Move SAS programs to Python with evidence: inventory DATA steps, PROCs, PROC SQL and macros, map dataset lineage with a supported/partial/unsupported verdict per step, write a pandas draft that keeps SAS missing-value and sorting rules, and prove outputs match SAS within a declared tolerance. Use for SAS migration, modernization, SAS to pandas or Python, SAS lineage or reconciling SAS outputs, even if they don't say MCP.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.sas-to-python",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "skills/sas-to-python",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.sas-to-python",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "38bc2dfcac971e96eb7a75b68fc5cdb51041146c9138e49c2b7828919fa89970",
+  "content_hash": "a0371d91121b86188352ca6da765c0980d3fc69463a2cb9457b84098472c7683",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jenkins-mcp-kit",
+  "description": "Jenkins build gate: the dex-jenkins MCP server with its skill and agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neo Pragnya"
+  },
+  "repository": "https://github.com/Neo-Pragnya/Dex-Trove",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "dex-trove",
+    "jenkins",
+    "approval-gated",
+    "evidence"
+  ],
+  "mcpServers": {
+    "dex-jenkins": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "jenkins",
+        "--root",
+        "."
+      ]
+    }
+  },
+  "extensions": {
+    "com.github.awesome-copilot": {
+      "skills": [
+        "./skills/jenkins-build-gate/"
+      ],
+      "agents": [
+        "./agents/jenkins-build-steward.agent.md"
+      ]
+    }
+  }
+}

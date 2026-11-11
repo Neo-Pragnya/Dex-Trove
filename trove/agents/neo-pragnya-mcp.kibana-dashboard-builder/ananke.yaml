@@ -1,0 +1,35 @@
+kind: agent
+namespace: neo-pragnya-mcp
+name: kibana-dashboard-builder
+version: 1.0.0
+ananke_id: urn:dex-trove:agent:neo-pragnya-mcp:kibana-dashboard-builder
+summary: 'Design Kibana (or OpenSearch Dashboards) dashboards from the fields an application really logs: find fields
+  in mappings, JSON Schemas and Python/JS logging calls, check a dashboard spec for missing fi…'
+description: 'Design Kibana (or OpenSearch Dashboards) dashboards from the fields an application really logs: find
+  fields in mappings, JSON Schemas and Python/JS logging calls, check a dashboard spec for missing fields and type
+  mismatches, export saved-object NDJSON for a target version, and import it into a test instance only on approval.
+  Works through the dex-kibana MCP server and stops for approval before any action.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+instructions:
+  ref: kibana-dashboard-builder.agent.md
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - agent
+  - neo-pragnya-mcp
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.kibana-dashboard-builder
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

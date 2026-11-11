@@ -1,0 +1,39 @@
+kind: bundle
+namespace: neo-pragnya-mcp
+name: jenkins-mcp-kit
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:neo-pragnya-mcp:jenkins-mcp-kit
+summary: 'Jenkins build gate: the dex-jenkins MCP server with its skill and agent.'
+description: 'Jenkins build gate: the dex-jenkins MCP server with its skill and agent.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/neo-pragnya-mcp/jenkins-build-gate
+  version: '*'
+- ref: ananke://agent/neo-pragnya-mcp/jenkins-build-steward
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - approval-gated
+  - dex-trove
+  - evidence
+  - jenkins
+  - mcp
+  - neo-pragnya-mcp
+  - plugin
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.jenkins-mcp-kit
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

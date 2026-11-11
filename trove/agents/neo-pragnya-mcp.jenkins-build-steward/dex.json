@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/jenkins-build-steward",
+  "kind": "agent",
+  "namespace": "neo-pragnya-mcp",
+  "name": "jenkins-build-steward",
+  "title": "jenkins-build-steward",
+  "description": "Start allowlisted Jenkins jobs after a pull request only when its checks pass and a person approves the exact parameters; follow the build to its result and record evidence. Works through the dex-jenkins MCP server and stops for approval before any action.",
+  "tags": [
+    "agent",
+    "neo-pragnya-mcp"
+  ],
+  "version": "1.0.0",
+  "entry": "jenkins-build-steward.agent.md",
+  "dir": "agents/neo-pragnya-mcp.jenkins-build-steward",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "agents/jenkins-build-steward.agent.md",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.jenkins-build-steward",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "jenkins-build-steward.agent.md"
+  ],
+  "entry_hash": "e3188927d6dfda5676328945924d0fbeda55b7a9b2a9daeb2e8bece4fde07823",
+  "content_hash": "87905669deae5e8bfd5951bbfaac4bca2d8aa22b071a2ce5502e9f04710bd14d",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/usage-analyst",
+  "kind": "agent",
+  "namespace": "neo-pragnya-mcp",
+  "name": "usage-analyst",
+  "title": "usage-analyst",
+  "description": "Report how GitHub Copilot and Claude Code are used, from sources a person consents to: Copilot metrics exports or the org metrics API, Claude Code session logs (token totals and tool names, never prompt text) and `ananke context eval` results; estimate tokens graph retrieval would save; render a local HTML report labelling every number observed, estimated or unknown. Works through the dex-analytics MCP server and stops for approval before any action.",
+  "tags": [
+    "agent",
+    "neo-pragnya-mcp"
+  ],
+  "version": "1.0.0",
+  "entry": "usage-analyst.agent.md",
+  "dir": "agents/neo-pragnya-mcp.usage-analyst",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "agents/usage-analyst.agent.md",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.usage-analyst",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "usage-analyst.agent.md"
+  ],
+  "entry_hash": "34fad958764b44441063487866f1b8560c2ffad23a7911752180b1ca51fc01c6",
+  "content_hash": "79d4627dffe109aa3beeda952e00e2b7f76056adea638366d60c32da9f7bd843",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}

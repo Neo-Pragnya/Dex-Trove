@@ -1,0 +1,9 @@
+id,region,status,amount,discount
+1,North,OK,150,10
+2,North,OK,.,5
+3,South,VOID,200,0
+4,South,OK,50,0
+5,TEST,OK,300,30
+6,South,OK,120,0
+7,North,OK,80,8
+8,North,OK,150,10

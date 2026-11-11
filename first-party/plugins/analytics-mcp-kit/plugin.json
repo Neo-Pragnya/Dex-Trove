@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "analytics-mcp-kit",
+  "description": "Assistant usage analytics: the dex-analytics MCP server with its skill and agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neo Pragnya"
+  },
+  "repository": "https://github.com/Neo-Pragnya/Dex-Trove",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "dex-trove",
+    "analytics",
+    "approval-gated",
+    "evidence"
+  ],
+  "mcpServers": {
+    "dex-analytics": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "analytics",
+        "--root",
+        "."
+      ]
+    }
+  },
+  "extensions": {
+    "com.github.awesome-copilot": {
+      "skills": [
+        "./skills/assistant-usage-analytics/"
+      ],
+      "agents": [
+        "./agents/usage-analyst.agent.md"
+      ]
+    }
+  }
+}

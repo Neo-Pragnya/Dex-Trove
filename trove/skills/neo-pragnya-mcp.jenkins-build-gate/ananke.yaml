@@ -1,0 +1,33 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: jenkins-build-gate
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:jenkins-build-gate
+summary: Start allowlisted Jenkins jobs after a pull request only when its checks pass and a person approves the
+  exact parameters; follow the build to its result and record evidence.
+description: Start allowlisted Jenkins jobs after a pull request only when its checks pass and a person approves
+  the exact parameters; follow the build to its result and record evidence. Use when someone asks to trigger, rerun
+  or start a Jenkins build or pipeline for a PR, check whether a job may run, or wait for a Jenkins result, even
+  if they don't say MCP.
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.jenkins-build-gate
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

@@ -1,0 +1,39 @@
+kind: bundle
+namespace: neo-pragnya-mcp
+name: kibana-mcp-kit
+version: 1.0.0
+ananke_id: urn:dex-trove:plugin:neo-pragnya-mcp:kibana-mcp-kit
+summary: 'Kibana dashboards from logged fields: the dex-kibana MCP server with its skill and agent.'
+description: 'Kibana dashboards from logged fields: the dex-kibana MCP server with its skill and agent.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+members:
+- ref: ananke://skill/neo-pragnya-mcp/kibana-dashboards
+  version: '*'
+- ref: ananke://agent/neo-pragnya-mcp/kibana-dashboard-builder
+  version: '*'
+license:
+  expression: MIT
+  source: 'frontmatter license: ''MIT'''
+  approval: approved
+metadata:
+  tags:
+  - approval-gated
+  - dex-trove
+  - evidence
+  - kibana
+  - mcp
+  - neo-pragnya-mcp
+  - plugin
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.kibana-mcp-kit
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

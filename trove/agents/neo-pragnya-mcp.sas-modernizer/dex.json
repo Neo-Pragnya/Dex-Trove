@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/sas-modernizer",
+  "kind": "agent",
+  "namespace": "neo-pragnya-mcp",
+  "name": "sas-modernizer",
+  "title": "sas-modernizer",
+  "description": "Move SAS programs to Python with evidence: inventory DATA steps, PROCs, PROC SQL and macros, map dataset lineage with a supported/partial/unsupported verdict per step, write a pandas draft that keeps SAS missing-value and sorting rules, and prove outputs match SAS within a declared tolerance. Works through the dex-sas MCP server and stops for approval before any action.",
+  "tags": [
+    "agent",
+    "neo-pragnya-mcp"
+  ],
+  "version": "1.0.0",
+  "entry": "sas-modernizer.agent.md",
+  "dir": "agents/neo-pragnya-mcp.sas-modernizer",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "agents/sas-modernizer.agent.md",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.sas-modernizer",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "sas-modernizer.agent.md"
+  ],
+  "entry_hash": "4364baf34f3398b4c7356bdb4d49278362520524216ca72c966ac012f7084643",
+  "content_hash": "13385d1297280553d99614e0d576b4546bb2a9ca1bf5a79f0bafc2f6a1d0926c",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}

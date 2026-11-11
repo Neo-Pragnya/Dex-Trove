@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "dex-jenkins": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "jenkins",
+        "--root",
+        "."
+      ]
+    }
+  }
+}

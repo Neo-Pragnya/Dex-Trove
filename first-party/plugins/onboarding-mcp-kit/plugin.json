@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "onboarding-mcp-kit",
+  "description": "Onboarding from document exports: the dex-onboarding MCP server with its skill and agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neo Pragnya"
+  },
+  "repository": "https://github.com/Neo-Pragnya/Dex-Trove",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "dex-trove",
+    "onboarding",
+    "approval-gated",
+    "evidence"
+  ],
+  "mcpServers": {
+    "dex-onboarding": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "onboarding",
+        "--root",
+        "."
+      ]
+    }
+  },
+  "extensions": {
+    "com.github.awesome-copilot": {
+      "skills": [
+        "./skills/onboarding-from-exports/"
+      ],
+      "agents": [
+        "./agents/onboarding-guide.agent.md"
+      ]
+    }
+  }
+}

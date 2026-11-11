@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "github-mcp-kit",
+  "description": "Pull requests with evidence: the dex-github MCP server with its skill and agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neo Pragnya"
+  },
+  "repository": "https://github.com/Neo-Pragnya/Dex-Trove",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "dex-trove",
+    "github",
+    "approval-gated",
+    "evidence"
+  ],
+  "mcpServers": {
+    "dex-github": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "github",
+        "--root",
+        "."
+      ]
+    }
+  },
+  "extensions": {
+    "com.github.awesome-copilot": {
+      "skills": [
+        "./skills/github-pr-evidence/"
+      ],
+      "agents": [
+        "./agents/pr-evidence-publisher.agent.md"
+      ]
+    }
+  }
+}

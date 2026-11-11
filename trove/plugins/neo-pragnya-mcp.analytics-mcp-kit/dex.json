@@ -1,0 +1,50 @@
+{
+  "id": "neo-pragnya-mcp/analytics-mcp-kit",
+  "kind": "plugin",
+  "namespace": "neo-pragnya-mcp",
+  "name": "analytics-mcp-kit",
+  "title": "Assistant usage analytics",
+  "description": "Assistant usage analytics: the dex-analytics MCP server with its skill and agent.",
+  "tags": [
+    "analytics",
+    "approval-gated",
+    "dex-trove",
+    "evidence",
+    "mcp",
+    "neo-pragnya-mcp",
+    "plugin"
+  ],
+  "version": "1.0.0",
+  "entry": "README.md",
+  "dir": "plugins/neo-pragnya-mcp.analytics-mcp-kit",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "plugins/analytics-mcp-kit",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.analytics-mcp-kit",
+    "author": "Neo Pragnya"
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "frontmatter license: 'MIT'",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [
+    "skill:neo-pragnya-mcp/assistant-usage-analytics",
+    "agent:neo-pragnya-mcp/usage-analyst"
+  ],
+  "files": [
+    ".mcp.json",
+    "README.md",
+    "plugin.json"
+  ],
+  "entry_hash": "1e4b0b2101b295df8efa379c68b692e8a6468af3ea9a0f7572b9049fcfd96a3b",
+  "content_hash": "4801b15a109327c10fb552b6e7b37d72a7af3ec56e0db9aed850fa705d47f87d",
+  "learned_at": "2026-11-11T15:02:07+00:00"
+}

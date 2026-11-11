@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "dex-github": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "github",
+        "--root",
+        "."
+      ]
+    }
+  }
+}

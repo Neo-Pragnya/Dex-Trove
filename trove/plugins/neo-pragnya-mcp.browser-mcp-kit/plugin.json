@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "browser-mcp-kit",
+  "description": "Browser debugging lab: the dex-browser MCP server with its skill and agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neo Pragnya"
+  },
+  "repository": "https://github.com/Neo-Pragnya/Dex-Trove",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "dex-trove",
+    "browser",
+    "approval-gated",
+    "evidence"
+  ],
+  "mcpServers": {
+    "dex-browser": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "browser",
+        "--root",
+        "."
+      ]
+    }
+  },
+  "extensions": {
+    "com.github.awesome-copilot": {
+      "skills": [
+        "./skills/browser-debugging-lab/"
+      ],
+      "agents": [
+        "./agents/browser-debugger.agent.md"
+      ]
+    }
+  }
+}

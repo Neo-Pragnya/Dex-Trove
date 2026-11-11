@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "kibana-mcp-kit",
+  "description": "Kibana dashboards from logged fields: the dex-kibana MCP server with its skill and agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neo Pragnya"
+  },
+  "repository": "https://github.com/Neo-Pragnya/Dex-Trove",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "dex-trove",
+    "kibana",
+    "approval-gated",
+    "evidence"
+  ],
+  "mcpServers": {
+    "dex-kibana": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "dex-trove",
+        "dex",
+        "mcp",
+        "serve",
+        "kibana",
+        "--root",
+        "."
+      ]
+    }
+  },
+  "extensions": {
+    "com.github.awesome-copilot": {
+      "skills": [
+        "./skills/kibana-dashboards/"
+      ],
+      "agents": [
+        "./agents/kibana-dashboard-builder.agent.md"
+      ]
+    }
+  }
+}

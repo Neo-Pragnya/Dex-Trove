@@ -13,6 +13,48 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.13] — 2026-11-11
+
+### Added
+
+- **Local MCP servers, `dex mcp list | serve | call | config`:** seven servers for systems Dex can't reach by itself,
+  run over stdio with the standard library only (no new dependency) and imported only when served. Tools that change an
+  external system are refused unless the server was started with `--allow-actions`, and even then need the approval
+  digest of the exact plan a preview showed; every approval and refusal is audited. Credentials come from the
+  environment only, results are redacted, paths stay inside `--root`, and findings are written as SARIF under
+  `dex-evidence/` for `ananke triage findings`.
+  - `jenkins`: allowlisted jobs and parameter rules, PR checks must pass, idempotent triggers, bounded polling, build
+    evidence.
+  - `kibana`: fields from mappings, JSON Schemas and Python/JS logging calls; dashboard specs checked for missing
+    fields and type mismatches; saved-object NDJSON with a contract check; import into non-production targets only.
+  - `github`: a static PR preview (no forms or scripts), push and create on approval without duplicates, evidence
+    hashes re-verified before they're posted.
+  - `sas`: inventory, lineage with a supported/partial/unsupported verdict per step, a pandas draft that keeps SAS
+    missing-value, rounding and sorting rules and refuses to run untranslated steps, and parity checks within a
+    declared tolerance. Macros are quarantined.
+  - `onboarding`: Confluence HTML, Word, PDF and Markdown exports read only when permitted, chunked by heading and
+    page with citations; restricted files never indexed; instruction-like text flagged; revocation deletes indexed
+    text; a guide that marks gaps.
+  - `browser`: an isolated, read-only Playwright lab pinned to an exact version (`channel: chrome` uses the
+    installed browser), trace reading, failing selectors mapped to source and routes, redacted evidence.
+  - `analytics`: Copilot metrics and Claude Code session logs read only with consent, never prompt text; observed,
+    estimated and unknown kept apart; an estimate of graph-retrieval savings from `ananke context eval`; a local
+    HTML report; opt-out deletes everything.
+- **`neo-pragnya-mcp` namespace:** a skill, an agent and a plugin (`<server>-mcp-kit`) for each server, kept in this
+  repository under `first-party/` so CI can re-learn them (21 items; the trove has 1728).
+- Guide: [Local MCP servers](docs/guides/mcp-servers.md), including what each server has and hasn't been verified
+  against.
+
+### Verified
+
+- The browser lab ran with Playwright 1.48.2 and the installed Chrome against local fixture pages: the healthy page
+  passed and the broken one failed, and its traces were read, mapped and turned into redacted evidence.
+- The SAS draft runs on pandas 2 and pandas 3 and matches hand-derived SAS results for a representative program.
+- Jenkins, Kibana, GitHub and the Copilot metrics API were exercised against local fakes only; real instances are
+  still to be recorded.
+
+---
+
 ## [0.3.12] — 2026-11-10
 
 ### Added

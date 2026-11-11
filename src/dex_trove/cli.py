@@ -22,6 +22,10 @@ ananke_app = typer.Typer(help="Ananke integration.", no_args_is_help=True)
 docs_app = typer.Typer(help="Docs site helpers.", no_args_is_help=True)
 app.add_typer(ananke_app, name="ananke")
 app.add_typer(docs_app, name="docs")
+
+from dex_trove.mcp.cli import mcp_app  # noqa: E402 - sub-app, kept next to its siblings
+
+app.add_typer(mcp_app, name="mcp")
 console = Console()
 err = Console(stderr=True)
 

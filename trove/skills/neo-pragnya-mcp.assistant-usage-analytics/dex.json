@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/assistant-usage-analytics",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "assistant-usage-analytics",
+  "title": "Assistant usage analytics",
+  "description": "Report how GitHub Copilot and Claude Code are used, from sources a person consents to: Copilot metrics exports or the org metrics API, Claude Code session logs (token totals and tool names, never prompt text) and `ananke context eval` results; estimate tokens graph retrieval would save; render a local HTML report labelling every number observed, estimated or unknown. Use for Copilot usage, adoption, acceptance rates, token spend, AI assistant ROI or harness analytics, even if they don't say MCP.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.assistant-usage-analytics",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "path": "skills/assistant-usage-analytics",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.assistant-usage-analytics",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "b06cd558347413993fd993fd9c8e7e4470fb79329edef918cee8b73cd3f87f89",
+  "content_hash": "9f72c45609cac07d820a7a53c3f0a81b48d9c2e97d8459c4ea04170d4560f782",
+  "learned_at": "2026-11-11T14:58:18+00:00"
+}
