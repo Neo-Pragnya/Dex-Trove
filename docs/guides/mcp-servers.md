@@ -25,8 +25,14 @@ Each has a first-party **skill** (how to use it), an **agent** (drives it and st
 
 ```bash
 dex search mcp-kit
-dex install neo-pragnya-mcp/jenkins-mcp-kit --target claude --scope project
+dex install neo-pragnya-mcp/jenkins-mcp-kit --target claude --scope project --allow-exec
 ```
+
+With `--allow-exec`, installing a kit also registers its server in the project's `.mcp.json` (Claude Code) or
+`.vscode/mcp.json` (`--target copilot`), pinned to the installed Dex version. An entry with the same name is never
+overwritten, and user-level configs are never edited: for `--scope user` Dex prints the `dex mcp config` command
+instead. Without `--allow-exec` only the skill and agent are installed, because a registered server is a command
+your client will start.
 
 ## Register a server
 

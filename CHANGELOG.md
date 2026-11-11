@@ -13,6 +13,17 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.14] — 2026-11-11
+
+### Added
+
+- **`dex install` registers a plugin's MCP servers** with `--allow-exec`: `.mcp.json` for Claude Code projects and
+  `.vscode/mcp.json` for Copilot, pinned to the installed Dex version. Existing entries are left alone, a malformed
+  config is left untouched with an error, and user-level configs are never edited (Dex prints `dex mcp config`).
+  Without `--allow-exec`, only the skill and agent install, with a note saying why.
+
+---
+
 ## [0.3.13] — 2026-11-11
 
 ### Added
