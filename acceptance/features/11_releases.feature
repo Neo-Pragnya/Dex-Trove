@@ -150,3 +150,53 @@ Feature: Every version is remembered, pinned installs are exact, and new memory 
     And the output contains "bpmn-designer"
     When I run "dex capabilities nope"
     Then it fails cleanly
+
+  @cap_template_candidates
+  Scenario: A template becomes a pinned candidate that the gates hold until it's evaluated
+    Given the file "tpl/LICENSE" with content:
+      """
+      MIT License
+
+      Copyright (c) 2026 Example
+
+      Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:
+
+      The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+      """
+    And the file "tpl/pyproject.toml" with content:
+      """
+      [project]
+      name = "{{ cookiecutter.package }}"
+      """
+    And the file "tpl/tests/test_app.py" with content:
+      """
+      def test_it():
+          assert True
+      """
+    When I run "dex candidate from-template tpl --name service-scaffold --description 'A small service scaffold with tests. Use it to start a new HTTP service.' --version 1.0.0 --out cand/service-scaffold --json"
+    Then it succeeds
+    And the JSON output at "version" equals "1.0.0"
+    And the JSON output at "license" equals "MIT"
+    And the file "cand/service-scaffold/template/pyproject.toml" exists
+    When I run "dex candidate check cand/service-scaffold"
+    Then it fails
+    And the output contains "evaluation cases failed"
+
+  @cap_template_candidates @adversarial
+  Scenario: A template without a licence is refused before anything is written
+    Given the file "tpl/README.md" with content:
+      """
+      A template with no licence.
+      """
+    When I run "dex candidate from-template tpl --name no-licence --description 'A template that has no licence file and so cannot be shared at all.' --out cand/no-licence"
+    Then the exit code is 2
+    And the output contains "no licence"
+    And the file "cand/no-licence/SKILL.md" does not exist

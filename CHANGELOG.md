@@ -11,6 +11,14 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ## [Unreleased]
 
+### Added
+
+- **`dex candidate from-template`:** wraps a reviewed project template as a skill candidate. Every file is pinned by
+  sha256 with a timestamp-free tree digest, the version and licence are recorded, placeholders and the template's own
+  checks are listed, and secret-shaped text or a missing or disallowed licence refuses it before anything is written.
+  It publishes nothing: the candidate fails `dex candidate check` until its checks are run and recorded, and needs a
+  review like any other.
+
 ---
 
 ## [0.3.11] — 2026-11-05

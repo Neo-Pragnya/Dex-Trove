@@ -191,6 +191,8 @@ replacements, each with its origin and evidence.
 ## `dex candidate`
 
 ```text
+dex candidate from-template TEMPLATE --name NAME --description TEXT [--version X.Y.Z] [--license SPDX]
+                             [--source-url URL] [--out DIR] [--json]
 dex candidate check PATH [--visibility public|internal] [--json]
 dex candidate review PATH --approve|--reject --reviewer NAME --reason TEXT
 dex candidate publish PATH --to SOURCE_ID [--visibility public|internal]
@@ -199,6 +201,13 @@ dex candidate publish PATH --to SOURCE_ID [--visibility public|internal]
 The [reviewed candidate gate](../concepts/provenance-and-versioning.md#reviewed-candidates-how-new-memory-gets-in).
 `check` exits `1` when a gate fails. `publish` exits `1` and lists every failed gate. On success it copies the
 skill into the source's local folder; run `dex learn SOURCE_ID` to release it.
+
+`from-template` wraps a reviewed project template as a candidate: the files go under `template/`, `SKILL.md` says how
+to use it (placeholders and checks found in it), and `provenance.json` records the version, licence and each file's
+sha256 with a tree digest that has no timestamps. It refuses a template with no allowed licence or with secret-shaped
+text, before writing anything, and skips version-control, build and environment folders. Its `evaluation.json`
+lists the template's own checks with `passed: null`, so the candidate fails `check` until they're run and recorded.
+Exit `2` with what to fix.
 
 ## `dex check-installs`
 
