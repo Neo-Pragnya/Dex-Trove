@@ -13,6 +13,22 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.16] — 2026-11-12
+
+### Added
+
+- **`dex lab`** (skill safety and effectiveness lab): an item's permissions with their lines (network, processes,
+  file writes, secrets, privilege, hooks, MCP servers, piped installers), its token cost, routing accuracy from your
+  cases, and regressions against an older copy; `--survey` for the whole catalog. Nothing in the item runs.
+- **Seven first-party skills** that drive Ananke Plexus and Dex: `evidence-first-adr`, `test-gap-synthesis`,
+  `review-to-fix-loop`, `context-budget-observatory`, `api-contract-review`, `prd-to-bmad` and `skill-safety-lab`
+  (trove 1,735 items).
+
+### Changed
+
+- pytest 9.2 with pytest-bdd 9.0.1; Dependabot no longer holds pytest back. TypeScript 7 stays held: `@astrojs/check`
+  still needs TypeScript 5 or 6.
+
 ## [0.3.15] — 2026-11-11
 
 ### Fixed

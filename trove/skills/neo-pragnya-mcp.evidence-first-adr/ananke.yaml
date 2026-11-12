@@ -1,0 +1,34 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: evidence-first-adr
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:evidence-first-adr
+summary: 'Write an architecture decision record whose options carry measured evidence instead of adjectives: code
+  and tests each option reaches, hotspots it touches, new dependencies and their known vulnerabili…'
+description: 'Write an architecture decision record whose options carry measured evidence instead of adjectives:
+  code and tests each option reaches, hotspots it touches, new dependencies and their known vulnerabilities, and
+  the team''s own estimates labelled as assumptions, ranked by stated weights with the decision left to people.
+  Use for ADRs, architecture decisions, comparing design options, trade-off analysis or ''which approach should
+  we take'', even if they don''t say ADR.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.evidence-first-adr
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

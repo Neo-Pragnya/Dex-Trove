@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/test-gap-synthesis",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "test-gap-synthesis",
+  "title": "Test gap synthesis",
+  "description": "Find the tests a codebase is missing and write skeletons for them from evidence: partly taken branches in a coverage report, failing cases in JUnit XML and API operations whose handlers changed, each test citing the line it answers and failing until it's written. Use for test gaps, missing tests, improving coverage, branch coverage, regression tests after a failure or contract tests for changed endpoints.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.test-gap-synthesis",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+    "path": "skills/test-gap-synthesis",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.test-gap-synthesis",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "17f761bfd3ee5434d6eeaca7600c5675a77becaa9f7f9365aa00e85cd03247db",
+  "content_hash": "ed3c04253d42687ffbef9b80fabdca1832f78b0f04c9e92c12ce6907b132d204",
+  "learned_at": "2026-11-12T03:25:12+00:00"
+}

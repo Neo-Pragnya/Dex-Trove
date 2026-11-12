@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/evidence-first-adr",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "evidence-first-adr",
+  "title": "Evidence-first architecture decisions",
+  "description": "Write an architecture decision record whose options carry measured evidence instead of adjectives: code and tests each option reaches, hotspots it touches, new dependencies and their known vulnerabilities, and the team's own estimates labelled as assumptions, ranked by stated weights with the decision left to people. Use for ADRs, architecture decisions, comparing design options, trade-off analysis or 'which approach should we take', even if they don't say ADR.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.evidence-first-adr",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+    "path": "skills/evidence-first-adr",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.evidence-first-adr",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "08ab8a5b7d97df968a0810d871819472c148e0deab6a23a18bdc97e753eee04d",
+  "content_hash": "8ceacc1f30eccda93c5227230ce20f13de69c25c396f1c191a525fb70a36f813",
+  "learned_at": "2026-11-12T03:25:12+00:00"
+}

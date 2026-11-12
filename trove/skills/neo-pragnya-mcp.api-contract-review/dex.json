@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/api-contract-review",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "api-contract-review",
+  "title": "API contract review",
+  "description": "Review an API's real contract from its code and OpenAPI files: auth, request and response shapes per operation with the file and line for each, a BMAD model contract, and findings such as missing error responses, auth with no 401/403, untested auth and code disagreeing with the spec. Use for API reviews, endpoint inventories, OpenAPI drift, auth coverage, contract tests or documenting an existing API.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.api-contract-review",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+    "path": "skills/api-contract-review",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.api-contract-review",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "632ed1833c64a12b5f322b045e40762cad5435d6750f49d740f2473be4a66e9c",
+  "content_hash": "070100c0aae259de4e73a5b72ae679fc8f4c9daf78adcfa536ed5d0e34477617",
+  "learned_at": "2026-11-12T03:25:12+00:00"
+}
