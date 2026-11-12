@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/review-to-fix-loop",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "review-to-fix-loop",
+  "title": "Review-to-fix loop",
+  "description": "Take a proposed patch from review to a pull request safely: apply it in a throwaway git worktree, run the tests it reaches, measure the risk delta (graph relationships, contract findings, complexity), approve the exact result by its digest, then commit to a new branch and open the PR with evidence. Use for applying a suggested fix, verifying a patch from review or an assistant, 'is this change safe', or turning a diff into a PR.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.review-to-fix-loop",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "146a664bdf5f3ad98637af5c52b003e4e8b73113",
+    "path": "skills/review-to-fix-loop",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.review-to-fix-loop",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "3ce6b0fe52206507c39dae7c0b109116c11a2e81e26617322eb8ae06d21249e8",
+  "content_hash": "b003c7ae17085c8528f52bc24bb505e3cfad6027a30c224e754b3b1a0d6a33fc",
+  "learned_at": "2026-11-12T03:25:12+00:00"
+}

@@ -25,6 +25,17 @@ The [`neo-pragnya-mcp`](mcp-servers.md) namespace adds a skill, an agent and a p
 servers (Jenkins, Kibana, GitHub pull requests, SAS, onboarding from exports, a browser lab and usage analytics).
 They live in this repository under `first-party/`, in the awesome-copilot layout, so CI can re-learn them.
 
+The same namespace holds skills that drive Ananke Plexus and Dex for work that needs evidence:
+
+| Skill | What it does |
+| --- | --- |
+| `evidence-first-adr` | An ADR whose options carry measured reach, hotspots, dependencies and labelled assumptions (`ananke arch decide`) |
+| `test-gap-synthesis` | Test skeletons from missing branches, failing tests and changed contracts, each failing until written (`ananke triage test-gaps`) |
+| `review-to-fix-loop` | A patch applied and tested in a throwaway worktree, approved by digest, committed to a branch and raised as a PR (`ananke triage patch` with the `github` MCP server) |
+| `context-budget-observatory` | Recall and token cost of code context at several budgets, the knee, and regressions between runs (`ananke context observe`) |
+| `api-contract-review` | Auth, request and response shapes per API operation with their source, as a BMAD model contract, and the gaps (`ananke triage api-contract`) |
+| `prd-to-bmad` | An approved PRD mapped to features, acceptance ids and tests, then compiled to BMAD contracts (`ananke spec map`, `ananke spec compile`) |
+
 **Not every planned capability is a new skill.** Dex reuses existing items first, so a capability may be served by
 community items, or be built into Dex or Ananke. The [capability matrix](../reference/capability-matrix.md) shows, for
 each one, what exists today and what's missing.

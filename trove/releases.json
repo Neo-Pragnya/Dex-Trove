@@ -32479,6 +32479,25 @@
         }
       ]
     },
+    "skill:neo-pragnya-mcp/api-contract-review": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "070100c0aae259de4e73a5b72ae679fc8f4c9daf78adcfa536ed5d0e34477617",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+            "path": "skills/api-contract-review"
+          },
+          "released_at": "2026-11-12T03:25:12+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:neo-pragnya-mcp/assistant-usage-analytics": {
       "releases": [
         {
@@ -32528,6 +32547,44 @@
             "path": "skills/browser-debugging-lab"
           },
           "released_at": "2026-11-11T15:20:53+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/context-budget-observatory": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "7a5dd4f3db66619dfcb55174a89edb8edab1175db147e638e7d0d96080da2c23",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+            "path": "skills/context-budget-observatory"
+          },
+          "released_at": "2026-11-12T03:25:12+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/evidence-first-adr": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "8ceacc1f30eccda93c5227230ce20f13de69c25c396f1c191a525fb70a36f813",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+            "path": "skills/evidence-first-adr"
+          },
+          "released_at": "2026-11-12T03:25:12+00:00",
           "channel": "stable"
         }
       ]
@@ -32608,6 +32665,44 @@
         }
       ]
     },
+    "skill:neo-pragnya-mcp/prd-to-bmad": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "38e4bf2bec8cc000b76aa5a3d24a7784f021e4ea430fb98e3919832e6a9c6b96",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+            "path": "skills/prd-to-bmad"
+          },
+          "released_at": "2026-11-12T03:25:12+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/review-to-fix-loop": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "b003c7ae17085c8528f52bc24bb505e3cfad6027a30c224e754b3b1a0d6a33fc",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+            "path": "skills/review-to-fix-loop"
+          },
+          "released_at": "2026-11-12T03:25:12+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
     "skill:neo-pragnya-mcp/sas-to-python": {
       "releases": [
         {
@@ -32623,6 +32718,45 @@
             "path": "skills/sas-to-python"
           },
           "released_at": "2026-11-11T14:58:18+00:00",
+          "channel": "stable"
+        }
+      ]
+    },
+    "skill:neo-pragnya-mcp/skill-safety-lab": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "2625d6d39833bce9b77d93e278254e4f5c17615070f127503e9ba8b9be48e679",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+            "path": "skills/skill-safety-lab"
+          },
+          "released_at": "2026-11-12T03:25:12+00:00",
+          "channel": "stable"
+        }
+      ],
+      "removed": true
+    },
+    "skill:neo-pragnya-mcp/test-gap-synthesis": {
+      "releases": [
+        {
+          "version": "1.0.0",
+          "content_hash": "ed3c04253d42687ffbef9b80fabdca1832f78b0f04c9e92c12ce6907b132d204",
+          "entry": "SKILL.md",
+          "files": [
+            "SKILL.md"
+          ],
+          "source": {
+            "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+            "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+            "path": "skills/test-gap-synthesis"
+          },
+          "released_at": "2026-11-12T03:25:12+00:00",
           "channel": "stable"
         }
       ]

@@ -1,0 +1,33 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: test-gap-synthesis
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:test-gap-synthesis
+summary: 'Find the tests a codebase is missing and write skeletons for them from evidence: partly taken branches
+  in a coverage report, failing cases in JUnit XML and API operations whose handlers changed, each…'
+description: 'Find the tests a codebase is missing and write skeletons for them from evidence: partly taken branches
+  in a coverage report, failing cases in JUnit XML and API operations whose handlers changed, each test citing the
+  line it answers and failing until it''s written. Use for test gaps, missing tests, improving coverage, branch
+  coverage, regression tests after a failure or contract tests for changed endpoints.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.test-gap-synthesis
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

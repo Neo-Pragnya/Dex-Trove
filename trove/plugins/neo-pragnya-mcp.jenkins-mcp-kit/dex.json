@@ -21,7 +21,7 @@
     "id": "neo-pragnya-mcp",
     "title": "Neo Pragnya MCP toolkits (first-party)",
     "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-    "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+    "commit": "146a664bdf5f3ad98637af5c52b003e4e8b73113",
     "path": "plugins/jenkins-mcp-kit",
     "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.jenkins-mcp-kit",
     "author": "Neo Pragnya"

@@ -13,6 +13,18 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.16] — 2026-11-12
+
+### Added
+
+- **Six first-party skills** that drive Ananke Plexus: `evidence-first-adr`, `test-gap-synthesis`,
+  `review-to-fix-loop`, `context-budget-observatory`, `api-contract-review` and `prd-to-bmad` (trove 1,734 items).
+
+### Changed
+
+- pytest 9.2 with pytest-bdd 9.0.1; Dependabot no longer holds pytest back. TypeScript 7 stays held: `@astrojs/check`
+  still needs TypeScript 5 or 6.
+
 ## [0.3.15] — 2026-11-11
 
 ### Fixed

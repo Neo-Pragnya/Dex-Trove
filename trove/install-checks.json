@@ -1,12 +1,12 @@
 {
- "generator": "dex-trove 0.3.12",
+ "generator": "dex-trove 0.3.16",
  "summary": {
   "claude": {
-   "pass": 1522,
+   "pass": 1528,
    "fail": 2
   },
   "copilot": {
-   "pass": 1719,
+   "pass": 1725,
    "fail": 9
   }
  },
@@ -5879,11 +5879,23 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:neo-pragnya-mcp/api-contract-review": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:neo-pragnya-mcp/assistant-usage-analytics": {
    "claude": "pass",
    "copilot": "pass"
   },
   "skill:neo-pragnya-mcp/browser-debugging-lab": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/context-budget-observatory": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/evidence-first-adr": {
    "claude": "pass",
    "copilot": "pass"
   },
@@ -5903,7 +5915,19 @@
    "claude": "pass",
    "copilot": "pass"
   },
+  "skill:neo-pragnya-mcp/prd-to-bmad": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/review-to-fix-loop": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
   "skill:neo-pragnya-mcp/sas-to-python": {
+   "claude": "pass",
+   "copilot": "pass"
+  },
+  "skill:neo-pragnya-mcp/test-gap-synthesis": {
    "claude": "pass",
    "copilot": "pass"
   },

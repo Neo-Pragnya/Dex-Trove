@@ -1,0 +1,34 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: review-to-fix-loop
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:review-to-fix-loop
+summary: 'Take a proposed patch from review to a pull request safely: apply it in a throwaway git worktree, run
+  the tests it reaches, measure the risk delta (graph relationships, contract findings, complexity),…'
+description: 'Take a proposed patch from review to a pull request safely: apply it in a throwaway git worktree,
+  run the tests it reaches, measure the risk delta (graph relationships, contract findings, complexity), approve
+  the exact result by its digest, then commit to a new branch and open the PR with evidence. Use for applying a
+  suggested fix, verifying a patch from review or an assistant, ''is this change safe'', or turning a diff into
+  a PR.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.review-to-fix-loop
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

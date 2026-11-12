@@ -42,7 +42,7 @@ dev = [
   "mypy>=1.15",
   "types-PyYAML>=6",
   "hatchling>=1.26",  # importable so the trove-bundling build hook is testable
-  "pytest-bdd>=8",  # acceptance/ scenarios
+  "pytest-bdd>=9.0.1",  # acceptance/ scenarios; 9.0.1 is the first to work with pytest 9.2
   "pytest-xdist>=3",
 ]
 

@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/prd-to-bmad",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "prd-to-bmad",
+  "title": "From an approved PRD to BMAD contracts",
+  "description": "Turn an approved PRD into traceable contracts before building: map every requirement to features, acceptance ids and tests, refuse a PRD that isn't approved or consistent, then compile BMAD behaviour, model and architecture contracts per requirement linked to the PRD revision. Use for spec-driven development, PRD to tasks, acceptance criteria traceability, BMAD contracts or 'are these requirements ready to build'.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.prd-to-bmad",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "146a664bdf5f3ad98637af5c52b003e4e8b73113",
+    "path": "skills/prd-to-bmad",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.prd-to-bmad",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "203128840e023d32ad4a0ada9f7fc5db194ca78c0fc0d2858128cc7ebfb35e2c",
+  "content_hash": "38e4bf2bec8cc000b76aa5a3d24a7784f021e4ea430fb98e3919832e6a9c6b96",
+  "learned_at": "2026-11-12T03:25:12+00:00"
+}
