@@ -32739,7 +32739,8 @@
           "released_at": "2026-11-12T03:25:12+00:00",
           "channel": "stable"
         }
-      ]
+      ],
+      "removed": true
     },
     "skill:neo-pragnya-mcp/test-gap-synthesis": {
       "releases": [

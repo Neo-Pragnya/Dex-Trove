@@ -119,7 +119,6 @@ export const DOC_NAV: { section: string; items: string[]; shapes: string; tint: 
       "guides/adding-a-source",
       "guides/first-party-skills",
       "guides/mcp-servers",
-      "guides/skill-lab",
       "guides/docs-site",
       "guides/release",
       "guides/security-findings",

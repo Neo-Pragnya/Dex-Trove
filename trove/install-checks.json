@@ -1,12 +1,12 @@
 {
- "generator": "dex-trove 0.3.15",
+ "generator": "dex-trove 0.3.16",
  "summary": {
   "claude": {
-   "pass": 1529,
+   "pass": 1528,
    "fail": 2
   },
   "copilot": {
-   "pass": 1726,
+   "pass": 1725,
    "fail": 9
   }
  },
@@ -5924,10 +5924,6 @@
    "copilot": "pass"
   },
   "skill:neo-pragnya-mcp/sas-to-python": {
-   "claude": "pass",
-   "copilot": "pass"
-  },
-  "skill:neo-pragnya-mcp/skill-safety-lab": {
    "claude": "pass",
    "copilot": "pass"
   },

@@ -18,7 +18,7 @@ What is it? One value per item. Set from the catalog.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `skill` | 914 | A reusable procedure or body of know-how an agent loads on demand for one kind of task. | — |
+| `skill` | 913 | A reusable procedure or body of know-how an agent loads on demand for one kind of task. | — |
 | `agent` | 529 | A persona with its own objective and tool scope that a host can delegate work to. | — |
 | `instruction` | 189 | Persistent guidance (style, rules, conventions) applied broadly, often scoped to file globs. | — |
 | `prompt` | 9 | A reusable invocation: a slash command or prompt file run on request. | — |
@@ -45,13 +45,13 @@ What job does it do? Any number of values.
 | `generate-api-tests` | 3 | Create tests that exercise an API's contract and failure modes. | `api-tests`, `api-testing`, `contract-tests` |
 | `debug` | 110 | Find and fix the root cause of a failure. | `debugging`, `troubleshoot`, `root-cause` |
 | `debug-ci` | 17 | Diagnose failing builds, pipelines and deployments. | `ci-triage`, `pipeline-failure-analysis`, `jenkins-triage` |
-| `security-review` | 103 | Find vulnerabilities, threats and unsafe patterns, and propose mitigations. | `security-audit`, `threat-model`, `appsec` |
+| `security-review` | 102 | Find vulnerabilities, threats and unsafe patterns, and propose mitigations. | `security-audit`, `threat-model`, `appsec` |
 | `optimise-performance` | 218 | Measure and improve speed, memory or cost. | `performance`, `optimization`, `optimisation` |
 | `write-docs` | 51 | Produce READMEs, guides, API references or other written documentation. | `documentation`, `docs`, `technical-writing` |
 | `visualize` | 50 | Draw diagrams, graphs or visual explanations of a system. | `diagram`, `diagrams`, `visualise`, `visualize-graph` |
 | `design-ui` | 66 | Design layouts, visual style, interaction and front-end look and feel. | `ui-design`, `ux`, `frontend-design` |
 | `audit-accessibility` | 33 | Check and improve accessibility against WCAG and assistive technology. | `accessibility`, `a11y`, `wcag` |
-| `deploy` | 153 | Ship software: build, package, release and deploy. | `release`, `deployment`, `publish`, `ci-cd` |
+| `deploy` | 152 | Ship software: build, package, release and deploy. | `release`, `deployment`, `publish`, `ci-cd` |
 | `provision-infrastructure` | 97 | Define and manage cloud or on-prem infrastructure, usually as code. | `iac`, `infrastructure-as-code`, `cloud` |
 | `operate` | 116 | Monitor, trace and respond to incidents in running systems. | `observability`, `monitoring`, `incident-response` |
 | `analyse-data` | 69 | Explore, query and explain data sets. | `data-analysis`, `analytics`, `sql-queries` |
@@ -91,8 +91,8 @@ Where in the lifecycle is it useful? Any number of values.
 | `design` | 275 | Architecture, API and UI design decisions. | `architecture` |
 | `implementation` | 394 | Writing and changing code. | `build`, `coding`, `development` |
 | `testing` | 184 | Authoring and running tests. | `qa`, `test` |
-| `verification` | 275 | Reviewing and proving correctness before release. | `review`, `quality` |
-| `deployment` | 167 | Releasing and shipping. | `release`, `delivery` |
+| `verification` | 274 | Reviewing and proving correctness before release. | `review`, `quality` |
+| `deployment` | 166 | Releasing and shipping. | `release`, `delivery` |
 | `operations` | 147 | Running, monitoring and supporting software in production. | `ops`, `production` |
 | `retrospective` | 8 | Looking back: lessons, knowledge capture, improvement. | `retro`, `reflection` |
 
@@ -106,13 +106,13 @@ Who typically uses it? Any number of values.
 | `architect` | 167 | Owns structure, boundaries and technical direction. | `solution-architect`, `software-architect` |
 | `developer` | 505 | Writes and changes code. | `engineer`, `software-engineer`, `programmer` |
 | `qa-engineer` | 188 | Plans and performs testing and quality assurance. | `test-engineer`, `quality-engineer`, `tester` |
-| `security-engineer` | 104 | Finds and fixes security risk. | `appsec`, `security` |
+| `security-engineer` | 103 | Finds and fixes security risk. | `appsec`, `security` |
 | `devops-engineer` | 218 | Runs pipelines, infrastructure and production systems. | `sre`, `platform-engineer`, `ops` |
 | `data-scientist` | 72 | Builds analyses, models and ML or LLM systems. | `ml-engineer`, `data-analyst` |
 | `data-engineer` | 9 | Builds data pipelines and stores. | — |
 | `designer` | 68 | Shapes user experience and visual design. | `ux-designer`, `ui-designer` |
 | `technical-writer` | 46 | Writes documentation and guides. | `writer`, `docs-author` |
-| `reviewer` | 140 | Reviews others' changes. | `code-reviewer` |
+| `reviewer` | 139 | Reviews others' changes. | `code-reviewer` |
 | `release-manager` | 9 | Coordinates releases and their gates. | — |
 | `learner` | 45 | Someone learning a technology or practice. | `student`, `educator`, `mentor` |
 
@@ -128,8 +128,8 @@ Which area of a system does it concern? Any number of values.
 | `mobile` | 31 | iOS, Android and cross-platform apps. | `ios`, `android` |
 | `infrastructure` | 338 | Cloud resources, networks, containers and IaC. | `cloud`, `iac` |
 | `data` | 99 | Databases, data pipelines and analytics. | `database`, `data-engineering` |
-| `ml-ai` | 197 | Machine learning, LLMs, agents and AI systems. | `ai`, `ml`, `llm` |
-| `security` | 139 | Application, supply-chain and infrastructure security. | `appsec` |
+| `ml-ai` | 196 | Machine learning, LLMs, agents and AI systems. | `ai`, `ml`, `llm` |
+| `security` | 138 | Application, supply-chain and infrastructure security. | `appsec` |
 | `observability` | 66 | Logs, metrics, traces and monitoring. | `monitoring` |
 | `documentation` | 51 | Docs sites, READMEs and written knowledge. | `docs` |
 | `developer-tooling` | 114 | Editors, CLIs, build tools, Git and the agent harness itself. | `devtools`, `tooling` |
@@ -179,7 +179,7 @@ Which technology does it target? Any number of values.
 | `github-actions` | 16 | GitHub Actions workflows. | — |
 | `azure` | 229 | Microsoft Azure services. | — |
 | `aws` | 25 | Amazon Web Services. | `amazon-web-services` |
-| `mcp` | 141 | Model Context Protocol servers and clients. | `model-context-protocol` |
+| `mcp` | 140 | Model Context Protocol servers and clients. | `model-context-protocol` |
 | `dbt` | 1 | dbt. | — |
 | `pyspark` | 6 | Apache Spark and PySpark. | `spark` |
 
@@ -189,9 +189,9 @@ Where can Dex install it natively? Any number of values. Set from where `dex ins
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `claude-code` | 1531 | Installs into .claude/ (skills, agents, commands). | — |
-| `github-copilot` | 1735 | Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows). | — |
-| `ananke` | 1735 | Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke). | — |
+| `claude-code` | 1530 | Installs into .claude/ (skills, agents, commands). | — |
+| `github-copilot` | 1734 | Installs into .github/ (skills, agents, instructions, prompts, hooks, workflows). | — |
+| `ananke` | 1734 | Registers in an Ananke registry (dex ananke sync, or [troves] in Ananke). | — |
 
 ## Needs (`needs`)
 
@@ -199,7 +199,7 @@ What must be installed for it to run? Any number of values.
 
 | Value | Items | Definition | Aliases |
 | --- | --- | --- | --- |
-| `text-only` | 1499 | Only Markdown and data: the agent reads it; nothing runs. | — |
+| `text-only` | 1498 | Only Markdown and data: the agent reads it; nothing runs. | — |
 | `python` | 186 | Bundles Python scripts or a Python project file. | — |
 | `node` | 28 | Bundles JavaScript or TypeScript, or a package.json. | — |
 | `shell` | 29 | Bundles sh, bash or zsh scripts. | — |
@@ -217,4 +217,4 @@ How established is it? One value per item.
 | `beta` | 4 | Usable; may still change. | — |
 | `experimental` | 0 | Early; expect gaps. | — |
 | `deprecated` | 0 | Kept for existing users; prefer its replacement. | — |
-| `unknown` | 1724 | The source doesn't say. Most upstream items. | — |
+| `unknown` | 1723 | The source doesn't say. Most upstream items. | — |

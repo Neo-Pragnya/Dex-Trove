@@ -16576,12 +16576,6 @@
         "target": "skill:awesome-copilot/ai-prompt-engineering-safety-review",
         "origin": "inferred",
         "evidence": "shares name words: safety"
-      },
-      {
-        "type": "similar",
-        "target": "skill:neo-pragnya-mcp/skill-safety-lab",
-        "origin": "inferred",
-        "evidence": "shares name words: safety"
       }
     ],
     "instruction:awesome-copilot/agent-skills": [
@@ -48098,26 +48092,6 @@
         "target": "agent:wshobson/temporal-python-pro",
         "origin": "inferred",
         "evidence": "shares name words: python"
-      }
-    ],
-    "skill:neo-pragnya-mcp/skill-safety-lab": [
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/agent-safety",
-        "origin": "inferred",
-        "evidence": "shares name words: safety"
-      },
-      {
-        "type": "similar",
-        "target": "instruction:awesome-copilot/ai-prompt-engineering-safety-best-practices",
-        "origin": "inferred",
-        "evidence": "shares name words: safety"
-      },
-      {
-        "type": "similar",
-        "target": "skill:awesome-copilot/ai-prompt-engineering-safety-review",
-        "origin": "inferred",
-        "evidence": "shares name words: safety"
       }
     ],
     "skill:neo-pragnya-mcp/test-gap-synthesis": [

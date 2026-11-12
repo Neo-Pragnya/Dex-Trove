@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0.0",
  "taxonomy_version": "1.1.0",
- "count": 1735,
+ "count": 1734,
  "items": {
   "agent:awesome-copilot/accessibility": {
    "schema_version": "1.0.0",
@@ -150698,132 +150698,6 @@
       ],
       "sql": [
        "description: 'SQL'"
-      ]
-     }
-    },
-    "framework": {
-     "source": "rules",
-     "evidence": {
-      "mcp": [
-       "description: 'MCP'"
-      ]
-     }
-    },
-    "needs": {
-     "source": "derived",
-     "evidence": {
-      "text-only": [
-       "no runnable files"
-      ]
-     }
-    },
-    "kind": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "kind"
-      ]
-     }
-    },
-    "platform": {
-     "source": "derived",
-     "evidence": {
-      "catalog": [
-       "install layout"
-      ]
-     }
-    },
-    "maturity": {
-     "source": "derived",
-     "evidence": {
-      "unknown": [
-       "no maturity metadata"
-      ]
-     }
-    }
-   }
-  },
-  "skill:neo-pragnya-mcp/skill-safety-lab": {
-   "schema_version": "1.0.0",
-   "artifact_ref": "neo-pragnya-mcp/skill-safety-lab@1.0.0",
-   "taxonomy_version": "1.1.0",
-   "facets": {
-    "kind": "skill",
-    "task": [
-     "deploy",
-     "security-review"
-    ],
-    "phase": [
-     "deployment",
-     "verification"
-    ],
-    "role": [
-     "reviewer",
-     "security-engineer"
-    ],
-    "domain": [
-     "ml-ai",
-     "security"
-    ],
-    "framework": [
-     "mcp"
-    ],
-    "platform": [
-     "ananke",
-     "claude-code",
-     "github-copilot"
-    ],
-    "needs": [
-     "text-only"
-    ],
-    "maturity": "unknown"
-   },
-   "classification": {
-    "source": "rules",
-    "review_status": "review-pending"
-   },
-   "provenance": {
-    "task": {
-     "source": "rules",
-     "evidence": {
-      "deploy": [
-       "description: 'publishing to '"
-      ],
-      "security-review": [
-       "description: 'security'"
-      ]
-     }
-    },
-    "phase": {
-     "source": "rules",
-     "evidence": {
-      "deployment": [
-       "description: 'publish'"
-      ],
-      "verification": [
-       "description: 'review'"
-      ]
-     }
-    },
-    "role": {
-     "source": "rules",
-     "evidence": {
-      "reviewer": [
-       "description: 'review'"
-      ],
-      "security-engineer": [
-       "description: 'security'"
-      ]
-     }
-    },
-    "domain": {
-     "source": "rules",
-     "evidence": {
-      "ml-ai": [
-       "description: 'MCP servers'"
-      ],
-      "security": [
-       "description: 'security'"
       ]
      }
     },

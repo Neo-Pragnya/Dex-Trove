@@ -17,12 +17,8 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ### Added
 
-- **`dex lab`** (skill safety and effectiveness lab): an item's permissions with their lines (network, processes,
-  file writes, secrets, privilege, hooks, MCP servers, piped installers), its token cost, routing accuracy from your
-  cases, and regressions against an older copy; `--survey` for the whole catalog. Nothing in the item runs.
-- **Seven first-party skills** that drive Ananke Plexus and Dex: `evidence-first-adr`, `test-gap-synthesis`,
-  `review-to-fix-loop`, `context-budget-observatory`, `api-contract-review`, `prd-to-bmad` and `skill-safety-lab`
-  (trove 1,735 items).
+- **Six first-party skills** that drive Ananke Plexus: `evidence-first-adr`, `test-gap-synthesis`,
+  `review-to-fix-loop`, `context-budget-observatory`, `api-contract-review` and `prd-to-bmad` (trove 1,734 items).
 
 ### Changed
 
