@@ -188,7 +188,7 @@ def install_one(
         if lic is not None:
             shutil.copyfile(lic, dest.with_name(dest.name + ".LICENSE"))
     manifest.record(dest, item["id"])
-    return [Installed(item["id"], kind, dest, notes=notes)]
+    return [Installed(item["id"], kind, dest, notes=[f"adapted: {n}" for n in notes])]
 
 
 def _mcp_servers(path: Path) -> dict[str, dict[str, Any]]:

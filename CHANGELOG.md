@@ -13,6 +13,14 @@ per-item history is `trove/releases.json` (`dex release list <item>`).
 
 ---
 
+## [0.3.15] — 2026-11-11
+
+### Fixed
+
+- `dex install` labelled every note "adapted:", so registering a kit's MCP server read as
+  "adapted: registered dex-sas". Only agent adaptations carry that label now.
+- The test suite runs with a throwaway home folder, so no test can install into the real `~/.claude`.
+
 ## [0.3.14] — 2026-11-11
 
 ### Added

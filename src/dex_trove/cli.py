@@ -390,7 +390,7 @@ def install(
         if d.dest:
             console.print(f"[green]✓[/green] {d.kind}:{d.id} → {d.dest}")
             for note in d.notes:
-                console.print(f"    [dim]adapted: {note}[/dim]")
+                console.print(f"    [dim]{note}[/dim]")
         else:
             console.print(f"[yellow]–[/yellow] {d.kind}:{d.id}: {d.skipped}")
     if not any(d.dest for d in done):
