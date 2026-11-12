@@ -275,6 +275,18 @@ dex facets doc                       # regenerate docs/reference/taxonomy.md (ch
 The taxonomy is versioned data in `src/dex_trove/taxonomy/` (`ontology.yaml`, plus reviewed `curation.yaml`). See
 [Finding capabilities](../guides/finding-capabilities.md) and the [taxonomy reference](taxonomy.md).
 
+## `dex lab`
+
+Before installing or publishing an item ([guide](../guides/skill-lab.md)):
+
+```text
+dex lab REF [--cases FILE] [--against DIR] [--json]   # permissions with their lines, token cost, routing accuracy, regressions
+dex lab --survey [--json]                             # every item's verdict, permissions and always-loaded cost
+```
+
+The verdict is `block` (a script pipes a download into a shell, or a credential is embedded; exit 1), `review` or
+`publishable`. Nothing in the item runs.
+
 ## `dex mcp`
 
 Local MCP servers (see [the guide](../guides/mcp-servers.md)).

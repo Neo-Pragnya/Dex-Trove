@@ -1104,6 +1104,54 @@ def docs_reuse() -> None:
     console.print(str(target))
 
 
+@app.command("lab")
+def lab_cmd(
+    ref: Annotated[str | None, typer.Argument(help="An item (kind:namespace/name or namespace/name)")] = None,
+    cases: Annotated[
+        Path | None, typer.Option("--cases", help='Prompts: [{"prompt": ..., "expect": true|false}]')
+    ] = None,
+    against: Annotated[
+        Path | None, typer.Option("--against", help="An older copy of the item, to compare")
+    ] = None,
+    survey: Annotated[bool, typer.Option("--survey", help="Every item's permissions and cost")] = False,
+    as_json: Annotated[bool, typer.Option("--json", help="Machine-readable report")] = False,
+) -> None:
+    """Before publishing: what an item can do (network, processes, files, secrets, hooks, MCP servers), what it
+    costs in tokens, whether search finds it for its cases, and what changed since an older copy. Runs nothing."""
+    from dex_trove import lab
+
+    items = catalog.load()
+    if survey:
+        report = lab.survey(items, trove_root())
+        if as_json:
+            print(json.dumps(report, indent=2))
+            return
+        console.print(f"{report['items']} items: {report['verdicts']}")
+        console.print(f"items with each permission: {report['items_with_permission']}")
+        console.print(f"always-loaded tokens: {report['always_loaded_tokens']}")
+        for row in report["blocked"]:
+            console.print(f"[red]block[/red] {row['item']}: {'; '.join(row['reasons'])}")
+        return
+    if ref is None:
+        err.print("[red]name an item, or pass --survey[/red]")
+        raise typer.Exit(2)
+    try:
+        item = catalog.resolve(items, ref)
+        report = lab.assess(
+            item, items, catalog.item_path(item, trove_root()),
+            cases=lab.load_cases(cases) if cases else None, against=against,
+        )  # fmt: skip
+    except (catalog.RefError, ValueError) as exc:
+        err.print(f"[red]{exc}[/red]")
+        raise typer.Exit(2) from exc
+    if as_json:
+        print(json.dumps(report, indent=2))
+    else:
+        print(lab.to_markdown(report))
+    if report["verdict"] == "block":
+        raise typer.Exit(1)
+
+
 @app.command("capabilities")
 def capabilities_cmd(
     capability: Annotated[str | None, typer.Argument(help="One capability id, e.g. code-review")] = None,

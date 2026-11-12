@@ -88,12 +88,12 @@
     "neo-pragnya-mcp": {
       "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
       "ref": "HEAD",
-      "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
-      "learned_at": "2026-11-11T14:59:35+00:00",
+      "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+      "learned_at": "2026-11-12T03:26:50+00:00",
       "items": {
         "agent": 7,
         "plugin": 7,
-        "skill": 7
+        "skill": 14
       },
       "excluded": 0
     },

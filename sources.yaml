@@ -65,8 +65,10 @@ sources:
     description: >-
       Skills, agents and plugins for the local MCP servers that ship inside the dex-trove package (dex mcp serve
       NAME): Jenkins builds after a PR, Kibana dashboards, pull requests with evidence, SAS to Python, onboarding
-      from document exports, a Playwright debugging lab and assistant usage analytics. Approval-gated, offline-first,
-      standard library only. Kept in this repository under first-party/.
+      from document exports, a Playwright debugging lab and assistant usage analytics; and skills that drive Ananke
+      Plexus and Dex for evidence-first ADRs, test gaps, the review-to-fix loop, the context budget, API contracts,
+      PRD to BMAD contracts and the skill safety lab. Approval-gated, offline-first. Kept in this repository under
+      first-party/.
     adapter: awesome-copilot
     local: first-party
     homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

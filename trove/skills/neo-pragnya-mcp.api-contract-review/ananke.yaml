@@ -1,0 +1,33 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: api-contract-review
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:api-contract-review
+summary: 'Review an API''s real contract from its code and OpenAPI files: auth, request and response shapes per
+  operation with the file and line for each, a BMAD model contract, and findings such as missing erro…'
+description: 'Review an API''s real contract from its code and OpenAPI files: auth, request and response shapes
+  per operation with the file and line for each, a BMAD model contract, and findings such as missing error responses,
+  auth with no 401/403, untested auth and code disagreeing with the spec. Use for API reviews, endpoint inventories,
+  OpenAPI drift, auth coverage, contract tests or documenting an existing API.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.api-contract-review
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

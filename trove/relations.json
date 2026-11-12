@@ -7015,15 +7015,15 @@
       },
       {
         "type": "similar",
-        "target": "skill:neo-pragnya-mcp/github-pr-evidence",
+        "target": "skill:neo-pragnya-mcp/evidence-first-adr",
         "origin": "inferred",
-        "evidence": "shares name words: evidence, pr"
+        "evidence": "shares name words: evidence"
       },
       {
         "type": "similar",
-        "target": "skill:scientific/folklore-variant-evidence",
+        "target": "skill:neo-pragnya-mcp/github-pr-evidence",
         "origin": "inferred",
-        "evidence": "shares name words: evidence"
+        "evidence": "shares name words: evidence, pr"
       }
     ],
     "agent:neo-pragnya-mcp/sas-modernizer": [
@@ -9077,9 +9077,9 @@
       },
       {
         "type": "similar",
-        "target": "skill:scientific/scientific-critical-thinking",
+        "target": "skill:neo-pragnya-mcp/evidence-first-adr",
         "origin": "inferred",
-        "evidence": "shares name words: thinking"
+        "evidence": "shares name words: first"
       }
     ],
     "agent:voltagent/flutter-expert": [
@@ -16574,6 +16574,12 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/ai-prompt-engineering-safety-review",
+        "origin": "inferred",
+        "evidence": "shares name words: safety"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/skill-safety-lab",
         "origin": "inferred",
         "evidence": "shares name words: safety"
       }
@@ -30844,6 +30850,12 @@
       {
         "type": "similar",
         "target": "agent:voltagent/first-principles-thinking",
+        "origin": "inferred",
+        "evidence": "shares name words: first"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/evidence-first-adr",
         "origin": "inferred",
         "evidence": "shares name words: first"
       }
@@ -47674,6 +47686,44 @@
         "evidence": "shares name words: store"
       }
     ],
+    "skill:neo-pragnya-mcp/api-contract-review": [
+      {
+        "type": "similar",
+        "target": "agent:wshobson/architect-review",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/code-review-preshipment",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/review",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/review-policy-author",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/gilfoyle-code-review",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/ai-prompt-engineering-safety-review",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      }
+    ],
     "skill:neo-pragnya-mcp/assistant-usage-analytics": [
       {
         "type": "part-of",
@@ -47724,6 +47774,82 @@
         "target": "skill:superpowers/systematic-debugging",
         "origin": "inferred",
         "evidence": "shares name words: debugging"
+      }
+    ],
+    "skill:neo-pragnya-mcp/context-budget-observatory": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/context-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/context-manager",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/c4-context",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/context-manager",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/context-engineering",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      },
+      {
+        "type": "similar",
+        "target": "plugin:awesome-copilot/context-engineering",
+        "origin": "inferred",
+        "evidence": "shares name words: context"
+      }
+    ],
+    "skill:neo-pragnya-mcp/evidence-first-adr": [
+      {
+        "type": "similar",
+        "target": "agent:neo-pragnya-mcp/pr-evidence-publisher",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/first-principles-thinking",
+        "origin": "inferred",
+        "evidence": "shares name words: first"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/build-evidence-map",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/first-ask",
+        "origin": "inferred",
+        "evidence": "shares name words: first"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/github-pr-evidence",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      },
+      {
+        "type": "similar",
+        "target": "skill:scientific/folklore-variant-evidence",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
       }
     ],
     "skill:neo-pragnya-mcp/github-pr-evidence": [
@@ -47854,6 +47980,82 @@
         "evidence": "shares name words: from"
       }
     ],
+    "skill:neo-pragnya-mcp/prd-to-bmad": [
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-advanced-elicitation",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-analyst",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-architect",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-dev",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-pm",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      },
+      {
+        "type": "similar",
+        "target": "skill:bmad-method/bmad-agent-po",
+        "origin": "inferred",
+        "evidence": "shares name words: bmad"
+      }
+    ],
+    "skill:neo-pragnya-mcp/review-to-fix-loop": [
+      {
+        "type": "similar",
+        "target": "agent:wshobson/architect-review",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/code-review-preshipment",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/review",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/review-policy-author",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/gilfoyle-code-review",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/ai-prompt-engineering-safety-review",
+        "origin": "inferred",
+        "evidence": "shares name words: review"
+      }
+    ],
     "skill:neo-pragnya-mcp/sas-to-python": [
       {
         "type": "part-of",
@@ -47896,6 +48098,64 @@
         "target": "agent:wshobson/temporal-python-pro",
         "origin": "inferred",
         "evidence": "shares name words: python"
+      }
+    ],
+    "skill:neo-pragnya-mcp/skill-safety-lab": [
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/agent-safety",
+        "origin": "inferred",
+        "evidence": "shares name words: safety"
+      },
+      {
+        "type": "similar",
+        "target": "instruction:awesome-copilot/ai-prompt-engineering-safety-best-practices",
+        "origin": "inferred",
+        "evidence": "shares name words: safety"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/ai-prompt-engineering-safety-review",
+        "origin": "inferred",
+        "evidence": "shares name words: safety"
+      }
+    ],
+    "skill:neo-pragnya-mcp/test-gap-synthesis": [
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/react18-test-guardian",
+        "origin": "inferred",
+        "evidence": "shares name words: test"
+      },
+      {
+        "type": "similar",
+        "target": "agent:awesome-copilot/react19-test-guardian",
+        "origin": "inferred",
+        "evidence": "shares name words: test"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/ab-test-analysis",
+        "origin": "inferred",
+        "evidence": "shares name words: test"
+      },
+      {
+        "type": "similar",
+        "target": "agent:voltagent/test-automator",
+        "origin": "inferred",
+        "evidence": "shares name words: test"
+      },
+      {
+        "type": "similar",
+        "target": "agent:wshobson/test-automator",
+        "origin": "inferred",
+        "evidence": "shares name words: test"
+      },
+      {
+        "type": "similar",
+        "target": "skill:awesome-copilot/breakdown-test",
+        "origin": "inferred",
+        "evidence": "shares name words: test"
       }
     ],
     "skill:neo-pragnya/astro-docs-site": [
@@ -48834,6 +49094,12 @@
       {
         "type": "similar",
         "target": "skill:awesome-copilot/build-evidence-map",
+        "origin": "inferred",
+        "evidence": "shares name words: evidence"
+      },
+      {
+        "type": "similar",
+        "target": "skill:neo-pragnya-mcp/evidence-first-adr",
         "origin": "inferred",
         "evidence": "shares name words: evidence"
       },

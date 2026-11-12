@@ -1,6 +1,6 @@
 {
-  "generator": "dex-trove 0.3.12",
-  "count": 1728,
+  "generator": "dex-trove 0.3.15",
+  "count": 1735,
   "items": [
     {
       "id": "awesome-copilot/accessibility",
@@ -8820,7 +8820,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "agents/browser-debugger.agent.md",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.browser-debugger",
         "author": null
@@ -8860,7 +8860,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "agents/jenkins-build-steward.agent.md",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.jenkins-build-steward",
         "author": null
@@ -8900,7 +8900,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "agents/kibana-dashboard-builder.agent.md",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.kibana-dashboard-builder",
         "author": null
@@ -8940,7 +8940,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "agents/onboarding-guide.agent.md",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.onboarding-guide",
         "author": null
@@ -8980,7 +8980,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "agents/pr-evidence-publisher.agent.md",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.pr-evidence-publisher",
         "author": null
@@ -9020,7 +9020,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "agents/sas-modernizer.agent.md",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.sas-modernizer",
         "author": null
@@ -9060,7 +9060,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "agents/usage-analyst.agent.md",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/agents/neo-pragnya-mcp.usage-analyst",
         "author": null
@@ -33069,7 +33069,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "plugins/analytics-mcp-kit",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.analytics-mcp-kit",
         "author": "Neo Pragnya"
@@ -33119,7 +33119,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "plugins/browser-mcp-kit",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.browser-mcp-kit",
         "author": "Neo Pragnya"
@@ -33169,7 +33169,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "plugins/github-mcp-kit",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.github-mcp-kit",
         "author": "Neo Pragnya"
@@ -33219,7 +33219,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "plugins/jenkins-mcp-kit",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.jenkins-mcp-kit",
         "author": "Neo Pragnya"
@@ -33269,7 +33269,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "plugins/kibana-mcp-kit",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.kibana-mcp-kit",
         "author": "Neo Pragnya"
@@ -33319,7 +33319,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "plugins/onboarding-mcp-kit",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.onboarding-mcp-kit",
         "author": "Neo Pragnya"
@@ -33369,7 +33369,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "plugins/sas-mcp-kit",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/plugins/neo-pragnya-mcp.sas-mcp-kit",
         "author": "Neo Pragnya"
@@ -64732,6 +64732,46 @@
       "learned_at": "2026-11-03T06:19:30+00:00"
     },
     {
+      "id": "neo-pragnya-mcp/api-contract-review",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "api-contract-review",
+      "title": "API contract review",
+      "description": "Review an API's real contract from its code and OpenAPI files: auth, request and response shapes per operation with the file and line for each, a BMAD model contract, and findings such as missing error responses, auth with no 401/403, untested auth and code disagreeing with the spec. Use for API reviews, endpoint inventories, OpenAPI drift, auth coverage, contract tests or documenting an existing API.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.api-contract-review",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+        "path": "skills/api-contract-review",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.api-contract-review",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "632ed1833c64a12b5f322b045e40762cad5435d6750f49d740f2473be4a66e9c",
+      "content_hash": "070100c0aae259de4e73a5b72ae679fc8f4c9daf78adcfa536ed5d0e34477617",
+      "learned_at": "2026-11-12T03:25:12+00:00"
+    },
+    {
       "id": "neo-pragnya-mcp/assistant-usage-analytics",
       "kind": "skill",
       "namespace": "neo-pragnya-mcp",
@@ -64749,7 +64789,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "skills/assistant-usage-analytics",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.assistant-usage-analytics",
         "author": null
@@ -64789,7 +64829,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "skills/browser-debugging-lab",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.browser-debugging-lab",
         "author": null
@@ -64812,6 +64852,86 @@
       "learned_at": "2026-11-11T15:20:53+00:00"
     },
     {
+      "id": "neo-pragnya-mcp/context-budget-observatory",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "context-budget-observatory",
+      "title": "Context budget observatory",
+      "description": "Measure whether code-graph context is worth its tokens in a repository: answer a fixed question set at several token budgets, find the smallest budget that reaches the best recall, list questions nothing finds, and track regressions between runs. Use for token budgets, context cost, retrieval quality, 'how many tokens does our assistant need', or checking that a change didn't make code search worse.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.context-budget-observatory",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+        "path": "skills/context-budget-observatory",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.context-budget-observatory",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "abe407410a99ee87f5a2f17ddc8b086c78f044cbe6836fc2b37b3b4f3d6dd382",
+      "content_hash": "7a5dd4f3db66619dfcb55174a89edb8edab1175db147e638e7d0d96080da2c23",
+      "learned_at": "2026-11-12T03:25:12+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/evidence-first-adr",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "evidence-first-adr",
+      "title": "Evidence-first architecture decisions",
+      "description": "Write an architecture decision record whose options carry measured evidence instead of adjectives: code and tests each option reaches, hotspots it touches, new dependencies and their known vulnerabilities, and the team's own estimates labelled as assumptions, ranked by stated weights with the decision left to people. Use for ADRs, architecture decisions, comparing design options, trade-off analysis or 'which approach should we take', even if they don't say ADR.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.evidence-first-adr",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+        "path": "skills/evidence-first-adr",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.evidence-first-adr",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "08ab8a5b7d97df968a0810d871819472c148e0deab6a23a18bdc97e753eee04d",
+      "content_hash": "8ceacc1f30eccda93c5227230ce20f13de69c25c396f1c191a525fb70a36f813",
+      "learned_at": "2026-11-12T03:25:12+00:00"
+    },
+    {
       "id": "neo-pragnya-mcp/github-pr-evidence",
       "kind": "skill",
       "namespace": "neo-pragnya-mcp",
@@ -64829,7 +64949,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "skills/github-pr-evidence",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.github-pr-evidence",
         "author": null
@@ -64869,7 +64989,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "skills/jenkins-build-gate",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.jenkins-build-gate",
         "author": null
@@ -64909,7 +65029,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "skills/kibana-dashboards",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.kibana-dashboards",
         "author": null
@@ -64949,7 +65069,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "skills/onboarding-from-exports",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.onboarding-from-exports",
         "author": null
@@ -64972,6 +65092,86 @@
       "learned_at": "2026-11-11T14:58:18+00:00"
     },
     {
+      "id": "neo-pragnya-mcp/prd-to-bmad",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "prd-to-bmad",
+      "title": "From an approved PRD to BMAD contracts",
+      "description": "Turn an approved PRD into traceable contracts before building: map every requirement to features, acceptance ids and tests, refuse a PRD that isn't approved or consistent, then compile BMAD behaviour, model and architecture contracts per requirement linked to the PRD revision. Use for spec-driven development, PRD to tasks, acceptance criteria traceability, BMAD contracts or 'are these requirements ready to build'.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.prd-to-bmad",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+        "path": "skills/prd-to-bmad",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.prd-to-bmad",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "203128840e023d32ad4a0ada9f7fc5db194ca78c0fc0d2858128cc7ebfb35e2c",
+      "content_hash": "38e4bf2bec8cc000b76aa5a3d24a7784f021e4ea430fb98e3919832e6a9c6b96",
+      "learned_at": "2026-11-12T03:25:12+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/review-to-fix-loop",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "review-to-fix-loop",
+      "title": "Review-to-fix loop",
+      "description": "Take a proposed patch from review to a pull request safely: apply it in a throwaway git worktree, run the tests it reaches, measure the risk delta (graph relationships, contract findings, complexity), approve the exact result by its digest, then commit to a new branch and open the PR with evidence. Use for applying a suggested fix, verifying a patch from review or an assistant, 'is this change safe', or turning a diff into a PR.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.review-to-fix-loop",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+        "path": "skills/review-to-fix-loop",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.review-to-fix-loop",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "3ce6b0fe52206507c39dae7c0b109116c11a2e81e26617322eb8ae06d21249e8",
+      "content_hash": "b003c7ae17085c8528f52bc24bb505e3cfad6027a30c224e754b3b1a0d6a33fc",
+      "learned_at": "2026-11-12T03:25:12+00:00"
+    },
+    {
       "id": "neo-pragnya-mcp/sas-to-python",
       "kind": "skill",
       "namespace": "neo-pragnya-mcp",
@@ -64989,7 +65189,7 @@
         "id": "neo-pragnya-mcp",
         "title": "Neo Pragnya MCP toolkits (first-party)",
         "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
-        "commit": "c986291fa60fbeb3482a003ea90d7ad73f72a473",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
         "path": "skills/sas-to-python",
         "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.sas-to-python",
         "author": null
@@ -65010,6 +65210,86 @@
       "entry_hash": "38bc2dfcac971e96eb7a75b68fc5cdb51041146c9138e49c2b7828919fa89970",
       "content_hash": "a0371d91121b86188352ca6da765c0980d3fc69463a2cb9457b84098472c7683",
       "learned_at": "2026-11-11T14:58:18+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/skill-safety-lab",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "skill-safety-lab",
+      "title": "Skill safety and effectiveness lab",
+      "description": "Check a skill, agent, hook or plugin before installing or publishing it: what it can do (network, processes, file writes, secrets, privilege, piped installers, hooks, MCP servers) with the line for each, what it costs in tokens, whether search finds it for the right prompts and not the wrong ones, and what changed since an older copy. Use for skill review, agent security, plugin vetting, 'is this skill safe', skill quality or before publishing to a catalog.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.skill-safety-lab",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+        "path": "skills/skill-safety-lab",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.skill-safety-lab",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "43e95492a43106d14f7e8d517033e8494684938e3c717a5059d89af778863b56",
+      "content_hash": "2625d6d39833bce9b77d93e278254e4f5c17615070f127503e9ba8b9be48e679",
+      "learned_at": "2026-11-12T03:25:12+00:00"
+    },
+    {
+      "id": "neo-pragnya-mcp/test-gap-synthesis",
+      "kind": "skill",
+      "namespace": "neo-pragnya-mcp",
+      "name": "test-gap-synthesis",
+      "title": "Test gap synthesis",
+      "description": "Find the tests a codebase is missing and write skeletons for them from evidence: partly taken branches in a coverage report, failing cases in JUnit XML and API operations whose handlers changed, each test citing the line it answers and failing until it's written. Use for test gaps, missing tests, improving coverage, branch coverage, regression tests after a failure or contract tests for changed endpoints.",
+      "tags": [
+        "neo-pragnya-mcp",
+        "skill"
+      ],
+      "version": "1.0.0",
+      "entry": "SKILL.md",
+      "dir": "skills/neo-pragnya-mcp.test-gap-synthesis",
+      "source": {
+        "id": "neo-pragnya-mcp",
+        "title": "Neo Pragnya MCP toolkits (first-party)",
+        "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+        "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+        "path": "skills/test-gap-synthesis",
+        "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.test-gap-synthesis",
+        "author": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "verdict": "allow",
+        "evidence": "LICENSE: MIT text",
+        "notice": "Copyright (c) 2026 Neo Pragnya",
+        "components": []
+      },
+      "inspired_by": [],
+      "executes_code": false,
+      "members": [],
+      "files": [
+        "SKILL.md"
+      ],
+      "entry_hash": "17f761bfd3ee5434d6eeaca7600c5675a77becaa9f7f9365aa00e85cd03247db",
+      "content_hash": "ed3c04253d42687ffbef9b80fabdca1832f78b0f04c9e92c12ce6907b132d204",
+      "learned_at": "2026-11-12T03:25:12+00:00"
     },
     {
       "id": "neo-pragnya/astro-docs-site",

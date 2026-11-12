@@ -1,0 +1,33 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: prd-to-bmad
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:prd-to-bmad
+summary: 'Turn an approved PRD into traceable contracts before building: map every requirement to features, acceptance
+  ids and tests, refuse a PRD that isn''t approved or consistent, then compile BMAD behaviour,…'
+description: 'Turn an approved PRD into traceable contracts before building: map every requirement to features,
+  acceptance ids and tests, refuse a PRD that isn''t approved or consistent, then compile BMAD behaviour, model
+  and architecture contracts per requirement linked to the PRD revision. Use for spec-driven development, PRD to
+  tasks, acceptance criteria traceability, BMAD contracts or ''are these requirements ready to build''.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.prd-to-bmad
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

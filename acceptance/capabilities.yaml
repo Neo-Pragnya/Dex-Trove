@@ -23,6 +23,7 @@ capabilities:
   - { id: template-candidates, title: "A reviewed template becomes a skill candidate: licence required, secrets refused, files pinned by sha256, held until evaluated and approved", dimension: safety, blocker: true }
   - { id: candidates, title: "Reviewed learning candidates: failed evaluation, rejection or internal-to-public cannot publish", dimension: safety, blocker: true }
   - { id: mcp-servers, title: "Local MCP servers: stdio protocol, offline tools with evidence, actions refused unless allowed and approved, first-party skills/agents/plugins install", dimension: safety, blocker: true }
+  - { id: skill-lab, title: "Skill lab: permissions with their lines, token cost, routing accuracy from cases, regressions; nothing runs; blocks only scripts that pipe installers or embedded credentials", dimension: safety, blocker: false }
   - { id: cli-ux, title: "Errors are clean; refusals exit non-zero", dimension: usability, blocker: false }
 
 surface:
@@ -42,6 +43,7 @@ surface:
   - dex mcp serve
   - dex mcp call
   - dex mcp config
+  - dex lab
   - dex facets list
   - dex facets show
   - dex facets build

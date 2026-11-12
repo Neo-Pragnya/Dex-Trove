@@ -1,0 +1,33 @@
+kind: skill
+namespace: neo-pragnya-mcp
+name: context-budget-observatory
+version: 1.0.0
+ananke_id: urn:dex-trove:skill:neo-pragnya-mcp:context-budget-observatory
+summary: 'Measure whether code-graph context is worth its tokens in a repository: answer a fixed question set at
+  several token budgets, find the smallest budget that reaches the best recall, list questions noth…'
+description: 'Measure whether code-graph context is worth its tokens in a repository: answer a fixed question set
+  at several token budgets, find the smallest budget that reaches the best recall, list questions nothing finds,
+  and track regressions between runs. Use for token budgets, context cost, retrieval quality, ''how many tokens
+  does our assistant need'', or checking that a change didn''t make code search worse.'
+runtime:
+  supported:
+  - claude-code
+  - github-copilot
+  - generic
+permissions:
+  filesystem:
+    read: []
+    write: []
+  shell:
+    allow: []
+  network: []
+license:
+  expression: MIT
+  source: 'LICENSE: MIT text'
+  approval: approved
+metadata:
+  tags:
+  - neo-pragnya-mcp
+  - skill
+  homepage: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.context-budget-observatory
+  repository: https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party

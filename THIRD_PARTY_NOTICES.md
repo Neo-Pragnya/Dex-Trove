@@ -13,7 +13,7 @@ Licences: MIT (13 items)
 ## Neo Pragnya MCP toolkits (first-party)
 
 Source: <https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party>  
-Licences: MIT (21 items)
+Licences: MIT (28 items)
 
 - Copyright (c) 2026 Neo Pragnya
 

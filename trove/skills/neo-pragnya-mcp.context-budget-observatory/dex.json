@@ -1,0 +1,40 @@
+{
+  "id": "neo-pragnya-mcp/context-budget-observatory",
+  "kind": "skill",
+  "namespace": "neo-pragnya-mcp",
+  "name": "context-budget-observatory",
+  "title": "Context budget observatory",
+  "description": "Measure whether code-graph context is worth its tokens in a repository: answer a fixed question set at several token budgets, find the smallest budget that reaches the best recall, list questions nothing finds, and track regressions between runs. Use for token budgets, context cost, retrieval quality, 'how many tokens does our assistant need', or checking that a change didn't make code search worse.",
+  "tags": [
+    "neo-pragnya-mcp",
+    "skill"
+  ],
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "dir": "skills/neo-pragnya-mcp.context-budget-observatory",
+  "source": {
+    "id": "neo-pragnya-mcp",
+    "title": "Neo Pragnya MCP toolkits (first-party)",
+    "repo": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party",
+    "commit": "b2c87fa5608b56a5ef54122dbaa3c19ae13f4b1e",
+    "path": "skills/context-budget-observatory",
+    "url": "https://github.com/Neo-Pragnya/Dex-Trove/tree/main/first-party/tree/main/trove/skills/neo-pragnya-mcp.context-budget-observatory",
+    "author": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "verdict": "allow",
+    "evidence": "LICENSE: MIT text",
+    "notice": "Copyright (c) 2026 Neo Pragnya",
+    "components": []
+  },
+  "inspired_by": [],
+  "executes_code": false,
+  "members": [],
+  "files": [
+    "SKILL.md"
+  ],
+  "entry_hash": "abe407410a99ee87f5a2f17ddc8b086c78f044cbe6836fc2b37b3b4f3d6dd382",
+  "content_hash": "7a5dd4f3db66619dfcb55174a89edb8edab1175db147e638e7d0d96080da2c23",
+  "learned_at": "2026-11-12T03:25:12+00:00"
+}
